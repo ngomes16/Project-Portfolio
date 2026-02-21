@@ -1,0 +1,17 @@
+table {
+    width: 80%;
+    border: 2px solid rgb(136, 136, 186);
+    align-items: center;
+    
+}
+
+th, td{
+    border-radius: 1px;
+    background-color:rgb(173, 173, 232) ;
+    text-align: left;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding:10px;
+
+    font-size: 20px;
+}

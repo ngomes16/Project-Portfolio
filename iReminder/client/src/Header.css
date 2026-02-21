@@ -1,0 +1,51 @@
+/* Header.css */
+header {
+    background: linear-gradient(135deg, rgb(66, 66, 139), rgb(255, 255, 255));
+    padding: 20px;
+    padding-right: 70px;
+  }
+  
+  /* Navigation styling */
+  .header-nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Header link styling */
+  .header-link {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  /* Header title styling */
+  .header-link h1 {
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-shadow: #6c8cff;
+    margin: 0;
+  }
+  
+  /* Tabs styling */
+  .header-tabs {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Tab styling */
+  .header-tab {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Tab hover styling */
+  .header-tab:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }

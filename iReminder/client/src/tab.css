@@ -1,0 +1,35 @@
+.tab-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-top: none;
+    
+  }
+  
+  .tab-content h2 {
+    color: #333;
+  }
+  
+  .tab-content p {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  
+  .tab-content ul {
+    list-style-type: none;
+  }
+  
+  .tab-content li {
+    font-size: 25px;
+    display: flex;
+    list-style-type:circle;
+    margin-bottom: 25px;
+    align-items: center;
+  }
+
+  .tab-content li::before {
+    content: "\2022"; /* Use a bullet character for the list */
+    color: #333; /* Adjust bullet color */
+    font-size: 16px; /* Adjust bullet size */
+    margin-right: 5px; /* Add spacing between bullet and text */
+  }

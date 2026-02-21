@@ -1,0 +1,12 @@
+.chart-container {
+    position: relative;
+    height: 0px;
+    width: 0px;
+}
+
+.chart {
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+

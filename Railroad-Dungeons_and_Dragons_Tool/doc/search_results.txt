@@ -1,0 +1,658 @@
+mysql> select title from (select a.title from Artifact a where a.title like "%United%" union select distinct a.title from Fact f join Artifact a on a.id = f.artifact_id where f.entry like "%United%")r order by title asc;
++-------------------------------------------------------------+
+| title                                                       |
++-------------------------------------------------------------+
+| 2000 United States presidential election                    |
+| 2000 United States presidential election recount in Florida |
+| 2016 United Kingdom European Union membership referendum    |
+| 21 (2008 film)                                              |
+| 65th Primetime Emmy Awards                                  |
+| A Bug's Life                                                |
+| ABC News                                                    |
+| Academy Award                                               |
+| Academy Award for Best Supporting Actor                     |
+| Academy Awards                                              |
+| Action film                                                 |
+| Adam Driver                                                 |
+| Al Gore                                                     |
+| Al Pacino                                                   |
+| Alan Alda                                                   |
+| Alan Bates                                                  |
+| Albert Finney                                               |
+| Albert Salmi                                                |
+| Albino Alligator                                            |
+| Alexander Lukashenko                                        |
+| All the Money in the World                                  |
+| American Beauty (1999 film)                                 |
+| American Broadcasting Company                               |
+| AMPAS                                                       |
+| Andrew Garfield                                             |
+| Andrew Lloyd Webber                                         |
+| Andy Serkis                                                 |
+| Ansel Elgort                                                |
+| Anthony Edwards (actor)                                     |
+| Anthony Hopkins                                             |
+| Anthony Quinn                                               |
+| Anthony Rapp                                                |
+| Anton Chekhov                                               |
+| Antony Sher                                                 |
+| Art Carney                                                  |
+| Arthur Kennedy                                              |
+| Arthur Miller                                               |
+| Associated Press                                            |
+| Austin American-Statesman                                   |
+| Austin Chronicle                                            |
+| Baby Driver                                                 |
+| BBC                                                         |
+| BBC News                                                    |
+| Beck                                                        |
+| Belarusian democracy movement                               |
+| Ben Kingsley                                                |
+| Ben Mezrich                                                 |
+| Ben Stiller                                                 |
+| Benedict Cumberbatch                                        |
+| Berlin                                                      |
+| Bernard Lafferty (butler)                                   |
+| Beyond the Sea (2004 film)                                  |
+| Bill Clinton                                                |
+| Bill Murray                                                 |
+| Billionaire Boys Club (2018 film)                           |
+| Billy Bob Thornton                                          |
+| Bing Crosby                                                 |
+| Black comedy                                                |
+| Blackjack                                                   |
+| Bobby Darin                                                 |
+| Boston                                                      |
+| Bowling                                                     |
+| Box office bomb                                             |
+| Box Office Mojo                                             |
+| Brad Pitt                                                   |
+| Brian Cox (actor)                                           |
+| Brian Dennehy                                               |
+| Brían F. O'Byrne                                            |
+| British Academy Film Award                                  |
+| British citizenship                                         |
+| Broadway theatre                                            |
+| Broderick Crawford                                          |
+| Bureau of Narcotics and Dangerous Drugs                     |
+| Burgess Meredith                                            |
+| Burl Ives                                                   |
+| Burt Lancaster                                              |
+| BuzzFeed                                                    |
+| California                                                  |
+| Call of Duty: Advanced Warfare                              |
+| Canoga Park High School                                     |
+| Cape Cod                                                    |
+| Capitol Records                                             |
+| Captain Phillips (film)                                     |
+| Card-counting                                               |
+| Cary Grant                                                  |
+| CBS News                                                    |
+| Chapter 11, Title 11, United States Code                    |
+| Charles Bickford                                            |
+| Charles Boyer                                               |
+| Charles Laughton                                            |
+| Charles, Prince of Wales                                    |
+| Charlton Heston                                             |
+| Chatsworth, Los Angeles                                     |
+| Child sexual abuse                                          |
+| Chiwetel Ejiofor                                            |
+| Chris Cooper                                                |
+| Christian Bale                                              |
+| Christoph Waltz                                             |
+| Christopher Plummer                                         |
+| Christopher Walken                                          |
+| Civil trial                                                 |
+| Clarence Darrow                                             |
+| Clarence House                                              |
+| Clark Gable                                                 |
+| Cliff Robertson                                             |
+| Clint Eastwood                                              |
+| Clinton Foundation                                          |
+| Clive Owen                                                  |
+| CNBC                                                        |
+| CNN                                                         |
+| Colm Meaney                                                 |
+| Coming out                                                  |
+| Commonwealth of Nations                                     |
+| Conleth Hill                                                |
+| Connecticut                                                 |
+| COVID-19 pandemic                                           |
+| Creative Artists Agency                                     |
+| Crisis hotline                                              |
+| Crown Prosecution Service                                   |
+| Daniel Craig                                                |
+| Daniel Day-Lewis                                            |
+| Daniel Kaluuya                                              |
+| Dark comedy                                                 |
+| David Fincher                                               |
+| David Haig                                                  |
+| David Niven                                                 |
+| David Rounds                                                |
+| David Strathairn                                            |
+| David Suchet                                                |
+| Dean Stockwell                                              |
+| Delroy Lindo                                                |
+| Demi Moore                                                  |
+| Democratic Party (United States)                            |
+| Denis Lavant                                                |
+| Denis Leary                                                 |
+| Dennis Franz                                                |
+| Dennis Hopper                                               |
+| Denzel Washington                                           |
+| Derek Jacobi                                                |
+| Dirk Bogarde                                                |
+| District attorney                                           |
+| Djimon Hounsou                                              |
+| Don Ameche                                                  |
+| Don Johnson                                                 |
+| Donald Crisp                                                |
+| Dustin Hoffman                                              |
+| Ebony (magazine)                                            |
+| Ed Asner                                                    |
+| Ed Begley                                                   |
+| Ed Flanders                                                 |
+| Ed Harris                                                   |
+| Eddie Murphy                                                |
+| Eddie Redmayne                                              |
+| Edison (film)                                               |
+| Edmond O'Brien                                              |
+| Edward Norton                                               |
+| Eisenhower Theater                                          |
+| Eli Wallach                                                 |
+| Elijah Wood                                                 |
+| Elton John                                                  |
+| Elton John AIDS Foundation                                  |
+| Elvis & Nixon                                               |
+| Elvis Presley                                               |
+| Emerson Collective                                          |
+| EMI                                                         |
+| Empire (film magazine)                                      |
+| Encyclopædia Britannica                                     |
+| Ernest Borgnine                                             |
+| Esquire (magazine)                                          |
+| Ethan Hawke                                                 |
+| Eugene O'Neill                                              |
+| Extradition                                                 |
+| Extraterrestrial life                                       |
+| Faggot (slang)                                              |
+| Financial crisis of 2007–2008                               |
+| Forest Whitaker                                             |
+| Francis Ford Coppola                                        |
+| Franco Nero                                                 |
+| Frank Conroy (actor)                                        |
+| Frank Sinatra                                               |
+| Frank Underwood (House of Cards)                            |
+| Frank Wood (actor)                                          |
+| Fred Willard                                                |
+| Fredric March                                               |
+| Gannett                                                     |
+| Gary Cooper                                                 |
+| Gary Oldman                                                 |
+| Gary Sinise                                                 |
+| Gawker                                                      |
+| Gene Hackman                                                |
+| Georg Ludwig von Trapp                                      |
+| George Arliss                                               |
+| George Burns                                                |
+| George Clooney                                              |
+| George Sanders                                              |
+| George Takei                                                |
+| George W. Bush                                              |
+| Gérard Depardieu                                            |
+| Ghosts (play)                                               |
+| Gig Young                                                   |
+| Golden Globe                                                |
+| Golden Globe Award                                          |
+| Good Morning America                                        |
+| Gore Vidal                                                  |
+| Governor of Maryland                                        |
+| Grammy Award                                                |
+| Greg Kinnear                                                |
+| Gregory Peck                                                |
+| Haing S. Ngor                                               |
+| Haley Joel Osment                                           |
+| Hamptons International Film Festival                        |
+| Harold Pinter                                               |
+| Harold Russell                                              |
+| Harry Andrews                                               |
+| Harry Belafonte                                             |
+| HBO                                                         |
+| Heartburn (film)                                            |
+| Heath Ledger                                                |
+| Helen Mirren                                                |
+| Henrik Ibsen                                                |
+| Henry Fonda                                                 |
+| HIV/AIDS                                                    |
+| Hollywood Walk of Fame                                      |
+| Homosexuality                                               |
+| Horrible Bosses                                             |
+| Horrible Bosses 2                                           |
+| House of Cards (American TV series)                         |
+| House of Cards (season 2)                                   |
+| House of Cards (UK TV series)                               |
+| Huffington Post                                             |
+| HuffPost                                                    |
+| Hugh Grant                                                  |
+| Hugh Jackman                                                |
+| Hugh Laurie                                                 |
+| Hugo Chávez                                                 |
+| Humphrey Bogart                                             |
+| Ian McKellen                                                |
+| Ian McShane                                                 |
+| Idaho Statesman                                             |
+| IMDb                                                        |
+| Inherit the Wind (play)                                     |
+| Intentional infliction of emotional distress                |
+| International Academy of Television Arts and Sciences       |
+| International Business Times                                |
+| Investment banking                                          |
+| ISBN (identifier)                                           |
+| J. Paul Getty                                               |
+| Jack Lemmon                                                 |
+| Jack Palance                                                |
+| Jackie Earle Haley                                          |
+| Jake Gyllenhaal                                             |
+| James Cagney                                                |
+| James Franco                                                |
+| James Gandolfini                                            |
+| James Lipton                                                |
+| James Stewart                                               |
+| Jamie Foxx                                                  |
+| Jared Leto                                                  |
+| Jason Bateman                                               |
+| Jason Robards                                               |
+| Jeff Bridges                                                |
+| Jeffrey DeMunn                                              |
+| Jennifer Aniston                                            |
+| Jennifer Jason Leigh                                        |
+| Jeremy Irons                                                |
+| Jesse Eisenberg                                             |
+| Jim Broadbent                                               |
+| Jim Carrey                                                  |
+| Joaquin Phoenix                                             |
+| John Cleese                                                 |
+| John Cromwell (director)                                    |
+| John Houseman                                               |
+| John Lithgow                                                |
+| John Mahoney                                                |
+| John Neville (actor)                                        |
+| John Randolph (actor)                                       |
+| John Wayne                                                  |
+| Johnny Carson                                               |
+| Johnny Depp                                                 |
+| Jon Hamm                                                    |
+| Jon Voight                                                  |
+| Jonathan Miller                                             |
+| José Ferrer                                                 |
+| Josh Brolin                                                 |
+| Judd Hirsch                                                 |
+| Jude Law                                                    |
+| Judi Dench                                                  |
+| Juilliard School                                            |
+| Karl Malden                                                 |
+| Katharine Hepburn                                           |
+| Ken Wahl                                                    |
+| Kennedy Center                                              |
+| Kennedy family                                              |
+| Kenneth More                                                |
+| Kiefer Sutherland                                           |
+| Knight Commander of the Order of the British Empire         |
+| Knighthood                                                  |
+| L.A. Confidential (film)                                    |
+| Lance Bass                                                  |
+| Laura Dern                                                  |
+| Laura Michelle Kelly                                        |
+| Lee Marvin                                                  |
+| Left-wing politics                                          |
+| Leo McKern                                                  |
+| Leonardo DiCaprio                                           |
+| Lex Luthor                                                  |
+| Limited release                                             |
+| Lionel Barrymore                                            |
+| London                                                      |
+| Long Day's Journey into Night                               |
+| Los Angeles Superior Court                                  |
+| Maggie Smith                                                |
+| Malibu, California                                          |
+| Man of Steel (film)                                         |
+| Margin Call                                                 |
+| Maria von Trapp                                             |
+| Mark Ruffalo                                                |
+| Marlon Brando                                               |
+| Martin Balsam                                               |
+| Martin Landau                                               |
+| Martin O'Malley                                             |
+| Martin Sheen                                                |
+| Massachusetts                                               |
+| Massachusetts Institute of Technology                       |
+| Masseur                                                     |
+| Matt Damon                                                  |
+| Matthew Broderick                                           |
+| Matthew McConaughey                                         |
+| Maximilian Schell                                           |
+| Melvyn Douglas                                              |
+| Meryl Streep                                                |
+| Michael B. Jordan                                           |
+| Michael Caine                                               |
+| Michael Chiklis                                             |
+| Michael Fassbender                                          |
+| Michael Gambon                                              |
+| Michael Gough                                               |
+| Michael Keaton                                              |
+| Michael Palin                                               |
+| Michael Sheen                                               |
+| Mickey Rourke                                               |
+| Mike Nichols                                                |
+| Mila Kunis                                                  |
+| Monty Python's Flying Circus                                |
+| Morgan Freeman                                              |
+| Nantucket                                                   |
+| Nathan Lane                                                 |
+| Nazi                                                        |
+| NBC News                                                    |
+| Ned Beatty                                                  |
+| Neo-Nazism                                                  |
+| Neo-noir                                                    |
+| Netflix                                                     |
+| New Jersey                                                  |
+| New York Daily News                                         |
+| New York Media                                              |
+| New York Post                                               |
+| News Corporation                                            |
+| Nicolas Cage                                                |
+| Nine Lives (2016 film)                                      |
+| Ninette de Valois                                           |
+| Nobel Peace Prize Concert                                   |
+| Norman Jewison                                              |
+| NPR                                                         |
+| Order of the British Empire                                 |
+| Oscar Isaac                                                 |
+| Outbreak (film)                                             |
+| Outing                                                      |
+| Parade (magazine)                                           |
+| Patrick Stewart                                             |
+| Paul Bettany                                                |
+| Paul Dano                                                   |
+| Paul Dooley                                                 |
+| Paul Muni                                                   |
+| Paul Newman                                                 |
+| Paul Raci                                                   |
+| Penske Media Corporation                                    |
+| People (magazine)                                           |
+| Peter Finch                                                 |
+| Peter Fonda                                                 |
+| Peter Hall (director)                                       |
+| Peter O'Toole                                               |
+| Peter Sarsgaard                                             |
+| Peter Sellers                                               |
+| Peter Ustinov                                               |
+| Philip Seymour Hoffman                                      |
+| Pierce Brosnan                                              |
+| PinkNews                                                    |
+| Playboy                                                     |
+| Political satire                                            |
+| Portal:United States                                        |
+| Prejudice (law)                                             |
+| Presidency of Bill Clinton                                  |
+| Press Association                                           |
+| Primetime Emmy Award                                        |
+| R. Lee Ermey                                                |
+| Ralph Fiennes                                               |
+| Ray Milland                                                 |
+| Rebecca De Mornay                                           |
+| Recount (film)                                              |
+| Red Buttons                                                 |
+| Relativity Media                                            |
+| Reuters                                                     |
+| Richard Burton                                              |
+| Richard Chamberlain                                         |
+| Richard Dreyfuss                                            |
+| Richard E. Grant                                            |
+| Richard Griffiths                                           |
+| Richard Harris                                              |
+| Richard Jordan                                              |
+| Richard Kiley                                               |
+| Richard Nixon                                               |
+| River Phoenix                                               |
+| Robert Altman                                               |
+| Robert Blake (actor)                                        |
+| Robert De Niro                                              |
+| Robert Donat                                                |
+| Robert Downey Jr.                                           |
+| Robert Duvall                                               |
+| Robert Preston (actor)                                      |
+| Robert Redford                                              |
+| Roberto Benigni                                             |
+| Rod Steiger                                                 |
+| Roddy McDowall                                              |
+| Roger Allam                                                 |
+| Roger Rees                                                  |
+| Ron Klain                                                   |
+| Ronald Colman                                               |
+| Russell Crowe                                               |
+| Sacha Baron Cohen                                           |
+| Sam Wanamaker                                               |
+| Sandra Dee                                                  |
+| Saturday Night Live                                         |
+| Scotland Yard                                               |
+| Sean Connery                                                |
+| Sean Penn                                                   |
+| See No Evil, Hear No Evil                                   |
+| Serial killer                                               |
+| Sessue Hayakawa                                             |
+| Sexual assault                                              |
+| Sexual battery                                              |
+| Sexual harassment                                           |
+| Sidney Poitier                                              |
+| Slate (website)                                             |
+| South Orange, New Jersey                                    |
+| Southern California                                         |
+| Spencer Tracy                                               |
+| St. Paul Pioneer Press                                      |
+| Stanley Tucci                                               |
+| Statute of limitations                                      |
+| Stephen Sondheim                                            |
+| Studio 54                                                   |
+| Sundance Film Festival                                      |
+| Superhero                                                   |
+| Superman Returns                                            |
+| Susan Sarandon                                              |
+| Sylvester Stallone                                          |
+| Technical writer                                            |
+| Telly Savalas                                               |
+| The Advocate (LGBT magazine)                                |
+| The Apartment                                               |
+| The Atlantic                                                |
+| The Daily Telegraph                                         |
+| The Guardian                                                |
+| The Huffington Post                                         |
+| The New York Post                                           |
+| The New York Times                                          |
+| The New Yorker                                              |
+| The Philadelphia Story (film)                               |
+| The Sunday Times                                            |
+| The Tonight Show Starring Jimmy Fallon                      |
+| The Tonight Show with Jimmy Fallon                          |
+| The Wall Street Journal                                     |
+| The Washington Post                                         |
+| Thomas Mitchell (actor)                                     |
+| Time, Inc.                                                  |
+| Timothée Chalamet                                           |
+| Tom Cruise                                                  |
+| Tom Felton                                                  |
+| Tom Hanks                                                   |
+| Tom Hardy                                                   |
+| Tom Hiddleston                                              |
+| Tom Wilkinson                                               |
+| Tony Award                                                  |
+| Tony Montana (filmmaker)                                    |
+| Trevor Eve                                                  |
+| Trevor Howard                                               |
+| Trevor Nunn                                                 |
+| Tribune Publishing                                          |
+| Trigger Street Productions                                  |
+| Twitter                                                     |
+| Uma Thurman                                                 |
+| United Kingdom                                              |
+| USA Today                                                   |
+| Valence Media                                               |
+| Variety (magazine)                                          |
+| Victor McLaglen                                             |
+| Viggo Mortensen                                             |
+| Vincent Gardenia                                            |
+| Wales                                                       |
+| Wall Street                                                 |
+| Wallace Beery                                               |
+| Walter Brennan                                              |
+| Walter Matthau                                              |
+| Weinstein effect                                            |
+| West End (theatre)                                          |
+| White House Correspondents Dinner                           |
+| White supremacy                                             |
+| Will Smith                                                  |
+| Willem Dafoe                                                |
+| William H. Macy                                             |
+| William Holden                                              |
+| William Hurt                                                |
+| Wiseguy (TV series)                                         |
+| Woody Harrelson                                             |
+| Working Girl                                                |
+| Yul Brynner                                                 |
+| Zakes Mokae                                                 |
++-------------------------------------------------------------+
+518 rows in set (0.08 sec)
+
+mysql> explain analyze select title from (select a.title from Artifact a where a.title like "%United%" union select distinct a.title from Fact f join Artifact a on a.id = f.artifact_id where f.entry like "%United%") r order by title asc;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| EXPLAIN                                                                                                                                                                                                                                    
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Sort: r.title  (actual time=1.081..1.145 rows=518 loops=1)
+    -> Table scan on r  (cost=122.09 rows=1063) (actual time=0.000..0.033 rows=518 loops=1)
+        -> Union materialize with deduplication  (cost=1898.55..1898.55 rows=1064) (actual time=71.759..71.860 rows=518 loops=1)
+            -> Filter: (a.title like '%United%')  (cost=112.55 rows=121) (actual time=0.348..0.765 rows=7 loops=1)
+                -> Table scan on a  (cost=112.55 rows=1093) (actual time=0.027..0.519 rows=1093 loops=1)
+            -> Table scan on <temporary>  (cost=0.02..14.28 rows=942) (actual time=0.002..0.031 rows=517 loops=1)
+                -> Temporary table with deduplication  (cost=1665.37..1679.63 rows=942) (actual time=69.599..69.658 rows=517 loops=1)
+                    -> Nested loop inner join  (cost=1571.13 rows=942) (actual time=0.121..68.671 rows=1011 loops=1)
+                        -> Filter: (f.entry like '%United%')  (cost=1241.35 rows=942) (actual time=0.099..66.695 rows=1011 loops=1)
+                            -> Table scan on f  (cost=1241.35 rows=8481) (actual time=0.012..5.984 rows=8533 loops=1)
+                        -> Single-row index lookup on a using PRIMARY (id=f.artifact_id)  (cost=0.25 rows=1) (actual time=0.002..0.002 rows=1 loops=1011)
+ |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.07 sec)
+
+mysql> create fulltext index idx_artifact_title on Artifact (title);
+Query OK, 0 rows affected, 1 warning (0.46 sec)
+Records: 0  Duplicates: 0  Warnings: 1
+
+mysql> explain analyze select title from (select a.title from Artifact a where a.title like "%United%" union select distinct a.title from Fact f join Artifact a on a.id = f.artifact_id where f.entry like "%United%") r order by title asc;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| EXPLAIN                                                                                                                                                                                                                                    
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Sort: r.title  (actual time=1.086..1.143 rows=518 loops=1)
+    -> Table scan on r  (cost=122.09 rows=1063) (actual time=0.000..0.053 rows=518 loops=1)
+        -> Union materialize with deduplication  (cost=2532.63..2532.63 rows=1064) (actual time=76.055..76.143 rows=518 loops=1)
+            -> Filter: (a.title like '%United%')  (cost=118.47 rows=121) (actual time=0.400..0.860 rows=7 loops=1)
+                -> Table scan on a  (cost=118.47 rows=1093) (actual time=0.014..0.574 rows=1093 loops=1)
+            -> Table scan on <temporary>  (cost=0.02..14.28 rows=942) (actual time=0.002..0.031 rows=517 loops=1)
+                -> Temporary table with deduplication  (cost=2293.53..2307.79 rows=942) (actual time=73.782..73.841 rows=517 loops=1)
+                    -> Nested loop inner join  (cost=2199.29 rows=942) (actual time=0.112..72.759 rows=1011 loops=1)
+                        -> Filter: (f.entry like '%United%')  (cost=1241.35 rows=942) (actual time=0.102..69.918 rows=1011 loops=1)
+                            -> Table scan on f  (cost=1241.35 rows=8481) (actual time=0.012..7.519 rows=8533 loops=1)
+                        -> Single-row index lookup on a using PRIMARY (id=f.artifact_id)  (cost=0.92 rows=1) (actual time=0.003..0.003 rows=1 loops=1011)
+ |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.08 sec)
+
+mysql> drop index idx_artifact_title on Artifact ;
+Query OK, 0 rows affected (0.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> create index idx_artifact_title on Artifact (title(50));
+Query OK, 0 rows affected (0.06 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> explain analyze select title from (select a.title from Artifact a where a.title like "%United%" union select distinct a.title from Fact f join Artifact a on a.id = f.artifact_id where f.entry like "%United%") r order by title asc;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| EXPLAIN                                                                                                                                                                                                                                    
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Sort: r.title  (actual time=0.997..1.053 rows=518 loops=1)
+    -> Table scan on r  (cost=122.09 rows=1063) (actual time=0.001..0.033 rows=518 loops=1)
+        -> Union materialize with deduplication  (cost=2532.63..2532.63 rows=1064) (actual time=71.208..71.294 rows=518 loops=1)
+            -> Filter: (a.title like '%United%')  (cost=118.47 rows=121) (actual time=0.364..0.750 rows=7 loops=1)
+                -> Table scan on a  (cost=118.47 rows=1093) (actual time=0.013..0.481 rows=1093 loops=1)
+            -> Table scan on <temporary>  (cost=0.02..14.28 rows=942) (actual time=0.001..0.035 rows=517 loops=1)
+                -> Temporary table with deduplication  (cost=2293.53..2307.79 rows=942) (actual time=69.145..69.208 rows=517 loops=1)
+                    -> Nested loop inner join  (cost=2199.29 rows=942) (actual time=0.120..68.405 rows=1011 loops=1)
+                        -> Filter: (f.entry like '%United%')  (cost=1241.35 rows=942) (actual time=0.112..66.726 rows=1011 loops=1)
+                            -> Table scan on f  (cost=1241.35 rows=8481) (actual time=0.010..6.298 rows=8533 loops=1)
+                        -> Single-row index lookup on a using PRIMARY (id=f.artifact_id)  (cost=0.92 rows=1) (actual time=0.001..0.001 rows=1 loops=1011)
+ |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.08 sec)
+
+mysql> explain analyze select title from (select a.title from Artifact a where a.title like "%United%" union select distinct a.title from Fact f join Artifact a on a.id = f.artifact_id where f.entry like "%United%") r order by title asc;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| EXPLAIN                                                                                                                                                                                                                                    
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Sort: r.title  (actual time=1.291..1.347 rows=518 loops=1)
+    -> Table scan on r  (cost=122.09 rows=1063) (actual time=0.001..0.037 rows=518 loops=1)
+        -> Union materialize with deduplication  (cost=2532.63..2532.63 rows=1064) (actual time=72.391..72.477 rows=518 loops=1)
+            -> Filter: (a.title like '%United%')  (cost=118.47 rows=121) (actual time=0.392..0.754 rows=7 loops=1)
+                -> Table scan on a  (cost=118.47 rows=1093) (actual time=0.024..0.454 rows=1093 loops=1)
+            -> Table scan on <temporary>  (cost=0.02..14.28 rows=942) (actual time=0.002..0.031 rows=517 loops=1)
+                -> Temporary table with deduplication  (cost=2293.53..2307.79 rows=942) (actual time=70.025..70.096 rows=517 loops=1)
+                    -> Nested loop inner join  (cost=2199.29 rows=942) (actual time=0.118..69.179 rows=1011 loops=1)
+                        -> Filter: (f.entry like '%United%')  (cost=1241.35 rows=942) (actual time=0.103..67.119 rows=1011 loops=1)
+                            -> Table scan on f  (cost=1241.35 rows=8481) (actual time=0.014..6.471 rows=8533 loops=1)
+                        -> Single-row index lookup on a using PRIMARY (id=f.artifact_id)  (cost=0.92 rows=1) (actual time=0.002..0.002 rows=1 loops=1011)
+ |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.07 sec)
+
+mysql> create index  idx_fact_entry on Fact (entry(50));
+Query OK, 0 rows affected (0.18 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> drop index  idx_artifact_title on Artifact ;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> explain analyze select title from (select a.title from Artifact a where a.title like "%United%" union select distinct a.title from Fact f join Artifact a on a.id = f.artifact_id where f.entry like "%United%") r order by title asc;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| EXPLAIN                                                                                                                                                                                                                                    
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Sort: r.title  (actual time=1.221..1.276 rows=518 loops=1)
+    -> Table scan on r  (cost=122.09 rows=1063) (actual time=0.001..0.050 rows=518 loops=1)
+        -> Union materialize with deduplication  (cost=2532.63..2532.63 rows=1064) (actual time=73.182..73.267 rows=518 loops=1)
+            -> Filter: (a.title like '%United%')  (cost=118.47 rows=121) (actual time=0.353..0.780 rows=7 loops=1)
+                -> Table scan on a  (cost=118.47 rows=1093) (actual time=0.012..0.513 rows=1093 loops=1)
+            -> Table scan on <temporary>  (cost=0.02..14.28 rows=942) (actual time=0.001..0.031 rows=517 loops=1)
+                -> Temporary table with deduplication  (cost=2293.53..2307.79 rows=942) (actual time=70.869..70.929 rows=517 loops=1)
+                    -> Nested loop inner join  (cost=2199.29 rows=942) (actual time=0.123..70.076 rows=1011 loops=1)
+                        -> Filter: (f.entry like '%United%')  (cost=1241.35 rows=942) (actual time=0.113..68.182 rows=1011 loops=1)
+                            -> Table scan on f  (cost=1241.35 rows=8481) (actual time=0.011..6.268 rows=8533 loops=1)
+                        -> Single-row index lookup on a using PRIMARY (id=f.artifact_id)  (cost=0.92 rows=1) (actual time=0.002..0.002 rows=1 loops=1011)
+ |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.08 sec)
+
+mysql> explain analyze select title from (select a.title from Artifact a where a.title like "%United%" union select distinct a.title from Fact f join Artifact a on a.id = f.artifact_id where f.entry like "%United%") r order by title asc;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| EXPLAIN                                                                                                                                                                                                                                    
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Sort: r.title  (actual time=0.981..1.042 rows=518 loops=1)
+    -> Table scan on r  (cost=122.09 rows=1063) (actual time=0.000..0.033 rows=518 loops=1)
+        -> Union materialize with deduplication  (cost=2532.63..2532.63 rows=1064) (actual time=71.861..71.982 rows=518 loops=1)
+            -> Filter: (a.title like '%United%')  (cost=118.47 rows=121) (actual time=0.373..0.718 rows=7 loops=1)
+                -> Table scan on a  (cost=118.47 rows=1093) (actual time=0.024..0.430 rows=1093 loops=1)
+            -> Table scan on <temporary>  (cost=0.02..14.28 rows=942) (actual time=0.002..0.031 rows=517 loops=1)
+                -> Temporary table with deduplication  (cost=2293.53..2307.79 rows=942) (actual time=69.862..69.922 rows=517 loops=1)
+                    -> Nested loop inner join  (cost=2199.29 rows=942) (actual time=0.113..69.002 rows=1011 loops=1)
+                        -> Filter: (f.entry like '%United%')  (cost=1241.35 rows=942) (actual time=0.099..67.074 rows=1011 loops=1)
+                            -> Table scan on f  (cost=1241.35 rows=8481) (actual time=0.012..6.065 rows=8533 loops=1)
+                        -> Single-row index lookup on a using PRIMARY (id=f.artifact_id)  (cost=0.92 rows=1) (actual time=0.002..0.002 rows=1 loops=1011)
+ |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.08 sec)

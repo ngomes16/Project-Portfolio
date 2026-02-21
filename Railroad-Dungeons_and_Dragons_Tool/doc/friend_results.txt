@@ -1,0 +1,97 @@
+mysql> explain analyze select distinct u.username from User u join CampaignMembership cm on u.id = cm.user_id where cm.campaign_id in (select campaign_id from CampaignMembership where user_id = "322016d2b14e4688aecd201cc34d735b");
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Table scan on <temporary>  (cost=0.03..3.95 rows=116) (actual time=0.002..0.006 rows=99 loops=1)
+    -> Temporary table with deduplication  (cost=69.50..73.42 rows=116) (actual time=0.462..0.473 rows=99 loops=1)
+        -> Nested loop inner join  (cost=57.85 rows=116) (actual time=0.080..0.358 rows=111 loops=1)
+            -> Nested loop inner join  (cost=17.20 rows=116) (actual time=0.037..0.147 rows=111 loops=1)
+                -> Index lookup on CampaignMembership using campaign_membership_user_fk (user_id='322016d2b14e4688aecd201cc34d735b')  (cost=1.45 rows=11) (actual time=0.022..0.024 rows=11 loops=1)
+                -> Index lookup on cm using PRIMARY (campaign_id=CampaignMembership.campaign_id)  (cost=0.47 rows=11) (actual time=0.008..0.010 rows=10 loops=11)
+            -> Single-row index lookup on u using PRIMARY (id=cm.user_id)  (cost=0.25 rows=1) (actual time=0.001..0.001 rows=1 loops=111)
+ |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.01 sec)
+
+mysql> describe CampaignMembership;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| campaign_id | varchar(36) | NO   | PRI | NULL    |       |
+| user_id     | varchar(36) | NO   | PRI | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> create index idx_campaign_membership_campaign on CampaignMembership (campaign_id);
+Query OK, 0 rows affected (0.17 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> explain analyze select distinct u.username from User u join CampaignMembership cm on u.id = cm.user_id where cm.campaign_id in (select campaign_id from CampaignMembership where user_id = "322016d2b14e4688aecd201cc34d735b");
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| EXPLAIN                                                                                                                                                                                                                             
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Table scan on <temporary>  (cost=0.03..3.95 rows=116) (actual time=0.001..0.006 rows=99 loops=1)
+    -> Temporary table with deduplication  (cost=69.50..73.42 rows=116) (actual time=0.410..0.421 rows=99 loops=1)
+        -> Nested loop inner join  (cost=57.85 rows=116) (actual time=0.045..0.335 rows=111 loops=1)
+            -> Nested loop inner join  (cost=17.20 rows=116) (actual time=0.035..0.142 rows=111 loops=1)
+                -> Index lookup on CampaignMembership using campaign_membership_user_fk (user_id='322016d2b14e4688aecd201cc34d735b')  (cost=1.45 rows=11) (actual time=0.021..0.023 rows=11 loops=1)
+                -> Index lookup on cm using PRIMARY (campaign_id=CampaignMembership.campaign_id)  (cost=0.47 rows=11) (actual time=0.008..0.010 rows=10 loops=11)
+            -> Single-row index lookup on u using PRIMARY (id=cm.user_id)  (cost=0.25 rows=1) (actual time=0.002..0.002 rows=1 loops=111)
+ |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.00 sec)
+
+mysql> drop index idx_campaign_membership_campaign on CampaignMembership;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> create index idx_campaign_membership_user on CampaignMembership (user_id);
+Query OK, 0 rows affected (0.20 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> explain analyze select distinct u.username from User u join CampaignMembership cm on u.id = cm.user_id where cm.campaign_id in (select campaign_id from CampaignMembership where user_id = "322016d2b14e4688aecd201cc34d735b");
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| EXPLAIN                                                                                                                                                                                                                             
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Table scan on <temporary>  (cost=0.03..3.95 rows=116) (actual time=0.001..0.006 rows=99 loops=1)
+    -> Temporary table with deduplication  (cost=70.55..74.47 rows=116) (actual time=0.386..0.396 rows=99 loops=1)
+        -> Nested loop inner join  (cost=58.90 rows=116) (actual time=0.052..0.330 rows=111 loops=1)
+            -> Nested loop inner join  (cost=18.25 rows=116) (actual time=0.040..0.144 rows=111 loops=1)
+                -> Index lookup on CampaignMembership using idx_campaign_membership_user (user_id='322016d2b14e4688aecd201cc34d735b')  (cost=2.50 rows=11) (actual time=0.024..0.026 rows=11 loops=1)
+                -> Index lookup on cm using PRIMARY (campaign_id=CampaignMembership.campaign_id)  (cost=0.47 rows=11) (actual time=0.008..0.010 rows=10 loops=11)
+            -> Single-row index lookup on u using PRIMARY (id=cm.user_id)  (cost=0.25 rows=1) (actual time=0.001..0.002 rows=1 loops=111)
+ |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.00 sec)
+
+mysql> drop index idx_campaign_membership_user on CampaignMembership;
+ERROR 1553 (HY000): Cannot drop index 'idx_campaign_membership_user': needed in a foreign key constraint
+
+mysql> alter table CampaignMembership drop constraint campaign_membership_user_fk;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> drop index idx_campaign_membership_user on CampaignMembership;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table CampaignMembership add CONSTRAINT `campaign_membership_user_fk` FOREIGN KEY (`user_id`) REFERENCES `User` (`id`);
+Query OK, 9953 rows affected (0.38 sec)
+Records: 9953  Duplicates: 0  Warnings: 0
+
+mysql> create index idx_campaign_membership_user on CampaignMembership (user_id) using hash;
+Query OK, 0 rows affected, 1 warning (0.21 sec)
+Records: 0  Duplicates: 0  Warnings: 1
+
+mysql> explain analyze select distinct u.username from User u join CampaignMembership cm on u.id = cm.user_id where cm.campaign_id in (select campaign_id from CampaignMembership where user_id = "322016d2b14e4688aecd201cc34d735b");
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| EXPLAIN                                                                                                                                                                                                                             
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| -> Table scan on <temporary>  (cost=0.04..3.86 rows=109) (actual time=0.001..0.006 rows=99 loops=1)
+    -> Temporary table with deduplication  (cost=66.60..70.42 rows=109) (actual time=0.390..0.401 rows=99 loops=1)
+        -> Nested loop inner join  (cost=55.65 rows=109) (actual time=0.040..0.332 rows=111 loops=1)
+            -> Nested loop inner join  (cost=17.45 rows=109) (actual time=0.030..0.136 rows=111 loops=1)
+                -> Index lookup on CampaignMembership using idx_campaign_membership_user (user_id='322016d2b14e4688aecd201cc34d735b')  (cost=2.50 rows=11) (actual time=0.017..0.019 rows=11 loops=1)
+                -> Index lookup on cm using PRIMARY (campaign_id=CampaignMembership.campaign_id)  (cost=0.46 rows=10) (actual time=0.008..0.010 rows=10 loops=11)
+            -> Single-row index lookup on u using PRIMARY (id=cm.user_id)  (cost=0.25 rows=1) (actual time=0.002..0.002 rows=1 loops=111)
+ |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 row in set (0.00 sec)

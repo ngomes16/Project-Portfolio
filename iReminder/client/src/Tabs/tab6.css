@@ -1,0 +1,82 @@
+.tab-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-top: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tab-content h2 {
+    color: #333;
+    animation: colorChange 6s infinite;
+  }
+  
+  .tab-content p {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  
+  .tab-content ul {
+    list-style-type: none;
+  }
+  
+  .tab-content li {
+    font-size: 25px;
+    display: flex;
+    list-style-type:circle;
+    margin-bottom: 5px;
+    align-items: center;
+  }
+
+  .tab-content li::before {
+    content: "\2022"; /* Use a bullet character for the list */
+    color: #333; /* Adjust bullet color */
+    font-size: 16px; /* Adjust bullet size */
+    margin-right: 5px; /* Add spacing between bullet and text */
+  }
+
+
+  .list-content {
+    background-color: white;
+    font-size: 19px;
+    padding: 40px;
+    border: 0px;
+    border-top: none;
+    
+  }
+
+  .list-content h2{
+    color: #333;
+  }
+
+  .list-content li{
+    animation: fadeInY 0.5s ease forwards;
+    margin-bottom: 15px;
+  }
+
+
+  @keyframes fadeInY {
+    from {
+      color: black;
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      color: black;
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  @keyframes colorChange {
+
+    0% {
+     color:  black;
+    }
+    50%{
+      color: rgb(120, 120, 208);
+    }
+    100%{
+      color: black;
+    }
+  }
