@@ -1,0 +1,110 @@
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Will Richard
+F
+22:13	4	9	44.4	1	5	20.0	0	0	0.0	5	2	7	1	0	0	2	1	9	11
+undefined Headshot
+Jimmy Butler III
+F
+31:15	6	8	75.0	1	1	100	5	5	100	1	2	3	10	3	0	6	2	18	21
+undefined Headshot
+Draymond Green
+C
+24:47	3	13	23.1	2	5	40.0	0	0	0.0	4	6	10	6	2	1	5	4	8	23
+undefined Headshot
+Moses Moody
+G
+33:04	10	16	62.5	8	12	66.7	4	5	80.0	1	3	4	0	3	1	1	2	32	22
+undefined Headshot
+Stephen Curry
+G
+28:07	2	11	18.2	1	6	16.7	4	5	80.0	1	4	5	3	0	0	4	3	9	18
+undefined Headshot
+Gary Payton II
+12:03	0	2	0.0	0	1	0.0	0	0	0.0	1	2	3	0	1	2	0	4	0	1
+undefined Headshot
+Al Horford
+20:11	2	5	40.0	2	5	40.0	0	0	0.0	1	1	2	6	2	0	1	0	6	-1
+undefined Headshot
+Buddy Hield
+19:51	4	8	50.0	3	6	50.0	0	0	0.0	0	2	2	2	3	0	1	1	11	2
+undefined Headshot
+Brandin Podziemski
+25:47	8	13	61.5	3	7	42.9	0	0	0.0	0	3	3	3	0	0	0	1	19	7
+undefined Headshot
+Quinten Post
+10:14	1	4	25.0	1	4	25.0	1	2	50.0	1	6	7	0	0	0	0	1	4	-2
+undefined Headshot
+Pat Spencer
+4:43	1	1	100	1	1	100	0	0	0.0	0	0	0	2	0	0	1	0	3	-4
+undefined Headshot
+Gui Santos
+4:43	1	3	33.3	1	3	33.3	0	0	0.0	0	0	0	0	0	0	0	2	3	-4
+undefined Headshot
+Trayce Jackson-Davis
+3:02	1	1	100	0	0	0.0	0	0	0.0	1	0	1	1	0	0	0	2	2	-4
+undefined Headshot
+Jonathan Kuminga
+DND - Injury/Illness
+TOTALS
+ 	43	94	45.7	24	56	42.9	14	17	82.4	16	31	47	34	14	4	21	23	124	18
+New Orleans Pelicans
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Trey Murphy III
+F
+31:09	6	13	46.2	2	6	33.3	6	6	100	1	7	8	2	3	0	5	3	20	-10
+undefined Headshot
+Saddiq Bey
+F
+28:47	4	10	40.0	2	5	40.0	1	2	50.0	3	4	7	1	2	0	2	1	11	-15
+undefined Headshot
+Derik Queen
+C
+24:34	2	4	50.0	0	0	0.0	5	6	83.3	0	7	7	6	0	2	1	2	9	-11
+undefined Headshot
+Herbert Jones
+G
+28:43	2	7	28.6	0	3	0.0	2	2	100	0	2	2	1	2	0	2	4	6	-22
+undefined Headshot
+Jeremiah Fears
+G
+25:09	7	14	50.0	0	0	0.0	3	4	75.0	2	3	5	1	0	1	4	2	17	-14
+undefined Headshot
+Jose Alvarado
+25:14	6	12	50.0	3	8	37.5	3	3	100	0	1	1	3	0	0	4	0	18	-1
+undefined Headshot
+Yves Missi
+24:45	4	8	50.0	0	0	0.0	0	2	0.0	6	1	7	2	1	1	1	1	8	-3
+undefined Headshot
+Karlo Matković
+20:01	2	3	66.7	0	1	0.0	0	0	0.0	1	1	2	3	2	0	1	1	4	-3
+undefined Headshot
+Jordan Hawkins
+14:45	2	6	33.3	1	5	20.0	0	0	0.0	2	2	4	2	0	0	0	2	5	-6
+undefined Headshot
+Bryce McGowens
+12:35	3	6	50.0	0	1	0.0	2	4	50.0	0	1	1	0	1	0	0	0	8	-7
+undefined Headshot
+Micah Peavy
+4:18	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	0	0	2
+undefined Headshot
+DeAndre Jordan
+DNP - Coach's Decision
+undefined Headshot
+Kevon Looney
+DNP - Coach's Decision
+undefined Headshot
+Zion Williamson
+DND - Injury/Illness
+TOTALS
+ 	38	83	45.8	8	29	27.6	22	29	75.9	15	30	45	22	11	4	20	16	106	-18
+Inactive Players
+GSW: De'Anthony Melton, Jackson Rowe, Alex Toohey
+
+NOP: Jordan Poole, Hunter Dickinson, Trey Alexander, Dejounte Murray

@@ -1,0 +1,110 @@
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Toumani Camara
+F
+24:22	0	4	0.0	0	3	0.0	1	2	50.0	0	2	2	4	1	0	0	6	1	-3
+undefined Headshot
+Jerami Grant
+F
+33:42	8	19	42.1	4	9	44.4	9	9	100	2	4	6	4	1	1	2	3	29	-2
+undefined Headshot
+Robert Williams III
+C
+30:16	4	8	50.0	0	2	0.0	0	0	0.0	7	7	14	1	0	5	2	5	8	-6
+undefined Headshot
+Deni Avdija
+G
+38:21	9	16	56.3	3	7	42.9	14	15	93.3	2	7	9	7	1	0	4	4	35	4
+undefined Headshot
+Sidy Cissoko
+G
+22:20	3	6	50.0	2	3	66.7	0	0	0.0	1	0	1	2	1	1	1	6	8	12
+undefined Headshot
+Duop Reath
+13:28	2	2	100	2	2	100	1	2	50.0	0	3	3	0	0	1	2	0	7	-1
+undefined Headshot
+Shaedon Sharpe
+34:56	10	25	40.0	1	7	14.3	7	7	100	2	3	5	3	1	0	2	3	28	-11
+undefined Headshot
+Caleb Love
+11:55	0	3	0.0	0	2	0.0	0	0	0.0	1	1	2	0	0	0	1	1	0	-18
+undefined Headshot
+Kris Murray
+27:39	0	2	0.0	0	2	0.0	0	0	0.0	3	3	6	1	1	0	2	6	0	0
+undefined Headshot
+Rayan Rupert
+3:01	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	1	0	-5
+undefined Headshot
+Donovan Clingan
+DND - Injury/Illness
+undefined Headshot
+Javonte Cooke
+DNP - Coach's Decision
+undefined Headshot
+Scoot Henderson
+DND - Injury/Illness
+undefined Headshot
+Matisse Thybulle
+DND - Injury/Illness
+undefined Headshot
+Blake Wesley
+DND - Injury/Illness
+TOTALS
+ 	36	85	42.4	12	37	32.4	32	35	91.4	18	30	48	22	6	8	17	35	116	-6
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+24:56	6	12	50.0	0	1	0.0	3	5	60.0	3	1	4	2	1	0	1	3	15	0
+undefined Headshot
+Tobias Harris
+F
+31:08	3	10	30.0	1	3	33.3	3	4	75.0	2	2	4	4	0	0	1	1	10	1
+undefined Headshot
+Jalen Duren
+C
+27:00	6	11	54.5	0	0	0.0	6	9	66.7	2	6	8	0	0	1	6	5	18	-1
+undefined Headshot
+Duncan Robinson
+G
+33:47	4	7	57.1	4	6	66.7	2	2	100	1	6	7	0	2	0	1	2	14	4
+undefined Headshot
+Cade Cunningham
+G
+36:22	7	15	46.7	2	4	50.0	13	14	92.9	3	1	4	9	3	1	1	3	29	-4
+undefined Headshot
+Caris LeVert
+16:22	2	2	100	0	0	0.0	0	1	0.0	0	2	2	3	0	1	1	1	4	0
+undefined Headshot
+Isaiah Stewart
+21:36	3	7	42.9	0	2	0.0	3	4	75.0	0	1	1	1	0	4	1	5	9	10
+undefined Headshot
+Jaden Ivey
+9:43	0	1	0.0	0	0	0.0	2	2	100	2	1	3	2	0	0	0	2	2	4
+undefined Headshot
+Daniss Jenkins
+14:22	1	4	25.0	0	1	0.0	2	2	100	0	1	1	3	1	0	0	1	4	6
+undefined Headshot
+Ronald Holland II
+20:25	6	11	54.5	3	6	50.0	2	5	40.0	0	3	3	0	1	0	1	4	17	7
+undefined Headshot
+Javonte Green
+4:19	0	2	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	2	0	3
+undefined Headshot
+Chaz Lanier
+DNP - Coach's Decision
+undefined Headshot
+Paul Reed
+DNP - Coach's Decision
+TOTALS
+ 	38	82	46.3	10	24	41.7	36	48	75.0	13	24	37	24	8	7	13	29	122	6
+Inactive Players
+POR: Hansen Yang, Jrue Holiday, Damian Lillard
+
+DET: Wendell Moore Jr., Marcus Sasser, Bobi Klintman, Isaac Jones, Tolu Smith

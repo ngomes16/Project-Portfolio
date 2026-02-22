@@ -1,0 +1,101 @@
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+36:31	8	16	50.0	0	2	0.0	8	8	100	0	4	4	3	0	1	3	4	24	2
+undefined Headshot
+P.J. Washington
+F
+30:21	6	8	75.0	1	2	50.0	2	2	100	1	7	8	2	0	1	0	3	15	-13
+undefined Headshot
+Anthony Davis
+C
+33:57	11	20	55.0	0	2	0.0	2	2	100	5	10	15	2	0	1	1	3	24	-2
+undefined Headshot
+Naji Marshall
+G
+34:23	9	12	75.0	0	0	0.0	4	4	100	2	7	9	4	2	0	5	3	22	16
+undefined Headshot
+Ryan Nembhard
+G
+26:14	3	7	42.9	1	2	50.0	0	0	0.0	0	0	0	5	1	0	1	2	7	0
+undefined Headshot
+Max Christie
+14:16	0	2	0.0	0	2	0.0	0	0	0.0	0	0	0	1	0	0	0	2	0	-12
+undefined Headshot
+Brandon Williams
+21:23	4	6	66.7	0	0	0.0	2	2	100	0	2	2	5	0	0	4	2	10	-7
+undefined Headshot
+Klay Thompson
+17:32	4	11	36.4	1	7	14.3	1	2	50.0	0	1	1	1	1	0	3	0	10	-20
+undefined Headshot
+Daniel Gafford
+14:03	0	0	0.0	0	0	0.0	2	2	100	0	4	4	0	0	4	1	3	2	-5
+undefined Headshot
+D'Angelo Russell
+11:20	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	1	1	0	0	0	0	6
+undefined Headshot
+Moussa Cisse
+DNP - Coach's Decision
+undefined Headshot
+Jaden Hardy
+DNP - Coach's Decision
+undefined Headshot
+Caleb Martin
+DNP - Coach's Decision
+undefined Headshot
+Dwight Powell
+DNP - Coach's Decision
+TOTALS
+ 	45	83	54.2	3	18	16.7	21	22	95.5	8	36	44	24	5	7	18	22	114	-7
+Philadelphia 76ers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Quentin Grimes
+F
+24:36	2	9	22.2	0	3	0.0	2	2	100	0	2	2	7	2	0	1	0	6	-8
+undefined Headshot
+Dominick Barlow
+F
+30:20	9	13	69.2	1	4	25.0	2	4	50.0	1	3	4	2	2	0	1	2	21	-8
+undefined Headshot
+Andre Drummond
+C
+23:14	2	5	40.0	1	2	50.0	1	4	25.0	7	5	12	3	0	0	0	1	6	-10
+undefined Headshot
+VJ Edgecombe
+G
+34:44	10	21	47.6	3	11	27.3	3	3	100	3	3	6	4	0	0	2	4	26	4
+undefined Headshot
+Tyrese Maxey
+G
+40:44	15	31	48.4	5	11	45.5	3	3	100	0	2	2	4	1	1	0	0	38	0
+undefined Headshot
+Jared McCain
+30:24	3	11	27.3	1	5	20.0	5	6	83.3	0	5	5	5	3	0	2	0	12	29
+undefined Headshot
+Adem Bona
+24:46	2	6	33.3	1	1	100	5	6	83.3	6	2	8	0	1	1	1	2	10	17
+undefined Headshot
+Jabari Walker
+17:40	1	5	20.0	0	2	0.0	0	0	0.0	3	5	8	0	1	0	0	4	2	15
+undefined Headshot
+Justin Edwards
+13:32	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	2	1	0	1	0	0	-4
+undefined Headshot
+Eric Gordon
+DNP - Coach's Decision
+undefined Headshot
+Kyle Lowry
+DNP - Coach's Decision
+TOTALS
+ 	44	102	43.1	12	40	30.0	21	28	75.0	20	27	47	27	11	2	8	13	121	7
+Inactive Players
+DAL: Miles Kelly, Dereck Lively II, Dante Exum, Kyrie Irving
+
+PHI: Paul George, Joel Embiid, Kelly Oubre Jr., Trendon Watford, Johni Broome, Hunter Sallis

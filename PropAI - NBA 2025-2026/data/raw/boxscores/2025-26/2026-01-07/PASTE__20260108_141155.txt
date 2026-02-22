@@ -1,0 +1,104 @@
+Phoenix Suns
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Dillon Brooks
+F
+24:58	8	22	36.4	5	12	41.7	0	0	0.0	1	6	7	3	1	0	1	2	21	13
+undefined Headshot
+Royce O'Neale
+F
+26:52	4	9	44.4	4	9	44.4	0	0	0.0	1	5	6	4	2	1	1	1	12	9
+undefined Headshot
+Mark Williams
+C
+26:36	5	6	83.3	0	0	0.0	2	2	100	4	8	12	1	1	1	2	1	12	13
+undefined Headshot
+Devin Booker
+G
+30:31	6	15	40.0	1	5	20.0	0	1	0.0	0	1	1	8	2	0	2	2	13	16
+undefined Headshot
+Collin Gillespie
+G
+27:39	4	6	66.7	2	4	50.0	0	0	0.0	3	5	8	3	1	0	2	1	10	12
+undefined Headshot
+Grayson Allen
+20:44	7	13	53.8	5	10	50.0	0	0	0.0	0	0	0	1	0	1	3	3	19	10
+undefined Headshot
+Ryan Dunn
+22:21	0	5	0.0	0	4	0.0	2	2	100	0	1	1	2	0	0	1	2	2	6
+undefined Headshot
+Oso Ighodaro
+17:27	2	2	100	0	0	0.0	1	2	50.0	1	2	3	2	1	1	2	3	5	5
+undefined Headshot
+Jordan Goodwin
+22:42	4	12	33.3	3	8	37.5	0	1	0.0	4	4	8	6	2	1	0	0	11	8
+undefined Headshot
+Rasheer Fleming
+9:07	3	4	75.0	2	3	66.7	0	0	0.0	1	2	3	0	0	0	0	1	8	0
+undefined Headshot
+Nick Richards
+3:57	2	2	100	0	0	0.0	0	0	0.0	0	1	1	0	1	0	1	1	4	1
+undefined Headshot
+Khaman Maluach
+3:57	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	1	0	0	0	0	0	1
+undefined Headshot
+Isaiah Livers
+3:09	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	1
+undefined Headshot
+Nigel Hayes-Davis
+DNP - Coach's Decision
+TOTALS
+ 	45	97	46.4	22	56	39.3	5	8	62.5	15	36	51	31	11	5	16	17	117	19
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+GG Jackson
+F
+25:13	3	7	42.9	2	4	50.0	3	3	100	1	4	5	1	3	0	5	2	11	-14
+undefined Headshot
+Jaren Jackson Jr.
+F
+29:12	9	19	47.4	0	3	0.0	1	2	50.0	3	1	4	1	1	1	0	1	19	-15
+undefined Headshot
+Jock Landale
+C
+21:00	0	5	0.0	0	4	0.0	0	0	0.0	0	8	8	4	1	0	0	0	0	-3
+undefined Headshot
+Jaylen Wells
+G
+27:24	4	12	33.3	1	6	16.7	0	1	0.0	3	4	7	1	0	0	2	0	9	-10
+undefined Headshot
+Cam Spencer
+G
+27:22	5	11	45.5	4	6	66.7	0	0	0.0	0	3	3	5	2	0	3	0	14	-8
+undefined Headshot
+Kentavious Caldwell-Pope
+16:41	5	10	50.0	2	4	50.0	2	2	100	1	2	3	2	0	0	1	1	14	-10
+undefined Headshot
+Santi Aldama
+22:14	3	8	37.5	0	3	0.0	1	2	50.0	1	2	3	0	0	0	0	1	7	-18
+undefined Headshot
+Javon Small
+20:33	5	8	62.5	3	4	75.0	1	2	50.0	2	1	3	7	1	1	5	5	14	-9
+undefined Headshot
+Christian Koloko
+20:08	1	3	33.3	0	0	0.0	0	2	0.0	4	0	4	2	0	0	0	0	2	-10
+undefined Headshot
+Olivier-Maxence Prosper
+26:16	4	8	50.0	0	2	0.0	0	0	0.0	0	7	7	0	1	0	2	1	8	3
+undefined Headshot
+Jahmai Mashack
+3:57	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-1
+undefined Headshot
+John Konchar
+DND - Injury/Illness
+TOTALS
+ 	39	92	42.4	12	37	32.4	8	14	57.1	15	32	47	23	9	2	18	11	98	-19
+Inactive Players
+PHX: Koby Brea, Jamaree Bouyea, Jalen Green
+
+MEM: Ja Morant, Brandon Clarke, Ty Jerome, Scotty Pippen Jr., Vince Williams Jr., Zach Edey, Cedric Coward

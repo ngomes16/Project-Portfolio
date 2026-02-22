@@ -1,0 +1,98 @@
+Utah Jazz
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Svi Mykhailiuk
+F
+23:42	2	5	40.0	2	5	40.0	0	0	0.0	1	2	3	3	0	0	1	2	6	5
+undefined Headshot
+Lauri Markkanen
+F
+35:36	9	22	40.9	3	10	30.0	5	7	71.4	1	8	9	2	1	1	5	3	26	2
+undefined Headshot
+Jusuf Nurkić
+C
+27:30	6	9	66.7	0	2	0.0	1	3	33.3	5	12	17	7	1	1	1	2	13	-2
+undefined Headshot
+Ace Bailey
+G
+31:27	4	12	33.3	0	3	0.0	0	0	0.0	1	3	4	0	0	2	1	2	8	-1
+undefined Headshot
+Keyonte George
+G
+33:48	12	20	60.0	5	9	55.6	10	10	100	1	5	6	8	2	0	3	5	39	0
+undefined Headshot
+Isaiah Collier
+23:58	2	6	33.3	0	1	0.0	1	5	20.0	0	2	2	8	0	0	2	1	5	7
+undefined Headshot
+Kyle Filipowski
+18:38	1	5	20.0	0	1	0.0	0	0	0.0	0	4	4	1	0	0	0	1	2	6
+undefined Headshot
+Brice Sensabaugh
+17:28	4	8	50.0	3	5	60.0	0	0	0.0	1	2	3	2	1	0	0	1	11	2
+undefined Headshot
+Kevin Love
+20:23	8	15	53.3	4	10	40.0	0	0	0.0	3	5	8	1	1	0	0	3	20	6
+undefined Headshot
+Walter Clayton Jr.
+7:30	0	2	0.0	0	1	0.0	0	0	0.0	1	1	2	1	0	0	0	3	0	-5
+undefined Headshot
+Kyle Anderson
+DNP - Coach's Decision
+undefined Headshot
+Georges Niang
+DND - Injury/Illness
+TOTALS
+ 	48	104	46.2	17	47	36.2	17	25	68.0	14	44	58	33	6	4	13	23	130	4
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Wells
+F
+32:32	6	13	46.2	2	4	50.0	5	5	100	1	4	5	1	1	0	2	2	19	-2
+undefined Headshot
+Jaren Jackson Jr.
+F
+26:35	6	13	46.2	0	3	0.0	0	2	0.0	2	3	5	3	0	1	1	4	12	-2
+undefined Headshot
+Santi Aldama
+C
+35:46	8	15	53.3	4	8	50.0	2	4	50.0	1	6	7	2	1	1	0	3	22	-2
+undefined Headshot
+Cedric Coward
+G
+29:23	7	11	63.6	2	4	50.0	1	1	100	3	9	12	6	0	0	1	4	17	4
+undefined Headshot
+Ja Morant
+G
+25:14	7	20	35.0	2	5	40.0	5	7	71.4	0	4	4	10	0	1	4	1	21	1
+undefined Headshot
+Jock Landale
+27:19	3	7	42.9	2	4	50.0	0	0	0.0	2	7	9	1	0	1	0	2	8	0
+undefined Headshot
+Cam Spencer
+25:18	6	6	100	6	6	100	2	2	100	0	2	2	4	0	0	0	4	20	-7
+undefined Headshot
+Kentavious Caldwell-Pope
+22:29	3	10	30.0	1	5	20.0	0	0	0.0	0	2	2	5	2	0	1	0	7	-10
+undefined Headshot
+Vince Williams Jr.
+15:25	0	4	0.0	0	2	0.0	0	0	0.0	0	3	3	0	0	1	1	1	0	-2
+undefined Headshot
+Brandon Clarke
+DND - Injury/Illness
+undefined Headshot
+Jahmai Mashack
+DNP - Coach's Decision
+undefined Headshot
+Olivier-Maxence Prosper
+DNP - Coach's Decision
+TOTALS
+ 	46	99	46.5	19	41	46.3	15	21	71.4	9	40	49	32	4	5	10	21	126	-4
+Inactive Players
+UTA: Elijah Harkless, Cody Williams, John Tonje, Walker Kessler, Oscar Tshiebwe, Taylor Hendricks
+
+MEM: Ty Jerome, John Konchar, Scotty Pippen Jr., GG Jackson, Zach Edey, Javon Small

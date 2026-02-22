@@ -1,0 +1,107 @@
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kyshawn George
+F
+31:21	1	9	11.1	0	1	0.0	0	0	0.0	1	1	2	6	0	0	3	2	2	-20
+undefined Headshot
+Khris Middleton
+F
+21:51	5	10	50.0	1	3	33.3	5	5	100	0	1	1	1	1	0	0	2	16	-12
+undefined Headshot
+Alex Sarr
+C
+24:36	2	6	33.3	0	1	0.0	3	4	75.0	4	7	11	1	1	4	0	3	7	-11
+undefined Headshot
+Bilal Coulibaly
+G
+23:26	5	13	38.5	3	9	33.3	1	2	50.0	2	3	5	1	0	1	1	0	14	-11
+undefined Headshot
+CJ McCollum
+G
+33:17	5	17	29.4	1	5	20.0	3	4	75.0	1	5	6	4	0	1	0	1	14	-17
+undefined Headshot
+Tre Johnson
+21:25	5	12	41.7	2	7	28.6	0	0	0.0	1	2	3	2	1	0	0	0	12	10
+undefined Headshot
+Marvin Bagley III
+21:08	5	7	71.4	0	0	0.0	5	6	83.3	2	1	3	1	0	1	0	1	15	-5
+undefined Headshot
+Corey Kispert
+13:27	3	8	37.5	1	4	25.0	2	2	100	0	1	1	3	0	0	0	2	9	3
+undefined Headshot
+Bub Carrington
+15:11	2	3	66.7	2	3	66.7	0	0	0.0	1	4	5	2	0	0	1	4	6	-4
+undefined Headshot
+Justin Champagnie
+19:28	5	7	71.4	0	1	0.0	0	0	0.0	5	4	9	0	0	0	0	3	10	-7
+undefined Headshot
+Malaki Branham
+5:46	1	2	50.0	0	1	0.0	0	0	0.0	1	2	3	1	0	0	1	2	2	-7
+undefined Headshot
+Tristan Vukcevic
+2:16	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-1
+undefined Headshot
+AJ Johnson
+2:16	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-1
+undefined Headshot
+Will Riley
+2:16	1	2	50.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	2	-1
+undefined Headshot
+Anthony Gill
+2:16	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-1
+TOTALS
+ 	40	97	41.2	10	35	28.6	19	23	82.6	18	31	49	22	3	7	6	20	109	-17
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+28:26	7	15	46.7	5	9	55.6	0	2	0.0	0	3	3	2	0	0	1	2	19	13
+undefined Headshot
+Miles Bridges
+F
+33:36	4	13	30.8	1	6	16.7	1	2	50.0	0	9	9	9	0	1	1	4	10	6
+undefined Headshot
+Moussa Diabaté
+C
+35:44	6	6	100	0	0	0.0	0	0	0.0	8	10	18	1	0	0	0	2	12	38
+undefined Headshot
+Brandon Miller
+G
+30:17	8	17	47.1	4	10	40.0	0	0	0.0	0	4	4	4	0	2	0	1	20	32
+undefined Headshot
+LaMelo Ball
+G
+24:48	7	12	58.3	4	9	44.4	5	6	83.3	0	2	2	9	1	1	2	3	23	20
+undefined Headshot
+Tidjane Salaün
+21:36	4	11	36.4	1	3	33.3	2	3	66.7	1	5	6	1	1	1	0	0	11	-9
+undefined Headshot
+Tre Mann
+11:38	1	5	20.0	1	5	20.0	0	0	0.0	0	2	2	1	0	0	0	2	3	-7
+undefined Headshot
+Sion James
+23:45	2	5	40.0	1	2	50.0	8	8	100	3	1	4	4	1	0	0	2	13	-7
+undefined Headshot
+Josh Green
+11:17	1	2	50.0	1	2	50.0	0	0	0.0	1	1	2	2	0	0	0	0	3	-6
+undefined Headshot
+Collin Sexton
+16:03	2	7	28.6	2	4	50.0	6	6	100	1	0	1	2	0	1	0	0	12	9
+undefined Headshot
+Pat Connaughton
+1:25	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Liam McNeeley
+1:25	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+TOTALS
+ 	42	93	45.2	20	50	40.0	22	27	81.5	14	37	51	35	3	6	4	16	126	17
+Inactive Players
+WAS: Jamir Watkins, Sharife Cooper, Cam Whitmore
+
+CHA: Mason Plumlee, Grant Williams, Ryan Kalkbrenner, Drew Peterson, Antonio Reeves, KJ Simpson

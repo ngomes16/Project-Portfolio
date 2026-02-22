@@ -1,0 +1,104 @@
+Miami Heat
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Pelle Larsson
+F
+22:48	1	5	20.0	0	4	0.0	2	3	66.7	0	0	0	3	0	0	0	2	4	-11
+undefined Headshot
+Andrew Wiggins
+F
+33:22	4	18	22.2	1	3	33.3	2	2	100	3	3	6	5	1	1	1	2	11	-6
+undefined Headshot
+Bam Adebayo
+C
+28:24	10	19	52.6	1	6	16.7	0	0	0.0	1	6	7	1	1	0	1	1	21	-6
+undefined Headshot
+Tyler Herro
+G
+33:07	8	17	47.1	2	7	28.6	2	2	100	1	3	4	0	2	0	2	0	20	-5
+undefined Headshot
+Davion Mitchell
+G
+30:20	2	7	28.6	0	2	0.0	0	0	0.0	0	1	1	9	0	0	0	1	4	-9
+undefined Headshot
+Jaime Jaquez Jr.
+21:55	3	10	30.0	0	0	0.0	4	4	100	3	1	4	3	4	0	2	1	10	5
+undefined Headshot
+Simone Fontecchio
+21:03	2	8	25.0	2	7	28.6	2	2	100	0	3	3	2	1	1	1	0	8	-2
+undefined Headshot
+Dru Smith
+17:40	2	4	50.0	1	2	50.0	3	3	100	2	2	4	4	1	1	0	3	8	-1
+undefined Headshot
+Kel'el Ware
+25:14	8	11	72.7	4	5	80.0	2	2	100	4	6	10	2	1	1	3	3	22	-7
+undefined Headshot
+Nikola Jović
+6:07	0	2	0.0	0	1	0.0	0	0	0.0	0	2	2	0	0	1	0	0	0	-8
+undefined Headshot
+Kasparas Jakučionis
+DNP - Coach's Decision
+undefined Headshot
+Keshad Johnson
+DNP - Coach's Decision
+undefined Headshot
+Norman Powell
+DND - Injury/Illness
+TOTALS
+ 	40	101	39.6	11	37	29.7	17	18	94.4	14	27	41	29	11	5	10	13	108	-10
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+31:08	9	13	69.2	0	0	0.0	4	5	80.0	2	4	6	2	1	1	3	3	22	3
+undefined Headshot
+Naji Marshall
+F
+35:41	8	12	66.7	2	4	50.0	0	0	0.0	3	2	5	4	2	1	0	4	18	10
+undefined Headshot
+Anthony Davis
+C
+28:10	7	17	41.2	2	4	50.0	1	2	50.0	1	16	17	4	1	3	4	0	17	5
+undefined Headshot
+Max Christie
+G
+32:23	3	6	50.0	2	4	50.0	2	2	100	0	2	2	2	0	0	1	1	10	18
+undefined Headshot
+Ryan Nembhard
+G
+33:56	6	10	60.0	3	3	100	0	0	0.0	0	5	5	13	1	0	1	2	15	12
+undefined Headshot
+Klay Thompson
+26:17	6	17	35.3	5	12	41.7	0	0	0.0	1	2	3	1	0	1	0	1	17	-2
+undefined Headshot
+Daniel Gafford
+14:04	0	1	0.0	0	0	0.0	2	2	100	1	4	5	0	1	0	2	0	2	8
+undefined Headshot
+Brandon Williams
+13:50	3	7	42.9	0	1	0.0	1	1	100	1	1	2	2	0	0	2	0	7	-2
+undefined Headshot
+D'Angelo Russell
+15:16	4	7	57.1	2	4	50.0	0	0	0.0	1	2	3	2	0	0	0	2	10	3
+undefined Headshot
+Caleb Martin
+3:29	0	1	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	2	0	-2
+undefined Headshot
+Dwight Powell
+5:46	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	1	0	0	0	-3
+undefined Headshot
+Moussa Cisse
+DNP - Coach's Decision
+undefined Headshot
+Jaden Hardy
+DNP - Coach's Decision
+TOTALS
+ 	46	91	50.5	16	32	50.0	10	12	83.3	10	40	50	31	6	7	13	15	118	10
+Inactive Players
+MIA: Terry Rozier, Myron Gardner, Jahmir Young, Vladislav Goldin
+
+DAL: Miles Kelly, P.J. Washington, Dereck Lively II, Kyrie Irving, Dante Exum

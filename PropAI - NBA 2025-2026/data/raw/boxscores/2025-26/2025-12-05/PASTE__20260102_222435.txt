@@ -1,0 +1,101 @@
+Phoenix Suns
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Dillon Brooks
+F
+31:06	10	24	41.7	0	4	0.0	3	4	75.0	3	1	4	4	0	0	2	4	23	-24
+undefined Headshot
+Royce O'Neale
+F
+19:20	0	4	0.0	0	4	0.0	0	0	0.0	0	2	2	2	1	0	1	1	0	-21
+undefined Headshot
+Mark Williams
+C
+17:02	4	6	66.7	0	0	0.0	2	2	100	3	0	3	0	2	0	2	1	10	-21
+undefined Headshot
+Grayson Allen
+G
+26:09	3	12	25.0	1	7	14.3	2	2	100	0	2	2	0	1	0	3	3	9	-29
+undefined Headshot
+Collin Gillespie
+G
+28:58	5	13	38.5	1	7	14.3	2	2	100	1	1	2	3	0	0	1	1	13	-12
+undefined Headshot
+Ryan Dunn
+18:17	1	3	33.3	0	1	0.0	2	3	66.7	1	3	4	0	3	0	0	1	4	-7
+undefined Headshot
+Jordan Goodwin
+21:57	4	13	30.8	1	6	16.7	0	0	0.0	2	3	5	2	0	0	1	3	9	0
+undefined Headshot
+Oso Ighodaro
+22:46	1	1	100	0	0	0.0	1	3	33.3	2	1	3	1	1	1	3	5	3	-9
+undefined Headshot
+Nigel Hayes-Davis
+14:38	1	4	25.0	0	1	0.0	0	0	0.0	1	1	2	0	1	0	0	0	2	4
+undefined Headshot
+Jamaree Bouyea
+18:13	7	11	63.6	2	3	66.7	2	2	100	1	1	2	1	1	0	0	1	18	-3
+undefined Headshot
+Nick Richards
+8:12	1	2	50.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	2	11
+undefined Headshot
+Rasheer Fleming
+8:12	1	5	20.0	0	3	0.0	1	1	100	0	2	2	0	2	1	0	1	3	11
+undefined Headshot
+Khaman Maluach
+5:10	1	2	50.0	0	0	0.0	0	0	0.0	1	2	3	0	0	0	0	1	2	5
+TOTALS
+ 	39	100	39.0	5	36	13.9	15	19	78.9	15	19	34	14	12	2	13	22	98	-19
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Durant
+F
+32:22	11	17	64.7	2	2	100	4	4	100	0	4	4	8	2	1	5	2	28	29
+undefined Headshot
+Jabari Smith Jr.
+F
+27:33	5	8	62.5	1	2	50.0	5	5	100	0	2	2	2	0	0	2	3	16	29
+undefined Headshot
+Steven Adams
+C
+29:52	2	4	50.0	0	0	0.0	0	0	0.0	3	5	8	3	2	1	1	5	4	18
+undefined Headshot
+Josh Okogie
+G
+16:24	3	3	100	0	0	0.0	0	0	0.0	0	4	4	1	1	1	2	1	6	3
+undefined Headshot
+Amen Thompson
+G
+31:50	12	17	70.6	1	1	100	6	6	100	0	4	4	1	0	0	3	0	31	33
+undefined Headshot
+Reed Sheppard
+20:54	4	11	36.4	2	7	28.6	0	0	0.0	0	5	5	6	2	0	2	1	10	2
+undefined Headshot
+Jae'Sean Tate
+19:09	3	6	50.0	2	2	100	0	0	0.0	0	2	2	1	0	0	2	3	8	-10
+undefined Headshot
+Clint Capela
+18:08	2	3	66.7	0	0	0.0	0	2	0.0	3	4	7	1	0	4	2	2	4	1
+undefined Headshot
+Aaron Holiday
+29:04	3	3	100	2	2	100	2	2	100	0	1	1	2	2	1	2	1	10	7
+undefined Headshot
+Jeff Green
+8:12	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	0	2	0	-11
+undefined Headshot
+JD Davison
+6:32	0	3	0.0	0	1	0.0	0	0	0.0	0	2	2	0	0	0	0	0	0	-6
+undefined Headshot
+Tari Eason
+DNP - Injury/Illness
+TOTALS
+ 	45	76	59.2	10	18	55.6	17	19	89.5	6	34	40	25	9	8	21	20	117	19
+Inactive Players
+PHX: Koby Brea, Devin Booker, Isaiah Livers, Jalen Green
+
+HOU: Dorian Finney-Smith, Fred VanVleet, Alperen Sengun, Tyler Smith, Isaiah Crawford

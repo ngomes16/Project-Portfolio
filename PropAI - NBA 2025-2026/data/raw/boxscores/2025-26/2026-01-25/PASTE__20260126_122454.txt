@@ -1,0 +1,107 @@
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Moses Moody
+F
+27:42	7	15	46.7	5	9	55.6	0	0	0.0	0	8	8	2	0	2	1	1	19	13
+undefined Headshot
+Draymond Green
+F
+23:21	1	5	20.0	0	3	0.0	0	0	0.0	1	4	5	5	2	0	1	2	2	14
+undefined Headshot
+Al Horford
+C
+22:37	4	7	57.1	2	5	40.0	0	0	0.0	0	5	5	2	1	1	0	1	10	7
+undefined Headshot
+Brandin Podziemski
+G
+22:23	6	10	60.0	0	2	0.0	0	0	0.0	0	5	5	6	4	0	2	3	12	16
+undefined Headshot
+Stephen Curry
+G
+27:38	7	18	38.9	3	10	30.0	9	9	100	1	1	2	7	4	0	2	1	26	16
+undefined Headshot
+Quinten Post
+15:57	1	5	20.0	1	4	25.0	2	2	100	0	4	4	0	1	0	1	2	5	20
+undefined Headshot
+Will Richard
+23:33	4	9	44.4	2	5	40.0	0	0	0.0	1	1	2	1	3	0	1	1	10	7
+undefined Headshot
+Gui Santos
+20:31	3	6	50.0	1	3	33.3	0	0	0.0	2	4	6	2	2	0	0	2	7	10
+undefined Headshot
+De'Anthony Melton
+20:59	4	13	30.8	1	5	20.0	3	3	100	0	3	3	4	1	0	3	1	12	7
+undefined Headshot
+Buddy Hield
+16:32	2	5	40.0	0	3	0.0	0	0	0.0	0	2	2	0	0	1	1	2	4	11
+undefined Headshot
+Gary Payton II
+8:44	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	1	0	0	0	3	0	-6
+undefined Headshot
+Trayce Jackson-Davis
+3:21	0	0	0.0	0	0	0.0	1	2	50.0	0	0	0	1	1	1	0	1	1	5
+undefined Headshot
+Pat Spencer
+3:21	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	1	0	0	0	0	5
+undefined Headshot
+LJ Cryer
+3:21	1	2	50.0	1	2	50.0	0	0	0.0	0	1	1	0	0	0	0	0	3	5
+TOTALS
+ 	40	95	42.1	16	51	31.4	15	16	93.8	6	39	45	31	20	5	12	20	111	26
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+27:32	1	8	12.5	1	1	100	0	0	0.0	1	2	3	1	1	0	4	3	3	-13
+undefined Headshot
+Julius Randle
+F
+34:42	3	11	27.3	0	4	0.0	5	6	83.3	0	5	5	6	3	1	1	2	11	-15
+undefined Headshot
+Rudy Gobert
+C
+24:06	2	3	66.7	0	0	0.0	0	0	0.0	1	4	5	0	0	0	0	3	4	-21
+undefined Headshot
+Anthony Edwards
+G
+34:26	13	20	65.0	4	7	57.1	2	3	66.7	2	9	11	2	0	1	8	0	32	-16
+undefined Headshot
+Donte DiVincenzo
+G
+32:23	7	19	36.8	6	15	40.0	2	2	100	2	5	7	0	1	0	5	3	22	-21
+undefined Headshot
+Naz Reid
+25:16	0	4	0.0	0	2	0.0	0	2	0.0	1	9	10	1	0	1	2	1	0	-9
+undefined Headshot
+Mike Conley
+15:44	0	0	0.0	0	0	0.0	2	2	100	1	2	3	1	1	0	1	1	2	-14
+undefined Headshot
+Jaylen Clark
+9:29	0	3	0.0	0	2	0.0	0	0	0.0	0	0	0	1	0	0	1	1	0	-8
+undefined Headshot
+Bones Hyland
+15:42	2	5	40.0	0	3	0.0	1	3	33.3	0	1	1	3	0	0	0	0	5	3
+undefined Headshot
+Rob Dillingham
+5:10	1	4	25.0	1	2	50.0	0	0	0.0	0	1	1	0	0	0	0	0	3	-4
+undefined Headshot
+Joe Ingles
+5:10	1	1	100	1	1	100	0	0	0.0	0	0	0	1	0	0	1	0	3	-4
+undefined Headshot
+Joan Beringer
+5:10	0	0	0.0	0	0	0.0	0	2	0.0	1	1	2	0	0	2	0	2	0	-4
+undefined Headshot
+Leonard Miller
+5:10	0	1	0.0	0	1	0.0	0	0	0.0	1	1	2	0	0	0	2	0	0	-4
+TOTALS
+ 	30	79	38.0	13	38	34.2	12	20	60.0	10	40	50	16	6	5	25	16	85	-26
+Inactive Players
+GSW: Jimmy Butler III, Seth Curry, Jonathan Kuminga, Malevy Leons
+
+MIN: Terrence Shannon Jr., Johnny Juzang, Enrique Freeman, Rocco Zikarsky

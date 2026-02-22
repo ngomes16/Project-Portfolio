@@ -1,0 +1,101 @@
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jamison Battle
+F
+11:15	2	4	50.0	0	2	0.0	0	0	0.0	0	1	1	0	0	0	1	0	4	-13
+undefined Headshot
+Brandon Ingram
+F
+32:06	4	11	36.4	2	5	40.0	4	7	57.1	0	1	1	4	0	0	5	1	14	-22
+undefined Headshot
+Scottie Barnes
+C
+31:31	7	17	41.2	4	7	57.1	0	0	0.0	2	3	5	4	1	2	3	4	18	-6
+undefined Headshot
+Immanuel Quickley
+G
+34:46	7	14	50.0	4	10	40.0	1	3	33.3	0	2	2	8	0	0	2	2	19	-8
+undefined Headshot
+Ja'Kobe Walter
+G
+21:16	3	7	42.9	1	4	25.0	0	0	0.0	1	3	4	1	0	2	1	1	7	-15
+undefined Headshot
+Sandro Mamukelashvili
+27:03	3	9	33.3	0	3	0.0	3	4	75.0	3	4	7	1	1	2	1	0	9	-17
+undefined Headshot
+Jamal Shead
+16:36	1	6	16.7	0	3	0.0	0	0	0.0	0	1	1	5	4	0	1	2	2	-17
+undefined Headshot
+Gradey Dick
+17:34	1	4	25.0	0	0	0.0	0	0	0.0	0	3	3	0	0	0	0	0	2	-3
+undefined Headshot
+Collin Murray-Boyles
+22:06	5	6	83.3	0	1	0.0	1	3	33.3	5	3	8	2	1	0	3	2	11	-5
+undefined Headshot
+Ochai Agbaji
+16:51	3	4	75.0	0	0	0.0	0	0	0.0	2	3	5	1	1	0	1	2	6	3
+undefined Headshot
+Chucky Hepburn
+4:51	0	3	0.0	0	2	0.0	0	0	0.0	0	1	1	0	1	0	0	1	0	-4
+undefined Headshot
+Jonathan Mogbo
+4:05	1	3	33.3	0	0	0.0	0	0	0.0	1	1	2	1	0	0	0	0	2	-3
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	37	88	42.0	11	37	29.7	9	17	52.9	14	26	40	27	9	6	18	15	94	-22
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Mikal Bridges
+F
+33:26	6	10	60.0	2	4	50.0	0	0	0.0	2	1	3	3	2	2	1	5	14	17
+undefined Headshot
+Josh Hart
+F
+34:58	8	12	66.7	4	7	57.1	0	0	0.0	5	7	12	7	3	0	4	2	20	24
+undefined Headshot
+Karl-Anthony Towns
+C
+31:02	8	15	53.3	1	4	25.0	5	7	71.4	3	5	8	2	0	0	4	3	22	3
+undefined Headshot
+Jalen Brunson
+G
+33:44	6	19	31.6	1	6	16.7	5	5	100	2	4	6	7	0	0	2	0	18	25
+undefined Headshot
+Miles McBride
+G
+35:04	5	11	45.5	4	8	50.0	0	0	0.0	2	3	5	2	2	0	2	1	14	18
+undefined Headshot
+Jordan Clarkson
+21:29	5	13	38.5	3	10	30.0	0	0	0.0	0	1	1	2	0	1	2	1	13	-3
+undefined Headshot
+Mitchell Robinson
+16:46	1	4	25.0	0	0	0.0	0	2	0.0	7	8	15	0	0	0	0	1	2	17
+undefined Headshot
+Guerschon Yabusele
+9:52	3	5	60.0	1	3	33.3	0	0	0.0	0	4	4	1	0	0	0	0	7	6
+undefined Headshot
+Tyler Kolek
+14:16	2	6	33.3	0	2	0.0	2	2	100	1	1	2	3	2	0	1	1	6	-3
+undefined Headshot
+Ariel Hukporti
+3:37	0	0	0.0	0	0	0.0	0	0	0.0	1	1	2	0	0	0	1	0	0	2
+undefined Headshot
+Mohamed Diawara
+3:37	0	1	0.0	0	1	0.0	0	0	0.0	1	1	2	0	0	0	1	1	0	2
+undefined Headshot
+Tosan Evbuomwan
+2:09	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	0	0	2
+TOTALS
+ 	44	96	45.8	16	45	35.6	12	16	75.0	25	36	61	27	9	3	18	15	116	22
+Inactive Players
+TOR: Alijah Martin, RJ Barrett, A.J. Lawson, Jakob Poeltl
+
+NYK: OG Anunoby, Landry Shamet, Kevin McCullar Jr., Trey Jemison III, Pacome Dadiet

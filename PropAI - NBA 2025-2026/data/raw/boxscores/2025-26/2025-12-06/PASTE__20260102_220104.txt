@@ -1,0 +1,95 @@
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Will Richard
+F
+20:36	1	4	25.0	0	2	0.0	2	2	100	1	2	3	0	1	0	1	1	4	-1
+undefined Headshot
+Jonathan Kuminga
+F
+21:30	1	10	10.0	0	3	0.0	2	2	100	1	6	7	3	0	1	1	2	4	5
+undefined Headshot
+Quinten Post
+C
+31:55	5	14	35.7	2	6	33.3	0	0	0.0	1	8	9	3	0	3	2	4	12	-10
+undefined Headshot
+Buddy Hield
+G
+26:26	4	9	44.4	3	6	50.0	2	2	100	1	6	7	3	0	1	1	2	13	-1
+undefined Headshot
+Pat Spencer
+G
+29:28	7	12	58.3	3	4	75.0	2	2	100	1	3	4	7	1	0	1	3	19	9
+undefined Headshot
+Trayce Jackson-Davis
+16:05	3	6	50.0	0	0	0.0	2	2	100	2	3	5	1	1	1	0	1	8	15
+undefined Headshot
+Brandin Podziemski
+21:07	4	9	44.4	2	3	66.7	0	0	0.0	0	3	3	2	1	0	1	1	10	-5
+undefined Headshot
+Moses Moody
+19:43	2	5	40.0	1	3	33.3	4	5	80.0	0	2	2	2	1	1	1	1	9	9
+undefined Headshot
+Gui Santos
+26:30	3	8	37.5	2	4	50.0	6	8	75.0	1	2	3	3	0	1	2	0	14	0
+undefined Headshot
+Gary Payton II
+26:40	3	9	33.3	0	4	0.0	0	0	0.0	0	3	3	1	3	0	3	4	6	4
+undefined Headshot
+Al Horford
+DND - Injury/Illness
+TOTALS
+ 	33	86	38.4	13	35	37.1	20	23	87.0	8	38	46	25	8	8	13	19	99	5
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylon Tyson
+F
+34:05	5	12	41.7	1	4	25.0	0	0	0.0	4	7	11	3	0	0	1	5	11	6
+undefined Headshot
+De'Andre Hunter
+F
+33:17	2	9	22.2	0	4	0.0	2	3	66.7	1	2	3	3	1	0	2	4	6	-7
+undefined Headshot
+Evan Mobley
+C
+35:08	8	19	42.1	0	5	0.0	2	2	100	2	8	10	1	1	1	1	1	18	-3
+undefined Headshot
+Donovan Mitchell
+G
+37:10	11	26	42.3	7	14	50.0	0	0	0.0	2	2	4	3	0	1	2	2	29	8
+undefined Headshot
+Darius Garland
+G
+31:59	6	15	40.0	1	6	16.7	4	5	80.0	1	4	5	4	2	0	3	0	17	-14
+undefined Headshot
+Craig Porter Jr.
+15:12	0	4	0.0	0	0	0.0	0	0	0.0	3	1	4	0	0	1	0	3	0	-6
+undefined Headshot
+Dean Wade
+19:22	1	5	20.0	1	3	33.3	0	0	0.0	2	2	4	0	1	0	0	1	3	-5
+undefined Headshot
+Thomas Bryant
+12:24	0	4	0.0	0	3	0.0	2	2	100	1	5	6	0	0	0	0	2	2	0
+undefined Headshot
+Nae'Qwan Tomlin
+16:05	3	10	30.0	0	2	0.0	0	0	0.0	6	6	12	1	2	1	3	0	6	1
+undefined Headshot
+Luke Travers
+5:18	1	3	33.3	0	1	0.0	0	0	0.0	2	0	2	0	0	0	0	0	2	-5
+undefined Headshot
+Lonzo Ball
+DND - Rest
+undefined Headshot
+Chris Livingston
+DNP - Coach's Decision
+TOTALS
+ 	37	107	34.6	10	42	23.8	10	12	83.3	24	37	61	15	7	4	12	18	94	-5
+Inactive Players
+GSW: De'Anthony Melton, Alex Toohey, LJ Cryer, Stephen Curry, Jimmy Butler III, Draymond Green, Seth Curry
+
+CLE: Max Strus, Sam Merrill, Tyrese Proctor, Larry Nance Jr., Jarrett Allen

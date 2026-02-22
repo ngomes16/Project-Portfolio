@@ -1,0 +1,101 @@
+Boston Celtics
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Sam Hauser
+F
+27:21	2	6	33.3	2	5	40.0	0	0	0.0	1	5	6	1	0	0	1	1	6	-8
+undefined Headshot
+Jordan Walsh
+F
+12:44	0	1	0.0	0	0	0.0	0	0	0.0	0	4	4	0	0	1	1	0	0	-15
+undefined Headshot
+Neemias Queta
+C
+22:08	7	7	100	0	0	0.0	0	1	0.0	2	3	5	0	1	0	1	4	14	-12
+undefined Headshot
+Payton Pritchard
+G
+37:00	13	24	54.2	4	9	44.4	3	3	100	2	5	7	10	0	0	1	0	33	4
+undefined Headshot
+Derrick White
+G
+35:55	5	20	25.0	4	12	33.3	1	1	100	0	5	5	7	0	1	2	0	15	1
+undefined Headshot
+Luka Garza
+25:43	4	9	44.4	0	2	0.0	4	6	66.7	9	1	10	2	0	1	1	4	12	22
+undefined Headshot
+Hugo González
+27:49	5	9	55.6	0	2	0.0	0	0	0.0	1	9	10	0	2	1	0	4	10	37
+undefined Headshot
+Josh Minott
+17:25	1	2	50.0	1	2	50.0	2	2	100	1	3	4	0	0	0	1	2	5	10
+undefined Headshot
+Anfernee Simons
+26:00	6	15	40.0	1	6	16.7	2	2	100	1	2	3	1	2	0	0	2	15	32
+undefined Headshot
+Baylor Scheierman
+7:55	1	2	50.0	0	1	0.0	0	0	0.0	0	1	1	1	2	0	1	4	2	9
+undefined Headshot
+Chris Boucher
+DNP - Coach's Decision
+undefined Headshot
+Jaylen Brown
+DND - Injury/Illness
+undefined Headshot
+Xavier Tillman
+DNP - Coach's Decision
+TOTALS
+ 	44	95	46.3	12	39	30.8	12	15	80.0	17	38	55	22	7	4	9	21	112	16
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+35:10	10	17	58.8	3	7	42.9	1	2	50.0	1	3	4	7	0	1	3	2	24	8
+undefined Headshot
+Scottie Barnes
+F
+33:08	5	15	33.3	1	5	20.0	1	1	100	2	7	9	6	0	2	4	2	12	-10
+undefined Headshot
+Sandro Mamukelashvili
+C
+29:47	9	13	69.2	6	9	66.7	0	0	0.0	1	4	5	1	0	1	2	4	24	-6
+undefined Headshot
+Ochai Agbaji
+G
+27:08	1	5	20.0	0	3	0.0	4	4	100	0	3	3	1	0	0	0	1	6	8
+undefined Headshot
+Immanuel Quickley
+G
+31:33	1	12	8.3	1	7	14.3	0	0	0.0	1	3	4	7	1	1	1	2	3	4
+undefined Headshot
+Collin Murray-Boyles
+22:40	4	8	50.0	1	3	33.3	0	1	0.0	4	2	6	4	0	1	1	2	9	-18
+undefined Headshot
+Jamal Shead
+23:38	2	5	40.0	2	4	50.0	0	0	0.0	0	3	3	2	0	0	1	1	6	-15
+undefined Headshot
+Gradey Dick
+13:20	2	4	50.0	0	2	0.0	1	1	100	0	0	0	1	1	0	0	2	5	-21
+undefined Headshot
+Ja'Kobe Walter
+15:11	2	6	33.3	2	5	40.0	1	2	50.0	0	0	0	0	0	1	0	2	7	-29
+undefined Headshot
+Jamison Battle
+6:27	0	1	0.0	0	1	0.0	0	0	0.0	0	2	2	1	0	0	0	0	0	1
+undefined Headshot
+Garrett Temple
+1:58	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-2
+undefined Headshot
+Jakob Poeltl
+DND - Injury/Illness
+TOTALS
+ 	36	87	41.4	16	47	34.0	8	11	72.7	9	28	37	30	2	7	12	18	96	-16
+Inactive Players
+BOS: Jayson Tatum, Ron Harper Jr., Amari Williams, Max Shulga
+
+TOR: Alijah Martin, Chucky Hepburn, Jonathan Mogbo, RJ Barrett, A.J. Lawson

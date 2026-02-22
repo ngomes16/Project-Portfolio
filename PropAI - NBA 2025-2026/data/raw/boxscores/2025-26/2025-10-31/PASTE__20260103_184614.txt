@@ -1,0 +1,107 @@
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+OG Anunoby
+F
+36:28	10	13	76.9	5	7	71.4	1	2	50.0	1	3	4	3	1	1	1	4	26	6
+undefined Headshot
+Karl-Anthony Towns
+F
+31:43	6	14	42.9	1	5	20.0	9	9	100	2	8	10	4	0	1	2	2	22	7
+undefined Headshot
+Mitchell Robinson
+C
+19:35	2	3	66.7	0	0	0.0	0	0	0.0	6	5	11	2	0	0	1	3	4	0
+undefined Headshot
+Mikal Bridges
+G
+37:43	9	14	64.3	4	8	50.0	1	2	50.0	0	4	4	6	0	1	1	4	23	-1
+undefined Headshot
+Jalen Brunson
+G
+35:08	12	25	48.0	3	8	37.5	2	5	40.0	1	1	2	7	0	0	2	4	29	-6
+undefined Headshot
+Landry Shamet
+14:34	1	5	20.0	1	5	20.0	1	2	50.0	1	0	1	0	1	0	0	1	4	-7
+undefined Headshot
+Miles McBride
+29:01	3	9	33.3	2	5	40.0	0	0	0.0	1	1	2	2	1	0	1	2	8	-22
+undefined Headshot
+Josh Hart
+15:09	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	1	0	0	1	2	0	-18
+undefined Headshot
+Guerschon Yabusele
+3:26	1	3	33.3	1	2	50.0	0	0	0.0	0	2	2	0	0	1	0	1	3	-2
+undefined Headshot
+Jordan Clarkson
+12:57	1	4	25.0	1	4	25.0	3	3	100	0	1	1	2	0	1	2	1	6	-5
+undefined Headshot
+Tyler Kolek
+4:18	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	1	1	0	-2
+undefined Headshot
+Pacôme Dadiet
+DNP - Coach's Decision
+undefined Headshot
+Mohamed Diawara
+DNP - Coach's Decision
+undefined Headshot
+Ariel Hukporti
+DNP - Coach's Decision
+TOTALS
+ 	45	91	49.5	18	45	40.0	17	23	73.9	12	27	39	27	3	5	12	25	125	-10
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Isaac Okoro
+F
+16:07	1	3	33.3	1	2	50.0	0	0	0.0	0	0	0	0	1	0	0	2	3	-11
+undefined Headshot
+Matas Buzelis
+F
+29:11	4	10	40.0	2	5	40.0	3	4	75.0	0	0	0	1	1	1	1	4	13	-5
+undefined Headshot
+Nikola Vučević
+C
+30:52	10	17	58.8	4	8	50.0	2	5	40.0	2	5	7	2	0	0	1	3	26	-3
+undefined Headshot
+Tre Jones
+G
+24:02	0	4	0.0	0	0	0.0	8	8	100	1	3	4	3	0	1	0	3	8	-3
+undefined Headshot
+Josh Giddey
+G
+38:29	12	21	57.1	4	8	50.0	4	6	66.7	0	10	10	9	1	0	0	1	32	5
+undefined Headshot
+Kevin Huerter
+25:35	4	7	57.1	1	3	33.3	3	3	100	1	5	6	2	2	1	2	0	12	13
+undefined Headshot
+Patrick Williams
+23:26	3	6	50.0	2	4	50.0	1	1	100	0	1	1	3	1	1	2	3	9	13
+undefined Headshot
+Ayo Dosunmu
+29:18	8	10	80.0	1	3	33.3	5	6	83.3	0	4	4	9	1	0	1	3	22	19
+undefined Headshot
+Jalen Smith
+17:08	3	5	60.0	2	4	50.0	2	2	100	2	7	9	2	1	2	0	3	10	13
+undefined Headshot
+Julian Phillips
+5:52	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	9
+undefined Headshot
+Jevon Carter
+DNP - Coach's Decision
+undefined Headshot
+Noa Essengue
+DNP - Coach's Decision
+undefined Headshot
+Dalen Terry
+DNP - Coach's Decision
+TOTALS
+ 	45	84	53.6	17	37	45.9	28	35	80.0	6	35	41	31	8	6	7	22	135	10
+Inactive Players
+NYK: Trey Jemison III, Kevin McCullar Jr., Tosan Evbuomwan
+
+CHI: Zach Collins, Coby White, Emanuel Miller, Trentyn Flowers, Lachlan Olbrich

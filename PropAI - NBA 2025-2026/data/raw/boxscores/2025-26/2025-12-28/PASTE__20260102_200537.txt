@@ -1,0 +1,107 @@
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Wells
+F
+27:30	4	11	36.4	2	4	50.0	1	2	50.0	0	7	7	3	0	0	2	2	11	5
+undefined Headshot
+Jaren Jackson Jr.
+F
+35:02	11	25	44.0	2	7	28.6	7	9	77.8	4	4	8	1	1	4	3	4	31	1
+undefined Headshot
+Santi Aldama
+C
+35:29	5	14	35.7	1	4	25.0	3	4	75.0	2	8	10	3	5	0	3	2	14	-12
+undefined Headshot
+Cedric Coward
+G
+22:44	4	9	44.4	0	3	0.0	3	3	100	1	5	6	3	0	0	2	1	11	-13
+undefined Headshot
+Ja Morant
+G
+27:28	8	16	50.0	3	5	60.0	2	2	100	0	0	0	7	0	0	3	0	21	-22
+undefined Headshot
+Kentavious Caldwell-Pope
+10:44	2	5	40.0	0	1	0.0	0	0	0.0	1	0	1	1	0	1	0	0	4	0
+undefined Headshot
+Christian Koloko
+25:29	2	5	40.0	0	0	0.0	0	0	0.0	2	5	7	1	1	3	0	1	4	3
+undefined Headshot
+Cam Spencer
+26:43	4	11	36.4	0	5	0.0	0	0	0.0	0	3	3	7	2	0	2	3	8	13
+undefined Headshot
+GG Jackson
+21:05	2	5	40.0	0	2	0.0	1	1	100	0	1	1	1	4	0	1	3	5	12
+undefined Headshot
+Olivier-Maxence Prosper
+7:46	1	2	50.0	1	1	100	0	0	0.0	0	0	0	0	1	0	0	1	3	-7
+undefined Headshot
+Jock Landale
+DND - Injury/Illness
+undefined Headshot
+Vince Williams Jr.
+DND - Injury/Illness
+TOTALS
+ 	43	103	41.7	9	32	28.1	17	21	81.0	10	33	43	27	14	8	16	17	112	-4
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Bilal Coulibaly
+F
+28:44	6	15	40.0	0	3	0.0	2	2	100	3	5	8	2	3	2	1	4	14	3
+undefined Headshot
+Khris Middleton
+F
+22:36	2	7	28.6	0	1	0.0	6	6	100	1	5	6	2	1	1	1	1	10	6
+undefined Headshot
+Alex Sarr
+C
+26:14	9	20	45.0	1	6	16.7	1	1	100	3	6	9	1	2	6	1	3	20	2
+undefined Headshot
+Tre Johnson
+G
+25:32	5	11	45.5	2	5	40.0	2	2	100	0	0	0	4	1	1	1	2	14	18
+undefined Headshot
+CJ McCollum
+G
+32:31	5	12	41.7	1	6	16.7	5	5	100	0	4	4	5	0	0	4	1	16	-1
+undefined Headshot
+Justin Champagnie
+25:22	3	8	37.5	2	4	50.0	2	2	100	4	8	12	0	1	1	2	3	10	-2
+undefined Headshot
+Bub Carrington
+26:55	4	9	44.4	2	4	50.0	2	3	66.7	1	3	4	7	1	0	8	2	12	-3
+undefined Headshot
+Will Riley
+18:55	0	5	0.0	0	2	0.0	0	0	0.0	0	4	4	4	0	1	0	2	0	1
+undefined Headshot
+Marvin Bagley III
+21:44	6	8	75.0	0	0	0.0	2	2	100	3	4	7	1	0	0	1	1	14	0
+undefined Headshot
+Malaki Branham
+11:04	2	4	50.0	0	2	0.0	2	2	100	0	0	0	0	0	0	0	1	6	-4
+undefined Headshot
+Jamir Watkins
+0:23	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	0
+undefined Headshot
+Sharife Cooper
+DNP - Coach's Decision
+undefined Headshot
+Anthony Gill
+DNP - Coach's Decision
+undefined Headshot
+AJ Johnson
+DNP - Coach's Decision
+undefined Headshot
+Tristan Vukcevic
+DNP - Coach's Decision
+TOTALS
+ 	42	99	42.4	8	33	24.2	24	25	96.0	15	39	54	26	9	12	19	21	116	4
+Inactive Players
+MEM: Brandon Clarke, Ty Jerome, John Konchar, Scotty Pippen Jr., Zach Edey, Javon Small, Jahmai Mashack
+
+WAS: Kyshawn George, Cam Whitmore, Corey Kispert

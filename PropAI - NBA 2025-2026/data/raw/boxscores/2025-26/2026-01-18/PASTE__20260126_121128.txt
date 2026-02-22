@@ -1,0 +1,113 @@
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Sidy Cissoko
+F
+34:20	2	7	28.6	1	4	25.0	3	4	75.0	0	2	2	1	2	1	1	3	8	10
+undefined Headshot
+Toumani Camara
+F
+36:24	7	7	100	1	1	100	2	2	100	1	2	3	2	0	1	1	3	17	16
+undefined Headshot
+Donovan Clingan
+C
+36:59	6	9	66.7	1	2	50.0	8	8	100	4	13	17	3	0	1	1	1	21	17
+undefined Headshot
+Shaedon Sharpe
+G
+34:01	8	19	42.1	3	9	33.3	8	11	72.7	2	5	7	0	1	0	5	5	27	0
+undefined Headshot
+Deni Avdija
+G
+31:46	10	18	55.6	2	6	33.3	8	8	100	1	7	8	8	0	1	3	1	30	4
+undefined Headshot
+Hansen Yang
+9:22	1	3	33.3	0	1	0.0	0	0	0.0	0	0	0	1	1	0	2	2	2	-7
+undefined Headshot
+Duop Reath
+11:54	0	2	0.0	0	2	0.0	0	0	0.0	1	0	1	1	0	0	0	0	0	-11
+undefined Headshot
+Caleb Love
+21:41	3	10	30.0	0	4	0.0	0	0	0.0	1	1	2	1	1	0	1	1	6	14
+undefined Headshot
+Rayan Rupert
+16:15	2	4	50.0	0	0	0.0	0	0	0.0	1	1	2	1	0	0	0	2	4	-7
+undefined Headshot
+Javonte Cooke
+7:18	1	4	25.0	0	3	0.0	0	0	0.0	0	1	1	0	2	0	0	0	2	-1
+undefined Headshot
+Jerami Grant
+DNP - Injury/Illness
+undefined Headshot
+Jrue Holiday
+DNP - Injury/Illness
+undefined Headshot
+Kris Murray
+DNP - Injury/Illness
+undefined Headshot
+Matisse Thybulle
+DNP - Injury/Illness
+undefined Headshot
+Robert Williams III
+DNP - Injury/Illness
+TOTALS
+ 	40	83	48.2	8	32	25.0	29	33	87.9	11	32	43	18	7	4	14	18	117	7
+Sacramento Kings
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+DeMar DeRozan
+F
+34:52	6	11	54.5	0	1	0.0	2	3	66.7	1	1	2	7	2	1	3	4	14	-14
+undefined Headshot
+Precious Achiuwa
+F
+17:43	2	3	66.7	0	1	0.0	0	0	0.0	0	3	3	2	0	1	1	3	4	-14
+undefined Headshot
+Maxime Raynaud
+C
+22:42	3	11	27.3	0	2	0.0	0	0	0.0	3	6	9	1	0	1	0	3	6	-4
+undefined Headshot
+Zach LaVine
+G
+28:55	5	13	38.5	3	8	37.5	5	6	83.3	0	0	0	1	1	0	1	2	18	-7
+undefined Headshot
+Russell Westbrook
+G
+33:31	9	15	60.0	3	6	50.0	2	3	66.7	0	3	3	7	3	0	2	2	23	-7
+undefined Headshot
+Dylan Cardwell
+25:45	5	8	62.5	0	0	0.0	2	2	100	2	8	10	2	1	1	1	6	12	3
+undefined Headshot
+Nique Clifford
+13:08	0	2	0.0	0	1	0.0	0	0	0.0	1	1	2	2	0	1	1	1	0	7
+undefined Headshot
+Dennis Schröder
+17:40	1	5	20.0	0	2	0.0	0	0	0.0	0	2	2	3	1	0	0	3	2	-6
+undefined Headshot
+Domantas Sabonis
+19:49	2	3	66.7	0	1	0.0	4	4	100	3	5	8	2	0	0	6	2	8	1
+undefined Headshot
+Malik Monk
+25:55	9	15	60.0	5	9	55.6	0	0	0.0	0	1	1	2	0	0	1	0	23	6
+undefined Headshot
+Devin Carter
+DNP - Coach's Decision
+undefined Headshot
+Drew Eubanks
+DNP - Coach's Decision
+undefined Headshot
+Doug McDermott
+DNP - Coach's Decision
+undefined Headshot
+Dario Šarić
+DNP - Coach's Decision
+TOTALS
+ 	42	86	48.8	11	31	35.5	15	18	83.3	10	30	40	29	8	5	16	26	110	-7
+Inactive Players
+POR: Blake Wesley, Damian Lillard, Scoot Henderson
+
+SAC: Keegan Murray, Keon Ellis, Daeqwon Plowden, Isaiah Stevens

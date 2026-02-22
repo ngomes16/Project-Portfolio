@@ -1,0 +1,6 @@
+#
+# File: web/.nojekyll
+# Purpose: Instruct GitHub Pages to serve the site without Jekyll processing so
+# that directories beginning with underscores and ES modules are served correctly.
+
+

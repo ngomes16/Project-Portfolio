@@ -1,0 +1,101 @@
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kyshawn George
+F
+25:14	4	15	26.7	2	10	20.0	1	1	100	1	7	8	7	2	1	2	4	11	-10
+undefined Headshot
+Will Riley
+F
+23:29	3	6	50.0	1	3	33.3	0	0	0.0	0	0	0	2	1	0	0	1	7	-22
+undefined Headshot
+Alex Sarr
+C
+37:17	11	19	57.9	1	3	33.3	1	1	100	3	1	4	1	1	1	2	3	24	-16
+undefined Headshot
+Tre Johnson
+G
+36:33	8	22	36.4	6	15	40.0	4	5	80.0	0	0	0	6	0	0	2	2	26	-2
+undefined Headshot
+Bub Carrington
+G
+32:16	5	11	45.5	5	11	45.5	0	0	0.0	1	2	3	8	1	0	2	2	15	-12
+undefined Headshot
+Justin Champagnie
+32:07	7	9	77.8	1	3	33.3	0	0	0.0	3	8	11	3	3	2	2	1	15	4
+undefined Headshot
+Jamir Watkins
+28:49	4	9	44.4	1	5	20.0	2	2	100	2	4	6	3	5	2	0	5	11	12
+undefined Headshot
+Anthony Gill
+7:16	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	2	0	0	1	2	0	12
+undefined Headshot
+Sharife Cooper
+9:28	1	1	100	1	1	100	0	0	0.0	0	0	0	1	1	0	1	1	3	6
+undefined Headshot
+Malaki Branham
+7:31	1	3	33.3	1	1	100	0	0	0.0	0	2	2	2	0	0	1	1	3	8
+undefined Headshot
+Marvin Bagley III
+NWT - Not With Team
+undefined Headshot
+Khris Middleton
+DND - Injury/Illness
+TOTALS
+ 	44	96	45.8	19	53	35.8	8	9	88.9	10	24	34	35	14	6	13	22	115	-4
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+31:54	5	11	45.5	3	8	37.5	3	4	75.0	1	3	4	3	1	0	1	1	16	-9
+undefined Headshot
+Miles Bridges
+F
+28:53	7	13	53.8	3	7	42.9	3	5	60.0	1	2	3	4	0	2	2	2	20	3
+undefined Headshot
+Moussa Diabaté
+C
+32:04	2	3	66.7	0	0	0.0	7	8	87.5	5	9	14	0	1	0	2	0	11	13
+undefined Headshot
+Brandon Miller
+G
+33:20	7	12	58.3	2	4	50.0	5	5	100	3	8	11	7	1	0	5	0	21	15
+undefined Headshot
+LaMelo Ball
+G
+31:36	8	19	42.1	3	9	33.3	1	1	100	0	2	2	11	1	0	3	2	20	6
+undefined Headshot
+Josh Green
+15:07	2	2	100	2	2	100	0	0	0.0	0	2	2	0	0	0	1	3	6	10
+undefined Headshot
+Grant Williams
+19:07	1	4	25.0	0	2	0.0	0	0	0.0	1	0	1	1	1	0	1	0	2	1
+undefined Headshot
+Sion James
+16:24	2	5	40.0	0	2	0.0	2	3	66.7	0	5	5	2	0	0	4	1	6	-2
+undefined Headshot
+Ryan Kalkbrenner
+15:56	4	4	100	0	0	0.0	0	2	0.0	1	2	3	0	0	1	0	1	8	-9
+undefined Headshot
+Collin Sexton
+15:39	3	6	50.0	1	2	50.0	2	2	100	0	1	1	2	3	0	2	0	9	-8
+undefined Headshot
+Pat Connaughton
+DNP - Coach's Decision
+undefined Headshot
+Tre Mann
+DNP - Coach's Decision
+undefined Headshot
+Tidjane Salaün
+DNP - Coach's Decision
+TOTALS
+ 	41	79	51.9	14	36	38.9	23	30	76.7	12	34	46	30	8	3	21	10	119	4
+Inactive Players
+WAS: AJ Johnson, Trae Young, Cam Whitmore, Bilal Coulibaly, Tristan Vukcevic
+
+CHA: Mason Plumlee, PJ Hall, Antonio Reeves, KJ Simpson, Liam McNeeley

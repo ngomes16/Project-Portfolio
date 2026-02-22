@@ -1,0 +1,110 @@
+Boston Celtics
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Brown
+F
+38:55	11	28	39.3	2	8	25.0	8	10	80.0	4	7	11	2	0	1	4	3	32	2
+undefined Headshot
+Sam Hauser
+F
+27:21	6	9	66.7	4	7	57.1	0	0	0.0	0	5	5	1	0	0	0	4	16	2
+undefined Headshot
+Neemias Queta
+C
+28:20	1	2	50.0	0	0	0.0	8	10	80.0	1	7	8	1	3	1	2	4	10	15
+undefined Headshot
+Derrick White
+G
+37:44	1	11	9.1	0	6	0.0	2	3	66.7	5	4	9	5	0	2	1	1	4	9
+undefined Headshot
+Payton Pritchard
+G
+33:39	5	8	62.5	3	6	50.0	4	5	80.0	1	2	3	3	0	0	2	3	17	2
+undefined Headshot
+Luka Garza
+15:12	3	8	37.5	2	5	40.0	2	2	100	2	2	4	0	2	0	2	4	10	-8
+undefined Headshot
+Anfernee Simons
+24:41	4	11	36.4	1	6	16.7	0	0	0.0	1	2	3	0	1	0	2	0	9	-13
+undefined Headshot
+Hugo González
+1:47	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	-2
+undefined Headshot
+Jordan Walsh
+16:05	1	2	50.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	1	2	2	-7
+undefined Headshot
+Xavier Tillman
+1:36	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Baylor Scheierman
+14:40	1	3	33.3	1	3	33.3	0	0	0.0	0	1	1	1	1	0	0	1	3	-3
+undefined Headshot
+Chris Boucher
+DNP - Coach's Decision
+undefined Headshot
+Josh Minott
+DND - Injury/Illness
+TOTALS
+ 	33	83	39.8	13	41	31.7	24	30	80.0	14	31	45	13	7	4	14	23	103	-1
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+27:34	3	6	50.0	0	0	0.0	1	1	100	2	5	7	2	4	1	1	2	7	-6
+undefined Headshot
+Tobias Harris
+F
+34:53	11	20	55.0	3	8	37.5	0	0	0.0	0	3	3	1	0	1	1	4	25	0
+undefined Headshot
+Jalen Duren
+C
+30:45	8	12	66.7	0	0	0.0	2	5	40.0	3	6	9	1	1	0	1	5	18	-4
+undefined Headshot
+Duncan Robinson
+G
+31:32	5	13	38.5	5	11	45.5	0	0	0.0	1	2	3	2	1	1	0	2	15	-4
+undefined Headshot
+Cade Cunningham
+G
+40:16	4	17	23.5	0	4	0.0	8	10	80.0	1	2	3	14	1	2	0	3	16	1
+undefined Headshot
+Jaden Ivey
+17:10	2	3	66.7	2	3	66.7	1	2	50.0	1	2	3	2	0	2	3	0	7	2
+undefined Headshot
+Isaiah Stewart
+21:14	2	5	40.0	0	2	0.0	4	4	100	1	4	5	0	0	1	1	2	8	8
+undefined Headshot
+Caris LeVert
+17:00	1	6	16.7	0	4	0.0	0	0	0.0	0	3	3	1	1	0	1	4	2	1
+undefined Headshot
+Ronald Holland II
+12:20	1	4	25.0	0	1	0.0	1	1	100	0	4	4	1	1	0	0	3	3	3
+undefined Headshot
+Javonte Green
+7:17	1	2	50.0	1	2	50.0	0	0	0.0	0	1	1	0	0	1	0	0	3	4
+undefined Headshot
+Daniss Jenkins
+DNP - Coach's Decision
+undefined Headshot
+Bobi Klintman
+DNP - Coach's Decision
+undefined Headshot
+Chaz Lanier
+DNP - Coach's Decision
+undefined Headshot
+Paul Reed
+DNP - Coach's Decision
+undefined Headshot
+Marcus Sasser
+DNP - Coach's Decision
+TOTALS
+ 	38	88	43.2	11	35	31.4	17	23	73.9	9	32	41	24	9	9	8	25	104	1
+Inactive Players
+BOS: Jayson Tatum, Ron Harper Jr., Amari Williams, Max Shulga
+
+DET: Isaac Jones, Tolu Smith, Wendell Moore Jr.

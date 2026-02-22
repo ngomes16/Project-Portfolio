@@ -1,0 +1,113 @@
+Denver Nuggets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cameron Johnson
+F
+18:56	2	5	40.0	1	3	33.3	0	0	0.0	0	2	2	2	0	0	2	5	5	-14
+undefined Headshot
+Aaron Gordon
+F
+32:49	3	10	30.0	0	2	0.0	3	3	100	0	3	3	3	0	0	2	3	9	8
+undefined Headshot
+Nikola Jokić
+C
+36:08	9	10	90.0	0	0	0.0	7	7	100	6	13	19	10	2	1	3	4	25	17
+undefined Headshot
+Christian Braun
+G
+27:29	3	9	33.3	1	3	33.3	0	0	0.0	1	2	3	2	2	0	0	1	7	-1
+undefined Headshot
+Jamal Murray
+G
+37:13	16	29	55.2	5	9	55.6	6	7	85.7	0	6	6	3	0	0	2	2	43	30
+undefined Headshot
+Tim Hardaway Jr.
+31:37	7	11	63.6	4	6	66.7	2	2	100	0	1	1	3	0	0	0	2	20	25
+undefined Headshot
+Peyton Watson
+24:42	4	6	66.7	2	2	100	2	2	100	0	2	2	1	1	2	1	0	12	14
+undefined Headshot
+Bruce Brown
+13:24	1	4	25.0	0	0	0.0	0	0	0.0	2	3	5	0	0	0	1	3	2	0
+undefined Headshot
+Spencer Jones
+0:20	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	-4
+undefined Headshot
+Jonas Valančiūnas
+10:18	1	3	33.3	0	0	0.0	2	4	50.0	1	3	4	0	0	1	1	3	4	0
+undefined Headshot
+Julian Strawther
+1:25	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Hunter Tyson
+1:25	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-2
+undefined Headshot
+DaRon Holmes II
+1:25	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Jalen Pickett
+1:25	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Zeke Nnaji
+1:25	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+TOTALS
+ 	46	88	52.3	13	26	50.0	22	25	88.0	10	36	46	24	5	4	12	24	127	13
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+35:26	10	16	62.5	1	3	33.3	4	4	100	0	3	3	1	0	4	2	1	25	-13
+undefined Headshot
+Julius Randle
+F
+34:33	8	15	53.3	1	4	25.0	7	8	87.5	1	6	7	3	2	1	2	4	24	-5
+undefined Headshot
+Rudy Gobert
+C
+26:27	3	7	42.9	0	0	0.0	2	2	100	2	3	5	1	1	2	1	4	8	-18
+undefined Headshot
+Donte DiVincenzo
+G
+29:53	3	10	30.0	3	8	37.5	3	3	100	0	3	3	4	1	0	1	2	12	-7
+undefined Headshot
+Mike Conley
+G
+25:39	3	8	37.5	1	3	33.3	3	3	100	1	2	3	4	1	1	0	0	10	-2
+undefined Headshot
+Terrence Shannon Jr.
+25:14	3	8	37.5	1	3	33.3	2	3	66.7	1	2	3	1	1	0	1	2	9	-11
+undefined Headshot
+Naz Reid
+27:21	7	12	58.3	2	6	33.3	2	4	50.0	2	5	7	2	1	1	2	4	18	0
+undefined Headshot
+Rob Dillingham
+12:03	2	2	100	0	0	0.0	0	0	0.0	0	0	0	2	1	0	3	2	4	-5
+undefined Headshot
+Bones Hyland
+15:37	1	6	16.7	1	5	20.0	1	2	50.0	0	2	2	1	0	0	2	2	4	-4
+undefined Headshot
+Johnny Juzang
+2:46	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Leonard Miller
+2:46	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Joan Beringer
+2:15	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	0
+undefined Headshot
+Jaylen Clark
+DND - Injury/Illness
+undefined Headshot
+Joe Ingles
+DNP - Coach's Decision
+TOTALS
+ 	40	85	47.1	10	32	31.3	24	29	82.8	7	26	33	19	8	9	14	22	114	-13
+Inactive Players
+DEN: Tamar Bates, Curtis Jones
+
+MIN: Anthony Edwards, Enrique Freeman, Rocco Zikarsky

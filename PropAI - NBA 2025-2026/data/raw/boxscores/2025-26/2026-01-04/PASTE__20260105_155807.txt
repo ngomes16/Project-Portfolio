@@ -1,0 +1,107 @@
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+21:53	3	4	75.0	0	0	0.0	6	6	100	1	4	5	5	3	0	1	4	12	14
+undefined Headshot
+Julius Randle
+F
+25:18	9	15	60.0	1	3	33.3	3	5	60.0	2	1	3	4	0	0	0	3	22	16
+undefined Headshot
+Rudy Gobert
+C
+29:19	8	10	80.0	0	0	0.0	2	2	100	6	8	14	0	0	4	1	0	18	32
+undefined Headshot
+Anthony Edwards
+G
+30:10	14	21	66.7	6	10	60.0	1	4	25.0	0	6	6	3	4	0	4	2	35	29
+undefined Headshot
+Donte DiVincenzo
+G
+22:35	2	10	20.0	1	9	11.1	0	0	0.0	1	3	4	3	3	0	1	0	5	28
+undefined Headshot
+Naz Reid
+20:07	4	8	50.0	0	2	0.0	1	2	50.0	2	5	7	3	0	1	1	0	9	19
+undefined Headshot
+Jaylen Clark
+27:39	4	6	66.7	0	1	0.0	4	5	80.0	2	0	2	3	3	1	0	0	12	19
+undefined Headshot
+Mike Conley
+12:56	2	4	50.0	2	4	50.0	1	1	100	2	0	2	3	0	0	1	0	7	10
+undefined Headshot
+Bones Hyland
+15:27	2	5	40.0	1	3	33.3	2	2	100	0	2	2	5	0	0	1	3	7	1
+undefined Headshot
+Leonard Miller
+10:32	3	7	42.9	0	3	0.0	0	0	0.0	1	2	3	0	1	0	1	2	6	-11
+undefined Headshot
+Johnny Juzang
+8:35	3	5	60.0	0	2	0.0	0	0	0.0	0	1	1	0	0	0	1	0	6	-9
+undefined Headshot
+Joe Ingles
+8:27	1	1	100	0	0	0.0	0	0	0.0	0	2	2	0	0	0	0	1	2	-7
+undefined Headshot
+Rob Dillingham
+7:02	0	2	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	2	2	0	-11
+TOTALS
+ 	55	98	56.1	11	37	29.7	20	27	74.1	17	34	51	29	14	6	14	17	141	26
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Bilal Coulibaly
+F
+27:34	3	6	50.0	0	2	0.0	0	0	0.0	1	3	4	1	0	2	0	3	6	-24
+undefined Headshot
+Khris Middleton
+F
+17:51	4	6	66.7	2	4	50.0	0	0	0.0	0	2	2	1	1	0	0	3	10	-6
+undefined Headshot
+Alex Sarr
+C
+25:58	3	10	30.0	1	2	50.0	0	0	0.0	1	2	3	4	1	0	2	3	7	-16
+undefined Headshot
+Tre Johnson
+G
+26:58	3	11	27.3	1	5	20.0	6	6	100	0	3	3	3	1	0	2	3	13	-6
+undefined Headshot
+CJ McCollum
+G
+22:10	8	12	66.7	3	4	75.0	1	1	100	1	2	3	2	1	0	3	2	20	-8
+undefined Headshot
+Bub Carrington
+17:23	2	9	22.2	1	6	16.7	2	2	100	0	0	0	4	2	0	1	0	7	-25
+undefined Headshot
+Marvin Bagley III
+13:45	3	3	100	0	0	0.0	0	0	0.0	1	2	3	0	0	0	3	4	6	-23
+undefined Headshot
+Corey Kispert
+18:19	4	8	50.0	2	5	40.0	3	3	100	0	1	1	0	0	0	3	0	13	-26
+undefined Headshot
+Justin Champagnie
+18:09	3	6	50.0	0	2	0.0	0	1	0.0	2	4	6	0	0	2	0	1	6	-23
+undefined Headshot
+AJ Johnson
+12:52	2	5	40.0	1	2	50.0	0	0	0.0	0	2	2	3	1	0	1	1	5	6
+undefined Headshot
+Tristan Vukcevic
+13:15	3	5	60.0	0	2	0.0	2	2	100	1	1	2	2	0	1	1	0	8	5
+undefined Headshot
+Will Riley
+13:30	2	3	66.7	0	0	0.0	2	2	100	1	2	3	1	1	0	3	0	6	-2
+undefined Headshot
+Malaki Branham
+7:02	1	2	50.0	1	2	50.0	1	2	50.0	0	1	1	0	0	0	0	0	4	11
+undefined Headshot
+Anthony Gill
+5:14	2	2	100	0	0	0.0	0	0	0.0	1	1	2	0	1	0	0	0	4	7
+TOTALS
+ 	43	88	48.9	12	36	33.3	17	19	89.5	9	26	35	21	9	5	19	20	115	-26
+Inactive Players
+MIN: Terrence Shannon Jr., Enrique Freeman, Joan Beringer, Rocco Zikarsky
+
+WAS: Sharife Cooper, Cam Whitmore, Kyshawn George, Jamir Watkins

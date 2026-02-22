@@ -1,0 +1,101 @@
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Durant
+F
+29:24	8	15	53.3	1	4	25.0	5	5	100	1	4	5	1	0	2	3	1	22	-15
+undefined Headshot
+Jabari Smith Jr.
+F
+31:58	6	13	46.2	4	10	40.0	0	0	0.0	0	1	1	1	0	0	0	2	16	-19
+undefined Headshot
+Alperen Sengun
+C
+28:05	9	16	56.3	0	0	0.0	1	1	100	6	5	11	7	2	1	3	2	19	-9
+undefined Headshot
+Josh Okogie
+G
+11:42	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	1	0	0	0	2	0	3
+undefined Headshot
+Amen Thompson
+G
+34:42	7	10	70.0	0	0	0.0	5	8	62.5	4	5	9	5	2	0	3	2	19	-15
+undefined Headshot
+Steven Adams
+14:00	1	3	33.3	0	0	0.0	0	0	0.0	1	3	4	1	0	0	1	1	2	-5
+undefined Headshot
+Reed Sheppard
+26:16	3	9	33.3	1	5	20.0	1	1	100	0	1	1	3	0	1	0	1	8	-21
+undefined Headshot
+Tari Eason
+18:19	3	7	42.9	1	5	20.0	0	0	0.0	1	4	5	0	0	1	0	2	7	-16
+undefined Headshot
+Aaron Holiday
+16:07	1	4	25.0	1	3	33.3	0	0	0.0	0	0	0	1	0	0	2	3	3	-9
+undefined Headshot
+Jae'Sean Tate
+13:42	3	4	75.0	0	0	0.0	1	1	100	2	1	3	3	0	1	0	3	7	0
+undefined Headshot
+Jeff Green
+5:15	1	2	50.0	1	2	50.0	0	0	0.0	0	1	1	0	0	0	0	1	3	2
+undefined Headshot
+JD Davison
+5:15	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	1	0	0	2
+undefined Headshot
+Clint Capela
+5:15	1	2	50.0	0	0	0.0	0	2	0.0	0	1	1	1	1	0	0	0	2	2
+TOTALS
+ 	43	86	50.0	9	30	30.0	13	18	72.2	15	27	42	25	5	6	13	20	108	-20
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kawhi Leonard
+F
+36:50	16	23	69.6	4	5	80.0	5	5	100	1	7	8	5	0	0	2	2	41	25
+undefined Headshot
+John Collins
+F
+29:27	5	8	62.5	3	3	100	0	0	0.0	2	3	5	5	2	2	0	3	13	17
+undefined Headshot
+Brook Lopez
+C
+27:19	1	5	20.0	1	4	25.0	2	2	100	1	5	6	4	0	2	0	2	5	13
+undefined Headshot
+Kris Dunn
+G
+25:33	4	8	50.0	3	7	42.9	0	1	0.0	0	4	4	2	1	0	0	1	11	17
+undefined Headshot
+James Harden
+G
+34:44	7	14	50.0	3	8	37.5	12	13	92.3	0	4	4	6	2	0	4	2	29	19
+undefined Headshot
+Nicolas Batum
+25:13	2	4	50.0	2	4	50.0	0	0	0.0	0	0	0	0	0	0	1	2	6	9
+undefined Headshot
+Yanic Konan Niederhäuser
+15:19	1	1	100	0	0	0.0	1	2	50.0	1	1	2	0	1	0	0	5	3	-4
+undefined Headshot
+Kobe Sanders
+13:24	4	5	80.0	3	3	100	2	2	100	1	0	1	1	1	0	0	0	13	6
+undefined Headshot
+Bogdan Bogdanović
+19:26	1	6	16.7	1	3	33.3	0	0	0.0	0	2	2	1	0	0	1	1	3	7
+undefined Headshot
+Jordan Miller
+4:15	1	1	100	0	0	0.0	2	2	100	0	1	1	0	0	0	0	1	4	-3
+undefined Headshot
+Cam Christie
+4:15	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-3
+undefined Headshot
+Kobe Brown
+4:15	0	1	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	0	0	-3
+TOTALS
+ 	42	77	54.5	20	37	54.1	24	27	88.9	6	28	34	25	7	4	8	19	128	20
+Inactive Players
+HOU: Tyler Smith, Isaiah Crawford, Dorian Finney-Smith, Fred VanVleet
+
+LAC: Chris Paul, Bradley Beal, Ivica Zubac, Derrick Jones Jr., RayJ Dennis

@@ -1,0 +1,104 @@
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+31:53	6	10	60.0	2	2	100	0	0	0.0	0	4	4	6	0	0	3	6	14	5
+undefined Headshot
+Julius Randle
+F
+32:17	12	19	63.2	3	6	50.0	3	3	100	1	6	7	4	1	0	2	2	30	8
+undefined Headshot
+Rudy Gobert
+C
+35:20	6	9	66.7	0	0	0.0	2	3	66.7	3	12	15	5	2	2	1	0	14	31
+undefined Headshot
+Donte DiVincenzo
+G
+31:19	6	14	42.9	5	12	41.7	1	2	50.0	0	3	3	4	1	0	0	2	18	12
+undefined Headshot
+Mike Conley
+G
+28:55	3	6	50.0	2	3	66.7	2	2	100	0	3	3	6	1	0	1	4	10	18
+undefined Headshot
+Rob Dillingham
+15:31	2	5	40.0	0	0	0.0	0	0	0.0	0	0	0	4	2	0	2	1	4	4
+undefined Headshot
+Naz Reid
+21:55	7	13	53.8	3	5	60.0	1	2	50.0	0	3	3	1	0	0	1	4	18	0
+undefined Headshot
+Terrence Shannon Jr.
+11:36	0	1	0.0	0	1	0.0	2	2	100	0	1	1	0	0	0	0	0	2	-10
+undefined Headshot
+Jaylen Clark
+19:02	3	6	50.0	0	3	0.0	0	0	0.0	0	1	1	0	1	0	0	1	6	19
+undefined Headshot
+Bones Hyland
+9:58	1	3	33.3	1	3	33.3	0	0	0.0	0	1	1	1	0	0	0	2	3	-2
+undefined Headshot
+Joan Beringer
+1:16	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Johnny Juzang
+0:58	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	0	0	3	0
+undefined Headshot
+Joe Ingles
+DNP - Coach's Decision
+undefined Headshot
+Leonard Miller
+DNP - Coach's Decision
+TOTALS
+ 	47	87	54.0	17	36	47.2	11	14	78.6	4	34	38	31	8	2	10	22	122	17
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+30:57	1	9	11.1	1	8	12.5	2	2	100	0	8	8	2	1	0	3	2	5	-20
+undefined Headshot
+Miles Bridges
+F
+36:41	10	16	62.5	6	11	54.5	4	4	100	0	8	8	4	1	0	1	3	30	-5
+undefined Headshot
+Ryan Kalkbrenner
+C
+29:27	2	4	50.0	0	0	0.0	2	4	50.0	3	3	6	0	0	4	1	1	6	-22
+undefined Headshot
+Collin Sexton
+G
+19:58	2	7	28.6	0	3	0.0	5	5	100	0	2	2	2	0	0	2	1	9	-22
+undefined Headshot
+LaMelo Ball
+G
+33:28	7	19	36.8	2	8	25.0	2	2	100	1	6	7	8	1	0	3	2	18	-8
+undefined Headshot
+Sion James
+27:25	2	3	66.7	2	2	100	2	2	100	0	2	2	0	0	0	0	1	8	11
+undefined Headshot
+Tre Mann
+22:36	6	15	40.0	2	7	28.6	2	2	100	0	1	1	5	1	0	1	3	16	-4
+undefined Headshot
+Moussa Diabaté
+18:33	3	5	60.0	0	0	0.0	5	6	83.3	5	4	9	1	0	0	0	2	11	5
+undefined Headshot
+Liam McNeeley
+9:36	0	3	0.0	0	2	0.0	0	0	0.0	1	0	1	0	0	0	2	0	0	-8
+undefined Headshot
+Tidjane Salaün
+11:19	1	5	20.0	0	4	0.0	0	0	0.0	0	1	1	1	0	0	1	1	2	-12
+undefined Headshot
+Pat Connaughton
+DNP - Coach's Decision
+undefined Headshot
+Mason Plumlee
+DNP - Coach's Decision
+TOTALS
+ 	34	86	39.5	13	45	28.9	24	27	88.9	10	35	45	23	4	4	14	16	105	-17
+Inactive Players
+MIN: Anthony Edwards, Enrique Freeman, Rocco Zikarsky
+
+CHA: Josh Green, Brandon Miller, Drew Peterson, Antonio Reeves, KJ Simpson, Grant Williams

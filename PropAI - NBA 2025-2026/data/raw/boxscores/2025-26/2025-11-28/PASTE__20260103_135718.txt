@@ -1,0 +1,107 @@
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Wells
+F
+28:07	2	7	28.6	1	6	16.7	8	8	100	3	3	6	2	1	0	1	3	13	-5
+undefined Headshot
+Jaren Jackson Jr.
+F
+30:47	9	13	69.2	3	5	60.0	3	4	75.0	1	1	2	2	0	0	2	3	24	-1
+undefined Headshot
+Zach Edey
+C
+31:58	2	4	50.0	0	0	0.0	1	2	50.0	6	13	19	2	0	3	1	3	5	-2
+undefined Headshot
+Cedric Coward
+G
+30:44	3	10	30.0	1	4	25.0	0	0	0.0	0	4	4	1	0	0	2	3	7	-4
+undefined Headshot
+Vince Williams Jr.
+G
+23:17	7	17	41.2	2	7	28.6	0	0	0.0	0	1	1	5	1	1	3	3	16	-13
+undefined Headshot
+Kentavious Caldwell-Pope
+21:10	4	10	40.0	4	7	57.1	0	0	0.0	1	3	4	1	1	0	1	0	12	19
+undefined Headshot
+Cam Spencer
+24:35	4	9	44.4	2	5	40.0	0	0	0.0	0	2	2	4	1	1	4	1	10	18
+undefined Headshot
+Santi Aldama
+22:15	4	7	57.1	2	2	100	3	4	75.0	1	6	7	5	0	0	0	1	13	5
+undefined Headshot
+Jock Landale
+16:00	4	11	36.4	2	4	50.0	2	4	50.0	3	3	6	0	0	0	1	1	12	7
+undefined Headshot
+John Konchar
+11:08	0	0	0.0	0	0	0.0	0	0	0.0	0	2	2	2	1	1	0	1	0	1
+undefined Headshot
+Kobe Bufkin
+DNP - Coach's Decision
+undefined Headshot
+GG Jackson
+DNP - Coach's Decision
+undefined Headshot
+Jahmai Mashack
+DNP - Coach's Decision
+undefined Headshot
+Olivier-Maxence Prosper
+DNP - Coach's Decision
+TOTALS
+ 	39	88	44.3	17	40	42.5	17	22	77.3	15	38	53	24	5	6	15	19	112	5
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kawhi Leonard
+F
+28:31	15	24	62.5	3	7	42.9	6	6	100	0	3	3	0	1	0	1	0	39	4
+undefined Headshot
+John Collins
+F
+32:48	4	12	33.3	0	4	0.0	2	2	100	2	5	7	0	0	1	1	4	10	-7
+undefined Headshot
+Ivica Zubac
+C
+39:09	4	11	36.4	0	0	0.0	1	1	100	3	9	12	5	0	2	2	3	9	-8
+undefined Headshot
+Kris Dunn
+G
+30:24	4	9	44.4	2	5	40.0	1	2	50.0	2	5	7	1	5	0	2	1	11	-7
+undefined Headshot
+James Harden
+G
+40:09	6	18	33.3	4	13	30.8	7	7	100	1	6	7	11	2	0	5	5	23	3
+undefined Headshot
+Kobe Sanders
+14:12	1	4	25.0	1	2	50.0	0	0	0.0	0	0	0	2	1	0	0	1	3	2
+undefined Headshot
+Nicolas Batum
+23:20	0	0	0.0	0	0	0.0	2	3	66.7	0	1	1	0	2	2	1	3	2	-4
+undefined Headshot
+Kobe Brown
+16:27	2	7	28.6	1	6	16.7	0	0	0.0	0	0	0	0	2	0	0	2	5	-6
+undefined Headshot
+Chris Paul
+15:01	2	4	50.0	1	1	100	0	0	0.0	0	2	2	0	0	0	1	2	5	-2
+undefined Headshot
+Cam Christie
+DNP - Coach's Decision
+undefined Headshot
+Brook Lopez
+DNP - Coach's Decision
+undefined Headshot
+Yanic Konan Niederhäuser
+DNP - Coach's Decision
+undefined Headshot
+Jahmyl Telfort
+DNP - Coach's Decision
+TOTALS
+ 	38	89	42.7	12	38	31.6	19	21	90.5	8	31	39	19	13	5	13	21	107	-5
+Inactive Players
+MEM: Javon Small, Ja Morant, Brandon Clarke, Ty Jerome, Scotty Pippen Jr.
+
+LAC: Bradley Beal, Bogdan Bogdanovic, Derrick Jones Jr., Jordan Miller

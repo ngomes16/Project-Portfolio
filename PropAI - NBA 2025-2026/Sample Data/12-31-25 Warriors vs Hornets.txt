@@ -1,0 +1,107 @@
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jimmy Butler III
+F
+30:52	4	8	50.0	0	1	0.0	11	12	91.7	1	4	5	7	1	0	3	1	19	8
+undefined Headshot
+Draymond Green
+F
+28:12	4	6	66.7	2	4	50.0	0	0	0.0	1	7	8	12	1	0	4	2	10	18
+undefined Headshot
+Quinten Post
+C
+14:18	3	7	42.9	3	7	42.9	0	0	0.0	0	1	1	0	1	0	1	1	9	6
+undefined Headshot
+Moses Moody
+G
+18:53	3	7	42.9	1	3	33.3	0	0	0.0	1	4	5	2	1	1	0	1	7	0
+undefined Headshot
+Stephen Curry
+G
+33:07	9	16	56.3	5	10	50.0	3	3	100	0	2	2	4	0	1	5	4	26	11
+undefined Headshot
+Brandin Podziemski
+23:18	6	9	66.7	5	7	71.4	2	2	100	0	3	3	3	0	0	1	1	19	-6
+undefined Headshot
+Gary Payton II
+10:02	4	4	100	1	1	100	0	0	0.0	0	1	1	0	0	0	0	4	9	-9
+undefined Headshot
+Trayce Jackson-Davis
+5:27	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-8
+undefined Headshot
+De'Anthony Melton
+22:55	3	8	37.5	1	3	33.3	0	0	0.0	3	0	3	2	2	0	3	3	7	2
+undefined Headshot
+Al Horford
+13:04	3	7	42.9	2	6	33.3	0	0	0.0	0	2	2	0	0	0	0	0	8	-6
+undefined Headshot
+Will Richard
+16:59	2	3	66.7	1	2	50.0	0	0	0.0	2	0	2	3	1	0	2	3	5	1
+undefined Headshot
+Gui Santos
+16:50	5	6	83.3	3	4	75.0	0	0	0.0	2	3	5	2	0	1	0	0	13	15
+undefined Headshot
+Pat Spencer
+6:04	0	2	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	3
+undefined Headshot
+Buddy Hield
+DNP - Coach's Decision
+undefined Headshot
+Jonathan Kuminga
+DNP - Coach's Decision
+TOTALS
+ 	46	83	55.4	24	49	49.0	16	17	94.1	10	27	37	35	7	3	19	20	132	7
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Collin Sexton
+F
+27:25	6	16	37.5	0	5	0.0	4	5	80.0	1	4	5	8	3	0	4	5	16	1
+undefined Headshot
+Kon Knueppel
+F
+32:20	7	11	63.6	4	7	57.1	2	2	100	2	3	5	8	0	0	1	4	20	-4
+undefined Headshot
+Moussa Diabaté
+C
+27:53	0	3	0.0	0	0	0.0	0	0	0.0	2	6	8	3	1	1	2	4	0	-8
+undefined Headshot
+Brandon Miller
+G
+36:21	14	29	48.3	3	12	25.0	2	3	66.7	1	1	2	2	1	0	3	4	33	-7
+undefined Headshot
+LaMelo Ball
+G
+30:18	9	13	69.2	7	10	70.0	2	2	100	1	4	5	5	3	0	5	1	27	-3
+undefined Headshot
+Josh Green
+16:44	2	5	40.0	1	2	50.0	0	0	0.0	2	0	2	2	0	0	0	1	5	-1
+undefined Headshot
+Sion James
+25:45	3	4	75.0	1	1	100	2	3	66.7	0	1	1	3	1	0	0	3	9	1
+undefined Headshot
+Tidjane Salaün
+16:46	3	5	60.0	0	2	0.0	0	0	0.0	0	1	1	1	1	0	0	0	6	-7
+undefined Headshot
+Liam McNeeley
+10:50	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	1	1	0	0	1	0	-6
+undefined Headshot
+PJ Hall
+15:39	4	6	66.7	0	0	0.0	1	2	50.0	2	5	7	2	0	0	0	0	9	-1
+undefined Headshot
+Pat Connaughton
+DNP - Coach's Decision
+undefined Headshot
+Tre Mann
+DNP - Coach's Decision
+TOTALS
+ 	48	93	51.6	16	40	40.0	13	17	76.5	11	26	37	35	11	1	15	23	125	-7
+Inactive Players
+GSW: Seth Curry, Malevy Leons, LJ Cryer
+
+CHA: Miles Bridges, Grant Williams, Ryan Kalkbrenner, Antonio Reeves, KJ Simpson, Mason Plumlee

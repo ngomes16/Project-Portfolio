@@ -1,0 +1,104 @@
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Johnny Furphy
+F
+13:34	1	1	100	1	1	100	0	0	0.0	1	2	3	1	0	0	1	1	3	-5
+undefined Headshot
+Pascal Siakam
+F
+34:47	9	21	42.9	4	8	50.0	2	4	50.0	1	5	6	7	0	0	4	3	24	-9
+undefined Headshot
+Jay Huff
+C
+22:35	4	7	57.1	2	4	50.0	0	0	0.0	1	5	6	1	0	3	2	3	10	-11
+undefined Headshot
+Aaron Nesmith
+G
+32:21	1	9	11.1	0	6	0.0	5	5	100	3	8	11	1	1	2	6	4	7	-10
+undefined Headshot
+Andrew Nembhard
+G
+36:22	9	15	60.0	3	7	42.9	4	5	80.0	1	1	2	5	1	0	5	1	25	-10
+undefined Headshot
+Jarace Walker
+21:54	4	6	66.7	0	1	0.0	0	0	0.0	0	5	5	2	0	2	1	1	8	-3
+undefined Headshot
+Ben Sheppard
+13:17	1	3	33.3	1	3	33.3	0	0	0.0	0	1	1	1	1	0	0	3	3	-1
+undefined Headshot
+T.J. McConnell
+14:10	5	8	62.5	0	0	0.0	0	0	0.0	0	0	0	3	1	1	2	2	10	-1
+undefined Headshot
+Isaiah Jackson
+7:25	0	1	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-3
+undefined Headshot
+Quenton Jackson
+24:48	2	8	25.0	2	4	50.0	0	0	0.0	4	0	4	3	0	1	0	2	6	1
+undefined Headshot
+Tony Bradley
+17:60	4	5	80.0	0	0	0.0	0	0	0.0	1	6	7	0	0	0	1	2	8	5
+undefined Headshot
+Micah Potter
+0:47	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+TOTALS
+ 	40	84	47.6	13	34	38.2	11	14	78.6	12	34	46	24	4	9	22	22	104	-9
+Philadelphia 76ers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kelly Oubre Jr.
+F
+35:07	8	14	57.1	2	3	66.7	0	2	0.0	0	1	1	5	2	1	0	0	18	13
+undefined Headshot
+Dominick Barlow
+F
+24:00	4	6	66.7	0	1	0.0	3	5	60.0	5	2	7	0	2	0	0	2	11	-4
+undefined Headshot
+Joel Embiid
+C
+33:18	10	17	58.8	1	1	100	9	10	90.0	2	7	9	4	0	0	1	1	30	3
+undefined Headshot
+VJ Edgecombe
+G
+35:18	3	9	33.3	0	3	0.0	5	9	55.6	1	4	5	4	0	0	3	2	11	3
+undefined Headshot
+Tyrese Maxey
+G
+40:12	12	24	50.0	1	4	25.0	4	4	100	1	3	4	8	8	1	2	3	29	16
+undefined Headshot
+Adem Bona
+14:42	1	2	50.0	0	0	0.0	0	0	0.0	2	2	4	0	1	2	0	0	2	6
+undefined Headshot
+Quentin Grimes
+19:60	1	7	14.3	0	3	0.0	3	4	75.0	2	1	3	1	1	0	1	1	5	8
+undefined Headshot
+Jabari Walker
+23:39	2	5	40.0	1	2	50.0	0	0	0.0	1	5	6	0	4	0	0	3	5	13
+undefined Headshot
+Trendon Watford
+12:10	1	4	25.0	0	0	0.0	0	2	0.0	1	0	1	0	0	1	1	2	2	-9
+undefined Headshot
+Jared McCain
+0:47	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Justin Edwards
+0:47	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Andre Drummond
+DNP - Coach's Decision
+undefined Headshot
+Eric Gordon
+DNP - Coach's Decision
+undefined Headshot
+Kyle Lowry
+DNP - Coach's Decision
+TOTALS
+ 	42	88	47.7	5	17	29.4	24	36	66.7	15	25	40	22	18	5	8	14	113	9
+Inactive Players
+IND: Kam Jones, Taelon Peter, Bennedict Mathurin, Obi Toppin, Tyrese Haliburton, Ethan Thompson
+
+PHI: Paul George, MarJon Beauchamp, Johni Broome

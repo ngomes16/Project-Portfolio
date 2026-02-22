@@ -1,0 +1,98 @@
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+33:26	10	19	52.6	1	3	33.3	3	4	75.0	0	8	8	2	2	1	2	1	24	13
+undefined Headshot
+Naji Marshall
+F
+32:37	4	7	57.1	1	3	33.3	0	0	0.0	2	5	7	6	0	0	3	3	9	-5
+undefined Headshot
+Anthony Davis
+C
+32:25	13	23	56.5	2	4	50.0	4	5	80.0	4	9	13	4	1	2	0	2	32	5
+undefined Headshot
+Max Christie
+G
+29:17	3	5	60.0	3	4	75.0	0	0	0.0	0	2	2	1	0	0	1	1	9	12
+undefined Headshot
+Ryan Nembhard
+G
+34:51	12	14	85.7	4	5	80.0	0	0	0.0	0	3	3	10	0	0	0	4	28	9
+undefined Headshot
+Caleb Martin
+7:07	0	2	0.0	0	0	0.0	0	0	0.0	1	1	2	1	1	1	0	2	0	3
+undefined Headshot
+Brandon Williams
+13:09	1	5	20.0	0	1	0.0	0	0	0.0	0	1	1	4	0	0	0	1	2	1
+undefined Headshot
+Klay Thompson
+23:28	5	10	50.0	3	5	60.0	2	4	50.0	0	5	5	1	0	0	1	0	15	4
+undefined Headshot
+Dwight Powell
+15:35	2	2	100	0	0	0.0	0	1	0.0	0	2	2	4	0	0	0	4	4	5
+undefined Headshot
+D'Angelo Russell
+18:05	3	8	37.5	2	6	33.3	0	0	0.0	0	0	0	2	0	0	1	1	8	3
+undefined Headshot
+Moussa Cisse
+DNP - Coach's Decision
+undefined Headshot
+Jaden Hardy
+DNP - Coach's Decision
+TOTALS
+ 	53	95	55.8	16	31	51.6	9	14	64.3	7	36	43	35	4	4	8	19	131	10
+Denver Nuggets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Spencer Jones
+F
+38:53	11	15	73.3	4	6	66.7	2	2	100	4	1	5	0	0	0	1	2	28	-10
+undefined Headshot
+Peyton Watson
+F
+34:31	7	14	50.0	1	4	25.0	0	0	0.0	0	5	5	3	0	3	0	0	15	-5
+undefined Headshot
+Nikola Jokić
+C
+37:00	10	24	41.7	3	10	30.0	6	7	85.7	4	16	20	13	1	2	2	2	29	-1
+undefined Headshot
+Cameron Johnson
+G
+36:19	3	10	30.0	1	6	16.7	3	4	75.0	0	1	1	2	2	0	1	2	10	-14
+undefined Headshot
+Jamal Murray
+G
+26:29	3	8	37.5	2	3	66.7	2	2	100	1	3	4	9	1	0	3	1	10	2
+undefined Headshot
+Tim Hardaway Jr.
+30:30	6	12	50.0	1	6	16.7	0	0	0.0	0	1	1	6	1	0	0	1	13	-6
+undefined Headshot
+Bruce Brown
+19:42	3	9	33.3	0	2	0.0	1	1	100	1	3	4	2	0	0	0	1	7	-6
+undefined Headshot
+Zeke Nnaji
+5:36	0	0	0.0	0	0	0.0	1	2	50.0	0	0	0	0	0	0	0	2	1	-1
+undefined Headshot
+Jonas Valančiūnas
+11:00	4	7	57.1	0	0	0.0	0	0	0.0	2	5	7	2	0	0	0	0	8	-9
+undefined Headshot
+Curtis Jones
+DNP - Coach's Decision
+undefined Headshot
+Jalen Pickett
+DNP - Coach's Decision
+undefined Headshot
+Hunter Tyson
+DNP - Coach's Decision
+TOTALS
+ 	47	99	47.5	12	37	32.4	15	18	83.3	12	35	47	37	5	5	7	11	121	-10
+Inactive Players
+DAL: Dante Exum, P.J. Washington, Daniel Gafford, Kyrie Irving, Dereck Lively II, Miles Kelly
+
+DEN: DaRon Holmes II, Tamar Bates, Aaron Gordon, Julian Strawther, Christian Braun

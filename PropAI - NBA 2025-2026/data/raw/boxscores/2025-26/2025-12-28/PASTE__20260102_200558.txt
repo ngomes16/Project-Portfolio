@@ -1,0 +1,104 @@
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+23:41	1	6	16.7	0	1	0.0	4	6	66.7	4	2	6	1	2	1	2	3	6	-4
+undefined Headshot
+Tobias Harris
+F
+21:37	2	5	40.0	0	2	0.0	2	2	100	0	0	0	1	3	0	2	2	6	-15
+undefined Headshot
+Jalen Duren
+C
+31:26	8	12	66.7	0	0	0.0	2	2	100	5	9	14	2	0	1	1	0	18	-17
+undefined Headshot
+Duncan Robinson
+G
+26:43	1	6	16.7	1	6	16.7	2	2	100	1	3	4	0	0	1	0	1	5	-15
+undefined Headshot
+Cade Cunningham
+G
+32:06	9	18	50.0	3	7	42.9	6	7	85.7	0	5	5	9	0	0	3	4	27	-6
+undefined Headshot
+Jaden Ivey
+28:44	2	10	20.0	2	5	40.0	5	6	83.3	1	2	3	3	1	0	0	0	11	4
+undefined Headshot
+Isaiah Stewart
+23:41	4	11	36.4	0	1	0.0	0	0	0.0	2	2	4	0	0	2	1	4	8	-5
+undefined Headshot
+Caris LeVert
+12:48	1	3	33.3	0	2	0.0	2	2	100	0	1	1	0	1	0	1	2	4	-11
+undefined Headshot
+Ronald Holland II
+18:10	2	3	66.7	0	1	0.0	0	0	0.0	1	2	3	2	1	1	2	2	4	1
+undefined Headshot
+Javonte Green
+13:01	3	4	75.0	1	2	50.0	0	0	0.0	0	3	3	0	0	0	0	0	7	-2
+undefined Headshot
+Daniss Jenkins
+2:23	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	-1
+undefined Headshot
+Paul Reed
+5:40	1	3	33.3	0	1	0.0	1	1	100	1	1	2	0	1	0	0	2	3	6
+undefined Headshot
+Chaz Lanier
+DNP - Coach's Decision
+undefined Headshot
+Marcus Sasser
+DNP - Coach's Decision
+TOTALS
+ 	34	82	41.5	7	29	24.1	24	28	85.7	15	30	45	18	9	6	13	20	99	-13
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kawhi Leonard
+F
+38:38	17	26	65.4	5	10	50.0	16	17	94.1	1	10	11	2	5	3	3	2	55	20
+undefined Headshot
+Nicolas Batum
+F
+31:22	4	8	50.0	4	8	50.0	0	0	0.0	2	2	4	1	1	0	0	1	12	25
+undefined Headshot
+Brook Lopez
+C
+35:43	3	7	42.9	1	4	25.0	0	0	0.0	2	5	7	2	2	1	2	3	7	13
+undefined Headshot
+Kris Dunn
+G
+30:27	2	4	50.0	1	2	50.0	0	0	0.0	0	1	1	3	2	1	0	4	5	7
+undefined Headshot
+James Harden
+G
+40:00	7	23	30.4	3	9	33.3	11	11	100	1	3	4	7	0	0	3	3	28	10
+undefined Headshot
+Derrick Jones Jr.
+18:19	1	4	25.0	0	1	0.0	1	1	100	1	2	3	0	0	0	1	3	3	2
+undefined Headshot
+Yanic Konan Niederhäuser
+12:17	1	1	100	0	0	0.0	0	0	0.0	1	1	2	0	1	0	1	4	2	0
+undefined Headshot
+Kobe Sanders
+15:52	0	2	0.0	0	0	0.0	0	0	0.0	0	0	0	2	0	0	0	4	0	-3
+undefined Headshot
+Jordan Miller
+17:22	0	0	0.0	0	0	0.0	0	0	0.0	0	3	3	1	1	1	0	2	0	-9
+undefined Headshot
+Kobe Brown
+DNP - Coach's Decision
+undefined Headshot
+Cam Christie
+DNP - Coach's Decision
+undefined Headshot
+TyTy Washington Jr.
+DNP - Coach's Decision
+TOTALS
+ 	35	75	46.7	14	34	41.2	28	29	96.6	8	27	35	18	12	6	10	26	112	13
+Inactive Players
+DET: Wendell Moore Jr., Bobi Klintman, Isaac Jones, Tolu Smith
+
+LAC: Chris Paul, Bradley Beal, Bogdan Bogdanovic, Ivica Zubac, John Collins

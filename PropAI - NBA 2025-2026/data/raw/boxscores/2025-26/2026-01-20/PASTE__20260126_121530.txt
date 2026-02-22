@@ -1,0 +1,101 @@
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kobe Sanders
+F
+25:02	3	5	60.0	1	3	33.3	1	1	100	1	1	2	3	1	0	0	1	8	-11
+undefined Headshot
+John Collins
+F
+23:42	9	12	75.0	5	6	83.3	0	0	0.0	0	0	0	1	0	0	0	3	23	-11
+undefined Headshot
+Ivica Zubac
+C
+21:58	5	12	41.7	0	0	0.0	2	3	66.7	5	6	11	1	0	0	0	0	12	-8
+undefined Headshot
+James Harden
+G
+30:37	9	25	36.0	3	9	33.3	3	3	100	0	5	5	6	0	0	6	2	24	-6
+undefined Headshot
+Kris Dunn
+G
+26:06	2	5	40.0	0	0	0.0	0	0	0.0	0	5	5	6	0	1	1	1	4	-8
+undefined Headshot
+Brook Lopez
+14:02	0	3	0.0	0	2	0.0	0	0	0.0	0	1	1	0	0	3	3	1	0	-11
+undefined Headshot
+Nicolas Batum
+12:18	0	2	0.0	0	2	0.0	0	0	0.0	0	1	1	1	1	0	0	0	0	-8
+undefined Headshot
+Jordan Miller
+21:59	4	10	40.0	0	3	0.0	4	4	100	1	1	2	2	0	0	3	2	12	-33
+undefined Headshot
+Cam Christie
+22:58	3	4	75.0	0	1	0.0	1	2	50.0	0	5	5	1	2	0	2	0	7	-17
+undefined Headshot
+Kobe Brown
+12:00	1	3	33.3	0	0	0.0	1	2	50.0	3	2	5	2	0	0	0	1	3	-9
+undefined Headshot
+Yanic Konan Niederhäuser
+12:00	2	4	50.0	0	1	0.0	0	0	0.0	1	3	4	0	0	1	1	1	4	-9
+undefined Headshot
+TyTy Washington Jr.
+12:00	5	6	83.3	1	2	50.0	0	0	0.0	0	0	0	1	2	0	0	0	11	-9
+undefined Headshot
+Patrick Baldwin Jr.
+5:18	0	1	0.0	0	1	0.0	2	2	100	0	0	0	0	0	0	0	1	2	0
+TOTALS
+ 	43	92	46.7	10	30	33.3	14	17	82.4	11	30	41	24	6	5	16	13	110	-28
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Matas Buzelis
+F
+30:03	8	14	57.1	4	8	50.0	1	2	50.0	0	2	2	4	1	2	2	2	21	27
+undefined Headshot
+Jalen Smith
+F
+23:35	4	10	40.0	2	4	50.0	0	1	0.0	2	7	9	1	1	2	1	3	10	10
+undefined Headshot
+Nikola Vučević
+C
+32:20	8	12	66.7	1	2	50.0	2	2	100	3	5	8	4	1	2	0	1	19	16
+undefined Headshot
+Isaac Okoro
+G
+14:56	1	3	33.3	0	1	0.0	0	0	0.0	0	0	0	0	0	0	1	1	2	-6
+undefined Headshot
+Coby White
+G
+30:37	9	16	56.3	6	10	60.0	3	3	100	0	2	2	6	1	1	3	2	27	15
+undefined Headshot
+Kevin Huerter
+28:54	5	10	50.0	4	8	50.0	0	0	0.0	0	4	4	7	1	2	2	1	14	7
+undefined Headshot
+Ayo Dosunmu
+28:50	7	10	70.0	4	5	80.0	0	0	0.0	0	3	3	4	2	1	1	2	18	28
+undefined Headshot
+Tre Jones
+25:38	6	7	85.7	1	2	50.0	2	2	100	2	6	8	10	1	1	1	1	15	32
+undefined Headshot
+Dalen Terry
+13:58	3	7	42.9	2	4	50.0	1	2	50.0	1	4	5	3	1	0	1	0	9	11
+undefined Headshot
+Lachlan Olbrich
+3:43	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	1	0	0	0	1	0	0
+undefined Headshot
+Jevon Carter
+3:43	1	2	50.0	1	2	50.0	0	0	0.0	0	0	0	0	1	0	0	1	3	0
+undefined Headshot
+Julian Phillips
+3:43	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+TOTALS
+ 	52	92	56.5	25	47	53.2	9	12	75.0	9	33	42	40	10	11	12	15	138	28
+Inactive Players
+LAC: Chris Paul, Kawhi Leonard, Bradley Beal, Bogdan Bogdanovic, Derrick Jones Jr.
+
+CHI: Zach Collins, Patrick Williams, Josh Giddey, Emanuel Miller, Yuki Kawamura, Noa Essengue

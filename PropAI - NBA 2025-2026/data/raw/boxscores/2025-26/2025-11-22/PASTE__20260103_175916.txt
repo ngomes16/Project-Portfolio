@@ -1,0 +1,101 @@
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kobe Sanders
+F
+29:55	3	7	42.9	1	4	25.0	4	4	100	0	1	1	2	1	0	0	2	11	16
+undefined Headshot
+John Collins
+F
+25:33	4	10	40.0	1	4	25.0	1	1	100	1	6	7	0	1	0	0	5	10	6
+undefined Headshot
+Ivica Zubac
+C
+29:51	9	12	75.0	0	0	0.0	0	0	0.0	2	7	9	6	0	1	1	1	18	17
+undefined Headshot
+Kris Dunn
+G
+27:24	3	5	60.0	0	0	0.0	0	0	0.0	1	1	2	6	1	0	0	1	6	8
+undefined Headshot
+James Harden
+G
+35:13	17	26	65.4	10	16	62.5	11	14	78.6	1	2	3	7	1	0	2	1	55	22
+undefined Headshot
+Brook Lopez
+14:53	4	10	40.0	3	7	42.9	0	0	0.0	0	1	1	1	0	1	0	2	11	7
+undefined Headshot
+Nicolas Batum
+19:11	3	4	75.0	3	4	75.0	0	0	0.0	1	2	3	0	2	0	0	1	9	18
+undefined Headshot
+Cam Christie
+20:36	2	8	25.0	0	4	0.0	4	4	100	2	7	9	0	1	0	3	3	8	7
+undefined Headshot
+Chris Paul
+23:05	1	5	20.0	1	3	33.3	0	1	0.0	1	3	4	8	0	0	1	1	3	1
+undefined Headshot
+Kobe Brown
+7:47	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	-9
+undefined Headshot
+Jahmyl Telfort
+3:16	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	1	0	0	1	0	-9
+undefined Headshot
+Yanic Konan Niederhäuser
+3:16	0	2	0.0	0	0	0.0	0	0	0.0	2	0	2	0	0	0	0	1	0	-9
+undefined Headshot
+Bogdan Bogdanović
+DND - Injury/Illness
+TOTALS
+ 	46	90	51.1	19	43	44.2	20	24	83.3	11	30	41	30	8	2	8	19	131	15
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+34:09	9	12	75.0	6	9	66.7	2	2	100	1	0	1	1	1	0	2	4	26	-12
+undefined Headshot
+Miles Bridges
+F
+30:20	5	12	41.7	0	2	0.0	9	10	90.0	0	3	3	2	0	1	0	0	19	-15
+undefined Headshot
+Ryan Kalkbrenner
+C
+10:44	1	2	50.0	0	0	0.0	0	0	0.0	1	1	2	1	0	0	0	1	2	-5
+undefined Headshot
+Brandon Miller
+G
+25:32	8	18	44.4	2	10	20.0	3	3	100	0	1	1	3	1	1	0	3	21	-3
+undefined Headshot
+LaMelo Ball
+G
+25:06	7	14	50.0	1	7	14.3	3	3	100	0	4	4	7	0	0	3	5	18	4
+undefined Headshot
+Sion James
+21:27	1	2	50.0	1	2	50.0	0	0	0.0	0	2	2	3	1	0	1	1	3	-16
+undefined Headshot
+Collin Sexton
+22:54	7	13	53.8	0	0	0.0	4	4	100	1	2	3	4	0	0	2	1	18	-18
+undefined Headshot
+Moussa Diabaté
+24:53	2	4	50.0	0	0	0.0	2	4	50.0	3	4	7	1	0	0	0	3	6	-12
+undefined Headshot
+Liam McNeeley
+17:52	1	4	25.0	1	2	50.0	0	0	0.0	1	5	6	1	0	0	1	1	3	-5
+undefined Headshot
+Pat Connaughton
+5:40	0	2	0.0	0	2	0.0	0	0	0.0	1	1	2	0	0	0	0	0	0	1
+undefined Headshot
+Mason Plumlee
+12:23	0	0	0.0	0	0	0.0	0	0	0.0	3	3	6	1	1	0	1	0	0	2
+undefined Headshot
+Drew Peterson
+9:00	0	2	0.0	0	2	0.0	0	0	0.0	0	1	1	0	1	0	0	1	0	4
+TOTALS
+ 	41	85	48.2	11	36	30.6	23	26	88.5	11	27	38	24	5	2	10	20	116	-15
+Inactive Players
+LAC: Kawhi Leonard, Bradley Beal, Derrick Jones Jr., Jordan Miller
+
+CHA: Antonio Reeves, Tidjane Salaun, KJ Simpson, Grant Williams, Josh Green, Tre Mann

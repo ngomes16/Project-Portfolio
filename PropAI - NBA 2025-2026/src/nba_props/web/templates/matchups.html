@@ -1,0 +1,1892 @@
+{% extends "base.html" %}
+
+{% block title %}Today's Matchups - NBA Props Predictor{% endblock %}
+{% block page_title %}Today's Matchups{% endblock %}
+
+{% block header_actions %}
+<div class="freshness-indicator" id="freshness-indicator">
+    <span class="freshness-dot"></span>
+    <span class="freshness-text">Data: --</span>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="matchups-page">
+    <!-- Quick Actions Bar -->
+    <div class="quick-actions">
+        <div class="date-selector">
+            <label>Game Date</label>
+            <input type="date" id="game-date" class="form-control" value="">
+        </div>
+        <button class="btn btn-ghost" onclick="loadMatchups()">
+            <span>🔄</span> Refresh
+        </button>
+        <button class="btn btn-primary" onclick="showAddMatchupModal()">
+            <span>➕</span> Add Matchups
+        </button>
+    </div>
+
+    <!-- Matchups Grid -->
+    <div class="matchups-grid" id="matchups-grid">
+        <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Loading matchups...</p>
+        </div>
+    </div>
+</div>
+
+<!-- Matchup Analysis Modal (Slide-in Panel) -->
+<div class="analysis-modal" id="analysis-modal">
+    <div class="analysis-backdrop" onclick="closeAnalysisModal()"></div>
+    <div class="analysis-panel">
+        <div class="analysis-header">
+            <div class="analysis-title">
+                <span class="team-badge away" id="modal-away">--</span>
+                <span class="vs-text">@</span>
+                <span class="team-badge home" id="modal-home">--</span>
+            </div>
+            <button class="analysis-close" onclick="closeAnalysisModal()">×</button>
+        </div>
+        
+        <div class="analysis-content" id="analysis-content">
+            <div class="loading-state">
+                <div class="spinner"></div>
+                <p>Analyzing matchup...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pick Details Modal -->
+<div class="modal hidden" id="pick-details-modal">
+    <div class="modal-backdrop" onclick="hidePickDetailsModal()"></div>
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>🔍 Pick Analysis</h2>
+            <button class="modal-close" onclick="hidePickDetailsModal()">×</button>
+        </div>
+        <div class="modal-body" id="pick-details-content">
+            <!-- Content populated by JS -->
+        </div>
+    </div>
+</div>
+
+<!-- Add Matchups Modal -->
+<div class="modal hidden" id="add-matchup-modal">
+    <div class="modal-backdrop" onclick="hideAddMatchupModal()"></div>
+    <div class="modal-content modal-large">
+        <div class="modal-header">
+            <h2>📋 Add Today's Matchups</h2>
+            <button class="modal-close" onclick="hideAddMatchupModal()">×</button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-tabs">
+                <button class="modal-tab active" onclick="switchModalTab('paste')">Paste Schedule</button>
+                <button class="modal-tab" onclick="switchModalTab('manual')">Manual Entry</button>
+            </div>
+            
+            <!-- Paste Tab -->
+            <div class="modal-tab-content" id="tab-paste">
+                <p class="help-text">Paste the schedule from ESPN, NBA.com, or similar. Include the date, teams, spread and O/U.</p>
+                <div class="form-group">
+                    <label>Schedule Text</label>
+                    <textarea id="matchups-text" class="form-control textarea-large" placeholder="Saturday, January 3, 2026
+MATCHUP
+TIME
+TV
+tickets
+Odds by
+draft kings
+
+Minnesota
+  @  
+
+Miami
+3:00 PM	
+NBA TV
+Tickets as low as $28	
+Line: MIN -2.5
+O/U: 238.5
+
+Philadelphia
+  @  
+
+New York
+..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button class="btn btn-ghost" onclick="hideAddMatchupModal()">Cancel</button>
+                    <button class="btn btn-primary" onclick="parseAndAddMatchups()">
+                        <span>📊</span> Parse & Add Matchups
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Manual Tab -->
+            <div class="modal-tab-content hidden" id="tab-manual">
+                <div class="manual-entry-grid">
+                    <div class="form-group">
+                        <label>Away Team</label>
+                        <select id="manual-away" class="form-control">
+                            <option value="">Select team...</option>
+                        </select>
+                    </div>
+                    <div class="at-symbol">@</div>
+                    <div class="form-group">
+                        <label>Home Team</label>
+                        <select id="manual-home" class="form-control">
+                            <option value="">Select team...</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Game Date</label>
+                        <input type="date" id="manual-date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Game Time</label>
+                        <input type="time" id="manual-time" class="form-control">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Spread (+ away dog, - home fav)</label>
+                        <input type="number" id="manual-spread" class="form-control" step="0.5" placeholder="-2.5">
+                    </div>
+                    <div class="form-group">
+                        <label>Over/Under</label>
+                        <input type="number" id="manual-ou" class="form-control" step="0.5" placeholder="238.5">
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button class="btn btn-ghost" onclick="hideAddMatchupModal()">Cancel</button>
+                    <button class="btn btn-primary" onclick="addManualMatchup()">
+                        <span>➕</span> Add Matchup
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* Modern Matchups Page Styles */
+.matchups-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.quick-actions {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    flex-wrap: wrap;
+}
+
+.quick-actions .date-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+}
+
+.quick-actions .date-selector label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.quick-actions .date-selector input {
+    width: 180px;
+}
+
+/* Matchups Container - general container for the list */
+.matchups-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Matchups List Container */
+.matchups-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Modern Matchup Row */
+.matchup-row {
+    display: grid;
+    grid-template-columns: 80px 1fr 100px 100px 80px 60px;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.875rem 1.25rem;
+    background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-tertiary) 100%);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.matchup-row:hover {
+    transform: translateX(4px);
+    border-color: var(--accent);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 15px var(--accent-glow);
+}
+
+/* Priority indicator - green tint background for close games */
+.matchup-row.close-game {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.12) 0%, rgba(16, 185, 129, 0.06) 50%, var(--bg-tertiary) 100%);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+}
+
+.matchup-row.close-game:hover {
+    border-color: #10b981;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(16, 185, 129, 0.3);
+}
+
+.matchup-row.blowout {
+    opacity: 0.55;
+}
+
+.matchup-row.blowout:hover {
+    opacity: 0.8;
+}
+
+/* Row columns */
+.matchup-time-col {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.matchup-teams-col {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 0;
+}
+
+.matchup-team-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 0;
+}
+
+.team-abbrev-sm {
+    font-family: var(--font-mono);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    width: 45px;
+}
+
+.team-name-sm {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.team-record-sm {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.matchup-at {
+    font-size: 0.875rem;
+    color: var(--text-dim);
+    font-weight: 400;
+    flex-shrink: 0;
+}
+
+.matchup-spread-col, .matchup-ou-col {
+    text-align: center;
+}
+
+.line-label-sm {
+    font-size: 0.625rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.125rem;
+}
+
+.line-value-sm {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.line-value-sm.favorite {
+    color: #10b981;
+}
+
+.matchup-tv-col {
+    text-align: center;
+}
+
+.matchup-tv-badge {
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-bg);
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    text-transform: uppercase;
+}
+
+.matchup-priority-col {
+    display: flex;
+    justify-content: center;
+}
+
+/* Priority badge for close games */
+.priority-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: #10b981;
+    background: rgba(16, 185, 129, 0.2);
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    white-space: nowrap;
+}
+
+.priority-rank {
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: rgba(16, 185, 129, 0.8);
+    background: rgba(16, 185, 129, 0.15);
+    padding: 0.125rem 0.25rem;
+    border-radius: 4px;
+}
+
+/* List header */
+.matchups-list-header {
+    display: grid;
+    grid-template-columns: 80px 1fr 100px 100px 80px 60px;
+    gap: 1rem;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: 0.5rem;
+}
+
+.matchups-list-header > div {
+    display: flex;
+    align-items: center;
+}
+
+.matchups-list-header .spread-header,
+.matchups-list-header .ou-header,
+.matchups-list-header .tv-header,
+.matchups-list-header .priority-header {
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .matchup-row {
+        grid-template-columns: 70px 1fr 80px 80px 60px;
+    }
+    
+    .matchups-list-header {
+        grid-template-columns: 70px 1fr 80px 80px 60px;
+    }
+    
+    .matchup-tv-col, .tv-header {
+        display: none;
+    }
+    
+    .team-name-sm {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .matchup-row {
+        grid-template-columns: 60px 1fr 70px 70px;
+        padding: 0.75rem 1rem;
+    }
+    
+    .matchups-list-header {
+        grid-template-columns: 60px 1fr 70px 70px;
+    }
+    
+    .matchup-priority-col, .priority-header {
+        display: none;
+    }
+    
+    .team-record-sm {
+        display: none;
+    }
+}
+
+/* Analysis Modal (Slide-in Panel) */
+.analysis-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.analysis-modal.active {
+    display: block;
+}
+
+.analysis-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    animation: fadeIn 0.3s ease-out;
+}
+
+.analysis-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    background: var(--bg-elevated);
+    border-left: 1px solid var(--border-default);
+    display: flex;
+    flex-direction: column;
+    animation: slideIn 0.3s ease-out;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+.analysis-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-tertiary) 100%);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.analysis-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.team-badge {
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+.team-badge.away {
+    background: rgba(var(--accent-rgb), 0.15);
+    color: var(--accent);
+}
+
+.team-badge.home {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+}
+
+.vs-text {
+    font-size: 1rem;
+    color: var(--text-dim);
+}
+
+.analysis-close {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.analysis-close:hover {
+    background: var(--error);
+    color: white;
+}
+
+.analysis-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+}
+
+/* Analysis Tabs */
+.analysis-tabs {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0 1.5rem 1rem;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border-subtle);
+    margin: -1.5rem -1.5rem 1.5rem;
+    padding-top: 1rem;
+}
+
+.analysis-tab {
+    padding: 0.625rem 1.25rem;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.analysis-tab:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+
+.analysis-tab.active {
+    background: var(--accent);
+    color: white;
+}
+
+/* Context Cards */
+.context-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.context-card {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+}
+
+.context-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.context-card-title {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.context-badge {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    padding: 0.25rem 0.625rem;
+    border-radius: 9999px;
+}
+
+.context-badge.rest {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+}
+
+.context-badge.b2b {
+    background: rgba(245, 158, 11, 0.15);
+    color: #f59e0b;
+}
+
+.defense-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.defense-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.defense-bar-label {
+    width: 24px;
+    font-size: 0.6875rem;
+    color: var(--text-muted);
+}
+
+.defense-bar-track {
+    flex: 1;
+    height: 8px;
+    background: var(--bg-elevated);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.defense-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease-out;
+}
+
+.defense-bar-fill.good { background: #10b981; }
+.defense-bar-fill.avg { background: #6366f1; }
+.defense-bar-fill.bad { background: #ef4444; }
+
+.defense-bar-value {
+    width: 40px;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-align: right;
+}
+
+/* Key Matchups Section */
+.key-matchups {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(99, 102, 241, 0.05) 100%);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.key-matchups-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75rem;
+}
+
+.key-matchup-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.375rem 0;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* Best Plays Section */
+.best-plays-section {
+    margin-bottom: 1.5rem;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.section-count {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    background: var(--bg-tertiary);
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+}
+
+.plays-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.75rem;
+}
+
+.play-card {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.play-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.play-card.over {
+    border-left: 4px solid #10b981;
+}
+
+.play-card.under {
+    border-left: 4px solid #f59e0b;
+}
+
+.play-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+}
+
+.play-player {
+    font-weight: 600;
+    font-size: 0.9375rem;
+}
+
+.play-meta {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.125rem;
+}
+
+.play-direction {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+}
+
+.play-direction.over {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+}
+
+.play-direction.under {
+    background: rgba(245, 158, 11, 0.15);
+    color: #f59e0b;
+}
+
+.play-stats {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.play-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.play-stat-label {
+    font-size: 0.625rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.play-stat-value {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.play-stat-value.positive { color: #10b981; }
+.play-stat-value.negative { color: #ef4444; }
+
+.play-reasons {
+    border-top: 1px solid var(--border-subtle);
+    padding-top: 0.75rem;
+}
+
+.play-reason {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    padding: 0.25rem 0;
+}
+
+.play-warning {
+    font-size: 0.8125rem;
+    color: #f59e0b;
+    padding: 0.25rem 0;
+}
+
+/* Player Projections Table */
+.projections-section {
+    margin-bottom: 1.5rem;
+}
+
+.team-projections {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.team-projections-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    background: var(--bg-elevated);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.team-projections-header h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.team-tag {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    background: var(--bg-tertiary);
+    color: var(--text-muted);
+}
+
+.player-row {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 80px) 100px;
+    align-items: center;
+    padding: 0.875rem 1.25rem;
+    border-bottom: 1px solid var(--border-subtle);
+    transition: background 0.15s;
+}
+
+.player-row:last-child {
+    border-bottom: none;
+}
+
+.player-row:hover {
+    background: var(--bg-hover);
+}
+
+.player-info {
+    min-width: 0;
+}
+
+.player-name {
+    font-weight: 600;
+    font-size: 0.9375rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.player-archetype {
+    font-size: 0.6875rem;
+    color: var(--text-muted);
+}
+
+.stat-cell {
+    text-align: center;
+}
+
+.stat-value {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.stat-label {
+    font-size: 0.5625rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.trend-cell {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.trend-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.trend-badge.hot {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+}
+
+.trend-badge.cold {
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+}
+
+.trend-badge.stable {
+    background: var(--bg-elevated);
+    color: var(--text-muted);
+}
+
+/* Avoid Players Section */
+.avoid-section {
+    background: rgba(239, 68, 68, 0.05);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+}
+
+.avoid-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #ef4444;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75rem;
+}
+
+.avoid-player {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(239, 68, 68, 0.1);
+}
+
+.avoid-player:last-child {
+    border-bottom: none;
+}
+
+.avoid-player-name {
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.avoid-player-team {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.avoid-warnings {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+}
+
+.avoid-warning {
+    font-size: 0.6875rem;
+    color: #f59e0b;
+    background: rgba(245, 158, 11, 0.1);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+/* No games state */
+.no-games-state {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    background: var(--bg-card);
+    border: 1px dashed var(--border-default);
+    border-radius: var(--radius-lg);
+}
+
+.no-games-state .icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+}
+
+.no-games-state h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.no-games-state p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+/* Modal Styles */
+.modal-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.modal-tab {
+    padding: 0.75rem 1.25rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    color: var(--text-secondary);
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--duration-fast);
+}
+
+.modal-tab:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+
+.modal-tab.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+}
+
+.modal-tab-content.hidden {
+    display: none;
+}
+
+.help-text {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.manual-entry-grid {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.manual-entry-grid .form-group {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.manual-entry-grid .at-symbol {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    padding-bottom: 0.75rem;
+}
+
+/* Responsive adjustments for medium screens - updated for list layout */
+@media (max-width: 1200px) {
+    .matchup-row {
+        grid-template-columns: 70px 1fr 85px 85px 60px 50px;
+    }
+    
+    .matchups-list-header {
+        grid-template-columns: 70px 1fr 85px 85px 60px 50px;
+    }
+    
+    .team-name-sm {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .matchup-row {
+        grid-template-columns: 60px 1fr 70px 70px;
+        padding: 0.75rem 1rem;
+    }
+    
+    .matchups-list-header {
+        grid-template-columns: 60px 1fr 70px 70px;
+    }
+    
+    .matchup-tv-col, .tv-header, .matchup-priority-col, .priority-header {
+        display: none;
+    }
+    
+    .team-name-sm {
+        display: none;
+    }
+    
+    .analysis-panel {
+        max-width: 100%;
+    }
+    
+    .context-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .player-row {
+        grid-template-columns: 1fr repeat(3, 60px) 80px;
+    }
+    
+    .manual-entry-grid {
+        flex-direction: column;
+    }
+    
+    .manual-entry-grid .at-symbol {
+        display: none;
+    }
+}
+
+/* Pick Details Modal Styles */
+.pick-details-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.pick-player-large {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.pick-meta-large {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.pick-direction-large {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.pick-direction-large.over {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+}
+
+.pick-direction-large.under {
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+}
+
+.pick-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.pick-stat-box {
+    background: var(--bg-tertiary);
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.pick-stat-box .label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+}
+
+.pick-stat-box .value {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.pick-stat-box .value.positive { color: #10b981; }
+.pick-stat-box .value.negative { color: #ef4444; }
+
+.pick-analysis-section {
+    margin-bottom: 1.5rem;
+}
+
+.pick-analysis-section h3 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.reasons-list, .warnings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.reason-item {
+    color: #10b981;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 6px;
+}
+
+.warning-item {
+    color: #f59e0b;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+    background: rgba(245, 158, 11, 0.1);
+    border-radius: 6px;
+}
+
+.no-data {
+    color: var(--text-muted);
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.play-more {
+    font-size: 0.75rem;
+    color: var(--accent);
+    margin-top: 0.25rem;
+}
+</style>
+
+<script>
+const teams = [
+    {abbrev: 'ATL', name: 'Atlanta Hawks'},
+    {abbrev: 'BOS', name: 'Boston Celtics'},
+    {abbrev: 'BKN', name: 'Brooklyn Nets'},
+    {abbrev: 'CHA', name: 'Charlotte Hornets'},
+    {abbrev: 'CHI', name: 'Chicago Bulls'},
+    {abbrev: 'CLE', name: 'Cleveland Cavaliers'},
+    {abbrev: 'DAL', name: 'Dallas Mavericks'},
+    {abbrev: 'DEN', name: 'Denver Nuggets'},
+    {abbrev: 'DET', name: 'Detroit Pistons'},
+    {abbrev: 'GSW', name: 'Golden State Warriors'},
+    {abbrev: 'HOU', name: 'Houston Rockets'},
+    {abbrev: 'IND', name: 'Indiana Pacers'},
+    {abbrev: 'LAC', name: 'Los Angeles Clippers'},
+    {abbrev: 'LAL', name: 'Los Angeles Lakers'},
+    {abbrev: 'MEM', name: 'Memphis Grizzlies'},
+    {abbrev: 'MIA', name: 'Miami Heat'},
+    {abbrev: 'MIL', name: 'Milwaukee Bucks'},
+    {abbrev: 'MIN', name: 'Minnesota Timberwolves'},
+    {abbrev: 'NOP', name: 'New Orleans Pelicans'},
+    {abbrev: 'NYK', name: 'New York Knicks'},
+    {abbrev: 'OKC', name: 'Oklahoma City Thunder'},
+    {abbrev: 'ORL', name: 'Orlando Magic'},
+    {abbrev: 'PHI', name: 'Philadelphia 76ers'},
+    {abbrev: 'PHX', name: 'Phoenix Suns'},
+    {abbrev: 'POR', name: 'Portland Trail Blazers'},
+    {abbrev: 'SAC', name: 'Sacramento Kings'},
+    {abbrev: 'SAS', name: 'San Antonio Spurs'},
+    {abbrev: 'TOR', name: 'Toronto Raptors'},
+    {abbrev: 'UTA', name: 'Utah Jazz'},
+    {abbrev: 'WAS', name: 'Washington Wizards'},
+];
+
+let currentMatchups = [];
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Set today's date as default (using local timezone)
+    const now = new Date();
+    const today = now.getFullYear() + '-' + 
+                  String(now.getMonth() + 1).padStart(2, '0') + '-' + 
+                  String(now.getDate()).padStart(2, '0');
+    document.getElementById('game-date').value = today;
+    document.getElementById('manual-date').value = today;
+    
+    // Populate team selects
+    const awaySelect = document.getElementById('manual-away');
+    const homeSelect = document.getElementById('manual-home');
+    
+    teams.forEach(t => {
+        awaySelect.innerHTML += `<option value="${t.abbrev}">${t.abbrev} - ${t.name}</option>`;
+        homeSelect.innerHTML += `<option value="${t.abbrev}">${t.abbrev} - ${t.name}</option>`;
+    });
+    
+    // Add event listener for date change to auto-load matchups
+    document.getElementById('game-date').addEventListener('change', () => {
+        loadMatchups();
+    });
+    
+    loadMatchups();
+    loadDataFreshness();
+});
+
+async function loadDataFreshness() {
+    try {
+        const data = await fetchAPI('/api/data-freshness');
+        const indicator = document.getElementById('freshness-indicator');
+        const dot = indicator.querySelector('.freshness-dot');
+        const text = indicator.querySelector('.freshness-text');
+        
+        if (data.is_stale) {
+            dot.classList.add('stale');
+            text.textContent = `Data: ${data.hours_since_update}h old`;
+        } else {
+            dot.classList.remove('stale');
+            text.textContent = `Data: Fresh`;
+        }
+    } catch (e) {
+        console.error('Failed to load freshness:', e);
+    }
+}
+
+async function loadMatchups() {
+    const date = document.getElementById('game-date').value;
+    const grid = document.getElementById('matchups-grid');
+    
+    grid.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Loading matchups...</p></div>';
+    
+    try {
+        const data = await fetchAPI(`/api/scheduled-games?date=${date}`);
+        currentMatchups = data.games || [];
+        
+        if (currentMatchups.length === 0) {
+            grid.innerHTML = `
+                <div class="no-games-state">
+                    <div class="icon">🏀</div>
+                    <h3>No Games Scheduled</h3>
+                    <p>No matchups found for ${date}. Add matchups to get predictions.</p>
+                    <button class="btn btn-primary" onclick="showAddMatchupModal()">
+                        <span>➕</span> Add Matchups
+                    </button>
+                </div>
+            `;
+            return;
+        }
+        
+        renderMatchups(currentMatchups);
+    } catch (e) {
+        grid.innerHTML = `<div class="error-state">Failed to load matchups: ${e.message}</div>`;
+    }
+}
+
+function renderMatchups(matchups) {
+    const grid = document.getElementById('matchups-grid');
+    
+    // Sort matchups to prioritize close games (spread <= 6) first, then by absolute spread
+    const sortedMatchups = [...matchups].sort((a, b) => {
+        const aSpread = a.spread !== null ? Math.abs(a.spread) : 999;
+        const bSpread = b.spread !== null ? Math.abs(b.spread) : 999;
+        return aSpread - bSpread;
+    });
+    
+    // Assign priority ranks to close games
+    let priorityRank = 1;
+    sortedMatchups.forEach(m => {
+        if (m.spread !== null && Math.abs(m.spread) <= 6) {
+            m.priorityRank = priorityRank++;
+        }
+    });
+    
+    // Build the list HTML
+    let html = `
+        <div class="matchups-list-header">
+            <div>Time</div>
+            <div>Matchup</div>
+            <div class="spread-header">Spread</div>
+            <div class="ou-header">O/U</div>
+            <div class="tv-header">TV</div>
+            <div class="priority-header">Priority</div>
+        </div>
+        <div class="matchups-list">
+    `;
+    
+    html += sortedMatchups.map(m => {
+        const isClose = m.spread !== null && Math.abs(m.spread) <= 6;
+        const isBlowout = m.spread !== null && Math.abs(m.spread) > 10;
+        const spreadDisplay = m.spread !== null ? (m.spread > 0 ? '+' + m.spread : m.spread) : '--';
+        
+        return `
+            <div class="matchup-row ${isClose ? 'close-game' : ''} ${isBlowout ? 'blowout' : ''}"
+                 onclick="openMatchupAnalysis('${m.away_abbrev}', '${m.home_abbrev}', ${m.spread || 'null'}, ${m.over_under || 'null'})">
+                <div class="matchup-time-col">${m.game_time || '7:00 PM'}</div>
+                <div class="matchup-teams-col">
+                    <div class="matchup-team-info">
+                        <span class="team-abbrev-sm">${m.away_abbrev}</span>
+                        <span class="team-name-sm">${m.away_team || ''}</span>
+                        ${m.away_record ? `<span class="team-record-sm">(${m.away_record})</span>` : ''}
+                    </div>
+                    <span class="matchup-at">@</span>
+                    <div class="matchup-team-info">
+                        <span class="team-abbrev-sm">${m.home_abbrev}</span>
+                        <span class="team-name-sm">${m.home_team || ''}</span>
+                        ${m.home_record ? `<span class="team-record-sm">(${m.home_record})</span>` : ''}
+                    </div>
+                </div>
+                <div class="matchup-spread-col">
+                    <div class="line-label-sm">Spread</div>
+                    <div class="line-value-sm ${m.spread && m.spread < 0 ? 'favorite' : ''}">${spreadDisplay}</div>
+                </div>
+                <div class="matchup-ou-col">
+                    <div class="line-label-sm">O/U</div>
+                    <div class="line-value-sm">${m.over_under || '--'}</div>
+                </div>
+                <div class="matchup-tv-col">
+                    ${m.tv_channel ? `<span class="matchup-tv-badge">${m.tv_channel}</span>` : '--'}
+                </div>
+                <div class="matchup-priority-col">
+                    ${isClose ? `<span class="priority-badge">🎯 #${m.priorityRank}</span>` : ''}
+                </div>
+            </div>
+        `;
+    }).join('');
+    
+    html += '</div>';
+    grid.innerHTML = html;
+}
+
+async function openMatchupAnalysis(away, home, spread, overUnder) {
+    const modal = document.getElementById('analysis-modal');
+    const content = document.getElementById('analysis-content');
+    
+    document.getElementById('modal-away').textContent = away;
+    document.getElementById('modal-home').textContent = home;
+    
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    
+    content.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Analyzing matchup...</p></div>';
+    
+    try {
+        const gameDate = document.getElementById('game-date').value;
+        const report = await fetchAPI('/api/matchup-analysis', {
+            method: 'POST',
+            body: JSON.stringify({
+                away: away,
+                home: home,
+                date: gameDate,
+                spread: spread,
+                over_under: overUnder
+            })
+        });
+        
+        renderAnalysisContent(report, away, home);
+    } catch (e) {
+        content.innerHTML = `<div class="error-state">Failed to analyze matchup: ${e.message}</div>`;
+    }
+}
+
+function closeAnalysisModal() {
+    const modal = document.getElementById('analysis-modal');
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+function renderAnalysisContent(report, away, home) {
+    const content = document.getElementById('analysis-content');
+    const awayName = teams.find(t => t.abbrev === away)?.name || away;
+    const homeName = teams.find(t => t.abbrev === home)?.name || home;
+    
+    const renderContextCard = (abbrev, name, defense, b2b, restDays, isHome) => {
+        const rating = defense?.overall_rating || 'Unknown';
+        const posDefense = defense || {};
+        
+        return `
+            <div class="context-card">
+                <div class="context-card-header">
+                    <span class="context-card-title">${abbrev} ${isHome ? '(Home)' : '(Away)'}</span>
+                    ${b2b ? '<span class="context-badge b2b">⚠️ B2B</span>' : ''}
+                    ${restDays >= 3 ? `<span class="context-badge rest">✨ ${restDays}d Rest</span>` : ''}
+                </div>
+                <div class="defense-bars">
+                    <div class="defense-bar">
+                        <span class="defense-bar-label">vs G</span>
+                        <div class="defense-bar-track">
+                            <div class="defense-bar-fill ${getDefenseClass(posDefense.guard_defense?.pts_factor)}" 
+                                 style="width: ${getDefenseWidth(posDefense.guard_defense?.pts_factor)}%"></div>
+                        </div>
+                        <span class="defense-bar-value">${posDefense.guard_defense?.rating || '--'}</span>
+                    </div>
+                    <div class="defense-bar">
+                        <span class="defense-bar-label">vs F</span>
+                        <div class="defense-bar-track">
+                            <div class="defense-bar-fill ${getDefenseClass(posDefense.forward_defense?.pts_factor)}" 
+                                 style="width: ${getDefenseWidth(posDefense.forward_defense?.pts_factor)}%"></div>
+                        </div>
+                        <span class="defense-bar-value">${posDefense.forward_defense?.rating || '--'}</span>
+                    </div>
+                    <div class="defense-bar">
+                        <span class="defense-bar-label">vs C</span>
+                        <div class="defense-bar-track">
+                            <div class="defense-bar-fill ${getDefenseClass(posDefense.center_defense?.pts_factor)}" 
+                                 style="width: ${getDefenseWidth(posDefense.center_defense?.pts_factor)}%"></div>
+                        </div>
+                        <span class="defense-bar-value">${posDefense.center_defense?.rating || '--'}</span>
+                    </div>
+                </div>
+            </div>
+        `;
+    };
+    
+    const renderPlayCard = (play, type) => {
+        const playJson = JSON.stringify(play).replace(/'/g, "&#39;").replace(/"/g, "&quot;");
+        return `
+        <div class="play-card ${type}" onclick='showPickDetails(${playJson})' style="cursor: pointer;">
+            <div class="play-header">
+                <div>
+                    <div class="play-player">${play.player}</div>
+                    <div class="play-meta">${play.team} vs ${play.opponent} • ${play.prop}</div>
+                </div>
+                <span class="play-direction ${type}">${type.toUpperCase()}</span>
+            </div>
+            <div class="play-stats">
+                <div class="play-stat">
+                    <span class="play-stat-label">Baseline</span>
+                    <span class="play-stat-value">${play.baseline.toFixed(1)}</span>
+                </div>
+                <div class="play-stat">
+                    <span class="play-stat-label">Adjusted</span>
+                    <span class="play-stat-value">${play.adjusted.toFixed(1)}</span>
+                </div>
+                <div class="play-stat">
+                    <span class="play-stat-label">Edge</span>
+                    <span class="play-stat-value ${play.adjustment_pct > 0 ? 'positive' : 'negative'}">${play.adjustment_pct > 0 ? '+' : ''}${play.adjustment_pct.toFixed(1)}%</span>
+                </div>
+                <div class="play-stat">
+                    <span class="play-stat-label">Confidence</span>
+                    <span class="play-stat-value">${play.confidence}</span>
+                </div>
+            </div>
+            ${(play.reasons && play.reasons.length > 0) || (play.warnings && play.warnings.length > 0) ? `
+                <div class="play-reasons">
+                    ${(play.reasons || []).slice(0, 1).map(r => `<div class="play-reason">✓ ${r}</div>`).join('')}
+                    ${(play.warnings || []).slice(0, 1).map(w => `<div class="play-warning">⚠ ${w}</div>`).join('')}
+                    ${(play.reasons?.length > 1 || play.warnings?.length > 1) ? '<div class="play-more">...click for more</div>' : ''}
+                </div>
+            ` : ''}
+        </div>
+    `};
+    
+    const renderPlayerRow = (p) => `
+        <div class="player-row">
+            <div class="player-info">
+                <div class="player-name">${p.player}</div>
+                <div class="player-archetype">${p.archetype?.primary || p.position || '--'} • ${p.games}G</div>
+            </div>
+            <div class="stat-cell">
+                <div class="stat-value">${p.pts.toFixed(1)}</div>
+                <div class="stat-label">PTS</div>
+            </div>
+            <div class="stat-cell">
+                <div class="stat-value">${p.reb.toFixed(1)}</div>
+                <div class="stat-label">REB</div>
+            </div>
+            <div class="stat-cell">
+                <div class="stat-value">${p.ast.toFixed(1)}</div>
+                <div class="stat-label">AST</div>
+            </div>
+            <div class="trend-cell">
+                ${p.trend ? `
+                    <span class="trend-badge ${p.trend.pts}">${getTrendIcon(p.trend.pts)}</span>
+                ` : '--'}
+            </div>
+        </div>
+    `;
+    
+    content.innerHTML = `
+        <!-- Context Section -->
+        <div class="context-grid">
+            ${renderContextCard(away, awayName, report.defense?.home, report.context?.away_b2b, report.context?.away_rest_days, false)}
+            ${renderContextCard(home, homeName, report.defense?.away, report.context?.home_b2b, report.context?.home_rest_days, true)}
+        </div>
+        
+        <!-- Key Matchups -->
+        ${report.key_matchups && report.key_matchups.length > 0 ? `
+            <div class="key-matchups">
+                <div class="key-matchups-title">🔑 Key Factors</div>
+                ${report.key_matchups.map(m => `<div class="key-matchup-item">${m}</div>`).join('')}
+            </div>
+        ` : ''}
+        
+        <!-- Best Over Plays -->
+        ${report.best_over_plays && report.best_over_plays.length > 0 ? `
+            <div class="best-plays-section">
+                <div class="section-header">
+                    <h3 class="section-title">📈 Best Over Plays</h3>
+                    <span class="section-count">${report.best_over_plays.length} plays</span>
+                </div>
+                <div class="plays-grid">
+                    ${report.best_over_plays.slice(0, 40).map(p => renderPlayCard(p, 'over')).join('')}
+                </div>
+            </div>
+        ` : ''}
+        
+        <!-- Best Under Plays -->
+        ${report.best_under_plays && report.best_under_plays.length > 0 ? `
+            <div class="best-plays-section">
+                <div class="section-header">
+                    <h3 class="section-title">📉 Best Under Plays</h3>
+                    <span class="section-count">${report.best_under_plays.length} plays</span>
+                </div>
+                <div class="plays-grid">
+                    ${report.best_under_plays.slice(0, 40).map(p => renderPlayCard(p, 'under')).join('')}
+                </div>
+            </div>
+        ` : `
+            <div class="best-plays-section">
+                <div class="section-header">
+                    <h3 class="section-title">📉 Best Under Plays</h3>
+                    <span class="section-count">0 plays</span>
+                </div>
+                <div style="background: var(--bg-tertiary); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 1.5rem; text-align: center;">
+                    <p style="color: var(--text-muted); margin: 0; font-size: 0.9rem;">
+                        No strong UNDER plays identified for this matchup.
+                    </p>
+                </div>
+            </div>
+        `}
+        
+        <!-- Player Projections -->
+        <div class="projections-section">
+            <div class="section-header">
+                <h3 class="section-title">📊 Player Projections</h3>
+            </div>
+            
+            <!-- Away Team -->
+            <div class="team-projections">
+                <div class="team-projections-header">
+                    <h3><span style="color: var(--accent);">${away}</span> <span class="team-tag">Away</span></h3>
+                    ${report.context?.away_b2b ? '<span class="context-badge b2b">⚠️ B2B</span>' : ''}
+                </div>
+                ${(report.away_projections || []).slice(0, 10).map(renderPlayerRow).join('')}
+            </div>
+            
+            <!-- Home Team -->
+            <div class="team-projections">
+                <div class="team-projections-header">
+                    <h3><span style="color: #10b981;">${home}</span> <span class="team-tag">Home</span></h3>
+                    ${report.context?.home_b2b ? '<span class="context-badge b2b">⚠️ B2B</span>' : ''}
+                </div>
+                ${(report.home_projections || []).slice(0, 10).map(renderPlayerRow).join('')}
+            </div>
+        </div>
+        
+        <!-- Players to Avoid -->
+        ${report.avoid_players && report.avoid_players.length > 0 ? `
+            <div class="avoid-section">
+                <div class="avoid-title">⚠️ Players to Avoid</div>
+                ${report.avoid_players.map(p => `
+                    <div class="avoid-player">
+                        <div>
+                            <div class="avoid-player-name">${p.player}</div>
+                            <div class="avoid-player-team">${p.team}</div>
+                        </div>
+                        <div class="avoid-warnings">
+                            ${(p.warnings || []).map(w => `<span class="avoid-warning">${w}</span>`).join('')}
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        ` : ''}
+    `;
+}
+
+function getDefenseClass(factor) {
+    if (!factor) return 'avg';
+    if (factor <= 0.97) return 'good';
+    if (factor >= 1.03) return 'bad';
+    return 'avg';
+}
+
+function getDefenseWidth(factor) {
+    if (!factor) return 50;
+    // Convert factor to percentage (0.8 = 100%, 1.2 = 0%)
+    const normalized = (1.2 - factor) / 0.4 * 100;
+    return Math.min(100, Math.max(10, normalized));
+}
+
+function getTrendIcon(trend) {
+    if (trend === 'hot') return '🔥';
+    if (trend === 'cold') return '❄️';
+    return '—';
+}
+
+function showPickDetails(play) {
+    const modal = document.getElementById('pick-details-modal');
+    const content = document.getElementById('pick-details-content');
+    
+    content.innerHTML = `
+        <div class="pick-details-header">
+            <div class="pick-player-large">${play.player}</div>
+            <div class="pick-meta-large">${play.team} vs ${play.opponent} • ${play.prop}</div>
+            <div class="pick-direction-large ${play.adjustment_pct > 0 ? 'over' : 'under'}">
+                ${play.adjustment_pct > 0 ? 'OVER' : 'UNDER'}
+            </div>
+        </div>
+        
+        <div class="pick-stats-grid">
+            <div class="pick-stat-box">
+                <div class="label">Baseline Projection</div>
+                <div class="value">${play.baseline.toFixed(1)}</div>
+            </div>
+            <div class="pick-stat-box">
+                <div class="label">Adjusted Projection</div>
+                <div class="value">${play.adjusted.toFixed(1)}</div>
+            </div>
+            <div class="pick-stat-box">
+                <div class="label">Edge</div>
+                <div class="value ${play.adjustment_pct > 0 ? 'positive' : 'negative'}">
+                    ${play.adjustment_pct > 0 ? '+' : ''}${play.adjustment_pct.toFixed(1)}%
+                </div>
+            </div>
+            <div class="pick-stat-box">
+                <div class="label">Confidence</div>
+                <div class="value">${play.confidence}</div>
+            </div>
+        </div>
+        
+        <div class="pick-analysis-section">
+            <h3>📝 Analysis & Reasoning</h3>
+            ${(play.reasons || []).length > 0 ? `
+                <div class="reasons-list">
+                    ${play.reasons.map(r => `<div class="reason-item">✓ ${r}</div>`).join('')}
+                </div>
+            ` : '<p class="no-data">No specific reasoning available.</p>'}
+        </div>
+        
+        ${(play.warnings || []).length > 0 ? `
+            <div class="pick-analysis-section warning">
+                <h3>⚠️ Warnings</h3>
+                <div class="warnings-list">
+                    ${play.warnings.map(w => `<div class="warning-item">⚠ ${w}</div>`).join('')}
+                </div>
+            </div>
+        ` : ''}
+        
+        <div class="pick-analysis-section">
+            <h3>📊 Historical Context</h3>
+            <p>Head-to-head and recent game logs coming soon...</p>
+        </div>
+    `;
+    
+    modal.classList.remove('hidden');
+}
+
+function hidePickDetailsModal() {
+    document.getElementById('pick-details-modal').classList.add('hidden');
+}
+
+// Modal functions
+function showAddMatchupModal() {
+    document.getElementById('add-matchup-modal').classList.remove('hidden');
+}
+
+function hideAddMatchupModal() {
+    document.getElementById('add-matchup-modal').classList.add('hidden');
+}
+
+function switchModalTab(tab) {
+    document.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.modal-tab-content').forEach(c => c.classList.add('hidden'));
+    
+    if (tab === 'paste') {
+        document.querySelector('.modal-tab:first-child').classList.add('active');
+        document.getElementById('tab-paste').classList.remove('hidden');
+    } else {
+        document.querySelector('.modal-tab:last-child').classList.add('active');
+        document.getElementById('tab-manual').classList.remove('hidden');
+    }
+}
+
+async function parseAndAddMatchups() {
+    const text = document.getElementById('matchups-text').value.trim();
+    
+    if (!text) {
+        showToast('Please paste schedule text', 'error');
+        return;
+    }
+    
+    try {
+        const result = await fetchAPI('/api/scheduled-games/parse', {
+            method: 'POST',
+            body: JSON.stringify({ text })
+        });
+        
+        if (result.success) {
+            showToast(`Added ${result.count} matchups`, 'success');
+            hideAddMatchupModal();
+            document.getElementById('matchups-text').value = '';
+            
+            if (result.date && result.date !== document.getElementById('game-date').value) {
+                document.getElementById('game-date').value = result.date;
+            }
+            
+            loadMatchups();
+        } else {
+            showToast(result.error || 'Failed to parse matchups', 'error');
+        }
+    } catch (e) {
+        showToast(e.message || 'Failed to add matchups', 'error');
+    }
+}
+
+async function addManualMatchup() {
+    const away = document.getElementById('manual-away').value;
+    const home = document.getElementById('manual-home').value;
+    const date = document.getElementById('manual-date').value;
+    const time = document.getElementById('manual-time').value;
+    const spread = document.getElementById('manual-spread').value;
+    const ou = document.getElementById('manual-ou').value;
+    
+    if (!away || !home || !date) {
+        showToast('Please fill in required fields', 'error');
+        return;
+    }
+    
+    if (away === home) {
+        showToast('Teams must be different', 'error');
+        return;
+    }
+    
+    try {
+        const result = await fetchAPI('/api/scheduled-games', {
+            method: 'POST',
+            body: JSON.stringify({
+                away,
+                home,
+                date,
+                time: time || null,
+                spread: spread ? parseFloat(spread) : null,
+                over_under: ou ? parseFloat(ou) : null
+            })
+        });
+        
+        if (result.success) {
+            showToast('Matchup added', 'success');
+            hideAddMatchupModal();
+            
+            document.getElementById('manual-away').value = '';
+            document.getElementById('manual-home').value = '';
+            document.getElementById('manual-spread').value = '';
+            document.getElementById('manual-ou').value = '';
+            
+            document.getElementById('game-date').value = date;
+            loadMatchups();
+        } else {
+            showToast(result.error || 'Failed to add matchup', 'error');
+        }
+    } catch (e) {
+        showToast(e.message || 'Failed to add matchup', 'error');
+    }
+}
+
+// Close modal on escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeAnalysisModal();
+        hideAddMatchupModal();
+    }
+});
+</script>
+{% endblock %}

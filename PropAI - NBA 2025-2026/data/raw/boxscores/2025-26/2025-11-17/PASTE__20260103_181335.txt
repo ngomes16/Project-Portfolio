@@ -1,0 +1,104 @@
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+P.J. Washington
+F
+24:53	5	12	41.7	1	3	33.3	2	2	100	0	7	7	2	1	0	2	3	13	-7
+undefined Headshot
+Cooper Flagg
+F
+26:51	6	10	60.0	2	3	66.7	1	2	50.0	0	1	1	2	0	0	1	1	15	-27
+undefined Headshot
+Moussa Cisse
+C
+25:30	2	6	33.3	0	0	0.0	1	7	14.3	4	6	10	0	1	2	1	4	5	-20
+undefined Headshot
+Max Christie
+G
+18:45	0	1	0.0	0	0	0.0	1	2	50.0	0	0	0	1	0	0	1	0	1	-15
+undefined Headshot
+Brandon Williams
+G
+24:18	4	12	33.3	1	3	33.3	6	6	100	1	4	5	2	1	1	2	3	15	-8
+undefined Headshot
+Naji Marshall
+23:15	3	9	33.3	0	3	0.0	1	3	33.3	0	3	3	0	1	0	2	0	7	-24
+undefined Headshot
+Dwight Powell
+16:33	0	0	0.0	0	0	0.0	0	1	0.0	2	3	5	1	0	0	0	5	0	11
+undefined Headshot
+D'Angelo Russell
+22:23	4	11	36.4	0	5	0.0	0	0	0.0	1	1	2	4	0	0	4	3	8	-11
+undefined Headshot
+Klay Thompson
+17:10	3	9	33.3	1	6	16.7	0	0	0.0	0	0	0	0	2	0	1	0	7	-17
+undefined Headshot
+Caleb Martin
+17:33	2	4	50.0	0	1	0.0	2	2	100	0	3	3	1	1	1	2	1	6	-10
+undefined Headshot
+Jaden Hardy
+13:44	4	9	44.4	4	5	80.0	5	6	83.3	1	2	3	0	0	0	4	1	17	5
+undefined Headshot
+Miles Kelly
+9:05	1	2	50.0	0	1	0.0	0	0	0.0	1	3	4	0	0	0	0	1	2	3
+TOTALS
+ 	34	85	40.0	9	30	30.0	19	31	61.3	10	33	43	13	7	4	20	22	96	-24
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+23:17	4	6	66.7	3	4	75.0	4	5	80.0	0	5	5	3	2	1	3	0	15	15
+undefined Headshot
+Julius Randle
+F
+26:54	4	16	25.0	1	5	20.0	3	5	60.0	1	5	6	4	1	0	1	3	12	21
+undefined Headshot
+Rudy Gobert
+C
+29:06	6	8	75.0	0	0	0.0	3	6	50.0	5	4	9	4	2	1	2	0	15	19
+undefined Headshot
+Anthony Edwards
+G
+29:24	5	14	35.7	1	7	14.3	2	2	100	1	3	4	3	2	0	2	2	13	14
+undefined Headshot
+Donte DiVincenzo
+G
+26:18	4	8	50.0	3	7	42.9	3	4	75.0	1	4	5	2	0	2	1	1	14	35
+undefined Headshot
+Naz Reid
+22:34	9	14	64.3	3	6	50.0	1	1	100	1	11	12	2	0	0	3	2	22	18
+undefined Headshot
+Mike Conley
+15:41	2	4	50.0	1	3	33.3	0	0	0.0	0	2	2	3	3	0	1	4	5	17
+undefined Headshot
+Jaylen Clark
+18:47	2	5	40.0	1	4	25.0	0	0	0.0	4	2	6	0	1	0	0	3	5	15
+undefined Headshot
+Rob Dillingham
+12:58	4	12	33.3	0	3	0.0	0	0	0.0	0	1	1	1	2	0	2	3	8	-17
+undefined Headshot
+Leonard Miller
+9:40	0	2	0.0	0	2	0.0	0	0	0.0	0	3	3	3	1	0	1	3	0	-5
+undefined Headshot
+Bones Hyland
+7:46	1	2	50.0	0	1	0.0	0	0	0.0	0	2	2	1	1	0	0	0	2	-5
+undefined Headshot
+Joan Beringer
+7:46	2	4	50.0	0	0	0.0	2	2	100	1	3	4	0	0	1	0	2	6	-5
+undefined Headshot
+Joe Ingles
+6:50	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	1	1	0	0	0	0	-7
+undefined Headshot
+Johnny Juzang
+2:59	1	2	50.0	1	2	50.0	0	0	0.0	0	0	0	0	0	0	0	1	3	5
+TOTALS
+ 	44	97	45.4	14	44	31.8	18	25	72.0	14	45	59	27	16	5	16	24	120	24
+Inactive Players
+DAL: Kyrie Irving, Anthony Davis, Dante Exum, Daniel Gafford, Dereck Lively II, Ryan Nembhard
+
+MIN: Enrique Freeman, Rocco Zikarsky, Terrence Shannon Jr.

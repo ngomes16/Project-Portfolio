@@ -1,0 +1,98 @@
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Huerter
+F
+24:56	4	8	50.0	1	4	25.0	2	2	100	0	2	2	4	0	0	0	1	11	-17
+undefined Headshot
+Matas Buzelis
+F
+29:42	3	8	37.5	0	5	0.0	2	4	50.0	0	2	2	3	1	0	2	3	8	14
+undefined Headshot
+Nikola Vučević
+C
+30:33	6	11	54.5	1	5	20.0	0	0	0.0	4	10	14	3	1	0	2	3	13	12
+undefined Headshot
+Coby White
+G
+29:09	11	23	47.8	1	6	16.7	2	3	66.7	1	1	2	4	0	0	0	3	25	3
+undefined Headshot
+Josh Giddey
+G
+33:15	8	16	50.0	3	7	42.9	6	7	85.7	0	11	11	9	1	0	0	1	25	6
+undefined Headshot
+Ayo Dosunmu
+23:24	2	7	28.6	1	2	50.0	0	0	0.0	1	1	2	2	0	0	1	2	5	-21
+undefined Headshot
+Tre Jones
+26:37	6	9	66.7	0	1	0.0	4	4	100	0	1	1	4	5	1	2	1	16	17
+undefined Headshot
+Patrick Williams
+12:33	2	8	25.0	1	3	33.3	0	0	0.0	3	2	5	0	0	0	1	0	5	-8
+undefined Headshot
+Jalen Smith
+17:27	3	5	60.0	0	2	0.0	0	0	0.0	1	4	5	0	0	0	2	0	6	-19
+undefined Headshot
+Jevon Carter
+10:07	1	2	50.0	0	1	0.0	0	0	0.0	0	0	0	2	0	0	0	2	2	-18
+undefined Headshot
+Julian Phillips
+2:17	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	2	0	-4
+undefined Headshot
+Isaac Okoro
+DND - Injury/Illness
+TOTALS
+ 	46	97	47.4	8	36	22.2	16	20	80.0	10	34	44	31	8	1	10	18	116	-7
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+31:40	5	14	35.7	2	9	22.2	0	0	0.0	0	5	5	4	1	0	1	5	12	10
+undefined Headshot
+Miles Bridges
+F
+35:34	8	17	47.1	1	5	20.0	5	6	83.3	1	7	8	7	0	2	2	2	22	-2
+undefined Headshot
+Ryan Kalkbrenner
+C
+29:39	2	2	100	0	0	0.0	3	4	75.0	2	3	5	0	0	3	2	2	7	-22
+undefined Headshot
+Brandon Miller
+G
+31:37	10	19	52.6	5	11	45.5	2	3	66.7	1	4	5	1	0	3	1	0	27	8
+undefined Headshot
+LaMelo Ball
+G
+28:55	6	19	31.6	3	10	30.0	1	2	50.0	1	6	7	8	2	0	2	2	16	11
+undefined Headshot
+Tre Mann
+14:23	2	5	40.0	1	4	25.0	0	0	0.0	0	1	1	0	0	0	2	2	5	-6
+undefined Headshot
+Collin Sexton
+25:34	8	15	53.3	1	4	25.0	4	4	100	2	2	4	3	1	2	1	3	21	-6
+undefined Headshot
+Moussa Diabaté
+18:21	1	3	33.3	0	0	0.0	2	2	100	3	5	8	2	2	0	1	2	4	29
+undefined Headshot
+Liam McNeeley
+4:08	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	7
+undefined Headshot
+Sion James
+20:10	2	3	66.7	2	2	100	3	3	100	0	3	3	3	0	0	0	1	9	6
+undefined Headshot
+Mason Plumlee
+DNP - Coach's Decision
+undefined Headshot
+Grant Williams
+DND - Injury/Illness
+TOTALS
+ 	44	97	45.4	15	45	33.3	20	24	83.3	10	36	46	28	6	10	12	19	123	7
+Inactive Players
+CHI: Dalen Terry, Emanuel Miller, Zach Collins, Trentyn Flowers, Noa Essengue, Lachlan Olbrich
+
+CHA: Pat Connaughton, KJ Simpson, Josh Green, Drew Peterson, Antonio Reeves, Tidjane Salaun

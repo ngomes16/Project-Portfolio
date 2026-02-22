@@ -1,0 +1,98 @@
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+34:13	7	13	53.8	3	4	75.0	6	6	100	0	6	6	5	0	0	5	3	23	-9
+undefined Headshot
+P.J. Washington
+F
+33:49	7	13	53.8	0	4	0.0	3	3	100	1	4	5	1	0	4	2	1	17	9
+undefined Headshot
+Daniel Gafford
+C
+23:02	5	7	71.4	0	0	0.0	1	1	100	1	6	7	1	1	1	2	1	11	-9
+undefined Headshot
+Max Christie
+G
+29:56	3	12	25.0	2	4	50.0	1	2	50.0	1	6	7	5	1	0	3	2	9	-2
+undefined Headshot
+Ryan Nembhard
+G
+16:48	4	8	50.0	1	3	33.3	0	0	0.0	0	2	2	3	0	0	2	2	9	-10
+undefined Headshot
+Naji Marshall
+26:25	4	9	44.4	1	1	100	2	4	50.0	0	2	2	1	1	0	2	2	11	-1
+undefined Headshot
+Moussa Cisse
+5:47	0	0	0.0	0	0	0.0	0	0	0.0	2	0	2	0	0	0	0	0	0	0
+undefined Headshot
+D'Angelo Russell
+12:47	3	7	42.9	1	2	50.0	0	0	0.0	0	0	0	4	1	0	1	0	7	-3
+undefined Headshot
+Klay Thompson
+25:09	5	13	38.5	4	8	50.0	0	0	0.0	1	4	5	0	1	1	0	0	14	4
+undefined Headshot
+Caleb Martin
+5:37	0	1	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	0	0	-8
+undefined Headshot
+Dwight Powell
+19:11	0	1	0.0	0	0	0.0	1	4	25.0	4	7	11	0	0	2	1	0	1	3
+undefined Headshot
+Jaden Hardy
+7:16	2	3	66.7	1	1	100	0	0	0.0	1	2	3	2	1	0	1	0	5	-4
+TOTALS
+ 	40	87	46.0	13	27	48.1	14	20	70.0	11	40	51	23	6	8	19	11	107	-6
+Sacramento Kings
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+DeMar DeRozan
+F
+27:46	3	10	30.0	0	2	0.0	3	3	100	0	4	4	6	2	1	0	1	9	8
+undefined Headshot
+Precious Achiuwa
+F
+25:19	2	8	25.0	0	2	0.0	1	2	50.0	3	6	9	2	2	0	0	1	5	9
+undefined Headshot
+Maxime Raynaud
+C
+26:60	9	15	60.0	1	1	100	0	0	0.0	1	5	6	2	1	2	0	3	19	0
+undefined Headshot
+Keon Ellis
+G
+32:20	8	15	53.3	5	10	50.0	0	0	0.0	0	1	1	0	3	2	1	1	21	11
+undefined Headshot
+Russell Westbrook
+G
+27:55	8	16	50.0	5	9	55.6	0	0	0.0	2	3	5	9	1	0	4	3	21	8
+undefined Headshot
+Dylan Cardwell
+20:58	2	4	50.0	0	0	0.0	0	0	0.0	5	3	8	3	1	2	2	3	4	4
+undefined Headshot
+Nique Clifford
+20:05	3	10	30.0	1	3	33.3	1	2	50.0	3	6	9	1	2	0	1	1	8	-2
+undefined Headshot
+Dennis Schröder
+20:16	4	11	36.4	1	2	50.0	1	1	100	0	2	2	5	3	0	1	1	10	0
+undefined Headshot
+Malik Monk
+19:00	3	9	33.3	1	3	33.3	0	0	0.0	0	3	3	3	1	0	2	1	7	-6
+undefined Headshot
+Doug McDermott
+19:21	3	6	50.0	3	6	50.0	0	0	0.0	0	3	3	1	0	0	0	0	9	-2
+undefined Headshot
+Keegan Murray
+DND - Injury/Illness
+undefined Headshot
+Dario Šarić
+DNP - Coach's Decision
+TOTALS
+ 	45	104	43.3	17	38	44.7	6	8	75.0	14	36	50	32	16	7	11	15	113	6
+Inactive Players
+DAL: Miles Kelly, Dereck Lively II, Brandon Williams, Dante Exum, Kyrie Irving, Anthony Davis
+
+SAC: Zach LaVine, Domantas Sabonis, Drew Eubanks, Daeqwon Plowden, Isaiah Stevens, Devin Carter

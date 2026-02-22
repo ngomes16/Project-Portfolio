@@ -1,0 +1,107 @@
+New Orleans Pelicans
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Trey Murphy III
+F
+32:04	7	13	53.8	5	10	50.0	0	0	0.0	0	5	5	2	1	0	0	5	19	-22
+undefined Headshot
+Zion Williamson
+F
+28:03	7	14	50.0	0	0	0.0	6	12	50.0	3	6	9	6	1	0	4	3	20	-17
+undefined Headshot
+Yves Missi
+C
+21:57	2	4	50.0	0	0	0.0	3	4	75.0	5	1	6	0	0	2	1	1	7	-14
+undefined Headshot
+Herbert Jones
+G
+24:09	4	6	66.7	3	4	75.0	1	2	50.0	0	1	1	3	2	0	0	4	12	-18
+undefined Headshot
+Jeremiah Fears
+G
+25:38	6	13	46.2	4	8	50.0	0	0	0.0	0	4	4	4	0	0	5	2	16	-15
+undefined Headshot
+Kevon Looney
+16:28	1	3	33.3	0	1	0.0	1	2	50.0	1	2	3	2	0	1	2	3	3	-15
+undefined Headshot
+Saddiq Bey
+19:00	1	4	25.0	0	3	0.0	0	0	0.0	1	1	2	0	0	0	1	2	2	-22
+undefined Headshot
+Jordan Poole
+24:03	2	11	18.2	2	9	22.2	5	6	83.3	0	1	1	3	1	0	2	0	11	-26
+undefined Headshot
+Jose Alvarado
+18:10	1	3	33.3	1	2	50.0	0	0	0.0	0	2	2	2	1	0	0	2	3	-12
+undefined Headshot
+Micah Peavy
+6:51	1	4	25.0	1	2	50.0	0	0	0.0	0	1	1	2	0	0	1	0	3	1
+undefined Headshot
+Karlo Matković
+6:51	2	2	100	0	0	0.0	0	2	0.0	1	1	2	0	0	0	0	0	4	1
+undefined Headshot
+Jordan Hawkins
+6:51	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	1
+undefined Headshot
+Derik Queen
+6:51	1	2	50.0	0	0	0.0	2	2	100	1	1	2	0	0	0	0	0	4	1
+undefined Headshot
+Bryce McGowens
+3:05	0	0	0.0	0	0	0.0	2	2	100	0	0	0	2	0	0	0	0	2	2
+undefined Headshot
+DeAndre Jordan
+DNP - Coach's Decision
+TOTALS
+ 	35	80	43.8	16	40	40.0	20	32	62.5	12	26	38	26	6	3	16	22	106	-31
+Oklahoma City Thunder
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Aaron Wiggins
+F
+26:29	6	11	54.5	3	6	50.0	0	0	0.0	0	1	1	1	0	1	0	2	15	19
+undefined Headshot
+Jaylin Williams
+F
+22:53	4	9	44.4	4	9	44.4	0	0	0.0	0	3	3	4	1	1	0	1	12	15
+undefined Headshot
+Isaiah Hartenstein
+C
+25:48	6	7	85.7	0	0	0.0	2	3	66.7	4	10	14	8	1	1	2	4	14	13
+undefined Headshot
+Cason Wallace
+G
+26:03	4	5	80.0	3	4	75.0	2	2	100	0	0	0	1	5	0	0	3	13	18
+undefined Headshot
+Shai Gilgeous-Alexander
+G
+29:59	8	14	57.1	1	5	20.0	13	13	100	0	2	2	7	1	0	3	1	30	24
+undefined Headshot
+Branden Carlson
+19:40	5	8	62.5	1	4	25.0	0	0	0.0	1	4	5	1	0	0	2	1	11	17
+undefined Headshot
+Isaiah Joe
+27:00	5	12	41.7	3	10	30.0	0	0	0.0	1	4	5	1	1	0	0	4	13	18
+undefined Headshot
+Ajay Mitchell
+30:15	2	8	25.0	0	3	0.0	6	8	75.0	1	4	5	8	1	0	2	1	10	19
+undefined Headshot
+Alex Caruso
+12:10	3	5	60.0	2	3	66.7	0	0	0.0	0	2	2	0	1	1	1	1	8	12
+undefined Headshot
+Ousmane Dieng
+6:01	1	1	100	1	1	100	0	0	0.0	0	1	1	1	0	1	1	2	3	2
+undefined Headshot
+Chris Youngblood
+6:51	2	3	66.7	2	3	66.7	0	0	0.0	0	1	1	0	0	0	0	1	6	-1
+undefined Headshot
+Brooks Barnhizer
+6:51	1	1	100	0	0	0.0	0	0	0.0	1	2	3	1	1	0	0	1	2	-1
+TOTALS
+ 	47	84	56.0	20	48	41.7	23	26	88.5	8	34	42	33	12	5	11	22	137	31
+Inactive Players
+NOP: Dejounte Murray, Hunter Dickinson, Trey Alexander
+
+OKC: Nikola Topic, Thomas Sorber, Chet Holmgren, Jalen Williams, Kenrich Williams, Luguentz Dort

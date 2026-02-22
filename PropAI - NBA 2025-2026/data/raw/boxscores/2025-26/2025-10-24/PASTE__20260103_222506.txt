@@ -1,0 +1,110 @@
+San Antonio Spurs
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Julian Champagnie
+F
+35:58	3	8	37.5	1	6	16.7	0	0	0.0	1	7	8	3	1	0	1	0	7	11
+undefined Headshot
+Harrison Barnes
+F
+34:13	2	5	40.0	1	3	33.3	2	2	100	0	1	1	5	1	2	0	2	7	12
+undefined Headshot
+Victor Wembanyama
+C
+32:18	13	23	56.5	0	3	0.0	3	4	75.0	3	8	11	2	1	9	0	6	29	-12
+undefined Headshot
+Devin Vassell
+G
+39:49	8	19	42.1	6	14	42.9	1	2	50.0	1	4	5	1	1	0	4	4	23	22
+undefined Headshot
+Stephon Castle
+G
+33:27	5	12	41.7	3	8	37.5	3	6	50.0	0	6	6	6	1	1	10	3	16	-6
+undefined Headshot
+Luke Kornet
+34:33	6	9	66.7	0	0	0.0	2	4	50.0	9	3	12	4	0	1	0	1	14	11
+undefined Headshot
+Dylan Harper
+25:36	3	12	25.0	1	5	20.0	6	6	100	1	4	5	3	1	0	3	5	13	5
+undefined Headshot
+Keldon Johnson
+19:14	4	7	57.1	0	1	0.0	0	2	0.0	5	5	10	1	0	0	0	6	8	-13
+undefined Headshot
+Jordan McLaughlin
+6:25	1	2	50.0	1	2	50.0	0	0	0.0	0	0	0	0	0	0	0	0	3	-5
+undefined Headshot
+Carter Bryant
+3:28	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-5
+undefined Headshot
+Bismack Biyombo
+DNP - Coach's Decision
+undefined Headshot
+Harrison Ingram
+DNP - Coach's Decision
+undefined Headshot
+David Jones Garcia
+DNP - Coach's Decision
+undefined Headshot
+Riley Minix
+DNP - Coach's Decision
+TOTALS
+ 	45	98	45.9	13	43	30.2	17	26	65.4	20	39	59	25	6	13	18	27	120	4
+New Orleans Pelicans
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Trey Murphy III
+F
+45:50	9	18	50.0	3	8	37.5	3	3	100	3	7	10	5	3	0	1	2	24	-2
+undefined Headshot
+Zion Williamson
+F
+36:59	8	18	44.4	0	0	0.0	11	16	68.8	5	5	10	7	3	0	4	2	27	6
+undefined Headshot
+Saddiq Bey
+C
+27:47	3	7	42.9	3	4	75.0	0	0	0.0	2	1	3	2	0	0	0	0	9	-15
+undefined Headshot
+Herbert Jones
+G
+28:22	0	8	0.0	0	5	0.0	0	0	0.0	2	5	7	2	1	0	2	5	0	-20
+undefined Headshot
+Jordan Poole
+G
+41:22	8	20	40.0	3	9	33.3	2	2	100	1	3	4	5	0	1	3	4	21	-15
+undefined Headshot
+Derik Queen
+34:45	6	11	54.5	0	1	0.0	3	4	75.0	1	5	6	1	1	2	1	6	15	5
+undefined Headshot
+Jordan Hawkins
+17:48	3	7	42.9	1	4	25.0	0	0	0.0	1	0	1	1	0	0	0	0	7	16
+undefined Headshot
+Jeremiah Fears
+28:39	5	8	62.5	0	1	0.0	3	4	75.0	1	3	4	1	2	0	2	2	13	7
+undefined Headshot
+Jose Alvarado
+3:28	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Trey Alexander
+DNP - Coach's Decision
+undefined Headshot
+Hunter Dickinson
+DNP - Coach's Decision
+undefined Headshot
+DeAndre Jordan
+DNP - Coach's Decision
+undefined Headshot
+Bryce McGowens
+DNP - Coach's Decision
+undefined Headshot
+Micah Peavy
+DNP - Coach's Decision
+TOTALS
+ 	42	97	43.3	10	32	31.3	22	29	75.9	16	29	45	24	10	3	13	21	116	-4
+Inactive Players
+SAS: Kelly Olynyk, De'Aaron Fox, Lindy Waters III, Jeremy Sochan
+
+NOP: Kevon Looney, Dejounte Murray, Karlo Matkovic, Yves Missi

@@ -1,0 +1,110 @@
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jerami Grant
+F
+24:14	6	8	75.0	3	4	75.0	6	6	100	1	2	3	2	1	0	4	2	21	-29
+undefined Headshot
+Toumani Camara
+F
+26:34	2	6	33.3	0	3	0.0	0	0	0.0	4	2	6	3	2	1	1	3	4	-11
+undefined Headshot
+Donovan Clingan
+C
+19:46	2	5	40.0	2	4	50.0	2	4	50.0	2	6	8	2	0	2	2	5	8	2
+undefined Headshot
+Deni Avdija
+G
+23:46	4	16	25.0	1	8	12.5	2	3	66.7	1	4	5	1	1	0	2	2	11	-4
+undefined Headshot
+Sidy Cissoko
+G
+26:51	3	7	42.9	1	3	33.3	0	1	0.0	1	1	2	3	0	0	1	1	7	-10
+undefined Headshot
+Caleb Love
+25:45	3	13	23.1	1	8	12.5	1	2	50.0	1	1	2	2	0	0	2	1	8	-27
+undefined Headshot
+Kris Murray
+27:05	3	9	33.3	0	3	0.0	3	4	75.0	5	2	7	0	1	0	1	2	9	-23
+undefined Headshot
+Duop Reath
+19:29	3	7	42.9	0	4	0.0	0	0	0.0	1	2	3	0	2	0	0	1	6	-18
+undefined Headshot
+Rayan Rupert
+15:47	4	7	57.1	2	2	100	0	0	0.0	0	5	5	0	1	0	2	1	10	-5
+undefined Headshot
+Hansen Yang
+17:36	3	11	27.3	1	6	16.7	1	1	100	0	4	4	3	0	1	0	1	8	-6
+undefined Headshot
+Javonte Cooke
+13:08	1	3	33.3	1	2	50.0	0	0	0.0	0	0	0	2	0	0	1	0	3	-4
+undefined Headshot
+Jrue Holiday
+DND - Injury/Illness
+undefined Headshot
+Damian Lillard
+DND - Injury/Illness
+undefined Headshot
+Shaedon Sharpe
+DND - Injury/Illness
+undefined Headshot
+Robert Williams III
+DND - Injury/Illness
+TOTALS
+ 	34	92	37.0	12	47	25.5	15	21	71.4	16	29	45	18	8	4	16	19	95	-27
+Oklahoma City Thunder
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Luguentz Dort
+F
+20:30	2	6	33.3	1	5	20.0	0	0	0.0	2	2	4	0	1	0	0	4	5	7
+undefined Headshot
+Chet Holmgren
+F
+25:24	2	8	25.0	0	3	0.0	1	2	50.0	2	7	9	4	0	3	3	2	5	5
+undefined Headshot
+Isaiah Hartenstein
+C
+22:13	3	9	33.3	0	0	0.0	1	2	50.0	2	12	14	3	0	3	2	2	7	18
+undefined Headshot
+Cason Wallace
+G
+26:46	3	9	33.3	1	5	20.0	0	0	0.0	2	0	2	1	2	0	1	1	7	11
+undefined Headshot
+Shai Gilgeous-Alexander
+G
+30:00	13	18	72.2	2	3	66.7	9	9	100	2	3	5	7	2	0	1	3	37	27
+undefined Headshot
+Jaylin Williams
+14:06	1	3	33.3	1	2	50.0	2	4	50.0	0	2	2	4	0	0	1	4	5	8
+undefined Headshot
+Isaiah Joe
+23:46	3	7	42.9	2	6	33.3	2	2	100	0	2	2	1	1	1	2	1	10	15
+undefined Headshot
+Ajay Mitchell
+23:37	8	8	100	2	2	100	2	4	50.0	0	1	1	4	2	0	2	1	20	24
+undefined Headshot
+Alex Caruso
+14:13	2	3	66.7	1	1	100	0	0	0.0	1	1	2	3	1	0	0	3	5	25
+undefined Headshot
+Ousmane Dieng
+14:37	3	5	60.0	2	3	66.7	0	0	0.0	0	2	2	1	0	0	0	2	8	-1
+undefined Headshot
+Branden Carlson
+8:37	3	4	75.0	2	3	66.7	0	0	0.0	0	1	1	2	0	1	0	0	8	-2
+undefined Headshot
+Brooks Barnhizer
+8:09	2	3	66.7	1	1	100	0	0	0.0	1	2	3	1	0	0	1	0	5	-2
+undefined Headshot
+Chris Youngblood
+8:02	0	2	0.0	0	2	0.0	0	0	0.0	0	2	2	2	0	0	1	0	0	0
+TOTALS
+ 	45	85	52.9	15	36	41.7	17	23	73.9	12	37	49	33	9	8	14	23	122	27
+Inactive Players
+POR: Scoot Henderson, Blake Wesley, Matisse Thybulle
+
+OKC: Kenrich Williams, Aaron Wiggins, Jalen Williams, Nikola Topic, Thomas Sorber

@@ -1,0 +1,107 @@
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+35:38	5	11	45.5	1	3	33.3	2	2	100	1	6	7	11	3	0	1	4	13	-8
+undefined Headshot
+P.J. Washington
+F
+35:15	9	19	47.4	2	4	50.0	2	2	100	4	5	9	1	1	1	2	2	22	-11
+undefined Headshot
+Anthony Davis
+C
+28:19	6	10	60.0	0	1	0.0	0	0	0.0	2	3	5	5	0	3	0	2	12	-4
+undefined Headshot
+Max Christie
+G
+27:27	5	10	50.0	3	8	37.5	0	0	0.0	1	0	1	1	0	0	1	1	13	-18
+undefined Headshot
+Ryan Nembhard
+G
+23:21	7	11	63.6	3	5	60.0	0	0	0.0	1	1	2	4	1	0	2	3	17	-16
+undefined Headshot
+Daniel Gafford
+17:29	2	3	66.7	0	0	0.0	1	2	50.0	2	2	4	0	1	0	2	1	5	-4
+undefined Headshot
+Naji Marshall
+24:59	4	8	50.0	1	2	50.0	7	7	100	3	4	7	2	1	0	1	4	16	-7
+undefined Headshot
+Brandon Williams
+24:07	3	11	27.3	1	3	33.3	4	6	66.7	0	2	2	3	1	0	1	4	11	9
+undefined Headshot
+Klay Thompson
+19:56	3	8	37.5	3	6	50.0	1	1	100	0	1	1	1	0	0	1	2	10	3
+undefined Headshot
+Jaden Hardy
+1:10	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+undefined Headshot
+Caleb Martin
+1:10	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+undefined Headshot
+Dwight Powell
+1:10	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	2
+undefined Headshot
+Moussa Cisse
+DNP - Coach's Decision
+undefined Headshot
+D'Angelo Russell
+DNP - Coach's Decision
+TOTALS
+ 	44	91	48.4	14	32	43.8	17	20	85.0	14	25	39	28	8	4	11	23	119	-10
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+LeBron James
+F
+33:57	5	13	38.5	2	6	33.3	1	4	25.0	1	4	5	7	1	0	2	1	13	13
+undefined Headshot
+Rui Hachimura
+F
+36:20	5	13	38.5	4	8	50.0	0	0	0.0	2	2	4	0	1	0	2	1	14	10
+undefined Headshot
+Deandre Ayton
+C
+36:20	8	9	88.9	0	0	0.0	1	2	50.0	2	6	8	2	1	2	2	1	17	18
+undefined Headshot
+Austin Reaves
+G
+41:19	12	15	80.0	6	8	75.0	8	9	88.9	1	7	8	3	0	0	1	2	38	3
+undefined Headshot
+Luka Dončić
+G
+40:18	10	18	55.6	4	9	44.4	11	11	100	0	5	5	11	0	1	4	4	35	15
+undefined Headshot
+Jake LaRavia
+13:32	0	0	0.0	0	0	0.0	0	0	0.0	0	2	2	0	0	0	1	1	0	-5
+undefined Headshot
+Jaxson Hayes
+11:40	3	4	75.0	0	0	0.0	0	0	0.0	0	2	2	1	0	1	1	3	6	-8
+undefined Headshot
+Gabe Vincent
+22:54	2	3	66.7	2	3	66.7	0	0	0.0	0	0	0	3	0	0	0	4	6	7
+undefined Headshot
+Maxi Kleber
+3:40	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	1	0	1	3	0	-3
+undefined Headshot
+Bronny James
+DNP - Coach's Decision
+undefined Headshot
+Dalton Knecht
+DNP - Coach's Decision
+undefined Headshot
+Adou Thiero
+DNP - Coach's Decision
+undefined Headshot
+Jarred Vanderbilt
+DNP - Coach's Decision
+TOTALS
+ 	45	76	59.2	18	35	51.4	21	26	80.8	6	28	34	27	4	4	14	20	129	10
+Inactive Players
+DAL: Kyrie Irving, Miles Kelly, Dereck Lively II, Dante Exum
+
+LAL: Marcus Smart, Drew Timme, Nick Smith Jr., Chris Manon

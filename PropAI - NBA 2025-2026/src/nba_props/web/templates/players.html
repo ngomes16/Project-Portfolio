@@ -1,0 +1,2566 @@
+{% extends "base.html" %}
+
+{% block title %}Players - NBA Props Predictor{% endblock %}
+{% block page_title %}Players{% endblock %}
+
+{% block content %}
+<div class="players-page">
+    <!-- Hero Stats Bar -->
+    <div class="players-hero">
+        <div class="hero-stat" id="total-players-stat">
+            <span class="hero-value">-</span>
+            <span class="hero-label">Total Players</span>
+            <span class="hero-hint" style="font-size: 0.65rem; color: var(--text-muted); display: block;">(in database)</span>
+        </div>
+        <div class="hero-stat" id="classified-players-stat">
+            <span class="hero-value" id="classified-count">-</span>
+            <span class="hero-label">Classified</span>
+            <span class="hero-hint" style="font-size: 0.65rem; color: var(--text-muted); display: block;">(with archetypes)</span>
+        </div>
+        <div class="hero-stat">
+            <span class="hero-value" id="elite-defenders-count">-</span>
+            <span class="hero-label">Elite Defenders</span>
+        </div>
+        <div class="hero-stat">
+            <span class="hero-value" id="mvp-count">-</span>
+            <span class="hero-label">MVP Candidates</span>
+        </div>
+        <div class="hero-stat">
+            <span class="hero-value" id="similarity-groups-count">-</span>
+            <span class="hero-label">Playstyle Groups</span>
+        </div>
+    </div>
+    
+    <!-- Info banner about viewing all players -->
+    <div class="info-banner" style="margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: var(--bg-tertiary); border-radius: var(--radius-md); border-left: 4px solid var(--accent); display: flex; align-items: center; gap: 0.75rem;">
+        <span style="font-size: 1.25rem;">💡</span>
+        <div>
+            <strong style="font-size: 0.875rem;">Looking for all players?</strong>
+            <p style="font-size: 0.8125rem; color: var(--text-secondary); margin: 0.25rem 0 0 0;">
+                This page shows classified players with archetypes. To see complete team rosters with all players and their stats, 
+                visit the <a href="/teams" style="color: var(--accent); text-decoration: underline;">Teams</a> page and click on any team.
+            </p>
+        </div>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="tabs-container">
+        <nav class="tabs-nav">
+            <button class="tab-btn active" data-tab="roster" onclick="switchTab('roster')">
+                <span class="tab-icon">👥</span>
+                <span>Roster</span>
+            </button>
+            <button class="tab-btn" data-tab="archetypes" onclick="switchTab('archetypes')">
+                <span class="tab-icon">🧬</span>
+                <span>Archetypes</span>
+            </button>
+            <button class="tab-btn" data-tab="defenders" onclick="switchTab('defenders')">
+                <span class="tab-icon">🛡️</span>
+                <span>Elite Defenders</span>
+            </button>
+            <button class="tab-btn" data-tab="matchup" onclick="switchTab('matchup')">
+                <span class="tab-icon">⚔️</span>
+                <span>Matchup Check</span>
+            </button>
+            <button class="tab-btn" data-tab="similarity" onclick="switchTab('similarity')">
+                <span class="tab-icon">🔗</span>
+                <span>Similarity</span>
+            </button>
+            <button class="tab-btn" data-tab="drtg-rankings" onclick="switchTab('drtg-rankings')">
+                <span class="tab-icon">📊</span>
+                <span>DRTG Rankings</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- Tab Content -->
+    <div class="tabs-content">
+        <!-- ROSTER TAB -->
+        <div id="tab-roster" class="tab-panel active">
+            <!-- Filters -->
+            <div class="filters-bar">
+                <div class="filter-group">
+                    <label>Tier</label>
+                    <select id="tier-filter" class="filter-select" onchange="filterPlayers()">
+                        <option value="">All Tiers</option>
+                        <option value="MVP_CANDIDATE">MVP Candidates</option>
+                        <option value="TWO_WAY_STAR">Two-Way Stars</option>
+                        <option value="ELITE_BIG">Elite Bigs</option>
+                        <option value="ELITE_ROLE">Elite Role Players</option>
+                        <option value="SPECIALIST">Specialists</option>
+                        <option value="ROTATION">Rotation Pieces</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Search</label>
+                    <input type="text" id="player-search" class="filter-input" placeholder="Search players..." oninput="filterPlayers()">
+                </div>
+                <div class="filter-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="elite-only" onchange="filterPlayers()">
+                        <span class="checkmark"></span>
+                        Elite Defenders Only
+                    </label>
+                </div>
+                <div class="filter-results">
+                    <span id="player-count">Loading...</span>
+                </div>
+            </div>
+
+            <!-- Tier Quick Stats -->
+            <div class="tier-stats-grid" id="tier-stats">
+                <!-- Filled by JS -->
+            </div>
+
+            <!-- Player Cards Grid -->
+            <div class="players-grid" id="roster-list">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading players...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ARCHETYPES TAB -->
+        <div id="tab-archetypes" class="tab-panel">
+            <div class="archetype-legend-grid">
+                <!-- Offensive Archetypes -->
+                <div class="legend-card">
+                    <div class="legend-header offensive">
+                        <span class="legend-icon">⚡</span>
+                        <h3>Offensive Archetypes</h3>
+                    </div>
+                    <div class="legend-body">
+                        <div class="legend-category">
+                            <h4>Ball Handlers</h4>
+                            <dl class="legend-list">
+                                <div class="legend-item">
+                                    <dt>Heliocentric Creator</dt>
+                                    <dd>Ball-dominant playmaker (USG% >32%)</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>PnR Maestro</dt>
+                                    <dd>Pick-and-roll specialist</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>Primary Initiator</dt>
+                                    <dd>Team's offensive engine</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>Floor General</dt>
+                                    <dd>Traditional point guard</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>Speed Initiator</dt>
+                                    <dd>Uses speed to create</dd>
+                                </div>
+                            </dl>
+                        </div>
+                        <div class="legend-category">
+                            <h4>Wings</h4>
+                            <dl class="legend-list">
+                                <div class="legend-item">
+                                    <dt>Isolation Scorer</dt>
+                                    <dd>Creates own shot in ISO</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>Shot Creator</dt>
+                                    <dd>Self-generates from midrange/perimeter</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>Slasher</dt>
+                                    <dd>Attacks rim, excels at cutting</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>3-and-D Wing</dt>
+                                    <dd>Shoots 3s, plays defense</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>Movement Shooter</dt>
+                                    <dd>Runs off screens (Curry, Bane)</dd>
+                                </div>
+                            </dl>
+                        </div>
+                        <div class="legend-category">
+                            <h4>Bigs</h4>
+                            <dl class="legend-list">
+                                <div class="legend-item">
+                                    <dt>Hub Big</dt>
+                                    <dd>Facilitates from high post (Jokic-type)</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>Stretch Big</dt>
+                                    <dd>Big who spaces floor with 3s</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>Rim Runner</dt>
+                                    <dd>Lobs, dunker spot specialist</dd>
+                                </div>
+                                <div class="legend-item">
+                                    <dt>Post Scorer</dt>
+                                    <dd>Back-to-basket scorer</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Defensive Archetypes -->
+                <div class="legend-card">
+                    <div class="legend-header defensive">
+                        <span class="legend-icon">🛡️</span>
+                        <h3>Defensive Archetypes</h3>
+                    </div>
+                    <div class="legend-body">
+                        <dl class="legend-list">
+                            <div class="legend-item">
+                                <dt>POA Defender</dt>
+                                <dd>Guards ball handler, navigates screens</dd>
+                            </div>
+                            <div class="legend-item">
+                                <dt>Wing Stopper</dt>
+                                <dd>Guards best scoring wing</dd>
+                            </div>
+                            <div class="legend-item">
+                                <dt>Chaser</dt>
+                                <dd>Trails shooters around screens</dd>
+                            </div>
+                            <div class="legend-item">
+                                <dt>Anchor Big</dt>
+                                <dd>Primary rim protector, drop coverage</dd>
+                            </div>
+                            <div class="legend-item">
+                                <dt>Switch Big</dt>
+                                <dd>Can switch onto guards</dd>
+                            </div>
+                            <div class="legend-item">
+                                <dt>Roamer</dt>
+                                <dd>Help defender, free safety</dd>
+                            </div>
+                            <div class="legend-item">
+                                <dt>Mobile Big</dt>
+                                <dd>Can move feet on perimeter</dd>
+                            </div>
+                            <div class="legend-item">
+                                <dt>Chased Target</dt>
+                                <dd>Gets hunted defensively</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+
+                <!-- Player Tiers -->
+                <div class="legend-card full-width">
+                    <div class="legend-header tiers">
+                        <span class="legend-icon">⭐</span>
+                        <h3>Player Tiers</h3>
+                    </div>
+                    <div class="legend-body">
+                        <div class="tiers-grid">
+                            <div class="tier-info tier-mvp">
+                                <span class="tier-badge">T1</span>
+                                <div>
+                                    <strong>MVP Candidates</strong>
+                                    <p>Heliocentric stars, high usage</p>
+                                </div>
+                            </div>
+                            <div class="tier-info tier-twostar">
+                                <span class="tier-badge">T2</span>
+                                <div>
+                                    <strong>Two-Way Stars</strong>
+                                    <p>Elite on both ends</p>
+                                </div>
+                            </div>
+                            <div class="tier-info tier-big">
+                                <span class="tier-badge">T3</span>
+                                <div>
+                                    <strong>Elite Bigs</strong>
+                                    <p>Top tier big men</p>
+                                </div>
+                            </div>
+                            <div class="tier-info tier-role">
+                                <span class="tier-badge">T4</span>
+                                <div>
+                                    <strong>Elite Role</strong>
+                                    <p>Championship-level role players</p>
+                                </div>
+                            </div>
+                            <div class="tier-info tier-spec">
+                                <span class="tier-badge">T5</span>
+                                <div>
+                                    <strong>Specialists</strong>
+                                    <p>Scoring and other specialists</p>
+                                </div>
+                            </div>
+                            <div class="tier-info tier-rotation">
+                                <span class="tier-badge">T6</span>
+                                <div>
+                                    <strong>Rotation</strong>
+                                    <p>Key rotation pieces</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player Archetypes Table -->
+            <div class="archetypes-table-container">
+                <table class="archetypes-table">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Tier</th>
+                            <th>Primary Role</th>
+                            <th>Secondary</th>
+                            <th>Defensive</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="archetypes-table">
+                        <tr><td colspan="6" class="loading-cell">Loading...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- ELITE DEFENDERS TAB -->
+        <div id="tab-defenders" class="tab-panel">
+            <div class="defenders-intro">
+                <div class="intro-card warning">
+                    <div class="intro-icon">⚠️</div>
+                    <div class="intro-content">
+                        <h3>Avoid Betting OVER</h3>
+                        <p>When a player faces these elite defenders at their position, consider betting UNDER or passing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="defenders-grid" id="elite-defenders-grid">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+
+        <!-- MATCHUP CHECK TAB -->
+        <div id="tab-matchup" class="tab-panel">
+            <div class="matchup-container">
+                <div class="matchup-form">
+                    <h3>Check Defender Matchup</h3>
+                    <p class="form-desc">See if you should avoid betting OVER on a player based on their opponent's defenders.</p>
+                    
+                    <div class="matchup-inputs">
+                        <div class="form-group">
+                            <label>Player Name</label>
+                            <input type="text" id="matchup-player" class="form-control" placeholder="e.g., Anthony Edwards" list="player-suggestions">
+                            <datalist id="player-suggestions"></datalist>
+                        </div>
+                        <div class="form-group">
+                            <label>Opponent Team</label>
+                            <select id="matchup-opponent" class="form-control">
+                                <option value="">Select opponent...</option>
+                            </select>
+                        </div>
+                        <button onclick="checkMatchup()" class="btn btn-primary btn-lg">
+                            <span>⚔️</span> Check Matchup
+                        </button>
+                    </div>
+                </div>
+
+                <div id="matchup-result" class="matchup-result hidden">
+                    <!-- Filled by JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- SIMILARITY GROUPS TAB -->
+        <div id="tab-similarity" class="tab-panel">
+            <div class="similarity-intro">
+                <p>Players grouped by similar play style for comparison and correlation analysis.</p>
+            </div>
+
+            <div class="similarity-grid" id="similarity-groups">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+
+        <!-- DRTG RANKINGS TAB -->
+        <div id="tab-drtg-rankings" class="tab-panel">
+            <div class="drtg-intro">
+                <div class="intro-card info">
+                    <div class="intro-icon">📊</div>
+                    <div class="intro-content">
+                        <h3>Defensive Rating (DRTG) Rankings</h3>
+                        <p>Lower DRTG = better defender. League average is ~110. Elite defenders typically have DRTG under 105.</p>
+                    </div>
+                </div>
+                <div class="drtg-filters" style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <div class="filter-group">
+                        <label>Minimum Minutes</label>
+                        <select id="drtg-min-mpg" class="filter-select" onchange="filterDRTGRankings()">
+                            <option value="0">All Players</option>
+                            <option value="15">15+ MPG</option>
+                            <option value="20" selected>20+ MPG</option>
+                            <option value="25">25+ MPG</option>
+                            <option value="30">30+ MPG</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Minimum Games</label>
+                        <select id="drtg-min-gp" class="filter-select" onchange="filterDRTGRankings()">
+                            <option value="0">All Players</option>
+                            <option value="5">5+ Games</option>
+                            <option value="10" selected>10+ Games</option>
+                            <option value="20">20+ Games</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Team</label>
+                        <select id="drtg-team-filter" class="filter-select" onchange="filterDRTGRankings()">
+                            <option value="">All Teams</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Search</label>
+                        <input type="text" id="drtg-search" class="filter-input" placeholder="Search player..." oninput="filterDRTGRankings()">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="drtg-stats-bar" id="drtg-stats-bar" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
+                <!-- Filled by JS -->
+            </div>
+
+            <div class="drtg-rankings-container" id="drtg-rankings-container">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading DRTG rankings...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* ====================================
+   Players Page Styles
+   ==================================== */
+
+:root {
+    --tier-mvp: #f59e0b;
+    --tier-mvp-bg: rgba(245, 158, 11, 0.15);
+    --tier-star: #8b5cf6;
+    --tier-star-bg: rgba(139, 92, 246, 0.15);
+    --tier-big: #06b6d4;
+    --tier-big-bg: rgba(6, 182, 212, 0.15);
+    --tier-role: #10b981;
+    --tier-role-bg: rgba(16, 185, 129, 0.15);
+    --tier-spec: #ec4899;
+    --tier-spec-bg: rgba(236, 72, 153, 0.15);
+    --tier-rotation: #64748b;
+    --tier-rotation-bg: rgba(100, 116, 139, 0.15);
+}
+
+.players-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Hero Stats Bar */
+.players-hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.hero-stat:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-primary);
+}
+
+.hero-value {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+    color: var(--accent-secondary);
+}
+
+.hero-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+}
+
+/* Tabs */
+.tabs-container {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+}
+
+.tabs-nav {
+    display: flex;
+    gap: 0.25rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.tabs-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.tab-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    background: transparent;
+    border: none;
+    border-radius: var(--border-radius-sm);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+}
+
+.tab-btn:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+
+.tab-btn.active {
+    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+    color: white;
+}
+
+.tab-icon {
+    font-size: 1rem;
+}
+
+/* Tab Content */
+.tabs-content {
+    min-height: 400px;
+}
+
+.tab-panel {
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Filters Bar */
+.filters-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.filter-group label {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+}
+
+.filter-select,
+.filter-input {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-primary);
+    min-width: 150px;
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.filter-select:focus,
+.filter-input:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.checkbox-label input {
+    display: none;
+}
+
+.checkmark {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border-light);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.checkbox-label input:checked + .checkmark {
+    background: var(--accent-primary);
+    border-color: var(--accent-primary);
+}
+
+.checkbox-label input:checked + .checkmark::after {
+    content: "✓";
+    font-size: 0.75rem;
+    color: white;
+}
+
+.filter-results {
+    margin-left: auto;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+}
+
+/* Tier Stats Grid */
+.tier-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.tier-stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: var(--tier-bg);
+    border: 1px solid var(--tier-color);
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    transition: transform var(--transition-fast);
+}
+
+.tier-stat-card:hover {
+    transform: scale(1.03);
+}
+
+.tier-stat-count {
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+    color: var(--tier-color);
+}
+
+.tier-stat-name {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+/* Players Grid */
+.players-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tier-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.tier-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.tier-icon {
+    font-size: 1.25rem;
+}
+
+.tier-count {
+    margin-left: auto;
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    padding: 0.25rem 0.5rem;
+    background: var(--bg-tertiary);
+    border-radius: 4px;
+    color: var(--text-muted);
+}
+
+.tier-players {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.75rem;
+    padding: 1rem;
+}
+
+/* Player Card */
+.player-card {
+    padding: 1rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.player-card:hover {
+    background: var(--bg-hover);
+    border-color: var(--accent-primary);
+    transform: translateY(-2px);
+}
+
+.player-card.elite-defender {
+    border-left: 3px solid var(--accent-primary);
+}
+
+.player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+}
+
+.player-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.player-info .player-name {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.player-meta {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.elite-badge {
+    font-size: 1.25rem;
+}
+
+.player-archetypes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+}
+
+.archetype-pill {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.archetype-pill.offensive {
+    background: rgba(245, 158, 11, 0.15);
+    color: #f59e0b;
+}
+
+.archetype-pill.secondary {
+    background: rgba(139, 92, 246, 0.15);
+    color: #8b5cf6;
+}
+
+.archetype-pill.defensive {
+    background: rgba(6, 182, 212, 0.15);
+    color: #06b6d4;
+}
+
+/* Archetypes Tab Styles */
+.archetype-legend-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.legend-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.legend-card.full-width {
+    grid-column: 1 / -1;
+}
+
+.legend-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.legend-header.offensive {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, transparent 100%);
+}
+
+.legend-header.defensive {
+    background: linear-gradient(135deg, rgba(6, 182, 212, 0.1) 0%, transparent 100%);
+}
+
+.legend-header.tiers {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, transparent 100%);
+}
+
+.legend-icon {
+    font-size: 1.5rem;
+}
+
+.legend-header h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.legend-body {
+    padding: 1rem 1.25rem;
+}
+
+.legend-category {
+    margin-bottom: 1.25rem;
+}
+
+.legend-category:last-child {
+    margin-bottom: 0;
+}
+
+.legend-category h4 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin: 0 0 0.75rem 0;
+}
+
+.legend-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+.legend-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.legend-item dt {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.legend-item dd {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.tiers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.tier-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-radius: var(--border-radius-sm);
+}
+
+.tier-info.tier-mvp { background: var(--tier-mvp-bg); }
+.tier-info.tier-twostar { background: var(--tier-star-bg); }
+.tier-info.tier-big { background: var(--tier-big-bg); }
+.tier-info.tier-role { background: var(--tier-role-bg); }
+.tier-info.tier-spec { background: var(--tier-spec-bg); }
+.tier-info.tier-rotation { background: var(--tier-rotation-bg); }
+
+.tier-badge {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    color: var(--text-primary);
+}
+
+.tier-info strong {
+    font-size: 0.875rem;
+    color: var(--text-primary);
+}
+
+.tier-info p {
+    font-size: 0.6875rem;
+    color: var(--text-secondary);
+    margin: 0.25rem 0 0 0;
+}
+
+/* Archetypes Table */
+.archetypes-table-container {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.archetypes-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.archetypes-table th {
+    padding: 0.875rem 1rem;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: var(--text-muted);
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.archetypes-table td {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+.archetype-row {
+    cursor: pointer;
+    transition: background var(--transition-fast);
+}
+
+.archetype-row:hover {
+    background: var(--bg-hover);
+}
+
+.player-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.player-name-cell {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.player-team-cell {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.tier-pill {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.tier-pill.mvp { background: var(--tier-mvp-bg); color: var(--tier-mvp); }
+.tier-pill.star { background: var(--tier-star-bg); color: var(--tier-star); }
+.tier-pill.big { background: var(--tier-big-bg); color: var(--tier-big); }
+.tier-pill.role { background: var(--tier-role-bg); color: var(--tier-role); }
+.tier-pill.spec { background: var(--tier-spec-bg); color: var(--tier-spec); }
+.tier-pill.rotation { background: var(--tier-rotation-bg); color: var(--tier-rotation); }
+
+.role-pill {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+}
+
+.role-pill.offensive { color: #f59e0b; }
+.role-pill.secondary { color: #8b5cf6; }
+.role-pill.defensive { color: #06b6d4; }
+
+.no-data {
+    color: var(--text-muted);
+}
+
+.notes-cell {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.loading-cell {
+    text-align: center;
+    padding: 2rem !important;
+    color: var(--text-muted);
+}
+
+/* Elite Defenders Tab */
+.defenders-intro {
+    margin-bottom: 1.5rem;
+}
+
+.intro-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border-radius: var(--border-radius);
+}
+
+.intro-card.warning {
+    background: var(--warning-bg);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.intro-icon {
+    font-size: 1.5rem;
+}
+
+.intro-content h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+    color: var(--warning);
+}
+
+.intro-content p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.defenders-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.position-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.position-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.position-icon {
+    font-size: 1.25rem;
+}
+
+.position-header h3 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0;
+    flex: 1;
+}
+
+.defender-count {
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    padding: 0.25rem 0.5rem;
+    background: var(--accent-glow);
+    color: var(--accent-secondary);
+    border-radius: 4px;
+}
+
+.defenders-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.defender-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: background var(--transition-fast);
+}
+
+.defender-item:last-child {
+    border-bottom: none;
+}
+
+.defender-item:hover {
+    background: var(--bg-hover);
+}
+
+.defender-name {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.defender-team {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Matchup Check Tab */
+.matchup-container {
+    max-width: 600px;
+}
+
+.matchup-form {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+}
+
+.matchup-form h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+}
+
+.form-desc {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin: 0 0 1.5rem 0;
+}
+
+.matchup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.matchup-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+}
+
+.matchup-form .form-group label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+}
+
+.matchup-form .form-control {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-primary);
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.matchup-form .form-control:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.btn-lg {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+}
+
+.matchup-result {
+    margin-top: 1.5rem;
+}
+
+.matchup-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1.25rem;
+    border-radius: var(--border-radius);
+}
+
+.matchup-card.danger {
+    background: var(--error-bg);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.matchup-card.success {
+    background: var(--success-bg);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.matchup-icon {
+    font-size: 2rem;
+}
+
+.matchup-info h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+}
+
+.matchup-card.danger .matchup-info h4 { color: var(--error); }
+.matchup-card.success .matchup-info h4 { color: var(--success); }
+
+.matchup-info p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin: 0 0 0.75rem 0;
+}
+
+.defender-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.defender-badge {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    padding: 0.375rem 0.75rem;
+    background: rgba(239, 68, 68, 0.2);
+    color: var(--error);
+    border-radius: 4px;
+}
+
+.recommendation {
+    font-size: 0.8125rem;
+    font-style: italic;
+    color: var(--text-muted) !important;
+}
+
+/* Similarity Tab */
+.similarity-intro {
+    margin-bottom: 1.5rem;
+}
+
+.similarity-intro p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.similarity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.similarity-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
+
+.group-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0 0 0.75rem 0;
+    color: var(--accent-secondary);
+}
+
+.group-players {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+}
+
+.group-player {
+    font-size: 0.8125rem;
+    padding: 0.375rem 0.625rem;
+    background: var(--bg-tertiary);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.group-player:hover {
+    background: var(--accent-primary);
+    color: white;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+}
+
+.modal-content {
+    position: relative;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    max-width: 600px;
+    width: 90%;
+    max-height: 85vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-large {
+    max-width: 700px;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, transparent 100%);
+}
+
+.modal-header h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.modal-close {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all var(--transition-fast);
+}
+
+.modal-close:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+.modal-body {
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+/* Player Detail Modal Content */
+.modal-player-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.player-overview {
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius-sm);
+    padding: 1rem;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+}
+
+.overview-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.overview-item label {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+}
+
+.overview-item span {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.player-archetypes-detail h4,
+.player-notes h4,
+.player-guards h4,
+.similar-players h4,
+.avoid-betting h4 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin: 0 0 0.75rem 0;
+}
+
+.archetype-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.archetype-badge {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+}
+
+.archetype-badge.offensive {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.2) 0%, rgba(245, 158, 11, 0.05) 100%);
+    color: #f59e0b;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.archetype-badge.secondary {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(139, 92, 246, 0.05) 100%);
+    color: #8b5cf6;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.archetype-badge.defensive {
+    background: linear-gradient(135deg, rgba(6, 182, 212, 0.2) 0%, rgba(6, 182, 212, 0.05) 100%);
+    color: #06b6d4;
+    border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
+.elite-defender-notice {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, var(--accent-glow) 0%, transparent 100%);
+    border: 1px solid var(--accent-primary);
+    border-radius: var(--border-radius-sm);
+}
+
+.notice-icon {
+    font-size: 2rem;
+}
+
+.elite-defender-notice strong {
+    font-size: 0.9375rem;
+    color: var(--accent-secondary);
+}
+
+.elite-defender-notice p {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    margin: 0.25rem 0 0 0;
+}
+
+.player-notes p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.strengths-weaknesses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.sw-section {
+    padding: 1rem;
+    border-radius: var(--border-radius-sm);
+}
+
+.sw-section.strengths {
+    background: var(--success-bg);
+}
+
+.sw-section.weaknesses {
+    background: var(--error-bg);
+}
+
+.sw-section h4 {
+    margin-bottom: 0.75rem;
+}
+
+.sw-section.strengths h4 { color: var(--success); }
+.sw-section.weaknesses h4 { color: var(--error); }
+
+.sw-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sw-section li {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    padding: 0.375rem 0;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.sw-section li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+}
+
+.position-tags,
+.avoid-tags,
+.similar-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+}
+
+.pos-tag {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.375rem 0.625rem;
+    background: var(--bg-tertiary);
+    border-radius: 4px;
+    color: var(--text-secondary);
+}
+
+.avoid-tag {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    padding: 0.375rem 0.625rem;
+    background: var(--error-bg);
+    color: var(--error);
+    border-radius: 4px;
+}
+
+.similar-tag {
+    font-size: 0.8125rem;
+    padding: 0.375rem 0.625rem;
+    background: var(--bg-tertiary);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.similar-tag:hover {
+    background: var(--accent-primary);
+    color: white;
+}
+
+/* Loading and Error States */
+.loading-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    gap: 1rem;
+    color: var(--text-muted);
+}
+
+.spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid var(--border-color);
+    border-top-color: var(--accent-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.empty-state,
+.error-state {
+    padding: 3rem;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.error-state {
+    color: var(--error);
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ====================================
+   DRTG Rankings Styles
+   ==================================== */
+
+.drtg-intro {
+    margin-bottom: 1.5rem;
+}
+
+.drtg-intro .intro-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+.drtg-intro .intro-card.info {
+    border-left: 4px solid var(--accent-primary);
+}
+
+.drtg-intro .intro-icon {
+    font-size: 1.5rem;
+}
+
+.drtg-intro .intro-content h3 {
+    margin: 0 0 0.375rem 0;
+    font-size: 1rem;
+}
+
+.drtg-intro .intro-content p {
+    margin: 0;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+}
+
+.stat-card .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+}
+
+.stat-card .stat-label {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+    text-align: center;
+}
+
+.drtg-rankings-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.drtg-rankings-table thead {
+    background: var(--bg-tertiary);
+}
+
+.drtg-rankings-table th {
+    padding: 0.75rem 1rem;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.drtg-rankings-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.drtg-rankings-table tbody tr:hover {
+    background: var(--bg-hover);
+}
+
+.drtg-rankings-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.drtg-rankings-table .rank-cell {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.drtg-rankings-table .player-name-cell {
+    font-weight: 600;
+}
+
+.drtg-rankings-table .team-cell {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+}
+
+.drtg-rankings-table .drtg-cell {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    text-align: right;
+}
+
+.drtg-rankings-table .drtg-cell.elite {
+    color: #10b981;
+}
+
+.drtg-rankings-table .drtg-cell.good {
+    color: #22c55e;
+}
+
+.drtg-rankings-table .drtg-cell.average {
+    color: #f59e0b;
+}
+
+.drtg-rankings-table .drtg-cell.poor {
+    color: #ef4444;
+}
+
+.drtg-rankings-table .stat-cell {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    text-align: right;
+    color: var(--text-secondary);
+}
+
+.drtg-rankings-table .stat-cell.positive {
+    color: #10b981;
+}
+
+.drtg-rankings-table .stat-cell.negative {
+    color: #ef4444;
+}
+
+.empty-state {
+    padding: 3rem;
+    text-align: center;
+}
+
+.empty-state .empty-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.empty-state h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-primary);
+}
+
+.empty-state p {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+</style>
+
+<!-- Player Detail Modal -->
+<div id="player-modal" class="modal hidden">
+    <div class="modal-backdrop" onclick="closePlayerModal()"></div>
+    <div class="modal-content modal-large">
+        <div class="modal-header">
+            <h2 id="modal-player-name"></h2>
+            <button class="modal-close" onclick="closePlayerModal()">&times;</button>
+        </div>
+        <div class="modal-body" id="modal-content">
+            <!-- Filled by JS -->
+        </div>
+    </div>
+</div>
+
+<script>
+let allPlayers = [];
+let tierStats = {};
+let similarityGroups = {};
+let drtgRankingsLoaded = false;
+let allDRTGData = [];
+
+// ============================================
+// Tab Navigation
+// ============================================
+
+function switchTab(tabId) {
+    // Update buttons
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === tabId);
+    });
+    
+    // Update panels
+    document.querySelectorAll('.tab-panel').forEach(panel => {
+        panel.classList.toggle('active', panel.id === `tab-${tabId}`);
+    });
+    
+    // Load content if needed
+    if (tabId === 'defenders' && document.getElementById('elite-defenders-grid').children.length === 0) {
+        loadEliteDefenders();
+    }
+    if (tabId === 'similarity' && document.getElementById('similarity-groups').children.length === 0) {
+        loadSimilarityGroups();
+    }
+    if (tabId === 'drtg-rankings' && !drtgRankingsLoaded) {
+        loadDRTGRankings();
+    }
+}
+
+// ============================================
+// Data Loading
+// ============================================
+
+async function loadAllData() {
+    try {
+        const [rosterRes, tiersRes, groupsRes, statsRes] = await Promise.all([
+            fetch('/api/roster'),
+            fetch('/api/roster/tiers'),
+            fetch('/api/roster/similarity-groups'),
+            fetch('/api/stats')
+        ]);
+        
+        const rosterData = await rosterRes.json();
+        const tiersData = await tiersRes.json();
+        const groupsData = await groupsRes.json();
+        const statsData = await statsRes.json();
+        
+        allPlayers = rosterData.players;
+        tierStats = tiersData.tiers;
+        similarityGroups = groupsData.groups;
+        
+        // Update hero stats - use database player count for Total Players
+        document.querySelector('#total-players-stat .hero-value').textContent = statsData.players || allPlayers.length;
+        document.getElementById('classified-count').textContent = allPlayers.length;
+        document.getElementById('elite-defenders-count').textContent = allPlayers.filter(p => p.is_elite_defender).length;
+        document.getElementById('mvp-count').textContent = allPlayers.filter(p => p.tier === 'MVP_CANDIDATE').length;
+        document.getElementById('similarity-groups-count').textContent = Object.keys(similarityGroups).length;
+        
+        // Render initial content
+        renderTierStats();
+        renderPlayers();
+        renderArchetypesTable();
+        populateMatchupForm();
+        
+    } catch (e) {
+        console.error('Failed to load data:', e);
+        document.getElementById('roster-list').innerHTML = '<div class="error-state">Failed to load players</div>';
+    }
+}
+
+// ============================================
+// Roster Tab
+// ============================================
+
+function renderTierStats() {
+    const container = document.getElementById('tier-stats');
+    const tierColors = {
+        'MVP_CANDIDATE': { bg: 'var(--tier-mvp-bg)', color: 'var(--tier-mvp)', name: 'MVP Candidates' },
+        'TWO_WAY_STAR': { bg: 'var(--tier-star-bg)', color: 'var(--tier-star)', name: 'Two-Way Stars' },
+        'ELITE_BIG': { bg: 'var(--tier-big-bg)', color: 'var(--tier-big)', name: 'Elite Bigs' },
+        'ELITE_ROLE': { bg: 'var(--tier-role-bg)', color: 'var(--tier-role)', name: 'Elite Role' },
+        'SPECIALIST': { bg: 'var(--tier-spec-bg)', color: 'var(--tier-spec)', name: 'Specialists' },
+        'ROTATION': { bg: 'var(--tier-rotation-bg)', color: 'var(--tier-rotation)', name: 'Rotation' }
+    };
+    
+    let html = '';
+    const order = ['MVP_CANDIDATE', 'TWO_WAY_STAR', 'ELITE_BIG', 'ELITE_ROLE', 'SPECIALIST', 'ROTATION'];
+    
+    for (const tier of order) {
+        const info = tierStats[tier];
+        const style = tierColors[tier];
+        if (!info) continue;
+        
+        html += `
+        <div class="tier-stat-card" style="--tier-bg: ${style.bg}; --tier-color: ${style.color}" 
+             onclick="document.getElementById('tier-filter').value='${tier}'; filterPlayers();">
+            <span class="tier-stat-count">${info.count}</span>
+            <span class="tier-stat-name">${style.name}</span>
+        </div>`;
+    }
+    
+    container.innerHTML = html;
+}
+
+function filterPlayers() {
+    const tier = document.getElementById('tier-filter').value;
+    const search = document.getElementById('player-search').value.toLowerCase();
+    const eliteOnly = document.getElementById('elite-only').checked;
+    
+    let filtered = allPlayers;
+    
+    if (tier) {
+        filtered = filtered.filter(p => p.tier === tier);
+    }
+    if (search) {
+        filtered = filtered.filter(p => p.name.toLowerCase().includes(search));
+    }
+    if (eliteOnly) {
+        filtered = filtered.filter(p => p.is_elite_defender);
+    }
+    
+    document.getElementById('player-count').textContent = `${filtered.length} players`;
+    renderPlayers(filtered);
+}
+
+function renderPlayers(players = allPlayers) {
+    const container = document.getElementById('roster-list');
+    
+    if (players.length === 0) {
+        container.innerHTML = '<div class="empty-state"><p>No players found matching your filters.</p></div>';
+        return;
+    }
+    
+    // Group by tier
+    const byTier = {};
+    players.forEach(p => {
+        if (!byTier[p.tier]) byTier[p.tier] = [];
+        byTier[p.tier].push(p);
+    });
+    
+    const tierOrder = ['MVP_CANDIDATE', 'TWO_WAY_STAR', 'ELITE_BIG', 'ELITE_ROLE', 'SPECIALIST', 'ROTATION'];
+    const tierNames = {
+        'MVP_CANDIDATE': 'MVP Candidates',
+        'TWO_WAY_STAR': 'Two-Way Stars',
+        'ELITE_BIG': 'Elite Bigs',
+        'ELITE_ROLE': 'Elite Role Players',
+        'SPECIALIST': 'Specialists',
+        'ROTATION': 'Rotation Pieces'
+    };
+    const tierIcons = {
+        'MVP_CANDIDATE': '⭐',
+        'TWO_WAY_STAR': '🌟',
+        'ELITE_BIG': '🏀',
+        'ELITE_ROLE': '🔧',
+        'SPECIALIST': '🎯',
+        'ROTATION': '🔄'
+    };
+    
+    let html = '';
+    
+    for (const tier of tierOrder) {
+        if (!byTier[tier]) continue;
+        
+        html += `
+        <div class="tier-section" data-tier="${tier}">
+            <h3 class="tier-heading">
+                <span class="tier-icon">${tierIcons[tier]}</span>
+                ${tierNames[tier]}
+                <span class="tier-count">${byTier[tier].length}</span>
+            </h3>
+            <div class="tier-players">`;
+        
+        for (const p of byTier[tier]) {
+            html += `
+            <div class="player-card ${p.is_elite_defender ? 'elite-defender' : ''}" onclick="showPlayerDetail('${p.name.replace(/'/g, "\\'")}')">
+                <div class="player-header">
+                    <div class="player-info">
+                        <span class="player-name">${p.name}</span>
+                        <span class="player-meta">${p.team} · ${p.position || 'N/A'}</span>
+                    </div>
+                    ${p.is_elite_defender ? '<span class="elite-badge">🛡️</span>' : ''}
+                </div>
+                <div class="player-archetypes">
+                    <span class="archetype-pill offensive">${p.primary_offensive}</span>
+                    ${p.secondary_offensive ? `<span class="archetype-pill secondary">${p.secondary_offensive}</span>` : ''}
+                    <span class="archetype-pill defensive">${p.defensive_role}</span>
+                </div>
+            </div>`;
+        }
+        
+        html += '</div></div>';
+    }
+    
+    container.innerHTML = html;
+}
+
+// ============================================
+// Archetypes Tab
+// ============================================
+
+function renderArchetypesTable() {
+    const tbody = document.getElementById('archetypes-table');
+    
+    if (allPlayers.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="loading-cell">No data available</td></tr>';
+        return;
+    }
+    
+    const getTierBadge = (tier) => {
+        const badges = {
+            'MVP_CANDIDATE': '<span class="tier-pill mvp">MVP</span>',
+            'TWO_WAY_STAR': '<span class="tier-pill star">Star</span>',
+            'ELITE_BIG': '<span class="tier-pill big">Elite Big</span>',
+            'ELITE_ROLE': '<span class="tier-pill role">Elite Role</span>',
+            'SPECIALIST': '<span class="tier-pill spec">Specialist</span>',
+            'ROTATION': '<span class="tier-pill rotation">Rotation</span>'
+        };
+        return badges[tier] || tier;
+    };
+    
+    tbody.innerHTML = allPlayers.map(p => `
+        <tr class="archetype-row" onclick="showPlayerDetail('${p.name.replace(/'/g, "\\'")}')">
+            <td>
+                <div class="player-cell">
+                    <span class="player-name-cell">${p.name}</span>
+                    <span class="player-team-cell">${p.team}</span>
+                </div>
+            </td>
+            <td>${getTierBadge(p.tier)}</td>
+            <td><span class="role-pill offensive">${p.primary_offensive}</span></td>
+            <td>${p.secondary_offensive ? `<span class="role-pill secondary">${p.secondary_offensive}</span>` : '<span class="no-data">—</span>'}</td>
+            <td><span class="role-pill defensive">${p.defensive_role}</span></td>
+            <td class="notes-cell">${p.notes || ''}</td>
+        </tr>
+    `).join('');
+}
+
+// ============================================
+// Elite Defenders Tab
+// ============================================
+
+async function loadEliteDefenders() {
+    const container = document.getElementById('elite-defenders-grid');
+    
+    try {
+        const res = await fetch('/api/roster/elite-defenders');
+        const data = await res.json();
+        
+        const posOrder = ['PG', 'SG', 'SF', 'PF', 'C'];
+        const posNames = {
+            'PG': 'Point Guards',
+            'SG': 'Shooting Guards',
+            'SF': 'Small Forwards',
+            'PF': 'Power Forwards',
+            'C': 'Centers'
+        };
+        const posIcons = {
+            'PG': '🎯',
+            'SG': '🔥',
+            'SF': '🦅',
+            'PF': '💪',
+            'C': '🗼'
+        };
+        
+        let html = '';
+        
+        for (const pos of posOrder) {
+            const defenders = data.defenders_by_position[pos] || [];
+            html += `
+            <div class="position-card">
+                <div class="position-header">
+                    <span class="position-icon">${posIcons[pos]}</span>
+                    <h3>${posNames[pos]}</h3>
+                    <span class="defender-count">${defenders.length}</span>
+                </div>
+                <div class="defenders-list">
+                    ${defenders.map(d => `
+                        <div class="defender-item" onclick="showPlayerDetail('${d.name.replace(/'/g, "\\'")}')">
+                            <span class="defender-name">${d.name}</span>
+                            <span class="defender-team">${d.team}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`;
+        }
+        
+        container.innerHTML = html;
+    } catch (e) {
+        container.innerHTML = '<div class="error-state">Failed to load defenders</div>';
+    }
+}
+
+// ============================================
+// Matchup Check Tab
+// ============================================
+
+function populateMatchupForm() {
+    // Populate player suggestions
+    const datalist = document.getElementById('player-suggestions');
+    datalist.innerHTML = allPlayers.map(p => `<option value="${p.name}">`).join('');
+    
+    // Populate teams
+    const teams = [
+        'Atlanta Hawks', 'Boston Celtics', 'Brooklyn Nets', 'Charlotte Hornets',
+        'Chicago Bulls', 'Cleveland Cavaliers', 'Dallas Mavericks', 'Denver Nuggets',
+        'Detroit Pistons', 'Golden State Warriors', 'Houston Rockets', 'Indiana Pacers',
+        'LA Clippers', 'Los Angeles Lakers', 'Memphis Grizzlies', 'Miami Heat',
+        'Milwaukee Bucks', 'Minnesota Timberwolves', 'New Orleans Pelicans', 'New York Knicks',
+        'Oklahoma City Thunder', 'Orlando Magic', 'Philadelphia 76ers', 'Phoenix Suns',
+        'Portland Trail Blazers', 'Sacramento Kings', 'San Antonio Spurs', 'Toronto Raptors',
+        'Utah Jazz', 'Washington Wizards'
+    ];
+    
+    const select = document.getElementById('matchup-opponent');
+    select.innerHTML = '<option value="">Select opponent...</option>' + 
+        teams.map(t => `<option value="${t}">${t}</option>`).join('');
+}
+
+async function checkMatchup() {
+    const player = document.getElementById('matchup-player').value.trim();
+    const opponent = document.getElementById('matchup-opponent').value.trim();
+    
+    if (!player || !opponent) {
+        alert('Please enter both player and opponent');
+        return;
+    }
+    
+    try {
+        const res = await fetch('/api/roster/matchup-check', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ player, opponent })
+        });
+        
+        const data = await res.json();
+        const resultDiv = document.getElementById('matchup-result');
+        resultDiv.classList.remove('hidden');
+        
+        if (data.avoid) {
+            resultDiv.innerHTML = `
+            <div class="matchup-card danger">
+                <div class="matchup-icon">⚠️</div>
+                <div class="matchup-info">
+                    <h4>Caution: Elite Defender Matchup</h4>
+                    <p><strong>${data.player}</strong> (${data.player_archetype}) will face elite defenders:</p>
+                    <div class="defender-badges">
+                        ${data.elite_defenders.map(d => `<span class="defender-badge">${d}</span>`).join('')}
+                    </div>
+                    <p class="recommendation">${data.recommendation}</p>
+                </div>
+            </div>`;
+        } else {
+            resultDiv.innerHTML = `
+            <div class="matchup-card success">
+                <div class="matchup-icon">✅</div>
+                <div class="matchup-info">
+                    <h4>No Elite Defender Concern</h4>
+                    <p><strong>${data.player}</strong> does not face elite defenders from ${data.opponent}.</p>
+                    <p class="recommendation">${data.recommendation}</p>
+                </div>
+            </div>`;
+        }
+    } catch (e) {
+        alert('Error checking matchup');
+    }
+}
+
+// ============================================
+// Similarity Groups Tab
+// ============================================
+
+async function loadSimilarityGroups() {
+    const container = document.getElementById('similarity-groups');
+    
+    if (Object.keys(similarityGroups).length === 0) {
+        try {
+            const res = await fetch('/api/roster/similarity-groups');
+            const data = await res.json();
+            similarityGroups = data.groups;
+        } catch (e) {
+            container.innerHTML = '<div class="error-state">Failed to load groups</div>';
+            return;
+        }
+    }
+    
+    let html = '';
+    
+    for (const [name, players] of Object.entries(similarityGroups)) {
+        html += `
+        <div class="similarity-card">
+            <h4 class="group-name">${name}</h4>
+            <div class="group-players">
+                ${players.map(p => `<span class="group-player" onclick="showPlayerDetail('${p.replace(/'/g, "\\'")}')">${p}</span>`).join('')}
+            </div>
+        </div>`;
+    }
+    
+    container.innerHTML = html;
+}
+
+// ============================================
+// Player Detail Modal
+// ============================================
+
+async function showPlayerDetail(playerName) {
+    try {
+        const res = await fetch(`/api/roster/player/${encodeURIComponent(playerName)}`);
+        const data = await res.json();
+        
+        if (data.error) {
+            alert('Player not found');
+            return;
+        }
+        
+        document.getElementById('modal-player-name').textContent = data.name;
+        
+        const getTierClass = (tier) => {
+            const classes = {
+                'MVP_CANDIDATE': 'mvp',
+                'TWO_WAY_STAR': 'star',
+                'ELITE_BIG': 'big',
+                'ELITE_ROLE': 'role',
+                'SPECIALIST': 'spec',
+                'ROTATION': 'rotation'
+            };
+            return classes[tier] || '';
+        };
+        
+        let html = `
+        <div class="modal-player-content">
+            <div class="player-overview">
+                <div class="overview-grid">
+                    <div class="overview-item">
+                        <label>Team</label>
+                        <span>${data.team}</span>
+                    </div>
+                    <div class="overview-item">
+                        <label>Position</label>
+                        <span>${data.position || 'N/A'}</span>
+                    </div>
+                    <div class="overview-item">
+                        <label>Height</label>
+                        <span>${data.height || 'N/A'}</span>
+                    </div>
+                    <div class="overview-item">
+                        <label>Tier</label>
+                        <span class="tier-pill ${getTierClass(data.tier)}">${data.tier.replace('_', ' ')}</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="player-archetypes-detail">
+                <h4>Archetypes</h4>
+                <div class="archetype-badges">
+                    <span class="archetype-badge offensive">${data.primary_offensive}</span>
+                    ${data.secondary_offensive ? `<span class="archetype-badge secondary">${data.secondary_offensive}</span>` : ''}
+                    <span class="archetype-badge defensive">${data.defensive_role}</span>
+                </div>
+            </div>
+            
+            ${data.is_elite_defender ? `
+            <div class="elite-defender-notice">
+                <span class="notice-icon">🛡️</span>
+                <div>
+                    <strong>Elite Defender</strong>
+                    <p>Avoid betting OVER on players this defender guards.</p>
+                </div>
+            </div>` : ''}
+            
+            ${data.notes ? `
+            <div class="player-notes">
+                <h4>Analysis</h4>
+                <p>${data.notes}</p>
+            </div>` : ''}
+            
+            <div class="strengths-weaknesses">
+                ${data.strengths.length > 0 ? `
+                <div class="sw-section strengths">
+                    <h4>Strengths</h4>
+                    <ul>${data.strengths.map(s => `<li>${s}</li>`).join('')}</ul>
+                </div>` : ''}
+                
+                ${data.weaknesses.length > 0 ? `
+                <div class="sw-section weaknesses">
+                    <h4>Weaknesses</h4>
+                    <ul>${data.weaknesses.map(w => `<li>${w}</li>`).join('')}</ul>
+                </div>` : ''}
+            </div>
+            
+            ${data.guards_positions.length > 0 ? `
+            <div class="player-guards">
+                <h4>Guards Positions</h4>
+                <div class="position-tags">
+                    ${data.guards_positions.map(p => `<span class="pos-tag">${p}</span>`).join('')}
+                </div>
+            </div>` : ''}
+            
+            ${data.avoid_betting_against.length > 0 ? `
+            <div class="avoid-betting">
+                <h4>⚠️ Avoid Betting OVER Against</h4>
+                <div class="avoid-tags">
+                    ${data.avoid_betting_against.map(d => `<span class="avoid-tag">${d}</span>`).join('')}
+                </div>
+            </div>` : ''}
+            
+            ${data.similar_players.length > 0 ? `
+            <div class="similar-players">
+                <h4>Similar Players</h4>
+                <div class="similar-tags">
+                    ${data.similar_players.map(p => `<span class="similar-tag" onclick="showPlayerDetail('${p.replace(/'/g, "\\'")}')">${p}</span>`).join('')}
+                </div>
+            </div>` : ''}
+        </div>`;
+        
+        document.getElementById('modal-content').innerHTML = html;
+        document.getElementById('player-modal').classList.remove('hidden');
+    } catch (e) {
+        alert('Error loading player');
+    }
+}
+
+function closePlayerModal() {
+    document.getElementById('player-modal').classList.add('hidden');
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closePlayerModal();
+});
+
+// Search on enter
+document.getElementById('player-search')?.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') filterPlayers();
+});
+
+// ============================================
+// DRTG Rankings Tab
+// ============================================
+
+async function loadDRTGRankings() {
+    const container = document.getElementById('drtg-rankings-container');
+    
+    try {
+        const res = await fetch('/api/player-drtg/league');
+        const data = await res.json();
+        
+        if (data.error || !data.players || data.players.length === 0) {
+            container.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-icon">📊</div>
+                <h3>No DRTG Data Available</h3>
+                <p>DRTG data hasn't been ingested yet. Use the Data page to paste DRTG stats.</p>
+            </div>`;
+            return;
+        }
+        
+        allDRTGData = data.players;
+        drtgRankingsLoaded = true;
+        
+        // Populate team filter
+        const teams = [...new Set(data.players.map(p => p.team_abbrev))].sort();
+        const teamSelect = document.getElementById('drtg-team-filter');
+        teamSelect.innerHTML = '<option value="">All Teams</option>' + 
+            teams.map(t => `<option value="${t}">${t}</option>`).join('');
+        
+        // Render stats and table
+        renderDRTGStats(data.players);
+        filterDRTGRankings();
+    } catch (e) {
+        container.innerHTML = '<div class="error-state">Failed to load DRTG rankings</div>';
+    }
+}
+
+function renderDRTGStats(players) {
+    const statsBar = document.getElementById('drtg-stats-bar');
+    
+    // Filter to meaningful players
+    const meaningful = players.filter(p => p.mpg >= 20 && p.games_played >= 10);
+    
+    if (meaningful.length === 0) {
+        statsBar.innerHTML = '';
+        return;
+    }
+    
+    // Calculate stats
+    const avgDRTG = meaningful.reduce((s, p) => s + p.drtg, 0) / meaningful.length;
+    const best = meaningful.reduce((best, p) => p.drtg < best.drtg ? p : best, meaningful[0]);
+    const worst = meaningful.reduce((worst, p) => p.drtg > worst.drtg ? p : worst, meaningful[0]);
+    const elite = meaningful.filter(p => p.drtg < 105).length;
+    
+    statsBar.innerHTML = `
+        <div class="stat-card">
+            <span class="stat-value" style="color: var(--accent);">${meaningful.length}</span>
+            <span class="stat-label">Players Tracked</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" style="color: #f59e0b;">${avgDRTG.toFixed(1)}</span>
+            <span class="stat-label">League Avg DRTG</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" style="color: #10b981;">${best.drtg.toFixed(1)}</span>
+            <span class="stat-label">Best: ${best.player_name.split(' ').pop()}</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" style="color: #ef4444;">${worst.drtg.toFixed(1)}</span>
+            <span class="stat-label">Worst: ${worst.player_name.split(' ').pop()}</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" style="color: #10b981;">${elite}</span>
+            <span class="stat-label">Elite (<105)</span>
+        </div>
+    `;
+}
+
+function filterDRTGRankings() {
+    const container = document.getElementById('drtg-rankings-container');
+    const minMPG = parseFloat(document.getElementById('drtg-min-mpg').value) || 0;
+    const minGP = parseInt(document.getElementById('drtg-min-gp').value) || 0;
+    const team = document.getElementById('drtg-team-filter').value;
+    const search = document.getElementById('drtg-search').value.toLowerCase();
+    
+    let filtered = allDRTGData.filter(p => {
+        if (p.mpg < minMPG) return false;
+        if (p.games_played < minGP) return false;
+        if (team && p.team_abbrev !== team) return false;
+        if (search && !p.player_name.toLowerCase().includes(search)) return false;
+        return true;
+    });
+    
+    // Sort by DRTG (ascending - lower is better)
+    filtered.sort((a, b) => a.drtg - b.drtg);
+    
+    if (filtered.length === 0) {
+        container.innerHTML = `
+        <div class="empty-state">
+            <div class="empty-icon">🔍</div>
+            <h3>No Players Match Filters</h3>
+            <p>Try adjusting the filters to see more players.</p>
+        </div>`;
+        return;
+    }
+    
+    const getDRTGClass = (drtg) => {
+        if (drtg < 100) return 'elite';
+        if (drtg < 105) return 'good';
+        if (drtg < 115) return 'average';
+        return 'poor';
+    };
+    
+    container.innerHTML = `
+    <div class="drtg-rankings-table-wrapper" style="overflow-x: auto;">
+        <table class="drtg-rankings-table">
+            <thead>
+                <tr>
+                    <th style="width: 50px;">Rank</th>
+                    <th>Player</th>
+                    <th>Team</th>
+                    <th style="text-align: right;">DRTG</th>
+                    <th style="text-align: right;">GP</th>
+                    <th style="text-align: right;">MPG</th>
+                    <th style="text-align: right;">PPG</th>
+                    <th style="text-align: right;">RPG</th>
+                    <th style="text-align: right;">+/-</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${filtered.map((p, i) => `
+                <tr>
+                    <td class="rank-cell">${i + 1}</td>
+                    <td class="player-name-cell">${p.player_name}</td>
+                    <td class="team-cell">${p.team_abbrev}</td>
+                    <td class="drtg-cell ${getDRTGClass(p.drtg)}">${p.drtg.toFixed(1)}</td>
+                    <td class="stat-cell">${p.games_played || '-'}</td>
+                    <td class="stat-cell">${p.mpg ? p.mpg.toFixed(1) : '-'}</td>
+                    <td class="stat-cell">${p.ppg ? p.ppg.toFixed(1) : '-'}</td>
+                    <td class="stat-cell">${p.rpg ? p.rpg.toFixed(1) : '-'}</td>
+                    <td class="stat-cell ${p.plus_minus > 0 ? 'positive' : p.plus_minus < 0 ? 'negative' : ''}">${p.plus_minus ? (p.plus_minus > 0 ? '+' : '') + p.plus_minus.toFixed(1) : '-'}</td>
+                </tr>`).join('')}
+            </tbody>
+        </table>
+    </div>
+    <p style="text-align: center; color: var(--text-muted); font-size: 0.75rem; margin-top: 1rem;">
+        Showing ${filtered.length} players • Sorted by DRTG (lower is better)
+    </p>`;
+}
+
+// Initialize
+document.addEventListener('DOMContentLoaded', loadAllData);
+</script>
+{% endblock %}

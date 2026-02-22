@@ -1,0 +1,98 @@
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+29:29	5	11	45.5	0	3	0.0	6	6	100	1	1	2	2	0	0	4	1	16	-9
+undefined Headshot
+Naji Marshall
+F
+26:41	8	11	72.7	0	2	0.0	2	4	50.0	0	1	1	2	1	0	0	3	18	-24
+undefined Headshot
+Anthony Davis
+C
+24:17	1	9	11.1	0	0	0.0	0	2	0.0	4	4	8	6	0	1	2	1	2	-18
+undefined Headshot
+Max Christie
+G
+22:29	5	6	83.3	2	3	66.7	0	0	0.0	0	3	3	0	1	0	0	1	12	-23
+undefined Headshot
+Ryan Nembhard
+G
+24:17	4	8	50.0	2	3	66.7	0	0	0.0	1	2	3	4	0	0	1	2	10	-18
+undefined Headshot
+Klay Thompson
+17:49	1	7	14.3	1	5	20.0	0	0	0.0	1	4	5	0	0	1	0	3	3	-5
+undefined Headshot
+Brandon Williams
+23:43	3	9	33.3	1	4	25.0	2	2	100	1	2	3	7	0	0	1	0	9	-3
+undefined Headshot
+Dwight Powell
+15:59	1	1	100	0	0	0.0	1	4	25.0	1	1	2	2	0	0	1	2	3	-6
+undefined Headshot
+Caleb Martin
+11:33	1	3	33.3	1	2	50.0	0	0	0.0	0	0	0	0	0	0	0	1	3	-2
+undefined Headshot
+D'Angelo Russell
+15:35	4	7	57.1	4	6	66.7	0	0	0.0	0	3	3	3	0	0	1	2	12	-3
+undefined Headshot
+Jaden Hardy
+20:24	8	13	61.5	5	9	55.6	2	2	100	0	2	2	2	0	0	1	1	23	3
+undefined Headshot
+Moussa Cisse
+7:44	0	1	0.0	0	0	0.0	0	0	0.0	0	3	3	0	0	1	0	0	0	3
+TOTALS
+ 	41	86	47.7	16	37	43.2	13	20	65.0	9	26	35	28	2	3	11	17	111	-21
+Oklahoma City Thunder
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jalen Williams
+F
+24:07	5	11	45.5	1	3	33.3	4	4	100	1	7	8	5	1	0	1	4	15	14
+undefined Headshot
+Jaylin Williams
+F
+18:51	1	4	25.0	1	4	25.0	1	2	50.0	0	3	3	3	1	1	0	2	4	20
+undefined Headshot
+Chet Holmgren
+C
+23:20	6	11	54.5	1	4	25.0	2	2	100	2	6	8	1	0	1	0	1	15	16
+undefined Headshot
+Cason Wallace
+G
+22:56	4	7	57.1	3	5	60.0	0	0	0.0	1	3	4	1	1	0	0	0	11	19
+undefined Headshot
+Shai Gilgeous-Alexander
+G
+28:34	10	12	83.3	2	2	100	11	12	91.7	0	5	5	6	0	1	2	4	33	24
+undefined Headshot
+Aaron Wiggins
+19:41	5	8	62.5	1	2	50.0	0	0	0.0	1	1	2	3	0	0	0	0	11	17
+undefined Headshot
+Branden Carlson
+21:49	4	6	66.7	1	2	50.0	0	0	0.0	1	5	6	3	0	0	0	2	9	0
+undefined Headshot
+Ajay Mitchell
+22:52	3	7	42.9	1	2	50.0	2	2	100	0	0	0	2	1	0	3	3	9	4
+undefined Headshot
+Kenrich Williams
+19:56	4	7	57.1	0	2	0.0	2	2	100	1	0	1	3	0	0	0	0	10	-3
+undefined Headshot
+Chris Youngblood
+8:39	1	2	50.0	0	1	0.0	1	1	100	0	4	4	0	0	0	0	4	3	-2
+undefined Headshot
+Ousmane Dieng
+21:31	2	5	40.0	1	2	50.0	2	2	100	0	1	1	1	0	0	0	1	7	-1
+undefined Headshot
+Brooks Barnhizer
+7:44	2	4	50.0	0	1	0.0	1	1	100	0	1	1	2	1	0	0	0	5	-3
+TOTALS
+ 	47	84	56.0	12	30	40.0	26	28	92.9	7	36	43	30	5	3	6	21	132	21
+Inactive Players
+DAL: Kyrie Irving, Dante Exum, P.J. Washington, Daniel Gafford, Dereck Lively II, Miles Kelly
+
+OKC: Nikola Topic, Thomas Sorber, Isaiah Joe, Luguentz Dort, Alex Caruso, Isaiah Hartenstein

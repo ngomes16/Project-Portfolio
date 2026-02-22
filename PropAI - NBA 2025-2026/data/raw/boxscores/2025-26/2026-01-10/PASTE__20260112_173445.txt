@@ -1,0 +1,101 @@
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Naji Marshall
+F
+24:25	4	11	36.4	1	4	25.0	5	8	62.5	0	4	4	3	3	0	0	1	14	-10
+undefined Headshot
+Cooper Flagg
+F
+28:13	4	13	30.8	0	1	0.0	3	3	100	0	1	1	2	1	1	5	2	11	-14
+undefined Headshot
+Daniel Gafford
+C
+24:42	2	6	33.3	0	0	0.0	2	3	66.7	3	4	7	0	0	1	0	2	6	-10
+undefined Headshot
+Max Christie
+G
+27:05	4	9	44.4	2	5	40.0	0	0	0.0	0	3	3	2	0	0	0	0	10	-12
+undefined Headshot
+Ryan Nembhard
+G
+29:15	5	11	45.5	3	6	50.0	3	4	75.0	0	3	3	6	0	0	2	2	16	-15
+undefined Headshot
+Moussa Cisse
+19:21	2	3	66.7	0	0	0.0	1	2	50.0	4	6	10	0	2	3	1	2	5	-6
+undefined Headshot
+Klay Thompson
+19:53	4	10	40.0	2	6	33.3	0	0	0.0	0	2	2	1	0	1	0	0	10	-19
+undefined Headshot
+Jaden Hardy
+12:43	5	8	62.5	4	7	57.1	0	0	0.0	0	1	1	0	0	0	2	1	14	3
+undefined Headshot
+D'Angelo Russell
+18:44	4	10	40.0	0	2	0.0	0	0	0.0	0	2	2	4	0	0	2	0	8	-3
+undefined Headshot
+Caleb Martin
+19:49	3	6	50.0	0	1	0.0	2	5	40.0	1	3	4	4	1	0	1	1	8	-4
+undefined Headshot
+Dwight Powell
+1:01	0	0	0.0	0	0	0.0	0	0	0.0	1	1	2	1	0	0	0	0	0	2
+undefined Headshot
+Miles Kelly
+14:50	2	4	50.0	1	3	33.3	0	0	0.0	0	3	3	2	0	0	1	2	5	-2
+TOTALS
+ 	39	91	42.9	13	35	37.1	16	25	64.0	9	33	42	25	7	6	14	13	107	-18
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Isaac Okoro
+F
+28:45	5	9	55.6	3	6	50.0	0	0	0.0	1	3	4	2	0	1	1	1	13	15
+undefined Headshot
+Matas Buzelis
+F
+25:14	7	16	43.8	1	7	14.3	0	0	0.0	1	5	6	2	0	2	1	3	15	19
+undefined Headshot
+Nikola Vučević
+C
+28:55	6	11	54.5	1	5	20.0	2	2	100	3	9	12	3	1	2	2	2	15	9
+undefined Headshot
+Coby White
+G
+28:56	9	15	60.0	2	7	28.6	2	2	100	0	4	4	3	1	0	3	3	22	18
+undefined Headshot
+Tre Jones
+G
+27:59	6	8	75.0	1	3	33.3	0	0	0.0	0	3	3	5	0	0	0	3	13	4
+undefined Headshot
+Ayo Dosunmu
+25:34	7	9	77.8	3	4	75.0	3	3	100	1	3	4	8	4	0	3	4	20	15
+undefined Headshot
+Jalen Smith
+16:18	3	11	27.3	0	5	0.0	1	2	50.0	2	7	9	0	0	2	1	0	7	15
+undefined Headshot
+Kevin Huerter
+23:48	5	10	50.0	2	6	33.3	1	1	100	1	2	3	6	3	0	1	3	13	22
+undefined Headshot
+Patrick Williams
+20:22	1	5	20.0	1	2	50.0	1	2	50.0	1	4	5	1	1	0	1	0	4	-5
+undefined Headshot
+Julian Phillips
+5:48	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	1	0	-4
+undefined Headshot
+Jevon Carter
+2:47	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	0	0	3	-6
+undefined Headshot
+Dalen Terry
+2:47	0	2	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	-6
+undefined Headshot
+Lachlan Olbrich
+2:47	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	0	0	-6
+TOTALS
+ 	50	97	51.5	15	46	32.6	10	12	83.3	11	41	52	31	10	7	14	20	125	18
+Inactive Players
+DAL: Dereck Lively II, P.J. Washington, Brandon Williams, Kyrie Irving, Anthony Davis, Dante Exum
+
+CHI: Zach Collins, Josh Giddey, Emanuel Miller, Yuki Kawamura, Noa Essengue

@@ -1,0 +1,107 @@
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+29:33	6	9	66.7	4	6	66.7	1	2	50.0	1	5	6	5	0	2	1	2	17	24
+undefined Headshot
+Julius Randle
+F
+29:55	12	18	66.7	4	7	57.1	1	2	50.0	0	8	8	6	1	0	2	3	29	23
+undefined Headshot
+Naz Reid
+C
+28:10	8	12	66.7	2	6	33.3	1	3	33.3	0	3	3	2	1	0	2	3	19	18
+undefined Headshot
+Donte DiVincenzo
+G
+30:09	4	6	66.7	3	5	60.0	0	0	0.0	0	4	4	7	0	0	2	0	11	23
+undefined Headshot
+Mike Conley
+G
+20:37	3	7	42.9	3	7	42.9	0	0	0.0	0	3	3	5	0	0	1	0	9	0
+undefined Headshot
+Bones Hyland
+21:03	9	16	56.3	5	7	71.4	0	0	0.0	0	2	2	5	1	0	0	2	23	41
+undefined Headshot
+Joan Beringer
+29:40	6	7	85.7	0	0	0.0	1	1	100	4	1	5	2	1	0	1	4	13	30
+undefined Headshot
+Jaylen Clark
+18:20	2	6	33.3	0	0	0.0	0	0	0.0	3	3	6	2	2	0	0	0	4	26
+undefined Headshot
+Leonard Miller
+8:15	2	3	66.7	0	1	0.0	3	4	75.0	0	2	2	0	1	0	1	0	7	-5
+undefined Headshot
+Johnny Juzang
+8:15	1	2	50.0	0	1	0.0	0	0	0.0	1	0	1	2	0	0	1	0	2	-5
+undefined Headshot
+Rob Dillingham
+8:15	2	6	33.3	1	2	50.0	0	0	0.0	0	2	2	0	0	0	1	2	5	-5
+undefined Headshot
+Joe Ingles
+7:48	0	0	0.0	0	0	0.0	0	0	0.0	0	2	2	1	2	0	3	0	0	-5
+undefined Headshot
+Rudy Gobert
+NWT - League Suspension
+TOTALS
+ 	55	92	59.8	22	42	52.4	7	12	58.3	9	35	44	37	9	2	15	16	139	33
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+AJ Green
+F
+26:30	3	9	33.3	3	9	33.3	0	0	0.0	0	0	0	2	0	0	0	1	9	-8
+undefined Headshot
+Giannis Antetokounmpo
+F
+30:59	9	13	69.2	0	1	0.0	7	14	50.0	0	8	8	5	1	0	7	4	25	-11
+undefined Headshot
+Bobby Portis
+C
+27:15	6	12	50.0	2	4	50.0	0	0	0.0	2	5	7	1	2	0	0	0	14	-19
+undefined Headshot
+Kevin Porter Jr.
+G
+29:08	5	11	45.5	2	4	50.0	1	2	50.0	1	3	4	8	3	1	4	3	13	-16
+undefined Headshot
+Ryan Rollins
+G
+30:42	5	14	35.7	1	5	20.0	0	0	0.0	2	5	7	3	0	1	2	0	11	-23
+undefined Headshot
+Gary Trent Jr.
+13:38	2	5	40.0	2	5	40.0	0	0	0.0	0	0	0	1	0	0	0	0	6	-30
+undefined Headshot
+Kyle Kuzma
+20:45	1	1	100	0	0	0.0	0	0	0.0	0	0	0	2	0	1	0	1	2	-37
+undefined Headshot
+Jericho Sims
+3:34	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-11
+undefined Headshot
+Gary Harris
+12:57	1	2	50.0	1	2	50.0	0	0	0.0	1	0	1	2	0	0	1	0	3	-19
+undefined Headshot
+Amir Coffey
+9:11	3	5	60.0	1	2	50.0	3	3	100	1	0	1	0	2	1	1	0	10	1
+undefined Headshot
+Pete Nance
+9:11	2	3	66.7	1	2	50.0	0	0	0.0	0	0	0	1	1	0	1	2	5	1
+undefined Headshot
+Andre Jackson Jr.
+9:11	1	2	50.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	1	2	2	1
+undefined Headshot
+Cole Anthony
+9:11	2	5	40.0	0	2	0.0	0	0	0.0	1	1	2	3	1	0	1	1	4	1
+undefined Headshot
+Thanasis Antetokounmpo
+7:48	1	3	33.3	0	0	0.0	0	0	0.0	1	0	1	0	2	0	1	0	2	5
+TOTALS
+ 	41	85	48.2	13	36	36.1	11	19	57.9	9	23	32	29	12	4	19	14	106	-33
+Inactive Players
+MIN: Enrique Freeman, Rocco Zikarsky, Anthony Edwards, Terrence Shannon Jr.
+
+MIL: Myles Turner, Taurean Prince, Alex Antetokounmpo

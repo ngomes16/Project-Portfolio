@@ -1,0 +1,101 @@
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jimmy Butler III
+F
+34:44	7	14	50.0	1	2	50.0	16	16	100	2	3	5	4	1	0	1	4	31	20
+undefined Headshot
+Jonathan Kuminga
+F
+32:54	6	11	54.5	4	6	66.7	1	2	50.0	3	6	9	6	1	0	2	3	17	4
+undefined Headshot
+Draymond Green
+C
+28:24	3	6	50.0	1	3	33.3	1	3	33.3	1	6	7	9	1	2	4	5	8	20
+undefined Headshot
+Brandin Podziemski
+G
+32:32	3	7	42.9	1	4	25.0	0	0	0.0	1	6	7	2	1	0	1	2	7	13
+undefined Headshot
+Stephen Curry
+G
+32:04	6	14	42.9	3	9	33.3	8	8	100	0	1	1	4	3	1	2	3	23	1
+undefined Headshot
+Buddy Hield
+22:15	6	11	54.5	5	10	50.0	0	0	0.0	0	1	1	0	1	0	2	0	17	5
+undefined Headshot
+Gary Payton II
+12:04	3	6	50.0	0	1	0.0	0	0	0.0	1	1	2	1	1	1	3	3	6	3
+undefined Headshot
+Al Horford
+20:15	2	7	28.6	1	4	25.0	0	0	0.0	0	5	5	1	0	0	2	4	5	-10
+undefined Headshot
+Gui Santos
+2:39	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	0
+undefined Headshot
+Will Richard
+13:35	2	2	100	1	1	100	0	0	0.0	1	0	1	1	1	0	0	2	5	-11
+undefined Headshot
+Quinten Post
+8:34	0	0	0.0	0	0	0.0	0	0	0.0	0	2	2	1	0	0	0	1	0	5
+undefined Headshot
+Trayce Jackson-Davis
+DNP - Coach's Decision
+undefined Headshot
+Pat Spencer
+DNP - Coach's Decision
+TOTALS
+ 	38	78	48.7	17	40	42.5	26	29	89.7	9	31	40	29	10	4	18	27	119	10
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Austin Reaves
+F
+36:20	9	16	56.3	1	5	20.0	7	10	70.0	1	4	5	9	2	0	5	5	26	-14
+undefined Headshot
+Rui Hachimura
+F
+35:25	3	6	50.0	3	6	50.0	0	0	0.0	0	4	4	3	0	0	1	2	9	-6
+undefined Headshot
+Deandre Ayton
+C
+33:53	5	7	71.4	0	0	0.0	0	2	0.0	2	4	6	0	0	1	4	3	10	-4
+undefined Headshot
+Gabe Vincent
+G
+28:44	1	4	25.0	1	4	25.0	0	0	0.0	0	0	0	1	1	0	0	3	3	-5
+undefined Headshot
+Luka Dončić
+G
+40:59	17	27	63.0	2	10	20.0	7	10	70.0	0	12	12	9	2	1	3	1	43	-8
+undefined Headshot
+Marcus Smart
+22:46	3	6	50.0	0	3	0.0	3	4	75.0	0	0	0	0	1	0	3	4	9	2
+undefined Headshot
+Jake LaRavia
+15:50	2	4	50.0	1	2	50.0	0	2	0.0	2	1	3	0	0	0	0	1	5	-5
+undefined Headshot
+Jaxson Hayes
+14:07	2	3	66.7	0	0	0.0	0	0	0.0	2	4	6	1	0	0	1	2	4	-6
+undefined Headshot
+Jarred Vanderbilt
+11:56	0	4	0.0	0	2	0.0	0	0	0.0	0	3	3	0	1	0	2	0	0	-4
+undefined Headshot
+Bronny James
+DNP - Coach's Decision
+undefined Headshot
+Dalton Knecht
+DNP - Coach's Decision
+undefined Headshot
+Christian Koloko
+DNP - Coach's Decision
+TOTALS
+ 	42	77	54.5	8	32	25.0	17	28	60.7	7	32	39	23	7	2	19	21	109	-10
+Inactive Players
+GSW: Alex Toohey, Jackson Rowe, De'Anthony Melton, Moses Moody
+
+LAL: LeBron James, Maxi Kleber, Nick Smith Jr., Adou Thiero, Chris Manon

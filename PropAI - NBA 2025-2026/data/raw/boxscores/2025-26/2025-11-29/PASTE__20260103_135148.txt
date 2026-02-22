@@ -1,0 +1,101 @@
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Huerter
+F
+31:45	6	14	42.9	3	8	37.5	0	0	0.0	0	3	3	1	1	0	2	4	15	-7
+undefined Headshot
+Matas Buzelis
+F
+34:01	3	9	33.3	2	5	40.0	0	2	0.0	4	7	11	2	1	3	3	0	8	-12
+undefined Headshot
+Nikola Vučević
+C
+30:10	5	14	35.7	2	5	40.0	4	4	100	3	5	8	6	1	0	0	1	16	-7
+undefined Headshot
+Ayo Dosunmu
+G
+35:25	6	13	46.2	3	6	50.0	0	1	0.0	0	4	4	4	0	0	1	3	15	-1
+undefined Headshot
+Josh Giddey
+G
+33:32	7	13	53.8	2	5	40.0	1	4	25.0	1	10	11	7	0	0	3	1	17	7
+undefined Headshot
+Patrick Williams
+17:02	1	7	14.3	0	1	0.0	0	0	0.0	0	2	2	0	0	0	0	0	2	-6
+undefined Headshot
+Jevon Carter
+11:06	1	2	50.0	1	2	50.0	0	0	0.0	0	1	1	2	1	0	1	2	3	-13
+undefined Headshot
+Tre Jones
+29:04	7	9	77.8	0	0	0.0	3	3	100	0	1	1	2	0	0	2	0	17	6
+undefined Headshot
+Lachlan Olbrich
+11:02	1	3	33.3	0	1	0.0	0	0	0.0	0	3	3	0	0	0	1	2	2	15
+undefined Headshot
+Emanuel Miller
+6:55	2	3	66.7	1	1	100	1	2	50.0	0	1	1	0	1	0	0	1	6	8
+undefined Headshot
+Trentyn Flowers
+DNP - Coach's Decision
+undefined Headshot
+Julian Phillips
+DND - Injury/Illness
+TOTALS
+ 	39	87	44.8	14	34	41.2	9	16	56.3	8	37	45	24	5	3	13	14	101	-2
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ben Sheppard
+F
+22:24	2	4	50.0	2	4	50.0	0	0	0.0	0	2	2	0	0	0	1	2	6	-3
+undefined Headshot
+Pascal Siakam
+F
+36:18	11	23	47.8	1	4	25.0	1	2	50.0	1	8	9	4	2	2	1	0	24	22
+undefined Headshot
+Jay Huff
+C
+25:16	5	9	55.6	4	8	50.0	0	0	0.0	1	7	8	2	0	4	0	0	14	2
+undefined Headshot
+Bennedict Mathurin
+G
+37:52	8	19	42.1	3	10	30.0	0	0	0.0	0	6	6	3	2	0	5	2	19	3
+undefined Headshot
+Andrew Nembhard
+G
+31:34	5	10	50.0	2	7	28.6	2	3	66.7	0	1	1	6	0	0	3	4	14	-12
+undefined Headshot
+Jarace Walker
+20:20	1	4	25.0	1	3	33.3	1	2	50.0	0	2	2	1	0	1	1	0	4	-5
+undefined Headshot
+Jeremiah Robinson-Earl
+10:33	0	2	0.0	0	2	0.0	0	0	0.0	1	1	2	0	0	0	0	2	0	-18
+undefined Headshot
+Isaiah Jackson
+22:44	5	5	100	0	0	0.0	4	4	100	4	7	11	1	1	2	1	4	14	0
+undefined Headshot
+T.J. McConnell
+24:49	4	10	40.0	0	0	0.0	0	0	0.0	0	3	3	6	3	1	0	0	8	20
+undefined Headshot
+Garrison Mathews
+8:10	0	3	0.0	0	3	0.0	0	0	0.0	0	0	0	1	0	0	0	1	0	1
+undefined Headshot
+Tony Bradley
+DNP - Coach's Decision
+undefined Headshot
+RayJ Dennis
+DNP - Coach's Decision
+undefined Headshot
+Taelon Peter
+DNP - Coach's Decision
+TOTALS
+ 	41	89	46.1	13	41	31.7	8	11	72.7	7	37	44	24	8	10	12	15	103	2
+Inactive Players
+CHI: Zach Collins, Coby White, Jalen Smith, Dalen Terry, Isaac Okoro, Noa Essengue
+
+IND: Kam Jones, Aaron Nesmith, Quenton Jackson, Johnny Furphy, Obi Toppin, Tyrese Haliburton

@@ -1,0 +1,110 @@
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jonathan Kuminga
+F
+24:08	4	7	57.1	1	2	50.0	7	7	100	3	5	8	3	2	0	4	3	16	-11
+undefined Headshot
+Draymond Green
+F
+20:32	4	7	57.1	3	4	75.0	1	2	50.0	0	3	3	5	0	0	5	4	12	-13
+undefined Headshot
+Quinten Post
+C
+15:54	2	4	50.0	1	2	50.0	0	0	0.0	3	1	4	1	0	0	1	0	5	-3
+undefined Headshot
+Jimmy Butler III
+G
+26:43	3	7	42.9	0	2	0.0	8	10	80.0	1	2	3	4	1	0	1	1	14	-10
+undefined Headshot
+Stephen Curry
+G
+27:18	12	22	54.5	7	14	50.0	4	4	100	1	5	6	3	1	2	4	1	35	-13
+undefined Headshot
+Buddy Hield
+11:38	0	2	0.0	0	1	0.0	2	2	100	0	0	0	3	0	0	1	1	2	5
+undefined Headshot
+Moses Moody
+21:17	1	6	16.7	1	3	33.3	4	6	66.7	0	2	2	0	1	0	2	1	7	-12
+undefined Headshot
+Trayce Jackson-Davis
+16:33	2	5	40.0	0	0	0.0	2	2	100	1	3	4	1	1	1	1	3	6	-1
+undefined Headshot
+Brandin Podziemski
+22:27	2	9	22.2	1	3	33.3	3	4	75.0	1	4	5	0	2	0	2	1	8	-17
+undefined Headshot
+Will Richard
+24:37	2	4	50.0	1	3	33.3	2	2	100	0	2	2	2	2	0	2	4	7	-13
+undefined Headshot
+Pat Spencer
+10:55	2	4	50.0	0	1	0.0	0	0	0.0	1	1	2	1	1	0	0	1	4	-7
+undefined Headshot
+Gary Payton II
+7:01	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-1
+undefined Headshot
+Gui Santos
+10:57	1	2	50.0	1	2	50.0	0	0	0.0	1	0	1	1	1	0	2	2	3	-4
+TOTALS
+ 	35	80	43.8	16	38	42.1	33	39	84.6	12	29	41	24	12	3	25	22	119	-20
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Deni Avdija
+F
+29:29	11	18	61.1	4	6	66.7	0	0	0.0	2	3	5	6	0	0	3	4	26	16
+undefined Headshot
+Toumani Camara
+F
+32:44	7	13	53.8	3	7	42.9	2	2	100	2	5	7	2	3	0	1	4	19	23
+undefined Headshot
+Donovan Clingan
+C
+21:39	4	6	66.7	1	2	50.0	5	5	100	4	4	8	2	0	1	0	4	14	2
+undefined Headshot
+Shaedon Sharpe
+G
+25:01	5	15	33.3	1	6	16.7	6	6	100	0	4	4	1	1	0	2	4	17	0
+undefined Headshot
+Jrue Holiday
+G
+28:01	5	12	41.7	2	4	50.0	0	0	0.0	1	4	5	11	1	0	4	1	12	19
+undefined Headshot
+Jerami Grant
+27:36	6	10	60.0	2	4	50.0	8	10	80.0	0	2	2	2	1	0	2	4	22	19
+undefined Headshot
+Hansen Yang
+7:14	1	3	33.3	0	0	0.0	0	0	0.0	0	1	1	0	0	2	1	0	2	-3
+undefined Headshot
+Blake Wesley
+19:54	2	6	33.3	0	2	0.0	0	0	0.0	1	1	2	4	2	0	2	3	4	1
+undefined Headshot
+Kris Murray
+26:32	6	7	85.7	1	1	100	0	0	0.0	0	1	1	1	2	1	1	2	13	7
+undefined Headshot
+Matisse Thybulle
+15:11	3	3	100	2	2	100	2	2	100	0	2	2	0	3	0	1	2	10	22
+undefined Headshot
+Rayan Rupert
+3:43	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	1	0	0	-3
+undefined Headshot
+Duop Reath
+2:56	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	1	0	0	0	-3
+undefined Headshot
+Scoot Henderson
+DND - Injury/Illness
+undefined Headshot
+Damian Lillard
+DND - Injury/Illness
+undefined Headshot
+Robert Williams III
+DND-Return to Competition Reconditioning
+TOTALS
+ 	50	93	53.8	16	34	47.1	23	25	92.0	10	28	38	30	13	5	18	28	139	20
+Inactive Players
+GSW: Jackson Rowe, Alex Toohey, Al Horford, De'Anthony Melton
+
+POR: Caleb Love, Sidy Cissoko, Javonte Cooke

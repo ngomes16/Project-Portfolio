@@ -1,0 +1,104 @@
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Sam Merrill
+F
+29:15	4	11	36.4	2	8	25.0	1	2	50.0	1	4	5	1	2	0	1	2	11	3
+undefined Headshot
+Dean Wade
+F
+29:28	2	4	50.0	1	3	33.3	1	1	100	1	3	4	2	0	0	0	2	6	-2
+undefined Headshot
+Jarrett Allen
+C
+23:07	3	4	75.0	0	0	0.0	1	2	50.0	2	6	8	2	0	0	2	3	7	-3
+undefined Headshot
+Darius Garland
+G
+36:00	7	14	50.0	3	4	75.0	3	4	75.0	0	1	1	10	0	0	4	2	20	0
+undefined Headshot
+Donovan Mitchell
+G
+32:51	12	25	48.0	4	9	44.4	6	6	100	0	7	7	6	4	0	1	3	34	2
+undefined Headshot
+Lonzo Ball
+13:39	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	3	0	0	1	1	0	2
+undefined Headshot
+Evan Mobley
+25:19	6	8	75.0	0	1	0.0	2	2	100	2	7	9	3	0	0	2	4	14	4
+undefined Headshot
+De'Andre Hunter
+27:06	3	7	42.9	2	3	66.7	5	6	83.3	0	3	3	2	0	0	0	1	13	-7
+undefined Headshot
+Jaylon Tyson
+20:05	7	11	63.6	2	4	50.0	0	0	0.0	2	4	6	1	1	0	2	4	16	-1
+undefined Headshot
+Thomas Bryant
+3:10	1	1	100	1	1	100	0	0	0.0	1	0	1	0	0	0	1	0	3	-8
+undefined Headshot
+Craig Porter Jr.
+DNP - Coach's Decision
+undefined Headshot
+Tyrese Proctor
+DNP - Coach's Decision
+undefined Headshot
+Nae'Qwan Tomlin
+DNP - Coach's Decision
+TOTALS
+ 	45	86	52.3	15	34	44.1	19	23	82.6	9	36	45	30	7	0	14	22	124	-2
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+OG Anunoby
+F
+33:05	3	7	42.9	1	4	25.0	1	1	100	0	2	2	2	0	1	1	1	8	-3
+undefined Headshot
+Josh Hart
+F
+26:25	5	9	55.6	2	5	40.0	3	3	100	1	4	5	3	0	0	1	2	15	-19
+undefined Headshot
+Karl-Anthony Towns
+C
+27:23	5	13	38.5	0	2	0.0	1	2	50.0	2	12	14	1	2	0	2	4	11	7
+undefined Headshot
+Mikal Bridges
+G
+36:10	5	10	50.0	2	4	50.0	0	0	0.0	1	2	3	4	2	1	2	1	12	9
+undefined Headshot
+Jalen Brunson
+G
+39:13	10	25	40.0	6	12	50.0	8	10	80.0	0	1	1	4	2	0	3	1	34	-17
+undefined Headshot
+Mitchell Robinson
+16:37	0	1	0.0	0	0	0.0	0	2	0.0	8	5	13	2	0	1	1	2	0	0
+undefined Headshot
+Jordan Clarkson
+28:46	9	17	52.9	5	10	50.0	2	2	100	0	1	1	2	3	0	0	3	25	13
+undefined Headshot
+Mohamed Diawara
+3:40	2	3	66.7	1	2	50.0	0	0	0.0	0	1	1	1	0	0	0	1	5	1
+undefined Headshot
+Ariel Hukporti
+4:00	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	-5
+undefined Headshot
+Tyler Kolek
+24:41	5	9	55.6	4	5	80.0	2	2	100	0	3	3	9	0	1	2	2	16	24
+undefined Headshot
+Pacôme Dadiet
+DNP - Coach's Decision
+undefined Headshot
+Tosan Evbuomwan
+DNP - Coach's Decision
+undefined Headshot
+Guerschon Yabusele
+DNP - Coach's Decision
+TOTALS
+ 	44	94	46.8	21	44	47.7	17	22	77.3	12	31	43	28	9	4	13	17	126	2
+Inactive Players
+CLE: Larry Nance Jr., Max Strus, Luke Travers, Chris Livingston
+
+NYK: Kevin McCullar Jr., Trey Jemison III, Miles McBride, Landry Shamet

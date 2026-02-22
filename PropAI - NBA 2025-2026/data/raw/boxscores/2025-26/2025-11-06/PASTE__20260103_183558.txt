@@ -1,0 +1,104 @@
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Nicolas Batum
+F
+18:24	0	3	0.0	0	3	0.0	0	0	0.0	0	2	2	1	0	0	0	1	0	-14
+undefined Headshot
+Derrick Jones Jr.
+F
+22:07	3	4	75.0	2	3	66.7	2	2	100	0	1	1	0	1	1	0	4	10	-25
+undefined Headshot
+Ivica Zubac
+C
+27:09	8	14	57.1	0	0	0.0	7	8	87.5	5	6	11	2	2	0	2	2	23	-11
+undefined Headshot
+Bradley Beal
+G
+19:39	2	14	14.3	1	5	20.0	0	0	0.0	0	1	1	1	0	0	2	3	5	-23
+undefined Headshot
+Kris Dunn
+G
+23:48	3	4	75.0	1	1	100	2	2	100	1	1	2	6	1	0	2	0	9	-27
+undefined Headshot
+Bogdan Bogdanović
+28:21	3	8	37.5	2	6	33.3	4	4	100	0	4	4	5	0	1	1	3	12	10
+undefined Headshot
+John Collins
+23:03	5	11	45.5	2	3	66.7	1	3	33.3	3	1	4	1	1	1	4	1	13	-6
+undefined Headshot
+Chris Paul
+9:30	1	3	33.3	0	2	0.0	0	0	0.0	0	2	2	2	1	0	0	0	2	4
+undefined Headshot
+Cam Christie
+25:07	5	7	71.4	2	3	66.7	5	7	71.4	0	2	2	3	1	0	0	0	17	13
+undefined Headshot
+Brook Lopez
+17:49	3	6	50.0	0	3	0.0	0	0	0.0	0	3	3	0	1	0	2	2	6	0
+undefined Headshot
+Kobe Brown
+15:53	0	2	0.0	0	1	0.0	0	0	0.0	2	5	7	2	0	0	1	1	0	6
+undefined Headshot
+Jahmyl Telfort
+6:33	0	1	0.0	0	1	0.0	1	4	25.0	0	1	1	1	0	0	1	2	1	7
+undefined Headshot
+Yanic Konan Niederhäuser
+2:37	2	2	100	0	0	0.0	0	0	0.0	0	1	1	0	0	1	0	0	4	1
+TOTALS
+ 	35	79	44.3	10	31	32.3	22	30	73.3	11	30	41	24	8	4	15	19	102	-13
+Phoenix Suns
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Grayson Allen
+F
+36:28	7	13	53.8	4	9	44.4	0	0	0.0	0	3	3	4	3	1	2	4	18	22
+undefined Headshot
+Royce O'Neale
+F
+28:27	6	11	54.5	5	10	50.0	0	0	0.0	1	3	4	2	0	0	1	2	17	8
+undefined Headshot
+Mark Williams
+C
+27:37	4	8	50.0	0	0	0.0	5	6	83.3	3	7	10	0	2	0	0	4	13	18
+undefined Headshot
+Jalen Green
+G
+22:59	10	20	50.0	6	13	46.2	3	5	60.0	1	2	3	3	2	0	2	1	29	30
+undefined Headshot
+Devin Booker
+G
+37:16	10	22	45.5	3	7	42.9	1	1	100	0	6	6	7	3	0	3	4	24	11
+undefined Headshot
+Ryan Dunn
+24:56	3	7	42.9	1	3	33.3	3	3	100	5	0	5	3	1	1	2	1	10	12
+undefined Headshot
+Collin Gillespie
+25:18	0	5	0.0	0	5	0.0	1	2	50.0	2	3	5	7	1	0	2	0	1	-1
+undefined Headshot
+Oso Ighodaro
+11:34	0	1	0.0	0	0	0.0	0	0	0.0	1	2	3	1	1	0	0	4	0	-12
+undefined Headshot
+Jordan Goodwin
+10:37	0	4	0.0	0	2	0.0	0	0	0.0	1	0	1	0	0	0	1	2	0	-20
+undefined Headshot
+Nick Richards
+11:22	1	1	100	0	0	0.0	1	2	50.0	1	2	3	0	0	0	2	0	3	3
+undefined Headshot
+Khaman Maluach
+1:09	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Rasheer Fleming
+1:09	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	1	0	-2
+undefined Headshot
+Nigel Hayes-Davis
+1:09	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+TOTALS
+ 	41	92	44.6	19	49	38.8	14	19	73.7	15	29	44	27	13	2	15	23	115	13
+Inactive Players
+LAC: James Harden, Kawhi Leonard, Jordan Miller, Kobe Sanders
+
+PHX: CJ Huntley, Koby Brea, Dillon Brooks, Isaiah Livers

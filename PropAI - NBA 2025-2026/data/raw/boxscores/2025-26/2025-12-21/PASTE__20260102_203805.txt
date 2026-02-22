@@ -1,0 +1,101 @@
+Miami Heat
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Bam Adebayo
+F
+33:34	4	11	36.4	0	3	0.0	6	7	85.7	3	6	9	0	0	0	3	3	14	-5
+undefined Headshot
+Andrew Wiggins
+F
+24:27	2	8	25.0	2	3	66.7	1	2	50.0	1	4	5	4	0	1	1	0	7	-5
+undefined Headshot
+Kel'el Ware
+C
+34:31	11	15	73.3	5	7	71.4	1	2	50.0	6	13	19	0	1	0	1	2	28	-6
+undefined Headshot
+Davion Mitchell
+G
+31:04	5	8	62.5	3	4	75.0	0	0	0.0	0	2	2	8	0	0	3	3	13	-7
+undefined Headshot
+Norman Powell
+G
+35:11	7	17	41.2	4	8	50.0	4	5	80.0	1	3	4	3	3	0	1	2	22	3
+undefined Headshot
+Jaime Jaquez Jr.
+33:38	9	15	60.0	1	3	33.3	4	6	66.7	0	0	0	5	0	0	1	0	23	-2
+undefined Headshot
+Simone Fontecchio
+17:21	1	6	16.7	1	4	25.0	4	7	57.1	1	3	4	3	0	0	1	2	7	-4
+undefined Headshot
+Kasparas Jakučionis
+12:24	0	3	0.0	0	2	0.0	2	2	100	0	2	2	0	0	0	0	2	2	-6
+undefined Headshot
+Dru Smith
+17:50	2	4	50.0	1	1	100	4	4	100	0	0	0	3	1	0	0	0	9	-3
+undefined Headshot
+Myron Gardner
+DNP - Coach's Decision
+undefined Headshot
+Vladislav Goldin
+DNP - Coach's Decision
+undefined Headshot
+Tyler Herro
+DND - Injury/Illness
+undefined Headshot
+Keshad Johnson
+DNP - Coach's Decision
+TOTALS
+ 	41	87	47.1	17	35	48.6	26	35	74.3	12	33	45	26	5	1	11	14	125	-7
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+OG Anunoby
+F
+33:32	6	12	50.0	2	6	33.3	4	5	80.0	0	2	2	3	1	2	4	4	18	3
+undefined Headshot
+Josh Hart
+F
+33:17	5	10	50.0	3	5	60.0	0	0	0.0	1	9	10	5	2	0	0	3	13	4
+undefined Headshot
+Karl-Anthony Towns
+C
+28:47	1	5	20.0	0	0	0.0	0	2	0.0	1	5	6	2	2	0	3	4	2	-1
+undefined Headshot
+Mikal Bridges
+G
+40:08	9	14	64.3	6	7	85.7	0	0	0.0	0	2	2	4	0	0	2	1	24	-2
+undefined Headshot
+Jalen Brunson
+G
+38:11	15	26	57.7	6	13	46.2	11	11	100	0	3	3	8	0	0	0	5	47	10
+undefined Headshot
+Jordan Clarkson
+17:52	4	5	80.0	2	3	66.7	0	0	0.0	0	2	2	1	0	0	2	2	10	-2
+undefined Headshot
+Mitchell Robinson
+22:22	3	4	75.0	0	0	0.0	3	3	100	2	5	7	2	2	1	0	3	9	6
+undefined Headshot
+Mohamed Diawara
+3:39	1	3	33.3	1	2	50.0	0	0	0.0	0	0	0	0	0	0	0	1	3	1
+undefined Headshot
+Tyler Kolek
+22:12	3	6	50.0	0	2	0.0	0	0	0.0	0	4	4	3	0	0	1	2	6	16
+undefined Headshot
+Tosan Evbuomwan
+DNP - Coach's Decision
+undefined Headshot
+Ariel Hukporti
+DNP - Coach's Decision
+undefined Headshot
+Guerschon Yabusele
+DNP - Coach's Decision
+TOTALS
+ 	47	85	55.3	20	38	52.6	18	21	85.7	4	32	36	28	7	3	12	25	132	7
+Inactive Players
+MIA: Terry Rozier, Nikola Jovic, Pelle Larsson, Jahmir Young
+
+NYK: Trey Jemison III, Pacome Dadiet, Kevin McCullar Jr., Landry Shamet, Miles McBride

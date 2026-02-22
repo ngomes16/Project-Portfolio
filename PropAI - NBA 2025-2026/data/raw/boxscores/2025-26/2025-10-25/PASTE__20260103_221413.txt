@@ -1,0 +1,110 @@
+Phoenix Suns
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Dillon Brooks
+F
+31:01	6	18	33.3	3	13	23.1	0	0	0.0	0	3	3	2	4	1	1	3	15	-16
+undefined Headshot
+Ryan Dunn
+F
+23:13	4	8	50.0	1	3	33.3	0	0	0.0	2	5	7	2	0	2	0	4	9	0
+undefined Headshot
+Oso Ighodaro
+C
+23:11	2	6	33.3	0	0	0.0	0	2	0.0	0	1	1	1	0	1	2	5	4	-9
+undefined Headshot
+Grayson Allen
+G
+33:08	6	12	50.0	5	10	50.0	0	0	0.0	0	4	4	5	1	0	0	3	17	-10
+undefined Headshot
+Devin Booker
+G
+36:36	10	16	62.5	2	5	40.0	9	9	100	1	2	3	7	0	0	9	1	31	-13
+undefined Headshot
+Nick Richards
+9:34	1	1	100	0	0	0.0	2	2	100	1	3	4	0	0	0	2	4	4	-10
+undefined Headshot
+Royce O'Neale
+28:25	2	6	33.3	2	6	33.3	1	2	50.0	1	3	4	2	0	0	1	4	7	-23
+undefined Headshot
+Collin Gillespie
+14:09	2	4	50.0	2	4	50.0	0	0	0.0	2	0	2	1	0	0	1	0	6	-16
+undefined Headshot
+Khaman Maluach
+12:39	1	3	33.3	0	1	0.0	4	4	100	1	1	2	1	0	0	1	4	6	-1
+undefined Headshot
+Nigel Hayes-Davis
+14:04	2	6	33.3	0	2	0.0	0	0	0.0	2	3	5	2	0	0	1	1	4	-6
+undefined Headshot
+Jordan Goodwin
+4:40	0	2	0.0	0	1	0.0	2	3	66.7	0	1	1	1	2	0	1	0	2	-2
+undefined Headshot
+Isaiah Livers
+4:40	1	3	33.3	1	3	33.3	0	0	0.0	0	0	0	0	0	0	0	0	3	-2
+undefined Headshot
+Rasheer Fleming
+4:40	1	3	33.3	1	2	50.0	0	0	0.0	2	0	2	0	0	0	0	0	3	-2
+TOTALS
+ 	38	88	43.2	17	50	34.0	18	22	81.8	12	26	38	24	7	4	19	29	111	-22
+Denver Nuggets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cameron Johnson
+F
+24:39	4	9	44.4	1	3	33.3	6	6	100	2	2	4	1	1	0	0	3	15	15
+undefined Headshot
+Aaron Gordon
+F
+25:12	5	11	45.5	1	6	16.7	6	6	100	1	1	2	1	3	0	0	0	17	17
+undefined Headshot
+Nikola Jokić
+C
+32:02	5	8	62.5	0	3	0.0	4	4	100	1	13	14	15	3	0	5	3	14	27
+undefined Headshot
+Christian Braun
+G
+31:07	6	10	60.0	0	1	0.0	8	8	100	2	1	3	3	2	0	1	3	20	23
+undefined Headshot
+Jamal Murray
+G
+31:45	8	17	47.1	3	8	37.5	4	4	100	1	5	6	5	1	0	2	2	23	15
+undefined Headshot
+Tim Hardaway Jr.
+26:01	1	6	16.7	1	5	20.0	1	2	50.0	0	0	0	0	1	0	1	3	4	5
+undefined Headshot
+Peyton Watson
+19:49	3	4	75.0	0	0	0.0	1	1	100	1	1	2	1	1	0	2	3	7	5
+undefined Headshot
+Bruce Brown
+21:31	4	6	66.7	2	4	50.0	1	2	50.0	1	2	3	3	1	1	2	2	11	8
+undefined Headshot
+Jonas Valančiūnas
+12:45	4	10	40.0	0	0	0.0	4	5	80.0	2	5	7	1	0	0	1	2	12	-5
+undefined Headshot
+Spencer Jones
+3:13	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	1	0	1	0	0	0
+undefined Headshot
+Jalen Pickett
+2:59	1	1	100	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	2	0
+undefined Headshot
+Julian Strawther
+2:59	1	1	100	0	0	0.0	1	2	50.0	0	2	2	0	0	0	1	0	3	0
+undefined Headshot
+Zeke Nnaji
+2:59	0	0	0.0	0	0	0.0	2	2	100	0	0	0	1	0	0	0	1	2	0
+undefined Headshot
+DaRon Holmes II
+2:59	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	0	1	3	0
+undefined Headshot
+Hunter Tyson
+DNP - Coach's Decision
+TOTALS
+ 	43	84	51.2	9	31	29.0	38	42	90.5	11	32	43	31	14	1	16	23	133	22
+Inactive Players
+PHX: CJ Huntley, Jalen Green, Mark Williams, Koby Brea
+
+DEN: Tamar Bates, Curtis Jones

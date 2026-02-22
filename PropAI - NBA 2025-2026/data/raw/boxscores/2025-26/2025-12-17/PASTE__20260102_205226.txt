@@ -1,0 +1,98 @@
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaren Jackson Jr.
+F
+33:27	10	18	55.6	2	3	66.7	6	6	100	1	11	12	3	1	3	4	4	28	-2
+undefined Headshot
+Santi Aldama
+F
+34:19	4	8	50.0	0	2	0.0	0	0	0.0	3	8	11	3	0	0	3	4	8	-5
+undefined Headshot
+Brandon Clarke
+C
+16:34	2	7	28.6	0	0	0.0	2	4	50.0	3	0	3	1	1	0	0	5	6	-15
+undefined Headshot
+Jaylen Wells
+G
+31:21	5	13	38.5	2	6	33.3	5	7	71.4	1	3	4	2	4	0	1	0	17	4
+undefined Headshot
+Cedric Coward
+G
+27:15	5	12	41.7	0	4	0.0	3	3	100	1	4	5	3	1	0	3	1	13	-10
+undefined Headshot
+Kentavious Caldwell-Pope
+23:13	4	12	33.3	2	5	40.0	2	2	100	0	1	1	3	1	0	3	3	12	13
+undefined Headshot
+Vince Williams Jr.
+25:07	1	6	16.7	1	3	33.3	2	2	100	1	4	5	4	0	0	2	3	5	21
+undefined Headshot
+Jock Landale
+29:55	8	15	53.3	4	9	44.4	0	0	0.0	4	6	10	3	2	1	0	2	20	19
+undefined Headshot
+Olivier-Maxence Prosper
+15:17	3	4	75.0	0	1	0.0	1	1	100	1	1	2	1	0	0	2	2	7	12
+undefined Headshot
+Jahmai Mashack
+3:32	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	0	1	0	-7
+undefined Headshot
+Zach Edey
+DND - Injury/Illness
+undefined Headshot
+John Konchar
+DND - Injury/Illness
+TOTALS
+ 	42	96	43.8	11	34	32.4	21	25	84.0	15	39	54	23	10	4	18	25	116	6
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+36:44	4	11	36.4	1	2	50.0	4	4	100	0	7	7	6	1	1	1	6	13	9
+undefined Headshot
+Julius Randle
+F
+35:18	9	21	42.9	1	6	16.7	2	4	50.0	2	3	5	3	3	0	4	3	21	-7
+undefined Headshot
+Rudy Gobert
+C
+35:28	6	8	75.0	0	0	0.0	4	6	66.7	7	9	16	4	1	4	4	2	16	1
+undefined Headshot
+Donte DiVincenzo
+G
+37:17	6	16	37.5	4	11	36.4	3	6	50.0	4	7	11	4	3	1	1	3	19	-8
+undefined Headshot
+Bones Hyland
+G
+34:08	3	11	27.3	2	9	22.2	4	5	80.0	2	1	3	5	1	0	2	5	12	10
+undefined Headshot
+Naz Reid
+30:03	6	16	37.5	3	11	27.3	1	1	100	0	7	7	2	1	1	2	4	16	-5
+undefined Headshot
+Jaylen Clark
+8:58	1	4	25.0	0	2	0.0	0	0	0.0	0	1	1	0	1	1	1	1	2	-9
+undefined Headshot
+Terrence Shannon Jr.
+10:57	2	6	33.3	2	3	66.7	0	0	0.0	0	1	1	0	0	0	0	0	6	-8
+undefined Headshot
+Rob Dillingham
+11:07	2	5	40.0	0	0	0.0	1	1	100	1	0	1	2	0	0	3	1	5	-13
+undefined Headshot
+Joe Ingles
+DNP - Coach's Decision
+undefined Headshot
+Johnny Juzang
+DNP - Coach's Decision
+undefined Headshot
+Leonard Miller
+DNP - Coach's Decision
+TOTALS
+ 	39	98	39.8	13	44	29.5	19	27	70.4	16	36	52	26	11	8	18	25	110	-6
+Inactive Players
+MEM: Scotty Pippen Jr., GG Jackson, Cam Spencer, Ja Morant, Ty Jerome, Javon Small
+
+MIN: Mike Conley, Anthony Edwards, Enrique Freeman, Joan Beringer, Rocco Zikarsky

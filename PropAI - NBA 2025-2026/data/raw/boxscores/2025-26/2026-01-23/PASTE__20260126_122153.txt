@@ -1,0 +1,101 @@
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Johnny Furphy
+F
+33:15	2	9	22.2	0	3	0.0	0	0	0.0	4	6	10	3	1	1	0	3	4	0
+undefined Headshot
+Jarace Walker
+F
+30:35	8	15	53.3	3	6	50.0	7	11	63.6	0	4	4	3	2	0	2	5	26	9
+undefined Headshot
+Pascal Siakam
+C
+37:05	9	20	45.0	2	6	33.3	1	3	33.3	1	5	6	6	0	0	1	1	21	-6
+undefined Headshot
+Aaron Nesmith
+G
+36:07	7	14	50.0	3	5	60.0	0	0	0.0	2	3	5	5	0	0	2	5	17	0
+undefined Headshot
+Andrew Nembhard
+G
+36:22	10	16	62.5	4	7	57.1	3	4	75.0	1	6	7	11	0	0	3	4	27	16
+undefined Headshot
+Ben Sheppard
+14:04	2	4	50.0	2	3	66.7	0	0	0.0	0	1	1	2	0	0	0	2	6	-3
+undefined Headshot
+Micah Potter
+24:59	4	9	44.4	2	7	28.6	0	0	0.0	4	6	10	1	0	0	0	0	10	0
+undefined Headshot
+T.J. McConnell
+18:59	3	9	33.3	0	1	0.0	0	0	0.0	1	1	2	3	2	0	0	3	6	-5
+undefined Headshot
+Isaiah Jackson
+6:13	0	0	0.0	0	0	0.0	0	2	0.0	1	5	6	0	0	0	2	1	0	5
+undefined Headshot
+Jay Huff
+2:22	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-1
+undefined Headshot
+Tony Bradley
+0:00	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Kam Jones
+DNP - Coach's Decision
+undefined Headshot
+Ethan Thompson
+DNP - Coach's Decision
+TOTALS
+ 	45	96	46.9	16	38	42.1	11	20	55.0	14	37	51	34	5	1	10	24	117	3
+Oklahoma City Thunder
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Isaiah Joe
+F
+30:07	2	7	28.6	0	5	0.0	3	3	100	0	2	2	1	0	0	1	4	7	7
+undefined Headshot
+Luguentz Dort
+F
+35:02	1	9	11.1	0	5	0.0	0	0	0.0	1	2	3	1	0	0	1	2	2	-17
+undefined Headshot
+Chet Holmgren
+C
+33:16	8	14	57.1	2	4	50.0	7	8	87.5	0	13	13	3	0	3	0	3	25	13
+undefined Headshot
+Cason Wallace
+G
+30:17	3	7	42.9	3	4	75.0	1	2	50.0	0	5	5	1	2	0	0	3	10	0
+undefined Headshot
+Shai Gilgeous-Alexander
+G
+34:42	17	28	60.7	1	4	25.0	12	12	100	1	3	4	4	1	1	1	2	47	4
+undefined Headshot
+Jaylin Williams
+21:41	0	1	0.0	0	0	0.0	2	2	100	1	4	5	3	0	1	4	3	2	-2
+undefined Headshot
+Kenrich Williams
+28:20	5	8	62.5	0	2	0.0	2	3	66.7	1	6	7	4	1	1	0	3	12	-7
+undefined Headshot
+Ousmane Dieng
+13:30	3	5	60.0	1	2	50.0	0	0	0.0	0	2	2	1	0	2	0	0	7	5
+undefined Headshot
+Brooks Barnhizer
+5:55	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	1	0	-6
+undefined Headshot
+Branden Carlson
+7:11	1	3	33.3	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	1	2	-12
+undefined Headshot
+Aaron Wiggins
+DND - Injury/Illness
+undefined Headshot
+Chris Youngblood
+DNP - Coach's Decision
+TOTALS
+ 	40	82	48.8	7	26	26.9	27	30	90.0	4	37	41	18	4	8	9	22	114	-3
+Inactive Players
+IND: Obi Toppin, Tyrese Haliburton, Bennedict Mathurin, Quenton Jackson, Taelon Peter
+
+OKC: Alex Caruso, Isaiah Hartenstein, Nikola Topic, Ajay Mitchell, Thomas Sorber, Jalen Williams

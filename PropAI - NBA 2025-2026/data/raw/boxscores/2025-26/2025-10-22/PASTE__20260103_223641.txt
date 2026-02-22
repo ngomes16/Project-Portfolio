@@ -1,0 +1,107 @@
+Philadelphia 76ers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kelly Oubre Jr.
+F
+33:33	2	6	33.3	2	6	33.3	4	4	100	0	4	4	1	0	1	2	1	10	-8
+undefined Headshot
+Dominick Barlow
+F
+34:24	4	8	50.0	0	3	0.0	5	6	83.3	5	3	8	5	0	1	2	3	13	1
+undefined Headshot
+Joel Embiid
+C
+20:18	1	9	11.1	0	4	0.0	2	2	100	1	5	6	2	0	1	0	2	4	-16
+undefined Headshot
+VJ Edgecombe
+G
+42:12	13	26	50.0	5	13	38.5	3	6	50.0	1	6	7	3	1	0	2	1	34	-2
+undefined Headshot
+Tyrese Maxey
+G
+41:24	13	24	54.2	7	9	77.8	7	8	87.5	0	2	2	6	2	1	1	5	40	3
+undefined Headshot
+Quentin Grimes
+31:38	3	8	37.5	2	5	40.0	2	4	50.0	0	5	5	5	0	0	5	3	10	18
+undefined Headshot
+Adem Bona
+14:45	0	0	0.0	0	0	0.0	0	0	0.0	1	2	3	1	0	0	2	3	0	4
+undefined Headshot
+Jabari Walker
+18:57	3	4	75.0	0	1	0.0	0	0	0.0	2	2	4	0	0	0	0	3	6	3
+undefined Headshot
+Justin Edwards
+0:06	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Andre Drummond
+2:43	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	2	0	2
+undefined Headshot
+Johni Broome
+DNP - Coach's Decision
+undefined Headshot
+Eric Gordon
+DNP - Coach's Decision
+undefined Headshot
+Kyle Lowry
+DNP - Coach's Decision
+TOTALS
+ 	39	85	45.9	16	41	39.0	23	30	76.7	10	30	40	23	3	4	14	23	117	1
+Boston Celtics
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Brown
+F
+36:14	9	18	50.0	2	4	50.0	5	6	83.3	0	6	6	4	0	0	2	4	25	0
+undefined Headshot
+Sam Hauser
+F
+22:24	2	6	33.3	2	6	33.3	2	2	100	0	2	2	1	0	0	3	3	8	8
+undefined Headshot
+Neemias Queta
+C
+25:07	7	8	87.5	0	0	0.0	3	4	75.0	2	6	8	0	0	0	2	6	17	2
+undefined Headshot
+Payton Pritchard
+G
+37:09	6	14	42.9	1	7	14.3	3	4	75.0	2	3	5	2	2	0	2	3	16	6
+undefined Headshot
+Derrick White
+G
+35:25	7	20	35.0	4	13	30.8	7	7	100	0	3	3	4	1	1	0	1	25	-3
+undefined Headshot
+Xavier Tillman
+15:39	2	8	25.0	0	3	0.0	0	0	0.0	3	4	7	1	2	1	0	4	4	0
+undefined Headshot
+Josh Minott
+14:11	1	1	100	0	0	0.0	0	0	0.0	2	0	2	2	0	0	0	4	2	-6
+undefined Headshot
+Anfernee Simons
+32:17	5	10	50.0	2	6	33.3	1	1	100	1	3	4	1	1	1	0	2	13	-5
+undefined Headshot
+Chris Boucher
+15:50	2	4	50.0	0	2	0.0	2	2	100	0	4	4	1	1	0	0	0	6	-4
+undefined Headshot
+Luka Garza
+5:44	0	2	0.0	0	2	0.0	0	0	0.0	0	1	1	0	0	1	2	1	0	-3
+undefined Headshot
+Hugo González
+DNP - Coach's Decision
+undefined Headshot
+Baylor Scheierman
+DNP - Coach's Decision
+undefined Headshot
+Max Shulga
+DNP - Coach's Decision
+undefined Headshot
+Jordan Walsh
+DNP - Coach's Decision
+TOTALS
+ 	41	91	45.1	11	43	25.6	23	26	88.5	10	32	42	16	7	4	11	28	116	-1
+Inactive Players
+PHI: Paul George, Trendon Watford, Jared McCain, Hunter Sallis
+
+BOS: Amari Williams, Ron Harper Jr., Jayson Tatum

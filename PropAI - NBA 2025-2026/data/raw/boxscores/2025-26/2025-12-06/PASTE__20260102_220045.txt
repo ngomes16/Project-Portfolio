@@ -1,0 +1,101 @@
+New Orleans Pelicans
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Trey Murphy III
+F
+34:54	10	17	58.8	2	7	28.6	1	2	50.0	3	2	5	5	2	0	4	1	23	-25
+undefined Headshot
+Saddiq Bey
+F
+33:17	6	14	42.9	2	5	40.0	4	4	100	2	3	5	2	0	0	0	0	18	-20
+undefined Headshot
+Derik Queen
+C
+25:45	2	5	40.0	0	0	0.0	2	2	100	0	9	9	5	1	1	3	4	6	-12
+undefined Headshot
+Bryce McGowens
+G
+24:27	5	8	62.5	1	1	100	5	6	83.3	0	2	2	2	0	1	1	3	16	-11
+undefined Headshot
+Jeremiah Fears
+G
+33:09	4	16	25.0	0	3	0.0	6	7	85.7	1	1	2	5	1	0	1	0	14	-22
+undefined Headshot
+Yves Missi
+17:37	2	4	50.0	0	0	0.0	0	0	0.0	4	2	6	2	0	0	1	2	4	-7
+undefined Headshot
+Jordan Hawkins
+14:04	2	5	40.0	2	4	50.0	0	0	0.0	1	1	2	1	0	0	0	0	6	-4
+undefined Headshot
+Karlo Matković
+10:37	1	2	50.0	1	1	100	0	0	0.0	0	2	2	0	0	1	1	3	3	-2
+undefined Headshot
+Jose Alvarado
+30:00	4	6	66.7	1	3	33.3	0	1	0.0	0	2	2	6	4	0	4	2	9	8
+undefined Headshot
+Micah Peavy
+16:11	1	5	20.0	0	1	0.0	0	0	0.0	0	1	1	2	1	0	0	0	2	5
+undefined Headshot
+Trey Alexander
+DNP - Coach's Decision
+undefined Headshot
+DeAndre Jordan
+DNP - Coach's Decision
+undefined Headshot
+Kevon Looney
+DNP - Coach's Decision
+TOTALS
+ 	37	82	45.1	9	25	36.0	18	22	81.8	11	25	36	30	9	3	15	15	101	-18
+Brooklyn Nets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Michael Porter Jr.
+F
+33:21	14	23	60.9	5	10	50.0	2	2	100	2	7	9	3	2	1	2	1	35	31
+undefined Headshot
+Noah Clowney
+F
+29:41	4	11	36.4	2	5	40.0	0	0	0.0	2	4	6	0	0	1	2	3	10	10
+undefined Headshot
+Nic Claxton
+C
+29:11	5	9	55.6	0	0	0.0	4	6	66.7	4	7	11	10	0	3	2	1	14	24
+undefined Headshot
+Terance Mann
+G
+25:59	4	7	57.1	1	2	50.0	1	1	100	2	3	5	4	0	0	0	2	10	25
+undefined Headshot
+Egor Dëmin
+G
+25:03	3	5	60.0	2	4	50.0	0	0	0.0	1	3	4	7	0	0	3	3	8	12
+undefined Headshot
+Danny Wolf
+18:49	3	7	42.9	1	2	50.0	0	0	0.0	1	3	4	2	1	1	3	2	7	-6
+undefined Headshot
+Ziaire Williams
+14:34	3	7	42.9	1	5	20.0	2	2	100	0	1	1	0	2	0	0	1	9	9
+undefined Headshot
+Day'Ron Sharpe
+18:49	7	8	87.5	0	0	0.0	2	3	66.7	1	2	3	3	1	1	2	1	16	-6
+undefined Headshot
+Ben Saraf
+20:14	3	8	37.5	1	4	25.0	0	0	0.0	0	1	1	4	0	0	1	0	7	-4
+undefined Headshot
+Drake Powell
+20:34	1	4	25.0	1	3	33.3	0	0	0.0	0	1	1	3	0	0	1	1	3	-4
+undefined Headshot
+Jalen Wilson
+3:45	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	2	0	-1
+undefined Headshot
+Tyrese Martin
+DNP - Coach's Decision
+TOTALS
+ 	47	89	52.8	14	35	40.0	11	14	78.6	13	32	45	36	6	7	16	17	119	18
+Inactive Players
+NOP: Hunter Dickinson, Zion Williamson, Jordan Poole, Herbert Jones, Dejounte Murray
+
+BKN: Haywood Highsmith, Cam Thomas, E.J. Liddell, Tyson Etienne, Nolan Traore

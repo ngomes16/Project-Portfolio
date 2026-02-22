@@ -1,0 +1,101 @@
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Amen Thompson
+F
+38:19	4	12	33.3	0	3	0.0	2	2	100	4	10	14	3	1	0	2	4	10	2
+undefined Headshot
+Jabari Smith Jr.
+F
+36:36	4	11	36.4	2	5	40.0	5	7	71.4	2	2	4	2	1	0	0	1	15	2
+undefined Headshot
+Alperen Sengun
+C
+34:34	7	18	38.9	0	4	0.0	2	5	40.0	4	2	6	6	1	0	1	3	16	-14
+undefined Headshot
+Josh Okogie
+G
+23:39	1	5	20.0	1	3	33.3	0	2	0.0	3	0	3	1	1	0	3	2	3	-13
+undefined Headshot
+Reed Sheppard
+G
+37:16	12	25	48.0	4	12	33.3	3	4	75.0	2	7	9	5	1	2	2	1	31	7
+undefined Headshot
+Clint Capela
+18:04	3	8	37.5	0	0	0.0	0	0	0.0	8	4	12	2	1	1	0	1	6	16
+undefined Headshot
+Aaron Holiday
+29:25	4	16	25.0	3	11	27.3	3	4	75.0	2	1	3	3	0	0	2	4	14	21
+undefined Headshot
+JD Davison
+10:14	2	2	100	0	0	0.0	0	0	0.0	0	0	0	2	1	0	0	0	4	0
+undefined Headshot
+Jae'Sean Tate
+11:53	2	2	100	1	1	100	0	0	0.0	0	2	2	0	0	0	0	4	5	-1
+undefined Headshot
+Steven Adams
+DND - Injury/Illness
+undefined Headshot
+Isaiah Crawford
+DNP - Coach's Decision
+undefined Headshot
+Tari Eason
+DND - Injury/Illness
+undefined Headshot
+Jeff Green
+DNP - Coach's Decision
+TOTALS
+ 	39	99	39.4	11	39	28.2	15	24	62.5	25	28	53	24	7	3	10	20	104	4
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Will Richard
+F
+28:01	7	12	58.3	2	7	28.6	2	2	100	3	3	6	0	2	0	0	4	18	1
+undefined Headshot
+Jimmy Butler III
+F
+32:35	6	11	54.5	2	4	50.0	7	7	100	1	4	5	5	2	0	0	3	21	-4
+undefined Headshot
+Draymond Green
+C
+34:16	5	8	62.5	2	5	40.0	0	0	0.0	1	8	9	8	0	2	4	3	12	9
+undefined Headshot
+Moses Moody
+G
+30:05	2	8	25.0	1	5	20.0	4	4	100	3	4	7	1	0	0	0	4	9	7
+undefined Headshot
+Stephen Curry
+G
+32:45	4	13	30.8	2	9	22.2	4	4	100	1	5	6	5	0	2	7	4	14	5
+undefined Headshot
+Gary Payton II
+4:54	0	1	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	1	1	0	3
+undefined Headshot
+Quinten Post
+21:35	5	11	45.5	1	6	16.7	1	2	50.0	2	3	5	1	3	1	0	3	12	-7
+undefined Headshot
+Buddy Hield
+15:04	0	4	0.0	0	3	0.0	0	0	0.0	1	2	3	0	0	0	0	0	0	-10
+undefined Headshot
+Brandin Podziemski
+28:23	6	11	54.5	2	3	66.7	0	2	0.0	1	3	4	2	1	0	2	3	14	-7
+undefined Headshot
+Pat Spencer
+6:27	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	0	-6
+undefined Headshot
+Gui Santos
+5:55	0	2	0.0	0	1	0.0	0	0	0.0	0	1	1	1	0	0	2	1	0	-11
+undefined Headshot
+Trayce Jackson-Davis
+DNP - Coach's Decision
+TOTALS
+ 	35	82	42.7	12	43	27.9	18	21	85.7	13	34	47	25	8	5	16	26	100	-4
+Inactive Players
+HOU: Dorian Finney-Smith, Fred VanVleet, Kevin Durant, Kevon Harris
+
+GSW: Jackson Rowe, Alex Toohey, Al Horford, De'Anthony Melton, Jonathan Kuminga

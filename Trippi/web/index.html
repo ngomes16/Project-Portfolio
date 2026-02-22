@@ -1,0 +1,188 @@
+<!--
+  File: web/index.html
+  Purpose: Public landing and showcase for Trippi on GitHub Pages. This is a modern,
+  responsive, highly visual site that highlights the app and embeds interactive demos
+  (trip carousel, budget donut, itinerary timeline, and AI chat). Content is sample
+  and can be updated later. All UI is built with vanilla HTML/CSS/ES modules.
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trippi — Plan trips. Split budgets. Travel together.</title>
+    <meta name="description" content="Trippi is an all-in-one trip planner and budget tracker with collaborative features and an AI planner." />
+    <link rel="icon" href="../Trippi_logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/theme.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+  </head>
+  <body>
+    <header class="site-header container">
+      <a class="brand" href="#top">
+        <img class="brand-logo" src="../Trippi_logo.png" alt="Trippi logo" />
+        <span>Trippi</span>
+      </a>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#demos">Demos</a>
+        <a href="#ai">AI Planner</a>
+        <button id="theme-toggle" class="btn btn-ghost" title="Toggle theme">🌙</button>
+        <a href="#portal" class="btn btn-primary">Open Portal</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-content">
+          <h1>Plan trips. Split budgets. Travel together.</h1>
+          <p class="lead">Trippi helps friends coordinate itineraries, track spending, and keep the vibes high with a smart AI planner.</p>
+          <div class="hero-actions">
+            <a href="#demos" class="btn btn-primary">Explore Live Demos</a>
+            <a href="#features" class="btn btn-ghost">See Features</a>
+          </div>
+          <div class="hero-badges">
+            <span class="badge">iOS & Android (Expo)</span>
+            <span class="badge">Light + dark modes</span>
+            <span class="badge">Open source</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="glow"></div>
+          <div class="rings"></div>
+        </div>
+      </section>
+
+      <section id="features" class="features container">
+        <h2>Why you’ll love Trippi</h2>
+        <div class="grid features-grid">
+          <article class="card feature">
+            <div class="icon">🗺️</div>
+            <h3>Trip planning</h3>
+            <p>Capture destinations, dates, and must‑dos. Build a living itinerary together.</p>
+          </article>
+          <article class="card feature">
+            <div class="icon">💸</div>
+            <h3>Smart budgets</h3>
+            <p>See category totals and per‑person costs. Contributions + expenses in one view.</p>
+          </article>
+          <article class="card feature">
+            <div class="icon">👥</div>
+            <h3>Group coordination</h3>
+            <p>Invite friends, track progress, and keep everyone aligned with timelines.</p>
+          </article>
+          <article class="card feature">
+            <div class="icon">🤖</div>
+            <h3>AI planner</h3>
+            <p>Describe your vibe. Get day‑by‑day suggestions that fit your budget.</p>
+          </article>
+          <article class="card feature">
+            <div class="icon">✨</div>
+            <h3>Beautiful UI</h3>
+            <p>Neon‑on‑dark aesthetic with buttery interactions designed for delight.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="demos" class="demos container">
+        <h2 class="reveal">Live demos</h2>
+        <div class="toolbar card reveal">
+          <label class="toolbar-item">
+            <span>Choose a trip</span>
+            <select id="trip-select"></select>
+          </label>
+          <button id="copy-run" class="btn btn-ghost toolbar-item" title="Copy run command">Copy run command</button>
+          <a href="https://github.com/arnoldancheril/Trippi2" class="btn btn-ghost toolbar-item">Star on GitHub ⭐</a>
+        </div>
+        <div class="demo-row">
+          <div class="demo-block card">
+            <h3>Trips carousel</h3>
+            <div id="trip-carousel"></div>
+          </div>
+          <div class="demo-block card">
+            <h3>Budget donut</h3>
+            <div id="budget-donut"></div>
+          </div>
+        </div>
+        <div class="demo-row">
+          <div class="demo-block card">
+            <h3>Itinerary timeline</h3>
+            <div id="itinerary-timeline"></div>
+          </div>
+          <div class="demo-block card" id="ai">
+            <h3>AI chat</h3>
+            <div id="ai-chat"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works container">
+        <h2 class="reveal">How it works</h2>
+        <div class="grid hiw-grid">
+          <article class="card reveal">
+            <h3>1. Create a trip</h3>
+            <p>Pick dates, destination, and invite your crew. Add your budget goal.</p>
+          </article>
+          <article class="card reveal">
+            <h3>2. Build the plan</h3>
+            <p>Drop activities into the timeline. Set categories and per‑person costs.</p>
+          </article>
+          <article class="card reveal">
+            <h3>3. Track the money</h3>
+            <p>Add contributions and expenses as you go. Everyone stays in the loop.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="stats container">
+        <div class="card stats-inner reveal">
+          <div class="stat"><div class="stat-num" data-count="4200">0</div><div class="stat-label">Avg budget</div></div>
+          <div class="stat"><div class="stat-num" data-count="12">0</div><div class="stat-label">Sample itineraries</div></div>
+          <div class="stat"><div class="stat-num" data-count="4">0</div><div class="stat-label">Friends planning</div></div>
+        </div>
+      </section>
+
+      <!-- Portal section: login + dashboard preview -->
+      <section id="portal" class="container">
+        <h2 class="reveal">Your Portal</h2>
+        <div class="grid" style="grid-template-columns: 360px 1fr; gap: 20px; align-items: start;">
+          <div class="card" id="portal-auth">
+            <h3>Log in</h3>
+            <form id="login-form" class="grid" style="gap: 10px;">
+              <label>Email<input type="email" id="login-email" placeholder="you@example.com" required /></label>
+              <label>Password<input type="password" id="login-password" placeholder="••••••••" required /></label>
+              <button class="btn btn-primary" type="submit">Log in</button>
+              <button class="btn" id="signup-btn" type="button">Create account</button>
+              <button class="btn btn-ghost" id="demo-btn" type="button">Continue with demo</button>
+              <div id="auth-error" style="color: var(--danger);"></div>
+            </form>
+            <div id="authed" style="display:none;">
+              <p>Signed in as <strong id="whoami"></strong></p>
+              <button id="signout-btn" class="btn">Sign out</button>
+            </div>
+          </div>
+          <div class="card" id="portal-dashboard">
+            <h3>Dashboard</h3>
+            <div id="dash-trips" class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;"></div>
+            <div style="height: 12px"></div>
+            <div class="grid" style="grid-template-columns: 280px 1fr; gap: 16px;">
+              <div id="dash-donut"></div>
+              <div id="dash-timeline"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <p>© <span id="year"></span> Trippi. Built with ❤️ for your next adventure.</p>
+      <a href="#top" id="back-to-top" class="btn btn-ghost">Back to top ↑</a>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+  </html>
+
+

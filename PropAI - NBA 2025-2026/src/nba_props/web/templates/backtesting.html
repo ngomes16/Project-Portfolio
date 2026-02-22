@@ -1,0 +1,2609 @@
+{% extends "base.html" %}
+
+{% block title %}Model Performance - NBA Props Predictor{% endblock %}
+{% block page_title %}📈 Model Performance{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* Model Testing Styles */
+    .testing-header {
+        display: flex;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+    
+    .date-picker-group {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background: var(--card-bg);
+        padding: 0.75rem 1.25rem;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+    }
+    
+    .date-picker-group label {
+        font-size: 0.875rem;
+        color: var(--text-muted);
+        font-weight: 500;
+    }
+    
+    .date-picker-group input[type="date"],
+    .date-picker-group select {
+        background: var(--bg);
+        border: 1px solid var(--border);
+        padding: 0.5rem 0.75rem;
+        border-radius: 8px;
+        color: var(--text);
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .date-picker-group select {
+        min-width: 200px;
+        cursor: pointer;
+    }
+    
+    .model-info-banner {
+        background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.1));
+        border: 1px solid rgba(99, 102, 241, 0.3);
+        border-radius: 12px;
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .model-info-banner.under-model {
+        background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(220, 38, 38, 0.1));
+        border-color: rgba(239, 68, 68, 0.3);
+    }
+    
+    .model-info-content {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 0.9rem;
+    }
+    
+    #model-info-icon {
+        font-size: 1.2rem;
+    }
+    
+    .action-buttons {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+    
+    .btn-generate {
+        background: linear-gradient(135deg, #3b82f6, #2563eb);
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: all 0.2s ease;
+    }
+    
+    .btn-generate:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+    }
+    
+    .btn-secondary {
+        background: var(--card-bg);
+        color: var(--text);
+        border: 1px solid var(--border);
+        padding: 0.75rem 1.5rem;
+        border-radius: 10px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .btn-performance {
+        background: linear-gradient(135deg, #10b981, #059669);
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: all 0.2s ease;
+    }
+    
+    .btn-performance:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
+    }
+    
+    /* Tab Navigation */
+    .tab-nav {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0.5rem;
+    }
+    
+    .tab-btn {
+        padding: 0.75rem 1.5rem;
+        background: transparent;
+        border: none;
+        color: var(--text-muted);
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 8px 8px 0 0;
+        transition: all 0.2s;
+    }
+    
+    .tab-btn:hover {
+        background: rgba(59, 130, 246, 0.1);
+        color: var(--text);
+    }
+    
+    .tab-btn.active {
+        background: var(--accent);
+        color: white;
+    }
+    
+    .tab-content {
+        display: none;
+    }
+    
+    .tab-content.active {
+        display: block;
+    }
+    
+    /* Performance Overview Cards */
+    .performance-hero {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 2rem;
+        background: linear-gradient(135deg, var(--card-bg), rgba(59, 130, 246, 0.05));
+        border-radius: 20px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border);
+    }
+    
+    .performance-circle {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background: conic-gradient(
+            #10b981 0deg calc(var(--hit-rate) * 3.6deg),
+            #ef4444 calc(var(--hit-rate) * 3.6deg) 360deg
+        );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .performance-circle::before {
+        content: '';
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background: var(--card-bg);
+    }
+    
+    .performance-circle-inner {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+    
+    .performance-rate {
+        font-size: 2.5rem;
+        font-weight: 800;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .performance-rate.good { color: #10b981; }
+    .performance-rate.ok { color: #f59e0b; }
+    .performance-rate.bad { color: #ef4444; }
+    
+    .performance-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .perf-stat {
+        text-align: center;
+    }
+    
+    .perf-stat-value {
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .perf-stat-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    
+    /* History Table */
+    .history-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .history-table th {
+        text-align: left;
+        padding: 1rem;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        background: rgba(0, 0, 0, 0.1);
+        font-weight: 600;
+    }
+    
+    .history-table td {
+        padding: 1rem;
+        border-bottom: 1px solid var(--border);
+    }
+    
+    .history-table tr:hover {
+        background: rgba(59, 130, 246, 0.03);
+    }
+    
+    .grade-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 1.25rem;
+    }
+    
+    .grade-badge.A { background: linear-gradient(135deg, #10b981, #059669); color: white; }
+    .grade-badge.B { background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; }
+    .grade-badge.C { background: linear-gradient(135deg, #f59e0b, #d97706); color: white; }
+    .grade-badge.D { background: linear-gradient(135deg, #f97316, #ea580c); color: white; }
+    .grade-badge.F { background: linear-gradient(135deg, #ef4444, #dc2626); color: white; }
+    .grade-badge.PENDING { background: linear-gradient(135deg, #6b7280, #4b5563); color: white; font-size: 0.9rem; }
+    
+    .mini-bar {
+        width: 100px;
+        height: 8px;
+        background: var(--bg);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    
+    .mini-bar-fill {
+        height: 100%;
+        border-radius: 4px;
+        transition: width 0.3s ease;
+    }
+    
+    .mini-bar-fill.good { background: #10b981; }
+    .mini-bar-fill.ok { background: #f59e0b; }
+    .mini-bar-fill.bad { background: #ef4444; }
+    
+    /* Summary Cards */
+    .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .summary-card {
+        background: var(--card-bg);
+        border-radius: 16px;
+        padding: 1.5rem;
+        border: 1px solid var(--border);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .summary-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--accent);
+    }
+    
+    .summary-card.success::before {
+        background: linear-gradient(90deg, #10b981, #34d399);
+    }
+    
+    .summary-card.danger::before {
+        background: linear-gradient(90deg, #ef4444, #f87171);
+    }
+    
+    .summary-card.neutral::before {
+        background: linear-gradient(90deg, #6b7280, #9ca3af);
+    }
+    
+    .summary-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 0.5rem;
+    }
+    
+    .summary-value {
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: 'JetBrains Mono', monospace;
+        line-height: 1;
+    }
+    
+    .summary-value.success { color: #10b981; }
+    .summary-value.danger { color: #ef4444; }
+    .summary-value.neutral { color: var(--text); }
+    
+    .summary-detail {
+        font-size: 0.875rem;
+        color: var(--text-muted);
+        margin-top: 0.5rem;
+    }
+    
+    /* Picks Table */
+    .picks-section {
+        background: var(--card-bg);
+        border-radius: 16px;
+        border: 1px solid var(--border);
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+    
+    .section-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.25rem 1.5rem;
+        border-bottom: 1px solid var(--border);
+        background: linear-gradient(to bottom, rgba(59, 130, 246, 0.05), transparent);
+    }
+    
+    .section-title {
+        font-size: 1.125rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+    
+    .picks-count {
+        background: var(--accent);
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    
+    .picks-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .picks-table th {
+        text-align: left;
+        padding: 0.875rem 1rem;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        background: rgba(0, 0, 0, 0.1);
+        font-weight: 600;
+    }
+    
+    .picks-table td {
+        padding: 1rem;
+        border-bottom: 1px solid var(--border);
+        vertical-align: middle;
+    }
+    
+    .picks-table tr:last-child td {
+        border-bottom: none;
+    }
+    
+    .picks-table tr:hover {
+        background: rgba(59, 130, 246, 0.03);
+    }
+    
+    .player-cell {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+    
+    .player-name {
+        font-weight: 600;
+        color: var(--text);
+    }
+    
+    .player-team {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+    }
+    
+    .prop-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.375rem;
+        padding: 0.375rem 0.75rem;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    
+    .prop-badge.over {
+        background: rgba(16, 185, 129, 0.15);
+        color: #10b981;
+    }
+    
+    .prop-badge.under {
+        background: rgba(239, 68, 68, 0.15);
+        color: #ef4444;
+    }
+    
+    .stat-type {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 600;
+        padding: 0.25rem 0.5rem;
+        background: rgba(59, 130, 246, 0.1);
+        color: var(--accent);
+        border-radius: 4px;
+        font-size: 0.75rem;
+    }
+    
+    .projection-value {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    .confidence-badge {
+        padding: 0.375rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .confidence-badge.high {
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(16, 185, 129, 0.1));
+        color: #10b981;
+        border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    
+    .confidence-badge.medium {
+        background: linear-gradient(135deg, rgba(251, 191, 36, 0.2), rgba(251, 191, 36, 0.1));
+        color: #f59e0b;
+        border: 1px solid rgba(251, 191, 36, 0.3);
+    }
+    
+    .confidence-badge.low {
+        background: linear-gradient(135deg, rgba(107, 114, 128, 0.2), rgba(107, 114, 128, 0.1));
+        color: #6b7280;
+        border: 1px solid rgba(107, 114, 128, 0.3);
+    }
+    
+    /* Star Rating Styles */
+    .star-rating {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.125rem;
+        padding: 0.375rem 0.5rem;
+        border-radius: 8px;
+        font-size: 0.875rem;
+    }
+    
+    .star-rating.stars-5 {
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(16, 185, 129, 0.1));
+        border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    
+    .star-rating.stars-4 {
+        background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(59, 130, 246, 0.1));
+        border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+    
+    .star-rating.stars-3 {
+        background: linear-gradient(135deg, rgba(251, 191, 36, 0.2), rgba(251, 191, 36, 0.1));
+        border: 1px solid rgba(251, 191, 36, 0.3);
+    }
+    
+    .star-rating.stars-2 {
+        background: linear-gradient(135deg, rgba(156, 163, 175, 0.2), rgba(156, 163, 175, 0.1));
+        border: 1px solid rgba(156, 163, 175, 0.3);
+    }
+    
+    .star-rating.stars-1 {
+        background: linear-gradient(135deg, rgba(107, 114, 128, 0.2), rgba(107, 114, 128, 0.1));
+        border: 1px solid rgba(107, 114, 128, 0.3);
+    }
+    
+    .star {
+        color: #fbbf24;
+        font-size: 0.8rem;
+    }
+    
+    .star.empty {
+        color: #374151;
+    }
+    
+    /* Result Badge */
+    .result-badge {
+        padding: 0.375rem 0.75rem;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.375rem;
+    }
+    
+    .result-badge.hit {
+        background: linear-gradient(135deg, #10b981, #059669);
+        color: white;
+    }
+    
+    .result-badge.miss {
+        background: linear-gradient(135deg, #ef4444, #dc2626);
+        color: white;
+    }
+    
+    .result-badge.pending {
+        background: var(--bg);
+        color: var(--text-muted);
+        border: 1px solid var(--border);
+    }
+    
+    /* Grade Card */
+    .grade-section {
+        background: var(--card-bg);
+        border-radius: 16px;
+        border: 1px solid var(--border);
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .grade-display {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+    
+    .grade-circle {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, var(--accent), #2563eb);
+        color: white;
+    }
+    
+    .grade-letter {
+        font-size: 3.5rem;
+        font-weight: 800;
+        line-height: 1;
+    }
+    
+    .grade-label {
+        font-size: 0.75rem;
+        opacity: 0.9;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+    
+    .grade-breakdown {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .breakdown-item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .breakdown-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    
+    .breakdown-value {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    .breakdown-bar {
+        height: 6px;
+        background: var(--bg);
+        border-radius: 3px;
+        overflow: hidden;
+    }
+    
+    .breakdown-bar-fill {
+        height: 100%;
+        border-radius: 3px;
+        transition: width 0.5s ease;
+    }
+    
+    .breakdown-bar-fill.good { background: linear-gradient(90deg, #10b981, #34d399); }
+    .breakdown-bar-fill.ok { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+    .breakdown-bar-fill.bad { background: linear-gradient(90deg, #ef4444, #f87171); }
+    .breakdown-bar-fill.pending { background: linear-gradient(90deg, #6b7280, #9ca3af); }
+    
+    /* Insights Section */
+    .insights-section {
+        background: var(--card-bg);
+        border-radius: 16px;
+        border: 1px solid var(--border);
+        padding: 1.5rem;
+    }
+    
+    .insights-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    .insight-card {
+        background: var(--bg);
+        border-radius: 12px;
+        padding: 1.25rem;
+        border: 1px solid var(--border);
+    }
+    
+    .insight-icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .insight-title {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .insight-title.positive { color: #10b981; }
+    .insight-title.negative { color: #ef4444; }
+    .insight-title.neutral { color: #var(--accent); }
+    
+    .insight-text {
+        font-size: 0.875rem;
+        color: var(--text-muted);
+        line-height: 1.6;
+    }
+    
+    /* Empty State */
+    .empty-state {
+        text-align: center;
+        padding: 4rem 2rem;
+        color: var(--text-muted);
+    }
+    
+    .empty-state-icon {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        opacity: 0.5;
+    }
+    
+    .empty-state h3 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+        color: var(--text);
+    }
+    
+    .empty-state p {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    /* Loading State */
+    .loading-overlay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+        gap: 1rem;
+    }
+    
+    .loading-spinner {
+        width: 48px;
+        height: 48px;
+        border: 4px solid var(--border);
+        border-top-color: var(--accent);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+        to { transform: rotate(360deg); }
+    }
+    
+    /* Calendar Section */
+    .calendar-section {
+        background: var(--card-bg);
+        border-radius: 16px;
+        border: 1px solid var(--border);
+        padding: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .calendar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .calendar-header span {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    
+    .calendar-header button {
+        padding: 0.5rem 1rem;
+        min-width: 40px;
+    }
+    
+    .calendar-weekdays {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .calendar-weekday {
+        text-align: center;
+        font-size: 0.7rem;
+        color: var(--text-muted);
+        padding: 0.25rem;
+        font-weight: 600;
+    }
+    
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 4px;
+    }
+    
+    .calendar-day {
+        height: 48px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-size: 0.8rem;
+        position: relative;
+        background: var(--bg);
+    }
+    
+    .calendar-day:hover {
+        border-color: var(--accent);
+        transform: scale(1.05);
+    }
+    
+    .calendar-day.active {
+        border-color: var(--accent);
+        background: rgba(59, 130, 246, 0.15);
+        box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+    }
+    
+    .calendar-day.empty {
+        background: transparent;
+        border-color: transparent;
+        cursor: default;
+    }
+    
+    .calendar-day.empty:hover {
+        transform: none;
+    }
+    
+    .calendar-day.has-data {
+        font-weight: bold;
+    }
+    
+    /* Gradient backgrounds for calendar days based on performance */
+    .calendar-day.good {
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.3), rgba(52, 211, 153, 0.15));
+        border-color: rgba(16, 185, 129, 0.5);
+    }
+    
+    .calendar-day.bad {
+        background: linear-gradient(135deg, rgba(239, 68, 68, 0.3), rgba(248, 113, 113, 0.15));
+        border-color: rgba(239, 68, 68, 0.5);
+    }
+    
+    .calendar-day.neutral {
+        background: linear-gradient(135deg, rgba(245, 158, 11, 0.3), rgba(251, 191, 36, 0.15));
+        border-color: rgba(245, 158, 11, 0.5);
+    }
+    
+    .calendar-day .day-number {
+        font-weight: 600;
+    }
+    
+    .calendar-day .day-rate {
+        font-size: 0.65rem;
+        opacity: 0.9;
+    }
+    
+    /* History Date List Styles (like Performance Dashboard) */
+    .history-dates-table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--card-bg);
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+    }
+    
+    .history-dates-table th {
+        text-align: left;
+        padding: 1rem;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        background: rgba(0, 0, 0, 0.1);
+        font-weight: 600;
+    }
+    
+    .history-dates-table td {
+        padding: 1rem;
+        border-bottom: 1px solid var(--border);
+    }
+    
+    .history-dates-table tr:hover {
+        background: rgba(59, 130, 246, 0.05);
+    }
+    
+    .history-dates-table tr.selected {
+        background: rgba(59, 130, 246, 0.15);
+        border-left: 3px solid var(--accent);
+    }
+    
+    .history-dates-table tr {
+        cursor: pointer;
+        transition: background 0.2s ease;
+    }
+    
+    .date-row-date {
+        font-weight: 600;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .date-row-stats {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .date-row-stat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 60px;
+    }
+    
+    .date-row-stat-value {
+        font-weight: 600;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .date-row-stat-label {
+        font-size: 0.65rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+    }
+
+    /* Pick Details Modal */
+    .pick-details-header {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--border);
+    }
+    .pick-player-large {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.25rem;
+    }
+    .pick-meta-large {
+        color: var(--text-muted);
+        font-size: 0.9rem;
+    }
+    .pick-direction-large {
+        display: inline-block;
+        margin-top: 0.5rem;
+        padding: 0.25rem 0.75rem;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
+    .pick-direction-large.over { background: rgba(16, 185, 129, 0.15); color: #10b981; }
+    .pick-direction-large.under { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
+    
+    .pick-stats-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .pick-stat-box {
+        background: var(--bg);
+        padding: 0.75rem;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .pick-stat-box .label { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.25rem; }
+    .pick-stat-box .value { font-weight: 600; font-size: 1.1rem; }
+    .pick-stat-box .value.positive { color: #10b981; }
+    .pick-stat-box .value.negative { color: #ef4444; }
+    
+    .pick-analysis-section { margin-bottom: 1.5rem; }
+    .pick-analysis-section h3 { font-size: 1rem; margin-bottom: 0.75rem; color: var(--text); }
+    .reasons-list, .warnings-list { display: flex; flex-direction: column; gap: 0.5rem; }
+    .reason-item { color: #10b981; font-size: 0.9rem; }
+    .warning-item { color: #f59e0b; font-size: 0.9rem; }
+    .no-data { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .testing-header {
+            flex-direction: column;
+        }
+        
+        .picks-table {
+            font-size: 0.875rem;
+        }
+        
+        .grade-display {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="testing-container">
+    <!-- Tab Navigation -->
+    <div class="tab-nav">
+        <button class="tab-btn active" onclick="switchTab('daily')">📅 Daily Testing</button>
+        <button class="tab-btn" onclick="switchTab('performance')">📊 Performance Dashboard</button>
+        <button class="tab-btn" onclick="switchTab('history')">📜 Pick History</button>
+    </div>
+    
+    <!-- Daily Testing Tab -->
+    <div id="tab-daily" class="tab-content active">
+        <div class="testing-header">
+            <div class="date-picker-group">
+                <label for="test-date">Test Date:</label>
+                <input type="date" id="test-date" value="{{ default_date or today }}">
+            </div>
+            <div class="date-picker-group">
+                <label for="model-select">Model:</label>
+                <select id="model-select" onchange="onModelChange()">
+                    <option value="v8" selected>V8 - Combined (Over/Under)</option>
+                    <option value="under_v2">Under V2 - Enhanced UNDER Only</option>
+                    <option value="production">Production</option>
+                    <option value="v5">V5 - Legacy</option>
+                    <option value="v4">V4 - Legacy</option>
+                </select>
+            </div>
+            <div class="action-buttons">
+                <button class="btn-generate" onclick="generatePicks(false)">
+                    <span>⚡</span> Generate Picks
+                </button>
+                <button class="btn-secondary" onclick="generatePicks(true)">
+                    <span>🔄</span> Regenerate
+                </button>
+                <button class="btn-performance" onclick="loadResults()">
+                    <span>🎯</span> Load Results
+                </button>
+            </div>
+        </div>
+        
+        <!-- Model Info Banner -->
+        <div id="model-info-banner" class="model-info-banner" style="display: none;">
+            <div class="model-info-content">
+                <span id="model-info-icon">🎯</span>
+                <span id="model-info-text"></span>
+            </div>
+        </div>
+        
+        <!-- Calendar View -->
+        <div class="calendar-section">
+            <div class="calendar-header">
+                <button class="btn-secondary" onclick="changeCalendarMonth(-1)">◀</button>
+                <span id="calendar-month-year">January 2026</span>
+                <button class="btn-secondary" onclick="changeCalendarMonth(1)">▶</button>
+            </div>
+            <div class="calendar-weekdays">
+                <div class="calendar-weekday">Sun</div>
+                <div class="calendar-weekday">Mon</div>
+                <div class="calendar-weekday">Tue</div>
+                <div class="calendar-weekday">Wed</div>
+                <div class="calendar-weekday">Thu</div>
+                <div class="calendar-weekday">Fri</div>
+                <div class="calendar-weekday">Sat</div>
+            </div>
+            <div class="calendar-grid" id="testing-calendar">
+                <!-- Calendar populated by JS -->
+            </div>
+        </div>
+
+        <!-- Grade Section (Hidden by default) -->
+        <div class="grade-section" id="grade-section" style="display: none;">
+            <div class="section-title" style="margin-bottom: 1.5rem;">🏆 Model Grade</div>
+            <div class="grade-display">
+                <div class="grade-circle">
+                    <div class="grade-letter" id="grade-letter">-</div>
+                    <div class="grade-label">Grade</div>
+                </div>
+                <div class="grade-breakdown">
+                    <div class="breakdown-item">
+                        <div class="breakdown-label">Points Props</div>
+                        <div class="breakdown-value" id="pts-accuracy">--%</div>
+                        <div class="breakdown-bar">
+                            <div class="breakdown-bar-fill good" id="pts-bar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="breakdown-item">
+                        <div class="breakdown-label">Rebounds Props</div>
+                        <div class="breakdown-value" id="reb-accuracy">--%</div>
+                        <div class="breakdown-bar">
+                            <div class="breakdown-bar-fill ok" id="reb-bar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="breakdown-item">
+                        <div class="breakdown-label">Assists Props</div>
+                        <div class="breakdown-value" id="ast-accuracy">--%</div>
+                        <div class="breakdown-bar">
+                            <div class="breakdown-bar-fill good" id="ast-bar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="breakdown-item">
+                        <div class="breakdown-label">High Confidence</div>
+                        <div class="breakdown-value" id="high-conf-accuracy">--%</div>
+                        <div class="breakdown-bar">
+                            <div class="breakdown-bar-fill good" id="high-conf-bar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Daily Summary Cards -->
+        <div class="summary-grid" id="daily-summary">
+            <div class="summary-card neutral">
+                <div class="summary-label">Graded Picks</div>
+                <div class="summary-value neutral" id="total-picks">0</div>
+                <div class="summary-detail">Top Model Picks (OVER)</div>
+            </div>
+            <div class="summary-card success">
+                <div class="summary-label">Hits</div>
+                <div class="summary-value success" id="hits-count">--</div>
+                <div class="summary-detail">Correct predictions</div>
+            </div>
+            <div class="summary-card danger">
+                <div class="summary-label">Misses</div>
+                <div class="summary-value danger" id="misses-count">--</div>
+                <div class="summary-detail">Incorrect predictions</div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-label">Hit Rate</div>
+                <div class="summary-value" id="hit-rate">--%</div>
+                <div class="summary-detail">Graded accuracy</div>
+            </div>
+        </div>
+
+        <!-- Top Model Picks Section -->
+        <div class="picks-section" id="picks-section">
+            <div class="section-header">
+                <div class="section-title">
+                    🎯 Top Model Picks
+                    <span class="picks-count" id="picks-count-badge">0</span>
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-muted);">OVER picks for star players - <strong>These are graded for performance</strong></div>
+            </div>
+            <div id="picks-content">
+                <div class="empty-state">
+                    <div class="empty-state-icon">📋</div>
+                    <h3>No Picks Generated Yet</h3>
+                    <p>Click "Generate Picks" to get the model's top predictions for the selected date's matchups.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Under Picks Section (NOT included in grade) -->
+        <div class="picks-section" id="under-picks-section" style="margin-top: 1.5rem;">
+            <div class="section-header" style="background: linear-gradient(to bottom, rgba(239, 68, 68, 0.1), transparent);">
+                <div class="section-title">
+                    📉 UNDER Picks
+                    <span class="picks-count" id="under-picks-count-badge" style="background: #ef4444;">0</span>
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-muted);">Under picks for reference - <strong>NOT included in grade calculations</strong></div>
+            </div>
+            <div id="under-picks-content">
+                <div class="empty-state" style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.05), rgba(245, 158, 11, 0.05)); border: 1px solid rgba(245, 158, 11, 0.2);">
+                    <div class="empty-state-icon">🔧</div>
+                    <h3>UNDER Picks Model Being Updated</h3>
+                    <p style="color: var(--text-muted); max-width: 450px; margin: 0 auto;">
+                        This feature is temporarily being updated. UNDER picks were causing decreased model accuracy 
+                        and are being refined in a separate model for improved reliability.
+                    </p>
+                    <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 1rem;">
+                        <strong>📊 Main Model (OVER picks)</strong> now focuses on our historically high-performing picks (65-75% accuracy).
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Insights Section -->
+        <div class="insights-section" id="insights-section" style="display: none;">
+            <div class="section-title">💡 Model Insights & Analysis</div>
+            <div class="insights-grid" id="insights-grid">
+                <!-- Insights will be populated here -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Performance Dashboard Tab -->
+    <div id="tab-performance" class="tab-content">
+        <div class="performance-hero" id="performance-hero">
+            <div class="performance-circle" style="--hit-rate: 0">
+                <div class="performance-circle-inner">
+                    <div class="performance-rate" id="overall-rate">--%</div>
+                    <div style="font-size: 0.75rem; color: var(--text-muted);">HIT RATE</div>
+                </div>
+            </div>
+            <div class="performance-stats">
+                <div class="perf-stat">
+                    <div class="perf-stat-value" id="total-days">0</div>
+                    <div class="perf-stat-label">Days Tracked</div>
+                </div>
+                <div class="perf-stat">
+                    <div class="perf-stat-value" id="total-picks-all">0</div>
+                    <div class="perf-stat-label">Total Picks</div>
+                </div>
+                <div class="perf-stat">
+                    <div class="perf-stat-value" style="color: #10b981;" id="total-hits-all">0</div>
+                    <div class="perf-stat-label">Total Hits</div>
+                </div>
+                <div class="perf-stat">
+                    <div class="perf-stat-value" style="color: #ef4444;" id="total-misses-all">0</div>
+                    <div class="perf-stat-label">Total Misses</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="picks-section">
+            <div class="section-header">
+                <div class="section-title">📅 Daily Performance History</div>
+            </div>
+            <div id="history-content">
+                <div class="empty-state">
+                    <div class="empty-state-icon">📊</div>
+                    <h3>No Performance Data Yet</h3>
+                    <p>Generate picks and load results to start tracking model performance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pick History Tab -->
+    <div id="tab-history" class="tab-content">
+        <div class="picks-section">
+            <div class="section-header">
+                <div class="section-title">📜 Pick History</div>
+            </div>
+            
+            <!-- Hidden input to track selected date -->
+            <input type="hidden" id="history-date" value="">
+            
+            <!-- Date List View for History (like Performance Dashboard) -->
+            <div id="history-dates-list" style="margin: 1rem 0;">
+                <div class="empty-state">
+                    <div class="empty-state-icon">📅</div>
+                    <h3>Loading dates...</h3>
+                </div>
+            </div>
+            
+            <div id="history-stats" class="summary-grid" style="margin-bottom: 1rem; display: none;"></div>
+            
+            <!-- Selected date info -->
+            <div id="history-selected-date" style="padding: 0.75rem 1rem; background: var(--bg-tertiary); border-radius: 8px; margin-bottom: 1rem; display: none;">
+                <span style="font-weight: 600;">Showing picks for: </span>
+                <span id="history-date-display" style="color: var(--accent); font-family: 'JetBrains Mono', monospace;"></span>
+            </div>
+            
+            <div id="all-picks-content">
+                <div class="empty-state">
+                    <div class="empty-state-icon">📅</div>
+                    <h3>Select a Date</h3>
+                    <p>Click on a date in the calendar above to view picks for that day.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pick Details Modal -->
+    <div class="modal hidden" id="pick-details-modal">
+        <div class="modal-backdrop" onclick="hidePickDetailsModal()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🔍 Pick Analysis</h2>
+                <button class="modal-close" onclick="hidePickDetailsModal()">×</button>
+            </div>
+            <div class="modal-body" id="pick-details-content">
+                <!-- Content populated by JS -->
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let currentPicks = [];
+let currentResults = [];
+let calendarDate = new Date();
+let historyCalendarDate = new Date();
+let performanceData = {};
+let selectedHistoryDate = null;
+let selectedModel = 'v8';
+
+// Model info data
+const MODEL_INFO = {
+    'v8': {
+        name: 'V8 - Combined Model',
+        icon: '🎯',
+        description: 'Full model generating both OVER and UNDER picks with pattern recognition and confidence calibration.',
+        class: ''
+    },
+    'under_v2': {
+        name: 'Under V2 - Enhanced UNDER Model',
+        icon: '📉',
+        description: 'Specialized UNDER model using elite defense analysis (Hashtag Basketball data), cold streak detection, and B2B fatigue. Target: 66%+ hit rate on HIGH confidence picks.',
+        class: 'under-model'
+    },
+    'production': {
+        name: 'Production Model',
+        icon: '🏭',
+        description: 'Stable production model for daily picks.',
+        class: ''
+    },
+    'v5': {
+        name: 'V5 - Legacy Model',
+        icon: '📊',
+        description: 'Legacy V5 model for comparison purposes.',
+        class: ''
+    },
+    'v4': {
+        name: 'V4 - Legacy Model',
+        icon: '📊',
+        description: 'Legacy V4 model for comparison purposes.',
+        class: ''
+    }
+};
+
+function onModelChange() {
+    selectedModel = document.getElementById('model-select').value;
+    updateModelInfoBanner();
+    
+    // Clear current picks when model changes
+    currentPicks = [];
+    currentResults = [];
+    renderPicks([]);
+    document.getElementById('grade-section').style.display = 'none';
+}
+
+function updateModelInfoBanner() {
+    const banner = document.getElementById('model-info-banner');
+    const info = MODEL_INFO[selectedModel];
+    
+    if (info) {
+        document.getElementById('model-info-icon').textContent = info.icon;
+        document.getElementById('model-info-text').textContent = info.description;
+        banner.className = 'model-info-banner ' + info.class;
+        banner.style.display = 'block';
+    } else {
+        banner.style.display = 'none';
+    }
+}
+
+// Helper function to render star rating
+function renderStarRating(stars) {
+    const numStars = Math.min(5, Math.max(1, stars || 3));
+    let html = `<span class="star-rating stars-${numStars}">`;
+    for (let i = 1; i <= 5; i++) {
+        if (i <= numStars) {
+            html += `<span class="star">★</span>`;
+        } else {
+            html += `<span class="star empty">★</span>`;
+        }
+    }
+    html += `</span>`;
+    return html;
+}
+
+// Helper to convert confidence score to stars
+function getStarsFromScore(score) {
+    if (!score) return 3;
+    if (score >= 88) return 5;
+    if (score >= 75) return 4;
+    if (score >= 60) return 3;
+    if (score >= 45) return 2;
+    return 1;
+}
+
+// Tab switching
+function switchTab(tabName) {
+    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+    
+    document.querySelector(`.tab-btn[onclick="switchTab('${tabName}')"]`).classList.add('active');
+    document.getElementById(`tab-${tabName}`).classList.add('active');
+    
+    // Load data for specific tabs
+    if (tabName === 'performance') {
+        loadPerformanceData();
+    } else if (tabName === 'history') {
+        loadPickHistory();
+        // Load performance data for history list if not already loaded
+        if (Object.keys(performanceData).length === 0) {
+            loadCalendarData().then(() => renderHistoryDatesList());
+        } else {
+            renderHistoryDatesList();
+        }
+    }
+}
+
+async function generatePicks(force = false) {
+    const testDate = document.getElementById('test-date').value;
+    const picksContent = document.getElementById('picks-content');
+    
+    if (force && !confirm("This will overwrite existing picks for this date. Continue?")) {
+        return;
+    }
+    
+    picksContent.innerHTML = `
+        <div class="loading-overlay">
+            <div class="loading-spinner"></div>
+            <div>${force ? 'Regenerating' : 'Loading'} picks...</div>
+        </div>
+    `;
+    
+    try {
+        const selectedModel = document.getElementById('model-select').value;
+        console.log('Generating picks for date:', testDate, 'force:', force, 'model:', selectedModel);
+        const response = await fetchAPI('/api/backtesting/generate-picks', {
+            method: 'POST',
+            body: JSON.stringify({ date: testDate, force: force, model: selectedModel })
+        });
+        console.log('Response received:', response);
+        
+        if (response.error) {
+            throw new Error(response.error);
+        }
+        
+        currentPicks = response.picks || [];
+        // Extract picks that have results (actual values)
+        currentResults = currentPicks.filter(p => p.result !== null && p.result !== undefined);
+        
+        console.log('Picks to render:', currentPicks.length, 'with results:', currentResults.length);
+        renderPicks(currentPicks);
+        updateSummaryFromPicks(currentPicks);
+        
+        // Show grade section if we have results
+        if (currentResults.length > 0) {
+            const grade = calculateGradeFromPicks(currentPicks);
+            updateGrade(grade);
+            document.getElementById('grade-section').style.display = 'block';
+        } else {
+            document.getElementById('grade-section').style.display = 'none';
+        }
+        
+        // Show insights section
+        const insightsSection = document.getElementById('insights-section');
+        if (insightsSection) {
+            insightsSection.style.display = 'block';
+            if (currentResults.length > 0) {
+                renderInsights(analyzeResults(currentResults));
+            } else {
+                renderInsights(getDefaultInsights(currentPicks));
+            }
+        }
+        
+        showToast(`${response.cached ? 'Loaded' : 'Generated'} ${currentPicks.length} picks for ${testDate}`, 'success');
+        
+        // Refresh calendar to show new data status
+        loadCalendarData();
+        
+    } catch (error) {
+        console.error('Error generating picks:', error);
+        picksContent.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">⚠️</div>
+                <h3>Error Generating Picks</h3>
+                <p>${error.message}</p>
+            </div>
+        `;
+    }
+}
+
+async function loadResults() {
+    const testDate = document.getElementById('test-date').value;
+    
+    const picksContent = document.getElementById('picks-content');
+    picksContent.innerHTML = `
+        <div class="loading-overlay">
+            <div class="loading-spinner"></div>
+            <div>Grading picks against box scores...</div>
+        </div>
+    `;
+    
+    try {
+        const response = await fetchAPI('/api/backtesting/compare-results', {
+            method: 'POST',
+            body: JSON.stringify({ date: testDate })
+        });
+        
+        if (response.error) {
+            throw new Error(response.error);
+        }
+        
+        currentResults = response.results || [];
+        currentPicks = currentResults; // After grading, results become the picks
+        renderPicks(currentResults);
+        updateSummaryFromPicks(currentResults);
+        updateGrade(response.grade);
+        
+        // Show grade section
+        document.getElementById('grade-section').style.display = 'block';
+        
+        // Update insights with analysis
+        const insightsSection = document.getElementById('insights-section');
+        if (insightsSection) {
+            insightsSection.style.display = 'block';
+            renderInsights(analyzeResults(currentResults));
+        }
+        
+        const hits = currentResults.filter(r => r.hit === true || r.hit === 1).length;
+        const completed = currentResults.filter(r => r.result === true).length;
+        const pending = currentResults.length - completed;
+        
+        if (completed === 0 && pending > 0) {
+            showToast(`⏳ ${pending} picks pending - games not yet played`, 'info');
+        } else if (pending > 0) {
+            showToast(`Results loaded: ${hits}/${completed} hits (${pending} pending)`, 'success');
+        } else {
+            showToast(`Results loaded: ${hits}/${completed} hits`, 'success');
+        }
+        
+    } catch (error) {
+        picksContent.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">⚠️</div>
+                <h3>Error Loading Results</h3>
+                <p>${error.message}</p>
+            </div>
+        `;
+    }
+}
+
+async function loadPerformanceData() {
+    const heroEl = document.getElementById('performance-hero');
+    const historyContent = document.getElementById('history-content');
+    
+    try {
+        const response = await fetchAPI('/api/backtesting/performance');
+        
+        if (response.error) {
+            throw new Error(response.error);
+        }
+        
+        const { overall, daily } = response;
+        
+        // Update hero stats
+        const hitRate = overall.overall_hit_rate || 0;
+        document.getElementById('overall-rate').textContent = hitRate.toFixed(1) + '%';
+        document.getElementById('overall-rate').className = `performance-rate ${hitRate >= 55 ? 'good' : hitRate >= 45 ? 'ok' : 'bad'}`;
+        document.getElementById('total-days').textContent = overall.days_tracked;
+        document.getElementById('total-picks-all').textContent = overall.total_picks;
+        document.getElementById('total-hits-all').textContent = overall.total_hits;
+        document.getElementById('total-misses-all').textContent = overall.total_misses;
+        
+        // Update conic gradient
+        heroEl.querySelector('.performance-circle').style.setProperty('--hit-rate', hitRate);
+        
+        // Render daily history table
+        if (daily.length === 0) {
+            historyContent.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">📊</div>
+                    <h3>No Performance Data Yet</h3>
+                    <p>Generate picks and load results to start tracking model performance.</p>
+                </div>
+            `;
+        } else {
+            historyContent.innerHTML = `
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Grade</th>
+                            <th>Picks</th>
+                            <th>Hits</th>
+                            <th>Misses</th>
+                            <th>Hit Rate</th>
+                            <th>PTS</th>
+                            <th>REB</th>
+                            <th>AST</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${daily.map(d => `
+                            <tr onclick="loadDatePicks('${d.date}')" style="cursor: pointer;">
+                                <td style="font-weight: 600;">${d.date}</td>
+                                <td><span class="grade-badge ${d.grade}">${d.grade || '-'}</span></td>
+                                <td>${d.total_picks}</td>
+                                <td style="color: #10b981; font-weight: 600;">${d.hits}</td>
+                                <td style="color: #ef4444; font-weight: 600;">${d.misses}</td>
+                                <td>
+                                    <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                        <span style="font-family: 'JetBrains Mono', monospace; font-weight: 600;">
+                                            ${d.hit_rate ? d.hit_rate.toFixed(1) : '--'}%
+                                        </span>
+                                        <div class="mini-bar">
+                                            <div class="mini-bar-fill ${d.hit_rate >= 55 ? 'good' : d.hit_rate >= 45 ? 'ok' : 'bad'}" 
+                                                 style="width: ${d.hit_rate || 0}%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>${d.pts_accuracy ? d.pts_accuracy.toFixed(0) + '%' : '--'}</td>
+                                <td>${d.reb_accuracy ? d.reb_accuracy.toFixed(0) + '%' : '--'}</td>
+                                <td>${d.ast_accuracy ? d.ast_accuracy.toFixed(0) + '%' : '--'}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+        }
+        
+    } catch (error) {
+        historyContent.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">⚠️</div>
+                <h3>Error Loading Performance Data</h3>
+                <p>${error.message}</p>
+            </div>
+        `;
+    }
+}
+
+async function loadPickHistory(dateStr = null) {
+    const content = document.getElementById('all-picks-content');
+    const statsEl = document.getElementById('history-stats');
+    const selectedDateEl = document.getElementById('history-selected-date');
+    const dateDisplayEl = document.getElementById('history-date-display');
+    
+    // If no date provided and none selected, show empty prompt
+    if (!dateStr && !selectedHistoryDate) {
+        content.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">📅</div>
+                <h3>Select a Date</h3>
+                <p>Click on a date in the list above to view all picks for that day.</p>
+            </div>
+        `;
+        statsEl.style.display = 'none';
+        selectedDateEl.style.display = 'none';
+        return;
+    }
+    
+    // Use provided date or the selected one
+    const targetDate = dateStr || selectedHistoryDate;
+    selectedHistoryDate = targetDate;
+    
+    // Update selected date display
+    selectedDateEl.style.display = 'block';
+    dateDisplayEl.textContent = targetDate;
+    
+    // Update the dates list to show selection
+    renderHistoryDatesList();
+    
+    content.innerHTML = `
+        <div class="loading-overlay">
+            <div class="loading-spinner"></div>
+            <div>Loading all picks for ${targetDate}...</div>
+        </div>
+    `;
+    
+    try {
+        const params = new URLSearchParams();
+        params.set('limit', '100');
+        params.set('start_date', targetDate);
+        params.set('end_date', targetDate);
+        const response = await fetchAPI('/api/backtesting/picks-history?' + params.toString());
+        
+        if (response.error) {
+            throw new Error(response.error);
+        }
+        
+        const picks = response.picks || [];
+        const stats = response.stats || null;
+
+        if (stats && stats.total > 0) {
+            const allHitRate = (stats.hit_rate != null) ? stats.hit_rate.toFixed(1) + '%' : '--%';
+            const graded = stats.graded || {};
+            const gradedHitRate = (graded.hit_rate != null) ? graded.hit_rate.toFixed(1) + '%' : '--%';
+            
+            statsEl.style.display = 'grid';
+            statsEl.innerHTML = `
+                <div class="summary-card" style="border-left: 3px solid var(--accent);">
+                    <div class="summary-label">📊 Graded Picks</div>
+                    <div class="summary-value neutral">${graded.total || 0}</div>
+                    <div class="summary-detail">Top 20 + Top 10 Under</div>
+                </div>
+                <div class="summary-card success">
+                    <div class="summary-label">Graded Hit Rate</div>
+                    <div class="summary-value success">${gradedHitRate}</div>
+                    <div class="summary-detail">${graded.hits || 0}/${(graded.hits || 0) + (graded.misses || 0)} hits</div>
+                </div>
+                <div class="summary-card neutral" style="border-left: 3px solid #6b7280;">
+                    <div class="summary-label">📋 All Picks</div>
+                    <div class="summary-value neutral">${stats.total}</div>
+                    <div class="summary-detail">Full 40 + 15 under</div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-label">All Picks Rate</div>
+                    <div class="summary-value">${allHitRate}</div>
+                    <div class="summary-detail">${stats.hits}/${stats.hits + stats.misses} hits</div>
+                </div>
+            `;
+        } else {
+            statsEl.style.display = 'none';
+            statsEl.innerHTML = '';
+        }
+        
+        if (picks.length === 0) {
+            content.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">📋</div>
+                    <h3>No Picks for ${targetDate}</h3>
+                    <p>No picks were generated for this date. Try selecting another date or generate picks.</p>
+                </div>
+            `;
+        } else {
+            // Separate OVER and UNDER picks for display
+            const overPicks = picks.filter(p => p.direction === 'OVER');
+            const underPicks = picks.filter(p => p.direction === 'UNDER');
+            
+            content.innerHTML = `
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                        🎯 All OVER Picks <span class="picks-count" style="font-size: 0.75rem;">${overPicks.length}</span>
+                    </h3>
+                    <table class="picks-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Player</th>
+                                <th>Prop</th>
+                                <th>Projection</th>
+                                <th>Actual</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${overPicks.map((p, i) => `
+                                <tr style="${i < 20 ? 'background: rgba(59, 130, 246, 0.05);' : ''}">
+                                    <td style="font-weight: 600; color: var(--text-muted);">
+                                        ${i + 1}${i < 20 ? ' ⭐' : ''}
+                                    </td>
+                                    <td>
+                                        <div class="player-cell">
+                                            <span class="player-name">${p.player}</span>
+                                            <span class="player-team">${p.team} vs ${p.opponent}</span>
+                                        </div>
+                                    </td>
+                                    <td><span class="stat-type">${p.prop}</span></td>
+                                    <td><span class="projection-value">${p.projection.toFixed(1)}</span></td>
+                                    <td>
+                                        <span style="font-family: 'JetBrains Mono', monospace; font-weight: 600;">
+                                            ${p.actual !== null ? p.actual.toFixed(1) : '--'}
+                                        </span>
+                                    </td>
+                                    <td>
+                                        ${p.hit !== null ? `
+                                            <span class="result-badge ${p.hit ? 'hit' : 'miss'}">
+                                                ${p.hit ? '✓ HIT' : '✗ MISS'}
+                                            </span>
+                                        ` : `
+                                            <span class="result-badge pending">⏳ Pending</span>
+                                        `}
+                                    </td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div>
+                    <h3 style="font-size: 1rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                        📉 All UNDER Picks <span class="picks-count" style="font-size: 0.75rem; background: #ef4444;">${underPicks.length}</span>
+                    </h3>
+                    <table class="picks-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Player</th>
+                                <th>Prop</th>
+                                <th>Projection</th>
+                                <th>Actual</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${underPicks.map((p, i) => `
+                                <tr style="${i < 10 ? 'background: rgba(239, 68, 68, 0.05);' : ''}">
+                                    <td style="font-weight: 600; color: var(--text-muted);">
+                                        ${i + 1}${i < 10 ? ' ⭐' : ''}
+                                    </td>
+                                    <td>
+                                        <div class="player-cell">
+                                            <span class="player-name">${p.player}</span>
+                                            <span class="player-team">${p.team} vs ${p.opponent}</span>
+                                        </div>
+                                    </td>
+                                    <td><span class="stat-type">${p.prop}</span></td>
+                                    <td><span class="projection-value">${p.projection.toFixed(1)}</span></td>
+                                    <td>
+                                        <span style="font-family: 'JetBrains Mono', monospace; font-weight: 600;">
+                                            ${p.actual !== null ? p.actual.toFixed(1) : '--'}
+                                        </span>
+                                    </td>
+                                    <td>
+                                        ${p.hit !== null ? `
+                                            <span class="result-badge ${p.hit ? 'hit' : 'miss'}">
+                                                ${p.hit ? '✓ HIT' : '✗ MISS'}
+                                            </span>
+                                        ` : `
+                                            <span class="result-badge pending">⏳ Pending</span>
+                                        `}
+                                    </td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+                <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 1rem; text-align: center;">
+                    ⭐ = Graded picks (top 20 OVER + top 10 UNDER)
+                </p>
+            `;
+        }
+        
+    } catch (error) {
+        statsEl.style.display = 'none';
+        content.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">⚠️</div>
+                <h3>Error Loading History</h3>
+                <p>${error.message}</p>
+            </div>
+        `;
+    }
+}
+
+function clearHistoryFilters() {
+    document.getElementById('history-start').value = '';
+    document.getElementById('history-end').value = '';
+    loadPickHistory();
+}
+
+async function loadSavedPicksForDate(date) {
+    // Load previously generated picks (if any) so navigating dates doesn't require regeneration.
+    const picksContent = document.getElementById('picks-content');
+    
+    picksContent.innerHTML = `
+        <div class="loading-overlay">
+            <div class="loading-spinner"></div>
+            <div>Loading picks...</div>
+        </div>
+    `;
+    
+    // Hide grade section while loading
+    document.getElementById('grade-section').style.display = 'none';
+    
+    try {
+        console.log('Loading saved picks for date:', date);
+        // Use generate-picks endpoint which returns cached picks if they exist
+        const response = await fetchAPI('/api/backtesting/generate-picks', {
+            method: 'POST',
+            body: JSON.stringify({ date: date, force: false })
+        });
+        console.log('Loaded picks response:', response);
+        
+        if (response.error) {
+            // No picks for this date - show empty state
+            picksContent.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">📋</div>
+                    <h3>No Picks for ${date}</h3>
+                    <p>Click "Generate Picks" to create picks for this date.</p>
+                </div>
+            `;
+            currentPicks = [];
+            currentResults = [];
+            updateSummaryFromPicks([]);
+            document.getElementById('picks-count-badge').textContent = '0';
+            return;
+        }
+
+        const picks = response.picks || [];
+        currentPicks = picks;
+        currentResults = picks.filter(p => p.result !== null && p.result !== undefined);
+        console.log('Rendering picks:', picks.length, 'with results:', currentResults.length);
+
+        if (picks.length > 0) {
+            renderPicks(picks);
+            updateSummaryFromPicks(picks);
+            
+            // If we have results, calculate and show the grade
+            if (currentResults.length > 0) {
+                const grade = calculateGradeFromPicks(picks);
+                if (grade) {
+                    updateGrade(grade);
+                    document.getElementById('grade-section').style.display = 'block';
+                }
+                // Show insights for graded picks
+                const insightsSection = document.getElementById('insights-section');
+                if (insightsSection) {
+                    insightsSection.style.display = 'block';
+                    renderInsights(analyzeResults(currentResults));
+                }
+            } else {
+                // Hide insights for non-graded picks
+                const insightsSection = document.getElementById('insights-section');
+                if (insightsSection) {
+                    insightsSection.style.display = 'block';
+                    renderInsights(getDefaultInsights(picks));
+                }
+            }
+        } else {
+            picksContent.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">📋</div>
+                    <h3>No Picks for ${date}</h3>
+                    <p>Click "Generate Picks" to create picks for this date.</p>
+                </div>
+            `;
+            updateSummaryFromPicks([]);
+            updateSummaryFromPicks([]);
+            document.getElementById('picks-count-badge').textContent = '0';
+        }
+    } catch (e) {
+        console.error('Error loading picks:', e);
+        picksContent.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">📋</div>
+                <h3>No Picks for ${date}</h3>
+                <p>Click "Generate Picks" to create picks for this date.</p>
+            </div>
+        `;
+        currentPicks = [];
+        currentResults = [];
+        updateSummaryFromPicks([]);
+        document.getElementById('picks-count-badge').textContent = '0';
+    }
+}
+
+function loadDatePicks(date) {
+    document.getElementById('test-date').value = date;
+    switchTab('daily');
+    loadResults();
+}
+
+function renderPicks(picks) {
+    const picksContent = document.getElementById('picks-content');
+    const picksBadge = document.getElementById('picks-count-badge');
+    const underPicksContent = document.getElementById('under-picks-content');
+    const underPicksBadge = document.getElementById('under-picks-count-badge');
+    
+    // Separate OVER and UNDER picks
+    const overPicks = picks.filter(p => p.direction === 'OVER');
+    const allUnderPicks = picks.filter(p => p.direction === 'UNDER');
+    
+    // For daily testing, show ALL OVER picks (these are the Top Model Picks that are graded)
+    // Under picks are shown separately but NOT included in grade calculations
+    const topOverPicks = overPicks;  // All OVER picks are graded
+    const topUnderPicks = allUnderPicks;  // Under picks shown but not graded
+    
+    picksBadge.textContent = topOverPicks.length;
+    underPicksBadge.textContent = topUnderPicks.length;
+    
+    if (topOverPicks.length === 0) {
+        picksContent.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">📋</div>
+                <h3>No Picks Available</h3>
+                <p>No matchups found for this date. Add matchups first.</p>
+            </div>
+        `;
+    } else {
+        // Store picks globally for click handler access
+        window._topOverPicks = topOverPicks;
+        
+        picksContent.innerHTML = renderPicksTable(topOverPicks, '_topOverPicks');
+    }
+    
+    if (topUnderPicks.length === 0) {
+        underPicksContent.innerHTML = `
+            <div class="empty-state" style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.05), rgba(245, 158, 11, 0.05)); border: 1px solid rgba(245, 158, 11, 0.2);">
+                <div class="empty-state-icon">🔧</div>
+                <h3>UNDER Picks Model Being Updated</h3>
+                <p style="color: var(--text-muted); max-width: 450px; margin: 0 auto;">
+                    This feature is temporarily being updated. UNDER picks were causing decreased model accuracy 
+                    and are being refined in a separate model for improved reliability.
+                </p>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 1rem;">
+                    <strong>📊 Main Model (OVER picks)</strong> now focuses on our historically high-performing picks (65-75% accuracy).
+                </p>
+            </div>
+        `;
+    } else {
+        // Store under picks globally for click handler access
+        window._topUnderPicks = topUnderPicks;
+        
+        underPicksContent.innerHTML = renderPicksTable(topUnderPicks, '_topUnderPicks');
+    }
+}
+
+function renderPicksTable(picks, globalVarName) {
+    return `
+        <table class="picks-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Player</th>
+                    <th>Prop</th>
+                    <th>Direction</th>
+                    <th>Projection</th>
+                    <th>Confidence</th>
+                    <th>Result</th>
+                    <th>Actual</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${picks.map((pick, i) => {
+                    return `
+                    <tr onclick="showPickDetails(window.${globalVarName}[${i}])" style="cursor: pointer;">
+                        <td style="font-weight: 600; color: var(--text-muted);">${i + 1}</td>
+                        <td>
+                            <div class="player-cell">
+                                <span class="player-name">${pick.player}</span>
+                                <span class="player-team">${pick.team} vs ${pick.opponent}</span>
+                            </div>
+                        </td>
+                        <td><span class="stat-type">${pick.prop}</span></td>
+                        <td>
+                            <span class="prop-badge ${pick.direction.toLowerCase()}">
+                                ${pick.direction === 'OVER' ? '📈' : '📉'} ${pick.direction}
+                            </span>
+                        </td>
+                        <td><span class="projection-value">${pick.projection != null ? pick.projection.toFixed(1) : '--'}</span></td>
+                        <td>
+                            ${renderStarRating(pick.confidence_stars || getStarsFromScore(pick.confidence_score))}
+                        </td>
+                        <td>
+                            ${pick.hit !== null && pick.hit !== undefined ? `
+                                <span class="result-badge ${pick.hit ? 'hit' : 'miss'}">
+                                    ${pick.hit ? '✓ HIT' : '✗ MISS'}
+                                </span>
+                            ` : `
+                                <span class="result-badge pending">⏳ Pending</span>
+                            `}
+                        </td>
+                        <td>
+                            <span style="font-family: 'JetBrains Mono', monospace; font-weight: 600;">
+                                ${pick.actual != null ? pick.actual.toFixed(1) : '--'}
+                            </span>
+                        </td>
+                    </tr>
+                `}).join('')}
+            </tbody>
+        </table>
+    `;
+}
+
+function updateSummaryFromPicks(picks) {
+    // FIXED: Use ALL picks (OVER + UNDER) for summary stats
+    // Per Idea.txt: suggest the best picks in order, do not discriminate
+    const gradedPicks = picks;  // All picks participate in grading
+    
+    // Update total picks count
+    document.getElementById('total-picks').textContent = gradedPicks.length;
+    
+    // Calculate results from picks that have actual values
+    const graded = gradedPicks.filter(p => p.result !== null && p.result !== undefined);
+    const hits = graded.filter(p => p.hit === true || p.hit === 1).length;
+    const misses = graded.filter(p => p.hit === false || p.hit === 0).length;
+    const completed = hits + misses;
+    
+    if (completed > 0) {
+        const rate = (hits / completed * 100);
+        
+        document.getElementById('hits-count').textContent = hits;
+        document.getElementById('misses-count').textContent = misses;
+        document.getElementById('hit-rate').textContent = rate.toFixed(1) + '%';
+        document.getElementById('hit-rate').className = `summary-value ${rate >= 55 ? 'success' : rate >= 45 ? 'neutral' : 'danger'}`;
+    } else {
+        document.getElementById('hits-count').textContent = '--';
+        document.getElementById('misses-count').textContent = '--';
+        document.getElementById('hit-rate').textContent = '--%';
+        document.getElementById('hit-rate').className = 'summary-value';
+    }
+}
+
+// Legacy function for backward compatibility
+function updateSummary(picks, results) {
+    updateSummaryFromPicks(picks.length > 0 ? picks : results);
+}
+
+function calculateGradeFromPicks(picks) {
+    // FIXED: Use ALL picks (OVER + UNDER) for grade calculation
+    // Per Idea.txt: suggest the best picks in order, do not discriminate
+    const gradedPicks = picks;  // All picks participate in grading
+    
+    // Calculate grade from picks that have results
+    const graded = gradedPicks.filter(p => p.result !== null && p.result !== undefined);
+    const hits = graded.filter(p => p.hit === true || p.hit === 1).length;
+    const misses = graded.filter(p => p.hit === false || p.hit === 0).length;
+    const completed = hits + misses;
+    
+    if (completed === 0) return null;
+    
+    const hitRate = (hits / completed * 100);
+    
+    // Calculate by prop type
+    const ptsPicks = graded.filter(p => p.prop === 'PTS');
+    const ptsHits = ptsPicks.filter(p => p.hit === true || p.hit === 1).length;
+    const ptsAccuracy = ptsPicks.length > 0 ? (ptsHits / ptsPicks.length * 100) : 0;
+    
+    const rebPicks = graded.filter(p => p.prop === 'REB');
+    const rebHits = rebPicks.filter(p => p.hit === true || p.hit === 1).length;
+    const rebAccuracy = rebPicks.length > 0 ? (rebHits / rebPicks.length * 100) : 0;
+    
+    const astPicks = graded.filter(p => p.prop === 'AST');
+    const astHits = astPicks.filter(p => p.hit === true || p.hit === 1).length;
+    const astAccuracy = astPicks.length > 0 ? (astHits / astPicks.length * 100) : 0;
+    
+    const highConfPicks = graded.filter(p => p.confidence === 'HIGH');
+    const highConfHits = highConfPicks.filter(p => p.hit === true || p.hit === 1).length;
+    const highConfAccuracy = highConfPicks.length > 0 ? (highConfHits / highConfPicks.length * 100) : 0;
+    
+    // Calculate OVER and UNDER hit rates for transparency
+    const overPicks = graded.filter(p => p.direction === 'OVER');
+    const overHits = overPicks.filter(p => p.hit === true || p.hit === 1).length;
+    const overHitRate = overPicks.length > 0 ? (overHits / overPicks.length * 100) : 0;
+    
+    const underPicks = graded.filter(p => p.direction === 'UNDER');
+    const underHits = underPicks.filter(p => p.hit === true || p.hit === 1).length;
+    const underHitRate = underPicks.length > 0 ? (underHits / underPicks.length * 100) : 0;
+    
+    // Determine letter grade
+    let letter = 'F';
+    if (hitRate >= 65) letter = 'A';
+    else if (hitRate >= 58) letter = 'B';
+    else if (hitRate >= 52) letter = 'C';
+    else if (hitRate >= 45) letter = 'D';
+    
+    return {
+        letter: letter,
+        hit_rate: hitRate,
+        pts_accuracy: ptsAccuracy,
+        reb_accuracy: rebAccuracy,
+        ast_accuracy: astAccuracy,
+        high_conf_accuracy: highConfAccuracy,
+        over_hit_rate: overHitRate,
+        under_hit_rate: underHitRate
+    };
+}
+
+function updateGrade(grade) {
+    if (!grade) return;
+    
+    const gradeEl = document.getElementById('grade-letter');
+    gradeEl.textContent = grade.letter;
+    
+    // Update grade letter color based on grade
+    gradeEl.style.color = grade.letter === 'A' ? '#10b981' : 
+                          grade.letter === 'B' ? '#3b82f6' :
+                          grade.letter === 'C' ? '#f59e0b' :
+                          grade.letter === 'D' ? '#f97316' :
+                          grade.letter === 'PENDING' ? '#9ca3af' : '#ef4444';
+    
+    // If pending, show a smaller font for the text
+    if (grade.letter === 'PENDING') {
+        gradeEl.style.fontSize = '1.5rem';
+        gradeEl.textContent = '⏳';  // Show clock emoji instead
+    } else {
+        gradeEl.style.fontSize = '3.5rem';
+    }
+    
+    // Handle null values when games haven't been played yet
+    const formatAccuracy = (val) => val !== null && val !== undefined ? val.toFixed(1) + '%' : '--';
+    
+    document.getElementById('pts-accuracy').textContent = formatAccuracy(grade.pts_accuracy);
+    document.getElementById('reb-accuracy').textContent = formatAccuracy(grade.reb_accuracy);
+    document.getElementById('ast-accuracy').textContent = formatAccuracy(grade.ast_accuracy);
+    document.getElementById('high-conf-accuracy').textContent = formatAccuracy(grade.high_conf_accuracy);
+    
+    document.getElementById('pts-bar').style.width = (grade.pts_accuracy || 0) + '%';
+    document.getElementById('reb-bar').style.width = (grade.reb_accuracy || 0) + '%';
+    document.getElementById('ast-bar').style.width = (grade.ast_accuracy || 0) + '%';
+    document.getElementById('high-conf-bar').style.width = (grade.high_conf_accuracy || 0) + '%';
+    
+    // Set bar colors based on accuracy (use gray for pending)
+    const setBarClass = (id, accuracy) => {
+        const bar = document.getElementById(id);
+        if (accuracy === null || accuracy === undefined) {
+            bar.className = 'breakdown-bar-fill pending';
+        } else {
+            bar.className = 'breakdown-bar-fill ' + (accuracy >= 55 ? 'good' : accuracy >= 45 ? 'ok' : 'bad');
+        }
+    };
+    
+    setBarClass('pts-bar', grade.pts_accuracy);
+    setBarClass('reb-bar', grade.reb_accuracy);
+    setBarClass('ast-bar', grade.ast_accuracy);
+    setBarClass('high-conf-bar', grade.high_conf_accuracy);
+}
+
+function renderInsights(insights) {
+    const grid = document.getElementById('insights-grid');
+    
+    grid.innerHTML = insights.map(insight => `
+        <div class="insight-card">
+            <div class="insight-icon">${insight.icon}</div>
+            <div class="insight-title ${insight.type}">${insight.title}</div>
+            <div class="insight-text">${insight.text}</div>
+        </div>
+    `).join('');
+}
+
+function getDefaultInsights(picks) {
+    const ptsPicks = picks.filter(p => p.prop === 'PTS').length;
+    const rebPicks = picks.filter(p => p.prop === 'REB').length;
+    const astPicks = picks.filter(p => p.prop === 'AST').length;
+    const overPicks = picks.filter(p => p.direction === 'OVER').length;
+    const highConf = picks.filter(p => p.confidence === 'HIGH').length;
+    
+    return [
+        {
+            icon: '📊',
+            type: 'neutral',
+            title: 'Prop Distribution',
+            text: `Today's picks: ${ptsPicks} Points, ${rebPicks} Rebounds, ${astPicks} Assists props. ${overPicks} OVER vs ${picks.length - overPicks} UNDER recommendations.`
+        },
+        {
+            icon: '🎯',
+            type: 'neutral',
+            title: 'Confidence Levels',
+            text: `${highConf} high confidence picks out of ${picks.length}. Higher confidence picks typically have better defensive matchup advantages.`
+        },
+        {
+            icon: '💡',
+            type: 'neutral',
+            title: 'Testing Started',
+            text: `This is Day 1 of model testing. After games complete, click "Load Results" to compare predictions vs actual outcomes.`
+        }
+    ];
+}
+
+function analyzeResults(results) {
+    // Normalize hit values (can be true/false or 1/0)
+    const hits = results.filter(r => r.hit === true || r.hit === 1);
+    const misses = results.filter(r => r.hit === false || r.hit === 0);
+    
+    // Analyze by prop type
+    const ptsPicks = results.filter(r => r.prop === 'PTS' && (r.hit !== null && r.hit !== undefined));
+    const ptsHits = ptsPicks.filter(r => r.hit === true || r.hit === 1).length;
+    
+    const rebPicks = results.filter(r => r.prop === 'REB' && (r.hit !== null && r.hit !== undefined));
+    const rebHits = rebPicks.filter(r => r.hit === true || r.hit === 1).length;
+    
+    const highConfPicks = results.filter(r => r.confidence === 'HIGH' && (r.hit !== null && r.hit !== undefined));
+    const highConfHits = highConfPicks.filter(r => r.hit === true || r.hit === 1).length;
+    
+    const insights = [];
+    
+    // Best performing stat
+    const ptsRate = ptsPicks.length > 0 ? ptsHits / ptsPicks.length : 0;
+    const rebRate = rebPicks.length > 0 ? rebHits / rebPicks.length : 0;
+    
+    if (ptsRate > rebRate && ptsRate > 0.5) {
+        insights.push({
+            icon: '✅',
+            type: 'positive',
+            title: 'Points Props Strong',
+            text: `Points props hit at ${(ptsRate * 100).toFixed(0)}% (${ptsHits}/${ptsPicks.length}). The model shows strength in predicting scoring.`
+        });
+    }
+    
+    if (highConfPicks.length > 0) {
+        const highConfRate = highConfHits / highConfPicks.length;
+        insights.push({
+            icon: highConfRate >= 0.6 ? '🎯' : '⚠️',
+            type: highConfRate >= 0.6 ? 'positive' : 'negative',
+            title: 'High Confidence Performance',
+            text: `High confidence picks: ${(highConfRate * 100).toFixed(0)}% hit rate (${highConfHits}/${highConfPicks.length}). ${highConfRate >= 0.6 ? 'Confidence tiers are calibrated well.' : 'May need to adjust confidence thresholds.'}`
+        });
+    }
+    
+    // Check for patterns in misses
+    const overMisses = misses.filter(m => m.direction === 'OVER');
+    const underMisses = misses.filter(m => m.direction === 'UNDER');
+    
+    if (overMisses.length > underMisses.length * 2) {
+        insights.push({
+            icon: '📉',
+            type: 'negative',
+            title: 'Over Bias Detected',
+            text: `${overMisses.length} OVER misses vs ${underMisses.length} UNDER misses. Model may be overestimating player production.`
+        });
+    } else if (underMisses.length > overMisses.length * 2) {
+        insights.push({
+            icon: '📈',
+            type: 'negative',
+            title: 'Under Bias Detected',
+            text: `${underMisses.length} UNDER misses vs ${overMisses.length} OVER misses. Model may be underestimating player production.`
+        });
+    }
+    
+    // Suggestions
+    insights.push({
+        icon: '💡',
+        type: 'neutral',
+        title: 'Improvement Suggestions',
+        text: `Consider: 1) Weighting recent games more heavily, 2) Factoring in rest days more, 3) Adjusting for home/away splits.`
+    });
+    
+    return insights;
+}
+
+// Calendar Functions
+function changeCalendarMonth(delta) {
+    calendarDate.setMonth(calendarDate.getMonth() + delta);
+    renderCalendar();
+}
+
+async function loadCalendarData() {
+    try {
+        const response = await fetchAPI('/api/backtesting/performance');
+        if (response.daily) {
+            performanceData = {};
+            response.daily.forEach(d => {
+                performanceData[d.date] = d;
+            });
+        }
+    } catch (e) {
+        console.error("Failed to load calendar data", e);
+    }
+    // Always render calendar, even if no data or error
+    renderCalendar();
+}
+
+function renderHistoryDatesList() {
+    const container = document.getElementById('history-dates-list');
+    if (!container) return;
+    
+    // Get dates from performanceData, sorted in descending order (newest first)
+    const dates = Object.keys(performanceData).sort((a, b) => b.localeCompare(a));
+    
+    if (dates.length === 0) {
+        container.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">📅</div>
+                <h3>No History Yet</h3>
+                <p>Generate picks and load results to see your pick history.</p>
+            </div>
+        `;
+        return;
+    }
+    
+    const tableHTML = `
+        <table class="history-dates-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Grade</th>
+                    <th>Picks</th>
+                    <th>Hit Rate</th>
+                    <th>Hits/Misses</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${dates.map(dateStr => {
+                    const data = performanceData[dateStr];
+                    const hitRate = data.hit_rate ? data.hit_rate.toFixed(1) : '--';
+                    const grade = data.grade || '-';
+                    const isSelected = dateStr === selectedHistoryDate;
+                    const gradeClass = grade.toLowerCase();
+                    
+                    return `
+                        <tr onclick="loadPickHistory('${dateStr}')" class="${isSelected ? 'selected' : ''}">
+                            <td class="date-row-date">${dateStr}</td>
+                            <td><span class="grade-badge ${gradeClass}">${grade}</span></td>
+                            <td>${data.total_picks || 0}</td>
+                            <td>
+                                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                    <span style="font-family: 'JetBrains Mono', monospace; font-weight: 600;">
+                                        ${hitRate}%
+                                    </span>
+                                    <div class="mini-bar">
+                                        <div class="mini-bar-fill ${data.hit_rate >= 55 ? 'good' : data.hit_rate >= 45 ? 'ok' : 'bad'}" 
+                                             style="width: ${data.hit_rate || 0}%"></div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <span style="color: #10b981; font-weight: 600;">${data.hits || 0}</span> / 
+                                <span style="color: #ef4444; font-weight: 600;">${data.misses || 0}</span>
+                            </td>
+                        </tr>
+                    `;
+                }).join('')}
+            </tbody>
+        </table>
+    `;
+    
+    container.innerHTML = tableHTML;
+}
+
+function renderCalendar() {
+    const year = calendarDate.getFullYear();
+    const month = calendarDate.getMonth();
+    
+    document.getElementById('calendar-month-year').textContent = 
+        new Date(year, month).toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+        
+    const firstDay = new Date(year, month, 1);
+    const lastDay = new Date(year, month + 1, 0);
+    const daysInMonth = lastDay.getDate();
+    const startDay = firstDay.getDay(); // 0 = Sunday
+    
+    const grid = document.getElementById('testing-calendar');
+    grid.innerHTML = '';
+    
+    // Empty cells for days before start of month
+    for (let i = 0; i < startDay; i++) {
+        const emptyCell = document.createElement('div');
+        emptyCell.className = 'calendar-day empty';
+        grid.appendChild(emptyCell);
+    }
+    
+    const today = new Date().toISOString().split('T')[0];
+    const selectedDate = document.getElementById('test-date').value;
+    
+    for (let day = 1; day <= daysInMonth; day++) {
+        const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        const data = performanceData[dateStr];
+        
+        const cell = document.createElement('div');
+        cell.className = 'calendar-day';
+        if (dateStr === selectedDate) cell.classList.add('active');
+        if (dateStr === today) cell.style.boxShadow = '0 0 0 2px var(--accent)';
+        
+        let content = `<div class="day-number">${day}</div>`;
+        
+        if (data && data.hit_rate != null) {
+            cell.classList.add('has-data');
+            if (data.hit_rate >= 55) cell.classList.add('good');
+            else if (data.hit_rate >= 45) cell.classList.add('neutral');
+            else cell.classList.add('bad');
+            
+            content += `<div class="day-rate">${data.hit_rate.toFixed(0)}%</div>`;
+        }
+        
+        cell.innerHTML = content;
+        cell.onclick = () => {
+            document.getElementById('test-date').value = dateStr;
+            loadSavedPicksForDate(dateStr);
+            renderCalendar(); // Update active state
+        };
+        
+        grid.appendChild(cell);
+    }
+}
+
+// History Calendar Functions
+function changeHistoryCalendarMonth(delta) {
+    historyCalendarDate.setMonth(historyCalendarDate.getMonth() + delta);
+    renderHistoryCalendar();
+}
+
+function renderHistoryCalendar() {
+    const year = historyCalendarDate.getFullYear();
+    const month = historyCalendarDate.getMonth();
+    
+    document.getElementById('history-calendar-month-year').textContent = 
+        new Date(year, month).toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+        
+    const firstDay = new Date(year, month, 1);
+    const lastDay = new Date(year, month + 1, 0);
+    const daysInMonth = lastDay.getDate();
+    const startDay = firstDay.getDay(); // 0 = Sunday
+    
+    const grid = document.getElementById('history-calendar');
+    grid.innerHTML = '';
+    
+    // Empty cells for days before start of month
+    for (let i = 0; i < startDay; i++) {
+        const emptyCell = document.createElement('div');
+        emptyCell.className = 'calendar-day empty';
+        grid.appendChild(emptyCell);
+    }
+    
+    const today = new Date().toISOString().split('T')[0];
+    const selectedDate = document.getElementById('history-date').value;
+    
+    for (let day = 1; day <= daysInMonth; day++) {
+        const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        const data = performanceData[dateStr];
+        
+        const cell = document.createElement('div');
+        cell.className = 'calendar-day';
+        if (dateStr === selectedDate) cell.classList.add('active');
+        if (dateStr === today) cell.style.boxShadow = '0 0 0 2px var(--accent)';
+        
+        let content = `<div class="day-number">${day}</div>`;
+        
+        if (data && data.hit_rate != null) {
+            cell.classList.add('has-data');
+            if (data.hit_rate >= 55) cell.classList.add('good');
+            else if (data.hit_rate >= 45) cell.classList.add('neutral');
+            else cell.classList.add('bad');
+            
+            content += `<div class="day-rate">${data.hit_rate.toFixed(0)}%</div>`;
+        }
+        
+        cell.innerHTML = content;
+        cell.onclick = () => {
+            document.getElementById('history-date').value = dateStr;
+            loadPickHistory(dateStr);
+            renderHistoryCalendar(); // Update active state
+        };
+        
+        grid.appendChild(cell);
+    }
+}
+
+// Pick Details Modal
+function showPickDetails(play) {
+    const modal = document.getElementById('pick-details-modal');
+    const content = document.getElementById('pick-details-content');
+    
+    // Ensure play object has necessary fields (might be different structure from backtesting vs matchups)
+    const adjustmentPct = play.score ? (play.score - play.projection) : 0; // Approximate if not available
+    
+    content.innerHTML = `
+        <div class="pick-details-header">
+            <div class="pick-player-large">${play.player}</div>
+            <div class="pick-meta-large">${play.team} vs ${play.opponent} • ${play.prop}</div>
+            <div class="pick-direction-large ${play.direction === 'OVER' ? 'over' : 'under'}">
+                ${play.direction}
+            </div>
+        </div>
+        
+        <div class="pick-stats-grid">
+            <div class="pick-stat-box">
+                <div class="label">Projection</div>
+                <div class="value">${play.projection.toFixed(1)}</div>
+            </div>
+            <div class="pick-stat-box">
+                <div class="label">Confidence</div>
+                <div class="value">${play.confidence}</div>
+            </div>
+            <div class="pick-stat-box">
+                <div class="label">Score</div>
+                <div class="value">${play.score ? play.score.toFixed(1) : '--'}</div>
+            </div>
+            <div class="pick-stat-box">
+                <div class="label">Result</div>
+                <div class="value ${play.hit ? 'positive' : (play.hit === false ? 'negative' : '')}">
+                    ${play.hit ? 'HIT' : (play.hit === false ? 'MISS' : 'PENDING')}
+                </div>
+            </div>
+        </div>
+        
+        <div class="pick-analysis-section">
+            <h3>📝 Analysis & Reasoning</h3>
+            ${(play.reasons && play.reasons.length > 0) ? `
+                <div class="reasons-list">
+                    ${play.reasons.map(r => `<div class="reason-item">✓ ${r}</div>`).join('')}
+                </div>
+            ` : '<p class="no-data">No specific reasoning available.</p>'}
+        </div>
+        
+        ${play.actual !== null && play.actual !== undefined ? `
+            <div class="pick-analysis-section">
+                <h3>📊 Actual Performance</h3>
+                <div class="pick-stat-box" style="width: 100px; margin: 0 auto;">
+                    <div class="label">Actual</div>
+                    <div class="value">${play.actual}</div>
+                </div>
+            </div>
+        ` : ''}
+    `;
+    
+    modal.classList.remove('hidden');
+}
+
+function hidePickDetailsModal() {
+    document.getElementById('pick-details-modal').classList.add('hidden');
+}
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', () => {
+    const testDateEl = document.getElementById('test-date');
+    // If template didn't provide a date, default to today.
+    if (!testDateEl.value) {
+        testDateEl.value = new Date().toISOString().split('T')[0];
+    }
+
+    // Render calendar immediately (even before data loads)
+    renderCalendar();
+
+    // Load any saved picks for the initial date.
+    loadSavedPicksForDate(testDateEl.value);
+
+    // When changing the date, load any saved picks for that day.
+    testDateEl.addEventListener('change', (e) => {
+        loadSavedPicksForDate(e.target.value);
+    });
+
+    // Load calendar data (will re-render calendar with performance data)
+    loadCalendarData();
+});
+</script>
+{% endblock %}
+

@@ -1,0 +1,98 @@
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+40:07	9	23	39.1	5	13	38.5	7	7	100	1	7	8	3	1	1	2	4	30	-3
+undefined Headshot
+Miles Bridges
+F
+41:00	4	16	25.0	0	5	0.0	6	6	100	3	9	12	7	0	1	4	2	14	-9
+undefined Headshot
+Ryan Kalkbrenner
+C
+27:10	5	7	71.4	0	1	0.0	0	0	0.0	4	1	5	0	0	4	3	1	10	-3
+undefined Headshot
+Sion James
+G
+32:56	4	8	50.0	1	5	20.0	1	1	100	0	2	2	1	0	0	3	2	10	-22
+undefined Headshot
+Tre Mann
+G
+35:23	7	24	29.2	2	8	25.0	4	4	100	1	8	9	7	1	0	4	4	20	0
+undefined Headshot
+Moussa Diabaté
+21:33	4	6	66.7	0	0	0.0	2	5	40.0	7	4	11	0	0	3	1	2	10	-17
+undefined Headshot
+Liam McNeeley
+19:18	2	6	33.3	2	5	40.0	2	2	100	1	3	4	1	1	0	0	2	8	2
+undefined Headshot
+Pat Connaughton
+9:56	2	4	50.0	0	2	0.0	2	2	100	2	3	5	0	0	0	1	1	6	-20
+undefined Headshot
+KJ Simpson
+12:37	0	3	0.0	0	0	0.0	0	0	0.0	0	1	1	3	1	0	0	0	0	-18
+undefined Headshot
+Josh Green
+DND - Injury/Illness
+undefined Headshot
+Mason Plumlee
+DNP - Coach's Decision
+undefined Headshot
+Grant Williams
+DND - Injury/Illness
+TOTALS
+ 	37	97	38.1	10	39	25.6	24	27	88.9	19	38	57	22	4	9	18	18	108	-18
+Miami Heat
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Pelle Larsson
+F
+26:48	8	11	72.7	1	3	33.3	2	3	66.7	0	4	4	2	1	0	0	3	19	8
+undefined Headshot
+Andrew Wiggins
+F
+36:28	9	16	56.3	4	6	66.7	0	0	0.0	0	4	4	4	1	1	2	1	22	21
+undefined Headshot
+Kel'el Ware
+C
+29:58	3	13	23.1	1	5	20.0	0	0	0.0	2	4	6	0	1	3	0	2	7	-3
+undefined Headshot
+Norman Powell
+G
+27:25	10	20	50.0	2	5	40.0	3	3	100	0	4	4	3	0	0	2	2	25	6
+undefined Headshot
+Davion Mitchell
+G
+32:23	4	7	57.1	1	3	33.3	0	0	0.0	1	4	5	5	3	0	1	4	9	-3
+undefined Headshot
+Jaime Jaquez Jr.
+32:40	8	15	53.3	1	1	100	1	2	50.0	3	5	8	9	0	2	2	2	18	18
+undefined Headshot
+Nikola Jović
+19:27	4	6	66.7	0	0	0.0	2	2	100	0	4	4	3	3	1	1	2	10	15
+undefined Headshot
+Dru Smith
+15:37	2	5	40.0	1	2	50.0	0	0	0.0	0	0	0	3	1	0	0	4	5	21
+undefined Headshot
+Simone Fontecchio
+19:14	3	6	50.0	1	3	33.3	4	4	100	0	2	2	2	0	0	0	1	11	7
+undefined Headshot
+Vladislav Goldin
+DNP - Coach's Decision
+undefined Headshot
+Kasparas Jakučionis
+DNP - Coach's Decision
+undefined Headshot
+Keshad Johnson
+DNP - Coach's Decision
+TOTALS
+ 	51	99	51.5	12	28	42.9	12	14	85.7	6	31	37	31	10	7	8	21	126	18
+Inactive Players
+CHA: Tidjane Salaun, Collin Sexton, LaMelo Ball, Brandon Miller, Drew Peterson, Antonio Reeves
+
+MIA: Tyler Herro, Terry Rozier, Bam Adebayo, Myron Gardner, Jahmir Young

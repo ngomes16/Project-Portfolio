@@ -1,0 +1,98 @@
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Mikal Bridges
+F
+35:39	8	11	72.7	0	1	0.0	2	2	100	1	4	5	3	3	2	2	2	18	23
+undefined Headshot
+Josh Hart
+F
+33:45	8	13	61.5	4	6	66.7	2	2	100	2	6	8	7	3	0	2	5	22	20
+undefined Headshot
+Karl-Anthony Towns
+C
+32:22	6	13	46.2	0	3	0.0	7	7	100	4	6	10	3	0	0	3	2	19	6
+undefined Headshot
+Miles McBride
+G
+39:06	6	8	75.0	5	5	100	2	2	100	0	3	3	3	2	0	2	3	19	27
+undefined Headshot
+Jalen Brunson
+G
+33:58	14	28	50.0	2	6	33.3	3	5	60.0	0	2	2	3	0	0	3	2	33	16
+undefined Headshot
+Guerschon Yabusele
+12:08	0	2	0.0	0	1	0.0	0	0	0.0	0	4	4	0	0	0	1	2	0	7
+undefined Headshot
+Jordan Clarkson
+14:00	4	7	57.1	0	1	0.0	0	0	0.0	1	1	2	0	1	0	0	5	8	2
+undefined Headshot
+Mitchell Robinson
+17:12	0	0	0.0	0	0	0.0	0	0	0.0	0	5	5	1	3	1	0	1	0	18
+undefined Headshot
+Tyler Kolek
+15:23	3	4	75.0	1	1	100	0	0	0.0	0	0	0	3	0	0	1	0	7	15
+undefined Headshot
+Ariel Hukporti
+2:17	0	1	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	1	0	0	0	2
+undefined Headshot
+Pacôme Dadiet
+2:05	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	2
+undefined Headshot
+Mohamed Diawara
+2:05	1	1	100	1	1	100	0	0	0.0	0	0	0	2	0	0	0	0	3	2
+TOTALS
+ 	50	88	56.8	13	25	52.0	16	18	88.9	8	33	41	26	12	4	14	22	129	28
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+29:34	2	12	16.7	0	7	0.0	2	3	66.7	0	4	4	2	0	0	2	0	6	-12
+undefined Headshot
+Miles Bridges
+F
+33:49	6	14	42.9	3	6	50.0	2	5	40.0	1	3	4	1	0	0	3	1	17	-25
+undefined Headshot
+Ryan Kalkbrenner
+C
+27:49	4	5	80.0	0	0	0.0	0	1	0.0	3	3	6	0	1	0	1	0	8	-23
+undefined Headshot
+Brandon Miller
+G
+27:46	5	12	41.7	4	9	44.4	4	4	100	0	4	4	3	2	0	4	2	18	-14
+undefined Headshot
+LaMelo Ball
+G
+26:49	4	14	28.6	2	7	28.6	1	1	100	2	4	6	4	1	0	4	5	11	-22
+undefined Headshot
+Moussa Diabaté
+15:24	2	2	100	0	0	0.0	0	0	0.0	1	3	4	0	0	2	1	4	4	-4
+undefined Headshot
+Tre Mann
+20:50	6	13	46.2	3	7	42.9	0	0	0.0	1	2	3	3	0	0	2	2	15	-18
+undefined Headshot
+Collin Sexton
+17:26	5	6	83.3	0	1	0.0	5	6	83.3	0	1	1	2	0	0	0	0	15	-4
+undefined Headshot
+Liam McNeeley
+15:02	1	3	33.3	1	2	50.0	0	0	0.0	0	1	1	0	0	0	0	1	3	-6
+undefined Headshot
+Sion James
+25:31	0	4	0.0	0	4	0.0	4	4	100	1	1	2	0	1	1	0	1	4	-12
+undefined Headshot
+Mason Plumlee
+DNP - Coach's Decision
+undefined Headshot
+Grant Williams
+DND - Injury/Illness
+TOTALS
+ 	35	85	41.2	13	43	30.2	18	24	75.0	9	26	35	15	5	3	17	16	101	-28
+Inactive Players
+NYK: Trey Jemison III, Kevin McCullar Jr., Tosan Evbuomwan, OG Anunoby, Landry Shamet
+
+CHA: Pat Connaughton, Josh Green, Drew Peterson, Antonio Reeves, Tidjane Salaun, KJ Simpson

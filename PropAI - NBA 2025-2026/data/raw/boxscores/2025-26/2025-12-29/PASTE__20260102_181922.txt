@@ -1,0 +1,107 @@
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Johnny Furphy
+F
+20:27	4	5	80.0	1	2	50.0	0	1	0.0	0	4	4	1	1	0	0	3	9	-12
+undefined Headshot
+Pascal Siakam
+F
+31:13	8	16	50.0	1	3	33.3	6	10	60.0	1	3	4	4	1	0	2	0	23	-15
+undefined Headshot
+Jay Huff
+C
+18:35	3	8	37.5	2	4	50.0	0	0	0.0	1	2	3	1	1	1	1	4	8	-29
+undefined Headshot
+Bennedict Mathurin
+G
+25:39	5	11	45.5	3	6	50.0	1	1	100	1	2	3	4	0	0	0	3	14	-13
+undefined Headshot
+Andrew Nembhard
+G
+29:18	4	13	30.8	2	5	40.0	1	2	50.0	0	1	1	2	3	0	1	2	11	-13
+undefined Headshot
+Tony Bradley
+10:43	0	1	0.0	0	0	0.0	0	0	0.0	1	2	3	0	0	0	0	2	0	4
+undefined Headshot
+Jarace Walker
+23:35	5	7	71.4	2	3	66.7	0	0	0.0	0	2	2	3	1	0	1	0	12	-3
+undefined Headshot
+Aaron Nesmith
+23:40	5	8	62.5	4	6	66.7	0	0	0.0	1	2	3	3	0	1	1	1	14	-10
+undefined Headshot
+T.J. McConnell
+16:03	2	7	28.6	0	0	0.0	2	2	100	1	0	1	4	1	0	1	1	6	-13
+undefined Headshot
+Micah Potter
+12:11	1	3	33.3	0	1	0.0	1	1	100	1	2	3	6	0	1	1	4	3	16
+undefined Headshot
+Kam Jones
+17:30	2	4	50.0	0	1	0.0	0	0	0.0	0	1	1	1	2	0	0	1	4	11
+undefined Headshot
+Quenton Jackson
+3:42	2	2	100	1	1	100	2	2	100	0	0	0	0	1	0	1	0	7	14
+undefined Headshot
+Taelon Peter
+3:42	2	2	100	2	2	100	0	1	0.0	0	1	1	0	1	0	0	0	6	14
+undefined Headshot
+Ethan Thompson
+3:42	1	1	100	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	1	2	14
+TOTALS
+ 	44	88	50.0	18	34	52.9	13	20	65.0	7	22	29	30	12	3	9	22	119	-7
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Durant
+F
+33:41	13	20	65.0	2	6	33.3	2	3	66.7	0	6	6	5	0	1	3	0	30	14
+undefined Headshot
+Jabari Smith Jr.
+F
+33:52	8	16	50.0	3	7	42.9	2	2	100	2	8	10	2	0	3	3	3	21	10
+undefined Headshot
+Steven Adams
+C
+22:17	3	4	75.0	0	0	0.0	2	6	33.3	3	2	5	0	0	0	0	2	8	17
+undefined Headshot
+Tari Eason
+G
+28:39	5	8	62.5	1	3	33.3	2	2	100	3	5	8	1	1	1	2	3	13	9
+undefined Headshot
+Amen Thompson
+G
+37:23	6	9	66.7	0	1	0.0	8	8	100	4	4	8	7	0	1	3	0	20	10
+undefined Headshot
+Reed Sheppard
+24:15	6	12	50.0	1	5	20.0	0	0	0.0	0	1	1	3	2	0	2	3	13	12
+undefined Headshot
+Dorian Finney-Smith
+16:17	2	3	66.7	2	3	66.7	0	0	0.0	0	2	2	0	0	0	1	3	6	8
+undefined Headshot
+Clint Capela
+13:20	3	4	75.0	0	0	0.0	0	1	0.0	2	5	7	1	0	0	0	1	6	2
+undefined Headshot
+Josh Okogie
+12:51	1	2	50.0	1	1	100	0	0	0.0	0	3	3	0	0	0	0	1	3	-4
+undefined Headshot
+Jae'Sean Tate
+8:53	1	3	33.3	0	1	0.0	0	0	0.0	0	0	0	1	0	0	0	0	2	-13
+undefined Headshot
+Aaron Holiday
+3:42	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-14
+undefined Headshot
+Jeff Green
+2:26	1	1	100	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	2	-8
+undefined Headshot
+JD Davison
+2:26	0	0	0.0	0	0	0.0	2	2	100	0	0	0	1	1	0	1	1	2	-8
+TOTALS
+ 	49	83	59.0	10	27	37.0	18	24	75.0	14	36	50	21	4	6	16	17	126	7
+Inactive Players
+IND: Obi Toppin, Tyrese Haliburton, Isaiah Jackson, Ben Sheppard
+
+HOU: Tyler Smith, Isaiah Crawford, Fred VanVleet, Alperen Sengun

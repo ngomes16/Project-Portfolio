@@ -1,0 +1,98 @@
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+33:33	7	14	50.0	0	0	0.0	0	0	0.0	0	6	6	4	3	1	1	3	14	18
+undefined Headshot
+Isaiah Stewart
+F
+8:52	2	2	100	0	0	0.0	0	0	0.0	0	3	3	1	0	0	1	1	4	-5
+undefined Headshot
+Jalen Duren
+C
+30:09	11	14	78.6	0	0	0.0	8	8	100	2	9	11	0	3	0	1	4	30	8
+undefined Headshot
+Duncan Robinson
+G
+31:26	3	6	50.0	1	4	25.0	0	0	0.0	0	1	1	8	2	0	1	2	7	11
+undefined Headshot
+Cade Cunningham
+G
+32:44	13	18	72.2	2	6	33.3	6	6	100	0	1	1	10	1	0	4	3	34	13
+undefined Headshot
+Ronald Holland II
+24:59	2	6	33.3	1	3	33.3	0	0	0.0	1	4	5	1	0	0	3	0	5	27
+undefined Headshot
+Bobi Klintman
+14:48	2	6	33.3	0	3	0.0	0	2	0.0	2	3	5	1	0	0	1	2	4	8
+undefined Headshot
+Caris LeVert
+20:20	3	6	50.0	1	4	25.0	3	4	75.0	1	2	3	4	1	0	1	0	10	8
+undefined Headshot
+Paul Reed
+15:08	3	3	100	0	0	0.0	0	2	0.0	4	2	6	2	2	0	0	2	6	8
+undefined Headshot
+Javonte Green
+19:39	2	5	40.0	1	3	33.3	3	4	75.0	1	2	3	1	1	0	0	2	8	2
+undefined Headshot
+Daniss Jenkins
+5:20	1	3	33.3	0	1	0.0	1	4	25.0	0	1	1	0	1	0	0	0	3	-5
+undefined Headshot
+Chaz Lanier
+3:02	0	2	0.0	0	2	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-3
+TOTALS
+ 	49	85	57.6	6	26	23.1	21	30	70.0	11	35	46	32	14	1	13	19	125	18
+Brooklyn Nets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Michael Porter Jr.
+F
+31:44	8	17	47.1	5	10	50.0	7	7	100	1	4	5	2	1	0	4	1	28	-11
+undefined Headshot
+Noah Clowney
+F
+30:42	5	13	38.5	4	8	50.0	5	6	83.3	1	0	1	2	1	0	1	2	19	-4
+undefined Headshot
+Nic Claxton
+C
+30:43	6	8	75.0	0	0	0.0	5	6	83.3	3	5	8	2	1	1	2	4	17	-10
+undefined Headshot
+Terance Mann
+G
+21:47	1	3	33.3	1	2	50.0	0	0	0.0	0	0	0	3	0	0	1	3	3	-12
+undefined Headshot
+Egor Dëmin
+G
+23:03	3	8	37.5	2	5	40.0	0	0	0.0	0	3	3	7	1	0	1	3	8	-9
+undefined Headshot
+Ziaire Williams
+16:58	1	6	16.7	1	6	16.7	3	3	100	0	2	2	1	0	0	1	1	6	-16
+undefined Headshot
+Tyrese Martin
+19:22	1	7	14.3	0	5	0.0	0	0	0.0	1	0	1	3	1	0	2	1	2	-13
+undefined Headshot
+Day'Ron Sharpe
+17:17	2	3	66.7	1	2	50.0	2	4	50.0	0	4	4	3	0	0	3	4	7	-8
+undefined Headshot
+Drake Powell
+27:08	3	7	42.9	0	3	0.0	0	0	0.0	2	2	4	2	0	0	3	2	6	-17
+undefined Headshot
+Jalen Wilson
+10:36	3	5	60.0	3	4	75.0	0	0	0.0	0	1	1	1	0	0	1	0	9	0
+undefined Headshot
+Tyson Etienne
+5:20	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	5
+undefined Headshot
+E.J. Liddell
+5:20	1	2	50.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	2	2	5
+TOTALS
+ 	34	80	42.5	17	46	37.0	22	26	84.6	8	22	30	26	5	1	19	24	107	-18
+Inactive Players
+DET: Tobias Harris, Jaden Ivey, Marcus Sasser, Colby Jones, Isaac Jones, Tolu Smith
+
+BKN: Haywood Highsmith, Cam Thomas, Nolan Traore, Danny Wolf, Ben Saraf

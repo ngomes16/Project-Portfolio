@@ -1,0 +1,98 @@
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+30:49	6	11	54.5	5	9	55.6	3	3	100	0	1	1	2	0	0	3	2	20	-19
+undefined Headshot
+Miles Bridges
+F
+29:33	6	14	42.9	0	3	0.0	5	7	71.4	2	4	6	4	0	1	1	0	17	-11
+undefined Headshot
+Mason Plumlee
+C
+10:00	2	4	50.0	0	0	0.0	1	1	100	2	3	5	0	0	0	3	2	5	-10
+undefined Headshot
+Brandon Miller
+G
+26:44	8	13	61.5	2	4	50.0	2	3	66.7	0	1	1	3	2	1	3	3	20	-18
+undefined Headshot
+LaMelo Ball
+G
+24:23	8	16	50.0	6	10	60.0	1	1	100	0	4	4	9	0	0	3	1	23	-7
+undefined Headshot
+Sion James
+20:43	2	5	40.0	0	2	0.0	3	4	75.0	0	1	1	3	0	0	1	2	7	-6
+undefined Headshot
+Moussa Diabaté
+28:24	2	6	33.3	0	0	0.0	1	2	50.0	6	8	14	2	6	0	3	4	5	8
+undefined Headshot
+Josh Green
+19:31	3	4	75.0	3	4	75.0	1	2	50.0	1	0	1	1	2	0	1	1	10	3
+undefined Headshot
+Tre Mann
+17:20	5	13	38.5	3	5	60.0	0	0	0.0	4	1	5	3	0	1	1	1	13	12
+undefined Headshot
+Tidjane Salaün
+21:29	1	4	25.0	0	2	0.0	0	0	0.0	0	3	3	1	0	0	0	2	2	-11
+undefined Headshot
+Liam McNeeley
+5:33	2	3	66.7	1	2	50.0	2	2	100	1	0	1	1	0	0	0	0	7	12
+undefined Headshot
+Pat Connaughton
+5:33	1	1	100	1	1	100	0	0	0.0	1	1	2	0	0	0	0	0	3	12
+TOTALS
+ 	46	94	48.9	21	42	50.0	19	25	76.0	17	27	44	29	10	3	19	18	132	-7
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylon Tyson
+F
+20:03	0	6	0.0	0	1	0.0	0	0	0.0	0	1	1	3	3	0	2	1	0	-11
+undefined Headshot
+Dean Wade
+F
+27:53	4	7	57.1	4	7	57.1	2	2	100	0	7	7	2	0	0	0	0	14	18
+undefined Headshot
+Jarrett Allen
+C
+19:48	4	4	100	0	0	0.0	4	4	100	1	4	5	2	1	2	2	4	12	4
+undefined Headshot
+Donovan Mitchell
+G
+28:43	10	18	55.6	6	11	54.5	4	4	100	1	3	4	5	0	0	3	5	30	10
+undefined Headshot
+Darius Garland
+G
+30:24	9	15	60.0	5	6	83.3	4	4	100	2	2	4	10	2	0	3	4	27	13
+undefined Headshot
+Sam Merrill
+25:56	2	7	28.6	0	4	0.0	0	0	0.0	0	1	1	5	1	0	0	0	4	6
+undefined Headshot
+De'Andre Hunter
+25:40	9	13	69.2	4	5	80.0	5	5	100	1	4	5	1	1	0	2	3	27	9
+undefined Headshot
+Lonzo Ball
+23:49	2	5	40.0	2	4	50.0	0	0	0.0	0	2	2	7	1	0	1	1	6	11
+undefined Headshot
+Thomas Bryant
+19:39	4	5	80.0	2	3	66.7	0	0	0.0	0	1	1	1	0	0	0	1	10	-13
+undefined Headshot
+Nae'Qwan Tomlin
+12:44	2	4	50.0	1	2	50.0	0	0	0.0	0	0	0	0	0	0	0	0	5	-1
+undefined Headshot
+Craig Porter Jr.
+2:55	1	1	100	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	2	-7
+undefined Headshot
+Tyrese Proctor
+2:26	1	2	50.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	2	-4
+TOTALS
+ 	48	87	55.2	24	44	54.5	19	19	100	5	25	30	36	9	2	13	20	139	7
+Inactive Players
+CHA: Ryan Kalkbrenner, Drew Peterson, Antonio Reeves, KJ Simpson, Grant Williams, Collin Sexton
+
+CLE: Larry Nance Jr., Max Strus, Chris Livingston, Evan Mobley, Luke Travers

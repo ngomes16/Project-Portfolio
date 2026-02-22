@@ -1,0 +1,104 @@
+Philadelphia 76ers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Paul George
+F
+33:14	8	21	38.1	0	7	0.0	2	2	100	5	4	9	3	3	2	3	3	18	9
+undefined Headshot
+Dominick Barlow
+F
+24:19	5	9	55.6	0	1	0.0	1	2	50.0	4	5	9	0	0	0	0	3	11	-5
+undefined Headshot
+Joel Embiid
+C
+31:23	7	17	41.2	0	3	0.0	8	9	88.9	3	6	9	3	1	1	4	2	22	4
+undefined Headshot
+VJ Edgecombe
+G
+39:32	3	8	37.5	0	3	0.0	0	0	0.0	2	7	9	7	2	0	1	3	6	7
+undefined Headshot
+Tyrese Maxey
+G
+37:52	10	22	45.5	3	8	37.5	6	6	100	0	1	1	1	3	0	1	0	29	7
+undefined Headshot
+Andre Drummond
+16:37	3	7	42.9	0	0	0.0	1	2	50.0	4	2	6	0	1	1	0	3	7	8
+undefined Headshot
+Quentin Grimes
+28:34	2	5	40.0	1	4	25.0	1	1	100	1	0	1	3	1	1	1	2	6	11
+undefined Headshot
+Kelly Oubre Jr.
+14:33	0	5	0.0	0	2	0.0	0	0	0.0	1	5	6	0	0	1	1	2	0	9
+undefined Headshot
+Jared McCain
+4:32	1	1	100	0	0	0.0	0	0	0.0	0	1	1	1	0	0	1	1	2	1
+undefined Headshot
+Jabari Walker
+9:24	0	0	0.0	0	0	0.0	2	2	100	1	0	1	2	1	0	0	1	2	9
+undefined Headshot
+Adem Bona
+DNP - Coach's Decision
+undefined Headshot
+Eric Gordon
+DNP - Coach's Decision
+undefined Headshot
+Kyle Lowry
+DNP - Coach's Decision
+undefined Headshot
+Trendon Watford
+DNP - Coach's Decision
+TOTALS
+ 	39	95	41.1	4	28	14.3	21	24	87.5	21	31	52	20	12	6	12	20	103	12
+Orlando Magic
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Noah Penda
+F
+29:56	2	5	40.0	0	2	0.0	1	1	100	3	4	7	1	1	2	2	3	5	-9
+undefined Headshot
+Paolo Banchero
+F
+37:24	6	18	33.3	0	3	0.0	2	2	100	1	10	11	7	0	1	4	1	14	-7
+undefined Headshot
+Wendell Carter Jr.
+C
+28:53	6	13	46.2	1	6	16.7	0	0	0.0	1	7	8	2	0	3	4	5	13	3
+undefined Headshot
+Desmond Bane
+G
+37:47	9	19	47.4	0	3	0.0	5	5	100	3	2	5	5	0	0	2	3	23	-9
+undefined Headshot
+Anthony Black
+G
+37:20	7	12	58.3	3	7	42.9	4	4	100	0	3	3	4	0	0	4	1	21	-6
+undefined Headshot
+Jase Richardson
+18:33	4	6	66.7	0	0	0.0	1	4	25.0	0	3	3	0	0	1	0	0	9	-14
+undefined Headshot
+Goga Bitadze
+11:52	1	3	33.3	0	1	0.0	0	0	0.0	2	1	3	0	1	2	0	2	2	-13
+undefined Headshot
+Jett Howard
+8:36	0	6	0.0	0	3	0.0	0	0	0.0	0	0	0	0	0	0	1	1	0	-3
+undefined Headshot
+Tyus Jones
+17:02	0	3	0.0	0	2	0.0	0	0	0.0	0	0	0	0	3	0	0	1	0	2
+undefined Headshot
+Jamal Cain
+5:23	0	2	0.0	0	2	0.0	0	0	0.0	1	0	1	1	0	0	1	0	0	-2
+undefined Headshot
+Jonathan Isaac
+7:15	1	1	100	0	0	0.0	2	2	100	0	1	1	1	0	1	0	1	4	-2
+undefined Headshot
+Tristan da Silva
+DND - Injury/Illness
+TOTALS
+ 	36	88	40.9	4	29	13.8	15	18	83.3	11	31	42	21	5	10	18	18	91	-12
+Inactive Players
+PHI: MarJon Beauchamp, Johni Broome, Justin Edwards
+
+ORL: Orlando Robinson, Moritz Wagner, Franz Wagner, Jalen Suggs, Colin Castleton

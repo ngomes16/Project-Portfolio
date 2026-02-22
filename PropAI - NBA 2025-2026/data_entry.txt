@@ -1,0 +1,410 @@
+Also I will provide the next days matchups as follows for example tomorrows matchups will be given something like (you can ignore the excess information, but that is the easiest way to copy the data and paste it into the application):
+"Saturday, January 3, 2026
+MATCHUP
+TIME
+TV
+tickets
+Odds by
+draft kings
+
+Minnesota
+  @  
+
+Miami
+3:00 PM	
+NBA TV
+Tickets as low as $28	
+Line: MIN -2.5
+O/U: 238.5
+
+Philadelphia
+  @  
+
+New York
+5:30 PM	
+NBA TV
+Tickets as low as $312	
+Line: NY -3.5
+O/U: 232.5
+
+Atlanta
+  @  
+
+Toronto
+5:30 PM		Tickets as low as $52	
+Line: TOR -3.5
+O/U: 233.5
+
+Charlotte
+  @  
+
+Chicago
+6:00 PM		Tickets as low as $39	
+Line: CHI -2.5
+O/U: 237.5
+
+Portland
+  @  
+
+San Antonio
+6:00 PM		Tickets as low as $58	
+Line: SA -8.5
+O/U: 237.5
+
+Houston
+  @  
+
+Dallas
+6:30 PM		Tickets as low as $61	
+Line: HOU -7.5
+O/U: 225.5
+
+Utah
+  @  
+
+Golden State
+8:00 PM		Tickets as low as $73	
+Line: GS -12.5
+O/U: 240.5
+
+Boston
+  @  
+
+LA
+8:30 PM	
+NBA TV
+Tickets as low as $59	
+Line: LAC -1.5
+O/U: 220.5"
+
+then I need the model to tell me which players to target for overs and unders for points, rebounds, and assists, which players and games to avoid. Provide some player trends etc. 
+
+
+
+
+
+
+
+
+
+
+
+Here are two examples of how the data I get, and I want to be able to copy and paste it into the application so that it updates the information, so that the algorithm is able to work better. Can you ensure all the information is being captured, including injured players etc (players that do not play). 
+I have added a lot of games so far, and there should be at least one suns game, can you incorporate the algorithm and how it would work with some of the individual suns stats that is provided here: based on the idea file.
+
+
+"Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Durant
+F
+36:33	8	15	53.3	2	7	28.6	4	4	100	0	5	5	11	0	0	6	2	22	11
+undefined Headshot
+Jabari Smith Jr.
+F
+32:24	5	12	41.7	2	6	33.3	2	2	100	2	4	6	1	1	1	1	4	14	23
+undefined Headshot
+Alperen Sengun
+C
+33:40	8	12	66.7	0	0	0.0	4	6	66.7	2	4	6	6	2	1	1	4	20	30
+undefined Headshot
+Tari Eason
+G
+22:02	6	7	85.7	2	2	100	1	2	50.0	2	7	9	0	1	1	1	3	15	15
+undefined Headshot
+Amen Thompson
+G
+32:27	10	12	83.3	2	3	66.7	1	1	100	2	2	4	3	2	1	1	3	23	19
+undefined Headshot
+Reed Sheppard
+31:21	5	11	45.5	2	6	33.3	2	3	66.7	1	1	2	1	1	3	1	2	14	0
+undefined Headshot
+Jae'Sean Tate
+10:50	2	4	50.0	0	0	0.0	0	0	0.0	3	1	4	1	0	0	0	1	4	3
+undefined Headshot
+Dorian Finney-Smith
+15:17	0	2	0.0	0	1	0.0	0	0	0.0	1	2	3	1	1	0	1	1	0	5
+undefined Headshot
+Josh Okogie
+20:40	2	5	40.0	1	2	50.0	0	0	0.0	0	5	5	2	0	0	2	2	5	4
+undefined Headshot
+Aaron Holiday
+3:19	1	2	50.0	1	2	50.0	0	0	0.0	0	0	0	1	0	0	0	0	3	5
+undefined Headshot
+JD Davison
+1:28	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	0	0	5
+undefined Headshot
+Steven Adams
+DND - Injury/Illness
+undefined Headshot
+Clint Capela
+DND - Injury/Illness
+undefined Headshot
+Jeff Green
+DNP - Coach's Decision
+TOTALS
+ 	47	82	57.3	12	29	41.4	14	18	77.8	13	32	45	28	8	7	14	22	120	24
+Brooklyn Nets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ziaire Williams
+F
+26:53	3	6	50.0	2	4	50.0	6	7	85.7	1	1	2	0	5	0	0	1	14	-17
+undefined Headshot
+Noah Clowney
+F
+25:48	4	9	44.4	0	2	0.0	3	7	42.9	1	0	1	0	0	2	3	2	11	-19
+undefined Headshot
+Nic Claxton
+C
+23:58	5	10	50.0	0	0	0.0	1	3	33.3	3	5	8	2	0	0	0	1	11	-19
+undefined Headshot
+Danny Wolf
+G
+29:17	4	10	40.0	1	4	25.0	0	0	0.0	1	3	4	5	2	0	1	3	9	-24
+undefined Headshot
+Drake Powell
+G
+25:19	3	9	33.3	1	4	25.0	1	3	33.3	0	0	0	1	1	0	2	2	8	-25
+undefined Headshot
+Cam Thomas
+22:41	8	13	61.5	3	7	42.9	2	4	50.0	0	1	1	1	0	0	4	2	21	2
+undefined Headshot
+Nolan Traore
+26:16	1	8	12.5	1	5	20.0	0	0	0.0	0	0	0	2	1	0	2	2	3	0
+undefined Headshot
+Day'Ron Sharpe
+19:11	4	6	66.7	0	1	0.0	0	0	0.0	3	5	8	7	2	0	0	1	8	-2
+undefined Headshot
+Jalen Wilson
+22:36	1	2	50.0	1	1	100	5	6	83.3	1	2	3	0	0	0	0	2	8	-7
+undefined Headshot
+Tyrese Martin
+18:01	1	3	33.3	1	2	50.0	0	0	0.0	0	0	0	0	1	0	1	1	3	-9
+undefined Headshot
+Egor Dëmin
+DND - Injury/Illness
+undefined Headshot
+Terance Mann
+DND - Injury/Illness
+TOTALS
+ 	34	76	44.7	10	30	33.3	18	30	60.0	10	17	27	18	12	2	13	17	96	-24
+Inactive Players
+HOU: Fred VanVleet, Tyler Smith, Isaiah Crawford
+
+BKN: Michael Porter Jr., Haywood Highsmith, E.J. Liddell, Tyson Etienne, Ben Saraf, Chaney Johnson"
+
+
+This is the same data just formatted better:
+## Houston Rockets — Box Score
+
+| Player              | Pos |   MIN |    FGM |    FGA |      FG% |    3PM |    3PA |      3P% |    FTM |    FTA |      FT% |   OREB |   DREB |    REB |    AST |   STL |   BLK |     TO |     PF |     PTS |    +/- |
+| ------------------- | --- | ----: | -----: | -----: | -------: | -----: | -----: | -------: | -----: | -----: | -------: | -----: | -----: | -----: | -----: | ----: | ----: | -----: | -----: | ------: | -----: |
+| Kevin Durant        | F   | 36:33 |      8 |     15 |     53.3 |      2 |      7 |     28.6 |      4 |      4 |    100.0 |      0 |      5 |      5 |     11 |     0 |     0 |      6 |      2 |      22 |     11 |
+| Jabari Smith Jr.    | F   | 32:24 |      5 |     12 |     41.7 |      2 |      6 |     33.3 |      2 |      2 |    100.0 |      2 |      4 |      6 |      1 |     1 |     1 |      1 |      4 |      14 |     23 |
+| Alperen Sengun      | C   | 33:40 |      8 |     12 |     66.7 |      0 |      0 |      0.0 |      4 |      6 |     66.7 |      2 |      4 |      6 |      6 |     2 |     1 |      1 |      4 |      20 |     30 |
+| Tari Eason          | G   | 22:02 |      6 |      7 |     85.7 |      2 |      2 |    100.0 |      1 |      2 |     50.0 |      2 |      7 |      9 |      0 |     1 |     1 |      1 |      3 |      15 |     15 |
+| Amen Thompson       | G   | 32:27 |     10 |     12 |     83.3 |      2 |      3 |     66.7 |      1 |      1 |    100.0 |      2 |      2 |      4 |      3 |     2 |     1 |      1 |      3 |      23 |     19 |
+| Reed Sheppard       |     | 31:21 |      5 |     11 |     45.5 |      2 |      6 |     33.3 |      2 |      3 |     66.7 |      1 |      1 |      2 |      1 |     1 |     3 |      1 |      2 |      14 |      0 |
+| Jae'Sean Tate       |     | 10:50 |      2 |      4 |     50.0 |      0 |      0 |      0.0 |      0 |      0 |      0.0 |      3 |      1 |      4 |      1 |     0 |     0 |      0 |      1 |       4 |      3 |
+| Dorian Finney-Smith |     | 15:17 |      0 |      2 |      0.0 |      0 |      1 |      0.0 |      0 |      0 |      0.0 |      1 |      2 |      3 |      1 |     1 |     0 |      1 |      1 |       0 |      5 |
+| Josh Okogie         |     | 20:40 |      2 |      5 |     40.0 |      1 |      2 |     50.0 |      0 |      0 |      0.0 |      0 |      5 |      5 |      2 |     0 |     0 |      2 |      2 |       5 |      4 |
+| Aaron Holiday       |     |  3:19 |      1 |      2 |     50.0 |      1 |      2 |     50.0 |      0 |      0 |      0.0 |      0 |      0 |      0 |      1 |     0 |     0 |      0 |      0 |       3 |      5 |
+| JD Davison          |     |  1:28 |      0 |      0 |      0.0 |      0 |      0 |      0.0 |      0 |      0 |      0.0 |      0 |      1 |      1 |      1 |     0 |     0 |      0 |      0 |       0 |      5 |
+| Steven Adams        |     |   DND |      — |      — |        — |      — |      — |        — |      — |      — |        — |      — |      — |      — |      — |     — |     — |      — |      — |       — |      — |
+| Clint Capela        |     |   DND |      — |      — |        — |      — |      — |        — |      — |      — |        — |      — |      — |      — |      — |     — |     — |      — |      — |       — |      — |
+| Jeff Green          |     |   DNP |      — |      — |        — |      — |      — |        — |      — |      — |        — |      — |      — |      — |      — |     — |     — |      — |      — |       — |      — |
+| **TOTALS**          |     |       | **47** | **82** | **57.3** | **12** | **29** | **41.4** | **14** | **18** | **77.8** | **13** | **32** | **45** | **28** | **8** | **7** | **14** | **22** | **120** | **24** |
+
+---
+
+## Brooklyn Nets — Box Score
+
+| Player          | Pos |   MIN |    FGM |    FGA |      FG% |    3PM |    3PA |      3P% |    FTM |    FTA |      FT% |   OREB |   DREB |    REB |    AST |    STL |   BLK |     TO |     PF |    PTS |     +/- |
+| --------------- | --- | ----: | -----: | -----: | -------: | -----: | -----: | -------: | -----: | -----: | -------: | -----: | -----: | -----: | -----: | -----: | ----: | -----: | -----: | -----: | ------: |
+| Ziaire Williams | F   | 26:53 |      3 |      6 |     50.0 |      2 |      4 |     50.0 |      6 |      7 |     85.7 |      1 |      1 |      2 |      0 |      5 |     0 |      0 |      1 |     14 |     -17 |
+| Noah Clowney    | F   | 25:48 |      4 |      9 |     44.4 |      0 |      2 |      0.0 |      3 |      7 |     42.9 |      1 |      0 |      1 |      0 |      0 |     2 |      3 |      2 |     11 |     -19 |
+| Nic Claxton     | C   | 23:58 |      5 |     10 |     50.0 |      0 |      0 |      0.0 |      1 |      3 |     33.3 |      3 |      5 |      8 |      2 |      0 |     0 |      0 |      1 |     11 |     -19 |
+| Danny Wolf      | G   | 29:17 |      4 |     10 |     40.0 |      1 |      4 |     25.0 |      0 |      0 |      0.0 |      1 |      3 |      4 |      5 |      2 |     0 |      1 |      3 |      9 |     -24 |
+| Drake Powell    | G   | 25:19 |      3 |      9 |     33.3 |      1 |      4 |     25.0 |      1 |      3 |     33.3 |      0 |      0 |      0 |      1 |      1 |     0 |      2 |      2 |      8 |     -25 |
+| Cam Thomas      |     | 22:41 |      8 |     13 |     61.5 |      3 |      7 |     42.9 |      2 |      4 |     50.0 |      0 |      1 |      1 |      1 |      0 |     0 |      4 |      2 |     21 |       2 |
+| Nolan Traore    |     | 26:16 |      1 |      8 |     12.5 |      1 |      5 |     20.0 |      0 |      0 |      0.0 |      0 |      0 |      0 |      2 |      1 |     0 |      2 |      2 |      3 |       0 |
+| Day'Ron Sharpe  |     | 19:11 |      4 |      6 |     66.7 |      0 |      1 |      0.0 |      0 |      0 |      0.0 |      3 |      5 |      8 |      7 |      2 |     0 |      0 |      1 |      8 |      -2 |
+| Jalen Wilson    |     | 22:36 |      1 |      2 |     50.0 |      1 |      1 |    100.0 |      5 |      6 |     83.3 |      1 |      2 |      3 |      0 |      0 |     0 |      0 |      2 |      8 |      -7 |
+| Tyrese Martin   |     | 18:01 |      1 |      3 |     33.3 |      1 |      2 |     50.0 |      0 |      0 |      0.0 |      0 |      0 |      0 |      0 |      1 |     0 |      1 |      1 |      3 |      -9 |
+| Egor Dëmin      |     |   DND |      — |      — |        — |      — |      — |        — |      — |      — |        — |      — |      — |      — |      — |      — |     — |      — |      — |      — |       — |
+| Terance Mann    |     |   DND |      — |      — |        — |      — |      — |        — |      — |      — |        — |      — |      — |      — |      — |      — |     — |      — |      — |      — |       — |
+| **TOTALS**      |     |       | **34** | **76** | **44.7** | **10** | **30** | **33.3** | **18** | **30** | **60.0** | **10** | **17** | **27** | **18** | **12** | **2** | **13** | **17** | **96** | **-24** |
+
+---
+
+## Inactive Players
+
+* **HOU:** Fred VanVleet, Tyler Smith, Isaiah Crawford
+* **BKN:** Michael Porter Jr., Haywood Highsmith, E.J. Liddell, Tyson Etienne, Ben Saraf, Chaney Johnson
+
+
+Please check it with the example given above, and the second example below:
+
+
+Unformatted data:
+"Miami Heat
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Andrew Wiggins
+F
+31:31	7	20	35.0	1	5	20.0	2	2	100	6	2	8	1	2	0	2	4	17	-9
+undefined Headshot
+Bam Adebayo
+F
+32:53	5	14	35.7	1	2	50.0	4	4	100	3	11	14	0	2	1	1	2	15	17
+undefined Headshot
+Kel'el Ware
+C
+27:18	1	6	16.7	0	4	0.0	2	2	100	3	10	13	0	2	2	1	1	4	0
+undefined Headshot
+Norman Powell
+G
+34:41	12	23	52.2	7	14	50.0	5	5	100	1	1	2	2	1	0	3	2	36	4
+undefined Headshot
+Davion Mitchell
+G
+33:18	3	7	42.9	2	3	66.7	0	0	0.0	1	0	1	11	2	1	5	1	8	3
+undefined Headshot
+Jaime Jaquez Jr.
+29:45	9	12	75.0	0	1	0.0	1	3	33.3	0	3	3	5	2	0	2	2	19	2
+undefined Headshot
+Nikola Jović
+23:54	1	10	10.0	1	7	14.3	2	2	100	0	5	5	5	0	1	2	0	5	-5
+undefined Headshot
+Dru Smith
+14:42	3	4	75.0	1	2	50.0	2	2	100	0	0	0	1	3	1	1	5	9	3
+undefined Headshot
+Kasparas Jakučionis
+5:37	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	11
+undefined Headshot
+Simone Fontecchio
+6:21	2	3	66.7	1	1	100	0	0	0.0	1	2	3	0	0	0	1	1	5	4
+undefined Headshot
+Myron Gardner
+DNP - Coach's Decision
+undefined Headshot
+Keshad Johnson
+DNP - Coach's Decision
+TOTALS
+ 	43	99	43.4	14	39	35.9	18	20	90.0	15	34	49	25	14	6	18	19	118	6
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+30:16	5	8	62.5	0	0	0.0	2	3	66.7	0	2	2	2	1	2	2	2	12	-13
+undefined Headshot
+Isaiah Stewart
+F
+30:11	2	5	40.0	1	3	33.3	1	2	50.0	0	4	4	2	0	5	2	4	6	-1
+undefined Headshot
+Jalen Duren
+C
+18:21	6	12	50.0	0	0	0.0	0	0	0.0	0	5	5	0	1	0	1	1	12	-17
+undefined Headshot
+Duncan Robinson
+G
+20:19	3	7	42.9	1	5	20.0	2	2	100	0	2	2	2	0	0	1	1	9	-10
+undefined Headshot
+Cade Cunningham
+G
+39:35	6	16	37.5	2	6	33.3	17	18	94.4	1	7	8	11	3	2	7	4	31	6
+undefined Headshot
+Javonte Green
+26:11	4	7	57.1	1	2	50.0	2	2	100	0	2	2	1	1	0	1	2	11	-2
+undefined Headshot
+Jaden Ivey
+21:24	1	4	25.0	0	2	0.0	0	0	0.0	0	1	1	3	0	0	1	0	2	-6
+undefined Headshot
+Ronald Holland II
+17:30	1	7	14.3	0	2	0.0	0	0	0.0	2	3	5	1	1	0	2	2	2	1
+undefined Headshot
+Marcus Sasser
+23:54	6	10	60.0	4	6	66.7	2	2	100	1	3	4	2	2	0	2	3	18	-1
+undefined Headshot
+Paul Reed
+12:19	4	4	100	0	0	0.0	1	2	50.0	2	5	7	1	2	0	1	1	9	13
+undefined Headshot
+Daniss Jenkins
+DNP - Coach's Decision
+undefined Headshot
+Chaz Lanier
+DNP - Coach's Decision
+undefined Headshot
+Tolu Smith
+DNP - Coach's Decision
+TOTALS
+ 	38	80	47.5	9	26	34.6	27	31	87.1	6	34	40	25	11	9	20	20	112	-6
+Inactive Players
+MIA: Terry Rozier, Tyler Herro, Pelle Larsson, Jahmir Young, Vladislav Goldin
+
+DET: Isaac Jones, Wendell Moore Jr., Bobi Klintman, Caris LeVert, Tobias Harris"
+
+
+Same data just formatted better:
+## Miami Heat — Box Score
+
+| Player              | Pos |   MIN |    FGM |    FGA |      FG% |    3PM |    3PA |      3P% |    FTM |    FTA |      FT% |   OREB |   DREB |    REB |    AST |    STL |   BLK |     TO |     PF |     PTS | +/- |
+| ------------------- | --- | ----: | -----: | -----: | -------: | -----: | -----: | -------: | -----: | -----: | -------: | -----: | -----: | -----: | -----: | -----: | ----: | -----: | -----: | ------: | --: |
+| Andrew Wiggins      | SF  | 31:31 |      7 |     19 |     36.8 |      1 |      5 |     20.0 |      2 |      2 |    100.0 |      5 |      2 |      7 |      1 |      2 |     0 |      2 |      4 |      17 |  -9 |
+| Bam Adebayo         | PF  | 32:53 |      5 |     14 |     35.7 |      1 |      2 |     50.0 |      4 |      4 |    100.0 |      3 |     11 |     14 |      0 |      2 |     1 |      1 |      2 |      15 |  17 |
+| Kel’el Ware         | C   | 27:18 |      1 |      6 |     16.7 |      0 |      4 |      0.0 |      2 |      2 |    100.0 |      3 |     10 |     13 |      0 |      2 |     2 |      1 |      1 |       4 |   0 |
+| Norman Powell       | SG  | 34:41 |     12 |     23 |     52.2 |      7 |     14 |     50.0 |      5 |      5 |    100.0 |      1 |      1 |      2 |      2 |      1 |     0 |      3 |      2 |      36 |   4 |
+| Davion Mitchell     | PG  | 33:18 |      3 |      7 |     42.9 |      2 |      3 |     66.7 |      0 |      0 |      0.0 |      1 |      0 |      1 |     11 |      2 |     1 |      5 |      1 |       8 |   3 |
+| Jaime Jaquez Jr.    |     | 29:45 |      9 |     13 |     69.2 |      0 |      1 |      0.0 |      1 |      3 |     33.3 |      0 |      3 |      3 |      5 |      2 |     0 |      2 |      2 |      19 |   2 |
+| Nikola Jović        |     | 23:54 |      1 |     10 |     10.0 |      1 |      7 |     14.3 |      2 |      2 |    100.0 |      0 |      5 |      5 |      5 |      0 |     1 |      2 |      0 |       5 |  -5 |
+| Dru Smith           |     | 14:42 |      3 |      4 |     75.0 |      1 |      2 |     50.0 |      2 |      2 |    100.0 |      0 |      0 |      0 |      1 |      3 |     1 |      1 |      5 |       9 |   3 |
+| Kasparas Jakučionis |     | 05:37 |      0 |      0 |      0.0 |      0 |      0 |      0.0 |      0 |      0 |      0.0 |      0 |      0 |      0 |      0 |      0 |     0 |      0 |      1 |       0 |  11 |
+| Simone Fontecchio   |     | 06:21 |      2 |      3 |     66.7 |      1 |      1 |    100.0 |      0 |      0 |      0.0 |      1 |      2 |      3 |      0 |      0 |     0 |      1 |      1 |       5 |   4 |
+| Myron Gardner       |     |   DNP |      — |      — |        — |      — |      — |        — |      — |      — |        — |      — |      — |      — |      — |      — |     — |      — |      — |       — |   — |
+| Keshad Johnson      |     |   DNP |      — |      — |        — |      — |      — |        — |      — |      — |        — |      — |      — |      — |      — |      — |     — |      — |      — |       — |   — |
+| **TOTALS**          |     |       | **43** | **99** | **43.4** | **14** | **39** | **35.9** | **18** | **20** | **90.0** | **14** | **34** | **58** | **25** | **14** | **6** | **18** | **19** | **118** |   — |
+
+---
+
+## Detroit Pistons — Box Score
+
+| Player            | Pos |   MIN |    FGM |    FGA |      FG% |   3PM |    3PA |      3P% |    FTM |    FTA |      FT% |  OREB |   DREB |    REB |    AST |    STL |   BLK |     TO |     PF |     PTS | +/- |
+| ----------------- | --- | ----: | -----: | -----: | -------: | ----: | -----: | -------: | -----: | -----: | -------: | ----: | -----: | -----: | -----: | -----: | ----: | -----: | -----: | ------: | --: |
+| Ausar Thompson    | SF  | 30:16 |      5 |      8 |     62.5 |     0 |      0 |      0.0 |      2 |      3 |     66.7 |     0 |      2 |      2 |      2 |      1 |     2 |      2 |      2 |      12 | -13 |
+| Isaiah Stewart    | PF  | 30:11 |      2 |      5 |     40.0 |     1 |      3 |     33.3 |      1 |      2 |     50.0 |     0 |      4 |      4 |      2 |      0 |     5 |      2 |      4 |       6 |  -1 |
+| Jalen Duren       | C   | 18:21 |      6 |     12 |     50.0 |     0 |      0 |      0.0 |      0 |      0 |      0.0 |     0 |      5 |      5 |      0 |      1 |     0 |      1 |      1 |      12 | -17 |
+| Duncan Robinson   | SG  | 20:19 |      3 |      7 |     42.9 |     1 |      5 |     20.0 |      2 |      2 |    100.0 |     0 |      2 |      2 |      2 |      0 |     0 |      1 |      1 |       9 | -10 |
+| Cade Cunningham   | PG  | 39:35 |      6 |     16 |     37.5 |     2 |      6 |     33.3 |     17 |     18 |     94.4 |     1 |      7 |      8 |     11 |      3 |     2 |      7 |      4 |      31 |   6 |
+| Javonte Green     |     | 26:11 |      4 |      7 |     57.1 |     1 |      2 |     50.0 |      2 |      2 |    100.0 |     0 |      2 |      2 |      1 |      1 |     0 |      1 |      2 |      11 |  -2 |
+| Jaden Ivey        |     | 21:24 |      1 |      4 |     25.0 |     0 |      2 |      0.0 |      0 |      0 |      0.0 |     0 |      1 |      1 |      3 |      0 |     0 |      1 |      0 |       2 |  -6 |
+| Ronald Holland II |     | 17:30 |      1 |      7 |     14.3 |     0 |      2 |      0.0 |      0 |      0 |      0.0 |     2 |      3 |      5 |      1 |      1 |     0 |      2 |      2 |       2 |   1 |
+| Marcus Sasser     |     | 23:54 |      6 |     10 |     60.0 |     4 |      6 |     66.7 |      2 |      2 |    100.0 |     1 |      3 |      4 |      2 |      2 |     0 |      2 |      3 |      18 |  -1 |
+| Paul Reed         |     | 12:19 |      4 |      4 |    100.0 |     0 |      0 |      0.0 |      1 |      2 |     50.0 |     2 |      5 |      7 |      1 |      2 |     0 |      1 |      1 |       9 |  13 |
+| Daniss Jenkins    |     |   DNP |      — |      — |        — |     — |      — |        — |      — |      — |        — |     — |      — |      — |      — |      — |     — |      — |      — |       — |   — |
+| Chaz Lanier       |     |   DNP |      — |      — |        — |     — |      — |        — |      — |      — |        — |     — |      — |      — |      — |      — |     — |      — |      — |       — |   — |
+| Tolu Smith        |     |   DNP |      — |      — |        — |     — |      — |        — |      — |      — |        — |     — |      — |      — |      — |      — |     — |      — |      — |       — |   — |
+| **TOTALS**        |     |       | **38** | **80** | **47.5** | **9** | **26** | **34.6** | **27** | **31** | **87.1** | **6** | **34** | **46** | **25** | **11** | **9** | **20** | **20** | **112** |   — |
+
+---
+
+## Inactive Players
+
+* **MIA:** Terry Rozier, Tyler Herro, Pelle Larsson, Jahmir Young, Vladislav Goldin
+* **DET:** Isaac Jones, Wendell Moore Jr., Bobi Klintman, Caris LeVert, Tobias Harris
+
+
+
+
+
+
+

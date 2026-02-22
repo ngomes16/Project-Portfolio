@@ -1,0 +1,98 @@
+Oklahoma City Thunder
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Luguentz Dort
+F
+31:32	2	9	22.2	2	6	33.3	0	0	0.0	0	5	5	1	0	0	0	3	6	3
+undefined Headshot
+Chet Holmgren
+F
+32:09	6	10	60.0	2	5	40.0	4	6	66.7	1	10	11	2	0	4	3	4	18	15
+undefined Headshot
+Isaiah Hartenstein
+C
+29:53	8	11	72.7	0	0	0.0	0	0	0.0	5	7	12	0	1	0	1	5	16	-7
+undefined Headshot
+Cason Wallace
+G
+32:48	2	9	22.2	0	5	0.0	0	0	0.0	1	4	5	5	1	0	1	2	4	4
+undefined Headshot
+Shai Gilgeous-Alexander
+G
+35:28	10	22	45.5	1	3	33.3	2	2	100	0	4	4	8	1	0	4	0	23	7
+undefined Headshot
+Aaron Wiggins
+26:45	5	12	41.7	1	6	16.7	0	0	0.0	0	3	3	3	0	0	1	2	11	0
+undefined Headshot
+Ajay Mitchell
+27:15	7	14	50.0	0	4	0.0	3	3	100	2	5	7	1	1	0	2	3	17	-2
+undefined Headshot
+Brooks Barnhizer
+6:25	1	1	100	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	2	2	5
+undefined Headshot
+Jaylin Williams
+17:24	1	2	50.0	0	1	0.0	2	2	100	0	7	7	1	1	1	1	2	4	7
+undefined Headshot
+Chris Youngblood
+0:21	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	3
+undefined Headshot
+Ousmane Dieng
+DNP - Coach's Decision
+TOTALS
+ 	42	90	46.7	6	30	20.0	11	13	84.6	9	46	55	21	5	5	13	23	101	7
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Klay Thompson
+F
+22:26	3	11	27.3	2	6	33.3	0	0	0.0	0	4	4	2	0	1	2	0	8	-12
+undefined Headshot
+P.J. Washington
+F
+37:57	5	10	50.0	2	5	40.0	3	7	42.9	2	7	9	3	1	1	1	0	15	-17
+undefined Headshot
+Anthony Davis
+C
+38:05	10	16	62.5	1	2	50.0	5	5	100	3	8	11	3	0	1	1	4	26	3
+undefined Headshot
+Max Christie
+G
+31:18	5	10	50.0	4	8	50.0	0	0	0.0	0	2	2	0	0	0	0	2	14	10
+undefined Headshot
+Cooper Flagg
+G
+31:08	1	9	11.1	0	3	0.0	0	0	0.0	0	2	2	0	2	0	0	0	2	-20
+undefined Headshot
+D'Angelo Russell
+30:22	3	14	21.4	1	8	12.5	2	4	50.0	0	2	2	10	0	1	2	1	9	7
+undefined Headshot
+Naji Marshall
+23:15	2	7	28.6	0	2	0.0	5	5	100	1	3	4	0	1	0	0	2	9	-15
+undefined Headshot
+Jaden Hardy
+20:54	4	9	44.4	2	4	50.0	1	1	100	0	1	1	1	2	0	1	4	11	10
+undefined Headshot
+Caleb Martin
+4:35	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	1	0	0	1	2	0	-1
+undefined Headshot
+Moussa Cisse
+DNP - Coach's Decision
+undefined Headshot
+Miles Kelly
+DNP - Coach's Decision
+undefined Headshot
+Ryan Nembhard
+DNP - Coach's Decision
+undefined Headshot
+Dwight Powell
+DNP - Coach's Decision
+TOTALS
+ 	33	87	37.9	12	39	30.8	16	22	72.7	6	30	36	20	6	4	8	15	94	-7
+Inactive Players
+OKC: Nikola Topic, Branden Carlson, Thomas Sorber, Jalen Williams, Isaiah Joe, Alex Caruso, Kenrich Williams
+
+DAL: Kyrie Irving, Dante Exum, Daniel Gafford, Brandon Williams, Dereck Lively II

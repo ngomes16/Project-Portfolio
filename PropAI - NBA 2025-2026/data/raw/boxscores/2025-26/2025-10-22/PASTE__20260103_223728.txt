@@ -1,0 +1,116 @@
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Khris Middleton
+F
+28:31	9	14	64.3	3	5	60.0	2	3	66.7	1	5	6	3	0	0	2	4	23	-15
+undefined Headshot
+Kyshawn George
+F
+32:05	7	15	46.7	3	6	50.0	4	8	50.0	1	8	9	4	1	2	2	4	21	0
+undefined Headshot
+Alex Sarr
+C
+25:32	5	10	50.0	0	0	0.0	0	2	0.0	1	10	11	3	0	0	1	1	10	-6
+undefined Headshot
+CJ McCollum
+G
+29:06	4	14	28.6	0	6	0.0	1	1	100	2	4	6	3	0	0	0	1	9	-19
+undefined Headshot
+Bub Carrington
+G
+29:01	4	9	44.4	3	4	75.0	0	0	0.0	0	5	5	2	1	0	1	3	11	-14
+undefined Headshot
+Marvin Bagley III
+14:57	0	0	0.0	0	0	0.0	1	2	50.0	1	2	3	1	1	0	1	2	1	-11
+undefined Headshot
+Tre Johnson
+26:14	5	11	45.5	4	8	50.0	2	2	100	2	3	5	2	1	1	4	1	16	-8
+undefined Headshot
+Cam Whitmore
+19:27	6	12	50.0	1	5	20.0	1	1	100	2	3	5	1	0	0	0	1	14	-1
+undefined Headshot
+Corey Kispert
+18:02	4	8	50.0	3	7	42.9	0	0	0.0	0	1	1	1	0	1	1	0	11	-1
+undefined Headshot
+Justin Champagnie
+5:49	0	3	0.0	0	1	0.0	0	0	0.0	3	0	3	1	0	0	0	1	0	2
+undefined Headshot
+Will Riley
+4:28	1	1	100	0	0	0.0	0	0	0.0	0	1	1	1	1	0	0	0	2	0
+undefined Headshot
+AJ Johnson
+1:42	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	0	0	2
+undefined Headshot
+Tristan Vukcevic
+1:42	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+undefined Headshot
+Anthony Gill
+1:42	1	1	100	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	2	2
+undefined Headshot
+Sharife Cooper
+1:42	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	2
+TOTALS
+ 	46	98	46.9	17	42	40.5	11	19	57.9	13	43	56	23	5	4	13	19	120	-13
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Gary Trent Jr.
+F
+24:21	6	12	50.0	5	11	45.5	0	0	0.0	0	4	4	2	2	0	1	1	17	3
+undefined Headshot
+Giannis Antetokounmpo
+F
+26:45	16	26	61.5	1	3	33.3	4	7	57.1	2	12	14	5	0	0	2	4	37	10
+undefined Headshot
+Myles Turner
+C
+29:03	4	12	33.3	2	8	25.0	1	2	50.0	1	7	8	5	0	3	1	3	11	9
+undefined Headshot
+AJ Green
+G
+27:12	4	6	66.7	3	5	60.0	0	0	0.0	0	3	3	1	0	0	0	3	11	9
+undefined Headshot
+Kevin Porter Jr.
+G
+9:25	3	5	60.0	2	3	66.7	2	2	100	0	0	0	2	1	0	0	0	10	15
+undefined Headshot
+Kyle Kuzma
+23:18	5	10	50.0	0	2	0.0	2	2	100	0	4	4	3	2	2	1	1	12	7
+undefined Headshot
+Bobby Portis
+17:15	1	6	16.7	0	0	0.0	0	0	0.0	1	5	6	1	0	0	0	0	2	6
+undefined Headshot
+Ryan Rollins
+29:29	2	9	22.2	1	6	16.7	4	4	100	2	2	4	3	2	0	2	3	9	-1
+undefined Headshot
+Cole Anthony
+11:57	4	5	80.0	1	2	50.0	0	0	0.0	0	2	2	5	0	1	1	5	9	8
+undefined Headshot
+Taurean Prince
+21:57	4	5	80.0	3	4	75.0	0	0	0.0	0	1	1	2	1	0	0	2	11	12
+undefined Headshot
+Amir Coffey
+12:31	1	1	100	0	0	0.0	0	0	0.0	0	0	0	2	0	0	0	0	2	-5
+undefined Headshot
+Jericho Sims
+1:42	0	0	0.0	0	0	0.0	2	2	100	0	0	0	0	0	0	0	0	2	-2
+undefined Headshot
+Gary Harris
+1:42	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Andre Jackson Jr.
+1:42	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Thanasis Antetokounmpo
+1:42	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+TOTALS
+ 	50	98	51.0	18	44	40.9	15	19	78.9	6	40	46	31	8	6	8	22	133	13
+Inactive Players
+WAS: Jamir Watkins, Bilal Coulibaly, Malaki Branham
+
+MIL: Alex Antetokounmpo, Pete Nance, Mark Sears

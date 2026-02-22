@@ -1,0 +1,98 @@
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kawhi Leonard
+F
+34:42	10	23	43.5	2	9	22.2	2	2	100	0	8	8	4	1	1	1	2	24	-6
+undefined Headshot
+John Collins
+F
+24:42	6	14	42.9	2	8	25.0	2	2	100	1	1	2	2	1	0	3	2	16	-9
+undefined Headshot
+Ivica Zubac
+C
+34:47	4	6	66.7	0	0	0.0	2	2	100	1	5	6	1	1	0	2	3	10	-12
+undefined Headshot
+Kris Dunn
+G
+20:44	0	1	0.0	0	0	0.0	0	0	0.0	0	3	3	3	2	0	1	1	0	-6
+undefined Headshot
+James Harden
+G
+35:50	6	13	46.2	3	7	42.9	3	4	75.0	0	2	2	7	0	1	4	4	18	-17
+undefined Headshot
+Nicolas Batum
+30:52	2	7	28.6	2	7	28.6	0	0	0.0	1	2	3	4	1	0	2	2	6	9
+undefined Headshot
+Kobe Sanders
+27:16	3	6	50.0	2	4	50.0	0	1	0.0	1	6	7	0	2	0	2	4	8	-3
+undefined Headshot
+Kobe Brown
+21:12	3	7	42.9	2	6	33.3	5	6	83.3	0	4	4	1	3	0	1	0	13	-1
+undefined Headshot
+Cam Christie
+9:55	1	3	33.3	1	3	33.3	0	0	0.0	1	1	2	0	0	0	0	0	3	0
+undefined Headshot
+RayJ Dennis
+DNP - Coach's Decision
+undefined Headshot
+Brook Lopez
+DNP - Coach's Decision
+undefined Headshot
+Yanic Konan Niederhäuser
+DNP - Coach's Decision
+TOTALS
+ 	35	80	43.8	14	44	31.8	14	17	82.4	5	32	37	22	11	2	16	18	98	-9
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Wells
+F
+27:17	7	11	63.6	3	5	60.0	0	0	0.0	0	3	3	0	1	0	2	1	17	19
+undefined Headshot
+Jaren Jackson Jr.
+F
+30:36	5	9	55.6	0	3	0.0	3	5	60.0	0	3	3	0	2	0	1	3	13	-1
+undefined Headshot
+Zach Edey
+C
+29:25	4	8	50.0	0	0	0.0	2	3	66.7	1	7	8	1	0	2	2	2	10	0
+undefined Headshot
+Cedric Coward
+G
+28:29	10	18	55.6	1	6	16.7	2	2	100	1	13	14	5	1	0	1	0	23	8
+undefined Headshot
+Vince Williams Jr.
+G
+19:12	1	5	20.0	1	4	25.0	0	0	0.0	0	1	1	4	0	1	3	3	3	3
+undefined Headshot
+Santi Aldama
+24:37	3	9	33.3	0	3	0.0	1	2	50.0	0	6	6	4	1	0	3	2	7	7
+undefined Headshot
+Jock Landale
+16:32	3	5	60.0	1	1	100	0	0	0.0	1	0	1	1	1	1	1	4	7	8
+undefined Headshot
+Kentavious Caldwell-Pope
+19:28	1	1	100	1	1	100	2	2	100	0	0	0	5	1	0	0	0	5	-2
+undefined Headshot
+Cam Spencer
+28:51	7	11	63.6	3	5	60.0	0	0	0.0	1	4	5	7	1	0	2	2	17	9
+undefined Headshot
+John Konchar
+15:33	1	1	100	0	0	0.0	3	4	75.0	0	1	1	1	1	0	0	1	5	-6
+undefined Headshot
+Jahmai Mashack
+DNP - Coach's Decision
+undefined Headshot
+Olivier-Maxence Prosper
+DNP - Coach's Decision
+TOTALS
+ 	42	78	53.8	10	28	35.7	13	18	72.2	4	38	42	28	9	4	15	18	107	9
+Inactive Players
+LAC: Chris Paul, Bradley Beal, Bogdan Bogdanovic, Derrick Jones Jr., Jordan Miller
+
+MEM: Javon Small, Ja Morant, Brandon Clarke, Ty Jerome, Scotty Pippen Jr., GG Jackson

@@ -1,0 +1,101 @@
+Orlando Magic
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Tristan da Silva
+F
+17:28	4	6	66.7	2	3	66.7	0	0	0.0	0	4	4	3	0	1	0	3	10	8
+undefined Headshot
+Franz Wagner
+F
+26:38	8	13	61.5	1	2	50.0	4	6	66.7	1	4	5	3	1	0	1	0	21	22
+undefined Headshot
+Wendell Carter Jr.
+C
+21:49	4	5	80.0	0	1	0.0	4	4	100	3	5	8	1	0	0	1	1	12	33
+undefined Headshot
+Desmond Bane
+G
+28:39	6	15	40.0	1	5	20.0	2	2	100	1	1	2	6	2	0	2	4	15	44
+undefined Headshot
+Jalen Suggs
+G
+15:41	2	7	28.6	0	3	0.0	0	0	0.0	1	4	5	11	2	2	1	2	4	12
+undefined Headshot
+Anthony Black
+27:57	12	17	70.6	4	6	66.7	3	4	75.0	0	1	1	3	1	0	3	2	31	31
+undefined Headshot
+Goga Bitadze
+19:35	5	9	55.6	0	1	0.0	0	0	0.0	3	6	9	2	1	1	1	3	10	11
+undefined Headshot
+Tyus Jones
+15:56	3	4	75.0	2	3	66.7	2	2	100	0	1	1	3	1	0	0	2	10	7
+undefined Headshot
+Noah Penda
+21:49	3	9	33.3	1	2	50.0	3	4	75.0	5	4	9	2	0	0	1	1	10	21
+undefined Headshot
+Jett Howard
+18:24	5	10	50.0	1	5	20.0	2	2	100	1	1	2	1	0	0	0	1	13	14
+undefined Headshot
+Jase Richardson
+10:02	2	5	40.0	1	2	50.0	2	2	100	0	0	0	1	1	0	1	1	7	3
+undefined Headshot
+Jamal Cain
+9:26	0	0	0.0	0	0	0.0	1	2	50.0	0	1	1	1	0	0	0	0	1	2
+undefined Headshot
+Orlando Robinson
+6:36	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	1	1	0	0	0	0	-3
+TOTALS
+ 	54	101	53.5	13	34	38.2	23	28	82.1	15	32	47	38	10	4	11	20	144	41
+Philadelphia 76ers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Justin Edwards
+F
+22:09	5	7	71.4	1	2	50.0	2	2	100	0	1	1	1	2	0	4	2	13	-16
+undefined Headshot
+Dominick Barlow
+F
+30:42	4	8	50.0	1	2	50.0	2	2	100	0	6	6	2	0	1	2	2	11	-26
+undefined Headshot
+Andre Drummond
+C
+22:19	1	6	16.7	1	2	50.0	0	0	0.0	2	10	12	0	0	2	2	4	3	-33
+undefined Headshot
+Quentin Grimes
+G
+26:57	1	9	11.1	0	4	0.0	6	6	100	0	3	3	4	0	0	3	2	8	-34
+undefined Headshot
+Tyrese Maxey
+G
+31:58	7	15	46.7	1	5	20.0	5	6	83.3	0	1	1	4	1	0	1	2	20	-30
+undefined Headshot
+Trendon Watford
+10:42	2	2	100	0	0	0.0	4	4	100	0	1	1	1	0	0	2	2	8	-5
+undefined Headshot
+Jared McCain
+24:55	6	13	46.2	2	5	40.0	1	2	50.0	1	0	1	3	0	0	0	2	15	-31
+undefined Headshot
+Eric Gordon
+22:25	4	4	100	2	2	100	0	0	0.0	1	1	2	2	2	0	1	0	10	-14
+undefined Headshot
+Jabari Walker
+21:20	4	7	57.1	1	2	50.0	0	0	0.0	1	4	5	1	0	0	2	2	9	-12
+undefined Headshot
+Johni Broome
+17:07	2	9	22.2	0	1	0.0	0	0	0.0	3	3	6	2	2	0	2	1	4	-2
+undefined Headshot
+Hunter Sallis
+9:26	1	2	50.0	0	0	0.0	0	0	0.0	0	0	0	2	0	1	2	1	2	-2
+undefined Headshot
+Kyle Lowry
+DNP - Coach's Decision
+TOTALS
+ 	37	82	45.1	9	25	36.0	20	22	90.9	8	30	38	22	7	4	21	20	103	-41
+Inactive Players
+ORL: Jonathan Isaac, Moritz Wagner, Colin Castleton, Paolo Banchero
+
+PHI: Paul George, Joel Embiid, Kelly Oubre Jr., Adem Bona, VJ Edgecombe

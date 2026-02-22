@@ -1,0 +1,107 @@
+Utah Jazz
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Lauri Markkanen
+F
+36:48	7	17	41.2	2	6	33.3	4	4	100	4	5	9	2	0	0	4	2	20	-1
+undefined Headshot
+Taylor Hendricks
+F
+13:50	1	5	20.0	0	1	0.0	0	0	0.0	1	2	3	1	0	0	1	0	2	-15
+undefined Headshot
+Jusuf Nurkić
+C
+31:15	5	12	41.7	0	2	0.0	1	2	50.0	4	7	11	4	0	1	3	4	11	1
+undefined Headshot
+Svi Mykhailiuk
+G
+29:21	4	12	33.3	1	8	12.5	0	0	0.0	0	6	6	1	0	0	0	0	9	-7
+undefined Headshot
+Keyonte George
+G
+37:58	9	16	56.3	2	5	40.0	11	13	84.6	1	4	5	4	1	0	1	2	31	-11
+undefined Headshot
+Ace Bailey
+18:14	2	4	50.0	0	0	0.0	0	0	0.0	1	1	2	0	0	0	2	3	4	11
+undefined Headshot
+Elijah Harkless
+20:46	1	4	25.0	0	2	0.0	1	1	100	1	0	1	2	1	0	3	5	3	5
+undefined Headshot
+Kevin Love
+16:36	2	3	66.7	1	2	50.0	0	0	0.0	1	6	7	3	0	0	2	1	5	1
+undefined Headshot
+Kyle Filipowski
+19:29	4	7	57.1	2	3	66.7	3	5	60.0	2	6	8	0	0	1	2	4	13	19
+undefined Headshot
+Walter Clayton Jr.
+15:43	3	4	75.0	1	2	50.0	0	0	0.0	0	3	3	6	2	0	0	0	7	7
+undefined Headshot
+Kyle Anderson
+DNP - Coach's Decision
+undefined Headshot
+Isaiah Collier
+DNP - Coach's Decision
+undefined Headshot
+Brice Sensabaugh
+DNP - Coach's Decision
+undefined Headshot
+Cody Williams
+DNP - Coach's Decision
+TOTALS
+ 	38	84	45.2	9	31	29.0	20	25	80.0	15	40	55	23	4	2	18	21	105	2
+Boston Celtics
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Brown
+F
+37:36	13	28	46.4	0	9	0.0	10	11	90.9	1	1	2	4	2	0	3	3	36	21
+undefined Headshot
+Josh Minott
+F
+15:01	1	5	20.0	0	2	0.0	0	0	0.0	3	3	6	2	0	1	0	4	2	6
+undefined Headshot
+Neemias Queta
+C
+26:12	4	4	100	0	0	0.0	1	3	33.3	1	7	8	1	2	0	2	2	9	15
+undefined Headshot
+Payton Pritchard
+G
+34:32	7	15	46.7	4	11	36.4	0	0	0.0	1	4	5	3	0	0	1	3	18	2
+undefined Headshot
+Derrick White
+G
+32:38	3	9	33.3	3	8	37.5	1	1	100	1	4	5	6	3	2	2	1	10	-8
+undefined Headshot
+Sam Hauser
+28:01	1	8	12.5	1	8	12.5	1	2	50.0	0	2	2	1	2	1	1	0	4	-1
+undefined Headshot
+Anfernee Simons
+26:16	5	13	38.5	2	8	25.0	3	3	100	0	1	1	2	0	0	0	1	15	-11
+undefined Headshot
+Luka Garza
+10:54	0	2	0.0	0	2	0.0	2	2	100	1	1	2	1	1	0	0	3	2	-12
+undefined Headshot
+Xavier Tillman
+6:24	0	1	0.0	0	1	0.0	0	0	0.0	1	1	2	1	1	0	0	0	0	-10
+undefined Headshot
+Hugo González
+7:59	1	1	100	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	1	2	-11
+undefined Headshot
+Baylor Scheierman
+7:11	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	1	1	0	-3
+undefined Headshot
+Chris Boucher
+7:16	2	3	66.7	1	2	50.0	0	0	0.0	0	1	1	0	1	0	0	3	5	2
+undefined Headshot
+Jordan Walsh
+DNP - Coach's Decision
+TOTALS
+ 	37	89	41.6	11	51	21.6	18	22	81.8	10	26	36	21	12	4	10	22	103	-2
+Inactive Players
+UTA: Georges Niang, John Tonje, Walker Kessler, Oscar Tshiebwe
+
+BOS: Jayson Tatum, Ron Harper Jr., Amari Williams, Max Shulga

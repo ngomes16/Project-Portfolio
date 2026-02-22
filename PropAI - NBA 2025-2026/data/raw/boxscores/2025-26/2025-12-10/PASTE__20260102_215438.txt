@@ -1,0 +1,107 @@
+San Antonio Spurs
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Devin Vassell
+F
+30:45	2	10	20.0	1	4	25.0	3	3	100	0	4	4	5	3	1	1	0	8	5
+undefined Headshot
+Harrison Barnes
+F
+32:33	5	12	41.7	4	9	44.4	2	2	100	2	1	3	1	1	0	1	1	16	8
+undefined Headshot
+Luke Kornet
+C
+33:01	1	3	33.3	0	0	0.0	8	9	88.9	1	7	8	1	0	1	0	1	10	10
+undefined Headshot
+Stephon Castle
+G
+26:34	10	14	71.4	3	6	50.0	7	9	77.8	1	9	10	6	0	0	4	4	30	16
+undefined Headshot
+De'Aaron Fox
+G
+31:29	8	17	47.1	4	8	50.0	0	0	0.0	0	4	4	3	2	0	1	1	20	21
+undefined Headshot
+Dylan Harper
+20:13	6	12	50.0	0	1	0.0	1	2	50.0	1	2	3	3	1	0	2	5	13	-2
+undefined Headshot
+Keldon Johnson
+22:11	5	9	55.6	3	5	60.0	4	7	57.1	2	6	8	0	1	0	0	2	17	-6
+undefined Headshot
+Julian Champagnie
+28:44	6	8	75.0	2	4	50.0	2	2	100	2	5	7	2	1	1	1	4	16	6
+undefined Headshot
+Kelly Olynyk
+12:12	0	1	0.0	0	1	0.0	2	2	100	0	2	2	4	0	0	0	1	2	9
+undefined Headshot
+Lindy Waters III
+1:09	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-1
+undefined Headshot
+Jordan McLaughlin
+1:09	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-1
+undefined Headshot
+Bismack Biyombo
+DNP - Coach's Decision
+undefined Headshot
+Carter Bryant
+DNP - Coach's Decision
+undefined Headshot
+Jeremy Sochan
+DNP - Coach's Decision
+TOTALS
+ 	43	86	50.0	17	38	44.7	29	36	80.6	9	41	50	25	9	3	10	19	132	13
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+LeBron James
+F
+36:26	7	14	50.0	0	3	0.0	5	6	83.3	1	14	15	8	0	3	3	2	19	-16
+undefined Headshot
+Rui Hachimura
+F
+30:50	3	4	75.0	2	3	66.7	0	0	0.0	0	1	1	1	0	1	0	1	8	5
+undefined Headshot
+Deandre Ayton
+C
+25:39	5	9	55.6	0	0	0.0	1	2	50.0	3	5	8	1	1	0	0	3	11	-10
+undefined Headshot
+Austin Reaves
+G
+39:49	6	16	37.5	2	6	33.3	1	1	100	1	7	8	7	0	1	3	5	15	-5
+undefined Headshot
+Luka Dončić
+G
+40:56	11	24	45.8	3	8	37.5	10	14	71.4	0	5	5	8	1	0	3	5	35	-2
+undefined Headshot
+Gabe Vincent
+14:19	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	3	0	-7
+undefined Headshot
+Marcus Smart
+28:13	9	16	56.3	8	14	57.1	0	0	0.0	0	3	3	1	0	1	1	3	26	2
+undefined Headshot
+Jaxson Hayes
+11:36	1	1	100	0	0	0.0	0	0	0.0	1	2	3	0	0	1	0	1	2	-10
+undefined Headshot
+Jake LaRavia
+8:45	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	1	1	0	1	0	0	-25
+undefined Headshot
+Bronny James
+1:09	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	1
+undefined Headshot
+Dalton Knecht
+1:09	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	0	0	3	1
+undefined Headshot
+Adou Thiero
+1:09	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	1	0	0	0	0	1
+undefined Headshot
+Jarred Vanderbilt
+DNP - Coach's Decision
+TOTALS
+ 	43	87	49.4	16	37	43.2	17	23	73.9	6	37	43	27	4	7	11	23	119	-13
+Inactive Players
+SAS: David Jones Garcia, Riley Minix, Victor Wembanyama, Harrison Ingram
+
+LAL: Maxi Kleber, Drew Timme, Nick Smith Jr., Chris Manon

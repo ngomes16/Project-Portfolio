@@ -1,0 +1,104 @@
+Utah Jazz
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cody Williams
+F
+21:21	3	7	42.9	2	5	40.0	0	0	0.0	1	2	3	2	0	0	2	3	8	7
+undefined Headshot
+Lauri Markkanen
+F
+36:18	8	16	50.0	3	8	37.5	9	12	75.0	0	12	12	2	1	1	1	0	28	18
+undefined Headshot
+Jusuf Nurkić
+C
+30:10	4	9	44.4	1	1	100	2	2	100	3	14	17	3	3	2	1	1	11	13
+undefined Headshot
+Svi Mykhailiuk
+G
+26:11	4	7	57.1	3	6	50.0	0	0	0.0	0	1	1	3	0	0	3	3	11	18
+undefined Headshot
+Keyonte George
+G
+33:33	8	16	50.0	4	8	50.0	12	12	100	1	4	5	9	1	0	4	0	32	6
+undefined Headshot
+Kyle Filipowski
+16:45	2	3	66.7	0	0	0.0	0	0	0.0	0	3	3	0	1	0	0	1	4	1
+undefined Headshot
+Brice Sensabaugh
+23:35	2	8	25.0	1	4	25.0	2	2	100	0	0	0	1	1	0	2	2	7	-5
+undefined Headshot
+Kevin Love
+17:50	4	6	66.7	3	5	60.0	0	0	0.0	0	3	3	2	0	0	2	1	11	-2
+undefined Headshot
+Isaiah Collier
+19:00	3	7	42.9	1	3	33.3	0	0	0.0	1	2	3	8	0	0	1	2	7	0
+undefined Headshot
+Ace Bailey
+15:17	2	4	50.0	0	1	0.0	0	0	0.0	2	1	3	2	0	1	0	1	4	-1
+undefined Headshot
+Kyle Anderson
+DNP - Coach's Decision
+undefined Headshot
+Walter Clayton Jr.
+DNP - Coach's Decision
+undefined Headshot
+Taylor Hendricks
+DNP - Coach's Decision
+TOTALS
+ 	40	83	48.2	18	41	43.9	25	28	89.3	8	42	50	32	7	4	16	14	123	11
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Sam Merrill
+F
+27:43	5	11	45.5	3	8	37.5	1	1	100	0	2	2	3	0	0	1	5	14	-10
+undefined Headshot
+Evan Mobley
+F
+34:17	6	11	54.5	1	4	25.0	2	2	100	2	7	9	8	2	3	1	4	15	-11
+undefined Headshot
+Jarrett Allen
+C
+32:24	3	7	42.9	0	0	0.0	2	2	100	2	2	4	3	1	0	2	1	8	-6
+undefined Headshot
+Donovan Mitchell
+G
+33:59	7	18	38.9	4	9	44.4	3	3	100	0	3	3	2	1	0	0	2	21	-12
+undefined Headshot
+Darius Garland
+G
+33:35	7	17	41.2	5	9	55.6	4	4	100	0	2	2	8	3	1	3	2	23	-6
+undefined Headshot
+Craig Porter Jr.
+15:39	2	3	66.7	1	1	100	0	0	0.0	1	2	3	1	0	0	1	0	5	-10
+undefined Headshot
+De'Andre Hunter
+17:40	1	5	20.0	0	2	0.0	0	0	0.0	0	0	0	3	0	0	3	1	2	-2
+undefined Headshot
+Jaylon Tyson
+25:29	4	9	44.4	2	5	40.0	1	1	100	0	4	4	2	2	0	2	3	11	5
+undefined Headshot
+Nae'Qwan Tomlin
+19:14	6	11	54.5	1	3	33.3	0	0	0.0	1	2	3	3	1	2	0	1	13	-3
+undefined Headshot
+Lonzo Ball
+DNP - Coach's Decision
+undefined Headshot
+Thomas Bryant
+DNP - Coach's Decision
+undefined Headshot
+Larry Nance Jr.
+DNP - Coach's Decision
+undefined Headshot
+Tyrese Proctor
+DNP - Coach's Decision
+TOTALS
+ 	41	92	44.6	17	41	41.5	13	13	100	6	24	30	33	10	6	13	19	112	-11
+Inactive Players
+UTA: Elijah Harkless, John Tonje, Walker Kessler, Oscar Tshiebwe, Georges Niang
+
+CLE: Max Strus, Dean Wade, Luke Travers, Chris Livingston

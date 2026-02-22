@@ -1,0 +1,112 @@
+San Antonio Spurs
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Devin Vassell
+F
+33:17	4	14	28.6	2	7	28.6	2	2	100	0	5	5	3	0	0	0	2	12	-9
+undefined Headshot
+Harrison Barnes
+F
+23:28	4	9	44.4	0	4	0.0	3	3	100	2	1	3	2	1	1	0	0	11	4
+undefined Headshot
+Luke Kornet
+C
+22:45	7	9	77.8	0	0	0.0	0	0	0.0	5	1	6	1	0	0	0	0	14	7
+undefined Headshot
+Stephon Castle
+G
+34:54	5	15	33.3	1	3	33.3	4	5	80.0	4	3	7	12	0	1	2	4	15	-5
+undefined Headshot
+De'Aaron Fox
+G
+31:40	5	13	38.5	2	6	33.3	4	6	66.7	0	2	2	9	1	0	5	3	16	-4
+undefined Headshot
+Victor Wembanyama
+24:54	7	17	41.2	2	6	33.3	2	4	50.0	0	6	6	1	1	2	1	0	18	-18
+undefined Headshot
+Dylan Harper
+28:23	7	14	50.0	5	7	71.4	2	2	100	3	4	7	0	0	0	0	3	21	-15
+undefined Headshot
+Julian Champagnie
+25:02	1	5	20.0	1	4	25.0	0	0	0.0	1	1	2	1	1	1	0	1	3	-11
+undefined Headshot
+Keldon Johnson
+15:37	1	3	33.3	1	2	50.0	0	0	0.0	3	1	4	0	0	0	0	0	3	-4
+undefined Headshot
+Bismack Biyombo
+DNP - Coach's Decision
+undefined Headshot
+Carter Bryant
+DNP - Coach's Decision
+undefined Headshot
+Jordan McLaughlin
+DNP - Coach's Decision
+undefined Headshot
+Kelly Olynyk
+DNP - Coach's Decision
+undefined Headshot
+Jeremy Sochan
+DNP - Coach's Decision
+undefined Headshot
+Lindy Waters III
+DNP - Coach's Decision
+TOTALS
+ 	41	99	41.4	14	39	35.9	17	22	77.3	18	24	42	29	4	5	8	13	113	-11
+New York Knicks
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Josh Hart
+F
+29:16	5	7	71.4	1	3	33.3	0	0	0.0	1	7	8	3	2	1	1	4	11	3
+undefined Headshot
+OG Anunoby
+F
+40:01	10	17	58.8	5	10	50.0	3	5	60.0	4	5	9	3	0	1	0	4	28	7
+undefined Headshot
+Karl-Anthony Towns
+C
+29:40	6	12	50.0	2	5	40.0	2	2	100	4	7	11	1	2	0	2	3	16	-2
+undefined Headshot
+Mikal Bridges
+G
+32:38	4	12	33.3	1	5	20.0	2	2	100	1	4	5	5	0	0	1	0	11	-10
+undefined Headshot
+Jalen Brunson
+G
+41:03	11	27	40.7	1	5	20.0	2	4	50.0	1	3	4	8	0	1	4	3	25	15
+undefined Headshot
+Jordan Clarkson
+26:40	6	15	40.0	3	7	42.9	0	0	0.0	2	0	2	0	1	1	0	1	15	15
+undefined Headshot
+Mitchell Robinson
+18:22	2	6	33.3	0	0	0.0	0	0	0.0	10	5	15	2	1	2	1	3	4	9
+undefined Headshot
+Tyler Kolek
+20:27	5	9	55.6	2	5	40.0	2	2	100	0	5	5	5	0	0	1	2	14	14
+undefined Headshot
+Ariel Hukporti
+1:52	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	1	0	0	0	0	4
+undefined Headshot
+Pacôme Dadiet
+DNP - Coach's Decision
+undefined Headshot
+Mohamed Diawara
+DNP - Coach's Decision
+undefined Headshot
+Tosan Evbuomwan
+DNP - Coach's Decision
+undefined Headshot
+Trey Jemison III
+DNP - Coach's Decision
+undefined Headshot
+Kevin McCullar Jr.
+DNP - Coach's Decision
+undefined Headshot
+Guerschon Yabusele
+DNP - Coach's Decision
+TOTALS
+ 	49	105	46.7	15	40	37.5	11	15	73.3	23	36	59	27	7	6	10	20	124	11
+Inactive Players
+SAS: Kyle Mangas, Harrison Ingram, David Jones Garcia
+
+NYK: Landry Shamet, Miles McBride

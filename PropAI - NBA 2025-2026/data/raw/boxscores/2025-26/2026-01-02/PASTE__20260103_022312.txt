@@ -1,0 +1,95 @@
+Oklahoma City Thunder
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Luguentz Dort
+F
+26:13	4	5	80.0	3	4	75.0	0	0	0.0	0	3	3	0	1	0	0	2	11	33
+undefined Headshot
+Jalen Williams
+F
+20:33	5	11	45.5	0	2	0.0	2	2	100	2	4	6	2	0	0	1	4	12	3
+undefined Headshot
+Chet Holmgren
+C
+26:03	5	8	62.5	1	3	33.3	4	4	100	2	13	15	4	1	4	2	1	15	23
+undefined Headshot
+Cason Wallace
+G
+14:11	1	4	25.0	0	1	0.0	0	0	0.0	0	3	3	1	2	0	0	0	2	19
+undefined Headshot
+Shai Gilgeous-Alexander
+G
+28:11	10	20	50.0	3	5	60.0	7	7	100	0	1	1	7	0	0	3	1	30	26
+undefined Headshot
+Alex Caruso
+10:43	1	3	33.3	0	2	0.0	2	2	100	0	1	1	2	1	0	0	2	4	17
+undefined Headshot
+Ajay Mitchell
+25:05	5	7	71.4	1	1	100	0	0	0.0	1	1	2	6	2	0	3	2	11	21
+undefined Headshot
+Branden Carlson
+21:38	6	9	66.7	1	2	50.0	2	2	100	3	8	11	2	2	0	1	3	15	13
+undefined Headshot
+Aaron Wiggins
+27:05	5	11	45.5	3	6	50.0	2	2	100	0	3	3	2	0	1	2	3	15	19
+undefined Headshot
+Isaiah Joe
+19:55	2	5	40.0	1	4	25.0	0	0	0.0	0	2	2	4	0	0	1	2	5	3
+undefined Headshot
+Kenrich Williams
+12:00	1	2	50.0	0	1	0.0	0	0	0.0	0	3	3	3	0	0	0	1	2	8
+undefined Headshot
+Chris Youngblood
+8:23	3	7	42.9	3	7	42.9	0	0	0.0	1	0	1	1	1	0	0	0	9	0
+TOTALS
+ 	48	92	52.2	16	38	42.1	19	19	100	9	42	51	34	10	5	13	21	131	37
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Will Richard
+F
+27:12	5	15	33.3	2	6	33.3	1	1	100	3	2	5	1	1	0	1	0	13	-19
+undefined Headshot
+Gui Santos
+F
+26:12	2	4	50.0	1	3	33.3	4	6	66.7	0	8	8	0	0	1	3	1	9	-10
+undefined Headshot
+Quinten Post
+C
+22:48	4	10	40.0	1	6	16.7	2	2	100	2	1	3	2	1	0	1	5	11	-21
+undefined Headshot
+Moses Moody
+G
+27:02	6	12	50.0	1	4	25.0	0	1	0.0	0	2	2	0	1	0	3	3	13	-14
+undefined Headshot
+Brandin Podziemski
+G
+26:18	4	13	30.8	1	4	25.0	3	5	60.0	0	4	4	4	1	1	1	1	12	-10
+undefined Headshot
+Gary Payton II
+15:34	1	5	20.0	0	3	0.0	0	0	0.0	0	1	1	1	0	0	0	0	2	-15
+undefined Headshot
+Pat Spencer
+31:13	1	8	12.5	1	4	25.0	0	0	0.0	2	1	3	11	1	0	3	1	3	-41
+undefined Headshot
+Trayce Jackson-Davis
+24:14	1	6	16.7	0	0	0.0	5	6	83.3	5	4	9	3	1	1	1	3	7	-22
+undefined Headshot
+Buddy Hield
+23:41	4	11	36.4	3	9	33.3	0	0	0.0	1	1	2	1	2	0	2	3	11	-18
+undefined Headshot
+Al Horford
+15:46	4	6	66.7	3	5	60.0	2	2	100	1	5	6	0	0	2	1	1	13	-15
+undefined Headshot
+Jonathan Kuminga
+DND - Injury/Illness
+TOTALS
+ 	32	90	35.6	13	44	29.5	17	23	73.9	14	29	43	23	8	5	16	18	94	-37
+Inactive Players
+OKC: Jaylin Williams, Ousmane Dieng, Nikola Topic, Isaiah Hartenstein, Thomas Sorber, Brooks Barnhizer
+
+GSW: LJ Cryer, De'Anthony Melton, Malevy Leons, Stephen Curry, Jimmy Butler III, Draymond Green, Seth Curry

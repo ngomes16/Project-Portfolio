@@ -1,0 +1,227 @@
+{% extends "base.html" %}
+
+{% block title %}Games - NBA Props Predictor{% endblock %}
+{% block page_title %}Games{% endblock %}
+
+{% block header_actions %}
+<a href="{{ url_for('paste_page') }}" class="btn btn-primary">
+    <span>➕</span> Add Game
+</a>
+{% endblock %}
+
+{% block content %}
+<div class="games-page">
+    <div class="card">
+        <div class="card-header">
+            <h2>All Games</h2>
+            <div class="filters" style="display: flex; align-items: center; gap: 1rem;">
+                <input type="text" id="search-games" class="form-control" placeholder="Search teams..." style="width: 220px;">
+                <select id="games-limit" class="form-control" style="width: 150px;">
+                    <option value="100">Last 100</option>
+                    <option value="200">Last 200</option>
+                    <option value="500">Last 500</option>
+                    <option value="1000">Last 1000</option>
+                    <option value="9999">All Games</option>
+                </select>
+                <span id="games-count" class="muted" style="font-size: 0.875rem;">Loading...</span>
+            </div>
+        </div>
+        <div class="card-body" style="padding: 0;">
+            <div class="games-table-container" style="overflow-x: auto;">
+                <table class="data-table" id="games-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Matchup</th>
+                            <th>Score</th>
+                            <th>Season</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="games-tbody">
+                        <tr><td colspan="5" class="loading">Loading games...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Game Detail Modal -->
+<div class="modal hidden" id="game-modal">
+    <div class="modal-backdrop" onclick="closeModal()"></div>
+    <div class="modal-content modal-large">
+        <div class="modal-header">
+            <h2 id="modal-title">Game Details</h2>
+            <button class="modal-close" onclick="closeModal()">×</button>
+        </div>
+        <div class="modal-body" id="modal-body">
+            Loading...
+        </div>
+    </div>
+</div>
+
+<script>
+let allGames = [];
+
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadGames();
+    
+    document.getElementById('search-games').addEventListener('input', filterGames);
+    document.getElementById('games-limit').addEventListener('change', loadGames);
+});
+
+async function loadGames() {
+    const limit = document.getElementById('games-limit').value;
+    document.getElementById('games-tbody').innerHTML = '<tr><td colspan="5" class="loading">Loading games...</td></tr>';
+    
+    try {
+        const data = await fetchAPI(`/api/games?limit=${limit}`);
+        allGames = data.games;
+        document.getElementById('games-count').textContent = `${allGames.length} games`;
+        renderGames(allGames);
+    } catch (e) {
+        console.error('Failed to load games:', e);
+        document.getElementById('games-tbody').innerHTML = 
+            '<tr><td colspan="5" class="error">Failed to load games</td></tr>';
+    }
+}
+
+function renderGames(games) {
+    const tbody = document.getElementById('games-tbody');
+    document.getElementById('games-count').textContent = `${games.length} games`;
+    
+    if (games.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" class="empty-state">No games found</td></tr>';
+        return;
+    }
+    
+    tbody.innerHTML = games.map(g => {
+        const winner1 = g.team1_pts && g.team2_pts && g.team1_pts > g.team2_pts;
+        const winner2 = g.team1_pts && g.team2_pts && g.team2_pts > g.team1_pts;
+        
+        return `
+            <tr style="cursor: pointer;" onclick="viewGame(${g.id})">
+                <td class="date-cell">${g.date}</td>
+                <td class="matchup-cell">
+                    <a href="/team/${g.team1_abbrev}" class="team-link ${winner1 ? 'winner' : ''}" onclick="event.stopPropagation()">${g.team1_abbrev}</a>
+                    <span class="vs">@</span>
+                    <a href="/team/${g.team2_abbrev}" class="team-link ${winner2 ? 'winner' : ''}" onclick="event.stopPropagation()">${g.team2_abbrev}</a>
+                </td>
+                <td class="score-cell">
+                    <span class="${winner1 ? 'winner' : ''}">${g.team1_pts ?? '-'}</span>
+                    <span class="separator">-</span>
+                    <span class="${winner2 ? 'winner' : ''}">${g.team2_pts ?? '-'}</span>
+                </td>
+                <td class="season-cell">${g.season || '-'}</td>
+                <td class="actions-cell">
+                    <button class="btn btn-sm btn-ghost" onclick="event.stopPropagation(); viewGame(${g.id})">View</button>
+                </td>
+            </tr>
+        `;
+    }).join('');
+}
+
+function filterGames() {
+    const query = document.getElementById('search-games').value.toLowerCase();
+    if (!query) {
+        renderGames(allGames);
+        return;
+    }
+    
+    const filtered = allGames.filter(g => 
+        g.team1.toLowerCase().includes(query) ||
+        g.team2.toLowerCase().includes(query) ||
+        g.team1_abbrev.toLowerCase().includes(query) ||
+        g.team2_abbrev.toLowerCase().includes(query) ||
+        g.date.includes(query)
+    );
+    renderGames(filtered);
+}
+
+async function viewGame(gameId) {
+    const modal = document.getElementById('game-modal');
+    const modalBody = document.getElementById('modal-body');
+    const modalTitle = document.getElementById('modal-title');
+    
+    modal.classList.remove('hidden');
+    modalBody.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Loading game details...</p></div>';
+    
+    try {
+        const data = await fetchAPI(`/api/game/${gameId}`);
+        modalTitle.textContent = `${data.game.team1} vs ${data.game.team2} — ${data.game.date}`;
+        
+        // Group players by team
+        const team1Players = data.players.filter(p => p.team === data.game.team1);
+        const team2Players = data.players.filter(p => p.team === data.game.team2);
+        
+        const renderPlayerTable = (players, teamName) => {
+            const total = data.totals[teamName] || {};
+            return `
+                <div class="team-stats" style="margin-bottom: 2rem;">
+                    <h3 style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; font-size: 1rem;">
+                        ${teamName}
+                        ${total.pts ? `<span style="font-family: var(--font-mono); color: var(--accent);">${total.pts} pts</span>` : ''}
+                    </h3>
+                    <div style="overflow-x: auto;">
+                        <table class="data-table" style="font-size: 0.8125rem;">
+                            <thead>
+                                <tr>
+                                    <th>Player</th>
+                                    <th>MIN</th>
+                                    <th>PTS</th>
+                                    <th>REB</th>
+                                    <th>AST</th>
+                                    <th>FG</th>
+                                    <th>3P</th>
+                                    <th>FT</th>
+                                    <th>+/-</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${players.map(p => `
+                                    <tr style="${p.status !== 'Played' ? 'opacity: 0.5;' : ''}">
+                                        <td>
+                                            <span style="font-weight: 500;">${p.player}</span>
+                                            ${p.pos ? `<span style="margin-left: 0.5rem; font-size: 0.6875rem; color: var(--text-muted);">${p.pos}</span>` : ''}
+                                        </td>
+                                        <td style="font-family: var(--font-mono);">${p.minutes ? p.minutes.toFixed(0) : p.status || '-'}</td>
+                                        <td style="font-family: var(--font-mono); font-weight: 600; color: var(--accent);">${p.pts ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.reb ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.ast ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.fgm ?? '-'}/${p.fga ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.tpm ?? '-'}/${p.tpa ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.ftm ?? '-'}/${p.fta ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono); color: ${(p.plus_minus || 0) > 0 ? 'var(--success)' : (p.plus_minus || 0) < 0 ? 'var(--error)' : 'var(--text-muted)'};">
+                                            ${p.plus_minus != null ? (p.plus_minus > 0 ? '+' : '') + p.plus_minus : '-'}
+                                        </td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        };
+        
+        modalBody.innerHTML = `
+            <div class="game-detail">
+                ${renderPlayerTable(team1Players, data.game.team1)}
+                ${renderPlayerTable(team2Players, data.game.team2)}
+            </div>
+        `;
+    } catch (e) {
+        modalBody.innerHTML = `<div class="error-state">Failed to load game details: ${e.message}</div>`;
+    }
+}
+
+function closeModal() {
+    document.getElementById('game-modal').classList.add('hidden');
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+});
+</script>
+{% endblock %}

@@ -1,0 +1,113 @@
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Moses Moody
+F
+23:26	5	9	55.6	2	6	33.3	0	0	0.0	1	1	2	2	1	1	0	3	12	-4
+undefined Headshot
+Draymond Green
+F
+29:54	5	8	62.5	2	4	50.0	2	2	100	1	7	8	7	3	1	8	5	14	-12
+undefined Headshot
+Quinten Post
+C
+19:27	4	9	44.4	3	6	50.0	0	0	0.0	1	0	1	4	1	0	0	4	11	3
+undefined Headshot
+Jimmy Butler III
+G
+34:57	3	11	27.3	0	0	0.0	10	11	90.9	3	4	7	4	3	0	3	4	16	-4
+undefined Headshot
+Stephen Curry
+G
+35:26	16	26	61.5	12	19	63.2	4	4	100	0	3	3	2	3	1	3	0	48	-8
+undefined Headshot
+De'Anthony Melton
+18:54	0	5	0.0	0	3	0.0	0	0	0.0	0	1	1	1	2	1	1	2	0	0
+undefined Headshot
+Trayce Jackson-Davis
+15:59	2	2	100	0	0	0.0	1	2	50.0	0	4	4	3	0	1	1	2	5	-2
+undefined Headshot
+Brandin Podziemski
+32:34	4	7	57.1	3	3	100	1	2	50.0	1	6	7	6	1	0	1	2	12	-2
+undefined Headshot
+Pat Spencer
+6:45	1	3	33.3	0	1	0.0	0	0	0.0	0	0	0	2	0	0	0	1	2	0
+undefined Headshot
+Buddy Hield
+16:24	4	7	57.1	2	5	40.0	0	0	0.0	1	0	1	1	0	0	1	0	10	1
+undefined Headshot
+Gui Santos
+6:16	0	0	0.0	0	0	0.0	1	2	50.0	0	2	2	2	0	0	0	1	1	3
+undefined Headshot
+Seth Curry
+DNP - Coach's Decision
+undefined Headshot
+Jonathan Kuminga
+DNP - Coach's Decision
+undefined Headshot
+Will Richard
+DNP - Coach's Decision
+TOTALS
+ 	44	87	50.6	24	47	51.1	19	23	82.6	8	28	36	34	14	5	18	24	131	-5
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Toumani Camara
+F
+25:27	3	8	37.5	1	5	20.0	0	0	0.0	0	3	3	3	2	0	1	5	7	6
+undefined Headshot
+Jerami Grant
+F
+34:25	12	22	54.5	7	13	53.8	4	4	100	0	3	3	2	0	1	4	4	35	4
+undefined Headshot
+Donovan Clingan
+C
+21:57	1	3	33.3	0	1	0.0	1	2	50.0	3	7	10	3	1	3	1	2	3	-9
+undefined Headshot
+Deni Avdija
+G
+32:32	6	16	37.5	2	4	50.0	12	13	92.3	0	7	7	8	1	0	4	2	26	-3
+undefined Headshot
+Shaedon Sharpe
+G
+32:43	12	18	66.7	5	7	71.4	6	6	100	2	1	3	4	4	0	3	2	35	15
+undefined Headshot
+Sidy Cissoko
+28:20	2	6	33.3	2	5	40.0	0	0	0.0	2	1	3	1	1	0	0	3	6	16
+undefined Headshot
+Robert Williams III
+19:09	4	4	100	0	0	0.0	3	4	75.0	2	9	11	3	1	0	3	0	11	7
+undefined Headshot
+Kris Murray
+27:11	2	5	40.0	1	2	50.0	0	0	0.0	1	2	3	2	0	0	0	1	5	3
+undefined Headshot
+Caleb Love
+12:00	3	6	50.0	2	2	100	0	0	0.0	0	0	0	4	1	0	1	1	8	-9
+undefined Headshot
+Rayan Rupert
+6:16	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	-5
+undefined Headshot
+Jrue Holiday
+DND - Injury/Illness
+undefined Headshot
+Damian Lillard
+DND - Injury/Illness
+undefined Headshot
+Duop Reath
+DNP - Coach's Decision
+undefined Headshot
+Matisse Thybulle
+DND - Injury/Illness
+undefined Headshot
+Hansen Yang
+DNP - Coach's Decision
+TOTALS
+ 	45	89	50.6	20	39	51.3	26	29	89.7	10	33	43	30	11	4	17	21	136	5
+Inactive Players
+GSW: Malevy Leons, LJ Cryer, Al Horford, Gary Payton II
+
+POR: Scoot Henderson, Blake Wesley, Javonte Cooke

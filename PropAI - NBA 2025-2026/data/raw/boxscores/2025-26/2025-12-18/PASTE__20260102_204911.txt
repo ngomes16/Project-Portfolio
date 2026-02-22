@@ -1,0 +1,101 @@
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+OG Anunoby
+F
+33:42	5	13	38.5	2	7	28.6	4	7	57.1	1	5	6	1	2	0	3	3	16	11
+undefined Headshot
+Mohamed Diawara
+F
+18:52	2	5	40.0	0	2	0.0	1	2	50.0	0	3	3	1	1	0	2	2	5	-6
+undefined Headshot
+Ariel Hukporti
+C
+26:56	1	3	33.3	0	0	0.0	2	4	50.0	2	3	5	3	1	2	0	4	4	0
+undefined Headshot
+Mikal Bridges
+G
+37:16	9	19	47.4	4	9	44.4	0	1	0.0	1	7	8	5	0	1	1	1	22	9
+undefined Headshot
+Jalen Brunson
+G
+34:22	10	23	43.5	3	8	37.5	2	3	66.7	3	4	7	7	3	0	3	3	25	-16
+undefined Headshot
+Trey Jemison III
+18:26	2	2	100	0	0	0.0	1	1	100	3	2	5	1	0	1	2	2	5	1
+undefined Headshot
+Guerschon Yabusele
+11:19	1	5	20.0	1	4	25.0	0	0	0.0	2	1	3	0	0	0	2	2	3	-17
+undefined Headshot
+Jordan Clarkson
+29:22	6	12	50.0	5	9	55.6	1	1	100	0	3	3	1	1	0	1	2	18	7
+undefined Headshot
+Tyler Kolek
+26:12	7	10	70.0	2	4	50.0	0	0	0.0	2	4	6	11	1	1	2	0	16	13
+undefined Headshot
+Pacôme Dadiet
+3:33	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	1	1	0	0	0	0	3
+undefined Headshot
+Kevin McCullar Jr.
+0:01	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Tosan Evbuomwan
+DNP - Coach's Decision
+TOTALS
+ 	43	92	46.7	17	43	39.5	11	19	57.9	14	32	46	31	10	5	16	19	114	1
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Bennedict Mathurin
+F
+38:28	7	18	38.9	2	9	22.2	0	0	0.0	1	7	8	2	2	0	2	1	16	9
+undefined Headshot
+Pascal Siakam
+F
+37:33	9	22	40.9	2	6	33.3	6	6	100	3	3	6	5	3	2	2	2	26	3
+undefined Headshot
+Jay Huff
+C
+18:06	2	7	28.6	0	5	0.0	2	2	100	4	6	10	1	0	2	3	3	6	4
+undefined Headshot
+Quenton Jackson
+G
+27:09	3	7	42.9	2	5	40.0	2	2	100	0	4	4	2	1	0	1	0	10	14
+undefined Headshot
+Andrew Nembhard
+G
+37:25	12	19	63.2	4	5	80.0	3	4	75.0	0	1	1	4	1	0	2	4	31	15
+undefined Headshot
+Jarace Walker
+16:17	2	4	50.0	1	1	100	1	2	50.0	0	3	3	1	0	0	2	2	6	-7
+undefined Headshot
+Isaiah Jackson
+26:18	2	3	66.7	0	0	0.0	0	0	0.0	4	6	10	2	0	1	0	3	4	-5
+undefined Headshot
+Garrison Mathews
+7:54	2	4	50.0	0	2	0.0	0	0	0.0	0	1	1	0	0	0	0	1	4	-15
+undefined Headshot
+T.J. McConnell
+17:54	4	6	66.7	0	0	0.0	0	0	0.0	1	4	5	5	1	1	2	1	8	-15
+undefined Headshot
+Johnny Furphy
+5:45	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	0	1	0	-8
+undefined Headshot
+Ethan Thompson
+3:36	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	0
+undefined Headshot
+Tony Bradley
+3:36	0	2	0.0	0	0	0.0	2	2	100	3	0	3	0	0	0	0	1	2	0
+undefined Headshot
+Gabe McGlothan
+DNP - Coach's Decision
+TOTALS
+ 	43	93	46.2	11	34	32.4	16	18	88.9	16	36	52	22	8	6	14	20	113	-1
+Inactive Players
+NYK: Karl-Anthony Towns, Josh Hart, Mitchell Robinson, Landry Shamet, Miles McBride
+
+IND: Ben Sheppard, Kam Jones, Taelon Peter, Obi Toppin, Tyrese Haliburton, Aaron Nesmith

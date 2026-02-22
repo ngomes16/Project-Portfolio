@@ -1,0 +1,98 @@
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Justin Champagnie
+F
+33:01	6	13	46.2	1	3	33.3	0	0	0.0	3	11	14	0	2	1	0	2	13	23
+undefined Headshot
+Kyshawn George
+F
+35:53	3	11	27.3	2	6	33.3	1	3	33.3	2	6	8	9	1	1	3	4	9	13
+undefined Headshot
+Marvin Bagley III
+C
+31:58	9	14	64.3	0	0	0.0	5	10	50.0	9	5	14	1	1	1	2	4	23	11
+undefined Headshot
+CJ McCollum
+G
+34:08	8	18	44.4	2	3	66.7	0	0	0.0	1	5	6	2	0	0	1	2	18	10
+undefined Headshot
+Bub Carrington
+G
+36:19	4	11	36.4	2	7	28.6	1	2	50.0	0	3	3	5	1	0	1	0	11	12
+undefined Headshot
+Tristan Vukcevic
+16:02	2	7	28.6	0	4	0.0	2	3	66.7	0	3	3	0	0	0	2	2	6	8
+undefined Headshot
+Tre Johnson
+15:39	4	7	57.1	3	4	75.0	3	3	100	0	2	2	2	0	0	0	1	14	9
+undefined Headshot
+Jamir Watkins
+14:30	1	1	100	0	0	0.0	0	0	0.0	1	4	5	0	0	0	1	5	2	-5
+undefined Headshot
+Will Riley
+22:31	4	7	57.1	0	1	0.0	4	5	80.0	1	0	1	0	0	0	1	1	12	14
+undefined Headshot
+Anthony Gill
+DNP - Coach's Decision
+undefined Headshot
+Khris Middleton
+DND - Injury/Illness
+undefined Headshot
+Cam Whitmore
+DNP - Coach's Decision
+TOTALS
+ 	41	89	46.1	10	28	35.7	16	26	61.5	17	39	56	19	5	3	11	21	108	19
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Bennedict Mathurin
+F
+31:39	3	9	33.3	1	5	20.0	8	8	100	1	3	4	2	0	0	1	5	15	-21
+undefined Headshot
+Pascal Siakam
+F
+28:40	4	12	33.3	0	2	0.0	3	3	100	1	3	4	4	1	0	1	2	11	-12
+undefined Headshot
+Jay Huff
+C
+24:51	5	9	55.6	3	7	42.9	0	0	0.0	0	4	4	0	0	4	0	0	13	-21
+undefined Headshot
+Ethan Thompson
+G
+23:54	0	4	0.0	0	3	0.0	2	2	100	0	0	0	2	0	0	0	1	2	-15
+undefined Headshot
+Andrew Nembhard
+G
+29:60	3	14	21.4	1	7	14.3	0	0	0.0	2	0	2	6	0	0	0	2	7	-26
+undefined Headshot
+Jarace Walker
+22:12	5	13	38.5	2	6	33.3	0	0	0.0	1	2	3	0	0	1	1	1	12	0
+undefined Headshot
+Isaiah Jackson
+23:09	5	8	62.5	0	0	0.0	1	2	50.0	4	8	12	0	0	2	1	2	11	2
+undefined Headshot
+Garrison Mathews
+18:37	2	5	40.0	2	5	40.0	2	2	100	0	1	1	2	1	0	0	3	8	7
+undefined Headshot
+T.J. McConnell
+15:28	2	4	50.0	0	1	0.0	0	0	0.0	1	3	4	4	0	0	4	0	4	-1
+undefined Headshot
+Johnny Furphy
+13:29	2	3	66.7	1	1	100	0	2	0.0	1	3	4	0	0	0	0	1	5	-5
+undefined Headshot
+Quenton Jackson
+8:01	0	3	0.0	0	2	0.0	1	2	50.0	0	3	3	0	0	0	0	1	1	-3
+undefined Headshot
+Tony Bradley
+DNP - Coach's Decision
+TOTALS
+ 	31	84	36.9	10	39	25.6	17	21	81.0	11	30	41	20	2	7	8	18	89	-19
+Inactive Players
+WAS: Alex Sarr, AJ Johnson, Sharife Cooper, Corey Kispert, Malaki Branham, Bilal Coulibaly
+
+IND: Obi Toppin, Tyrese Haliburton, Aaron Nesmith, Ben Sheppard, Kam Jones, Taelon Peter

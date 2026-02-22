@@ -1,0 +1,104 @@
+Brooklyn Nets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ziaire Williams
+F
+19:26	4	10	40.0	2	8	25.0	0	0	0.0	1	1	2	1	1	0	3	1	10	-17
+undefined Headshot
+Noah Clowney
+F
+21:22	2	3	66.7	2	3	66.7	0	0	0.0	0	1	1	1	0	0	3	4	6	-13
+undefined Headshot
+Nic Claxton
+C
+24:47	3	4	75.0	0	0	0.0	1	2	50.0	1	3	4	3	0	0	1	3	7	-26
+undefined Headshot
+Terance Mann
+G
+21:05	2	8	25.0	0	4	0.0	0	0	0.0	0	1	1	1	2	0	2	1	4	-12
+undefined Headshot
+Tyrese Martin
+G
+23:49	4	10	40.0	1	5	20.0	0	0	0.0	1	5	6	1	0	0	1	1	9	-21
+undefined Headshot
+Ben Saraf
+29:19	4	8	50.0	2	4	50.0	0	0	0.0	0	0	0	7	0	1	3	0	10	-3
+undefined Headshot
+Danny Wolf
+30:17	8	16	50.0	5	9	55.6	1	1	100	1	3	4	4	0	1	2	2	22	-9
+undefined Headshot
+Day'Ron Sharpe
+23:13	2	6	33.3	1	2	50.0	2	6	33.3	1	6	7	2	0	1	1	1	7	9
+undefined Headshot
+Drake Powell
+20:44	0	1	0.0	0	1	0.0	3	3	100	0	2	2	1	0	1	1	1	3	7
+undefined Headshot
+Jalen Wilson
+16:08	4	8	50.0	1	4	25.0	4	5	80.0	0	3	3	2	1	0	0	1	13	-8
+undefined Headshot
+Tyson Etienne
+4:55	2	2	100	2	2	100	0	0	0.0	0	0	0	0	0	0	1	1	6	4
+undefined Headshot
+E.J. Liddell
+4:55	1	1	100	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	0	2	4
+TOTALS
+ 	36	77	46.8	16	42	38.1	11	17	64.7	6	25	31	23	4	4	18	16	99	-17
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+AJ Green
+F
+23:08	5	7	71.4	5	7	71.4	0	0	0.0	0	3	3	5	0	0	1	1	15	29
+undefined Headshot
+Giannis Antetokounmpo
+F
+18:59	12	15	80.0	1	2	50.0	4	8	50.0	3	5	8	2	2	0	2	2	29	27
+undefined Headshot
+Myles Turner
+C
+22:09	4	7	57.1	1	4	25.0	1	1	100	0	3	3	2	0	1	0	2	10	25
+undefined Headshot
+Kevin Porter Jr.
+G
+24:32	4	10	40.0	3	5	60.0	2	2	100	2	2	4	6	1	1	1	1	13	10
+undefined Headshot
+Ryan Rollins
+G
+31:00	4	10	40.0	1	5	20.0	1	2	50.0	1	1	2	4	4	0	2	1	10	30
+undefined Headshot
+Gary Trent Jr.
+25:16	2	9	22.2	1	8	12.5	0	0	0.0	1	1	2	1	0	0	1	0	5	-6
+undefined Headshot
+Kyle Kuzma
+22:27	3	5	60.0	1	1	100	4	4	100	0	1	1	3	3	0	1	2	11	6
+undefined Headshot
+Bobby Portis
+20:56	5	10	50.0	3	5	60.0	0	0	0.0	1	5	6	0	0	0	2	2	13	-4
+undefined Headshot
+Jericho Sims
+23:19	1	1	100	0	0	0.0	0	0	0.0	3	5	8	2	0	0	2	3	2	-17
+undefined Headshot
+Gary Harris
+11:34	0	4	0.0	0	1	0.0	0	0	0.0	1	4	5	4	2	0	0	0	0	7
+undefined Headshot
+Andre Jackson Jr.
+4:55	1	1	100	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	0	2	-4
+undefined Headshot
+Cole Anthony
+4:55	1	2	50.0	0	0	0.0	0	0	0.0	0	0	0	1	1	0	0	1	2	-4
+undefined Headshot
+Amir Coffey
+3:52	1	2	50.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	2	-7
+undefined Headshot
+Thanasis Antetokounmpo
+2:58	1	1	100	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	2	-7
+TOTALS
+ 	44	84	52.4	16	39	41.0	12	17	70.6	12	31	43	31	13	2	12	16	116	17
+Inactive Players
+BKN: Nolan Traore, Egor Demin, Michael Porter Jr., Haywood Highsmith, Cam Thomas
+
+MIL: Taurean Prince, Alex Antetokounmpo, Pete Nance, Mark Sears

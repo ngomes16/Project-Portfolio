@@ -1,0 +1,107 @@
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Bilal Coulibaly
+F
+26:00	1	6	16.7	0	5	0.0	7	8	87.5	0	3	3	2	2	0	1	2	9	-19
+undefined Headshot
+Khris Middleton
+F
+24:05	1	6	16.7	0	3	0.0	0	0	0.0	0	2	2	4	0	1	2	1	2	-7
+undefined Headshot
+Tristan Vukcevic
+C
+17:13	2	6	33.3	0	2	0.0	0	0	0.0	2	1	3	1	1	0	2	1	4	-15
+undefined Headshot
+Kyshawn George
+G
+28:58	2	7	28.6	1	4	25.0	0	0	0.0	1	2	3	4	0	2	5	3	5	-22
+undefined Headshot
+CJ McCollum
+G
+25:52	8	15	53.3	2	7	28.6	2	3	66.7	0	3	3	3	1	0	2	2	20	-11
+undefined Headshot
+Cam Whitmore
+17:04	5	9	55.6	1	2	50.0	0	0	0.0	1	1	2	0	1	0	1	1	11	-15
+undefined Headshot
+Tre Johnson
+19:26	5	8	62.5	3	5	60.0	1	2	50.0	0	2	2	2	0	1	1	0	14	-20
+undefined Headshot
+Bub Carrington
+16:13	3	5	60.0	1	2	50.0	0	0	0.0	1	1	2	3	0	0	1	6	7	-20
+undefined Headshot
+Corey Kispert
+18:50	3	6	50.0	2	4	50.0	1	2	50.0	0	3	3	1	1	0	0	0	9	-17
+undefined Headshot
+Justin Champagnie
+18:17	3	6	50.0	0	2	0.0	1	1	100	1	2	3	4	2	0	0	3	7	-2
+undefined Headshot
+Jamir Watkins
+9:18	1	3	33.3	1	2	50.0	2	2	100	0	0	0	0	0	0	0	2	5	-2
+undefined Headshot
+Will Riley
+9:16	2	5	40.0	0	1	0.0	0	0	0.0	0	1	1	2	1	0	1	0	4	-2
+undefined Headshot
+Malaki Branham
+4:44	2	3	66.7	1	2	50.0	4	4	100	0	1	1	0	0	0	1	0	9	1
+undefined Headshot
+Anthony Gill
+4:44	1	1	100	0	0	0.0	2	2	100	1	0	1	0	0	0	0	1	4	1
+undefined Headshot
+Sharife Cooper
+DNP - Coach's Decision
+TOTALS
+ 	39	86	45.3	12	41	29.3	20	24	83.3	7	22	29	26	9	4	17	22	110	-30
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+29:53	6	12	50.0	0	3	0.0	12	13	92.3	0	8	8	6	2	1	4	1	24	25
+undefined Headshot
+Scottie Barnes
+F
+29:54	10	15	66.7	3	4	75.0	0	0	0.0	0	5	5	2	3	0	2	3	23	14
+undefined Headshot
+Jakob Poeltl
+C
+19:11	1	1	100	0	0	0.0	1	2	50.0	4	5	9	1	0	1	1	3	3	9
+undefined Headshot
+RJ Barrett
+G
+29:14	9	15	60.0	2	5	40.0	4	8	50.0	1	7	8	4	0	0	2	2	24	15
+undefined Headshot
+Immanuel Quickley
+G
+30:06	6	10	60.0	3	6	50.0	2	2	100	0	2	2	7	1	1	0	1	17	17
+undefined Headshot
+Ja'Kobe Walter
+22:16	1	2	50.0	1	1	100	0	0	0.0	3	0	3	2	3	0	0	2	3	20
+undefined Headshot
+Sandro Mamukelashvili
+20:53	8	15	53.3	2	3	66.7	5	6	83.3	5	2	7	2	1	0	1	1	23	22
+undefined Headshot
+Jamal Shead
+16:12	2	2	100	2	2	100	1	2	50.0	0	1	1	10	1	1	0	2	7	19
+undefined Headshot
+Gradey Dick
+18:59	2	6	33.3	0	2	0.0	2	2	100	0	1	1	1	2	0	2	1	6	8
+undefined Headshot
+Ochai Agbaji
+15:58	1	3	33.3	0	1	0.0	2	2	100	0	1	1	0	0	0	0	1	4	7
+undefined Headshot
+Garrett Temple
+3:42	1	1	100	1	1	100	1	2	50.0	0	1	1	1	0	0	1	1	4	-3
+undefined Headshot
+Jamison Battle
+3:42	1	1	100	0	0	0.0	0	0	0.0	0	2	2	0	0	0	1	2	2	-3
+TOTALS
+ 	48	83	57.8	14	28	50.0	30	39	76.9	13	35	48	36	13	4	14	20	140	30
+Inactive Players
+WAS: Alex Sarr, AJ Johnson, Marvin Bagley III
+
+TOR: Jonathan Mogbo, Collin Murray-Boyles, Alijah Martin, Chucky Hepburn, A.J. Lawson

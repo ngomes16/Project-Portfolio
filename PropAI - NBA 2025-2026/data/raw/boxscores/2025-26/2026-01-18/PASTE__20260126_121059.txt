@@ -1,0 +1,101 @@
+Orlando Magic
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Franz Wagner
+F
+25:56	5	13	38.5	0	2	0.0	4	4	100	1	3	4	3	0	0	0	3	14	-20
+undefined Headshot
+Paolo Banchero
+F
+36:02	7	20	35.0	1	4	25.0	1	1	100	2	6	8	9	0	0	4	0	16	-7
+undefined Headshot
+Wendell Carter Jr.
+C
+32:58	6	11	54.5	4	7	57.1	2	2	100	2	5	7	4	2	2	1	3	18	-15
+undefined Headshot
+Desmond Bane
+G
+36:30	4	12	33.3	1	4	25.0	2	2	100	3	1	4	3	2	1	2	4	11	-20
+undefined Headshot
+Anthony Black
+G
+37:06	7	15	46.7	2	6	33.3	3	4	75.0	0	2	2	6	0	0	4	3	19	-14
+undefined Headshot
+Tristan da Silva
+18:28	2	5	40.0	0	1	0.0	0	0	0.0	0	3	3	0	0	1	0	0	4	-7
+undefined Headshot
+Goga Bitadze
+15:02	4	4	100	0	0	0.0	1	1	100	2	4	6	1	0	2	2	0	9	-2
+undefined Headshot
+Jase Richardson
+20:29	5	8	62.5	1	3	33.3	0	0	0.0	1	3	4	3	0	0	1	5	11	7
+undefined Headshot
+Tyus Jones
+3:08	0	1	0.0	0	1	0.0	0	0	0.0	1	1	2	1	0	0	0	1	0	-6
+undefined Headshot
+Noah Penda
+7:35	1	4	25.0	1	4	25.0	2	2	100	0	2	2	0	1	0	0	1	5	-9
+undefined Headshot
+Jonathan Isaac
+3:23	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	2	0	0	4
+undefined Headshot
+Jamal Cain
+3:23	1	1	100	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	2	4
+undefined Headshot
+Moritz Wagner
+DND - Injury/Illness
+TOTALS
+ 	42	95	44.2	10	33	30.3	15	16	93.8	12	30	42	30	5	6	17	20	109	-17
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Wells
+F
+20:40	3	5	60.0	3	4	75.0	1	2	50.0	1	1	2	0	0	0	0	0	10	2
+undefined Headshot
+Jaren Jackson Jr.
+F
+30:09	7	15	46.7	2	4	50.0	1	1	100	0	5	5	0	1	2	2	3	17	17
+undefined Headshot
+Santi Aldama
+C
+25:10	3	5	60.0	0	1	0.0	3	6	50.0	0	5	5	3	0	0	0	1	9	23
+undefined Headshot
+Cedric Coward
+G
+23:12	6	10	60.0	0	3	0.0	1	1	100	1	3	4	3	0	0	1	2	13	18
+undefined Headshot
+Ja Morant
+G
+28:24	7	13	53.8	3	4	75.0	7	9	77.8	0	5	5	13	1	0	2	2	24	26
+undefined Headshot
+Kentavious Caldwell-Pope
+17:11	3	8	37.5	1	4	25.0	0	0	0.0	0	1	1	1	3	0	1	2	7	6
+undefined Headshot
+Jock Landale
+22:39	9	11	81.8	1	2	50.0	2	2	100	6	2	8	3	1	2	2	3	21	4
+undefined Headshot
+Vince Williams Jr.
+19:36	2	8	25.0	1	6	16.7	0	0	0.0	0	5	5	2	2	0	1	1	5	-9
+undefined Headshot
+John Konchar
+16:52	1	3	33.3	0	1	0.0	1	2	50.0	0	3	3	3	4	1	0	4	3	-4
+undefined Headshot
+Cam Spencer
+18:22	4	6	66.7	2	4	50.0	0	0	0.0	0	0	0	3	0	0	1	0	10	-4
+undefined Headshot
+GG Jackson
+17:45	3	7	42.9	0	2	0.0	1	2	50.0	1	3	4	0	0	2	2	0	7	6
+undefined Headshot
+Scotty Pippen Jr.
+DND - Injury/Illness
+TOTALS
+ 	48	91	52.7	13	35	37.1	17	25	68.0	9	33	42	31	12	7	12	18	126	17
+Inactive Players
+ORL: Jalen Suggs, Colin Castleton, Orlando Robinson, Jett Howard
+
+MEM: Brandon Clarke, Ty Jerome, Zach Edey, Olivier-Maxence Prosper, Javon Small, Jahmai Mashack

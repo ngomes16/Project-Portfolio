@@ -1,0 +1,6 @@
+
+[all]
+flask>=3.0.0
+
+[web]
+flask>=3.0.0

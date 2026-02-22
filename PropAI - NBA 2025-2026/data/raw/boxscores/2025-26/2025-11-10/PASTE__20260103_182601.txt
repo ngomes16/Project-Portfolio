@@ -1,0 +1,107 @@
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Gary Trent Jr.
+F
+26:56	1	4	25.0	1	3	33.3	0	0	0.0	0	2	2	1	1	1	1	1	3	2
+undefined Headshot
+Giannis Antetokounmpo
+F
+37:23	11	18	61.1	1	2	50.0	7	12	58.3	3	5	8	6	1	3	5	5	30	12
+undefined Headshot
+Myles Turner
+C
+27:52	3	12	25.0	1	7	14.3	7	7	100	1	6	7	2	1	1	1	3	14	-11
+undefined Headshot
+AJ Green
+G
+27:10	4	9	44.4	4	8	50.0	1	1	100	0	5	5	2	1	0	0	5	13	11
+undefined Headshot
+Ryan Rollins
+G
+32:43	5	13	38.5	2	4	50.0	1	1	100	0	4	4	8	2	1	1	5	13	13
+undefined Headshot
+Cole Anthony
+16:45	2	7	28.6	0	0	0.0	0	0	0.0	1	4	5	3	1	0	4	0	4	-16
+undefined Headshot
+Amir Coffey
+10:10	0	2	0.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	0	1	0	-7
+undefined Headshot
+Kyle Kuzma
+31:37	10	17	58.8	2	6	33.3	4	4	100	1	4	5	2	1	0	0	5	26	-5
+undefined Headshot
+Bobby Portis
+27:19	5	8	62.5	3	5	60.0	0	0	0.0	2	5	7	0	0	0	0	1	13	13
+undefined Headshot
+Gary Harris
+2:05	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	1	0	1	0	0	-2
+undefined Headshot
+Thanasis Antetokounmpo
+DNP - Coach's Decision
+undefined Headshot
+Andre Jackson Jr.
+DNP - Coach's Decision
+undefined Headshot
+Mark Sears
+DNP - Coach's Decision
+undefined Headshot
+Jericho Sims
+DNP - Coach's Decision
+TOTALS
+ 	41	91	45.1	14	36	38.9	20	25	80.0	8	36	44	24	9	6	13	26	116	2
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+34:46	9	15	60.0	1	5	20.0	7	10	70.0	2	7	9	4	2	1	1	2	26	-7
+undefined Headshot
+P.J. Washington
+F
+22:27	4	11	36.4	1	7	14.3	7	10	70.0	1	6	7	1	1	1	3	4	16	-16
+undefined Headshot
+Daniel Gafford
+C
+23:23	2	8	25.0	0	0	0.0	3	4	75.0	5	3	8	3	1	0	1	4	7	-5
+undefined Headshot
+Max Christie
+G
+30:24	5	12	41.7	3	8	37.5	0	0	0.0	0	5	5	3	0	3	1	1	13	1
+undefined Headshot
+Brandon Williams
+G
+33:10	4	12	33.3	1	3	33.3	10	11	90.9	3	3	6	3	1	0	4	2	19	3
+undefined Headshot
+Moussa Cisse
+19:41	3	4	75.0	0	0	0.0	1	2	50.0	2	2	4	0	0	2	0	1	7	-2
+undefined Headshot
+Naji Marshall
+25:09	4	8	50.0	0	4	0.0	1	2	50.0	0	5	5	3	1	0	1	2	9	7
+undefined Headshot
+D'Angelo Russell
+16:17	2	6	33.3	1	3	33.3	2	2	100	1	2	3	3	1	0	1	0	7	-3
+undefined Headshot
+Klay Thompson
+16:45	2	7	28.6	2	7	28.6	0	0	0.0	0	2	2	3	0	1	0	0	6	11
+undefined Headshot
+Dwight Powell
+3:58	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	6
+undefined Headshot
+Jaden Hardy
+4:35	1	3	33.3	0	2	0.0	0	0	0.0	0	1	1	0	0	0	2	2	2	-4
+undefined Headshot
+Caleb Martin
+9:25	1	2	50.0	0	0	0.0	0	0	0.0	2	0	2	2	1	0	0	3	2	-1
+undefined Headshot
+Ryan Nembhard
+DNP - Coach's Decision
+TOTALS
+ 	37	89	41.6	9	39	23.1	31	41	75.6	16	36	52	25	8	8	14	22	114	-2
+Inactive Players
+MIL: Taurean Prince, Kevin Porter Jr., Alex Antetokounmpo, Pete Nance
+
+DAL: Dereck Lively II, Miles Kelly, Kyrie Irving, Anthony Davis, Dante Exum

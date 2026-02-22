@@ -1,0 +1,107 @@
+Atlanta Hawks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Vít Krejčí
+F
+20:45	3	5	60.0	2	4	50.0	0	0	0.0	0	1	1	1	0	1	0	0	8	2
+undefined Headshot
+Jalen Johnson
+F
+37:55	4	9	44.4	0	3	0.0	4	4	100	0	11	11	6	0	0	6	3	12	3
+undefined Headshot
+Onyeka Okongwu
+C
+36:50	10	21	47.6	5	15	33.3	1	1	100	3	6	9	2	3	1	4	5	26	-19
+undefined Headshot
+Dyson Daniels
+G
+33:24	5	9	55.6	0	0	0.0	0	0	0.0	0	5	5	1	1	0	1	1	10	-13
+undefined Headshot
+Nickeil Alexander-Walker
+G
+29:22	2	6	33.3	2	4	50.0	5	6	83.3	2	4	6	7	1	0	3	3	11	-4
+undefined Headshot
+Mouhamed Gueye
+21:15	2	6	33.3	2	5	40.0	0	0	0.0	0	3	3	2	2	1	0	4	6	-16
+undefined Headshot
+CJ McCollum
+28:42	6	15	40.0	1	6	16.7	7	11	63.6	1	2	3	4	1	1	1	2	20	-2
+undefined Headshot
+Luke Kennard
+18:38	2	5	40.0	1	3	33.3	0	0	0.0	0	0	0	0	1	0	1	1	5	-24
+undefined Headshot
+Corey Kispert
+13:11	1	5	20.0	1	4	25.0	0	0	0.0	1	1	2	0	1	0	2	0	3	-7
+undefined Headshot
+Asa Newell
+DNP - Coach's Decision
+undefined Headshot
+Zaccharie Risacher
+DND - Injury/Illness
+undefined Headshot
+Keaton Wallace
+DNP - Coach's Decision
+TOTALS
+ 	35	81	43.2	14	44	31.8	17	22	77.3	7	33	40	23	10	4	18	19	101	-16
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Sidy Cissoko
+F
+21:58	2	7	28.6	2	5	40.0	0	0	0.0	2	1	3	1	1	0	0	3	6	-4
+undefined Headshot
+Toumani Camara
+F
+38:08	5	15	33.3	1	9	11.1	0	0	0.0	1	3	4	1	0	0	1	1	11	-1
+undefined Headshot
+Donovan Clingan
+C
+28:25	3	8	37.5	0	3	0.0	3	7	42.9	6	6	12	1	0	0	1	2	9	-8
+undefined Headshot
+Shaedon Sharpe
+G
+33:12	8	15	53.3	2	5	40.0	6	6	100	2	7	9	5	2	0	5	1	24	0
+undefined Headshot
+Jrue Holiday
+G
+20:32	5	11	45.5	1	4	25.0	1	2	50.0	1	3	4	4	3	0	1	0	12	7
+undefined Headshot
+Caleb Love
+25:39	5	12	41.7	2	6	33.3	0	0	0.0	0	3	3	4	3	0	3	1	12	6
+undefined Headshot
+Jerami Grant
+23:00	4	9	44.4	1	4	25.0	7	9	77.8	0	2	2	3	0	2	1	4	16	16
+undefined Headshot
+Robert Williams III
+19:34	3	4	75.0	0	0	0.0	0	0	0.0	2	9	11	2	1	2	0	0	6	22
+undefined Headshot
+Rayan Rupert
+16:13	5	7	71.4	3	4	75.0	0	0	0.0	1	2	3	2	3	0	2	2	13	22
+undefined Headshot
+Duop Reath
+13:20	3	7	42.9	2	6	33.3	0	0	0.0	1	2	3	0	0	1	0	1	8	20
+undefined Headshot
+Deni Avdija
+DND - Injury/Illness
+undefined Headshot
+Scoot Henderson
+DNP - Injury/Illness
+undefined Headshot
+Kris Murray
+DND - Injury/Illness
+undefined Headshot
+Matisse Thybulle
+DND - Injury/Illness
+undefined Headshot
+Hansen Yang
+DNP - Coach's Decision
+TOTALS
+ 	43	95	45.3	14	46	30.4	17	24	70.8	16	38	54	23	13	5	14	15	117	16
+Inactive Players
+ATL: Kristaps Porzingis, Caleb Houstan, Nikola Djurisic, N'Faly Dante, RayJ Dennis
+
+POR: Damian Lillard, Javonte Cooke, Blake Wesley

@@ -1,0 +1,113 @@
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jerami Grant
+F
+39:23	7	20	35.0	4	9	44.4	8	10	80.0	2	3	5	2	0	0	1	4	26	-7
+undefined Headshot
+Toumani Camara
+F
+40:31	5	13	38.5	1	7	14.3	0	0	0.0	4	6	10	3	1	0	2	4	11	-4
+undefined Headshot
+Donovan Clingan
+C
+27:54	6	11	54.5	2	6	33.3	2	2	100	7	4	11	2	0	2	0	4	16	-9
+undefined Headshot
+Shaedon Sharpe
+G
+38:31	12	32	37.5	3	9	33.3	9	11	81.8	2	2	4	6	1	0	3	5	36	-3
+undefined Headshot
+Deni Avdija
+G
+39:07	10	20	50.0	2	7	28.6	7	7	100	2	4	6	7	0	2	4	6	29	-11
+undefined Headshot
+Kris Murray
+32:13	2	2	100	2	2	100	0	0	0.0	2	3	5	2	3	0	0	2	6	-1
+undefined Headshot
+Sidy Cissoko
+11:41	0	2	0.0	0	1	0.0	1	2	50.0	1	1	2	1	0	0	1	3	1	0
+undefined Headshot
+Robert Williams III
+16:38	3	5	60.0	0	0	0.0	0	0	0.0	2	3	5	1	2	1	0	1	6	5
+undefined Headshot
+Caleb Love
+14:15	1	6	16.7	0	4	0.0	0	0	0.0	0	2	2	2	1	0	0	1	2	-1
+undefined Headshot
+Rayan Rupert
+4:46	0	2	0.0	0	2	0.0	0	0	0.0	0	3	3	0	0	0	0	2	0	6
+undefined Headshot
+Scoot Henderson
+DND - Injury/Illness
+undefined Headshot
+Jrue Holiday
+DND - Injury/Illness
+undefined Headshot
+Damian Lillard
+DND - Injury/Illness
+undefined Headshot
+Duop Reath
+DNP - Coach's Decision
+undefined Headshot
+Matisse Thybulle
+DND - Injury/Illness
+TOTALS
+ 	46	113	40.7	14	47	29.8	27	32	84.4	22	31	53	26	8	5	11	32	133	-5
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+37:06	9	16	56.3	1	3	33.3	2	3	66.7	2	6	8	5	1	2	0	3	21	10
+undefined Headshot
+P.J. Washington
+F
+38:20	7	16	43.8	5	7	71.4	2	4	50.0	1	6	7	2	1	0	5	1	21	4
+undefined Headshot
+Daniel Gafford
+C
+31:11	6	8	75.0	0	0	0.0	8	10	80.0	3	3	6	2	1	3	0	4	20	11
+undefined Headshot
+Max Christie
+G
+28:19	4	7	57.1	3	6	50.0	3	4	75.0	0	4	4	4	1	0	1	0	14	-2
+undefined Headshot
+Brandon Williams
+G
+30:44	5	10	50.0	0	1	0.0	5	6	83.3	1	2	3	6	1	0	1	1	15	4
+undefined Headshot
+Dereck Lively II
+11:52	1	2	50.0	0	0	0.0	0	0	0.0	1	2	3	1	0	2	2	6	2	-7
+undefined Headshot
+Naji Marshall
+27:04	3	6	50.0	0	2	0.0	3	6	50.0	3	6	9	3	2	0	2	1	9	-8
+undefined Headshot
+D'Angelo Russell
+22:16	4	11	36.4	1	4	25.0	3	4	75.0	0	2	2	7	0	0	2	0	12	1
+undefined Headshot
+Klay Thompson
+25:40	7	16	43.8	5	11	45.5	0	0	0.0	1	2	3	2	0	1	1	2	19	11
+undefined Headshot
+Moussa Cisse
+7:24	2	3	66.7	0	0	0.0	1	3	33.3	1	0	1	0	0	1	0	2	5	-3
+undefined Headshot
+Caleb Martin
+5:04	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	2	0	4
+undefined Headshot
+Jaden Hardy
+DNP - Coach's Decision
+undefined Headshot
+Miles Kelly
+DNP - Coach's Decision
+undefined Headshot
+Dwight Powell
+DNP - Coach's Decision
+TOTALS
+ 	48	95	50.5	15	34	44.1	27	40	67.5	13	34	47	33	7	9	14	22	138	5
+Inactive Players
+POR: Blake Wesley, Javonte Cooke, Hansen Yang
+
+DAL: Kyrie Irving, Anthony Davis, Dante Exum, Ryan Nembhard

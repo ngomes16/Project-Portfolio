@@ -1,0 +1,899 @@
+{% extends "base.html" %}
+
+{% block title %}Projections - NBA Props Predictor{% endblock %}
+{% block page_title %}Projections & Props{% endblock %}
+
+{% block extra_css %}
+<style>
+    .injury-panel {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .injury-panel h4 {
+        font-size: 0.875rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .injury-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .injury-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 0.75rem;
+        background: var(--bg-tertiary);
+        border-radius: 8px;
+        font-size: 0.8125rem;
+    }
+    
+    .injury-item .player-name {
+        font-weight: 500;
+    }
+    
+    .injury-status {
+        font-size: 0.75rem;
+        padding: 0.125rem 0.5rem;
+        border-radius: 4px;
+        font-weight: 600;
+    }
+    
+    .injury-status.out {
+        background: rgba(239, 68, 68, 0.15);
+        color: #ef4444;
+    }
+    
+    .injury-status.doubtful {
+        background: rgba(245, 158, 11, 0.15);
+        color: #f59e0b;
+    }
+    
+    .injury-status.questionable {
+        background: rgba(59, 130, 246, 0.15);
+        color: #3b82f6;
+    }
+    
+    .injury-status.probable {
+        background: rgba(34, 197, 94, 0.15);
+        color: #22c55e;
+    }
+    
+    .add-injury-form {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        margin-top: 0.75rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid var(--border-subtle);
+    }
+    
+    .add-injury-form input, .add-injury-form select {
+        padding: 0.375rem 0.75rem;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--bg-secondary);
+        color: var(--text);
+        font-size: 0.8125rem;
+    }
+    
+    .add-injury-form input {
+        flex: 1;
+        min-width: 120px;
+    }
+    
+    .add-injury-form select {
+        min-width: 100px;
+    }
+    
+    .add-injury-btn {
+        padding: 0.375rem 0.75rem;
+        background: var(--accent);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 0.8125rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    .add-injury-btn:hover {
+        background: var(--accent-hover);
+    }
+    
+    .remove-injury-btn {
+        background: transparent;
+        border: none;
+        color: var(--text-muted);
+        cursor: pointer;
+        padding: 0.25rem;
+        font-size: 0.75rem;
+    }
+    
+    .remove-injury-btn:hover {
+        color: var(--error);
+    }
+    
+    .injury-badge {
+        font-size: 0.625rem;
+        background: rgba(239, 68, 68, 0.15);
+        color: #ef4444;
+        padding: 0.125rem 0.375rem;
+        border-radius: 3px;
+        margin-left: 0.5rem;
+        font-weight: 600;
+    }
+    
+    .projection-row.injured {
+        opacity: 0.5;
+        text-decoration: line-through;
+    }
+    
+    .toggle-injury-btn {
+        background: transparent;
+        border: 1px solid var(--border);
+        color: var(--text-muted);
+        cursor: pointer;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.625rem;
+        border-radius: 4px;
+        margin-left: 0.5rem;
+    }
+    
+    .toggle-injury-btn:hover {
+        background: rgba(239, 68, 68, 0.1);
+        border-color: #ef4444;
+        color: #ef4444;
+    }
+    
+    .toggle-injury-btn.is-injured {
+        background: rgba(34, 197, 94, 0.1);
+        border-color: #22c55e;
+        color: #22c55e;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="projections-page" style="display: flex; flex-direction: column; gap: 1.5rem;">
+    <!-- Game Selection -->
+    <div class="card">
+        <div class="card-header">
+            <h2>Select Matchup</h2>
+        </div>
+        <div class="card-body">
+            <div class="matchup-selector">
+                <div class="form-group">
+                    <label>Away Team</label>
+                    <select id="away-team" class="form-control">
+                        <option value="">Select team...</option>
+                    </select>
+                </div>
+                <div class="vs-separator">@</div>
+                <div class="form-group">
+                    <label>Home Team</label>
+                    <select id="home-team" class="form-control">
+                        <option value="">Select team...</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary" onclick="generateProjections()">
+                    <span>🎯</span> Generate Projections
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Injury Report Panel -->
+    <div class="card" id="injury-card" style="display: none;">
+        <div class="card-header">
+            <h2>🏥 Injury Report</h2>
+            <span class="muted" style="font-size: 0.8125rem;">Injuries are factored into projections. Click a player row to toggle injury status.</span>
+        </div>
+        <div class="card-body">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+                <!-- Away Team Injuries -->
+                <div class="injury-panel">
+                    <h4><span id="away-injury-team">Away</span> Injuries</h4>
+                    <div class="injury-list" id="away-injuries">
+                        <div class="empty-state" style="padding: 1rem; text-align: center; color: var(--text-muted); font-size: 0.8125rem;">
+                            No injuries reported
+                        </div>
+                    </div>
+                    <div class="add-injury-form">
+                        <input type="text" id="away-injury-player" placeholder="Player name...">
+                        <select id="away-injury-status">
+                            <option value="OUT">OUT</option>
+                            <option value="DOUBTFUL">DOUBTFUL</option>
+                            <option value="QUESTIONABLE">QUESTIONABLE</option>
+                            <option value="PROBABLE">PROBABLE</option>
+                        </select>
+                        <button class="add-injury-btn" onclick="addInjury('away')">+ Add</button>
+                    </div>
+                </div>
+                
+                <!-- Home Team Injuries -->
+                <div class="injury-panel">
+                    <h4><span id="home-injury-team">Home</span> Injuries</h4>
+                    <div class="injury-list" id="home-injuries">
+                        <div class="empty-state" style="padding: 1rem; text-align: center; color: var(--text-muted); font-size: 0.8125rem;">
+                            No injuries reported
+                        </div>
+                    </div>
+                    <div class="add-injury-form">
+                        <input type="text" id="home-injury-player" placeholder="Player name...">
+                        <select id="home-injury-status">
+                            <option value="OUT">OUT</option>
+                            <option value="DOUBTFUL">DOUBTFUL</option>
+                            <option value="QUESTIONABLE">QUESTIONABLE</option>
+                            <option value="PROBABLE">PROBABLE</option>
+                        </select>
+                        <button class="add-injury-btn" onclick="addInjury('home')">+ Add</button>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 1rem; text-align: center;">
+                <button class="btn btn-primary" onclick="recalculateWithInjuries()">
+                    <span>🔄</span> Recalculate Projections
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Context Info -->
+    <div class="card context-card" id="context-card" style="display: none;">
+        <div class="card-body">
+            <div class="context-grid" id="context-content" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Projections Results -->
+    <div class="card" id="projections-card" style="display: none;">
+        <div class="card-header">
+            <h2>Player Projections</h2>
+            <span class="muted" style="font-size: 0.875rem;">Top 7 players per team • Adjusted for matchup</span>
+        </div>
+        <div class="card-body">
+            <div id="projections-content">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Lines Comparison -->
+    <div class="card">
+        <div class="card-header">
+            <h2>Sportsbook Lines</h2>
+        </div>
+        <div class="card-body">
+            <div class="lines-input-section" style="padding-bottom: 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border-subtle);">
+                <div class="form-group">
+                    <label>Paste Lines</label>
+                    <textarea id="lines-text" class="form-control" rows="6" style="font-family: var(--font-mono); font-size: 0.8125rem;" placeholder="Points line:
+Player Name: 22.5 -115
+Player Name: 18.5 -110
+
+Player Rebounds:
+Player Name: 8.5 -120
+..."></textarea>
+                </div>
+                <div class="form-row" style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: flex-end;">
+                    <div class="form-group" style="flex: 1; min-width: 140px;">
+                        <label>As-of Date</label>
+                        <input type="date" id="lines-date" class="form-control">
+                    </div>
+                    <div class="form-group" style="flex: 1; min-width: 140px;">
+                        <label>Book</label>
+                        <input type="text" id="lines-book" class="form-control" placeholder="e.g. DraftKings">
+                    </div>
+                    <button class="btn btn-primary" onclick="ingestLines()">Save Lines</button>
+                </div>
+            </div>
+            
+            <div class="lines-list" id="lines-list">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading saved lines...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Prop Recommendations -->
+    <div class="card" id="recommendations-card" style="display: none;">
+        <div class="card-header">
+            <h2>🎯 Recommended Props</h2>
+        </div>
+        <div class="card-body">
+            <div id="recommendations-content">
+                <!-- Filled by JS after engine is implemented -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+const teams = [
+    {abbrev: 'ATL', name: 'Atlanta Hawks'},
+    {abbrev: 'BOS', name: 'Boston Celtics'},
+    {abbrev: 'BKN', name: 'Brooklyn Nets'},
+    {abbrev: 'CHA', name: 'Charlotte Hornets'},
+    {abbrev: 'CHI', name: 'Chicago Bulls'},
+    {abbrev: 'CLE', name: 'Cleveland Cavaliers'},
+    {abbrev: 'DAL', name: 'Dallas Mavericks'},
+    {abbrev: 'DEN', name: 'Denver Nuggets'},
+    {abbrev: 'DET', name: 'Detroit Pistons'},
+    {abbrev: 'GSW', name: 'Golden State Warriors'},
+    {abbrev: 'HOU', name: 'Houston Rockets'},
+    {abbrev: 'IND', name: 'Indiana Pacers'},
+    {abbrev: 'LAC', name: 'Los Angeles Clippers'},
+    {abbrev: 'LAL', name: 'Los Angeles Lakers'},
+    {abbrev: 'MEM', name: 'Memphis Grizzlies'},
+    {abbrev: 'MIA', name: 'Miami Heat'},
+    {abbrev: 'MIL', name: 'Milwaukee Bucks'},
+    {abbrev: 'MIN', name: 'Minnesota Timberwolves'},
+    {abbrev: 'NOP', name: 'New Orleans Pelicans'},
+    {abbrev: 'NYK', name: 'New York Knicks'},
+    {abbrev: 'OKC', name: 'Oklahoma City Thunder'},
+    {abbrev: 'ORL', name: 'Orlando Magic'},
+    {abbrev: 'PHI', name: 'Philadelphia 76ers'},
+    {abbrev: 'PHX', name: 'Phoenix Suns'},
+    {abbrev: 'POR', name: 'Portland Trail Blazers'},
+    {abbrev: 'SAC', name: 'Sacramento Kings'},
+    {abbrev: 'SAS', name: 'San Antonio Spurs'},
+    {abbrev: 'TOR', name: 'Toronto Raptors'},
+    {abbrev: 'UTA', name: 'Utah Jazz'},
+    {abbrev: 'WAS', name: 'Washington Wizards'},
+];
+
+document.addEventListener('DOMContentLoaded', async () => {
+    // Populate team selects
+    const awaySelect = document.getElementById('away-team');
+    const homeSelect = document.getElementById('home-team');
+    
+    teams.forEach(t => {
+        awaySelect.innerHTML += `<option value="${t.abbrev}">${t.abbrev} - ${t.name}</option>`;
+        homeSelect.innerHTML += `<option value="${t.abbrev}">${t.abbrev} - ${t.name}</option>`;
+    });
+    
+    // Set today's date as default for lines
+    document.getElementById('lines-date').value = new Date().toISOString().split('T')[0];
+    
+    // Load existing lines
+    loadLines();
+});
+
+async function generateProjections() {
+    const away = document.getElementById('away-team').value;
+    const home = document.getElementById('home-team').value;
+    
+    if (!away || !home) {
+        showToast('Please select both teams', 'error');
+        return;
+    }
+    
+    if (away === home) {
+        showToast('Please select different teams', 'error');
+        return;
+    }
+    
+    const injuryCard = document.getElementById('injury-card');
+    const contextCard = document.getElementById('context-card');
+    const projectionsCard = document.getElementById('projections-card');
+    const recommendationsCard = document.getElementById('recommendations-card');
+    const content = document.getElementById('projections-content');
+    const contextContent = document.getElementById('context-content');
+    const recsContent = document.getElementById('recommendations-content');
+    
+    // Show injury panel
+    injuryCard.style.display = 'block';
+    
+    // Load injuries for these teams
+    await loadInjuries(away, home);
+    
+    projectionsCard.style.display = 'block';
+    content.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Generating projections with matchup analysis...</p></div>';
+    
+    try {
+        const gameDate = new Date().toISOString().split('T')[0];
+        const report = await fetchAPI('/api/projections', {
+            method: 'POST',
+            body: JSON.stringify({
+                away: away,
+                home: home,
+                date: gameDate
+            })
+        });
+        
+        // Show context info
+        contextCard.style.display = 'block';
+        contextContent.innerHTML = `
+            <div class="context-item">
+                <span class="context-label">${away} Rest</span>
+                <span class="context-value ${report.context.away_b2b ? 'warning' : ''}" style="font-family: var(--font-mono); font-weight: 600; ${report.context.away_b2b ? 'color: var(--warning);' : ''}">${report.context.away_b2b ? 'Back-to-Back' : report.context.away_rest_days + ' days'}</span>
+            </div>
+            <div class="context-item">
+                <span class="context-label">${home} Rest</span>
+                <span class="context-value ${report.context.home_b2b ? 'warning' : ''}" style="font-family: var(--font-mono); font-weight: 600; ${report.context.home_b2b ? 'color: var(--warning);' : ''}">${report.context.home_b2b ? 'Back-to-Back' : report.context.home_rest_days + ' days'}</span>
+            </div>
+            ${report.defense_ratings.home ? `
+            <div class="context-item">
+                <span class="context-label">${home} DEF (vs ${away})</span>
+                <span class="context-value" style="font-family: var(--font-mono);">PTS: ${(report.defense_ratings.home.pts_factor * 100).toFixed(0)}%</span>
+            </div>
+            ` : ''}
+            ${report.defense_ratings.away ? `
+            <div class="context-item">
+                <span class="context-label">${away} DEF (vs ${home})</span>
+                <span class="context-value" style="font-family: var(--font-mono);">PTS: ${(report.defense_ratings.away.pts_factor * 100).toFixed(0)}%</span>
+            </div>
+            ` : ''}
+        `;
+        
+        // Render projections
+        const renderTeamProjections = (projections, teamAbbrev, role) => {
+            if (!projections || projections.length === 0) {
+                return `<div class="empty-state">No projection data for ${teamAbbrev}</div>`;
+            }
+            
+            const teamName = teams.find(t => t.abbrev === teamAbbrev)?.name || teamAbbrev;
+            
+            return `
+                <div class="projection-team">
+                    <h3 style="font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <span style="color: var(--accent);">${teamAbbrev}</span>
+                        <span style="color: var(--text-secondary); font-weight: 400;">${teamName}</span>
+                        <span style="margin-left: auto; font-size: 0.75rem; background: var(--bg-tertiary); padding: 0.25rem 0.5rem; border-radius: var(--radius-sm); color: var(--text-muted);">${role}</span>
+                    </h3>
+                    <div style="overflow-x: auto;">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Player</th>
+                                    <th>MIN</th>
+                                    <th>PTS</th>
+                                    <th>REB</th>
+                                    <th>AST</th>
+                                    <th>GP</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${projections.map((p, i) => `
+                                    <tr style="${i < 7 ? 'background: var(--accent-bg);' : ''}">
+                                        <td>
+                                            <span style="font-weight: 500;">${p.player}</span>
+                                            ${i < 7 ? '<span style="margin-left: 0.5rem; font-size: 0.625rem; background: var(--accent); color: white; padding: 0.125rem 0.375rem; border-radius: 3px;">TOP 7</span>' : ''}
+                                        </td>
+                                        <td style="font-family: var(--font-mono);">${p.minutes.toFixed(0)}</td>
+                                        <td style="font-family: var(--font-mono); font-weight: 600; color: var(--accent);">${p.pts.toFixed(1)}</td>
+                                        <td style="font-family: var(--font-mono);">${p.reb.toFixed(1)}</td>
+                                        <td style="font-family: var(--font-mono);">${p.ast.toFixed(1)}</td>
+                                        <td style="font-family: var(--font-mono); color: var(--text-muted);">${p.games}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        };
+        
+        content.innerHTML = `
+            <div class="projections-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 2rem;">
+                ${renderTeamProjections(report.away_projections, away, 'Away')}
+                ${renderTeamProjections(report.home_projections, home, 'Home')}
+            </div>
+        `;
+        
+        // Show recommendations if we have lines
+        if (report.recommendations && report.recommendations.length > 0) {
+            recommendationsCard.style.display = 'block';
+            recsContent.innerHTML = `
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>Prop</th>
+                                <th>Line</th>
+                                <th>Projected</th>
+                                <th>Edge</th>
+                                <th>Rec</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${report.recommendations.map(r => `
+                                <tr style="${r.recommendation === 'OVER' ? 'background: var(--success-bg);' : r.recommendation === 'UNDER' ? 'background: var(--warning-bg);' : ''}">
+                                    <td>
+                                        <span style="font-weight: 500;">${r.player}</span>
+                                        <span style="margin-left: 0.5rem; font-size: 0.625rem; background: var(--bg-tertiary); color: var(--text-muted); padding: 0.125rem 0.375rem; border-radius: 3px;">${r.team}</span>
+                                    </td>
+                                    <td>${r.prop}</td>
+                                    <td style="font-family: var(--font-mono);">${r.line}</td>
+                                    <td style="font-family: var(--font-mono); font-weight: 600; color: var(--accent);">${r.projected.toFixed(1)}</td>
+                                    <td style="font-family: var(--font-mono); color: ${r.edge_pct > 0 ? 'var(--success)' : 'var(--error)'};">${r.edge_pct.toFixed(1)}%</td>
+                                    <td>
+                                        <span class="rec-badge rec-${r.recommendation.toLowerCase()}">${r.recommendation}</span>
+                                    </td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        } else {
+            recommendationsCard.style.display = 'block';
+            recsContent.innerHTML = `
+                <div class="empty-state">
+                    <p>No sportsbook lines found for comparison.</p>
+                    <p class="muted" style="margin-top: 0.5rem;">Add lines in the section above to get prop recommendations.</p>
+                </div>
+            `;
+        }
+        
+    } catch (e) {
+        content.innerHTML = `<div class="error-state">Failed to generate projections: ${e.message}</div>`;
+    }
+}
+
+async function loadLines() {
+    const container = document.getElementById('lines-list');
+    
+    try {
+        const data = await fetchAPI('/api/lines?limit=50');
+        
+        if (!data.lines || data.lines.length === 0) {
+            container.innerHTML = '<div class="empty-state"><p>No lines saved yet</p></div>';
+            return;
+        }
+        
+        // Group by date
+        const byDate = {};
+        data.lines.forEach(l => {
+            if (!byDate[l.as_of_date]) byDate[l.as_of_date] = [];
+            byDate[l.as_of_date].push(l);
+        });
+        
+        container.innerHTML = Object.entries(byDate).map(([date, lines]) => `
+            <div class="lines-date-group" style="margin-bottom: 1.5rem;">
+                <h4 style="font-size: 0.875rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--text-secondary);">${date}</h4>
+                <div style="overflow-x: auto;">
+                    <table class="data-table" style="font-size: 0.8125rem;">
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>Type</th>
+                                <th>Line</th>
+                                <th>Odds</th>
+                                <th>Book</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${lines.map(l => `
+                                <tr>
+                                    <td style="font-weight: 500;">${l.player}</td>
+                                    <td>${l.prop_type}</td>
+                                    <td style="font-family: var(--font-mono);">${l.line}</td>
+                                    <td style="font-family: var(--font-mono);">${l.odds_american ? (l.odds_american > 0 ? '+' : '') + l.odds_american : '-'}</td>
+                                    <td style="color: var(--text-muted);">${l.book || '-'}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `).join('');
+    } catch (e) {
+        container.innerHTML = `<div class="error-state">Failed to load lines: ${e.message}</div>`;
+    }
+}
+
+async function ingestLines() {
+    const text = document.getElementById('lines-text').value.trim();
+    const date = document.getElementById('lines-date').value;
+    const book = document.getElementById('lines-book').value.trim();
+    
+    if (!text) {
+        showToast('Please paste some lines first', 'error');
+        return;
+    }
+    
+    if (!date) {
+        showToast('Please select a date', 'error');
+        return;
+    }
+    
+    try {
+        const result = await fetchAPI('/api/ingest/lines', {
+            method: 'POST',
+            body: JSON.stringify({ text, date, book })
+        });
+        
+        if (result.success) {
+            showToast(`Saved ${result.count} lines`, 'success');
+            document.getElementById('lines-text').value = '';
+            loadLines();
+        } else {
+            showToast(result.error || 'Failed to save lines', 'error');
+        }
+    } catch (e) {
+        showToast(e.message || 'Failed to save lines', 'error');
+    }
+}
+
+// ==========================================
+// Injury Management
+// ==========================================
+
+// Store current injuries (both from DB and user-added)
+let currentInjuries = {
+    away: {},  // player_name: status
+    home: {}
+};
+
+// Store current projections for recalculation
+let currentProjections = {
+    away: [],
+    home: [],
+    report: null
+};
+
+// Load injuries for the selected teams
+async function loadInjuries(awayTeam, homeTeam) {
+    const gameDate = new Date().toISOString().split('T')[0];
+    
+    try {
+        const response = await fetchAPI(`/api/injuries?away=${awayTeam}&home=${homeTeam}&date=${gameDate}`);
+        
+        if (response.away_injuries) {
+            currentInjuries.away = response.away_injuries;
+        }
+        if (response.home_injuries) {
+            currentInjuries.home = response.home_injuries;
+        }
+        
+        renderInjuries();
+    } catch (e) {
+        console.error('Failed to load injuries:', e);
+        // Still render empty state
+        renderInjuries();
+    }
+}
+
+// Render injuries in the UI
+function renderInjuries() {
+    const away = document.getElementById('away-team').value;
+    const home = document.getElementById('home-team').value;
+    
+    document.getElementById('away-injury-team').textContent = away || 'Away';
+    document.getElementById('home-injury-team').textContent = home || 'Home';
+    
+    // Render away injuries
+    const awayList = document.getElementById('away-injuries');
+    const awayInjuries = Object.entries(currentInjuries.away);
+    
+    if (awayInjuries.length === 0) {
+        awayList.innerHTML = `
+            <div class="empty-state" style="padding: 1rem; text-align: center; color: var(--text-muted); font-size: 0.8125rem;">
+                No injuries reported
+            </div>
+        `;
+    } else {
+        awayList.innerHTML = awayInjuries.map(([player, status]) => `
+            <div class="injury-item">
+                <span class="player-name">${player}</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <span class="injury-status ${status.toLowerCase()}">${status}</span>
+                    <button class="remove-injury-btn" onclick="removeInjury('away', '${player}')" title="Remove">✕</button>
+                </div>
+            </div>
+        `).join('');
+    }
+    
+    // Render home injuries
+    const homeList = document.getElementById('home-injuries');
+    const homeInjuries = Object.entries(currentInjuries.home);
+    
+    if (homeInjuries.length === 0) {
+        homeList.innerHTML = `
+            <div class="empty-state" style="padding: 1rem; text-align: center; color: var(--text-muted); font-size: 0.8125rem;">
+                No injuries reported
+            </div>
+        `;
+    } else {
+        homeList.innerHTML = homeInjuries.map(([player, status]) => `
+            <div class="injury-item">
+                <span class="player-name">${player}</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <span class="injury-status ${status.toLowerCase()}">${status}</span>
+                    <button class="remove-injury-btn" onclick="removeInjury('home', '${player}')" title="Remove">✕</button>
+                </div>
+            </div>
+        `).join('');
+    }
+}
+
+// Add an injury
+function addInjury(side) {
+    const playerInput = document.getElementById(`${side}-injury-player`);
+    const statusSelect = document.getElementById(`${side}-injury-status`);
+    
+    const player = playerInput.value.trim();
+    const status = statusSelect.value;
+    
+    if (!player) {
+        showToast('Please enter a player name', 'error');
+        return;
+    }
+    
+    currentInjuries[side][player] = status;
+    playerInput.value = '';
+    
+    // Save to database
+    const team = document.getElementById(`${side}-team`).value;
+    const gameDate = new Date().toISOString().split('T')[0];
+    
+    fetchAPI('/api/ingest/injury', {
+        method: 'POST',
+        body: JSON.stringify({
+            date: gameDate,
+            team: team,
+            player: player,
+            status: status
+        })
+    }).then(() => {
+        showToast(`Added ${player} as ${status}`, 'success');
+    }).catch(e => {
+        console.error('Failed to save injury:', e);
+    });
+    
+    renderInjuries();
+}
+
+// Remove an injury
+function removeInjury(side, player) {
+    delete currentInjuries[side][player];
+    renderInjuries();
+    showToast(`Removed ${player} from injuries`, 'info');
+}
+
+// Toggle injury from projection table
+function togglePlayerInjury(side, playerName) {
+    if (currentInjuries[side][playerName]) {
+        delete currentInjuries[side][playerName];
+        showToast(`${playerName} marked as active`, 'success');
+    } else {
+        currentInjuries[side][playerName] = 'OUT';
+        showToast(`${playerName} marked as OUT`, 'warning');
+    }
+    
+    renderInjuries();
+    recalculateWithInjuries();
+}
+
+// Recalculate projections with current injuries
+async function recalculateWithInjuries() {
+    const away = document.getElementById('away-team').value;
+    const home = document.getElementById('home-team').value;
+    
+    if (!away || !home) {
+        showToast('Please select teams first', 'error');
+        return;
+    }
+    
+    const content = document.getElementById('projections-content');
+    content.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Recalculating with injury adjustments...</p></div>';
+    
+    try {
+        const gameDate = new Date().toISOString().split('T')[0];
+        const report = await fetchAPI('/api/projections/with-injuries', {
+            method: 'POST',
+            body: JSON.stringify({
+                away: away,
+                home: home,
+                date: gameDate,
+                injuries: currentInjuries
+            })
+        });
+        
+        // Store for later
+        currentProjections.away = report.away_projections;
+        currentProjections.home = report.home_projections;
+        currentProjections.report = report;
+        
+        // Re-render projections with injury indicators
+        renderProjectionsWithInjuries(report, away, home);
+        
+        showToast('Projections recalculated with injury adjustments', 'success');
+        
+    } catch (e) {
+        content.innerHTML = `<div class="error-state">Failed to recalculate: ${e.message}</div>`;
+    }
+}
+
+// Render projections with injury status indicators
+function renderProjectionsWithInjuries(report, away, home) {
+    const content = document.getElementById('projections-content');
+    
+    const renderTeamProjections = (projections, teamAbbrev, role, injuries) => {
+        if (!projections || projections.length === 0) {
+            return `<div class="empty-state">No projection data for ${teamAbbrev}</div>`;
+        }
+        
+        const teamName = teams.find(t => t.abbrev === teamAbbrev)?.name || teamAbbrev;
+        const side = role === 'Away' ? 'away' : 'home';
+        
+        return `
+            <div class="projection-team">
+                <h3 style="font-size: 1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <span style="color: var(--accent);">${teamAbbrev}</span>
+                    <span style="color: var(--text-secondary); font-weight: 400;">${teamName}</span>
+                    <span style="margin-left: auto; font-size: 0.75rem; background: var(--bg-tertiary); padding: 0.25rem 0.5rem; border-radius: var(--radius-sm); color: var(--text-muted);">${role}</span>
+                </h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>MIN</th>
+                                <th>PTS</th>
+                                <th>REB</th>
+                                <th>AST</th>
+                                <th>GP</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${projections.map((p, i) => {
+                                const isInjured = injuries[p.player];
+                                const injuryStatus = isInjured || '';
+                                const rowClass = isInjured === 'OUT' ? 'projection-row injured' : '';
+                                
+                                return `
+                                    <tr class="${rowClass}" style="${i < 7 && !isInjured ? 'background: var(--accent-bg);' : ''}">
+                                        <td>
+                                            <span style="font-weight: 500;">${p.player}</span>
+                                            ${i < 7 && !isInjured ? '<span style="margin-left: 0.5rem; font-size: 0.625rem; background: var(--accent); color: white; padding: 0.125rem 0.375rem; border-radius: 3px;">TOP 7</span>' : ''}
+                                            ${isInjured ? `<span class="injury-badge">${injuryStatus}</span>` : ''}
+                                        </td>
+                                        <td style="font-family: var(--font-mono);">${isInjured === 'OUT' ? '-' : p.minutes.toFixed(0)}</td>
+                                        <td style="font-family: var(--font-mono); font-weight: 600; color: var(--accent);">${isInjured === 'OUT' ? '-' : p.pts.toFixed(1)}</td>
+                                        <td style="font-family: var(--font-mono);">${isInjured === 'OUT' ? '-' : p.reb.toFixed(1)}</td>
+                                        <td style="font-family: var(--font-mono);">${isInjured === 'OUT' ? '-' : p.ast.toFixed(1)}</td>
+                                        <td style="font-family: var(--font-mono); color: var(--text-muted);">${p.games}</td>
+                                        <td>
+                                            <button class="toggle-injury-btn ${isInjured ? 'is-injured' : ''}" 
+                                                    onclick="togglePlayerInjury('${side}', '${p.player}')">
+                                                ${isInjured ? '✓ Active' : '🏥 OUT'}
+                                            </button>
+                                        </td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `;
+    };
+    
+    content.innerHTML = `
+        <div class="projections-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 2rem;">
+            ${renderTeamProjections(report.away_projections, away, 'Away', currentInjuries.away)}
+            ${renderTeamProjections(report.home_projections, home, 'Home', currentInjuries.home)}
+        </div>
+    `;
+}
+</script>
+{% endblock %}

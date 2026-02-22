@@ -1,0 +1,104 @@
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Isaac Okoro
+F
+19:30	1	3	33.3	1	1	100	0	0	0.0	1	1	2	0	3	1	0	0	3	-14
+undefined Headshot
+Matas Buzelis
+F
+33:11	9	15	60.0	2	8	25.0	4	6	66.7	1	4	5	1	2	2	0	2	24	7
+undefined Headshot
+Nikola Vučević
+C
+32:18	11	20	55.0	2	6	33.3	0	0	0.0	5	10	15	2	1	2	1	1	24	15
+undefined Headshot
+Coby White
+G
+29:46	5	13	38.5	1	5	20.0	2	2	100	2	4	6	9	0	0	3	3	13	16
+undefined Headshot
+Josh Giddey
+G
+29:59	7	15	46.7	3	7	42.9	0	0	0.0	1	5	6	7	1	0	2	2	17	8
+undefined Headshot
+Zach Collins
+18:58	4	5	80.0	3	3	100	2	2	100	0	3	3	2	0	0	3	2	13	1
+undefined Headshot
+Kevin Huerter
+20:15	6	12	50.0	2	8	25.0	0	0	0.0	1	4	5	3	2	0	0	1	14	-7
+undefined Headshot
+Ayo Dosunmu
+13:56	3	7	42.9	2	5	40.0	0	1	0.0	1	0	1	3	1	0	0	1	8	-2
+undefined Headshot
+Tre Jones
+22:06	5	7	71.4	2	2	100	4	4	100	0	1	1	6	2	0	2	1	16	18
+undefined Headshot
+Jalen Smith
+15:08	2	4	50.0	0	2	0.0	0	0	0.0	1	3	4	0	0	0	1	1	4	9
+undefined Headshot
+Patrick Williams
+4:53	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	0	4
+undefined Headshot
+Jevon Carter
+DNP - Coach's Decision
+undefined Headshot
+Julian Phillips
+DNP - Coach's Decision
+undefined Headshot
+Dalen Terry
+DNP - Coach's Decision
+TOTALS
+ 	53	102	52.0	18	47	38.3	12	15	80.0	13	35	48	34	12	5	12	14	136	11
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylon Tyson
+F
+25:45	4	10	40.0	0	3	0.0	1	1	100	1	4	5	1	1	0	5	3	9	-1
+undefined Headshot
+Dean Wade
+F
+27:54	1	4	25.0	0	2	0.0	0	0	0.0	0	5	5	1	0	0	0	0	2	-11
+undefined Headshot
+Jarrett Allen
+C
+29:45	6	9	66.7	0	0	0.0	2	2	100	4	8	12	5	2	1	1	2	14	-8
+undefined Headshot
+Tyrese Proctor
+G
+26:51	6	15	40.0	3	8	37.5	1	2	50.0	1	5	6	3	1	0	1	0	16	-10
+undefined Headshot
+Darius Garland
+G
+33:12	13	27	48.1	6	12	50.0	3	3	100	1	1	2	8	1	0	4	1	35	3
+undefined Headshot
+De'Andre Hunter
+25:47	3	10	30.0	1	4	25.0	4	5	80.0	1	2	3	1	0	0	1	5	11	-13
+undefined Headshot
+Lonzo Ball
+28:06	3	4	75.0	1	2	50.0	1	2	50.0	2	1	3	8	2	0	1	2	8	-11
+undefined Headshot
+Thomas Bryant
+16:06	4	6	66.7	1	3	33.3	2	2	100	1	3	4	2	1	0	0	2	11	1
+undefined Headshot
+Nae'Qwan Tomlin
+20:55	6	14	42.9	2	5	40.0	1	2	50.0	1	2	3	2	1	0	1	1	15	-2
+undefined Headshot
+Luke Travers
+5:39	2	2	100	0	0	0.0	0	0	0.0	1	2	3	0	1	0	1	1	4	-3
+undefined Headshot
+Donovan Mitchell
+DND - Injury/Illness
+undefined Headshot
+Craig Porter Jr.
+DND - Injury/Illness
+TOTALS
+ 	48	101	47.5	14	39	35.9	15	19	78.9	13	33	46	31	10	1	15	17	125	-11
+Inactive Players
+CHI: Emanuel Miller, Trentyn Flowers, Noa Essengue, Lachlan Olbrich
+
+CLE: Larry Nance Jr., Max Strus, Sam Merrill, Evan Mobley, Chris Livingston

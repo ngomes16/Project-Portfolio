@@ -1,0 +1,107 @@
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+33:43	6	15	40.0	0	2	0.0	0	0	0.0	3	4	7	6	2	0	4	1	12	-2
+undefined Headshot
+P.J. Washington
+F
+36:35	4	8	50.0	0	2	0.0	6	6	100	2	7	9	5	1	1	2	2	14	13
+undefined Headshot
+Daniel Gafford
+C
+18:35	4	5	80.0	0	0	0.0	0	0	0.0	0	5	5	0	0	2	2	1	8	-2
+undefined Headshot
+Max Christie
+G
+30:30	4	14	28.6	1	5	20.0	3	3	100	0	7	7	2	3	0	0	1	12	10
+undefined Headshot
+D'Angelo Russell
+G
+17:27	3	10	30.0	0	6	0.0	0	2	0.0	2	0	2	1	0	0	0	0	6	-18
+undefined Headshot
+Moussa Cisse
+19:02	2	3	66.7	0	0	0.0	1	4	25.0	4	5	9	1	0	3	2	4	5	2
+undefined Headshot
+Brandon Williams
+25:39	6	16	37.5	1	4	25.0	1	2	50.0	0	2	2	6	4	0	1	2	14	24
+undefined Headshot
+Naji Marshall
+31:01	9	14	64.3	3	4	75.0	9	11	81.8	3	5	8	2	3	0	0	2	30	6
+undefined Headshot
+Jaden Hardy
+13:46	3	5	60.0	1	1	100	1	2	50.0	1	0	1	0	0	0	1	2	8	5
+undefined Headshot
+Ryan Nembhard
+8:07	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	2	0	0	1	1	0	-7
+undefined Headshot
+Dwight Powell
+5:35	1	2	50.0	0	0	0.0	0	0	0.0	1	0	1	1	2	0	0	1	2	-1
+undefined Headshot
+Caleb Martin
+DNP - Coach's Decision
+TOTALS
+ 	42	93	45.2	6	24	25.0	21	30	70.0	16	35	51	26	15	6	13	17	111	6
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Justin Champagnie
+F
+11:54	0	0	0.0	0	0	0.0	0	0	0.0	1	4	5	0	1	0	0	4	0	11
+undefined Headshot
+Kyshawn George
+F
+28:45	3	9	33.3	2	6	33.3	2	2	100	0	2	2	3	1	0	2	6	10	-1
+undefined Headshot
+Alex Sarr
+C
+30:43	6	16	37.5	0	3	0.0	5	6	83.3	4	2	6	5	2	3	2	2	17	1
+undefined Headshot
+Tre Johnson
+G
+26:10	4	13	30.8	1	6	16.7	0	0	0.0	1	8	9	0	1	0	3	0	9	1
+undefined Headshot
+CJ McCollum
+G
+33:16	9	19	47.4	2	6	33.3	5	6	83.3	1	5	6	2	2	2	3	3	25	-11
+undefined Headshot
+Cam Whitmore
+29:15	7	13	53.8	3	6	50.0	2	2	100	0	3	3	0	0	0	0	1	19	-9
+undefined Headshot
+Marvin Bagley III
+17:17	4	7	57.1	0	0	0.0	2	2	100	3	2	5	1	0	1	2	1	10	-7
+undefined Headshot
+Bub Carrington
+28:08	2	7	28.6	2	5	40.0	3	3	100	0	3	3	2	0	0	5	1	9	-14
+undefined Headshot
+Corey Kispert
+24:20	1	3	33.3	1	2	50.0	1	2	50.0	0	1	1	2	0	1	0	1	4	-4
+undefined Headshot
+Jamir Watkins
+0:30	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	3
+undefined Headshot
+Malaki Branham
+9:42	1	2	50.0	0	1	0.0	0	0	0.0	2	2	4	2	0	0	1	2	2	0
+undefined Headshot
+Anthony Gill
+DNP - Coach's Decision
+undefined Headshot
+AJ Johnson
+DNP - Coach's Decision
+undefined Headshot
+Will Riley
+DNP - Coach's Decision
+undefined Headshot
+Tristan Vukcevic
+DNP - Coach's Decision
+TOTALS
+ 	37	89	41.6	11	35	31.4	20	23	87.0	12	32	44	17	7	7	18	21	105	-6
+Inactive Players
+DAL: Kyrie Irving, Klay Thompson, Anthony Davis, Dante Exum, Dereck Lively II, Miles Kelly
+
+WAS: Bilal Coulibaly, Sharife Cooper, Khris Middleton

@@ -1,0 +1,101 @@
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Bobby Portis
+F
+34:52	7	14	50.0	1	5	20.0	0	0	0.0	5	7	12	3	2	0	3	2	15	-23
+undefined Headshot
+Kyle Kuzma
+F
+29:46	5	10	50.0	0	2	0.0	5	7	71.4	2	6	8	2	1	1	2	3	15	-23
+undefined Headshot
+Myles Turner
+C
+28:00	2	11	18.2	2	6	33.3	2	2	100	2	1	3	1	1	0	2	3	8	-6
+undefined Headshot
+Kevin Porter Jr.
+G
+33:12	4	15	26.7	1	7	14.3	7	9	77.8	1	7	8	5	2	1	7	2	16	-17
+undefined Headshot
+AJ Green
+G
+34:46	7	13	53.8	6	11	54.5	0	0	0.0	2	0	2	1	2	0	1	3	20	-23
+undefined Headshot
+Jericho Sims
+18:34	1	2	50.0	0	0	0.0	0	0	0.0	1	4	5	0	0	0	2	4	2	2
+undefined Headshot
+Ryan Rollins
+23:26	5	12	41.7	2	4	50.0	3	5	60.0	0	4	4	5	2	0	2	5	15	-3
+undefined Headshot
+Gary Harris
+16:30	3	3	100	1	1	100	1	1	100	1	2	3	1	1	0	0	2	8	-2
+undefined Headshot
+Amir Coffey
+7:10	1	2	50.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	0	0	2	-2
+undefined Headshot
+Thanasis Antetokounmpo
+3:26	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-2
+undefined Headshot
+Pete Nance
+3:26	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	-2
+undefined Headshot
+Andre Jackson Jr.
+3:26	1	2	50.0	1	2	50.0	0	0	0.0	0	0	0	0	0	0	1	1	3	-2
+undefined Headshot
+Cole Anthony
+3:26	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	1	0	0	-2
+TOTALS
+ 	36	84	42.9	14	39	35.9	18	24	75.0	15	33	48	18	11	2	22	25	104	-21
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Wells
+F
+29:18	4	8	50.0	3	6	50.0	3	4	75.0	0	2	2	3	1	0	2	3	14	18
+undefined Headshot
+Jaren Jackson Jr.
+F
+30:06	9	18	50.0	2	6	33.3	4	6	66.7	1	8	9	1	1	5	2	3	24	3
+undefined Headshot
+Santi Aldama
+C
+30:01	4	10	40.0	1	5	20.0	3	3	100	1	6	7	3	0	1	1	0	12	3
+undefined Headshot
+Cedric Coward
+G
+24:57	5	9	55.6	3	5	60.0	2	2	100	2	3	5	2	1	0	0	2	15	-2
+undefined Headshot
+Ja Morant
+G
+25:20	6	11	54.5	0	0	0.0	5	6	83.3	0	4	4	10	1	0	4	4	17	12
+undefined Headshot
+Kentavious Caldwell-Pope
+22:06	6	10	60.0	1	3	33.3	0	0	0.0	0	2	2	2	2	1	1	2	13	21
+undefined Headshot
+Cam Spencer
+25:35	4	6	66.7	3	5	60.0	8	8	100	2	3	5	5	1	0	3	1	19	14
+undefined Headshot
+Christian Koloko
+28:23	2	3	66.7	0	0	0.0	0	0	0.0	1	2	3	1	3	1	0	1	4	23
+undefined Headshot
+GG Jackson
+21:52	3	8	37.5	0	3	0.0	1	3	33.3	0	5	5	1	2	1	0	3	7	10
+undefined Headshot
+Javon Small
+2:22	0	2	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	3
+undefined Headshot
+Jock Landale
+DNP - Injury/Illness
+undefined Headshot
+Vince Williams Jr.
+DNP - Injury/Illness
+TOTALS
+ 	43	85	50.6	13	34	38.2	26	32	81.3	7	35	42	28	12	9	13	19	125	21
+Inactive Players
+MIL: Giannis Antetokounmpo, Taurean Prince, Gary Trent Jr., Alex Antetokounmpo, Mark Sears
+
+MEM: Jahmai Mashack, Zach Edey, Olivier-Maxence Prosper, Brandon Clarke, Ty Jerome, John Konchar, Scotty Pippen Jr.

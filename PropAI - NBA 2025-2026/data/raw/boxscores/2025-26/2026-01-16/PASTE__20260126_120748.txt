@@ -1,0 +1,104 @@
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylon Tyson
+F
+38:10	13	17	76.5	7	9	77.8	6	6	100	1	4	5	4	0	0	4	1	39	4
+undefined Headshot
+Evan Mobley
+F
+36:22	6	11	54.5	1	4	25.0	2	4	50.0	3	2	5	4	1	4	4	1	15	-12
+undefined Headshot
+Jarrett Allen
+C
+33:11	4	6	66.7	0	0	0.0	2	2	100	2	5	7	1	1	0	2	4	10	5
+undefined Headshot
+Donovan Mitchell
+G
+38:51	4	13	30.8	4	7	57.1	1	2	50.0	1	8	9	12	1	0	6	1	13	-2
+undefined Headshot
+Craig Porter Jr.
+G
+22:09	1	5	20.0	0	0	0.0	0	2	0.0	2	1	3	11	0	0	1	0	2	12
+undefined Headshot
+De'Andre Hunter
+30:46	7	13	53.8	2	5	40.0	0	0	0.0	0	3	3	4	1	1	1	3	16	12
+undefined Headshot
+Nae'Qwan Tomlin
+17:38	4	9	44.4	0	2	0.0	1	1	100	1	4	5	0	0	0	0	4	9	-7
+undefined Headshot
+Lonzo Ball
+11:38	0	3	0.0	0	2	0.0	0	0	0.0	0	3	3	1	1	0	0	0	0	-1
+undefined Headshot
+Tyrese Proctor
+11:15	5	8	62.5	3	5	60.0	0	0	0.0	0	2	2	1	2	0	0	1	13	-1
+undefined Headshot
+Thomas Bryant
+DNP - Coach's Decision
+undefined Headshot
+Larry Nance Jr.
+DNP - Coach's Decision
+TOTALS
+ 	44	85	51.8	17	34	50.0	12	17	70.6	10	32	42	38	7	5	18	15	117	2
+Philadelphia 76ers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Paul George
+F
+30:18	6	12	50.0	2	6	33.3	0	0	0.0	0	4	4	5	2	0	1	1	14	9
+undefined Headshot
+Dominick Barlow
+F
+16:57	1	3	33.3	0	0	0.0	0	0	0.0	2	0	2	0	3	1	0	0	2	4
+undefined Headshot
+Joel Embiid
+C
+33:07	10	22	45.5	2	3	66.7	11	12	91.7	3	2	5	3	0	1	1	0	33	9
+undefined Headshot
+VJ Edgecombe
+G
+34:38	4	5	80.0	2	2	100	0	0	0.0	1	3	4	4	0	1	3	4	10	-6
+undefined Headshot
+Tyrese Maxey
+G
+38:40	9	23	39.1	2	8	25.0	2	2	100	1	4	5	9	5	2	2	1	22	-4
+undefined Headshot
+Quentin Grimes
+31:30	5	12	41.7	2	7	28.6	2	3	66.7	0	7	7	4	0	0	0	3	14	-4
+undefined Headshot
+Kelly Oubre Jr.
+26:07	4	7	57.1	2	5	40.0	2	2	100	2	0	2	1	1	0	1	3	12	-7
+undefined Headshot
+Jabari Walker
+3:38	0	2	0.0	0	1	0.0	0	0	0.0	0	2	2	0	0	0	0	0	0	-5
+undefined Headshot
+Adem Bona
+14:53	2	3	66.7	0	0	0.0	0	0	0.0	2	2	4	0	0	3	1	2	4	-11
+undefined Headshot
+Trendon Watford
+10:12	2	2	100	0	0	0.0	0	0	0.0	2	0	2	2	0	0	1	1	4	5
+undefined Headshot
+Andre Drummond
+DNP - Coach's Decision
+undefined Headshot
+Justin Edwards
+DNP - Coach's Decision
+undefined Headshot
+Eric Gordon
+DNP - Coach's Decision
+undefined Headshot
+Kyle Lowry
+DNP - Coach's Decision
+undefined Headshot
+Jared McCain
+DNP - Coach's Decision
+TOTALS
+ 	43	91	47.3	12	32	37.5	17	19	89.5	13	24	37	28	11	8	10	15	115	-2
+Inactive Players
+CLE: Luke Travers, Chris Livingston, Max Strus, Darius Garland, Dean Wade, Sam Merrill
+
+PHI: MarJon Beauchamp, Johni Broome

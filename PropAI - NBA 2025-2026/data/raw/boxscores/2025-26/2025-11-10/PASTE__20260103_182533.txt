@@ -1,0 +1,98 @@
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Marcus Smart
+F
+36:35	4	9	44.4	3	7	42.9	2	2	100	2	2	4	5	7	0	3	1	13	15
+undefined Headshot
+Rui Hachimura
+F
+35:36	9	12	75.0	3	3	100	0	0	0.0	2	1	3	2	1	0	1	1	21	13
+undefined Headshot
+Deandre Ayton
+C
+32:56	7	10	70.0	0	0	0.0	0	0	0.0	3	3	6	0	0	0	3	3	14	2
+undefined Headshot
+Austin Reaves
+G
+29:25	7	17	41.2	2	10	20.0	8	11	72.7	0	5	5	7	2	0	1	2	24	18
+undefined Headshot
+Luka Dončić
+G
+38:25	14	28	50.0	5	15	33.3	5	5	100	1	5	6	7	1	0	2	4	38	16
+undefined Headshot
+Jake LaRavia
+24:53	2	8	25.0	0	3	0.0	2	2	100	1	0	1	3	1	0	0	4	6	-9
+undefined Headshot
+Dalton Knecht
+11:07	1	4	25.0	1	1	100	0	0	0.0	2	3	5	0	0	1	0	1	3	-9
+undefined Headshot
+Jaxson Hayes
+14:53	1	2	50.0	0	0	0.0	0	0	0.0	1	4	5	0	0	1	0	2	2	4
+undefined Headshot
+Jarred Vanderbilt
+16:10	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	1	4	0	0
+undefined Headshot
+Bronny James
+DNP - Coach's Decision
+undefined Headshot
+Maxi Kleber
+DNP - Coach's Decision
+undefined Headshot
+Adou Thiero
+DND - Injury/Illness
+TOTALS
+ 	45	90	50.0	14	39	35.9	17	20	85.0	12	24	36	25	12	2	11	22	121	10
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+38:04	6	11	54.5	2	6	33.3	5	5	100	2	8	10	9	1	0	3	1	19	-4
+undefined Headshot
+Miles Bridges
+F
+40:01	11	19	57.9	7	12	58.3	5	6	83.3	2	6	8	5	1	1	2	4	34	-15
+undefined Headshot
+Ryan Kalkbrenner
+C
+19:17	3	4	75.0	0	0	0.0	3	3	100	3	1	4	0	0	0	4	4	9	-10
+undefined Headshot
+Sion James
+G
+24:34	2	5	40.0	2	3	66.7	1	2	50.0	0	1	1	1	0	1	2	2	7	-15
+undefined Headshot
+Collin Sexton
+G
+25:33	4	9	44.4	1	3	33.3	4	4	100	0	0	0	3	1	0	4	4	13	-16
+undefined Headshot
+KJ Simpson
+20:06	3	6	50.0	2	4	50.0	0	0	0.0	0	3	3	4	0	0	3	3	8	4
+undefined Headshot
+Tre Mann
+18:03	2	6	33.3	2	5	40.0	0	0	0.0	1	1	2	5	0	0	2	1	6	3
+undefined Headshot
+Moussa Diabaté
+28:43	4	4	100	0	0	0.0	0	0	0.0	1	2	3	1	2	3	0	2	8	0
+undefined Headshot
+Liam McNeeley
+17:40	2	7	28.6	1	3	33.3	2	2	100	0	1	1	0	0	1	1	4	7	-2
+undefined Headshot
+Pat Connaughton
+7:59	0	0	0.0	0	0	0.0	0	0	0.0	0	5	5	0	1	0	1	0	0	5
+undefined Headshot
+Mason Plumlee
+DNP - Coach's Decision
+undefined Headshot
+Antonio Reeves
+DNP - Coach's Decision
+TOTALS
+ 	37	71	52.1	17	36	47.2	20	22	90.9	9	28	37	28	6	6	22	25	111	-10
+Inactive Players
+LAL: Chris Manon, Nick Smith Jr., LeBron James, Gabe Vincent, Christian Koloko
+
+CHA: Grant Williams, LaMelo Ball, Josh Green, Brandon Miller, Drew Peterson, Tidjane Salaun

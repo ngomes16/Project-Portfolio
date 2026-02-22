@@ -1,0 +1,101 @@
+Philadelphia 76ers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Dominick Barlow
+F
+17:37	5	7	71.4	0	1	0.0	1	1	100	4	0	4	1	0	1	0	3	11	7
+undefined Headshot
+Paul George
+F
+33:05	2	10	20.0	1	6	16.7	2	2	100	0	6	6	4	1	0	1	3	7	16
+undefined Headshot
+Andre Drummond
+C
+32:18	4	7	57.1	3	4	75.0	3	3	100	2	11	13	1	0	1	1	3	14	9
+undefined Headshot
+VJ Edgecombe
+G
+38:04	10	18	55.6	3	6	50.0	0	0	0.0	2	1	3	4	2	1	1	2	23	13
+undefined Headshot
+Tyrese Maxey
+G
+37:49	11	24	45.8	6	12	50.0	2	2	100	0	2	2	9	1	0	3	4	30	7
+undefined Headshot
+Quentin Grimes
+17:51	1	4	25.0	1	4	25.0	2	2	100	0	1	1	1	1	1	2	1	5	-4
+undefined Headshot
+Jabari Walker
+13:48	0	3	0.0	0	2	0.0	3	4	75.0	0	1	1	0	0	1	0	1	3	-6
+undefined Headshot
+Jared McCain
+21:03	4	10	40.0	1	2	50.0	3	3	100	0	3	3	1	0	0	1	1	12	-1
+undefined Headshot
+Adem Bona
+14:46	1	1	100	0	0	0.0	1	2	50.0	2	0	2	0	0	3	1	4	3	-1
+undefined Headshot
+Justin Edwards
+13:39	2	4	50.0	2	4	50.0	2	2	100	0	1	1	0	2	0	0	2	8	5
+undefined Headshot
+Eric Gordon
+DNP - Coach's Decision
+undefined Headshot
+Kyle Lowry
+DNP - Coach's Decision
+TOTALS
+ 	40	88	45.5	17	41	41.5	19	21	90.5	10	26	36	21	7	8	10	24	116	9
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+OG Anunoby
+F
+31:52	1	9	11.1	0	4	0.0	0	0	0.0	2	1	3	1	0	1	2	2	2	-11
+undefined Headshot
+Josh Hart
+F
+33:50	2	7	28.6	1	3	33.3	0	0	0.0	2	8	10	6	1	0	3	1	5	-12
+undefined Headshot
+Karl-Anthony Towns
+C
+35:20	7	15	46.7	1	5	20.0	7	9	77.8	3	8	11	1	0	0	3	4	22	-7
+undefined Headshot
+Mikal Bridges
+G
+37:04	9	16	56.3	3	7	42.9	0	0	0.0	3	4	7	5	0	0	2	2	21	-10
+undefined Headshot
+Jalen Brunson
+G
+36:50	7	22	31.8	1	7	14.3	7	8	87.5	3	3	6	9	0	0	0	3	22	-11
+undefined Headshot
+Mitchell Robinson
+26:03	7	8	87.5	0	0	0.0	7	8	87.5	6	10	16	1	1	2	1	2	21	2
+undefined Headshot
+Jordan Clarkson
+15:50	4	6	66.7	1	2	50.0	0	0	0.0	2	0	2	0	1	0	3	2	9	0
+undefined Headshot
+Guerschon Yabusele
+4:29	1	1	100	1	1	100	0	0	0.0	0	0	0	1	0	0	0	0	3	5
+undefined Headshot
+Mohamed Diawara
+3:16	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-5
+undefined Headshot
+Tyler Kolek
+15:27	1	3	33.3	0	2	0.0	0	0	0.0	0	2	2	2	0	0	4	5	2	4
+undefined Headshot
+Tosan Evbuomwan
+DNP - Coach's Decision
+undefined Headshot
+Ariel Hukporti
+DNP - Coach's Decision
+undefined Headshot
+Trey Jemison III
+DNP - Coach's Decision
+TOTALS
+ 	39	88	44.3	8	32	25.0	21	25	84.0	21	36	57	26	3	3	18	21	107	-9
+Inactive Players
+PHI: Joel Embiid, Kelly Oubre Jr., Trendon Watford, Johni Broome, Hunter Sallis
+
+NYK: Pacome Dadiet, Kevin McCullar Jr., Landry Shamet, Miles McBride

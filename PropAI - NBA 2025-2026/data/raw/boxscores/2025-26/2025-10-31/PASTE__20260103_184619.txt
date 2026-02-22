@@ -1,0 +1,101 @@
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Marcus Smart
+F
+34:46	5	8	62.5	1	4	25.0	1	1	100	0	3	3	4	2	0	3	3	12	12
+undefined Headshot
+Rui Hachimura
+F
+38:05	2	4	50.0	2	4	50.0	3	4	75.0	0	3	3	1	1	1	1	4	9	7
+undefined Headshot
+Deandre Ayton
+C
+16:43	4	6	66.7	0	0	0.0	1	1	100	0	0	0	0	0	0	1	0	9	-17
+undefined Headshot
+Austin Reaves
+G
+36:09	5	14	35.7	2	8	25.0	9	9	100	0	4	4	4	1	0	2	2	21	15
+undefined Headshot
+Luka Dončić
+G
+38:50	14	27	51.9	6	15	40.0	10	13	76.9	1	11	12	6	0	0	5	3	44	-2
+undefined Headshot
+Jake LaRavia
+23:14	5	8	62.5	1	3	33.3	2	3	66.7	1	4	5	2	3	0	1	0	13	-4
+undefined Headshot
+Jaxson Hayes
+23:21	1	2	50.0	0	0	0.0	0	2	0.0	1	6	7	5	0	1	0	1	2	15
+undefined Headshot
+Dalton Knecht
+15:19	2	5	40.0	1	3	33.3	0	0	0.0	1	1	2	1	1	0	0	2	5	-10
+undefined Headshot
+Jarred Vanderbilt
+13:36	1	2	50.0	0	1	0.0	0	0	0.0	1	3	4	1	0	1	0	1	2	9
+undefined Headshot
+Bronny James
+DNP - Coach's Decision
+undefined Headshot
+Nick Smith Jr.
+DNP - Coach's Decision
+TOTALS
+ 	39	76	51.3	13	38	34.2	26	33	78.8	5	35	40	24	8	3	13	16	117	5
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kentavious Caldwell-Pope
+F
+24:21	4	7	57.1	2	4	50.0	2	2	100	0	2	2	5	0	0	1	0	12	5
+undefined Headshot
+Jaren Jackson Jr.
+F
+31:30	6	8	75.0	2	2	100	1	2	50.0	0	4	4	1	0	0	2	6	15	-4
+undefined Headshot
+Jock Landale
+C
+25:23	6	8	75.0	2	2	100	2	2	100	1	4	5	1	1	0	0	4	16	0
+undefined Headshot
+Jaylen Wells
+G
+26:50	7	16	43.8	2	9	22.2	0	1	0.0	4	3	7	0	0	0	0	2	16	-3
+undefined Headshot
+Ja Morant
+G
+30:58	3	14	21.4	0	6	0.0	2	2	100	0	1	1	7	1	0	1	1	8	-4
+undefined Headshot
+Santi Aldama
+26:24	3	12	25.0	1	5	20.0	0	0	0.0	4	6	10	4	1	0	2	2	7	-9
+undefined Headshot
+Cedric Coward
+26:12	4	11	36.4	0	4	0.0	5	6	83.3	4	6	10	3	3	0	2	2	13	-13
+undefined Headshot
+Cam Spencer
+18:37	3	6	50.0	2	5	40.0	4	4	100	0	0	0	3	2	0	1	2	12	1
+undefined Headshot
+Vince Williams Jr.
+17:02	3	9	33.3	1	6	16.7	0	0	0.0	0	2	2	2	1	0	2	5	7	-1
+undefined Headshot
+John Konchar
+12:44	2	2	100	2	2	100	0	0	0.0	0	1	1	2	0	0	0	1	6	3
+undefined Headshot
+Charles Bassey
+DNP - Coach's Decision
+undefined Headshot
+PJ Hall
+DNP - Coach's Decision
+undefined Headshot
+Olivier-Maxence Prosper
+DNP - Coach's Decision
+undefined Headshot
+Javon Small
+DNP - Coach's Decision
+TOTALS
+ 	41	93	44.1	14	45	31.1	16	19	84.2	13	29	42	28	9	0	11	25	112	-5
+Inactive Players
+LAL: Adou Thiero, Chris Manon, Christian Koloko, LeBron James, Maxi Kleber, Gabe Vincent
+
+MEM: Brandon Clarke, Ty Jerome, Scotty Pippen Jr., GG Jackson, Zach Edey

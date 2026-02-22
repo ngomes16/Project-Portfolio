@@ -1,0 +1,98 @@
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Wells
+F
+32:30	5	16	31.3	0	6	0.0	2	2	100	1	3	4	0	3	1	5	4	12	-17
+undefined Headshot
+Jaren Jackson Jr.
+F
+31:35	2	8	25.0	1	2	50.0	6	8	75.0	0	3	3	1	2	1	0	2	11	-11
+undefined Headshot
+Jock Landale
+C
+25:46	4	9	44.4	2	4	50.0	1	2	50.0	3	7	10	3	0	0	2	2	11	3
+undefined Headshot
+Cedric Coward
+G
+24:47	5	10	50.0	2	4	50.0	4	6	66.7	3	5	8	6	0	1	0	0	16	1
+undefined Headshot
+Cam Spencer
+G
+34:47	4	11	36.4	3	6	50.0	3	3	100	1	4	5	8	1	0	4	1	14	-3
+undefined Headshot
+Kentavious Caldwell-Pope
+20:41	5	6	83.3	5	6	83.3	1	2	50.0	1	2	3	4	0	0	3	0	16	-11
+undefined Headshot
+Olivier-Maxence Prosper
+17:24	3	5	60.0	2	4	50.0	0	0	0.0	0	1	1	0	0	0	2	3	8	-18
+undefined Headshot
+Jahmai Mashack
+5:50	0	0	0.0	0	0	0.0	0	0	0.0	0	2	2	2	1	0	2	0	0	-9
+undefined Headshot
+Santi Aldama
+24:40	4	13	30.8	1	5	20.0	0	0	0.0	1	6	7	1	0	0	2	1	9	-13
+undefined Headshot
+GG Jackson
+12:30	2	5	40.0	2	4	50.0	0	0	0.0	0	2	2	0	1	1	1	0	6	0
+undefined Headshot
+Christian Koloko
+9:30	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	1	0	1	0	-2
+undefined Headshot
+Vince Williams Jr.
+DND - Injury/Illness
+TOTALS
+ 	34	83	41.0	18	41	43.9	17	23	73.9	10	36	46	26	8	5	21	14	103	-16
+Oklahoma City Thunder
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Luguentz Dort
+F
+30:24	5	9	55.6	3	6	50.0	0	0	0.0	1	3	4	0	3	3	0	3	13	13
+undefined Headshot
+Jalen Williams
+F
+34:15	10	20	50.0	1	6	16.7	3	4	75.0	2	4	6	2	0	0	2	1	24	15
+undefined Headshot
+Branden Carlson
+C
+24:44	4	7	57.1	3	6	50.0	0	0	0.0	1	2	3	2	0	0	2	1	11	-4
+undefined Headshot
+Cason Wallace
+G
+29:08	3	8	37.5	2	4	50.0	0	0	0.0	1	2	3	1	1	0	0	0	8	12
+undefined Headshot
+Shai Gilgeous-Alexander
+G
+35:39	11	20	55.0	3	4	75.0	6	6	100	0	10	10	8	4	1	5	3	31	13
+undefined Headshot
+Kenrich Williams
+25:00	5	9	55.6	1	3	33.3	0	0	0.0	1	5	6	3	4	0	0	2	11	21
+undefined Headshot
+Isaiah Joe
+20:03	1	5	20.0	1	5	20.0	2	2	100	0	2	2	1	0	0	1	4	5	0
+undefined Headshot
+Brooks Barnhizer
+16:24	0	2	0.0	0	1	0.0	0	0	0.0	0	3	3	1	0	0	0	0	0	9
+undefined Headshot
+Ajay Mitchell
+22:12	7	13	53.8	1	3	33.3	1	2	50.0	3	6	9	2	2	0	3	4	16	-1
+undefined Headshot
+Chris Youngblood
+2:12	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+undefined Headshot
+Ousmane Dieng
+DND - Injury/Illness
+undefined Headshot
+Aaron Wiggins
+DND - Injury/Illness
+TOTALS
+ 	46	94	48.9	15	39	38.5	12	14	85.7	9	37	46	20	14	4	13	18	119	16
+Inactive Players
+MEM: Ja Morant, Brandon Clarke, Ty Jerome, John Konchar, Scotty Pippen Jr., Zach Edey, Javon Small
+
+OKC: Nikola Topic, Thomas Sorber, Alex Caruso, Isaiah Hartenstein, Chet Holmgren, Jaylin Williams

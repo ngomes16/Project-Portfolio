@@ -1,0 +1,98 @@
+Denver Nuggets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Peyton Watson
+F
+30:25	4	9	44.4	1	2	50.0	1	5	20.0	1	7	8	1	0	1	4	0	10	10
+undefined Headshot
+Spencer Jones
+F
+24:37	3	5	60.0	2	4	50.0	0	0	0.0	1	1	2	1	2	0	1	5	8	14
+undefined Headshot
+Nikola Jokić
+C
+34:50	11	16	68.8	4	8	50.0	2	3	66.7	0	9	9	11	1	0	4	2	28	6
+undefined Headshot
+Cameron Johnson
+G
+38:38	2	7	28.6	1	5	20.0	3	4	75.0	1	3	4	3	0	0	0	4	8	9
+undefined Headshot
+Jamal Murray
+G
+35:28	14	25	56.0	2	9	22.2	4	4	100	0	3	3	5	1	0	0	1	34	14
+undefined Headshot
+Tim Hardaway Jr.
+26:55	3	6	50.0	2	4	50.0	6	6	100	0	1	1	2	2	0	0	1	14	7
+undefined Headshot
+Bruce Brown
+19:54	0	3	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	2	0	-12
+undefined Headshot
+Jalen Pickett
+16:03	2	3	66.7	1	2	50.0	0	0	0.0	1	3	4	3	1	0	0	2	5	-6
+undefined Headshot
+Jonas Valančiūnas
+13:10	4	9	44.4	0	0	0.0	0	0	0.0	1	3	4	3	1	1	1	2	8	3
+undefined Headshot
+Curtis Jones
+DNP - Coach's Decision
+undefined Headshot
+Zeke Nnaji
+DNP - Coach's Decision
+undefined Headshot
+Hunter Tyson
+DNP - Coach's Decision
+TOTALS
+ 	43	83	51.8	13	35	37.1	16	22	72.7	5	30	35	29	8	2	10	19	115	9
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+33:28	5	13	38.5	2	10	20.0	2	2	100	1	3	4	4	1	0	2	3	14	-14
+undefined Headshot
+Miles Bridges
+F
+36:54	10	19	52.6	0	6	0.0	4	6	66.7	2	7	9	8	1	0	3	1	24	-11
+undefined Headshot
+Ryan Kalkbrenner
+C
+24:31	3	4	75.0	0	0	0.0	0	0	0.0	0	6	6	0	0	2	1	6	6	-10
+undefined Headshot
+Brandon Miller
+G
+29:32	5	19	26.3	4	10	40.0	3	3	100	3	2	5	5	1	1	5	2	17	-12
+undefined Headshot
+KJ Simpson
+G
+29:18	6	14	42.9	2	8	25.0	2	4	50.0	1	4	5	1	1	0	0	0	16	-14
+undefined Headshot
+Mason Plumlee
+21:55	1	2	50.0	0	0	0.0	2	2	100	1	5	6	2	1	0	1	4	4	3
+undefined Headshot
+Sion James
+25:52	2	6	33.3	1	5	20.0	2	2	100	1	1	2	1	1	0	1	3	7	1
+undefined Headshot
+Liam McNeeley
+19:33	4	5	80.0	4	5	80.0	1	2	50.0	0	4	4	2	1	0	0	1	13	4
+undefined Headshot
+Antonio Reeves
+3:07	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	8
+undefined Headshot
+Tidjane Salaün
+15:51	2	3	66.7	1	2	50.0	0	0	0.0	1	5	6	1	0	0	0	2	5	0
+undefined Headshot
+Drew Peterson
+DNP - Coach's Decision
+undefined Headshot
+Collin Sexton
+DND - Injury/Illness
+TOTALS
+ 	38	85	44.7	14	46	30.4	16	21	76.2	10	37	47	24	7	3	13	22	106	-9
+Inactive Players
+DEN: DaRon Holmes II, Tamar Bates, Aaron Gordon, Julian Strawther, Christian Braun
+
+CHA: Pat Connaughton, Grant Williams, LaMelo Ball, Josh Green, Tre Mann, Moussa Diabate

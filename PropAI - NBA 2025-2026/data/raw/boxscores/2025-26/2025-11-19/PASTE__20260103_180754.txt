@@ -1,0 +1,101 @@
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Mikal Bridges
+F
+35:03	7	13	53.8	1	5	20.0	1	2	50.0	1	4	5	6	3	2	2	1	16	-3
+undefined Headshot
+Karl-Anthony Towns
+F
+34:50	6	16	37.5	1	6	16.7	5	9	55.6	4	10	14	6	2	0	3	4	18	4
+undefined Headshot
+Mitchell Robinson
+C
+21:33	1	1	100	0	0	0.0	1	6	16.7	3	5	8	1	0	1	1	2	3	-12
+undefined Headshot
+Landry Shamet
+G
+23:07	3	6	50.0	2	3	66.7	1	3	33.3	1	2	3	1	1	1	1	1	9	-10
+undefined Headshot
+Jalen Brunson
+G
+34:46	11	23	47.8	2	7	28.6	4	6	66.7	0	3	3	5	1	1	1	4	28	13
+undefined Headshot
+Josh Hart
+30:02	5	10	50.0	3	4	75.0	3	4	75.0	3	7	10	5	1	1	1	5	16	8
+undefined Headshot
+Guerschon Yabusele
+16:52	2	7	28.6	0	5	0.0	0	0	0.0	1	1	2	1	0	1	0	1	4	15
+undefined Headshot
+Miles McBride
+21:45	4	12	33.3	3	10	30.0	0	0	0.0	0	0	0	2	0	2	0	2	11	-8
+undefined Headshot
+Jordan Clarkson
+20:17	2	5	40.0	0	2	0.0	4	5	80.0	3	1	4	0	0	0	0	1	8	2
+undefined Headshot
+Mohamed Diawara
+1:46	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	1	0	1	0	1
+undefined Headshot
+Pacôme Dadiet
+DNP - Coach's Decision
+undefined Headshot
+Ariel Hukporti
+DNP - Coach's Decision
+undefined Headshot
+Tyler Kolek
+DNP - Coach's Decision
+TOTALS
+ 	41	93	44.1	12	42	28.6	19	35	54.3	16	33	49	27	8	10	9	22	113	2
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Klay Thompson
+F
+26:32	5	11	45.5	3	9	33.3	0	0	0.0	0	2	2	2	0	0	0	3	13	-4
+undefined Headshot
+P.J. Washington
+F
+33:26	1	12	8.3	1	5	20.0	3	4	75.0	2	8	10	4	3	0	1	3	6	-6
+undefined Headshot
+Dereck Lively II
+C
+17:42	1	3	33.3	0	0	0.0	2	2	100	5	5	10	1	0	3	1	1	4	10
+undefined Headshot
+Max Christie
+G
+37:21	5	10	50.0	3	6	50.0	2	2	100	0	7	7	1	1	0	3	4	15	-1
+undefined Headshot
+Brandon Williams
+G
+20:25	2	11	18.2	1	6	16.7	4	4	100	1	1	2	4	1	0	3	4	9	-7
+undefined Headshot
+D'Angelo Russell
+24:40	9	15	60.0	4	7	57.1	1	2	50.0	0	5	5	7	1	0	3	2	23	13
+undefined Headshot
+Daniel Gafford
+24:36	2	3	66.7	0	0	0.0	3	4	75.0	2	6	8	2	0	1	1	5	7	-11
+undefined Headshot
+Naji Marshall
+33:36	7	11	63.6	3	5	60.0	6	7	85.7	0	5	5	1	0	0	4	0	23	-11
+undefined Headshot
+Jaden Hardy
+16:23	3	9	33.3	1	6	16.7	4	5	80.0	0	1	1	1	0	1	0	4	11	9
+undefined Headshot
+Moussa Cisse
+5:19	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	-2
+undefined Headshot
+Miles Kelly
+DNP - Coach's Decision
+undefined Headshot
+Dwight Powell
+DNP - Coach's Decision
+TOTALS
+ 	35	85	41.2	16	44	36.4	25	30	83.3	10	40	50	23	6	5	17	26	111	-2
+Inactive Players
+NYK: OG Anunoby, Kevin McCullar Jr., Tosan Evbuomwan, Trey Jemison III
+
+DAL: Cooper Flagg, Ryan Nembhard, Caleb Martin, Kyrie Irving, Anthony Davis, Dante Exum

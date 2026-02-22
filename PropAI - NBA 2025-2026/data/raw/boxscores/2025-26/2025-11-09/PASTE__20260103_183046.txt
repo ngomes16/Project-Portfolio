@@ -1,0 +1,107 @@
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Durant
+F
+37:21	11	15	73.3	2	2	100	7	9	77.8	0	3	3	7	0	0	3	2	31	2
+undefined Headshot
+Jabari Smith Jr.
+F
+31:10	5	15	33.3	3	9	33.3	3	4	75.0	1	8	9	1	0	0	2	2	16	25
+undefined Headshot
+Alperen Sengun
+C
+39:40	10	15	66.7	1	1	100	2	3	66.7	4	7	11	7	0	0	5	5	23	21
+undefined Headshot
+Amen Thompson
+G
+37:29	6	13	46.2	0	1	0.0	2	3	66.7	4	4	8	5	3	1	3	2	14	0
+undefined Headshot
+Josh Okogie
+G
+17:05	0	3	0.0	0	2	0.0	0	0	0.0	0	1	1	1	0	1	0	1	0	6
+undefined Headshot
+Reed Sheppard
+29:12	6	10	60.0	4	6	66.7	0	0	0.0	0	0	0	2	4	1	2	2	16	3
+undefined Headshot
+Steven Adams
+22:18	5	7	71.4	0	0	0.0	2	2	100	5	1	6	1	0	0	1	2	12	-3
+undefined Headshot
+Tari Eason
+18:56	3	8	37.5	0	5	0.0	0	0	0.0	2	6	8	0	0	0	0	2	6	-12
+undefined Headshot
+Clint Capela
+6:49	2	4	50.0	0	0	0.0	0	0	0.0	4	0	4	0	1	0	1	1	4	-7
+undefined Headshot
+JD Davison
+DNP - Coach's Decision
+undefined Headshot
+Jeff Green
+DNP - Coach's Decision
+undefined Headshot
+Aaron Holiday
+DNP - Coach's Decision
+undefined Headshot
+Jae'Sean Tate
+DNP - Coach's Decision
+TOTALS
+ 	48	90	53.3	10	26	38.5	16	21	76.2	20	30	50	24	8	3	17	19	122	7
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Gary Trent Jr.
+F
+29:27	3	6	50.0	3	5	60.0	0	0	0.0	0	2	2	1	2	0	0	2	9	-21
+undefined Headshot
+Giannis Antetokounmpo
+F
+35:38	14	25	56.0	0	1	0.0	9	14	64.3	4	4	8	3	0	1	3	0	37	0
+undefined Headshot
+Myles Turner
+C
+33:43	6	11	54.5	1	3	33.3	0	2	0.0	1	5	6	1	3	3	1	4	13	-17
+undefined Headshot
+AJ Green
+G
+26:26	1	5	20.0	1	5	20.0	0	0	0.0	0	1	1	4	2	0	2	3	3	-6
+undefined Headshot
+Ryan Rollins
+G
+30:07	7	12	58.3	3	6	50.0	2	3	66.7	1	1	2	5	1	0	2	3	19	-15
+undefined Headshot
+Amir Coffey
+13:37	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	1	0	3
+undefined Headshot
+Kyle Kuzma
+29:36	4	7	57.1	3	6	50.0	0	0	0.0	0	1	1	1	0	1	0	3	11	4
+undefined Headshot
+Cole Anthony
+17:53	5	9	55.6	1	2	50.0	1	1	100	0	5	5	6	0	1	4	1	12	8
+undefined Headshot
+Bobby Portis
+23:33	4	4	100	1	1	100	2	4	50.0	0	1	1	4	3	0	1	3	11	9
+undefined Headshot
+Thanasis Antetokounmpo
+DNP - Coach's Decision
+undefined Headshot
+Gary Harris
+DNP - Coach's Decision
+undefined Headshot
+Andre Jackson Jr.
+DNP - Coach's Decision
+undefined Headshot
+Mark Sears
+DNP - Coach's Decision
+undefined Headshot
+Jericho Sims
+DNP - Coach's Decision
+TOTALS
+ 	44	79	55.7	13	29	44.8	14	24	58.3	7	20	27	25	11	6	13	20	115	-7
+Inactive Players
+HOU: Isaiah Crawford, Kevon Harris, Dorian Finney-Smith, Fred VanVleet
+
+MIL: Taurean Prince, Kevin Porter Jr., Alex Antetokounmpo, Pete Nance

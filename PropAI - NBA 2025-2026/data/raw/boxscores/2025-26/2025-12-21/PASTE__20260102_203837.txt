@@ -1,0 +1,110 @@
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kyle Kuzma
+F
+32:10	3	5	60.0	0	1	0.0	6	8	75.0	1	9	10	4	0	0	4	3	12	-9
+undefined Headshot
+Bobby Portis
+F
+39:04	7	17	41.2	2	6	33.3	0	0	0.0	4	7	11	1	1	0	3	3	16	6
+undefined Headshot
+Myles Turner
+C
+37:39	4	11	36.4	3	8	37.5	2	2	100	1	4	5	4	0	0	0	2	13	-12
+undefined Headshot
+AJ Green
+G
+23:26	1	8	12.5	1	8	12.5	1	1	100	1	2	3	2	0	0	2	1	4	-9
+undefined Headshot
+Kevin Porter Jr.
+G
+37:16	8	17	47.1	3	9	33.3	5	6	83.3	2	8	10	9	4	1	6	2	24	-5
+undefined Headshot
+Jericho Sims
+19:12	4	4	100	0	0	0.0	1	1	100	1	5	6	2	1	0	1	2	9	0
+undefined Headshot
+Gary Trent Jr.
+17:47	2	11	18.2	2	7	28.6	0	0	0.0	0	2	2	0	0	0	0	0	6	3
+undefined Headshot
+Gary Harris
+10:42	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	6
+undefined Headshot
+Ryan Rollins
+22:44	6	14	42.9	2	6	33.3	2	2	100	1	3	4	5	0	1	0	1	16	5
+undefined Headshot
+Thanasis Antetokounmpo
+DNP - Coach's Decision
+undefined Headshot
+Cole Anthony
+DNP - Coach's Decision
+undefined Headshot
+Amir Coffey
+DNP - Coach's Decision
+undefined Headshot
+Andre Jackson Jr.
+DNP - Coach's Decision
+undefined Headshot
+Pete Nance
+DNP - Coach's Decision
+TOTALS
+ 	35	87	40.2	13	45	28.9	17	20	85.0	11	40	51	27	6	2	16	15	100	-3
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+8:50	0	4	0.0	0	1	0.0	0	0	0.0	0	1	1	1	0	0	0	2	0	-12
+undefined Headshot
+Julius Randle
+F
+32:21	4	9	44.4	0	2	0.0	4	5	80.0	1	6	7	2	2	0	2	3	12	-6
+undefined Headshot
+Rudy Gobert
+C
+39:18	5	7	71.4	0	0	0.0	1	4	25.0	6	12	18	3	1	1	0	2	11	-4
+undefined Headshot
+Anthony Edwards
+G
+36:40	7	24	29.2	2	11	18.2	8	12	66.7	2	2	4	6	0	1	1	1	24	0
+undefined Headshot
+Donte DiVincenzo
+G
+33:09	7	11	63.6	4	8	50.0	0	0	0.0	0	5	5	4	2	0	3	2	18	0
+undefined Headshot
+Naz Reid
+28:55	5	12	41.7	2	8	25.0	0	0	0.0	1	5	6	2	1	0	4	2	12	17
+undefined Headshot
+Terrence Shannon Jr.
+12:12	4	7	57.1	3	5	60.0	0	0	0.0	0	0	0	0	1	0	0	1	11	4
+undefined Headshot
+Bones Hyland
+18:33	3	7	42.9	1	5	20.0	2	2	100	0	0	0	4	1	0	0	3	9	1
+undefined Headshot
+Mike Conley
+23:54	2	6	33.3	2	5	40.0	0	0	0.0	1	4	5	6	1	2	0	0	6	16
+undefined Headshot
+Jaylen Clark
+6:08	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	1	0	0	2	0	-1
+undefined Headshot
+Rob Dillingham
+DNP - Coach's Decision
+undefined Headshot
+Joe Ingles
+DNP - Coach's Decision
+undefined Headshot
+Johnny Juzang
+DNP - Coach's Decision
+undefined Headshot
+Leonard Miller
+DNP - Coach's Decision
+TOTALS
+ 	37	88	42.0	14	46	30.4	15	23	65.2	11	35	46	28	10	4	10	18	103	3
+Inactive Players
+MIL: Giannis Antetokounmpo, Taurean Prince, Alex Antetokounmpo, Mark Sears
+
+MIN: Enrique Freeman, Joan Beringer, Rocco Zikarsky

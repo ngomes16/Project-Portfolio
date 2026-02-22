@@ -1,0 +1,110 @@
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+33:14	10	20	50.0	1	7	14.3	8	10	80.0	1	5	6	2	0	2	1	0	29	-14
+undefined Headshot
+Scottie Barnes
+F
+29:01	6	14	42.9	0	2	0.0	2	2	100	2	2	4	7	0	0	3	0	14	-29
+undefined Headshot
+Sandro Mamukelashvili
+C
+32:42	5	9	55.6	3	6	50.0	0	0	0.0	4	7	11	2	2	1	1	4	13	-7
+undefined Headshot
+Ochai Agbaji
+G
+25:39	4	9	44.4	0	3	0.0	0	0	0.0	0	3	3	0	2	0	1	3	8	-10
+undefined Headshot
+Immanuel Quickley
+G
+32:34	6	13	46.2	4	4	100	9	9	100	1	3	4	5	2	1	1	3	25	-4
+undefined Headshot
+Jonathan Mogbo
+10:51	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	1	0	0	0	0	0
+undefined Headshot
+Gradey Dick
+18:28	2	6	33.3	0	1	0.0	1	1	100	0	4	4	3	1	1	0	2	5	-2
+undefined Headshot
+Jamal Shead
+19:10	2	8	25.0	2	7	28.6	0	0	0.0	0	0	0	4	0	0	1	1	6	-27
+undefined Headshot
+Ja'Kobe Walter
+17:58	5	7	71.4	2	4	50.0	3	3	100	0	0	0	1	0	0	1	2	15	0
+undefined Headshot
+Jamison Battle
+9:33	0	3	0.0	0	2	0.0	0	0	0.0	0	0	0	1	0	0	0	1	0	-4
+undefined Headshot
+A.J. Lawson
+7:00	0	1	0.0	0	0	0.0	2	2	100	0	1	1	0	1	0	0	0	2	-7
+undefined Headshot
+Garrett Temple
+3:50	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	1	1	0	2	0	0	-1
+undefined Headshot
+Collin Murray-Boyles
+DND - Injury/Illness
+TOTALS
+ 	40	91	44.0	12	36	33.3	25	27	92.6	8	25	33	26	10	5	11	16	117	-21
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kyshawn George
+F
+28:28	9	13	69.2	3	5	60.0	2	3	66.7	1	5	6	3	0	1	3	5	23	16
+undefined Headshot
+Khris Middleton
+F
+19:20	3	7	42.9	0	2	0.0	0	0	0.0	0	5	5	2	1	0	1	1	6	10
+undefined Headshot
+Alex Sarr
+C
+23:53	7	9	77.8	1	1	100	0	0	0.0	1	2	3	2	1	3	1	2	15	11
+undefined Headshot
+Bilal Coulibaly
+G
+25:58	8	14	57.1	1	4	25.0	4	5	80.0	2	6	8	1	3	1	2	3	21	5
+undefined Headshot
+CJ McCollum
+G
+30:47	8	16	50.0	3	8	37.5	2	2	100	0	3	3	4	0	0	1	2	21	8
+undefined Headshot
+Tre Johnson
+19:37	4	8	50.0	0	3	0.0	4	4	100	0	1	1	3	0	0	2	1	12	3
+undefined Headshot
+Bub Carrington
+22:01	5	8	62.5	4	7	57.1	1	2	50.0	1	3	4	4	0	0	0	2	15	17
+undefined Headshot
+Justin Champagnie
+22:12	3	4	75.0	2	2	100	0	0	0.0	1	6	7	2	1	1	0	2	8	10
+undefined Headshot
+Marvin Bagley III
+21:36	3	4	75.0	0	0	0.0	0	0	0.0	0	5	5	2	0	1	0	3	6	7
+undefined Headshot
+Will Riley
+15:59	3	7	42.9	0	0	0.0	2	2	100	0	2	2	2	1	0	0	1	8	6
+undefined Headshot
+Malaki Branham
+2:36	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	1	0	3	3
+undefined Headshot
+Jamir Watkins
+2:31	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	1	0	0	0	0	3
+undefined Headshot
+Tristan Vukcevic
+2:31	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	1	1	0	3
+undefined Headshot
+AJ Johnson
+2:31	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	3
+undefined Headshot
+Anthony Gill
+DNP - Coach's Decision
+TOTALS
+ 	54	91	59.3	15	33	45.5	15	18	83.3	6	40	46	26	8	7	13	23	138	21
+Inactive Players
+TOR: Jakob Poeltl, RJ Barrett, Alijah Martin, Chucky Hepburn
+
+WAS: Sharife Cooper, Corey Kispert, Cam Whitmore

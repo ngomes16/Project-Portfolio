@@ -1,0 +1,98 @@
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jabari Smith Jr.
+F
+30:49	5	12	41.7	3	6	50.0	1	2	50.0	2	7	9	2	0	0	0	4	14	10
+undefined Headshot
+Alperen Sengun
+F
+38:00	10	17	58.8	0	0	0.0	8	10	80.0	2	9	11	7	1	1	5	3	28	2
+undefined Headshot
+Steven Adams
+C
+27:59	2	6	33.3	0	0	0.0	2	2	100	6	5	11	3	0	1	2	2	6	6
+undefined Headshot
+Kevin Durant
+G
+36:31	6	18	33.3	1	6	16.7	7	8	87.5	0	3	3	3	0	0	4	2	20	6
+undefined Headshot
+Amen Thompson
+G
+40:19	6	14	42.9	0	1	0.0	0	0	0.0	3	6	9	6	5	0	1	4	12	8
+undefined Headshot
+Reed Sheppard
+22:57	5	11	45.5	2	5	40.0	0	0	0.0	1	1	2	2	1	1	0	4	12	7
+undefined Headshot
+Josh Okogie
+8:08	0	2	0.0	0	1	0.0	0	0	0.0	1	0	1	0	0	0	0	0	0	9
+undefined Headshot
+Clint Capela
+13:54	2	3	66.7	0	0	0.0	0	0	0.0	1	4	5	0	1	1	1	1	4	0
+undefined Headshot
+Aaron Holiday
+19:17	5	7	71.4	3	5	60.0	5	5	100	0	0	0	0	1	0	0	2	18	6
+undefined Headshot
+Jae'Sean Tate
+2:07	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	-4
+undefined Headshot
+JD Davison
+DNP - Coach's Decision
+undefined Headshot
+Jeff Green
+DNP - Coach's Decision
+TOTALS
+ 	41	90	45.6	9	24	37.5	23	27	85.2	16	35	51	23	9	4	13	23	114	10
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+De'Andre Hunter
+F
+30:32	6	11	54.5	5	8	62.5	8	8	100	2	2	4	2	0	0	3	3	25	-6
+undefined Headshot
+Evan Mobley
+F
+35:41	7	13	53.8	0	3	0.0	4	10	40.0	1	5	6	0	0	0	3	2	18	-10
+undefined Headshot
+Jarrett Allen
+C
+28:16	4	9	44.4	0	0	0.0	0	0	0.0	2	5	7	3	1	0	1	3	8	-9
+undefined Headshot
+Nae'Qwan Tomlin
+G
+19:38	4	10	40.0	0	5	0.0	2	4	50.0	2	0	2	0	0	0	0	1	10	-1
+undefined Headshot
+Donovan Mitchell
+G
+34:06	8	17	47.1	3	9	33.3	2	2	100	1	2	3	2	2	0	4	2	21	-18
+undefined Headshot
+Craig Porter Jr.
+25:47	4	6	66.7	1	2	50.0	0	0	0.0	1	6	7	5	0	2	1	2	9	-3
+undefined Headshot
+Lonzo Ball
+25:00	2	8	25.0	2	8	25.0	1	2	50.0	0	2	2	2	1	1	0	1	7	1
+undefined Headshot
+Dean Wade
+26:43	1	5	20.0	1	4	25.0	1	4	25.0	1	6	7	3	0	2	0	3	4	0
+undefined Headshot
+Thomas Bryant
+3:53	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	-1
+undefined Headshot
+Tyrese Proctor
+10:23	0	1	0.0	0	0	0.0	2	2	100	0	1	1	3	0	0	0	0	2	-3
+undefined Headshot
+Larry Nance Jr.
+DNP - Coach's Decision
+undefined Headshot
+Luke Travers
+DNP - Coach's Decision
+TOTALS
+ 	36	81	44.4	12	39	30.8	20	32	62.5	10	29	39	20	4	5	12	18	104	-10
+Inactive Players
+HOU: Isaiah Crawford, Dorian Finney-Smith, Fred VanVleet, Kevon Harris, Tari Eason
+
+CLE: Max Strus, Darius Garland, Sam Merrill, Chris Livingston, Jaylon Tyson

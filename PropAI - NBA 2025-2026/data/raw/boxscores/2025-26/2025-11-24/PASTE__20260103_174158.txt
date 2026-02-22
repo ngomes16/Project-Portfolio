@@ -1,0 +1,113 @@
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jerami Grant
+F
+30:55	8	18	44.4	3	7	42.9	16	19	84.2	1	3	4	4	0	1	2	1	35	39
+undefined Headshot
+Toumani Camara
+F
+31:31	5	11	45.5	3	7	42.9	0	1	0.0	2	5	7	3	2	1	2	1	13	5
+undefined Headshot
+Donovan Clingan
+C
+27:18	5	8	62.5	2	4	50.0	2	3	66.7	2	9	11	4	1	1	1	1	14	14
+undefined Headshot
+Deni Avdija
+G
+31:23	6	13	46.2	5	7	71.4	5	8	62.5	0	4	4	5	0	1	4	3	22	-1
+undefined Headshot
+Sidy Cissoko
+G
+28:15	1	4	25.0	1	4	25.0	0	0	0.0	0	1	1	2	1	0	1	1	3	3
+undefined Headshot
+Caleb Love
+26:14	5	13	38.5	3	8	37.5	0	0	0.0	1	4	5	4	0	0	2	4	13	5
+undefined Headshot
+Kris Murray
+26:43	1	3	33.3	0	2	0.0	0	0	0.0	3	2	5	0	3	0	0	2	2	-3
+undefined Headshot
+Robert Williams III
+16:04	3	5	60.0	0	1	0.0	2	2	100	3	2	5	0	1	4	0	0	8	3
+undefined Headshot
+Rayan Rupert
+16:29	1	3	33.3	0	2	0.0	0	0	0.0	0	5	5	2	0	0	1	2	2	7
+undefined Headshot
+Duop Reath
+2:34	1	1	100	1	1	100	0	0	0.0	0	1	1	0	0	0	1	0	3	-6
+undefined Headshot
+Hansen Yang
+2:34	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	-6
+undefined Headshot
+Jrue Holiday
+DND - Injury/Illness
+undefined Headshot
+Damian Lillard
+DND - Injury/Illness
+undefined Headshot
+Shaedon Sharpe
+DND - Injury/Illness
+undefined Headshot
+Matisse Thybulle
+DND - Injury/Illness
+TOTALS
+ 	36	79	45.6	18	43	41.9	25	33	75.8	12	36	48	24	8	8	14	16	115	12
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kyle Kuzma
+F
+27:17	5	9	55.6	1	1	100	4	6	66.7	0	6	6	0	0	0	0	2	15	5
+undefined Headshot
+Jericho Sims
+F
+10:56	0	1	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	4	0	-17
+undefined Headshot
+Myles Turner
+C
+32:20	4	12	33.3	3	8	37.5	2	2	100	3	8	11	1	0	4	1	4	13	-12
+undefined Headshot
+AJ Green
+G
+24:33	2	6	33.3	1	5	20.0	1	2	50.0	0	2	2	0	1	0	1	3	6	-31
+undefined Headshot
+Ryan Rollins
+G
+30:27	4	14	28.6	0	4	0.0	2	2	100	1	4	5	7	1	0	4	0	10	-15
+undefined Headshot
+Gary Trent Jr.
+32:13	3	7	42.9	2	4	50.0	4	5	80.0	0	2	2	3	1	0	2	3	12	9
+undefined Headshot
+Andre Jackson Jr.
+7:19	1	5	20.0	1	4	25.0	0	0	0.0	0	0	0	2	0	0	0	3	3	-2
+undefined Headshot
+Bobby Portis
+26:40	9	15	60.0	4	5	80.0	0	0	0.0	1	5	6	2	2	0	1	3	22	-5
+undefined Headshot
+Cole Anthony
+17:41	8	12	66.7	0	4	0.0	0	0	0.0	0	2	2	2	2	1	3	2	16	-15
+undefined Headshot
+Gary Harris
+17:23	0	0	0.0	0	0	0.0	0	0	0.0	1	2	3	4	2	0	1	1	0	-1
+undefined Headshot
+Amir Coffey
+3:18	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	6
+undefined Headshot
+Mark Sears
+3:18	1	3	33.3	1	2	50.0	0	0	0.0	0	0	0	0	0	0	0	1	3	6
+undefined Headshot
+Thanasis Antetokounmpo
+3:18	1	1	100	0	0	0.0	1	1	100	1	0	1	0	1	0	0	0	3	6
+undefined Headshot
+Pete Nance
+3:18	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	0	6
+TOTALS
+ 	38	86	44.2	13	37	35.1	14	18	77.8	8	31	39	22	10	5	13	26	103	-12
+Inactive Players
+POR: Blake Wesley, Javonte Cooke, Scoot Henderson
+
+MIL: Giannis Antetokounmpo, Taurean Prince, Kevin Porter Jr., Alex Antetokounmpo

@@ -1,0 +1,11 @@
+Trippi MVP
+App Idea
+- Trippi is an application that focuses on individual/group saving and budgeting for trips.
+- The user will be able to create different "trips".
+- The creator of said trip can invite others to join the group. 
+- The creator of the trip will be able to give owner access to whoever they would like (this option should initially show up while inviting others to the group, but can be modified somewhere in the trip settings as well)
+- Within these trips, there will be options for each person to set their savings goals. These will be based on any items declared in the trip itinerary. An example would be splitting an Airbnb cost of $500 amongst 5 people. By default, this will be set as an even split of $100/person. However, this is also modifiable before setting it in everyone's budget.
+- Within these trips, the creator will be able to establish overall savings goals. This will be determined by the items in the itinerary and any other sections that the group would like to add. For example, a section called "Food and Drinks" is for general spending purposes.
+- The overall savings goal will be updated each time an individual member updates their savings. 
+- Users will be able to gift/cover other people in the group's costs. This must be verified with both sides before being processed. For example, a message saying "Nate wants to add $50 to your flight savings" With accept/deny buttons
+- There will also be an option for individual users to “donate” to the entire overall costs fee. This will spread evenly over all the users. For example, if the overall savings goal for 10 people has $1000 left and I “donated” $100, everything would ration out evenly so each group member essentially gets $10. 

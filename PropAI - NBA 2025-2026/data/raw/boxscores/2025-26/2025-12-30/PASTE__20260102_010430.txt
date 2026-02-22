@@ -1,0 +1,101 @@
+Sacramento Kings
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Keegan Murray
+F
+29:37	4	13	30.8	1	4	25.0	2	2	100	1	1	2	1	0	1	0	1	11	-27
+undefined Headshot
+Precious Achiuwa
+F
+17:11	0	4	0.0	0	0	0.0	0	0	0.0	1	2	3	2	0	1	0	2	0	-17
+undefined Headshot
+Maxime Raynaud
+C
+35:04	5	8	62.5	0	1	0.0	2	2	100	4	8	12	0	0	2	0	4	12	-21
+undefined Headshot
+DeMar DeRozan
+G
+27:38	2	8	25.0	0	2	0.0	4	5	80.0	0	7	7	3	1	1	2	1	8	-19
+undefined Headshot
+Russell Westbrook
+G
+18:55	4	10	40.0	2	4	50.0	2	2	100	1	2	3	4	0	0	3	3	12	-21
+undefined Headshot
+Dennis Schröder
+24:43	4	10	40.0	1	2	50.0	2	2	100	1	2	3	4	0	0	3	3	11	-20
+undefined Headshot
+Nique Clifford
+28:53	7	12	58.3	3	5	60.0	1	1	100	1	0	1	2	0	1	2	4	18	-20
+undefined Headshot
+Drew Eubanks
+12:56	3	4	75.0	0	0	0.0	0	0	0.0	1	2	3	0	0	0	1	1	6	-20
+undefined Headshot
+Keon Ellis
+19:21	1	5	20.0	0	3	0.0	0	0	0.0	1	1	2	2	0	1	1	1	2	-20
+undefined Headshot
+Malik Monk
+11:06	1	2	50.0	1	1	100	0	0	0.0	0	2	2	0	0	0	5	0	3	-16
+undefined Headshot
+Doug McDermott
+7:18	1	2	50.0	1	2	50.0	0	0	0.0	0	1	1	0	0	0	1	0	3	-2
+undefined Headshot
+Devin Carter
+7:18	2	5	40.0	0	3	0.0	0	0	0.0	0	0	0	0	0	1	0	0	4	-2
+undefined Headshot
+Dario Šarić
+DNP - Coach's Decision
+TOTALS
+ 	34	83	41.0	9	27	33.3	13	14	92.9	11	28	39	18	1	8	18	20	90	-41
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kawhi Leonard
+F
+32:40	11	19	57.9	5	9	55.6	6	7	85.7	1	4	5	5	3	1	1	1	33	31
+undefined Headshot
+John Collins
+F
+21:55	6	9	66.7	2	4	50.0	2	2	100	3	2	5	1	1	3	0	1	16	15
+undefined Headshot
+Brook Lopez
+C
+22:55	2	9	22.2	2	4	50.0	2	2	100	1	5	6	3	1	1	1	1	8	14
+undefined Headshot
+Kris Dunn
+G
+20:53	4	7	57.1	2	4	50.0	0	0	0.0	2	4	6	1	2	0	0	3	10	16
+undefined Headshot
+James Harden
+G
+30:02	6	14	42.9	1	6	16.7	8	10	80.0	0	3	3	5	1	0	0	0	21	19
+undefined Headshot
+Derrick Jones Jr.
+19:49	3	5	60.0	1	1	100	1	1	100	0	1	1	3	2	1	0	1	8	23
+undefined Headshot
+Yanic Konan Niederhäuser
+25:05	6	8	75.0	0	1	0.0	4	6	66.7	2	4	6	2	0	1	1	1	16	27
+undefined Headshot
+Nicolas Batum
+18:47	1	3	33.3	1	3	33.3	0	0	0.0	0	1	1	2	1	1	0	1	3	24
+undefined Headshot
+Kobe Sanders
+26:00	3	8	37.5	0	3	0.0	1	2	50.0	1	5	6	4	2	0	0	2	7	30
+undefined Headshot
+Jordan Miller
+7:18	3	4	75.0	0	1	0.0	0	0	0.0	0	1	1	0	0	1	0	0	6	2
+undefined Headshot
+Kobe Brown
+7:18	1	3	33.3	0	1	0.0	1	2	50.0	1	0	1	2	0	0	0	2	3	2
+undefined Headshot
+Cam Christie
+7:18	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	1	0	0	0	1	0	2
+TOTALS
+ 	46	90	51.1	14	38	36.8	25	32	78.1	11	31	42	29	13	9	3	14	131	41
+Inactive Players
+SAC: Daeqwon Plowden, Isaiah Stevens, Dylan Cardwell, Domantas Sabonis, Zach LaVine
+
+LAC: Chris Paul, Bradley Beal, Bogdan Bogdanovic, Ivica Zubac, TyTy Washington Jr.

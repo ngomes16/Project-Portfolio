@@ -1,0 +1,104 @@
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+LeBron James
+F
+25:46	7	14	50.0	3	5	60.0	6	11	54.5	0	2	2	6	0	0	0	0	23	-18
+undefined Headshot
+Jake LaRavia
+F
+28:57	4	8	50.0	2	3	66.7	2	4	50.0	3	2	5	1	2	2	2	2	12	-11
+undefined Headshot
+Deandre Ayton
+C
+27:26	6	8	75.0	0	0	0.0	0	1	0.0	3	7	10	1	3	0	2	2	12	-23
+undefined Headshot
+Marcus Smart
+G
+29:51	5	11	45.5	4	8	50.0	0	0	0.0	2	1	3	6	0	0	1	3	14	-19
+undefined Headshot
+Nick Smith Jr.
+G
+28:12	5	11	45.5	1	3	33.3	1	2	50.0	0	1	1	1	0	0	2	5	12	-9
+undefined Headshot
+Austin Reaves
+21:43	6	11	54.5	1	5	20.0	4	5	80.0	0	2	2	2	0	0	3	4	17	-17
+undefined Headshot
+Jaxson Hayes
+5:22	0	0	0.0	0	0	0.0	2	2	100	0	1	1	0	0	0	1	2	2	-7
+undefined Headshot
+Jarred Vanderbilt
+19:53	2	4	50.0	1	2	50.0	0	0	0.0	3	2	5	1	0	0	2	0	5	-28
+undefined Headshot
+Dalton Knecht
+14:26	1	5	20.0	0	3	0.0	1	1	100	1	2	3	0	0	1	1	1	3	-2
+undefined Headshot
+Maxi Kleber
+8:47	1	2	50.0	0	0	0.0	0	0	0.0	0	2	2	1	0	0	1	0	2	-2
+undefined Headshot
+Adou Thiero
+13:57	2	5	40.0	0	1	0.0	2	3	66.7	1	1	2	2	1	0	1	2	6	6
+undefined Headshot
+Bronny James
+9:50	0	2	0.0	0	2	0.0	0	0	0.0	0	1	1	1	0	0	1	0	0	5
+undefined Headshot
+Chris Mañon
+5:50	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	0	1	1	0	1	0	5
+TOTALS
+ 	39	81	48.1	12	32	37.5	18	29	62.1	14	24	38	22	7	4	17	22	108	-24
+Phoenix Suns
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Dillon Brooks
+F
+23:48	10	15	66.7	3	6	50.0	2	2	100	0	0	0	0	0	0	0	2	25	20
+undefined Headshot
+Royce O'Neale
+F
+22:54	4	5	80.0	4	5	80.0	0	0	0.0	1	2	3	3	1	0	1	2	12	19
+undefined Headshot
+Mark Williams
+C
+21:23	7	8	87.5	0	0	0.0	4	4	100	3	6	9	2	0	2	0	1	18	19
+undefined Headshot
+Devin Booker
+G
+27:18	7	14	50.0	0	2	0.0	7	8	87.5	0	2	2	11	2	0	4	3	21	21
+undefined Headshot
+Collin Gillespie
+G
+28:07	6	10	60.0	4	8	50.0	0	0	0.0	1	3	4	8	3	0	2	1	16	23
+undefined Headshot
+Ryan Dunn
+28:21	2	6	33.3	0	2	0.0	0	0	0.0	2	5	7	2	1	1	2	5	4	5
+undefined Headshot
+Jordan Goodwin
+21:40	2	7	28.6	2	6	33.3	2	2	100	0	1	1	3	2	0	1	2	8	14
+undefined Headshot
+Oso Ighodaro
+20:47	2	2	100	0	0	0.0	1	2	50.0	1	2	3	3	0	1	0	3	5	10
+undefined Headshot
+Jamaree Bouyea
+24:12	7	10	70.0	0	3	0.0	0	0	0.0	0	4	4	2	0	1	1	0	14	4
+undefined Headshot
+Rasheer Fleming
+9:50	2	3	66.7	1	2	50.0	2	2	100	2	0	2	0	1	0	0	1	7	-5
+undefined Headshot
+Nigel Hayes-Davis
+5:50	0	2	0.0	0	0	0.0	0	0	0.0	1	1	2	1	0	0	1	1	0	-5
+undefined Headshot
+Khaman Maluach
+5:50	1	3	33.3	0	0	0.0	0	0	0.0	1	0	1	0	0	1	1	3	2	-5
+undefined Headshot
+Nick Richards
+DNP - Coach's Decision
+TOTALS
+ 	50	85	58.8	14	34	41.2	18	20	90.0	12	26	38	35	10	6	13	24	132	24
+Inactive Players
+LAL: Luka Doncic, Rui Hachimura, Gabe Vincent, Drew Timme
+
+PHX: Koby Brea, Grayson Allen, Jalen Green, Isaiah Livers

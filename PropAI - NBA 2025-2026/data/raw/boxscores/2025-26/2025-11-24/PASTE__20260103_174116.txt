@@ -1,0 +1,104 @@
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+30:31	6	9	66.7	0	0	0.0	1	1	100	1	2	3	4	1	0	1	1	13	-5
+undefined Headshot
+Tobias Harris
+F
+25:49	4	8	50.0	1	2	50.0	3	3	100	0	1	1	2	1	0	1	4	12	2
+undefined Headshot
+Jalen Duren
+C
+30:18	6	10	60.0	0	0	0.0	5	8	62.5	5	7	12	2	0	0	3	5	17	7
+undefined Headshot
+Duncan Robinson
+G
+33:40	2	10	20.0	1	8	12.5	4	4	100	1	3	4	0	1	0	1	4	9	15
+undefined Headshot
+Cade Cunningham
+G
+35:48	8	18	44.4	0	2	0.0	8	10	80.0	4	7	11	6	0	0	3	4	24	-1
+undefined Headshot
+Caris LeVert
+22:30	5	9	55.6	3	6	50.0	6	9	66.7	0	1	1	3	1	1	1	1	19	-1
+undefined Headshot
+Isaiah Stewart
+19:59	4	6	66.7	1	2	50.0	0	0	0.0	1	4	5	0	1	1	2	3	9	-3
+undefined Headshot
+Ronald Holland II
+11:04	0	0	0.0	0	0	0.0	0	0	0.0	1	2	3	3	3	1	1	3	0	1
+undefined Headshot
+Jaden Ivey
+11:30	5	10	50.0	2	3	66.7	0	0	0.0	1	2	3	1	0	0	0	1	12	7
+undefined Headshot
+Daniss Jenkins
+7:37	1	2	50.0	1	2	50.0	2	2	100	0	2	2	3	0	1	1	0	5	-1
+undefined Headshot
+Javonte Green
+11:14	1	2	50.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	1	2	4
+undefined Headshot
+Chaz Lanier
+DNP - Coach's Decision
+undefined Headshot
+Paul Reed
+DNP - Coach's Decision
+TOTALS
+ 	42	84	50.0	9	25	36.0	29	37	78.4	14	31	45	24	8	4	15	27	122	5
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Bennedict Mathurin
+F
+28:22	3	13	23.1	1	4	25.0	7	8	87.5	0	4	4	1	0	0	3	5	14	-5
+undefined Headshot
+Pascal Siakam
+F
+34:37	7	12	58.3	0	2	0.0	10	14	71.4	2	6	8	3	2	2	3	2	24	1
+undefined Headshot
+Isaiah Jackson
+C
+23:40	2	4	50.0	0	0	0.0	5	5	100	0	4	4	0	0	0	0	2	9	7
+undefined Headshot
+Ben Sheppard
+G
+23:26	0	3	0.0	0	3	0.0	0	0	0.0	0	1	1	1	0	0	0	1	0	-10
+undefined Headshot
+Andrew Nembhard
+G
+36:55	4	14	28.6	2	6	33.3	2	4	50.0	0	1	1	6	4	0	1	4	12	-6
+undefined Headshot
+Jarace Walker
+27:03	8	10	80.0	5	6	83.3	0	0	0.0	1	5	6	2	1	0	2	2	21	8
+undefined Headshot
+Jay Huff
+17:53	3	8	37.5	3	5	60.0	2	3	66.7	1	2	3	3	1	2	2	5	11	1
+undefined Headshot
+Jeremiah Robinson-Earl
+13:23	4	6	66.7	2	3	66.7	0	0	0.0	0	0	0	0	0	0	0	2	10	-6
+undefined Headshot
+T.J. McConnell
+22:25	8	12	66.7	0	2	0.0	0	0	0.0	0	1	1	5	3	0	1	1	16	-5
+undefined Headshot
+Garrison Mathews
+5:50	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	1	0	0	1	1	0	1
+undefined Headshot
+Tony Bradley
+6:26	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	2	0	-11
+undefined Headshot
+RayJ Dennis
+DNP - Coach's Decision
+undefined Headshot
+Taelon Peter
+DNP - Coach's Decision
+TOTALS
+ 	39	82	47.6	13	31	41.9	26	34	76.5	5	25	30	22	11	4	13	27	117	-5
+Inactive Players
+DET: Isaac Jones, Tolu Smith, Bobi Klintman, Wendell Moore Jr., Marcus Sasser
+
+IND: Obi Toppin, Tyrese Haliburton, Aaron Nesmith, Quenton Jackson, Johnny Furphy, Kam Jones

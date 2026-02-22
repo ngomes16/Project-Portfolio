@@ -1,0 +1,98 @@
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+LeBron James
+F
+32:37	8	17	47.1	0	5	0.0	12	13	92.3	1	6	7	10	1	0	2	1	28	-6
+undefined Headshot
+Rui Hachimura
+F
+32:47	6	10	60.0	1	3	33.3	0	0	0.0	0	3	3	1	0	1	0	4	13	2
+undefined Headshot
+Jaxson Hayes
+C
+22:11	7	7	100	0	0	0.0	2	4	50.0	2	1	3	0	0	0	1	4	16	-10
+undefined Headshot
+Marcus Smart
+G
+27:42	6	11	54.5	5	9	55.6	0	0	0.0	0	4	4	1	1	0	1	6	17	12
+undefined Headshot
+Luka Dončić
+G
+39:33	14	28	50.0	4	12	33.3	13	16	81.3	2	9	11	14	5	0	1	2	45	-5
+undefined Headshot
+Jake LaRavia
+28:13	4	6	66.7	2	4	50.0	2	2	100	3	3	6	4	0	0	1	5	12	14
+undefined Headshot
+Nick Smith Jr.
+5:19	0	2	0.0	0	2	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	-2
+undefined Headshot
+Jarred Vanderbilt
+25:10	3	7	42.9	1	2	50.0	0	0	0.0	5	6	11	1	0	0	1	2	7	15
+undefined Headshot
+Maxi Kleber
+19:00	1	2	50.0	0	1	0.0	3	4	75.0	0	2	2	1	0	1	0	3	5	17
+undefined Headshot
+Adou Thiero
+2:59	0	2	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	3	0	4
+undefined Headshot
+Dalton Knecht
+4:29	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-1
+undefined Headshot
+Gabe Vincent
+DND - Injury/Illness
+TOTALS
+ 	49	93	52.7	13	39	33.3	32	39	82.1	13	35	48	32	7	2	7	31	143	8
+Utah Jazz
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Svi Mykhailiuk
+F
+16:59	3	3	100	3	3	100	2	2	100	0	1	1	0	1	0	1	1	11	10
+undefined Headshot
+Kyle Filipowski
+F
+27:13	3	7	42.9	0	1	0.0	0	0	0.0	3	10	13	0	0	1	1	4	6	3
+undefined Headshot
+Jusuf Nurkić
+C
+31:34	5	8	62.5	1	1	100	4	11	36.4	4	4	8	7	1	0	5	3	15	-2
+undefined Headshot
+Ace Bailey
+G
+26:10	7	13	53.8	3	6	50.0	2	6	33.3	2	2	4	0	1	0	1	2	19	-4
+undefined Headshot
+Keyonte George
+G
+39:05	9	20	45.0	5	11	45.5	11	12	91.7	0	4	4	8	0	0	2	3	34	3
+undefined Headshot
+Taylor Hendricks
+22:45	1	1	100	0	0	0.0	2	3	66.7	0	3	3	1	1	0	0	5	4	-9
+undefined Headshot
+Isaiah Collier
+28:08	6	12	50.0	1	2	50.0	5	7	71.4	0	0	0	13	0	0	3	5	18	-7
+undefined Headshot
+Kevin Love
+16:20	1	5	20.0	1	5	20.0	2	3	66.7	0	2	2	1	0	0	0	3	5	-6
+undefined Headshot
+Brice Sensabaugh
+17:29	5	9	55.6	3	6	50.0	2	2	100	0	3	3	0	0	0	0	1	15	-12
+undefined Headshot
+Walter Clayton Jr.
+14:19	3	5	60.0	1	2	50.0	1	1	100	0	1	1	1	0	0	0	2	8	-16
+undefined Headshot
+Kyle Anderson
+DNP - Coach's Decision
+undefined Headshot
+Cody Williams
+DNP - Coach's Decision
+TOTALS
+ 	43	83	51.8	18	37	48.6	31	47	66.0	9	30	39	31	4	1	13	29	135	-8
+Inactive Players
+LAL: Chris Manon, Bronny James, Drew Timme, Deandre Ayton, Austin Reaves
+
+UTA: Georges Niang, Lauri Markkanen, Walker Kessler, Oscar Tshiebwe, Elijah Harkless, John Tonje

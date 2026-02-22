@@ -1,0 +1,98 @@
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Durant
+F
+31:16	11	20	55.0	1	3	33.3	4	4	100	0	1	1	3	0	0	1	1	27	-12
+undefined Headshot
+Jabari Smith Jr.
+F
+40:54	10	19	52.6	2	7	28.6	0	0	0.0	1	7	8	3	1	1	1	2	22	-13
+undefined Headshot
+Clint Capela
+C
+29:57	4	7	57.1	0	0	0.0	0	1	0.0	5	3	8	1	0	2	2	3	8	-6
+undefined Headshot
+Josh Okogie
+G
+23:20	2	3	66.7	1	2	50.0	2	2	100	4	2	6	0	2	1	2	1	7	-8
+undefined Headshot
+Amen Thompson
+G
+33:04	2	11	18.2	0	3	0.0	3	4	75.0	4	2	6	6	3	1	6	4	7	-14
+undefined Headshot
+Aaron Holiday
+26:47	7	12	58.3	3	6	50.0	2	2	100	0	2	2	0	1	1	2	1	19	6
+undefined Headshot
+Reed Sheppard
+20:14	5	8	62.5	2	3	66.7	0	0	0.0	1	1	2	3	0	0	3	5	12	5
+undefined Headshot
+Jae'Sean Tate
+17:16	2	4	50.0	1	3	33.3	0	0	0.0	0	3	3	3	1	0	1	3	5	-5
+undefined Headshot
+Jeff Green
+6:26	1	1	100	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	2	-6
+undefined Headshot
+JD Davison
+8:40	0	1	0.0	0	1	0.0	0	0	0.0	1	0	1	2	0	0	0	0	0	-14
+undefined Headshot
+Isaiah Crawford
+2:06	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+undefined Headshot
+Tyler Smith
+DNP - Coach's Decision
+TOTALS
+ 	44	87	50.6	10	29	34.5	11	13	84.6	16	21	37	22	8	6	18	20	109	-13
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+35:41	7	15	46.7	1	2	50.0	4	4	100	1	4	5	3	2	2	0	0	19	9
+undefined Headshot
+P.J. Washington
+F
+36:27	6	13	46.2	2	7	28.6	0	0	0.0	1	6	7	1	5	1	2	2	14	24
+undefined Headshot
+Anthony Davis
+C
+30:16	14	19	73.7	0	1	0.0	1	2	50.0	2	6	8	2	2	1	0	3	29	11
+undefined Headshot
+Naji Marshall
+G
+28:11	6	8	75.0	1	3	33.3	2	2	100	1	1	2	2	1	0	1	1	15	5
+undefined Headshot
+Ryan Nembhard
+G
+23:15	5	7	71.4	1	1	100	0	0	0.0	1	0	1	7	1	0	2	2	11	0
+undefined Headshot
+Max Christie
+22:42	1	2	50.0	1	1	100	3	3	100	0	2	2	0	0	0	2	2	6	0
+undefined Headshot
+Dwight Powell
+17:44	1	1	100	0	0	0.0	2	2	100	1	2	3	0	0	0	2	2	4	2
+undefined Headshot
+Brandon Williams
+23:06	8	12	66.7	1	2	50.0	3	5	60.0	0	1	1	5	2	0	0	2	20	18
+undefined Headshot
+D'Angelo Russell
+12:55	1	3	33.3	0	1	0.0	2	2	100	0	1	1	2	0	0	3	0	4	3
+undefined Headshot
+Jaden Hardy
+6:39	0	2	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-3
+undefined Headshot
+Caleb Martin
+1:32	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Moussa Cisse
+1:32	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-2
+TOTALS
+ 	49	82	59.8	7	19	36.8	17	20	85.0	7	24	31	22	13	4	12	14	122	13
+Inactive Players
+HOU: Alperen Sengun, Tari Eason, Dorian Finney-Smith, Fred VanVleet, Steven Adams
+
+DAL: Kyrie Irving, Klay Thompson, Dante Exum, Daniel Gafford, Dereck Lively II, Miles Kelly

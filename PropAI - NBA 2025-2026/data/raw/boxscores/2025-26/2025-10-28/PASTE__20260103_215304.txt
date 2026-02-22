@@ -1,0 +1,101 @@
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+27:14	7	15	46.7	5	11	45.5	0	0	0.0	0	3	3	4	1	0	1	1	19	-9
+undefined Headshot
+Miles Bridges
+F
+31:00	6	16	37.5	2	7	28.6	3	4	75.0	0	4	4	1	1	1	2	2	17	-10
+undefined Headshot
+Ryan Kalkbrenner
+C
+30:54	5	5	100	0	0	0.0	0	0	0.0	3	3	6	0	3	1	0	2	10	-10
+undefined Headshot
+Collin Sexton
+G
+26:54	7	11	63.6	2	2	100	2	2	100	1	4	5	6	0	0	4	2	18	6
+undefined Headshot
+LaMelo Ball
+G
+28:29	6	18	33.3	4	12	33.3	4	5	80.0	0	8	8	9	1	0	5	4	20	-19
+undefined Headshot
+Tre Mann
+26:53	3	15	20.0	2	8	25.0	0	0	0.0	1	2	3	5	2	0	3	1	8	-31
+undefined Headshot
+Moussa Diabaté
+19:11	3	4	75.0	0	0	0.0	2	2	100	1	1	2	0	0	1	1	3	8	-22
+undefined Headshot
+Sion James
+23:16	2	2	100	2	2	100	2	2	100	1	2	3	0	1	0	0	0	8	-18
+undefined Headshot
+Tidjane Salaün
+15:14	0	3	0.0	0	2	0.0	3	4	75.0	2	4	6	1	0	0	1	1	3	-14
+undefined Headshot
+Liam McNeeley
+10:54	1	1	100	1	1	100	3	4	75.0	0	1	1	0	0	0	0	2	6	-8
+undefined Headshot
+Pat Connaughton
+DNP - Coach's Decision
+undefined Headshot
+Mason Plumlee
+DNP - Coach's Decision
+TOTALS
+ 	40	90	44.4	18	45	40.0	19	23	82.6	9	32	41	26	9	3	17	18	117	-27
+Miami Heat
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Andrew Wiggins
+F
+29:41	8	15	53.3	3	6	50.0	2	2	100	1	1	2	2	3	1	2	1	21	13
+undefined Headshot
+Bam Adebayo
+F
+30:16	10	16	62.5	3	5	60.0	3	4	75.0	1	5	6	2	0	0	1	2	26	29
+undefined Headshot
+Kel'el Ware
+C
+26:43	4	13	30.8	2	8	25.0	4	5	80.0	3	6	9	1	0	0	2	1	14	-14
+undefined Headshot
+Pelle Larsson
+G
+30:44	6	10	60.0	3	6	50.0	2	2	100	1	4	5	3	1	0	0	0	17	7
+undefined Headshot
+Davion Mitchell
+G
+29:41	4	10	40.0	0	5	0.0	0	0	0.0	0	4	4	9	0	0	1	2	8	13
+undefined Headshot
+Jaime Jaquez Jr.
+28:14	9	14	64.3	2	4	50.0	8	8	100	1	3	4	5	1	0	3	2	28	43
+undefined Headshot
+Dru Smith
+15:35	2	3	66.7	1	2	50.0	0	0	0.0	0	0	0	5	2	0	1	1	5	14
+undefined Headshot
+Nikola Jović
+21:58	4	7	57.1	2	4	50.0	0	0	0.0	1	5	6	2	0	0	0	2	10	9
+undefined Headshot
+Simone Fontecchio
+18:56	3	5	60.0	3	4	75.0	1	1	100	0	0	0	3	1	1	1	2	10	21
+undefined Headshot
+Myron Gardner
+2:44	1	1	100	1	1	100	0	0	0.0	0	1	1	1	0	0	0	2	3	0
+undefined Headshot
+Jahmir Young
+2:44	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	1	0	0
+undefined Headshot
+Keshad Johnson
+2:44	1	2	50.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	2	0
+undefined Headshot
+Norman Powell
+DND - Injury/Illness
+TOTALS
+ 	52	96	54.2	20	45	44.4	20	22	90.9	8	29	37	34	8	2	11	16	144	27
+Inactive Players
+CHA: Grant Williams, Josh Green, Brandon Miller, Drew Peterson, Antonio Reeves, KJ Simpson
+
+MIA: Terry Rozier, Tyler Herro, Kasparas Jakucionis, Vladislav Goldin

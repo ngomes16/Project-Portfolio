@@ -1,0 +1,98 @@
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+32:21	7	16	43.8	3	10	30.0	3	3	100	1	11	12	2	0	0	2	3	20	7
+undefined Headshot
+Miles Bridges
+F
+37:02	7	19	36.8	3	11	27.3	5	7	71.4	2	6	8	3	1	0	1	2	22	0
+undefined Headshot
+Ryan Kalkbrenner
+C
+30:09	4	4	100	0	0	0.0	2	2	100	6	5	11	2	1	4	2	4	10	8
+undefined Headshot
+Sion James
+G
+31:19	1	4	25.0	1	2	50.0	3	4	75.0	0	5	5	2	1	1	2	3	6	-7
+undefined Headshot
+Collin Sexton
+G
+29:39	6	14	42.9	2	6	33.3	3	4	75.0	0	0	0	5	1	0	5	2	17	12
+undefined Headshot
+KJ Simpson
+13:17	3	6	50.0	1	2	50.0	1	2	50.0	2	1	3	0	0	0	1	2	8	-13
+undefined Headshot
+Moussa Diabaté
+17:51	2	3	66.7	0	0	0.0	2	4	50.0	3	2	5	2	2	1	1	3	6	-12
+undefined Headshot
+Tre Mann
+24:24	8	13	61.5	2	6	33.3	0	0	0.0	1	1	2	2	2	0	4	2	18	-9
+undefined Headshot
+Liam McNeeley
+12:59	0	1	0.0	0	0	0.0	2	2	100	0	2	2	1	0	0	1	2	2	-2
+undefined Headshot
+Pat Connaughton
+10:58	1	2	50.0	1	1	100	0	0	0.0	0	1	1	1	0	0	0	0	3	-4
+undefined Headshot
+Mason Plumlee
+DNP - Coach's Decision
+undefined Headshot
+Grant Williams
+DNP - Injury/Illness
+TOTALS
+ 	39	82	47.6	13	38	34.2	21	28	75.0	15	34	49	20	8	6	19	23	112	-4
+New Orleans Pelicans
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Herbert Jones
+F
+35:55	4	9	44.4	3	5	60.0	0	0	0.0	2	3	5	1	1	0	2	3	11	1
+undefined Headshot
+Trey Murphy III
+F
+37:14	7	16	43.8	5	10	50.0	2	2	100	1	2	3	3	1	1	1	0	21	3
+undefined Headshot
+Kevon Looney
+C
+14:58	0	3	0.0	0	1	0.0	0	0	0.0	0	4	4	2	0	1	1	2	0	-22
+undefined Headshot
+Jordan Poole
+G
+27:02	3	14	21.4	1	6	16.7	4	4	100	0	2	2	6	0	0	3	4	11	-1
+undefined Headshot
+Jeremiah Fears
+G
+17:27	4	10	40.0	1	2	50.0	2	2	100	1	2	3	0	1	0	0	1	11	-17
+undefined Headshot
+Karlo Matković
+15:04	6	7	85.7	0	0	0.0	1	4	25.0	4	2	6	2	0	1	1	2	13	13
+undefined Headshot
+Saddiq Bey
+26:47	6	9	66.7	3	5	60.0	2	4	50.0	1	3	4	0	0	0	0	3	17	8
+undefined Headshot
+Jose Alvarado
+30:33	7	11	63.6	4	7	57.1	0	0	0.0	1	2	3	6	2	0	1	1	18	21
+undefined Headshot
+Jordan Hawkins
+17:02	1	4	25.0	0	2	0.0	0	0	0.0	0	1	1	0	0	0	0	1	2	1
+undefined Headshot
+Derik Queen
+17:58	5	7	71.4	0	0	0.0	2	3	66.7	3	5	8	7	4	0	3	3	12	13
+undefined Headshot
+DeAndre Jordan
+DNP - Coach's Decision
+undefined Headshot
+Micah Peavy
+DNP - Coach's Decision
+TOTALS
+ 	43	90	47.8	17	38	44.7	13	19	68.4	13	26	39	27	9	3	12	20	116	4
+Inactive Players
+CHA: LaMelo Ball, Josh Green, Brandon Miller, Drew Peterson, Antonio Reeves, Tidjane Salaun
+
+NOP: Yves Missi, Trey Alexander, Dejounte Murray, Zion Williamson, Hunter Dickinson, Bryce McGowens

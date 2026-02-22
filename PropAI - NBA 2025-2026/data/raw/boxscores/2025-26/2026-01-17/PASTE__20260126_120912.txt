@@ -1,0 +1,101 @@
+Boston Celtics
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Brown
+F
+29:30	14	30	46.7	2	9	22.2	11	12	91.7	1	5	6	2	1	1	1	0	41	36
+undefined Headshot
+Sam Hauser
+F
+30:17	10	21	47.6	10	21	47.6	0	0	0.0	0	6	6	3	1	1	2	0	30	30
+undefined Headshot
+Neemias Queta
+C
+23:38	5	7	71.4	0	0	0.0	4	5	80.0	1	6	7	1	1	1	1	2	14	39
+undefined Headshot
+Baylor Scheierman
+G
+31:56	3	7	42.9	3	6	50.0	0	0	0.0	0	7	7	4	3	0	3	3	9	2
+undefined Headshot
+Derrick White
+G
+25:26	3	4	75.0	1	2	50.0	0	0	0.0	1	4	5	12	3	1	1	1	7	36
+undefined Headshot
+Luka Garza
+12:22	2	3	66.7	0	1	0.0	0	1	0.0	2	2	4	2	0	1	0	1	4	4
+undefined Headshot
+Hugo González
+29:58	3	5	60.0	1	2	50.0	0	0	0.0	2	6	8	0	0	0	2	4	7	6
+undefined Headshot
+Anfernee Simons
+23:38	5	10	50.0	4	8	50.0	0	0	0.0	1	1	2	1	0	1	2	1	14	11
+undefined Headshot
+Jordan Walsh
+10:34	0	1	0.0	0	1	0.0	0	0	0.0	0	2	2	1	0	0	0	2	0	7
+undefined Headshot
+Amari Williams
+12:00	0	0	0.0	0	0	0.0	3	4	75.0	1	3	4	1	0	2	2	3	3	-17
+undefined Headshot
+Ron Harper Jr.
+5:46	1	2	50.0	1	1	100	0	0	0.0	2	1	3	0	0	0	1	0	3	-12
+undefined Headshot
+Xavier Tillman
+4:55	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	1	0	0	-12
+undefined Headshot
+Josh Minott
+DND - Injury/Illness
+TOTALS
+ 	46	91	50.5	22	52	42.3	18	22	81.8	11	44	55	27	9	8	16	17	132	26
+Atlanta Hawks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Vít Krejčí
+F
+18:51	1	6	16.7	1	4	25.0	0	0	0.0	0	1	1	0	1	0	0	4	3	-25
+undefined Headshot
+Jalen Johnson
+F
+35:12	4	14	28.6	2	6	33.3	2	4	50.0	1	7	8	5	1	0	4	1	12	-30
+undefined Headshot
+Onyeka Okongwu
+C
+32:51	8	14	57.1	3	6	50.0	2	2	100	3	4	7	3	1	0	3	3	21	-25
+undefined Headshot
+CJ McCollum
+G
+26:46	4	14	28.6	0	5	0.0	3	3	100	2	5	7	4	0	2	3	1	11	-26
+undefined Headshot
+Nickeil Alexander-Walker
+G
+29:28	6	16	37.5	4	9	44.4	2	2	100	0	2	2	6	1	1	0	0	18	-35
+undefined Headshot
+Mouhamed Gueye
+18:58	2	7	28.6	1	2	50.0	0	0	0.0	1	6	7	3	2	0	1	3	5	-7
+undefined Headshot
+Luke Kennard
+23:23	1	5	20.0	0	3	0.0	0	0	0.0	0	4	4	1	1	0	0	0	2	-13
+undefined Headshot
+Keaton Wallace
+13:04	2	6	33.3	0	2	0.0	1	1	100	1	1	2	2	1	1	0	1	5	6
+undefined Headshot
+Corey Kispert
+22:34	5	11	45.5	2	5	40.0	4	4	100	3	4	7	1	1	0	0	1	16	-9
+undefined Headshot
+Asa Newell
+9:03	4	7	57.1	1	2	50.0	1	1	100	2	0	2	0	0	0	0	1	10	10
+undefined Headshot
+RayJ Dennis
+4:55	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	4	1	0	0	1	0	12
+undefined Headshot
+Caleb Houstan
+4:55	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	0	1	3	12
+TOTALS
+ 	38	102	37.3	15	46	32.6	15	17	88.2	13	34	47	29	10	4	11	17	106	-26
+Inactive Players
+BOS: Jayson Tatum, Chris Boucher, Payton Pritchard, Max Shulga
+
+ATL: Kristaps Porzingis, Dyson Daniels, Christian Koloko, Zaccharie Risacher, Nikola Djurisic, N'Faly Dante

@@ -1,0 +1,110 @@
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kawhi Leonard
+F
+31:22	8	17	47.1	2	4	50.0	2	2	100	1	2	3	2	0	0	0	1	20	0
+undefined Headshot
+John Collins
+F
+29:40	5	7	71.4	2	3	66.7	0	1	0.0	0	2	2	0	1	0	0	3	12	9
+undefined Headshot
+Ivica Zubac
+C
+38:25	7	14	50.0	0	0	0.0	1	5	20.0	6	7	13	2	0	1	3	4	15	4
+undefined Headshot
+Kris Dunn
+G
+36:17	3	11	27.3	1	5	20.0	1	2	50.0	2	4	6	4	3	0	1	2	8	-4
+undefined Headshot
+James Harden
+G
+38:57	10	18	55.6	1	5	20.0	13	15	86.7	0	5	5	6	4	1	4	4	34	7
+undefined Headshot
+Kobe Sanders
+15:31	1	3	33.3	0	1	0.0	0	0	0.0	0	1	1	0	0	0	1	6	2	-1
+undefined Headshot
+Bogdan Bogdanović
+22:51	4	7	57.1	1	4	25.0	0	0	0.0	0	1	1	2	0	0	0	4	9	-7
+undefined Headshot
+Brook Lopez
+9:32	1	5	20.0	1	4	25.0	0	0	0.0	0	0	0	0	0	1	1	3	3	-5
+undefined Headshot
+Nicolas Batum
+17:25	1	3	33.3	1	3	33.3	0	0	0.0	1	3	4	0	0	0	0	1	3	-18
+undefined Headshot
+Kobe Brown
+DNP - Coach's Decision
+undefined Headshot
+Cam Christie
+DNP - Coach's Decision
+undefined Headshot
+RayJ Dennis
+DNP - Coach's Decision
+undefined Headshot
+Yanic Konan Niederhäuser
+DNP - Coach's Decision
+TOTALS
+ 	40	85	47.1	9	29	31.0	17	25	68.0	10	25	35	16	8	3	10	28	106	-3
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+37:05	10	13	76.9	3	3	100	4	5	80.0	0	1	1	2	2	1	2	2	27	1
+undefined Headshot
+Julius Randle
+F
+32:40	6	15	40.0	1	4	25.0	11	12	91.7	0	3	3	6	0	0	2	4	24	11
+undefined Headshot
+Rudy Gobert
+C
+32:42	1	1	100	0	0	0.0	2	4	50.0	2	5	7	2	0	1	2	6	4	-9
+undefined Headshot
+Anthony Edwards
+G
+37:12	3	11	27.3	0	1	0.0	9	9	100	0	6	6	4	1	2	5	1	15	-9
+undefined Headshot
+Donte DiVincenzo
+G
+24:41	2	6	33.3	1	4	25.0	0	0	0.0	0	4	4	4	1	0	0	1	5	-5
+undefined Headshot
+Naz Reid
+27:53	7	11	63.6	5	8	62.5	0	0	0.0	2	7	9	3	0	0	2	3	19	10
+undefined Headshot
+Jaylen Clark
+16:15	3	5	60.0	0	2	0.0	2	2	100	1	2	3	0	1	0	0	3	8	4
+undefined Headshot
+Mike Conley
+18:00	1	2	50.0	1	2	50.0	2	2	100	1	1	2	0	1	0	0	2	5	14
+undefined Headshot
+Rob Dillingham
+8:37	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	2	0	1	0	0	0	0
+undefined Headshot
+Terrence Shannon Jr.
+4:52	1	3	33.3	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	2	-4
+undefined Headshot
+Joe Ingles
+0:03	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+undefined Headshot
+Joan Beringer
+DNP - Coach's Decision
+undefined Headshot
+Bones Hyland
+DNP - Coach's Decision
+undefined Headshot
+Johnny Juzang
+DNP - Coach's Decision
+undefined Headshot
+Leonard Miller
+DNP - Coach's Decision
+TOTALS
+ 	34	68	50.0	11	25	44.0	30	34	88.2	6	29	35	23	6	5	13	22	109	3
+Inactive Players
+LAC: Chris Paul, Bradley Beal, Derrick Jones Jr., Jordan Miller
+
+MIN: Enrique Freeman, Rocco Zikarsky

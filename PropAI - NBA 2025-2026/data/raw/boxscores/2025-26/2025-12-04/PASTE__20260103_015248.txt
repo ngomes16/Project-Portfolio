@@ -1,0 +1,107 @@
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+34:48	6	14	42.9	0	2	0.0	2	2	100	2	5	7	5	2	2	2	4	14	6
+undefined Headshot
+Julius Randle
+F
+36:30	9	18	50.0	2	3	66.7	8	8	100	2	7	9	3	0	0	4	2	28	8
+undefined Headshot
+Rudy Gobert
+C
+23:57	5	8	62.5	0	0	0.0	5	8	62.5	6	6	12	3	0	1	1	1	15	0
+undefined Headshot
+Anthony Edwards
+G
+31:22	3	6	50.0	2	3	66.7	3	3	100	0	6	6	4	1	3	8	4	11	10
+undefined Headshot
+Donte DiVincenzo
+G
+32:05	5	10	50.0	4	8	50.0	1	1	100	1	3	4	3	0	1	1	4	15	6
+undefined Headshot
+Mike Conley
+16:48	1	7	14.3	0	5	0.0	0	0	0.0	0	1	1	3	0	0	1	4	2	2
+undefined Headshot
+Naz Reid
+32:40	6	13	46.2	4	9	44.4	3	3	100	0	7	7	6	1	2	0	1	19	8
+undefined Headshot
+Jaylen Clark
+14:28	4	9	44.4	2	6	33.3	2	2	100	1	1	2	0	1	0	0	0	12	3
+undefined Headshot
+Terrence Shannon Jr.
+9:11	2	4	50.0	1	1	100	2	2	100	0	1	1	0	0	0	2	0	7	1
+undefined Headshot
+Rob Dillingham
+8:11	1	3	33.3	0	1	0.0	0	0	0.0	0	0	0	3	0	1	0	2	2	1
+undefined Headshot
+Joan Beringer
+DNP - Coach's Decision
+undefined Headshot
+Bones Hyland
+DNP - Coach's Decision
+undefined Headshot
+Joe Ingles
+DNP - Coach's Decision
+undefined Headshot
+Johnny Juzang
+DNP - Coach's Decision
+undefined Headshot
+Leonard Miller
+DNP - Coach's Decision
+TOTALS
+ 	42	92	45.7	15	38	39.5	26	29	89.7	12	37	49	30	5	10	19	22	125	9
+New Orleans Pelicans
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Trey Murphy III
+F
+33:46	7	17	41.2	0	5	0.0	7	8	87.5	2	5	7	8	2	0	2	2	21	2
+undefined Headshot
+Saddiq Bey
+F
+33:11	8	17	47.1	0	5	0.0	4	4	100	3	3	6	1	3	0	0	1	20	3
+undefined Headshot
+Derik Queen
+C
+29:08	4	9	44.4	0	0	0.0	4	4	100	1	3	4	5	1	0	1	5	12	-4
+undefined Headshot
+Bryce McGowens
+G
+33:54	5	12	41.7	0	3	0.0	5	6	83.3	0	3	3	5	1	0	0	0	15	-6
+undefined Headshot
+Jeremiah Fears
+G
+33:33	8	17	47.1	2	2	100	2	2	100	1	6	7	6	1	0	3	3	20	5
+undefined Headshot
+Jordan Hawkins
+16:10	2	6	33.3	2	4	50.0	1	2	50.0	1	2	3	1	0	1	1	2	7	-10
+undefined Headshot
+Karlo Matković
+18:30	4	5	80.0	0	0	0.0	0	0	0.0	0	6	6	1	0	1	1	3	8	-5
+undefined Headshot
+Micah Peavy
+15:11	0	2	0.0	0	0	0.0	0	0	0.0	0	4	4	1	1	0	2	2	0	-12
+undefined Headshot
+Jose Alvarado
+22:05	5	8	62.5	3	5	60.0	0	0	0.0	0	3	3	1	2	0	2	3	13	-16
+undefined Headshot
+Trey Alexander
+4:33	0	2	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	-2
+undefined Headshot
+DeAndre Jordan
+DNP - Coach's Decision
+undefined Headshot
+Kevon Looney
+DNP - Coach's Decision
+TOTALS
+ 	43	95	45.3	7	25	28.0	23	26	88.5	8	35	43	29	11	2	12	22	116	-9
+Inactive Players
+MIN: Enrique Freeman, Rocco Zikarsky
+
+NOP: Dejounte Murray, Zion Williamson, Jordan Poole, Herbert Jones, Hunter Dickinson, Yves Missi

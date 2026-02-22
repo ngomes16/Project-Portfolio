@@ -1,0 +1,101 @@
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Wells
+F
+32:28	9	11	81.8	5	6	83.3	2	2	100	0	3	3	1	1	1	1	3	25	16
+undefined Headshot
+Jaren Jackson Jr.
+F
+36:04	9	23	39.1	5	11	45.5	4	4	100	0	5	5	2	3	1	0	5	27	10
+undefined Headshot
+Zach Edey
+C
+34:39	10	15	66.7	0	1	0.0	1	1	100	5	10	15	0	1	2	2	3	21	39
+undefined Headshot
+Cedric Coward
+G
+34:06	5	10	50.0	0	2	0.0	2	3	66.7	1	8	9	4	0	1	3	2	12	24
+undefined Headshot
+Vince Williams Jr.
+G
+35:02	2	6	33.3	0	3	0.0	1	2	50.0	2	2	4	17	2	1	6	1	5	27
+undefined Headshot
+Santi Aldama
+24:25	5	9	55.6	2	3	66.7	2	2	100	0	5	5	4	0	1	0	0	14	-21
+undefined Headshot
+Cam Spencer
+19:06	4	5	80.0	3	4	75.0	0	0	0.0	0	2	2	7	1	0	2	1	11	-19
+undefined Headshot
+Jock Landale
+18:06	5	11	45.5	1	2	50.0	0	0	0.0	2	1	3	1	0	1	2	1	11	-34
+undefined Headshot
+Kentavious Caldwell-Pope
+17:25	0	3	0.0	0	3	0.0	0	0	0.0	1	0	1	2	0	0	0	1	0	-22
+undefined Headshot
+John Konchar
+13:39	3	4	75.0	1	2	50.0	0	0	0.0	0	2	2	0	1	0	0	1	7	5
+undefined Headshot
+Kobe Bufkin
+DNP - Coach's Decision
+undefined Headshot
+GG Jackson
+DNP - Coach's Decision
+undefined Headshot
+Jahmai Mashack
+DNP - Coach's Decision
+TOTALS
+ 	52	97	53.6	17	37	45.9	12	14	85.7	11	38	49	38	9	8	16	18	133	5
+New Orleans Pelicans
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Saddiq Bey
+F
+38:42	6	13	46.2	4	9	44.4	2	2	100	2	8	10	2	3	1	0	1	18	-11
+undefined Headshot
+Zion Williamson
+F
+32:22	7	15	46.7	0	1	0.0	3	3	100	2	3	5	4	0	2	5	3	17	-9
+undefined Headshot
+Derik Queen
+C
+22:50	5	8	62.5	0	1	0.0	0	0	0.0	0	2	2	9	1	1	1	1	10	-24
+undefined Headshot
+Trey Murphy III
+G
+38:28	5	12	41.7	2	6	33.3	0	0	0.0	0	4	4	6	2	0	3	3	12	-9
+undefined Headshot
+Jeremiah Fears
+G
+26:23	4	11	36.4	1	3	33.3	1	1	100	1	1	2	3	0	0	0	0	10	-28
+undefined Headshot
+Micah Peavy
+21:23	4	9	44.4	0	3	0.0	3	3	100	1	3	4	2	1	0	1	1	11	4
+undefined Headshot
+Jose Alvarado
+26:37	9	15	60.0	6	11	54.5	0	0	0.0	1	4	5	2	2	0	1	5	24	23
+undefined Headshot
+Yves Missi
+29:24	3	6	50.0	0	0	0.0	0	0	0.0	3	3	6	3	0	3	1	2	6	19
+undefined Headshot
+Jordan Hawkins
+15:19	5	9	55.6	4	8	50.0	0	0	0.0	0	1	1	1	1	1	1	0	14	7
+undefined Headshot
+Bryce McGowens
+13:32	2	3	66.7	2	3	66.7	0	1	0.0	0	1	1	2	0	1	1	2	6	3
+undefined Headshot
+DeAndre Jordan
+DNP - Coach's Decision
+undefined Headshot
+Kevon Looney
+DNP - Coach's Decision
+TOTALS
+ 	50	101	49.5	19	45	42.2	9	10	90.0	10	30	40	34	10	9	14	18	128	-5
+Inactive Players
+MEM: Ja Morant, Brandon Clarke, Ty Jerome, Scotty Pippen Jr., Olivier-Maxence Prosper, Javon Small
+
+NOP: Dejounte Murray, Hunter Dickinson, Karlo Matkovic, Trey Alexander, Jordan Poole, Herbert Jones

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nba-props"
+version = "0.3.0"
+description = "Local NBA prop ingestion + projections (no scraping)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []  # Core functionality is stdlib-only
+
+[project.optional-dependencies]
+web = ["flask>=3.0.0"]  # Flask is optional - only needed for web GUI
+all = ["flask>=3.0.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+

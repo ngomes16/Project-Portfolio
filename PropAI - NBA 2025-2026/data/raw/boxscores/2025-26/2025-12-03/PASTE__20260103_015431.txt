@@ -1,0 +1,101 @@
+Sacramento Kings
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+DeMar DeRozan
+F
+22:33	6	12	50.0	0	1	0.0	0	0	0.0	0	2	2	0	1	0	2	1	12	-6
+undefined Headshot
+Keegan Murray
+F
+37:24	2	11	18.2	1	5	20.0	0	0	0.0	4	7	11	1	1	2	3	3	5	-15
+undefined Headshot
+Drew Eubanks
+C
+9:59	1	3	33.3	0	0	0.0	0	1	0.0	0	1	1	0	0	1	0	1	2	-4
+undefined Headshot
+Zach LaVine
+G
+18:41	1	5	20.0	0	3	0.0	0	0	0.0	1	0	1	1	1	2	1	1	2	6
+undefined Headshot
+Russell Westbrook
+G
+28:01	5	13	38.5	2	7	28.6	0	2	0.0	1	3	4	9	1	0	4	3	12	-9
+undefined Headshot
+Maxime Raynaud
+32:18	10	15	66.7	2	2	100	3	3	100	2	4	6	3	1	1	1	0	25	-18
+undefined Headshot
+Nique Clifford
+22:47	1	7	14.3	0	3	0.0	0	0	0.0	0	0	0	2	1	1	0	3	2	-16
+undefined Headshot
+Malik Monk
+29:43	10	19	52.6	5	8	62.5	0	0	0.0	2	1	3	5	2	0	0	1	25	-30
+undefined Headshot
+Precious Achiuwa
+18:35	4	8	50.0	0	1	0.0	2	4	50.0	2	2	4	0	2	0	1	2	10	-21
+undefined Headshot
+Keon Ellis
+19:59	0	4	0.0	0	4	0.0	0	0	0.0	0	0	0	0	0	0	0	2	0	-17
+undefined Headshot
+Devin Carter
+DNP - Coach's Decision
+undefined Headshot
+Doug McDermott
+DNP - Coach's Decision
+undefined Headshot
+Dario Šarić
+DNP - Coach's Decision
+TOTALS
+ 	40	97	41.2	10	34	29.4	5	10	50.0	12	20	32	21	10	7	12	17	95	-26
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Durant
+F
+31:49	9	16	56.3	1	4	25.0	5	5	100	0	3	3	8	0	1	0	1	24	12
+undefined Headshot
+Jabari Smith Jr.
+F
+34:40	5	12	41.7	0	3	0.0	4	6	66.7	2	6	8	1	0	2	1	0	14	24
+undefined Headshot
+Alperen Sengun
+C
+29:47	11	20	55.0	0	1	0.0	6	7	85.7	3	7	10	3	4	0	3	3	28	-1
+undefined Headshot
+Josh Okogie
+G
+26:36	1	3	33.3	1	2	50.0	0	0	0.0	1	5	6	1	2	0	2	1	3	23
+undefined Headshot
+Amen Thompson
+G
+36:34	8	16	50.0	0	1	0.0	4	4	100	4	8	12	7	2	1	5	2	20	10
+undefined Headshot
+Steven Adams
+17:50	5	6	83.3	0	0	0.0	1	2	50.0	5	3	8	0	0	2	3	0	11	7
+undefined Headshot
+Reed Sheppard
+27:46	2	7	28.6	1	2	50.0	0	0	0.0	0	6	6	1	1	2	1	1	5	22
+undefined Headshot
+Aaron Holiday
+17:00	3	5	60.0	1	2	50.0	0	0	0.0	0	2	2	1	0	0	1	1	7	4
+undefined Headshot
+Clint Capela
+9:28	2	3	66.7	0	0	0.0	0	0	0.0	2	4	6	1	1	0	0	1	4	13
+undefined Headshot
+Jae'Sean Tate
+4:02	1	1	100	0	0	0.0	0	0	0.0	0	1	1	1	0	0	0	0	2	6
+undefined Headshot
+Jeff Green
+2:14	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	0	0	3	5
+undefined Headshot
+JD Davison
+2:14	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	5
+TOTALS
+ 	48	91	52.7	5	16	31.3	20	24	83.3	17	45	62	24	10	8	16	10	121	26
+Inactive Players
+SAC: Dennis Schroder, Domantas Sabonis, Daeqwon Plowden, Isaiah Stevens, Dylan Cardwell
+
+HOU: Tyler Smith, Isaiah Crawford, Dorian Finney-Smith, Fred VanVleet, Tari Eason

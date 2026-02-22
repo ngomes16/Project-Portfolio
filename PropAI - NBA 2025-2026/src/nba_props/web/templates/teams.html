@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}Teams - NBA Props Predictor{% endblock %}
+{% block page_title %}Teams{% endblock %}
+
+{% block content %}
+<div class="teams-page" style="display: flex; flex-direction: column; gap: 1.5rem;">
+    <div class="card">
+        <div class="card-header">
+            <h2>Eastern Conference</h2>
+            <span id="east-count" class="muted" style="font-size: 0.875rem;"></span>
+        </div>
+        <div class="card-body">
+            <div class="teams-grid" id="east-teams">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading teams...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <h2>Western Conference</h2>
+            <span id="west-count" class="muted" style="font-size: 0.875rem;"></span>
+        </div>
+        <div class="card-body">
+            <div class="teams-grid" id="west-teams">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading teams...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+    try {
+        const standings = await fetchAPI('/api/standings');
+        
+        const renderTeams = (conf, elementId, countId) => {
+            const container = document.getElementById(elementId);
+            const teams = standings[conf] || [];
+            
+            document.getElementById(countId).textContent = `${teams.length} teams`;
+            
+            if (teams.length === 0) {
+                container.innerHTML = '<div class="empty-state"><p>No team data available</p></div>';
+                return;
+            }
+            
+            container.innerHTML = teams.map(t => `
+                <a href="/team/${t.abbrev}" class="team-card">
+                    <div class="team-card-seed">#${t.seed}</div>
+                    <div class="team-card-info">
+                        <span class="team-card-abbrev">${t.abbrev}</span>
+                        <span class="team-card-name">${t.team}</span>
+                    </div>
+                    <div class="team-card-record">
+                        <span class="wins">${t.wins}</span>
+                        <span class="separator">-</span>
+                        <span class="losses">${t.losses}</span>
+                    </div>
+                    <div class="team-card-pct">${(t.win_pct * 100).toFixed(1)}%</div>
+                </a>
+            `).join('');
+        };
+        
+        renderTeams('East', 'east-teams', 'east-count');
+        renderTeams('West', 'west-teams', 'west-count');
+    } catch (e) {
+        console.error('Failed to load standings:', e);
+        document.getElementById('east-teams').innerHTML = '<div class="error-state">Failed to load teams</div>';
+        document.getElementById('west-teams').innerHTML = '<div class="error-state">Failed to load teams</div>';
+    }
+});
+</script>
+{% endblock %}

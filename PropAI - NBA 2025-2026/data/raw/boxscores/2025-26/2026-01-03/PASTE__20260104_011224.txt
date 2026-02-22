@@ -1,0 +1,101 @@
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+32:52	4	14	28.6	2	6	33.3	8	9	88.9	3	2	5	1	0	0	2	2	18	18
+undefined Headshot
+Miles Bridges
+F
+35:20	11	18	61.1	3	7	42.9	1	1	100	0	14	14	1	1	0	1	1	26	19
+undefined Headshot
+PJ Hall
+C
+22:03	4	7	57.1	1	1	100	1	2	50.0	4	2	6	0	0	2	3	2	10	0
+undefined Headshot
+Brandon Miller
+G
+36:20	8	19	42.1	4	10	40.0	2	2	100	3	3	6	4	1	1	0	2	22	3
+undefined Headshot
+LaMelo Ball
+G
+26:26	7	15	46.7	3	8	37.5	0	0	0.0	0	6	6	7	2	0	1	1	17	12
+undefined Headshot
+Collin Sexton
+19:50	3	7	42.9	0	1	0.0	7	9	77.8	1	1	2	3	2	0	2	1	13	-1
+undefined Headshot
+Sion James
+29:52	1	5	20.0	1	4	25.0	0	0	0.0	1	6	7	3	0	0	2	2	3	7
+undefined Headshot
+Josh Green
+24:38	1	3	33.3	1	3	33.3	0	0	0.0	1	2	3	3	1	0	0	1	3	6
+undefined Headshot
+Liam McNeeley
+12:39	0	3	0.0	0	1	0.0	0	0	0.0	0	3	3	1	0	0	0	0	0	1
+undefined Headshot
+Pat Connaughton
+DNP - Coach's Decision
+undefined Headshot
+Tre Mann
+DNP - Coach's Decision
+undefined Headshot
+Antonio Reeves
+DNP - Coach's Decision
+undefined Headshot
+Tidjane Salaün
+DNP - Injury/Illness
+TOTALS
+ 	39	91	42.9	15	41	36.6	19	23	82.6	13	39	52	23	7	3	11	12	112	13
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Isaac Okoro
+F
+27:10	1	5	20.0	0	4	0.0	0	0	0.0	0	2	2	1	1	0	1	3	2	-4
+undefined Headshot
+Jalen Smith
+F
+15:01	4	5	80.0	1	2	50.0	0	0	0.0	2	3	5	1	0	3	1	0	9	6
+undefined Headshot
+Nikola Vučević
+C
+33:59	11	15	73.3	3	4	75.0	3	4	75.0	0	7	7	8	0	1	2	2	28	-9
+undefined Headshot
+Matas Buzelis
+G
+34:21	6	16	37.5	2	8	25.0	3	6	50.0	3	5	8	3	0	0	3	1	17	-11
+undefined Headshot
+Tre Jones
+G
+27:56	4	10	40.0	0	1	0.0	2	2	100	0	2	2	8	1	0	1	1	10	-8
+undefined Headshot
+Kevin Huerter
+30:32	3	11	27.3	1	7	14.3	2	2	100	0	11	11	7	1	1	0	1	9	0
+undefined Headshot
+Ayo Dosunmu
+27:53	7	12	58.3	2	5	40.0	0	0	0.0	0	4	4	4	1	0	2	1	16	-10
+undefined Headshot
+Patrick Williams
+14:58	0	7	0.0	0	5	0.0	0	0	0.0	0	3	3	0	1	0	0	2	0	-14
+undefined Headshot
+Dalen Terry
+13:05	2	3	66.7	1	2	50.0	0	0	0.0	0	0	0	0	0	0	0	3	5	0
+undefined Headshot
+Julian Phillips
+15:05	1	3	33.3	1	3	33.3	0	0	0.0	1	0	1	0	4	0	1	2	3	-15
+undefined Headshot
+Jevon Carter
+DNP - Coach's Decision
+undefined Headshot
+Lachlan Olbrich
+DNP - Coach's Decision
+TOTALS
+ 	39	87	44.8	11	41	26.8	10	14	71.4	6	37	43	32	9	5	11	16	99	-13
+Inactive Players
+CHA: Mason Plumlee, KJ Simpson, Moussa Diabate, Ryan Kalkbrenner, Grant Williams
+
+CHI: Zach Collins, Coby White, Josh Giddey, Emanuel Miller, Trentyn Flowers, Noa Essengue

@@ -1,0 +1,98 @@
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+39:55	10	26	38.5	1	5	20.0	1	2	50.0	1	5	6	4	0	0	3	2	22	-11
+undefined Headshot
+Scottie Barnes
+F
+39:20	11	16	68.8	1	2	50.0	7	8	87.5	3	9	12	5	2	1	3	3	30	-6
+undefined Headshot
+Jakob Poeltl
+C
+32:32	4	6	66.7	0	0	0.0	0	0	0.0	5	6	11	9	2	1	3	4	8	-5
+undefined Headshot
+Ja'Kobe Walter
+G
+27:14	1	3	33.3	1	2	50.0	2	2	100	2	5	7	0	0	0	1	5	5	-6
+undefined Headshot
+Immanuel Quickley
+G
+36:42	9	20	45.0	3	8	37.5	1	1	100	1	2	3	10	0	0	3	2	22	-5
+undefined Headshot
+Collin Murray-Boyles
+13:22	0	1	0.0	0	0	0.0	1	2	50.0	3	1	4	2	2	0	1	2	1	2
+undefined Headshot
+Sandro Mamukelashvili
+19:16	5	10	50.0	1	2	50.0	2	2	100	1	2	3	0	0	0	0	1	13	-1
+undefined Headshot
+Jamal Shead
+22:52	1	6	16.7	1	5	20.0	0	0	0.0	0	3	3	2	0	0	0	2	3	-9
+undefined Headshot
+Gradey Dick
+17:44	2	6	33.3	1	4	25.0	0	0	0.0	1	1	2	1	0	0	1	3	5	2
+undefined Headshot
+Ochai Agbaji
+16:03	1	5	20.0	0	1	0.0	0	0	0.0	0	1	1	1	0	1	0	2	2	4
+undefined Headshot
+Jamison Battle
+DNP - Coach's Decision
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	44	99	44.4	9	29	31.0	14	17	82.4	17	35	52	34	6	3	15	26	111	-7
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+36:42	5	10	50.0	4	7	57.1	6	6	100	0	6	6	4	2	0	2	3	20	3
+undefined Headshot
+Miles Bridges
+F
+41:26	13	23	56.5	2	8	25.0	7	9	77.8	1	2	3	0	1	0	0	3	35	7
+undefined Headshot
+Ryan Kalkbrenner
+C
+22:16	3	4	75.0	0	0	0.0	2	2	100	2	4	6	2	1	1	0	0	8	-15
+undefined Headshot
+Brandon Miller
+G
+25:19	1	13	7.7	0	6	0.0	5	5	100	1	1	2	3	0	2	1	2	7	-7
+undefined Headshot
+LaMelo Ball
+G
+21:42	6	16	37.5	1	6	16.7	1	1	100	0	2	2	5	0	0	2	4	14	-10
+undefined Headshot
+Collin Sexton
+33:10	6	11	54.5	2	5	40.0	4	4	100	0	1	1	5	3	1	3	0	18	23
+undefined Headshot
+Moussa Diabaté
+30:21	3	5	60.0	0	0	0.0	1	2	50.0	4	5	9	2	1	0	0	4	7	19
+undefined Headshot
+Tre Mann
+10:33	0	2	0.0	0	2	0.0	0	0	0.0	1	0	1	1	0	0	0	1	0	-5
+undefined Headshot
+Sion James
+30:15	1	5	20.0	0	3	0.0	0	0	0.0	2	4	6	2	1	1	0	2	2	13
+undefined Headshot
+Liam McNeeley
+13:17	3	4	75.0	1	2	50.0	0	0	0.0	1	2	3	0	1	0	1	0	7	7
+undefined Headshot
+Mason Plumlee
+DNP - Coach's Decision
+undefined Headshot
+Antonio Reeves
+DNP - Coach's Decision
+TOTALS
+ 	41	93	44.1	10	39	25.6	26	29	89.7	12	27	39	24	10	5	9	19	118	7
+Inactive Players
+TOR: Jonathan Mogbo, Alijah Martin, Chucky Hepburn, A.J. Lawson, RJ Barrett
+
+CHA: Pat Connaughton, Grant Williams, Josh Green, Drew Peterson, Tidjane Salaun, KJ Simpson

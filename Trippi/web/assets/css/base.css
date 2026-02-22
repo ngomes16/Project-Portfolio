@@ -1,0 +1,15 @@
+/*
+  File: web/assets/css/base.css
+  Purpose: Base element styles and utility classes for layout and typography.
+*/
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0 0 8px; }
+p { margin: 0 0 12px; }
+img { max-width: 100%; display: block; }
+code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+/* utilities */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+

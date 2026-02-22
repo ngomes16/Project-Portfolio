@@ -1,0 +1,107 @@
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Bennedict Mathurin
+F
+26:45	2	9	22.2	0	5	0.0	0	0	0.0	0	4	4	2	1	0	2	2	4	-32
+undefined Headshot
+Pascal Siakam
+F
+30:51	6	14	42.9	2	7	28.6	8	11	72.7	1	4	5	3	1	0	3	2	22	-8
+undefined Headshot
+Jay Huff
+C
+21:18	3	8	37.5	0	4	0.0	3	3	100	0	6	6	2	0	2	0	5	9	-20
+undefined Headshot
+Quenton Jackson
+G
+17:02	1	3	33.3	0	2	0.0	0	2	0.0	1	1	2	1	0	0	2	2	2	-7
+undefined Headshot
+Andrew Nembhard
+G
+27:01	2	11	18.2	1	4	25.0	2	2	100	1	2	3	5	0	0	1	1	7	-29
+undefined Headshot
+Garrison Mathews
+10:36	2	2	100	2	2	100	1	2	50.0	0	1	1	1	1	1	0	0	7	-8
+undefined Headshot
+Jarace Walker
+20:05	2	11	18.2	1	8	12.5	2	3	66.7	0	5	5	3	1	1	0	1	7	-11
+undefined Headshot
+Isaiah Jackson
+11:58	1	4	25.0	0	0	0.0	2	4	50.0	3	2	5	1	0	1	1	2	4	-14
+undefined Headshot
+Ethan Thompson
+18:57	3	7	42.9	1	5	20.0	0	0	0.0	1	1	2	2	1	0	1	4	7	1
+undefined Headshot
+T.J. McConnell
+17:31	8	10	80.0	0	2	0.0	0	0	0.0	1	3	4	8	2	0	2	0	16	6
+undefined Headshot
+Johnny Furphy
+23:12	7	10	70.0	1	3	33.3	3	3	100	2	0	2	0	0	0	1	3	18	12
+undefined Headshot
+James Wiseman
+14:44	3	5	60.0	0	0	0.0	0	0	0.0	1	2	3	0	0	0	1	4	6	15
+undefined Headshot
+Tony Bradley
+DNP - Coach's Decision
+TOTALS
+ 	40	94	42.6	8	42	19.0	21	30	70.0	11	31	42	28	7	5	14	26	109	-19
+New Orleans Pelicans
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Trey Murphy III
+F
+32:59	5	8	62.5	2	5	40.0	5	5	100	0	6	6	4	0	0	2	3	17	27
+undefined Headshot
+Saddiq Bey
+F
+27:52	6	14	42.9	1	4	25.0	5	5	100	0	5	5	3	1	0	1	1	18	14
+undefined Headshot
+Derik Queen
+C
+27:10	8	8	100	1	1	100	0	0	0.0	0	10	10	4	1	0	2	4	17	22
+undefined Headshot
+Herbert Jones
+G
+12:07	2	6	33.3	1	2	50.0	0	0	0.0	0	3	3	3	1	0	0	0	5	16
+undefined Headshot
+Jeremiah Fears
+G
+22:30	2	6	33.3	0	1	0.0	1	2	50.0	0	3	3	1	0	0	4	2	5	-9
+undefined Headshot
+Zion Williamson
+23:29	9	14	64.3	0	0	0.0	11	13	84.6	3	4	7	1	1	0	2	2	29	6
+undefined Headshot
+Jordan Poole
+31:35	4	10	40.0	1	7	14.3	7	9	77.8	0	2	2	6	0	1	2	4	16	20
+undefined Headshot
+Karlo Matković
+19:53	3	5	60.0	0	1	0.0	0	0	0.0	2	7	9	2	1	1	1	4	6	-5
+undefined Headshot
+Jose Alvarado
+21:59	1	5	20.0	1	4	25.0	0	0	0.0	0	1	1	1	1	0	2	4	3	11
+undefined Headshot
+Micah Peavy
+14:36	3	4	75.0	2	2	100	0	0	0.0	0	1	1	0	0	0	0	1	8	-5
+undefined Headshot
+Yves Missi
+2:55	2	3	66.7	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	0	4	-1
+undefined Headshot
+Jordan Hawkins
+2:55	0	2	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-1
+undefined Headshot
+DeAndre Jordan
+DNP - Coach's Decision
+undefined Headshot
+Kevon Looney
+DNP - Coach's Decision
+TOTALS
+ 	45	85	52.9	9	27	33.3	29	34	85.3	6	43	49	25	6	2	16	25	128	19
+Inactive Players
+IND: Obi Toppin, Tyrese Haliburton, Aaron Nesmith, Ben Sheppard, Gabe McGlothan, Kam Jones, Taelon Peter
+
+NOP: Hunter Dickinson, Bryce McGowens, Trey Alexander, Dejounte Murray

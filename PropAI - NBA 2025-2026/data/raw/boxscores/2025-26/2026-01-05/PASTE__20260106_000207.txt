@@ -1,0 +1,94 @@
+Denver Nuggets
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Spencer Jones
+F
+43:27	4	6	66.7	1	3	33.3	1	2	50.0	1	2	3	2	2	1	1	5	10	8
+undefined Headshot
+Peyton Watson
+F
+44:13	7	13	53.8	2	3	66.7	8	10	80.0	0	7	7	4	1	2	6	0	24	2
+undefined Headshot
+DaRon Holmes II
+C
+21:02	1	4	25.0	0	3	0.0	0	0	0.0	0	1	1	4	0	0	2	1	2	3
+undefined Headshot
+Jalen Pickett
+G
+41:53	11	20	55.0	7	11	63.6	0	0	0.0	1	4	5	7	0	0	4	3	29	6
+undefined Headshot
+Bruce Brown
+G
+39:21	7	13	53.8	2	4	50.0	3	4	75.0	2	4	6	2	1	0	0	2	19	-8
+undefined Headshot
+Zeke Nnaji
+31:58	7	11	63.6	4	5	80.0	3	4	75.0	2	6	8	1	2	2	2	2	21	-2
+undefined Headshot
+Curtis Jones
+8:22	0	2	0.0	0	2	0.0	0	0	0.0	0	1	1	0	0	0	0	1	0	-1
+undefined Headshot
+Julian Strawther
+15:22	2	5	40.0	0	2	0.0	2	4	50.0	1	3	4	5	0	0	1	2	6	-5
+undefined Headshot
+Hunter Tyson
+19:22	4	7	57.1	2	4	50.0	4	4	100	0	3	3	1	0	1	1	2	14	2
+undefined Headshot
+Christian Braun
+DND - Injury/Illness
+undefined Headshot
+Aaron Gordon
+DND - Injury/Illness
+TOTALS
+ 	43	81	53.1	18	37	48.6	21	28	75.0	7	31	38	26	6	6	17	18	125	1
+Philadelphia 76ers
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Paul George
+F
+32:17	3	10	30.0	2	7	28.6	0	0	0.0	0	2	2	3	2	1	0	3	8	-18
+undefined Headshot
+Dominick Barlow
+F
+12:37	2	6	33.3	1	4	25.0	1	1	100	1	1	2	0	0	0	0	2	6	-7
+undefined Headshot
+Joel Embiid
+C
+40:03	13	22	59.1	1	4	25.0	5	5	100	6	4	10	2	0	1	6	2	32	8
+undefined Headshot
+VJ Edgecombe
+G
+41:42	6	17	35.3	5	11	45.5	0	0	0.0	2	6	8	9	2	2	3	1	17	-7
+undefined Headshot
+Tyrese Maxey
+G
+45:35	10	22	45.5	4	9	44.4	4	6	66.7	0	6	6	6	4	2	1	1	28	-1
+undefined Headshot
+Quentin Grimes
+39:38	4	8	50.0	3	7	42.9	5	6	83.3	0	4	4	2	0	1	2	4	16	9
+undefined Headshot
+Jabari Walker
+11:34	3	4	75.0	0	0	0.0	0	0	0.0	2	2	4	0	1	1	0	3	6	11
+undefined Headshot
+Jared McCain
+18:43	1	4	25.0	1	3	33.3	0	0	0.0	0	0	0	4	0	0	1	0	3	6
+undefined Headshot
+Adem Bona
+22:51	4	5	80.0	0	0	0.0	0	1	0.0	3	3	6	2	0	1	1	4	8	-6
+undefined Headshot
+Andre Drummond
+DNP - Coach's Decision
+undefined Headshot
+Justin Edwards
+DNP - Coach's Decision
+undefined Headshot
+Eric Gordon
+DNP - Coach's Decision
+undefined Headshot
+Kyle Lowry
+DNP - Coach's Decision
+TOTALS
+ 	46	98	46.9	17	45	37.8	15	19	78.9	14	28	42	28	9	9	14	20	124	-1
+Inactive Players
+DEN: Tamar Bates, Jamal Murray, Cameron Johnson, Jonas Valanciunas, Tim Hardaway Jr., Nikola Jokic
+
+PHI: Kelly Oubre Jr., Trendon Watford, MarJon Beauchamp, Johni Broome

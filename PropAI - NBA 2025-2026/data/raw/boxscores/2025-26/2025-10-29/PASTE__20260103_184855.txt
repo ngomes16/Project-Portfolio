@@ -1,0 +1,98 @@
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Pascal Siakam
+F
+36:54	9	23	39.1	2	5	40.0	7	12	58.3	3	10	13	3	2	0	3	4	27	7
+undefined Headshot
+Jarace Walker
+F
+35:43	5	19	26.3	4	10	40.0	6	7	85.7	0	6	6	5	3	1	1	3	20	-3
+undefined Headshot
+Isaiah Jackson
+C
+11:24	3	5	60.0	0	0	0.0	0	0	0.0	1	1	2	0	0	0	3	4	6	-13
+undefined Headshot
+Aaron Nesmith
+G
+36:55	2	16	12.5	1	9	11.1	0	2	0.0	2	1	3	1	0	1	1	2	5	-4
+undefined Headshot
+Ben Sheppard
+G
+24:58	1	7	14.3	0	4	0.0	2	2	100	5	3	8	2	0	0	2	3	4	-8
+undefined Headshot
+Quenton Jackson
+17:35	4	7	57.1	0	2	0.0	0	0	0.0	1	2	3	0	1	0	1	3	8	-1
+undefined Headshot
+Tony Bradley
+12:53	3	5	60.0	0	0	0.0	0	0	0.0	4	4	8	1	0	0	0	3	6	-2
+undefined Headshot
+RayJ Dennis
+30:02	6	13	46.2	4	7	57.1	1	2	50.0	3	2	5	5	0	0	1	3	17	13
+undefined Headshot
+Jay Huff
+20:60	2	6	33.3	1	5	20.0	0	0	0.0	0	2	2	2	0	4	0	1	5	3
+undefined Headshot
+Mac McClung
+12:36	2	5	40.0	1	3	33.3	2	3	66.7	0	2	2	1	2	1	0	3	7	-2
+undefined Headshot
+Obi Toppin
+DND - Injury/Illness
+TOTALS
+ 	37	106	34.9	13	45	28.9	18	28	64.3	19	33	52	20	8	7	12	29	105	-2
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Klay Thompson
+F
+21:41	2	10	20.0	1	6	16.7	0	0	0.0	0	1	1	1	0	0	1	0	5	1
+undefined Headshot
+P.J. Washington
+F
+28:37	2	8	25.0	0	2	0.0	5	8	62.5	2	9	11	2	0	2	3	5	9	-3
+undefined Headshot
+Anthony Davis
+C
+6:36	2	4	50.0	0	0	0.0	0	0	0.0	1	3	4	0	1	0	2	0	4	-3
+undefined Headshot
+Max Christie
+G
+33:20	3	7	42.9	1	4	25.0	3	3	100	0	2	2	4	0	1	2	3	10	3
+undefined Headshot
+Cooper Flagg
+G
+35:04	6	11	54.5	0	0	0.0	3	3	100	1	9	10	4	0	1	2	2	15	-7
+undefined Headshot
+D'Angelo Russell
+19:43	5	11	45.5	1	5	20.0	3	3	100	0	2	2	5	1	0	4	1	14	5
+undefined Headshot
+Naji Marshall
+22:28	0	2	0.0	0	1	0.0	3	4	75.0	0	2	2	2	0	0	1	3	3	3
+undefined Headshot
+Jaden Hardy
+7:53	1	3	33.3	1	2	50.0	0	0	0.0	0	1	1	0	0	0	1	0	3	-2
+undefined Headshot
+Dwight Powell
+29:23	4	6	66.7	0	0	0.0	10	12	83.3	1	5	6	0	1	2	1	4	18	12
+undefined Headshot
+Caleb Martin
+13:00	2	3	66.7	1	2	50.0	1	2	50.0	1	0	1	1	1	0	0	1	6	-2
+undefined Headshot
+Brandon Williams
+22:15	9	14	64.3	0	2	0.0	2	2	100	1	6	7	2	0	1	2	3	20	3
+undefined Headshot
+Moussa Cisse
+DNP - Coach's Decision
+undefined Headshot
+Ryan Nembhard
+DNP - Coach's Decision
+TOTALS
+ 	36	79	45.6	5	24	20.8	30	37	81.1	7	40	47	21	4	7	19	22	107	2
+Inactive Players
+IND: Taelon Peter, Johnny Furphy, Kam Jones, Tyrese Haliburton, Bennedict Mathurin, T.J. McConnell, Andrew Nembhard
+
+DAL: Kyrie Irving, Dante Exum, Daniel Gafford, Dereck Lively II, Miles Kelly

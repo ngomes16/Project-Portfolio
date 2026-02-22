@@ -1,0 +1,107 @@
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Dalton Knecht
+F
+23:00	4	7	57.1	0	3	0.0	0	0	0.0	1	3	4	1	0	0	1	4	8	-10
+undefined Headshot
+Rui Hachimura
+F
+37:37	10	15	66.7	2	4	50.0	6	6	100	0	4	4	1	1	1	2	2	28	10
+undefined Headshot
+Deandre Ayton
+C
+30:35	14	19	73.7	0	0	0.0	1	2	50.0	4	6	10	2	0	3	3	5	29	8
+undefined Headshot
+Jake LaRavia
+G
+36:27	5	10	50.0	0	3	0.0	1	2	50.0	1	4	5	6	3	0	1	3	11	14
+undefined Headshot
+Marcus Smart
+G
+31:51	3	11	27.3	1	5	20.0	2	2	100	0	2	2	5	4	0	5	5	9	10
+undefined Headshot
+Nick Smith Jr.
+26:52	10	15	66.7	5	6	83.3	0	0	0.0	0	1	1	6	1	0	3	0	25	9
+undefined Headshot
+Bronny James
+19:29	1	4	25.0	1	2	50.0	2	2	100	1	0	1	6	1	0	0	1	5	0
+undefined Headshot
+Jarred Vanderbilt
+21:14	1	1	100	0	0	0.0	2	2	100	0	4	4	2	1	1	2	0	4	1
+undefined Headshot
+Jaxson Hayes
+12:55	2	3	66.7	0	0	0.0	0	0	0.0	1	2	3	0	0	0	0	2	4	-2
+undefined Headshot
+Maxi Kleber
+DND - Injury/Illness
+undefined Headshot
+Christian Koloko
+DNP - Coach's Decision
+undefined Headshot
+Chris Manon
+DNP - Coach's Decision
+TOTALS
+ 	50	85	58.8	9	23	39.1	14	16	87.5	8	26	34	29	11	5	17	22	123	8
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Deni Avdija
+F
+36:12	10	20	50.0	3	9	33.3	10	11	90.9	1	5	6	2	1	1	5	2	33	-2
+undefined Headshot
+Toumani Camara
+F
+34:15	5	13	38.5	3	11	27.3	1	2	50.0	2	5	7	2	2	0	3	3	14	-1
+undefined Headshot
+Donovan Clingan
+C
+17:31	1	3	33.3	0	1	0.0	0	0	0.0	3	1	4	0	0	1	0	2	2	-7
+undefined Headshot
+Shaedon Sharpe
+G
+27:57	8	17	47.1	1	7	14.3	6	8	75.0	1	6	7	2	3	0	2	2	23	-1
+undefined Headshot
+Jrue Holiday
+G
+35:33	4	11	36.4	0	6	0.0	0	0	0.0	2	1	3	6	1	0	2	3	8	-9
+undefined Headshot
+Robert Williams III
+14:31	3	3	100	0	0	0.0	0	0	0.0	2	1	3	2	1	0	0	2	6	-4
+undefined Headshot
+Jerami Grant
+30:53	6	10	60.0	2	3	66.7	4	7	57.1	1	2	3	4	2	0	4	2	18	-6
+undefined Headshot
+Kris Murray
+22:34	3	5	60.0	0	2	0.0	0	0	0.0	0	0	0	2	1	1	1	0	6	-5
+undefined Headshot
+Sidy Cissoko
+13:45	2	2	100	0	0	0.0	1	2	50.0	2	0	2	2	2	0	0	2	5	-7
+undefined Headshot
+Caleb Love
+6:49	0	1	0.0	0	1	0.0	0	0	0.0	1	2	3	1	0	0	1	0	0	2
+undefined Headshot
+Scoot Henderson
+DND - Injury/Illness
+undefined Headshot
+Damian Lillard
+DND - Injury/Illness
+undefined Headshot
+Duop Reath
+DNP - Coach's Decision
+undefined Headshot
+Rayan Rupert
+DNP - Coach's Decision
+undefined Headshot
+Hansen Yang
+DNP - Coach's Decision
+TOTALS
+ 	42	85	49.4	9	40	22.5	22	30	73.3	15	23	38	23	13	3	18	18	115	-8
+Inactive Players
+LAL: LeBron James, Luka Doncic, Gabe Vincent, Austin Reaves, Adou Thiero
+
+POR: Blake Wesley, Javonte Cooke, Matisse Thybulle

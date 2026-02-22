@@ -1,0 +1,104 @@
+Boston Celtics
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jordan Walsh
+F
+29:41	8	8	100	1	1	100	5	6	83.3	2	5	7	3	2	1	0	4	22	20
+undefined Headshot
+Sam Hauser
+F
+20:31	2	6	33.3	2	6	33.3	0	0	0.0	0	2	2	3	1	0	0	0	6	4
+undefined Headshot
+Neemias Queta
+C
+21:03	7	9	77.8	0	0	0.0	3	4	75.0	2	2	4	2	1	4	1	4	17	29
+undefined Headshot
+Derrick White
+G
+28:46	12	21	57.1	5	12	41.7	1	1	100	0	7	7	9	1	0	2	3	30	17
+undefined Headshot
+Payton Pritchard
+G
+32:09	8	21	38.1	3	9	33.3	1	1	100	5	1	6	8	1	0	1	1	20	27
+undefined Headshot
+Anfernee Simons
+25:27	4	13	30.8	4	8	50.0	4	4	100	0	2	2	3	2	0	0	2	16	34
+undefined Headshot
+Hugo González
+17:40	6	7	85.7	2	2	100	0	0	0.0	3	2	5	0	0	1	1	3	14	23
+undefined Headshot
+Josh Minott
+22:02	4	7	57.1	2	5	40.0	1	2	50.0	1	3	4	2	1	0	1	0	11	2
+undefined Headshot
+Baylor Scheierman
+25:01	2	3	66.7	1	2	50.0	0	0	0.0	1	5	6	3	3	0	1	0	5	42
+undefined Headshot
+Luka Garza
+8:14	1	1	100	0	0	0.0	3	3	100	1	1	2	1	1	1	1	1	5	9
+undefined Headshot
+Ron Harper Jr.
+4:43	0	3	0.0	0	2	0.0	0	0	0.0	0	0	0	1	1	1	0	0	0	9
+undefined Headshot
+Xavier Tillman
+4:43	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	1	2	0	9
+undefined Headshot
+Chris Boucher
+DNP - Coach's Decision
+undefined Headshot
+Amari Williams
+DNP - Coach's Decision
+TOTALS
+ 	54	99	54.5	20	47	42.6	18	21	85.7	15	31	46	35	14	8	9	20	146	45
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jamir Watkins
+F
+18:27	1	1	100	0	0	0.0	0	0	0.0	1	1	2	3	0	0	0	1	2	-30
+undefined Headshot
+Khris Middleton
+F
+25:11	7	12	58.3	1	3	33.3	1	1	100	0	3	3	4	0	0	2	2	16	-19
+undefined Headshot
+Marvin Bagley III
+C
+25:39	2	8	25.0	0	0	0.0	1	4	25.0	3	3	6	0	0	0	1	1	5	-19
+undefined Headshot
+Kyshawn George
+G
+28:24	5	7	71.4	3	4	75.0	2	2	100	0	3	3	1	2	0	4	4	15	-30
+undefined Headshot
+CJ McCollum
+G
+30:33	7	15	46.7	3	8	37.5	5	5	100	1	1	2	3	1	1	4	4	22	-22
+undefined Headshot
+Bub Carrington
+27:33	2	9	22.2	2	6	33.3	1	2	50.0	1	2	3	2	0	0	1	1	7	-18
+undefined Headshot
+Cam Whitmore
+18:05	2	11	18.2	0	4	0.0	0	0	0.0	0	0	0	2	1	2	0	1	4	-20
+undefined Headshot
+Will Riley
+26:35	2	6	33.3	1	3	33.3	2	2	100	3	1	4	2	0	0	3	4	7	-39
+undefined Headshot
+Tristan Vukcevic
+11:27	3	5	60.0	0	1	0.0	4	4	100	1	3	4	1	0	1	0	3	10	-9
+undefined Headshot
+Justin Champagnie
+15:09	3	6	50.0	0	1	0.0	3	3	100	1	6	7	1	1	0	1	0	9	-1
+undefined Headshot
+Malaki Branham
+8:14	0	3	0.0	0	1	0.0	2	2	100	1	1	2	2	0	0	0	1	2	-9
+undefined Headshot
+Anthony Gill
+4:43	1	1	100	0	0	0.0	0	0	0.0	0	1	1	0	0	0	2	0	2	-9
+TOTALS
+ 	35	84	41.7	10	31	32.3	21	25	84.0	12	25	37	21	5	4	18	22	101	-45
+Inactive Players
+BOS: Jaylen Brown, Jayson Tatum, Max Shulga
+
+WAS: Sharife Cooper, Corey Kispert, Bilal Coulibaly, Alex Sarr, AJ Johnson, Tre Johnson

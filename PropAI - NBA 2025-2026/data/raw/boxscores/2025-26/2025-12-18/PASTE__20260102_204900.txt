@@ -1,0 +1,98 @@
+Atlanta Hawks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Zaccharie Risacher
+F
+20:28	2	7	28.6	0	2	0.0	1	1	100	2	1	3	1	0	0	1	1	5	-9
+undefined Headshot
+Jalen Johnson
+F
+39:29	16	27	59.3	4	9	44.4	7	7	100	1	10	11	9	1	1	4	3	43	-2
+undefined Headshot
+Onyeka Okongwu
+C
+36:09	5	10	50.0	0	3	0.0	2	2	100	1	3	4	1	3	1	1	2	12	-4
+undefined Headshot
+Dyson Daniels
+G
+31:34	6	12	50.0	0	2	0.0	2	4	50.0	2	1	3	6	1	0	2	1	14	-13
+undefined Headshot
+Trae Young
+G
+20:09	3	8	37.5	0	5	0.0	2	2	100	0	1	1	10	1	0	3	2	8	-3
+undefined Headshot
+Nickeil Alexander-Walker
+34:06	11	18	61.1	4	9	44.4	2	2	100	1	7	8	2	0	0	3	2	28	23
+undefined Headshot
+Vít Krejčí
+23:18	1	3	33.3	1	3	33.3	2	2	100	2	1	3	0	0	0	0	5	5	-7
+undefined Headshot
+Mouhamed Gueye
+10:26	2	3	66.7	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	1	4	4
+undefined Headshot
+Luke Kennard
+13:54	1	2	50.0	1	2	50.0	1	2	50.0	0	1	1	1	0	0	1	1	4	-12
+undefined Headshot
+Asa Newell
+10:27	1	2	50.0	1	2	50.0	0	0	0.0	0	1	1	1	0	0	0	2	3	-12
+undefined Headshot
+Kristaps Porziņģis
+NWT - Not With Team
+undefined Headshot
+Keaton Wallace
+DNP - Coach's Decision
+TOTALS
+ 	48	92	52.2	11	37	29.7	19	22	86.4	9	26	35	31	6	2	15	20	126	-7
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kon Knueppel
+F
+34:59	10	17	58.8	6	12	50.0	2	2	100	0	5	5	7	3	0	4	3	28	18
+undefined Headshot
+Miles Bridges
+F
+32:06	6	13	46.2	2	5	40.0	2	2	100	0	3	3	2	1	1	0	1	16	13
+undefined Headshot
+Ryan Kalkbrenner
+C
+27:20	3	5	60.0	0	1	0.0	2	4	50.0	2	2	4	2	1	1	1	3	8	-2
+undefined Headshot
+Brandon Miller
+G
+35:17	9	15	60.0	4	7	57.1	4	5	80.0	1	4	5	8	3	1	1	4	26	10
+undefined Headshot
+LaMelo Ball
+G
+29:12	10	16	62.5	8	11	72.7	0	0	0.0	1	3	4	13	1	0	6	3	28	17
+undefined Headshot
+Josh Green
+11:07	1	2	50.0	1	2	50.0	0	0	0.0	2	1	3	1	0	0	0	2	3	-12
+undefined Headshot
+KJ Simpson
+12:60	2	7	28.6	0	3	0.0	0	0	0.0	0	0	0	2	1	0	2	0	4	-5
+undefined Headshot
+Sion James
+20:25	2	6	33.3	1	4	25.0	0	0	0.0	0	2	2	1	1	0	0	1	5	-7
+undefined Headshot
+Moussa Diabaté
+17:34	2	4	50.0	0	0	0.0	1	4	25.0	1	5	6	2	0	0	0	1	5	9
+undefined Headshot
+Tidjane Salaün
+15:53	4	6	66.7	2	4	50.0	0	0	0.0	0	4	4	1	0	0	0	3	10	-6
+undefined Headshot
+Mason Plumlee
+3:07	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	0
+undefined Headshot
+Grant Williams
+DND - Injury/Illness
+TOTALS
+ 	49	91	53.8	24	49	49.0	11	17	64.7	7	30	37	39	11	3	14	21	133	7
+Inactive Players
+ATL: Caleb Houstan, Nikola Djurisic, N'Faly Dante, Eli John Ndiaye
+
+CHA: Liam McNeeley, Drew Peterson, Antonio Reeves, Pat Connaughton, Collin Sexton, Tre Mann

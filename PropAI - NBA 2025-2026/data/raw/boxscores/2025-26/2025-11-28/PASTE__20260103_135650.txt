@@ -1,0 +1,101 @@
+San Antonio Spurs
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Julian Champagnie
+F
+36:26	6	15	40.0	3	9	33.3	10	10	100	3	7	10	2	1	2	0	3	25	-1
+undefined Headshot
+Harrison Barnes
+F
+30:52	4	11	36.4	1	6	16.7	1	1	100	2	1	3	5	1	0	2	5	10	-3
+undefined Headshot
+Luke Kornet
+C
+27:43	4	7	57.1	0	0	0.0	4	4	100	3	3	6	2	0	2	1	4	12	-5
+undefined Headshot
+Devin Vassell
+G
+31:17	12	17	70.6	7	9	77.8	4	4	100	1	2	3	2	1	0	0	4	35	-14
+undefined Headshot
+De'Aaron Fox
+G
+34:07	6	19	31.6	1	6	16.7	2	3	66.7	0	1	1	12	1	1	3	0	15	-4
+undefined Headshot
+Dylan Harper
+15:19	4	7	57.1	0	1	0.0	3	4	75.0	0	0	0	3	3	0	0	0	11	9
+undefined Headshot
+Jeremy Sochan
+15:36	2	4	50.0	0	1	0.0	0	0	0.0	1	0	1	2	1	0	0	5	4	6
+undefined Headshot
+Keldon Johnson
+22:22	4	7	57.1	2	5	40.0	4	4	100	1	7	8	2	0	0	1	2	14	14
+undefined Headshot
+Lindy Waters III
+7:55	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	0	0	3	1
+undefined Headshot
+Carter Bryant
+5:51	1	3	33.3	1	2	50.0	0	0	0.0	0	2	2	0	1	0	0	1	3	1
+undefined Headshot
+Kelly Olynyk
+12:32	2	3	66.7	1	2	50.0	2	2	100	1	0	1	0	1	0	1	3	7	11
+undefined Headshot
+Bismack Biyombo
+DNP - Coach's Decision
+undefined Headshot
+David Jones Garcia
+DNP - Coach's Decision
+TOTALS
+ 	46	94	48.9	17	42	40.5	30	32	93.8	12	23	35	30	10	5	8	27	139	3
+Denver Nuggets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Spencer Jones
+F
+22:46	4	9	44.4	1	5	20.0	0	2	0.0	0	1	1	3	1	1	1	1	9	8
+undefined Headshot
+Peyton Watson
+F
+33:42	5	11	45.5	1	5	20.0	4	4	100	3	3	6	3	1	1	1	3	15	4
+undefined Headshot
+Nikola Jokić
+C
+36:01	7	10	70.0	1	1	100	6	8	75.0	2	7	9	10	1	1	4	5	21	-6
+undefined Headshot
+Cameron Johnson
+G
+37:45	10	16	62.5	6	9	66.7	2	2	100	2	4	6	1	2	1	3	3	28	7
+undefined Headshot
+Jamal Murray
+G
+36:10	13	20	65.0	5	8	62.5	6	7	85.7	1	3	4	7	0	1	2	4	37	4
+undefined Headshot
+Tim Hardaway Jr.
+28:31	4	10	40.0	2	7	28.6	5	5	100	0	2	2	1	0	0	2	2	15	-16
+undefined Headshot
+Bruce Brown
+19:19	1	8	12.5	0	2	0.0	1	2	50.0	1	3	4	1	0	0	0	1	3	-6
+undefined Headshot
+Zeke Nnaji
+13:47	2	4	50.0	0	2	0.0	0	0	0.0	3	1	4	0	0	0	2	2	4	-13
+undefined Headshot
+Jonas Valančiūnas
+11:59	2	3	66.7	0	0	0.0	0	0	0.0	2	6	8	1	0	0	1	1	4	3
+undefined Headshot
+Curtis Jones
+DNP - Coach's Decision
+undefined Headshot
+Jalen Pickett
+DNP - Coach's Decision
+undefined Headshot
+Hunter Tyson
+DNP - Coach's Decision
+TOTALS
+ 	48	91	52.7	16	39	41.0	24	30	80.0	14	30	44	27	5	5	16	22	136	-3
+Inactive Players
+SAS: Stephon Castle, Riley Minix, Victor Wembanyama, Harrison Ingram, Jordan McLaughlin
+
+DEN: Aaron Gordon, Julian Strawther, Christian Braun, DaRon Holmes II, Tamar Bates

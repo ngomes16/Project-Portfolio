@@ -1,0 +1,107 @@
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+LeBron James
+F
+36:34	8	16	50.0	1	3	33.3	0	0	0.0	2	6	8	5	1	1	1	2	17	-8
+undefined Headshot
+Jake LaRavia
+F
+30:28	4	8	50.0	2	6	33.3	3	4	75.0	1	5	6	1	0	1	4	4	13	12
+undefined Headshot
+Deandre Ayton
+C
+23:45	4	16	25.0	0	0	0.0	1	2	50.0	5	6	11	0	0	1	1	4	9	-12
+undefined Headshot
+Marcus Smart
+G
+32:01	4	10	40.0	2	4	50.0	3	5	60.0	4	3	7	3	0	2	3	3	13	-2
+undefined Headshot
+Luka Dončić
+G
+39:09	8	15	53.3	3	8	37.5	14	15	93.3	0	8	8	11	1	1	5	2	33	18
+undefined Headshot
+Rui Hachimura
+27:08	6	13	46.2	4	7	57.1	1	1	100	1	7	8	1	0	1	0	1	17	21
+undefined Headshot
+Jaxson Hayes
+14:37	3	3	100	0	0	0.0	0	0	0.0	0	1	1	1	0	1	0	2	6	1
+undefined Headshot
+Gabe Vincent
+15:24	0	2	0.0	0	2	0.0	0	0	0.0	1	0	1	1	2	0	0	1	0	8
+undefined Headshot
+Jarred Vanderbilt
+12:29	3	6	50.0	2	3	66.7	0	2	0.0	1	3	4	2	1	0	0	1	8	-4
+undefined Headshot
+Drew Timme
+8:25	0	1	0.0	0	1	0.0	0	0	0.0	1	2	3	1	2	0	0	0	0	-4
+undefined Headshot
+Bronny James
+DNP - Coach's Decision
+undefined Headshot
+Maxi Kleber
+DNP - Coach's Decision
+undefined Headshot
+Dalton Knecht
+DNP - Coach's Decision
+TOTALS
+ 	40	90	44.4	14	34	41.2	22	29	75.9	16	41	57	26	7	8	14	20	116	6
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+34:19	7	20	35.0	1	5	20.0	1	2	50.0	2	5	7	6	2	0	0	3	16	-4
+undefined Headshot
+Caleb Martin
+F
+23:39	6	10	60.0	3	4	75.0	2	2	100	0	3	3	1	1	2	0	3	17	14
+undefined Headshot
+Dwight Powell
+C
+23:47	0	2	0.0	0	0	0.0	0	0	0.0	3	4	7	2	2	1	0	2	0	13
+undefined Headshot
+Max Christie
+G
+34:35	8	18	44.4	4	10	40.0	4	4	100	0	2	2	3	1	0	0	1	24	-9
+undefined Headshot
+Naji Marshall
+G
+36:59	7	15	46.7	0	3	0.0	7	10	70.0	4	7	11	2	1	0	3	3	21	-8
+undefined Headshot
+Brandon Williams
+23:11	8	17	47.1	0	1	0.0	4	5	80.0	0	4	4	4	0	0	2	2	20	-24
+undefined Headshot
+Daniel Gafford
+16:16	0	1	0.0	0	0	0.0	2	2	100	0	2	2	1	0	2	0	2	2	-5
+undefined Headshot
+Klay Thompson
+14:26	2	5	40.0	2	5	40.0	0	2	0.0	1	2	3	1	2	0	3	1	6	5
+undefined Headshot
+P.J. Washington
+25:30	1	5	20.0	0	1	0.0	0	0	0.0	1	2	3	0	1	1	1	2	2	-9
+undefined Headshot
+Jeremiah Robinson-Earl
+3:04	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	1	0	0	-4
+undefined Headshot
+Ryan Nembhard
+4:14	0	1	0.0	0	0	0.0	2	2	100	0	0	0	2	0	0	1	0	2	1
+undefined Headshot
+Jaden Hardy
+DNP - Coach's Decision
+undefined Headshot
+Miles Kelly
+DNP - Coach's Decision
+undefined Headshot
+D'Angelo Russell
+DNP - Coach's Decision
+TOTALS
+ 	39	94	41.5	10	29	34.5	22	29	75.9	11	32	43	22	10	6	11	19	110	-6
+Inactive Players
+LAL: Austin Reaves, Nick Smith Jr., Adou Thiero, Chris Manon
+
+DAL: Moussa Cisse, Dereck Lively II, Kyrie Irving, Anthony Davis, Dante Exum

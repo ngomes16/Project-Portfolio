@@ -1,0 +1,107 @@
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+8:54	3	7	42.9	0	0	0.0	2	3	66.7	2	0	2	2	1	0	0	3	8	-7
+undefined Headshot
+Tobias Harris
+F
+18:11	0	5	0.0	0	2	0.0	0	0	0.0	0	4	4	3	0	0	0	2	0	-22
+undefined Headshot
+Jalen Duren
+C
+34:24	8	20	40.0	0	0	0.0	1	2	50.0	10	3	13	1	2	0	1	2	17	-21
+undefined Headshot
+Duncan Robinson
+G
+13:02	1	7	14.3	0	5	0.0	0	0	0.0	0	2	2	0	0	0	0	4	2	-22
+undefined Headshot
+Cade Cunningham
+G
+44:32	12	30	40.0	2	9	22.2	3	4	75.0	0	10	10	9	0	1	4	3	29	2
+undefined Headshot
+Jaden Ivey
+14:29	3	6	50.0	2	4	50.0	0	0	0.0	0	0	0	1	1	1	0	3	8	0
+undefined Headshot
+Isaiah Stewart
+31:24	5	10	50.0	1	3	33.3	3	4	75.0	5	3	8	1	1	2	2	3	14	10
+undefined Headshot
+Caris LeVert
+27:07	3	8	37.5	0	2	0.0	0	0	0.0	1	2	3	3	1	0	0	1	6	2
+undefined Headshot
+Ronald Holland II
+19:54	5	11	45.5	0	2	0.0	2	3	66.7	3	4	7	0	0	0	0	0	12	18
+undefined Headshot
+Javonte Green
+18:22	1	5	20.0	0	2	0.0	1	2	50.0	3	3	6	2	3	0	1	2	3	-6
+undefined Headshot
+Paul Reed
+6:23	2	3	66.7	0	0	0.0	0	0	0.0	1	0	1	0	1	0	0	0	4	10
+undefined Headshot
+Daniss Jenkins
+20:25	4	8	50.0	1	3	33.3	2	2	100	1	3	4	1	1	0	2	4	11	15
+undefined Headshot
+Marcus Sasser
+7:53	0	2	0.0	0	1	0.0	0	0	0.0	0	2	2	3	0	0	0	0	0	11
+TOTALS
+ 	47	122	38.5	6	33	18.2	14	20	70.0	26	36	62	26	11	4	10	27	114	-2
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+39:55	8	20	40.0	0	4	0.0	7	7	100	2	8	10	4	1	3	0	2	23	16
+undefined Headshot
+P.J. Washington
+F
+36:40	6	10	60.0	1	4	25.0	0	0	0.0	2	5	7	3	1	4	2	3	13	2
+undefined Headshot
+Anthony Davis
+C
+37:22	7	18	38.9	1	2	50.0	0	0	0.0	3	11	14	2	0	3	2	2	15	6
+undefined Headshot
+Naji Marshall
+G
+33:17	5	9	55.6	0	3	0.0	6	7	85.7	0	3	3	1	0	0	0	4	16	16
+undefined Headshot
+Ryan Nembhard
+G
+21:42	3	5	60.0	0	0	0.0	0	0	0.0	0	2	2	7	0	0	2	2	6	9
+undefined Headshot
+Max Christie
+19:12	2	4	50.0	2	4	50.0	5	6	83.3	1	1	2	0	1	0	0	1	11	-8
+undefined Headshot
+Brandon Williams
+31:16	3	8	37.5	0	4	0.0	8	10	80.0	0	5	5	2	0	2	3	1	14	-5
+undefined Headshot
+Klay Thompson
+19:19	2	8	25.0	1	5	20.0	0	0	0.0	0	1	1	2	0	0	2	2	5	-13
+undefined Headshot
+Daniel Gafford
+15:38	3	5	60.0	0	0	0.0	3	4	75.0	3	3	6	1	0	3	5	3	9	-4
+undefined Headshot
+D'Angelo Russell
+10:39	1	2	50.0	0	1	0.0	2	2	100	0	1	1	0	1	0	1	1	4	-9
+undefined Headshot
+Moussa Cisse
+DNP - Coach's Decision
+undefined Headshot
+Jaden Hardy
+DNP - Coach's Decision
+undefined Headshot
+Caleb Martin
+DNP - Coach's Decision
+undefined Headshot
+Dwight Powell
+DNP - Coach's Decision
+TOTALS
+ 	40	89	44.9	5	27	18.5	31	36	86.1	11	40	51	22	4	15	17	21	116	2
+Inactive Players
+DET: Wendell Moore Jr., Bobi Klintman, Isaac Jones, Chaz Lanier, Tolu Smith
+
+DAL: Dereck Lively II, Kyrie Irving, Dante Exum, Miles Kelly

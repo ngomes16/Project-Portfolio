@@ -1,0 +1,104 @@
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+35:58	5	18	27.8	0	3	0.0	3	4	75.0	2	3	5	4	0	2	1	1	13	-4
+undefined Headshot
+Scottie Barnes
+F
+31:45	3	8	37.5	0	2	0.0	4	4	100	3	8	11	8	1	3	2	5	10	15
+undefined Headshot
+Sandro Mamukelashvili
+C
+31:34	3	8	37.5	0	2	0.0	4	8	50.0	2	3	5	3	1	1	1	4	10	-8
+undefined Headshot
+RJ Barrett
+G
+21:26	6	12	50.0	2	3	66.7	0	0	0.0	1	5	6	2	2	0	2	2	14	2
+undefined Headshot
+Immanuel Quickley
+G
+31:54	7	14	50.0	6	10	60.0	3	4	75.0	1	10	11	2	2	0	1	1	23	2
+undefined Headshot
+Jamal Shead
+24:28	4	9	44.4	1	5	20.0	0	2	0.0	0	4	4	5	1	0	1	1	9	1
+undefined Headshot
+Ja'Kobe Walter
+27:30	3	8	37.5	1	6	16.7	2	2	100	0	3	3	2	3	0	1	4	9	12
+undefined Headshot
+Gradey Dick
+20:48	4	7	57.1	2	3	66.7	0	0	0.0	0	3	3	1	0	0	1	2	10	-3
+undefined Headshot
+Ochai Agbaji
+14:38	2	2	100	0	0	0.0	1	2	50.0	3	0	3	1	0	0	1	2	5	-7
+undefined Headshot
+Jamison Battle
+DNP - Coach's Decision
+undefined Headshot
+A.J. Lawson
+DNP - Coach's Decision
+undefined Headshot
+Alijah Martin
+DNP - Coach's Decision
+undefined Headshot
+Jonathan Mogbo
+DNP - Coach's Decision
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	37	86	43.0	12	34	35.3	17	26	65.4	12	39	51	28	10	6	11	22	103	2
+Oklahoma City Thunder
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Luguentz Dort
+F
+35:34	6	10	60.0	4	8	50.0	3	5	60.0	1	7	8	2	2	0	1	2	19	3
+undefined Headshot
+Jaylin Williams
+F
+21:02	2	7	28.6	1	3	33.3	0	0	0.0	1	2	3	1	1	1	0	4	5	-5
+undefined Headshot
+Chet Holmgren
+C
+29:21	5	10	50.0	0	3	0.0	1	2	50.0	2	8	10	0	0	0	2	0	11	-9
+undefined Headshot
+Cason Wallace
+G
+15:40	1	3	33.3	0	2	0.0	1	2	50.0	0	1	1	1	0	0	1	1	3	-4
+undefined Headshot
+Shai Gilgeous-Alexander
+G
+35:12	8	11	72.7	0	1	0.0	8	10	80.0	0	3	3	6	1	2	2	2	24	-3
+undefined Headshot
+Aaron Wiggins
+29:29	3	10	30.0	2	9	22.2	3	4	75.0	0	3	3	4	0	2	3	2	11	-10
+undefined Headshot
+Ousmane Dieng
+20:13	1	3	33.3	1	3	33.3	0	0	0.0	0	2	2	4	0	0	0	1	3	17
+undefined Headshot
+Kenrich Williams
+28:23	4	11	36.4	1	7	14.3	6	6	100	0	5	5	1	0	0	1	3	15	9
+undefined Headshot
+Isaiah Joe
+22:03	3	9	33.3	2	7	28.6	2	2	100	0	1	1	2	1	0	0	2	10	-1
+undefined Headshot
+Brooks Barnhizer
+3:02	0	1	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	1	0	0	-7
+undefined Headshot
+Alex Caruso
+DND - Injury/Illness
+undefined Headshot
+Chris Youngblood
+DNP - Coach's Decision
+TOTALS
+ 	33	75	44.0	11	43	25.6	24	31	77.4	5	32	37	21	5	5	11	17	101	-2
+Inactive Players
+TOR: Jakob Poeltl, Collin Murray-Boyles, Chucky Hepburn
+
+OKC: Isaiah Hartenstein, Jalen Williams, Nikola Topic, Ajay Mitchell, Branden Carlson, Thomas Sorber

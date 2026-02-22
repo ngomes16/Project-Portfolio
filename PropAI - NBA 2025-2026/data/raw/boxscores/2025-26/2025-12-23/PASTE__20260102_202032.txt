@@ -1,0 +1,104 @@
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+29:15	5	14	35.7	2	6	33.3	0	0	0.0	0	6	6	2	0	1	1	1	12	14
+undefined Headshot
+Scottie Barnes
+F
+35:55	10	14	71.4	0	1	0.0	7	8	87.5	1	7	8	4	0	0	3	0	27	21
+undefined Headshot
+Sandro Mamukelashvili
+C
+27:29	5	9	55.6	4	6	66.7	0	0	0.0	2	4	6	7	1	0	1	2	14	19
+undefined Headshot
+Ochai Agbaji
+G
+21:11	2	6	33.3	1	3	33.3	0	0	0.0	1	4	5	1	0	1	1	1	5	12
+undefined Headshot
+Immanuel Quickley
+G
+35:29	5	15	33.3	1	8	12.5	7	7	100	1	4	5	7	1	1	2	3	18	27
+undefined Headshot
+Collin Murray-Boyles
+24:45	5	9	55.6	1	2	50.0	0	0	0.0	9	3	12	0	3	1	3	3	11	2
+undefined Headshot
+Gradey Dick
+11:53	0	4	0.0	0	3	0.0	2	2	100	0	1	1	1	2	0	1	1	2	-8
+undefined Headshot
+Jamal Shead
+19:00	3	6	50.0	2	3	66.7	0	0	0.0	0	2	2	4	1	1	3	3	8	0
+undefined Headshot
+Ja'Kobe Walter
+19:39	2	5	40.0	0	3	0.0	0	1	0.0	0	3	3	2	2	0	0	3	4	3
+undefined Headshot
+Jamison Battle
+15:24	4	4	100	3	3	100	0	0	0.0	1	1	2	1	2	0	1	2	11	15
+undefined Headshot
+Jonathan Mogbo
+DNP - Coach's Decision
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	41	86	47.7	14	38	36.8	16	18	88.9	15	35	50	29	12	5	16	19	112	21
+Miami Heat
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Andrew Wiggins
+F
+32:33	5	11	45.5	2	5	40.0	2	2	100	2	1	3	2	0	0	2	0	14	-27
+undefined Headshot
+Bam Adebayo
+F
+34:08	4	11	36.4	0	2	0.0	1	3	33.3	1	11	12	3	2	0	1	2	9	-16
+undefined Headshot
+Kel'el Ware
+C
+21:07	2	8	25.0	1	3	33.3	0	0	0.0	5	4	9	0	2	0	0	0	5	-22
+undefined Headshot
+Norman Powell
+G
+35:04	6	17	35.3	1	6	16.7	4	4	100	0	6	6	6	2	0	3	3	17	-22
+undefined Headshot
+Davion Mitchell
+G
+27:08	1	6	16.7	1	4	25.0	0	0	0.0	0	1	1	2	1	0	2	3	3	-18
+undefined Headshot
+Jaime Jaquez Jr.
+35:40	9	16	56.3	1	2	50.0	2	3	66.7	0	2	2	2	0	1	4	4	21	9
+undefined Headshot
+Kasparas Jakučionis
+27:30	2	5	40.0	1	4	25.0	2	2	100	0	2	2	0	1	0	2	4	7	-7
+undefined Headshot
+Dru Smith
+16:32	3	4	75.0	1	2	50.0	3	3	100	1	1	2	2	2	0	1	1	10	-3
+undefined Headshot
+Simone Fontecchio
+8:40	1	4	25.0	0	2	0.0	3	3	100	1	2	3	1	2	0	2	1	5	5
+undefined Headshot
+Myron Gardner
+0:49	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Keshad Johnson
+0:49	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Tyler Herro
+DND - Injury/Illness
+undefined Headshot
+Nikola Jović
+DND - Injury/Illness
+undefined Headshot
+Pelle Larsson
+DND - Injury/Illness
+TOTALS
+ 	33	82	40.2	8	30	26.7	17	20	85.0	10	30	40	18	12	1	17	18	91	-21
+Inactive Players
+TOR: Alijah Martin, Chucky Hepburn, Jakob Poeltl, RJ Barrett, A.J. Lawson
+
+MIA: Terry Rozier, Jahmir Young, Vladislav Goldin

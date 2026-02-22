@@ -1,0 +1,113 @@
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+AJ Green
+F
+29:37	4	8	50.0	3	6	50.0	0	0	0.0	0	2	2	2	0	0	2	1	11	1
+undefined Headshot
+Giannis Antetokounmpo
+F
+30:56	15	22	68.2	2	4	50.0	2	7	28.6	2	8	10	5	0	0	2	4	34	3
+undefined Headshot
+Myles Turner
+C
+24:34	4	8	50.0	2	4	50.0	3	3	100	1	1	2	3	0	1	1	2	13	-7
+undefined Headshot
+Kevin Porter Jr.
+G
+40:26	7	12	58.3	1	3	33.3	0	0	0.0	0	4	4	9	1	0	5	2	15	-2
+undefined Headshot
+Ryan Rollins
+G
+35:12	7	13	53.8	2	5	40.0	0	0	0.0	0	7	7	4	1	0	1	4	16	-4
+undefined Headshot
+Kyle Kuzma
+20:34	5	7	71.4	2	2	100	1	1	100	0	2	2	2	0	1	0	1	13	-13
+undefined Headshot
+Gary Trent Jr.
+21:41	2	7	28.6	0	4	0.0	1	1	100	0	1	1	2	0	0	1	1	5	-11
+undefined Headshot
+Bobby Portis
+23:26	2	7	28.6	2	4	50.0	0	0	0.0	2	4	6	0	0	0	0	0	6	0
+undefined Headshot
+Gary Harris
+13:34	0	1	0.0	0	0	0.0	0	0	0.0	0	2	2	2	1	1	0	0	0	-2
+undefined Headshot
+Thanasis Antetokounmpo
+DNP - Coach's Decision
+undefined Headshot
+Cole Anthony
+DNP - Coach's Decision
+undefined Headshot
+Amir Coffey
+DNP - Coach's Decision
+undefined Headshot
+Andre Jackson Jr.
+DNP - Coach's Decision
+undefined Headshot
+Jericho Sims
+DNP - Coach's Decision
+TOTALS
+ 	46	85	54.1	14	32	43.8	7	12	58.3	5	31	36	29	3	3	12	15	113	-7
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jimmy Butler III
+F
+31:57	6	15	40.0	1	5	20.0	8	9	88.9	2	3	5	3	1	0	2	3	21	-4
+undefined Headshot
+Draymond Green
+F
+29:26	5	12	41.7	3	8	37.5	1	2	50.0	0	3	3	7	1	0	1	5	14	-10
+undefined Headshot
+Quinten Post
+C
+18:46	5	8	62.5	1	3	33.3	0	0	0.0	0	1	1	3	0	0	0	1	11	-12
+undefined Headshot
+Moses Moody
+G
+27:31	3	7	42.9	3	6	50.0	0	0	0.0	0	2	2	0	1	0	0	0	9	0
+undefined Headshot
+Stephen Curry
+G
+34:05	12	21	57.1	3	9	33.3	4	5	80.0	0	6	6	7	0	0	1	0	31	16
+undefined Headshot
+Brandin Podziemski
+22:21	1	5	20.0	0	2	0.0	0	0	0.0	1	5	6	4	1	0	0	1	2	19
+undefined Headshot
+Gui Santos
+18:17	1	3	33.3	0	1	0.0	0	0	0.0	1	3	4	1	1	0	2	1	2	12
+undefined Headshot
+Al Horford
+19:04	3	6	50.0	2	4	50.0	0	0	0.0	3	7	10	6	0	2	2	0	8	9
+undefined Headshot
+De'Anthony Melton
+25:19	8	12	66.7	5	9	55.6	1	2	50.0	1	2	3	0	1	0	1	3	22	4
+undefined Headshot
+Will Richard
+13:14	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	1	0	1
+undefined Headshot
+Buddy Hield
+DNP - Coach's Decision
+undefined Headshot
+Trayce Jackson-Davis
+DNP - Coach's Decision
+undefined Headshot
+Jonathan Kuminga
+DNP - Coach's Decision
+undefined Headshot
+Gary Payton II
+DNP - Injury/Illness
+undefined Headshot
+Pat Spencer
+DNP - Coach's Decision
+TOTALS
+ 	44	89	49.4	18	47	38.3	14	18	77.8	8	33	41	31	6	2	9	15	120	7
+Inactive Players
+MIL: Taurean Prince, Alex Antetokounmpo, Pete Nance
+
+GSW: Malevy Leons, LJ Cryer, Seth Curry

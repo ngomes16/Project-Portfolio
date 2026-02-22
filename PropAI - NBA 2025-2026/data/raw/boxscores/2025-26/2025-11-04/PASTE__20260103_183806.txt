@@ -1,0 +1,113 @@
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Gary Trent Jr.
+F
+21:26	2	4	50.0	2	4	50.0	0	0	0.0	0	2	2	4	0	0	1	2	6	-7
+undefined Headshot
+Giannis Antetokounmpo
+F
+23:43	9	14	64.3	0	0	0.0	4	6	66.7	3	5	8	3	0	1	1	3	22	-8
+undefined Headshot
+Myles Turner
+C
+22:46	3	7	42.9	2	4	50.0	2	2	100	0	8	8	3	2	1	1	1	10	-11
+undefined Headshot
+AJ Green
+G
+16:47	3	4	75.0	3	4	75.0	0	0	0.0	0	1	1	1	0	0	0	4	9	-17
+undefined Headshot
+Ryan Rollins
+G
+28:13	5	13	38.5	1	5	20.0	0	0	0.0	0	0	0	5	0	0	2	3	11	-13
+undefined Headshot
+Taurean Prince
+20:51	0	5	0.0	0	5	0.0	0	0	0.0	0	0	0	1	0	0	1	4	0	-9
+undefined Headshot
+Cole Anthony
+24:13	5	9	55.6	0	2	0.0	2	3	66.7	1	3	4	4	1	1	0	3	12	-20
+undefined Headshot
+Kyle Kuzma
+26:36	7	14	50.0	2	5	40.0	2	4	50.0	2	1	3	0	0	1	4	1	18	-16
+undefined Headshot
+Bobby Portis
+20:11	1	8	12.5	0	5	0.0	0	0	0.0	0	9	9	2	0	0	1	1	2	-13
+undefined Headshot
+Amir Coffey
+10:10	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	1	0	0	0	1	0	-7
+undefined Headshot
+Gary Harris
+7:41	1	3	33.3	0	1	0.0	0	0	0.0	0	1	1	0	1	0	0	1	2	-5
+undefined Headshot
+Jericho Sims
+6:53	0	0	0.0	0	0	0.0	0	0	0.0	2	1	3	0	0	0	1	1	0	-8
+undefined Headshot
+Andre Jackson Jr.
+5:49	0	1	0.0	0	0	0.0	0	0	0.0	1	0	1	2	1	0	0	0	0	-6
+undefined Headshot
+Mark Sears
+4:41	1	3	33.3	1	2	50.0	5	6	83.3	0	0	0	0	0	0	0	1	8	0
+undefined Headshot
+Thanasis Antetokounmpo
+DNP - Coach's Decision
+TOTALS
+ 	37	86	43.0	11	38	28.9	15	21	71.4	9	32	41	26	5	4	12	26	100	-28
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+30:49	6	12	50.0	0	2	0.0	1	1	100	0	8	8	4	0	2	2	3	13	17
+undefined Headshot
+Scottie Barnes
+F
+27:30	9	16	56.3	3	5	60.0	2	2	100	1	2	3	6	4	2	1	2	23	24
+undefined Headshot
+Jakob Poeltl
+C
+20:01	4	6	66.7	0	0	0.0	0	0	0.0	3	6	9	0	0	0	0	2	8	0
+undefined Headshot
+RJ Barrett
+G
+31:06	6	12	50.0	4	8	50.0	7	12	58.3	0	8	8	4	1	2	1	1	23	6
+undefined Headshot
+Immanuel Quickley
+G
+26:23	5	15	33.3	2	7	28.6	3	3	100	0	6	6	7	1	0	1	1	15	11
+undefined Headshot
+Collin Murray-Boyles
+14:47	1	3	33.3	0	1	0.0	0	0	0.0	0	1	1	0	0	0	1	3	2	8
+undefined Headshot
+Sandro Mamukelashvili
+23:28	6	12	50.0	3	5	60.0	0	0	0.0	4	3	7	1	0	0	1	2	15	28
+undefined Headshot
+Jamal Shead
+17:06	1	4	25.0	1	3	33.3	2	2	100	1	1	2	8	2	0	1	3	5	17
+undefined Headshot
+Gradey Dick
+21:55	3	4	75.0	3	4	75.0	5	6	83.3	0	1	1	0	0	0	0	1	14	15
+undefined Headshot
+Ja'Kobe Walter
+11:23	2	3	66.7	1	2	50.0	3	3	100	1	2	3	0	0	0	1	2	8	14
+undefined Headshot
+Jonathan Mogbo
+6:30	0	1	0.0	0	0	0.0	0	0	0.0	0	2	2	2	0	0	0	2	0	0
+undefined Headshot
+Jamison Battle
+4:31	1	2	50.0	0	1	0.0	0	0	0.0	0	0	0	1	0	0	0	1	2	0
+undefined Headshot
+Ochai Agbaji
+4:31	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	44	91	48.4	17	38	44.7	23	29	79.3	10	40	50	33	8	6	9	23	128	28
+Inactive Players
+MIL: Alex Antetokounmpo, Pete Nance, Kevin Porter Jr.
+
+TOR: A.J. Lawson, Alijah Martin, Chucky Hepburn

@@ -1,0 +1,107 @@
+Denver Nuggets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Spencer Jones
+F
+33:06	5	6	83.3	5	5	100	1	2	50.0	0	3	3	1	3	1	0	3	16	-6
+undefined Headshot
+Peyton Watson
+F
+31:42	4	10	40.0	0	2	0.0	3	4	75.0	0	2	2	1	1	1	1	3	11	-9
+undefined Headshot
+Nikola Jokić
+C
+19:21	9	14	64.3	1	4	25.0	2	3	66.7	2	3	5	8	0	0	2	1	21	-1
+undefined Headshot
+Tim Hardaway Jr.
+G
+28:20	6	13	46.2	2	6	33.3	2	3	66.7	1	2	3	2	0	0	0	1	16	-18
+undefined Headshot
+Jamal Murray
+G
+34:47	9	21	42.9	2	6	33.3	0	0	0.0	1	5	6	11	1	0	2	0	20	-13
+undefined Headshot
+Bruce Brown
+25:54	7	9	77.8	1	2	50.0	0	0	0.0	1	4	5	2	0	0	2	4	15	-16
+undefined Headshot
+Zeke Nnaji
+9:27	1	1	100	0	0	0.0	2	2	100	0	0	0	0	0	0	0	4	4	-16
+undefined Headshot
+Julian Strawther
+14:11	0	3	0.0	0	1	0.0	4	4	100	0	1	1	1	0	0	1	0	4	-12
+undefined Headshot
+Jonas Valančiūnas
+15:41	3	3	100	0	0	0.0	0	0	0.0	1	3	4	1	0	1	2	3	6	-9
+undefined Headshot
+DaRon Holmes II
+8:16	0	0	0.0	0	0	0.0	4	4	100	0	3	3	0	0	0	0	1	4	-11
+undefined Headshot
+Curtis Jones
+6:25	1	5	20.0	0	3	0.0	0	0	0.0	0	1	1	1	0	0	0	1	2	-3
+undefined Headshot
+Hunter Tyson
+6:25	1	3	33.3	0	2	0.0	0	0	0.0	0	1	1	0	0	0	0	0	2	-3
+undefined Headshot
+Jalen Pickett
+6:25	1	1	100	0	0	0.0	0	0	0.0	0	2	2	1	0	1	0	0	2	-3
+TOTALS
+ 	47	89	52.8	11	31	35.5	18	22	81.8	6	30	36	29	5	4	10	21	123	-24
+Miami Heat
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Andrew Wiggins
+F
+31:20	6	10	60.0	4	7	57.1	3	4	75.0	1	4	5	6	3	3	0	2	19	28
+undefined Headshot
+Bam Adebayo
+F
+21:10	5	10	50.0	1	2	50.0	2	2	100	3	7	10	4	1	0	2	3	13	3
+undefined Headshot
+Kel'el Ware
+C
+23:56	8	12	66.7	3	6	50.0	0	0	0.0	5	4	9	0	1	0	0	1	19	4
+undefined Headshot
+Norman Powell
+G
+27:58	9	16	56.3	3	8	37.5	4	4	100	1	0	1	4	1	0	3	1	25	7
+undefined Headshot
+Davion Mitchell
+G
+31:34	4	8	50.0	2	4	50.0	0	0	0.0	0	3	3	9	0	1	3	4	10	17
+undefined Headshot
+Jaime Jaquez Jr.
+27:51	8	11	72.7	1	2	50.0	3	6	50.0	1	2	3	11	0	0	0	0	20	23
+undefined Headshot
+Pelle Larsson
+15:24	1	5	20.0	1	3	33.3	0	0	0.0	0	2	2	0	0	0	0	2	3	2
+undefined Headshot
+Dru Smith
+21:06	4	6	66.7	2	4	50.0	1	1	100	0	4	4	1	2	0	1	3	11	24
+undefined Headshot
+Nikola Jović
+25:54	7	12	58.3	5	8	62.5	3	3	100	0	4	4	5	0	0	0	3	22	24
+undefined Headshot
+Kasparas Jakučionis
+3:27	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	0	0	-3
+undefined Headshot
+Simone Fontecchio
+3:27	0	1	0.0	0	1	0.0	3	3	100	0	0	0	0	0	0	0	1	3	-3
+undefined Headshot
+Keshad Johnson
+3:27	1	5	20.0	0	1	0.0	0	0	0.0	1	0	1	0	0	0	0	1	2	-3
+undefined Headshot
+Myron Gardner
+3:27	0	3	0.0	0	0	0.0	0	0	0.0	2	1	3	0	0	0	0	1	0	-3
+undefined Headshot
+Tyler Herro
+DND - Injury/Illness
+TOTALS
+ 	53	99	53.5	22	46	47.8	19	23	82.6	15	31	46	40	8	4	9	22	147	24
+Inactive Players
+DEN: Tamar Bates, Cameron Johnson, Christian Braun, Aaron Gordon
+
+MIA: Terry Rozier, Jahmir Young, Vladislav Goldin

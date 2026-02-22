@@ -1,0 +1,107 @@
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+32:10	5	11	45.5	0	3	0.0	4	4	100	0	3	3	5	0	0	0	3	14	-21
+undefined Headshot
+Scottie Barnes
+F
+29:39	3	7	42.9	2	4	50.0	0	1	0.0	0	3	3	2	0	1	2	4	8	-8
+undefined Headshot
+Jakob Poeltl
+C
+23:58	1	6	16.7	0	0	0.0	0	0	0.0	0	2	2	1	0	1	4	3	2	-9
+undefined Headshot
+RJ Barrett
+G
+32:12	9	18	50.0	2	7	28.6	5	5	100	0	2	2	2	1	0	2	1	25	-13
+undefined Headshot
+Immanuel Quickley
+G
+31:39	4	7	57.1	2	4	50.0	5	6	83.3	0	3	3	7	3	0	0	2	15	-9
+undefined Headshot
+Jamal Shead
+16:21	2	6	33.3	1	4	25.0	1	1	100	0	2	2	5	0	0	2	3	6	-9
+undefined Headshot
+Collin Murray-Boyles
+23:38	7	13	53.8	3	5	60.0	2	4	50.0	1	2	3	1	3	1	2	2	19	-17
+undefined Headshot
+Gradey Dick
+7:55	0	2	0.0	0	2	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	5
+undefined Headshot
+Sandro Mamukelashvili
+17:04	2	2	100	1	1	100	0	2	0.0	0	0	0	2	1	0	2	1	5	-4
+undefined Headshot
+Ochai Agbaji
+12:19	2	4	50.0	0	0	0.0	0	0	0.0	0	1	1	2	1	0	0	0	4	5
+undefined Headshot
+Ja'Kobe Walter
+10:29	1	2	50.0	1	2	50.0	0	0	0.0	0	1	1	1	0	1	1	3	3	-10
+undefined Headshot
+Jonathan Mogbo
+2:36	1	1	100	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	2	0
+undefined Headshot
+Jamison Battle
+DNP - Coach's Decision
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	37	79	46.8	12	32	37.5	17	23	73.9	1	19	20	29	9	4	15	23	103	-18
+San Antonio Spurs
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Julian Champagnie
+F
+23:26	3	7	42.9	1	4	25.0	2	3	66.7	0	9	9	1	0	1	1	0	9	5
+undefined Headshot
+Harrison Barnes
+F
+31:59	6	7	85.7	4	5	80.0	2	2	100	0	0	0	5	1	0	3	2	18	12
+undefined Headshot
+Victor Wembanyama
+C
+30:39	7	8	87.5	0	0	0.0	10	10	100	2	13	15	4	1	1	4	1	24	35
+undefined Headshot
+Devin Vassell
+G
+30:02	5	10	50.0	2	6	33.3	3	3	100	0	3	3	5	2	0	3	3	15	20
+undefined Headshot
+Stephon Castle
+G
+30:39	6	12	50.0	1	4	25.0	9	14	64.3	2	3	5	4	2	0	5	1	22	17
+undefined Headshot
+Keldon Johnson
+24:16	4	6	66.7	2	3	66.7	0	0	0.0	2	3	5	0	1	0	1	1	10	-2
+undefined Headshot
+Dylan Harper
+26:43	4	9	44.4	1	2	50.0	2	2	100	1	5	6	6	1	0	1	3	11	6
+undefined Headshot
+Bismack Biyombo
+14:25	1	1	100	0	0	0.0	0	0	0.0	0	1	1	1	1	0	0	3	2	-14
+undefined Headshot
+Jordan McLaughlin
+10:08	1	2	50.0	1	2	50.0	2	2	100	0	0	0	2	2	0	0	2	5	4
+undefined Headshot
+Carter Bryant
+11:13	1	3	33.3	1	1	100	0	0	0.0	0	0	0	0	0	1	2	1	3	7
+undefined Headshot
+David Jones Garcia
+2:10	1	2	50.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	2	0
+undefined Headshot
+Riley Minix
+2:10	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	0	0
+undefined Headshot
+Harrison Ingram
+2:10	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+TOTALS
+ 	39	67	58.2	13	27	48.1	30	36	83.3	7	37	44	29	11	3	20	17	121	18
+Inactive Players
+TOR: A.J. Lawson, Alijah Martin, Chucky Hepburn
+
+SAS: Jeremy Sochan, Kelly Olynyk, De'Aaron Fox, Luke Kornet, Lindy Waters III

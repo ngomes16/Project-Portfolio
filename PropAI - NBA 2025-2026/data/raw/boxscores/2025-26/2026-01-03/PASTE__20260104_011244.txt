@@ -1,0 +1,104 @@
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Durant
+F
+37:45	14	26	53.8	2	7	28.6	4	5	80.0	0	5	5	7	0	3	2	4	34	15
+undefined Headshot
+Jabari Smith Jr.
+F
+36:58	2	13	15.4	1	7	14.3	2	2	100	3	6	9	3	0	0	0	1	7	-11
+undefined Headshot
+Alperen Sengun
+C
+1:04	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	0
+undefined Headshot
+Tari Eason
+G
+34:15	7	17	41.2	3	6	50.0	2	2	100	2	8	10	2	2	0	2	1	19	10
+undefined Headshot
+Amen Thompson
+G
+39:22	8	18	44.4	0	3	0.0	4	4	100	6	6	12	4	3	1	2	2	20	1
+undefined Headshot
+Clint Capela
+26:49	4	8	50.0	0	0	0.0	0	2	0.0	5	3	8	2	5	2	1	1	8	-1
+undefined Headshot
+Reed Sheppard
+22:24	3	10	30.0	2	6	33.3	0	0	0.0	0	0	0	5	0	0	1	4	8	-24
+undefined Headshot
+Dorian Finney-Smith
+16:17	1	3	33.3	1	3	33.3	0	0	0.0	1	4	5	0	0	0	1	1	3	-1
+undefined Headshot
+Aaron Holiday
+14:04	0	6	0.0	0	5	0.0	0	0	0.0	0	0	0	1	3	1	0	3	0	-4
+undefined Headshot
+Jae'Sean Tate
+5:31	1	2	50.0	1	2	50.0	0	0	0.0	0	1	1	0	0	0	0	0	3	-10
+undefined Headshot
+Josh Okogie
+5:31	1	3	33.3	0	2	0.0	0	0	0.0	0	0	0	0	0	0	0	0	2	-5
+undefined Headshot
+JD Davison
+DNP - Coach's Decision
+undefined Headshot
+Jeff Green
+DNP - Coach's Decision
+TOTALS
+ 	41	106	38.7	10	41	24.4	12	15	80.0	17	34	51	24	13	7	9	17	104	-6
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+P.J. Washington
+F
+12:00	0	1	0.0	0	1	0.0	0	0	0.0	0	1	1	0	1	1	0	1	0	-6
+undefined Headshot
+Anthony Davis
+F
+39:02	9	15	60.0	0	2	0.0	8	9	88.9	1	11	12	3	0	5	5	2	26	-4
+undefined Headshot
+Daniel Gafford
+C
+19:07	4	5	80.0	0	0	0.0	1	2	50.0	0	8	8	1	0	2	1	0	9	-3
+undefined Headshot
+Max Christie
+G
+34:54	10	13	76.9	4	6	66.7	0	0	0.0	0	7	7	2	1	1	1	0	24	6
+undefined Headshot
+Cooper Flagg
+G
+34:37	3	12	25.0	0	2	0.0	4	4	100	0	7	7	6	2	1	2	2	10	4
+undefined Headshot
+Naji Marshall
+33:17	5	11	45.5	0	3	0.0	0	1	0.0	0	2	2	5	0	0	1	2	10	4
+undefined Headshot
+Brandon Williams
+24:27	7	10	70.0	1	1	100	0	1	0.0	1	6	7	3	1	0	3	5	15	9
+undefined Headshot
+Klay Thompson
+22:16	3	8	37.5	2	4	50.0	1	1	100	0	3	3	1	0	0	1	0	9	11
+undefined Headshot
+Ryan Nembhard
+13:24	2	3	66.7	1	2	50.0	0	0	0.0	0	0	0	3	0	0	1	1	5	10
+undefined Headshot
+Caleb Martin
+6:56	1	2	50.0	0	0	0.0	0	0	0.0	0	0	0	0	1	0	0	2	2	-1
+undefined Headshot
+Jaden Hardy
+DNP - Coach's Decision
+undefined Headshot
+Dwight Powell
+DNP - Coach's Decision
+undefined Headshot
+D'Angelo Russell
+DNP - Coach's Decision
+TOTALS
+ 	44	80	55.0	8	21	38.1	14	18	77.8	2	45	47	24	6	10	15	15	110	6
+Inactive Players
+HOU: Tristen Newton, Isaiah Crawford, Fred VanVleet, Steven Adams
+
+DAL: Kyrie Irving, Dante Exum, Moussa Cisse, Dereck Lively II, Miles Kelly

@@ -1,0 +1,104 @@
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+26:40	4	7	57.1	0	2	0.0	4	5	80.0	0	1	1	1	0	0	1	4	12	-17
+undefined Headshot
+Julius Randle
+F
+30:48	8	15	53.3	1	5	20.0	3	3	100	0	4	4	4	1	0	2	2	20	-20
+undefined Headshot
+Rudy Gobert
+C
+31:24	4	6	66.7	0	0	0.0	0	0	0.0	3	9	12	2	1	3	2	4	8	-8
+undefined Headshot
+Anthony Edwards
+G
+35:08	10	24	41.7	4	9	44.4	1	2	50.0	1	4	5	3	0	2	1	1	25	-16
+undefined Headshot
+Donte DiVincenzo
+G
+34:30	6	9	66.7	3	6	50.0	0	0	0.0	2	1	3	6	2	0	4	0	15	-11
+undefined Headshot
+Naz Reid
+28:08	9	12	75.0	5	6	83.3	2	2	100	2	3	5	3	0	2	3	3	25	-4
+undefined Headshot
+Jaylen Clark
+15:15	0	1	0.0	0	1	0.0	1	2	50.0	0	3	3	1	0	0	0	3	1	5
+undefined Headshot
+Bones Hyland
+20:28	5	8	62.5	2	2	100	0	0	0.0	0	2	2	7	1	0	1	0	12	-5
+undefined Headshot
+Joe Ingles
+6:19	1	1	100	1	1	100	2	2	100	0	0	0	3	1	0	0	2	5	0
+undefined Headshot
+Leonard Miller
+2:50	0	1	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	0	0	0	4
+undefined Headshot
+Joan Beringer
+2:50	3	3	100	0	0	0.0	0	0	0.0	1	1	2	0	1	0	0	0	6	4
+undefined Headshot
+Johnny Juzang
+2:50	1	1	100	0	0	0.0	2	2	100	1	0	1	0	1	0	0	0	4	4
+undefined Headshot
+Rob Dillingham
+2:50	0	1	0.0	0	0	0.0	1	2	50.0	0	1	1	1	0	0	1	0	1	4
+TOTALS
+ 	51	89	57.3	16	32	50.0	16	20	80.0	11	29	40	31	8	7	15	19	134	-12
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Sam Merrill
+F
+25:30	5	7	71.4	5	6	83.3	5	5	100	0	2	2	1	3	0	2	2	20	20
+undefined Headshot
+Evan Mobley
+F
+31:33	11	16	68.8	0	3	0.0	2	4	50.0	1	3	4	3	2	0	1	1	24	0
+undefined Headshot
+Jarrett Allen
+C
+28:10	6	10	60.0	0	0	0.0	4	5	80.0	4	7	11	4	1	1	0	3	16	22
+undefined Headshot
+Donovan Mitchell
+G
+31:25	9	21	42.9	4	10	40.0	6	7	85.7	0	3	3	8	1	0	1	2	28	1
+undefined Headshot
+Darius Garland
+G
+28:43	10	13	76.9	1	3	33.3	1	1	100	0	0	0	6	0	0	0	2	22	21
+undefined Headshot
+De'Andre Hunter
+21:06	1	5	20.0	0	2	0.0	2	2	100	0	2	2	2	0	0	0	1	4	-6
+undefined Headshot
+Jaylon Tyson
+26:19	9	12	75.0	4	4	100	1	1	100	0	2	2	2	0	0	2	2	23	14
+undefined Headshot
+Craig Porter Jr.
+25:34	0	4	0.0	0	2	0.0	0	0	0.0	3	3	6	8	1	0	1	1	0	-5
+undefined Headshot
+Nae'Qwan Tomlin
+16:08	2	2	100	0	0	0.0	0	0	0.0	0	1	1	2	2	0	1	3	4	0
+undefined Headshot
+Tyrese Proctor
+2:50	1	1	100	0	0	0.0	0	0	0.0	0	0	0	1	0	0	1	1	2	-4
+undefined Headshot
+Thomas Bryant
+2:42	1	1	100	1	1	100	0	0	0.0	0	0	0	1	0	1	0	0	3	-3
+undefined Headshot
+Lonzo Ball
+DNP - Coach's Decision
+undefined Headshot
+Larry Nance Jr.
+DNP - Coach's Decision
+TOTALS
+ 	55	92	59.8	15	31	48.4	21	25	84.0	8	23	31	38	10	2	9	18	146	12
+Inactive Players
+MIN: Terrence Shannon Jr., Mike Conley, Enrique Freeman, Rocco Zikarsky
+
+CLE: Luke Travers, Chris Livingston, Max Strus, Dean Wade

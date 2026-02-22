@@ -1,0 +1,113 @@
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Deni Avdija
+F
+32:50	7	16	43.8	3	7	42.9	6	7	85.7	1	6	7	5	1	0	5	2	23	-6
+undefined Headshot
+Toumani Camara
+F
+33:00	2	8	25.0	0	3	0.0	1	2	50.0	0	2	2	4	1	0	0	3	5	-8
+undefined Headshot
+Donovan Clingan
+C
+23:59	3	6	50.0	1	3	33.3	2	2	100	6	4	10	3	1	1	1	1	9	-2
+undefined Headshot
+Shaedon Sharpe
+G
+32:18	7	24	29.2	1	9	11.1	4	4	100	4	1	5	1	2	0	6	1	19	-5
+undefined Headshot
+Jrue Holiday
+G
+34:19	7	14	50.0	3	8	37.5	4	5	80.0	2	4	6	7	0	0	2	2	21	-5
+undefined Headshot
+Hansen Yang
+4:20	0	1	0.0	0	1	0.0	2	2	100	1	0	1	0	0	0	0	1	2	-2
+undefined Headshot
+Jerami Grant
+29:01	4	10	40.0	2	5	40.0	7	9	77.8	2	0	2	0	1	1	1	3	17	-13
+undefined Headshot
+Blake Wesley
+17:28	2	7	28.6	0	1	0.0	2	3	66.7	1	5	6	3	2	0	1	4	6	-3
+undefined Headshot
+Kris Murray
+17:41	0	2	0.0	0	2	0.0	0	0	0.0	1	2	3	1	1	0	0	0	0	0
+undefined Headshot
+Matisse Thybulle
+15:04	2	4	50.0	1	2	50.0	0	0	0.0	0	0	0	0	3	0	0	4	5	9
+undefined Headshot
+Scoot Henderson
+DNP - Injury/Illness
+undefined Headshot
+Damian Lillard
+DNP - Injury/Illness
+undefined Headshot
+Duop Reath
+DNP - Coach's Decision
+undefined Headshot
+Rayan Rupert
+DNP - Coach's Decision
+undefined Headshot
+Robert Williams III
+NWT-Return to Competition Reconditioning
+TOTALS
+ 	34	92	37.0	11	41	26.8	28	34	82.4	18	24	42	24	12	2	16	21	107	-7
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kawhi Leonard
+F
+35:18	11	21	52.4	4	6	66.7	4	4	100	0	10	10	4	2	0	2	2	30	0
+undefined Headshot
+Derrick Jones Jr.
+F
+22:21	2	3	66.7	0	1	0.0	0	0	0.0	1	1	2	0	1	1	2	4	4	2
+undefined Headshot
+Ivica Zubac
+C
+34:36	9	14	64.3	0	0	0.0	3	3	100	2	6	8	3	0	2	1	3	21	8
+undefined Headshot
+Bogdan Bogdanović
+G
+23:39	0	4	0.0	0	2	0.0	0	0	0.0	2	3	5	1	0	0	5	2	0	5
+undefined Headshot
+James Harden
+G
+37:33	6	12	50.0	2	7	28.6	6	7	85.7	0	6	6	13	3	0	7	3	20	12
+undefined Headshot
+Nicolas Batum
+14:47	1	3	33.3	1	3	33.3	0	0	0.0	0	3	3	1	3	2	0	1	3	4
+undefined Headshot
+John Collins
+26:29	7	8	87.5	1	1	100	1	1	100	2	4	6	1	2	0	4	2	16	4
+undefined Headshot
+Kris Dunn
+21:36	4	6	66.7	1	3	33.3	0	0	0.0	0	2	2	1	0	0	1	4	9	6
+undefined Headshot
+Brook Lopez
+12:38	2	5	40.0	1	4	25.0	0	0	0.0	0	3	3	0	0	3	0	2	5	1
+undefined Headshot
+Chris Paul
+11:04	2	4	50.0	2	4	50.0	0	0	0.0	0	1	1	2	0	0	0	4	6	-7
+undefined Headshot
+Kobe Brown
+DNP - Coach's Decision
+undefined Headshot
+Cam Christie
+DNP - Coach's Decision
+undefined Headshot
+Yanic Konan Niederhäuser
+DNP - Coach's Decision
+undefined Headshot
+Jahmyl Telfort
+DNP - Coach's Decision
+TOTALS
+ 	44	80	55.0	12	31	38.7	14	15	93.3	7	39	46	26	11	8	22	27	114	7
+Inactive Players
+POR: Caleb Love, Sidy Cissoko, Javonte Cooke
+
+LAC: Bradley Beal, Jordan Miller, Kobe Sanders

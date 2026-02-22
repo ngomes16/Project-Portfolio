@@ -1,0 +1,110 @@
+San Antonio Spurs
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Julian Champagnie
+F
+25:24	1	3	33.3	1	2	50.0	2	3	66.7	1	3	4	2	1	0	0	1	5	15
+undefined Headshot
+Harrison Barnes
+F
+30:18	3	7	42.9	1	3	33.3	0	0	0.0	0	2	2	1	0	0	2	2	7	27
+undefined Headshot
+Victor Wembanyama
+C
+29:41	15	21	71.4	1	2	50.0	9	11	81.8	1	14	15	1	1	3	0	4	40	31
+undefined Headshot
+Devin Vassell
+G
+30:56	6	14	42.9	1	4	25.0	0	1	0.0	1	2	3	4	2	0	0	0	13	25
+undefined Headshot
+Stephon Castle
+G
+28:32	8	12	66.7	1	3	33.3	5	10	50.0	2	5	7	6	2	0	5	2	22	24
+undefined Headshot
+Luke Kornet
+15:47	1	3	33.3	0	0	0.0	0	0	0.0	1	3	4	3	0	2	1	3	2	5
+undefined Headshot
+Keldon Johnson
+24:39	5	6	83.3	1	1	100	0	0	0.0	2	3	5	2	1	0	0	2	11	10
+undefined Headshot
+Dylan Harper
+22:41	7	14	50.0	1	2	50.0	0	2	0.0	1	3	4	2	0	0	4	5	15	5
+undefined Headshot
+Jordan McLaughlin
+8:08	1	2	50.0	0	1	0.0	0	0	0.0	0	0	0	1	1	0	0	1	2	3
+undefined Headshot
+Carter Bryant
+9:16	0	2	0.0	0	1	0.0	0	0	0.0	0	2	2	0	0	0	0	0	0	5
+undefined Headshot
+Bismack Biyombo
+4:56	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	2	0	2	2	0	3
+undefined Headshot
+Harrison Ingram
+4:04	1	1	100	1	1	100	0	0	0.0	1	0	1	0	0	0	0	0	3	4
+undefined Headshot
+David Jones Garcia
+4:04	2	2	100	0	0	0.0	1	1	100	1	0	1	2	0	0	0	2	5	4
+undefined Headshot
+Riley Minix
+1:34	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	4
+TOTALS
+ 	50	87	57.5	8	20	40.0	17	28	60.7	11	39	50	24	10	5	14	24	125	33
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+P.J. Washington
+F
+29:25	7	11	63.6	2	3	66.7	1	1	100	1	4	5	1	0	1	2	4	17	-20
+undefined Headshot
+Anthony Davis
+F
+32:29	7	22	31.8	2	4	50.0	6	6	100	4	9	13	1	2	1	0	4	22	-24
+undefined Headshot
+Dereck Lively II
+C
+10:19	1	2	50.0	0	0	0.0	2	2	100	1	1	2	3	0	0	1	5	4	-5
+undefined Headshot
+Klay Thompson
+G
+22:20	4	13	30.8	1	5	20.0	1	1	100	1	1	2	1	0	0	1	1	10	-23
+undefined Headshot
+Cooper Flagg
+G
+31:32	4	13	30.8	0	1	0.0	2	2	100	1	9	10	0	1	0	3	3	10	-29
+undefined Headshot
+Naji Marshall
+22:34	0	2	0.0	0	0	0.0	3	4	75.0	0	1	1	1	0	0	0	2	3	-17
+undefined Headshot
+Max Christie
+25:57	3	4	75.0	3	4	75.0	0	0	0.0	0	0	0	1	0	1	2	0	9	-13
+undefined Headshot
+D'Angelo Russell
+15:04	1	6	16.7	0	1	0.0	4	6	66.7	0	2	2	3	0	0	1	2	6	-4
+undefined Headshot
+Ryan Nembhard
+15:31	3	5	60.0	0	1	0.0	2	2	100	0	0	0	5	0	0	3	0	8	-4
+undefined Headshot
+Dwight Powell
+7:52	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	1	1	0	1	2	0	-5
+undefined Headshot
+Brandon Williams
+11:34	0	1	0.0	0	0	0.0	0	2	0.0	0	0	0	2	1	0	1	0	0	-8
+undefined Headshot
+Jaden Hardy
+7:15	1	3	33.3	1	2	50.0	0	0	0.0	0	1	1	0	0	0	0	1	3	-5
+undefined Headshot
+Caleb Martin
+4:04	0	1	0.0	0	0	0.0	0	0	0.0	1	0	1	1	0	0	1	0	0	-4
+undefined Headshot
+Moussa Cisse
+4:04	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-4
+TOTALS
+ 	31	83	37.3	9	21	42.9	21	26	80.8	9	28	37	20	5	3	16	24	92	-33
+Inactive Players
+SAS: Lindy Waters III, Jeremy Sochan, De'Aaron Fox, Kelly Olynyk
+
+DAL: Kyrie Irving, Dante Exum, Daniel Gafford, Miles Kelly

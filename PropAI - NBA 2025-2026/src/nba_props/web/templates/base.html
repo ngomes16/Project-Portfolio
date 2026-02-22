@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}NBA Props Predictor{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <div class="app-container">
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">🏀</span>
+                    <span class="logo-text">Props<span class="accent">AI</span></span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="{{ url_for('index') }}" class="nav-link {% if request.endpoint == 'index' %}active{% endif %}">
+                        <span class="nav-icon">📊</span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url_for('paste_page') }}" class="nav-link {% if request.endpoint == 'paste_page' or request.endpoint == 'data_page' %}active{% endif %}">
+                        <span class="nav-icon">💾</span>
+                        <span>Data Management</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url_for('games_page') }}" class="nav-link {% if request.endpoint == 'games_page' %}active{% endif %}">
+                        <span class="nav-icon">🏀</span>
+                        <span>Games</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url_for('teams_page') }}" class="nav-link {% if request.endpoint == 'teams_page' %}active{% endif %}">
+                        <span class="nav-icon">👥</span>
+                        <span>Teams</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url_for('matchups_page') }}" class="nav-link {% if request.endpoint == 'matchups_page' %}active{% endif %}">
+                        <span class="nav-icon">📅</span>
+                        <span>Matchups</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url_for('projections_page') }}" class="nav-link {% if request.endpoint == 'projections_page' %}active{% endif %}">
+                        <span class="nav-icon">🎯</span>
+                        <span>Projections</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url_for('players_page') }}" class="nav-link {% if request.endpoint == 'players_page' %}active{% endif %}">
+                        <span class="nav-icon">⭐</span>
+                        <span>Players</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url_for('backtesting_page') }}" class="nav-link {% if request.endpoint == 'backtesting_page' %}active{% endif %}">
+                        <span class="nav-icon">📈</span>
+                        <span>Model Performance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url_for('modellab') }}" class="nav-link {% if request.endpoint == 'modellab' %}active{% endif %}">
+                        <span class="nav-icon">🧪</span>
+                        <span>Model Lab</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <div class="db-stats" id="db-stats">
+                    <div class="stat">
+                        <span class="stat-value" id="stat-games">-</span>
+                        <span class="stat-label">Games</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="stat-players">-</span>
+                        <span class="stat-label">Players</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <main class="main-content">
+            <header class="page-header">
+                <h1>{% block page_title %}Dashboard{% endblock %}</h1>
+                <div class="header-actions">
+                    {% block header_actions %}{% endblock %}
+                </div>
+            </header>
+            
+            <div class="content-body">
+                {% block content %}{% endblock %}
+            </div>
+        </main>
+    </div>
+    
+    <div id="toast-container"></div>
+    
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

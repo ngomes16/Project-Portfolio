@@ -1,0 +1,110 @@
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kawhi Leonard
+F
+30:43	7	17	41.2	1	4	25.0	3	3	100	1	5	6	1	1	0	1	0	18	-29
+undefined Headshot
+Derrick Jones Jr.
+F
+23:17	1	6	16.7	1	6	16.7	0	0	0.0	0	2	2	1	0	0	0	1	3	-19
+undefined Headshot
+Ivica Zubac
+C
+24:08	7	12	58.3	0	0	0.0	0	0	0.0	5	7	12	1	0	1	3	0	14	-14
+undefined Headshot
+Bogdan Bogdanović
+G
+9:22	1	5	20.0	0	3	0.0	0	0	0.0	0	1	1	0	0	0	0	1	2	-3
+undefined Headshot
+James Harden
+G
+31:56	6	15	40.0	1	5	20.0	7	7	100	0	4	4	1	2	0	3	1	20	-3
+undefined Headshot
+Nicolas Batum
+19:46	1	4	25.0	1	4	25.0	0	0	0.0	2	4	6	1	0	0	0	0	3	4
+undefined Headshot
+Kris Dunn
+25:50	2	6	33.3	1	2	50.0	0	0	0.0	3	1	4	0	0	0	2	2	5	-12
+undefined Headshot
+John Collins
+23:14	2	6	33.3	0	2	0.0	1	2	50.0	2	5	7	0	1	1	2	0	5	-11
+undefined Headshot
+Brook Lopez
+19:05	1	6	16.7	0	4	0.0	1	2	50.0	0	2	2	1	0	0	0	0	3	-6
+undefined Headshot
+Chris Paul
+13:53	0	2	0.0	0	1	0.0	0	0	0.0	0	1	1	2	3	0	1	0	0	-11
+undefined Headshot
+Kobe Brown
+5:38	1	1	100	0	0	0.0	0	0	0.0	0	1	1	0	0	0	1	0	2	1
+undefined Headshot
+Cam Christie
+5:38	1	2	50.0	1	2	50.0	1	2	50.0	0	0	0	0	0	0	0	0	4	1
+undefined Headshot
+Yanic Konan Niederhäuser
+4:37	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	2	0	0	0	0	0	4
+undefined Headshot
+Jahmyl Telfort
+2:53	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	3
+TOTALS
+ 	30	82	36.6	6	33	18.2	13	16	81.3	13	34	47	10	7	2	13	5	79	-19
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jonathan Kuminga
+F
+26:07	4	11	36.4	1	2	50.0	0	1	0.0	1	4	5	1	1	0	2	3	9	9
+undefined Headshot
+Draymond Green
+F
+30:39	3	7	42.9	1	3	33.3	0	0	0.0	2	5	7	4	3	0	0	3	7	29
+undefined Headshot
+Quinten Post
+C
+24:34	4	9	44.4	4	7	57.1	0	0	0.0	1	7	8	0	1	1	2	1	12	34
+undefined Headshot
+Jimmy Butler III
+G
+31:53	9	12	75.0	3	4	75.0	0	0	0.0	2	3	5	5	0	0	1	0	21	20
+undefined Headshot
+Stephen Curry
+G
+25:32	7	15	46.7	2	8	25.0	3	3	100	0	2	2	8	2	0	2	1	19	16
+undefined Headshot
+Buddy Hield
+10:14	1	2	50.0	0	1	0.0	0	0	0.0	1	2	3	0	0	0	0	0	2	7
+undefined Headshot
+Gary Payton II
+5:22	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	1	0	1	0	-17
+undefined Headshot
+Al Horford
+20:30	1	5	20.0	0	3	0.0	0	0	0.0	3	1	4	0	1	0	1	1	2	-12
+undefined Headshot
+Moses Moody
+21:52	3	9	33.3	3	7	42.9	0	0	0.0	0	3	3	2	1	0	2	2	9	18
+undefined Headshot
+Brandin Podziemski
+26:35	5	10	50.0	2	6	33.3	0	0	0.0	0	5	5	4	1	1	1	0	12	10
+undefined Headshot
+Will Richard
+6:20	2	3	66.7	1	2	50.0	0	0	0.0	0	0	0	0	1	0	1	1	5	-9
+undefined Headshot
+Gui Santos
+4:37	0	2	0.0	0	2	0.0	0	0	0.0	0	0	0	0	0	0	1	2	0	-4
+undefined Headshot
+Trayce Jackson-Davis
+2:53	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-3
+undefined Headshot
+Pat Spencer
+2:53	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-3
+TOTALS
+ 	39	86	45.3	17	45	37.8	3	4	75.0	10	32	42	24	11	3	13	15	98	19
+Inactive Players
+LAC: Bradley Beal, Jordan Miller, Kobe Sanders
+
+GSW: Jackson Rowe, Alex Toohey, De'Anthony Melton

@@ -1,0 +1,101 @@
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+De'Andre Hunter
+F
+35:16	9	19	47.4	2	8	25.0	3	3	100	0	4	4	4	1	0	1	5	23	-7
+undefined Headshot
+Evan Mobley
+F
+38:43	8	15	53.3	3	4	75.0	2	7	28.6	8	2	10	5	0	1	2	3	21	0
+undefined Headshot
+Jarrett Allen
+C
+20:53	6	9	66.7	0	0	0.0	2	3	66.7	3	4	7	2	0	1	3	0	14	8
+undefined Headshot
+Donovan Mitchell
+G
+40:55	10	28	35.7	3	16	18.8	5	6	83.3	5	10	15	8	1	0	1	4	28	14
+undefined Headshot
+Darius Garland
+G
+18:57	2	9	22.2	1	3	33.3	6	6	100	1	4	5	2	2	0	0	3	11	-5
+undefined Headshot
+Sam Merrill
+32:38	4	16	25.0	4	16	25.0	0	0	0.0	1	1	2	2	0	0	0	3	12	-7
+undefined Headshot
+Jaylon Tyson
+31:05	3	10	30.0	2	6	33.3	1	2	50.0	5	4	9	1	3	1	0	3	9	-5
+undefined Headshot
+Lonzo Ball
+19:31	3	7	42.9	3	7	42.9	0	0	0.0	2	2	4	2	1	0	0	3	9	4
+undefined Headshot
+Dean Wade
+21:37	3	5	60.0	3	4	75.0	0	0	0.0	1	2	3	0	0	1	0	3	9	-8
+undefined Headshot
+Craig Porter Jr.
+5:25	1	2	50.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	0	0	2	-4
+undefined Headshot
+Thomas Bryant
+DNP - Coach's Decision
+undefined Headshot
+Tyrese Proctor
+DNP - Coach's Decision
+undefined Headshot
+Nae'Qwan Tomlin
+DNP - Coach's Decision
+TOTALS
+ 	49	120	40.8	21	65	32.3	19	27	70.4	26	34	60	26	8	4	7	27	138	-2
+Miami Heat
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Pelle Larsson
+F
+26:29	4	8	50.0	0	2	0.0	2	3	66.7	1	4	5	4	0	0	3	3	10	-6
+undefined Headshot
+Andrew Wiggins
+F
+37:26	8	13	61.5	2	5	40.0	5	6	83.3	1	1	2	5	1	0	2	2	23	0
+undefined Headshot
+Kel'el Ware
+C
+33:38	7	14	50.0	0	1	0.0	0	0	0.0	7	13	20	1	1	1	0	2	14	6
+undefined Headshot
+Norman Powell
+G
+38:34	8	19	42.1	4	9	44.4	13	14	92.9	0	2	2	2	1	1	1	4	33	17
+undefined Headshot
+Davion Mitchell
+G
+38:12	4	9	44.4	1	4	25.0	2	2	100	0	2	2	8	1	0	5	5	11	12
+undefined Headshot
+Jaime Jaquez Jr.
+33:20	7	12	58.3	0	1	0.0	8	8	100	1	12	13	7	1	2	2	2	22	-2
+undefined Headshot
+Nikola Jović
+26:18	3	10	30.0	1	5	20.0	1	2	50.0	1	7	8	4	0	1	1	5	8	8
+undefined Headshot
+Simone Fontecchio
+16:15	4	9	44.4	3	7	42.9	2	3	66.7	1	3	4	0	0	1	0	2	13	-15
+undefined Headshot
+Dru Smith
+14:48	1	4	25.0	1	2	50.0	3	3	100	0	0	0	1	0	0	0	2	6	-10
+undefined Headshot
+Vladislav Goldin
+DNP - Coach's Decision
+undefined Headshot
+Kasparas Jakučionis
+DNP - Coach's Decision
+undefined Headshot
+Keshad Johnson
+DNP - Coach's Decision
+TOTALS
+ 	46	98	46.9	12	36	33.3	36	41	87.8	12	44	56	32	5	6	14	27	140	2
+Inactive Players
+CLE: Larry Nance Jr., Max Strus, Luke Travers, Chris Livingston
+
+MIA: Myron Gardner, Jahmir Young, Tyler Herro, Bam Adebayo, Terry Rozier

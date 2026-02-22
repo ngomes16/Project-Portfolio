@@ -1,0 +1,104 @@
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+AJ Green
+F
+26:36	2	6	33.3	1	5	20.0	0	0	0.0	0	3	3	2	1	0	0	1	5	16
+undefined Headshot
+Giannis Antetokounmpo
+F
+25:17	11	16	68.8	0	1	0.0	2	4	50.0	2	2	4	7	1	0	2	3	24	4
+undefined Headshot
+Myles Turner
+C
+30:52	7	12	58.3	3	5	60.0	6	6	100	1	5	6	1	0	4	0	1	23	7
+undefined Headshot
+Kevin Porter Jr.
+G
+37:37	6	13	46.2	1	3	33.3	2	2	100	1	4	5	11	2	1	1	1	15	5
+undefined Headshot
+Ryan Rollins
+G
+30:52	3	10	30.0	2	4	50.0	5	6	83.3	0	3	3	4	2	0	3	4	13	7
+undefined Headshot
+Gary Trent Jr.
+19:58	3	6	50.0	3	5	60.0	0	0	0.0	0	1	1	1	1	0	0	1	9	2
+undefined Headshot
+Kyle Kuzma
+25:42	3	7	42.9	0	2	0.0	0	0	0.0	1	4	5	2	2	0	1	2	6	13
+undefined Headshot
+Bobby Portis
+23:17	8	12	66.7	5	7	71.4	4	4	100	0	2	2	1	0	0	1	3	25	-5
+undefined Headshot
+Jericho Sims
+2:28	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-5
+undefined Headshot
+Gary Harris
+17:21	1	2	50.0	1	2	50.0	0	0	0.0	0	2	2	0	0	0	0	1	3	6
+undefined Headshot
+Thanasis Antetokounmpo
+DNP - Coach's Decision
+undefined Headshot
+Cole Anthony
+DNP - Coach's Decision
+undefined Headshot
+Amir Coffey
+DNP - Coach's Decision
+undefined Headshot
+Andre Jackson Jr.
+DNP - Coach's Decision
+TOTALS
+ 	44	84	52.4	16	34	47.1	19	22	86.4	5	26	31	29	9	5	8	17	123	10
+Charlotte Hornets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Sion James
+F
+28:42	0	3	0.0	0	2	0.0	0	0	0.0	1	3	4	1	0	1	0	2	0	-22
+undefined Headshot
+Miles Bridges
+F
+7:06	1	2	50.0	1	2	50.0	0	0	0.0	0	3	3	0	0	0	0	1	3	-7
+undefined Headshot
+Moussa Diabaté
+C
+34:52	6	9	66.7	0	0	0.0	2	2	100	6	3	9	3	2	1	2	4	14	-12
+undefined Headshot
+Brandon Miller
+G
+37:31	9	22	40.9	3	12	25.0	10	12	83.3	2	6	8	5	1	1	1	4	31	-8
+undefined Headshot
+LaMelo Ball
+G
+29:06	9	23	39.1	6	13	46.2	2	2	100	1	1	2	7	1	0	6	2	26	-19
+undefined Headshot
+Josh Green
+22:57	4	10	40.0	2	7	28.6	0	0	0.0	1	1	2	1	0	0	0	1	10	-10
+undefined Headshot
+Tre Mann
+4:25	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	3
+undefined Headshot
+PJ Hall
+16:14	1	2	50.0	0	0	0.0	1	2	50.0	1	1	2	0	0	0	1	1	3	8
+undefined Headshot
+Collin Sexton
+19:16	6	12	50.0	3	4	75.0	1	2	50.0	1	0	1	8	0	0	1	2	16	12
+undefined Headshot
+Tidjane Salaün
+27:49	1	4	25.0	1	2	50.0	0	0	0.0	2	9	11	1	1	0	2	2	3	3
+undefined Headshot
+Liam McNeeley
+12:02	3	6	50.0	1	4	25.0	0	0	0.0	2	3	5	2	0	0	0	2	7	2
+undefined Headshot
+Pat Connaughton
+DNP - Coach's Decision
+TOTALS
+ 	40	93	43.0	17	46	37.0	16	20	80.0	17	30	47	28	5	3	13	21	113	-10
+Inactive Players
+MIL: Alex Antetokounmpo, Pete Nance, Taurean Prince, Mark Sears
+
+CHA: KJ Simpson, Kon Knueppel, Grant Williams, Ryan Kalkbrenner, Antonio Reeves, Mason Plumlee

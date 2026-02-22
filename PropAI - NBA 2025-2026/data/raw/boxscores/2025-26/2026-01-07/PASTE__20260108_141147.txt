@@ -1,0 +1,98 @@
+LA Clippers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+John Collins
+F
+33:04	7	9	77.8	3	5	60.0	1	1	100	4	6	10	0	1	0	1	4	18	-7
+undefined Headshot
+Kawhi Leonard
+F
+36:16	10	20	50.0	3	7	42.9	2	3	66.7	0	3	3	4	3	0	3	1	25	-14
+undefined Headshot
+Ivica Zubac
+C
+30:30	11	14	78.6	0	0	0.0	0	0	0.0	8	3	11	2	0	2	1	5	22	-10
+undefined Headshot
+Kris Dunn
+G
+31:52	2	9	22.2	1	6	16.7	2	2	100	0	4	4	1	0	0	1	2	7	-4
+undefined Headshot
+James Harden
+G
+37:50	6	17	35.3	4	7	57.1	7	7	100	2	1	3	9	1	0	3	1	23	-5
+undefined Headshot
+Brook Lopez
+15:58	2	8	25.0	2	8	25.0	0	0	0.0	0	0	0	0	0	1	0	0	6	-3
+undefined Headshot
+Kobe Sanders
+17:21	0	3	0.0	0	1	0.0	0	0	0.0	0	1	1	3	1	1	0	2	0	-8
+undefined Headshot
+Nicolas Batum
+18:01	1	5	20.0	1	5	20.0	0	0	0.0	0	1	1	1	1	1	1	1	3	-5
+undefined Headshot
+Jordan Miller
+14:32	1	4	25.0	1	3	33.3	3	4	75.0	0	5	5	1	0	0	0	0	6	-7
+undefined Headshot
+Kobe Brown
+1:32	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	1
+undefined Headshot
+Cam Christie
+1:32	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	1
+undefined Headshot
+Yanic Konan Niederhäuser
+1:32	0	2	0.0	0	0	0.0	1	2	50.0	1	1	2	0	0	0	0	0	1	1
+TOTALS
+ 	40	92	43.5	15	42	35.7	16	19	84.2	15	25	40	21	7	5	10	16	111	-12
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+OG Anunoby
+F
+31:57	8	10	80.0	2	3	66.7	2	2	100	0	3	3	0	1	0	2	3	20	7
+undefined Headshot
+Mikal Bridges
+F
+32:57	7	14	50.0	1	3	33.3	0	0	0.0	3	6	9	5	1	1	1	0	15	10
+undefined Headshot
+Karl-Anthony Towns
+C
+31:12	6	18	33.3	0	4	0.0	8	10	80.0	4	7	11	7	1	1	2	1	20	16
+undefined Headshot
+Jalen Brunson
+G
+33:19	9	12	75.0	4	5	80.0	4	4	100	0	3	3	7	0	1	2	2	26	-6
+undefined Headshot
+Miles McBride
+G
+33:29	6	15	40.0	4	11	36.4	0	0	0.0	1	0	1	4	1	1	0	3	16	-1
+undefined Headshot
+Mitchell Robinson
+24:28	2	5	40.0	0	0	0.0	0	0	0.0	5	4	9	1	0	2	0	1	4	14
+undefined Headshot
+Jordan Clarkson
+20:41	5	9	55.6	1	3	33.3	1	1	100	1	2	3	2	1	0	1	3	12	2
+undefined Headshot
+Guerschon Yabusele
+13:08	3	6	50.0	2	2	100	0	0	0.0	1	1	2	0	0	0	0	0	8	1
+undefined Headshot
+Tyler Kolek
+14:26	1	4	25.0	0	1	0.0	0	0	0.0	0	4	4	5	0	0	2	3	2	18
+undefined Headshot
+Mohamed Diawara
+1:47	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	1	0	-1
+undefined Headshot
+Pacôme Dadiet
+1:18	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	0
+undefined Headshot
+Ariel Hukporti
+1:18	0	0	0.0	0	0	0.0	0	0	0.0	1	1	2	0	0	0	0	0	0	0
+TOTALS
+ 	47	94	50.0	14	33	42.4	15	17	88.2	16	32	48	31	5	6	10	17	123	12
+Inactive Players
+LAC: Chris Paul, Bradley Beal, Bogdan Bogdanovic, Derrick Jones Jr., TyTy Washington Jr.
+
+NYK: Kevin McCullar Jr., Trey Jemison III, Josh Hart, Landry Shamet

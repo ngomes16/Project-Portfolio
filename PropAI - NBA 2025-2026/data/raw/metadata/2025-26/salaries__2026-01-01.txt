@@ -1,0 +1,132 @@
+2025-2026 Player Salaries
+RK	NAME	TEAM	SALARY
+1	Stephen Curry, G	Golden State Warriors	$59,606,817
+2	Joel Embiid, C	Philadelphia 76ers	$55,224,526
+3	Nikola Jokic, C	Denver Nuggets	$55,224,526
+4	Kevin Durant, F	Houston Rockets	$54,708,609
+5	Karl-Anthony Towns, C	New York Knicks	$54,126,450
+6	Giannis Antetokounmpo, F	Milwaukee Bucks	$54,126,450
+7	Luka Doncic, G	Los Angeles Lakers	$54,126,450
+8	Jimmy Butler III, F	Golden State Warriors	$54,126,450
+9	Anthony Davis, F	Dallas Mavericks	$54,126,450
+10	Jayson Tatum, F	Boston Celtics	$54,126,450
+RK	NAME	TEAM	SALARY
+11	Bradley Beal, G	LA Clippers	$53,666,270
+12	Devin Booker, G	Phoenix Suns	$53,142,264
+13	Jaylen Brown, G	Boston Celtics	$53,142,264
+14	LeBron James, F	Los Angeles Lakers	$52,627,153
+15	Paul George, F	Philadelphia 76ers	$51,666,090
+16	Kawhi Leonard, F	LA Clippers	$50,000,000
+17	Zach LaVine, G	Sacramento Kings	$47,499,660
+18	Lauri Markkanen, F	Utah Jazz	$46,394,100
+19	Cade Cunningham, G	Detroit Pistons	$46,394,100
+20	Jamal Murray, G	Denver Nuggets	$46,394,100
+RK	NAME	TEAM	SALARY
+21	Evan Mobley, C	Cleveland Cavaliers	$46,394,100
+22	Donovan Mitchell, G	Cleveland Cavaliers	$46,394,100
+23	Trae Young, G	Atlanta Hawks	$45,997,800
+24	Anthony Edwards, G	Minnesota Timberwolves	$45,550,512
+25	Tyrese Haliburton, G	Indiana Pacers	$45,550,512
+26	Pascal Siakam, F	Indiana Pacers	$45,550,512
+27	Domantas Sabonis, F	Sacramento Kings	$43,636,000
+28	OG Anunoby, F	New York Knicks	$39,568,966
+29	Ja Morant, G	Memphis Grizzlies	$39,446,090
+30	Darius Garland, G	Cleveland Cavaliers	$39,446,090
+RK	NAME	TEAM	SALARY
+31	Zion Williamson, F	New Orleans Pelicans	$39,446,090
+32	James Harden, G	LA Clippers	$39,182,692
+33	Scottie Barnes, F	Toronto Raptors	$38,661,750
+34	Franz Wagner, F	Orlando Magic	$38,661,750
+35	Shai Gilgeous-Alexander, G	Oklahoma City Thunder	$38,333,050
+36	Michael Porter Jr., F	Brooklyn Nets	$38,333,050
+37	Brandon Ingram, F	Toronto Raptors	$38,095,238
+38	LaMelo Ball, G	Charlotte Hornets	$37,958,760
+39	Tyrese Maxey, G	Philadelphia 76ers	$37,958,760
+40	De'Aaron Fox, G	San Antonio Spurs	$37,096,620
+41	Bam Adebayo, C	Miami Heat	$37,096,620
+42	Desmond Bane, G	Orlando Magic	$36,725,670
+43	Kyrie Irving, G	Dallas Mavericks	$36,566,002
+44	Jalen Suggs, G	Orlando Magic	$35,000,000
+45	Rudy Gobert, C	Minnesota Timberwolves	$35,000,000
+46	Jalen Brunson, G	New York Knicks	$34,944,001
+47	Alperen Sengun, C	Houston Rockets	$33,944,954
+48	Khris Middleton, F	Washington Wizards	$33,926,296
+49	Jalen Green, G	Phoenix Suns	$33,548,499
+50	Immanuel Quickley, G	Toronto Raptors	$32,500,000
+RK	NAME	TEAM	SALARY
+51	Jrue Holiday, G	Portland Trail Blazers	$32,400,000
+52	Jerami Grant, F	Portland Trail Blazers	$32,000,000
+53	Jordan Poole, G	New Orleans Pelicans	$31,848,215
+54	Tyler Herro, G	Miami Heat	$31,000,000
+55	Julius Randle, F	Minnesota Timberwolves	$30,864,198
+56	Dejounte Murray, G	New Orleans Pelicans	$30,801,103
+57	Kristaps Porzingis, C	Atlanta Hawks	$30,731,707
+58	CJ McCollum, G	Washington Wizards	$30,666,666
+59	Jalen Johnson, F	Atlanta Hawks	$30,000,000
+60	Isaiah Hartenstein, C	Oklahoma City Thunder	$28,500,000
+RK	NAME	TEAM	SALARY
+61	Andrew Wiggins, F	Miami Heat	$28,223,214
+62	Derrick White, G	Boston Celtics	$28,100,001
+63	RJ Barrett, F	Toronto Raptors	$27,705,357
+64	Anfernee Simons, G	Boston Celtics	$27,678,571
+65	Devin Vassell, G	San Antonio Spurs	$27,000,000
+66	Terry Rozier, G	Miami Heat	$26,643,031
+67	Tobias Harris, F	Detroit Pistons	$26,634,146
+68	John Collins, F	LA Clippers	$26,580,000
+69	Draymond Green, F	Golden State Warriors	$25,892,857
+70	Nic Claxton, C	Brooklyn Nets	$25,352,272
+RK	NAME	TEAM	SALARY
+71	Myles Turner, C	Milwaukee Bucks	$25,318,251
+72	Miles Bridges, F	Charlotte Hornets	$25,000,000
+73	Josh Giddey, G	Chicago Bulls	$25,000,000
+74	Trey Murphy III, F	New Orleans Pelicans	$25,000,000
+75	Mikal Bridges, G	New York Knicks	$24,900,000
+76	Jaden McDaniels, F	Minnesota Timberwolves	$24,858,622
+77	DeMar DeRozan, G	Sacramento Kings	$24,570,000
+78	Fred VanVleet, G	Houston Rockets	$24,038,462
+79	Jaren Jackson Jr., F	Memphis Grizzlies	$23,413,395
+80	De'Andre Hunter, F	Cleveland Cavaliers	$23,303,571
+RK	NAME	TEAM	SALARY
+81	Aaron Gordon, F	Denver Nuggets	$22,841,455
+82	Jonathan Kuminga, F	Golden State Warriors	$22,500,000
+83	Dillon Brooks, F	Phoenix Suns	$22,124,110
+84	Kyle Kuzma, F	Milwaukee Bucks	$21,810,605
+85	Kentavious Caldwell-Pope, G	Memphis Grizzlies	$21,621,500
+86	Naz Reid, C	Minnesota Timberwolves	$21,551,724
+87	Nikola Vucevic, C	Chicago Bulls	$21,481,481
+88	Cameron Johnson, F	Denver Nuggets	$21,057,065
+89	Norman Powell, G	Miami Heat	$20,482,758
+90	Jarrett Allen, C	Cleveland Cavaliers	$20,000,000
+RK	NAME	TEAM	SALARY
+91	Jakob Poeltl, C	Toronto Raptors	$19,500,000
+92	Josh Hart, G	New York Knicks	$19,472,240
+93	Jusuf Nurkic, C	Utah Jazz	$19,375,000
+94	Collin Sexton, G	Charlotte Hornets	$19,170,000
+95	Harrison Barnes, F	San Antonio Spurs	$19,000,000
+96	Malik Monk, G	Sacramento Kings	$18,797,618
+97	Santi Aldama, F	Memphis Grizzlies	$18,485,916
+98	Rui Hachimura, F	Los Angeles Lakers	$18,259,259
+99	Luguentz Dort, G	Oklahoma City Thunder	$18,222,222
+100	Alex Caruso, G	Oklahoma City Thunder	$18,102,000
+RK	NAME	TEAM	SALARY
+101	Ivica Zubac, C	LA Clippers	$18,102,000
+102	Andrew Nembhard, G	Indiana Pacers	$18,102,000
+103	Zach Collins, F	Chicago Bulls	$18,080,496
+104	Patrick Williams, F	Chicago Bulls	$18,000,000
+105	Kevin Huerter, G	Chicago Bulls	$17,991,071
+106	Keldon Johnson, F	San Antonio Spurs	$17,500,000
+107	Grayson Allen, G	Phoenix Suns	$16,875,000
+108	Duncan Robinson, F	Detroit Pistons	$16,834,692
+109	Klay Thompson, G	Dallas Mavericks	$16,666,667
+110	Bogdan Bogdanovic, G	LA Clippers	$16,020,000
+RK	NAME	TEAM	SALARY
+111	Max Strus, G	Cleveland Cavaliers	$15,936,452
+112	Terance Mann, G	Brooklyn Nets	$15,500,000
+113	Paolo Banchero, F	Orlando Magic	$15,334,769
+114	Nickeil Alexander-Walker, G	Atlanta Hawks	$15,161,800
+115	Jonathan Isaac, F	Orlando Magic	$15,000,000
+116	Isaiah Stewart, F	Detroit Pistons	$15,000,000
+117	Onyeka Okongwu, F	Atlanta Hawks	$15,000,000
+118	Cooper Flagg, F	Dallas Mavericks	$14,386,320
+119	Daniel Gafford, F	Dallas Mavericks	$14,386,320
+120	Deni Avdija, F	Portland Trail Blazers	$14,375,000

@@ -1,0 +1,101 @@
+Philadelphia 76ers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Paul George
+F
+21:21	6	10	60.0	2	5	40.0	0	0	0.0	0	3	3	2	2	0	1	0	14	9
+undefined Headshot
+Dominick Barlow
+F
+25:20	4	7	57.1	0	1	0.0	2	2	100	1	9	10	4	0	1	1	4	10	15
+undefined Headshot
+Andre Drummond
+C
+10:31	2	2	100	1	1	100	2	2	100	2	2	4	1	0	1	0	0	7	9
+undefined Headshot
+Quentin Grimes
+G
+42:38	8	20	40.0	0	6	0.0	3	4	75.0	2	1	3	9	2	0	5	0	19	5
+undefined Headshot
+Tyrese Maxey
+G
+41:45	7	16	43.8	2	8	25.0	6	6	100	0	9	9	7	1	1	1	2	22	8
+undefined Headshot
+Justin Edwards
+16:09	1	7	14.3	1	4	25.0	1	2	50.0	0	0	0	1	2	0	1	1	4	-9
+undefined Headshot
+Jared McCain
+28:50	7	16	43.8	4	10	40.0	2	2	100	1	3	4	1	5	0	0	1	20	18
+undefined Headshot
+Adem Bona
+22:50	6	7	85.7	1	1	100	0	0	0.0	2	4	6	0	0	3	2	4	13	6
+undefined Headshot
+Kyle Lowry
+11:10	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	2	0	0	0	0	0	10
+undefined Headshot
+Jabari Walker
+11:60	2	3	66.7	0	1	0.0	0	0	0.0	1	1	2	1	0	1	0	5	4	-3
+undefined Headshot
+Johni Broome
+7:27	0	0	0.0	0	0	0.0	2	2	100	0	0	0	0	0	0	0	3	2	-8
+undefined Headshot
+Eric Gordon
+DNP - Coach's Decision
+undefined Headshot
+Hunter Sallis
+DNP - Coach's Decision
+TOTALS
+ 	43	88	48.9	11	37	29.7	18	20	90.0	9	32	41	28	12	7	11	20	115	12
+Brooklyn Nets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ziaire Williams
+F
+29:47	4	10	40.0	2	6	33.3	0	0	0.0	2	2	4	1	1	0	1	0	10	-9
+undefined Headshot
+Noah Clowney
+F
+35:09	4	14	28.6	2	9	22.2	6	7	85.7	2	5	7	3	1	2	3	4	16	-4
+undefined Headshot
+Nic Claxton
+C
+37:32	4	10	40.0	0	2	0.0	4	6	66.7	2	4	6	1	1	1	5	2	12	-9
+undefined Headshot
+Terance Mann
+G
+35:57	5	9	55.6	1	3	33.3	3	3	100	2	2	4	6	0	0	3	3	14	-3
+undefined Headshot
+Egor Dëmin
+G
+30:29	8	18	44.4	5	14	35.7	2	2	100	1	8	9	5	1	2	3	0	23	-10
+undefined Headshot
+Day'Ron Sharpe
+10:09	1	4	25.0	1	1	100	0	0	0.0	2	1	3	0	0	0	2	2	3	-4
+undefined Headshot
+Tyrese Martin
+17:20	7	12	58.3	2	4	50.0	0	0	0.0	2	0	2	2	1	0	0	1	16	-17
+undefined Headshot
+Drake Powell
+20:36	1	2	50.0	0	0	0.0	2	2	100	0	1	1	1	0	0	1	2	4	-4
+undefined Headshot
+Jalen Wilson
+10:16	0	4	0.0	0	3	0.0	0	0	0.0	0	0	0	1	0	0	0	0	0	-6
+undefined Headshot
+Danny Wolf
+12:46	0	2	0.0	0	1	0.0	5	6	83.3	1	4	5	1	0	0	0	2	5	6
+undefined Headshot
+Tyson Etienne
+DNP - Coach's Decision
+undefined Headshot
+Ben Saraf
+DNP - Coach's Decision
+TOTALS
+ 	34	85	40.0	13	43	30.2	22	26	84.6	14	27	41	21	5	5	18	16	103	-12
+Inactive Players
+PHI: Joel Embiid, Kelly Oubre Jr., Trendon Watford, VJ Edgecombe
+
+BKN: Nolan Traore, E.J. Liddell, Michael Porter Jr., Haywood Highsmith, Cam Thomas

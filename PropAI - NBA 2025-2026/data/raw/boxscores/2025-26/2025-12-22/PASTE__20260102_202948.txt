@@ -1,0 +1,107 @@
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+27:50	8	16	50.0	0	0	0.0	2	4	50.0	5	7	12	3	4	0	2	5	18	11
+undefined Headshot
+Tobias Harris
+F
+33:01	5	14	35.7	0	3	0.0	2	2	100	4	0	4	4	0	1	1	1	12	17
+undefined Headshot
+Jalen Duren
+C
+23:37	11	15	73.3	0	0	0.0	4	6	66.7	6	4	10	2	1	2	0	4	26	16
+undefined Headshot
+Duncan Robinson
+G
+31:37	4	14	28.6	3	11	27.3	4	6	66.7	0	2	2	4	0	0	0	3	15	2
+undefined Headshot
+Cade Cunningham
+G
+25:53	6	9	66.7	1	2	50.0	1	2	50.0	1	5	6	9	1	0	5	6	14	11
+undefined Headshot
+Jaden Ivey
+17:58	5	8	62.5	1	2	50.0	0	0	0.0	0	0	0	1	2	0	0	1	11	-1
+undefined Headshot
+Isaiah Stewart
+20:34	1	3	33.3	0	1	0.0	1	2	50.0	2	2	4	0	0	3	0	1	3	-14
+undefined Headshot
+Caris LeVert
+18:00	0	8	0.0	0	3	0.0	0	0	0.0	1	3	4	1	1	1	0	2	0	10
+undefined Headshot
+Javonte Green
+23:34	2	7	28.6	1	5	20.0	1	2	50.0	2	3	5	1	2	0	0	3	6	-8
+undefined Headshot
+Daniss Jenkins
+13:49	2	7	28.6	1	3	33.3	0	0	0.0	1	0	1	3	0	0	0	2	5	-8
+undefined Headshot
+Paul Reed
+4:07	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	4
+undefined Headshot
+Marcus Sasser
+DNP - Coach's Decision
+TOTALS
+ 	44	101	43.6	7	30	23.3	15	24	62.5	22	26	48	28	11	7	8	28	110	8
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kris Murray
+F
+27:55	2	4	50.0	1	3	33.3	0	0	0.0	0	3	3	0	0	0	0	2	5	-7
+undefined Headshot
+Toumani Camara
+F
+29:23	3	9	33.3	2	6	33.3	0	0	0.0	1	1	2	0	0	0	3	6	8	-5
+undefined Headshot
+Donovan Clingan
+C
+33:33	6	8	75.0	2	2	100	3	6	50.0	5	5	10	2	0	3	0	1	17	1
+undefined Headshot
+Shaedon Sharpe
+G
+34:32	11	21	52.4	1	6	16.7	2	3	66.7	2	1	3	2	5	0	8	2	25	-10
+undefined Headshot
+Deni Avdija
+G
+38:55	4	12	33.3	1	4	25.0	9	15	60.0	0	8	8	9	0	1	3	1	18	-7
+undefined Headshot
+Sidy Cissoko
+27:01	3	8	37.5	0	5	0.0	10	13	76.9	1	2	3	3	1	0	3	3	16	11
+undefined Headshot
+Caleb Love
+18:03	1	5	20.0	0	3	0.0	3	4	75.0	0	3	3	4	0	0	1	1	5	-2
+undefined Headshot
+Robert Williams III
+14:24	3	3	100	0	0	0.0	2	2	100	0	5	5	0	0	1	0	2	8	-8
+undefined Headshot
+Duop Reath
+5:39	0	2	0.0	0	2	0.0	0	0	0.0	0	1	1	1	0	1	0	2	0	-12
+undefined Headshot
+Rayan Rupert
+10:36	0	2	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	2	0	-1
+undefined Headshot
+Jerami Grant
+DNP - Injury/Illness
+undefined Headshot
+Jrue Holiday
+DNP - Injury/Illness
+undefined Headshot
+Damian Lillard
+DNP - Injury/Illness
+undefined Headshot
+Matisse Thybulle
+DNP - Injury/Illness
+undefined Headshot
+Hansen Yang
+DNP - Coach's Decision
+TOTALS
+ 	33	74	44.6	7	32	21.9	29	43	67.4	9	29	38	21	6	6	18	22	102	-8
+Inactive Players
+DET: Wendell Moore Jr., Bobi Klintman, Ronald Holland II, Isaac Jones, Chaz Lanier, Tolu Smith
+
+POR: Javonte Cooke, Scoot Henderson, Blake Wesley

@@ -1,0 +1,113 @@
+Washington Wizards
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Khris Middleton
+F
+29:50	4	13	30.8	1	5	20.0	0	2	0.0	0	4	4	2	3	0	0	3	9	3
+undefined Headshot
+Kyshawn George
+F
+35:18	11	15	73.3	7	9	77.8	5	5	100	2	9	11	4	2	3	5	5	34	14
+undefined Headshot
+Alex Sarr
+C
+25:42	5	10	50.0	0	1	0.0	4	4	100	3	6	9	5	1	3	4	2	14	5
+undefined Headshot
+CJ McCollum
+G
+33:27	2	8	25.0	1	4	25.0	1	2	50.0	1	1	2	5	1	0	2	2	6	10
+undefined Headshot
+Bub Carrington
+G
+26:13	1	7	14.3	1	1	100	4	6	66.7	0	3	3	3	2	0	2	3	7	-5
+undefined Headshot
+Tre Johnson
+26:16	7	13	53.8	3	6	50.0	0	0	0.0	1	2	3	2	0	1	0	2	17	7
+undefined Headshot
+Cam Whitmore
+16:10	3	9	33.3	0	3	0.0	2	2	100	1	2	3	1	1	0	1	0	8	3
+undefined Headshot
+Marvin Bagley III
+14:54	4	6	66.7	1	2	50.0	1	2	50.0	2	2	4	1	0	0	0	4	10	-6
+undefined Headshot
+Corey Kispert
+21:19	3	5	60.0	1	3	33.3	0	1	0.0	0	4	4	4	0	0	0	3	7	5
+undefined Headshot
+Tristan Vukcevic
+7:07	1	4	25.0	0	2	0.0	0	1	0.0	0	2	2	0	0	1	1	0	2	11
+undefined Headshot
+Will Riley
+3:44	0	0	0.0	0	0	0.0	3	4	75.0	0	3	3	0	1	0	0	0	3	3
+undefined Headshot
+Justin Champagnie
+DNP - Coach's Decision
+undefined Headshot
+Sharife Cooper
+DNP - Coach's Decision
+undefined Headshot
+Anthony Gill
+DNP - Coach's Decision
+undefined Headshot
+AJ Johnson
+DNP - Coach's Decision
+TOTALS
+ 	41	90	45.6	15	36	41.7	20	29	69.0	10	38	48	27	11	8	15	24	117	10
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+P.J. Washington
+F
+39:17	8	14	57.1	2	5	40.0	0	1	0.0	1	8	9	1	2	1	8	3	18	-9
+undefined Headshot
+Anthony Davis
+F
+37:39	9	19	47.4	0	4	0.0	9	12	75.0	3	10	13	4	2	2	5	3	27	-3
+undefined Headshot
+Dereck Lively II
+C
+19:17	4	5	80.0	0	0	0.0	0	0	0.0	2	4	6	2	2	1	2	1	8	3
+undefined Headshot
+Klay Thompson
+G
+17:16	2	7	28.6	1	6	16.7	3	3	100	0	4	4	0	1	0	0	0	8	-14
+undefined Headshot
+Cooper Flagg
+G
+34:39	6	14	42.9	2	5	40.0	4	4	100	1	4	5	6	1	1	5	3	18	-6
+undefined Headshot
+Max Christie
+29:29	3	7	42.9	3	6	50.0	0	0	0.0	0	1	1	2	0	0	0	2	9	-5
+undefined Headshot
+Naji Marshall
+25:20	2	6	33.3	0	1	0.0	3	3	100	1	5	6	4	2	0	1	4	7	-1
+undefined Headshot
+D'Angelo Russell
+8:30	0	3	0.0	0	1	0.0	1	2	50.0	0	2	2	3	0	0	0	0	1	2
+undefined Headshot
+Ryan Nembhard
+9:45	1	4	25.0	0	1	0.0	0	0	0.0	1	0	1	0	0	0	0	1	2	-15
+undefined Headshot
+Brandon Williams
+6:56	0	2	0.0	0	0	0.0	0	0	0.0	0	0	0	1	1	0	0	1	0	1
+undefined Headshot
+Jaden Hardy
+11:18	3	7	42.9	2	5	40.0	1	2	50.0	0	1	1	0	0	0	0	1	9	-3
+undefined Headshot
+Dwight Powell
+0:17	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Moussa Cisse
+0:17	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Caleb Martin
+DNP - Coach's Decision
+TOTALS
+ 	38	88	43.2	10	34	29.4	21	27	77.8	9	39	48	23	11	5	21	19	107	-10
+Inactive Players
+WAS: Malaki Branham, Bilal Coulibaly, Jamir Watkins
+
+DAL: Kyrie Irving, Dante Exum, Daniel Gafford, Miles Kelly

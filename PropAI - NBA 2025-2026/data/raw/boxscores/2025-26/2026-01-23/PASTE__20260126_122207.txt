@@ -1,0 +1,110 @@
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+35:24	7	15	46.7	1	5	20.0	5	7	71.4	2	5	7	3	2	1	2	1	20	11
+undefined Headshot
+Scottie Barnes
+F
+35:13	6	15	40.0	0	2	0.0	3	4	75.0	2	7	9	4	0	6	4	2	15	9
+undefined Headshot
+Sandro Mamukelashvili
+C
+34:51	9	15	60.0	3	6	50.0	1	2	50.0	2	4	6	4	1	0	2	3	22	25
+undefined Headshot
+RJ Barrett
+G
+21:22	4	9	44.4	0	5	0.0	2	4	50.0	1	5	6	3	0	1	2	3	10	-6
+undefined Headshot
+Immanuel Quickley
+G
+34:18	9	15	60.0	2	4	50.0	0	0	0.0	0	8	8	7	2	0	1	1	20	9
+undefined Headshot
+Ochai Agbaji
+21:31	5	8	62.5	0	3	0.0	0	0	0.0	2	2	4	1	1	1	1	2	10	3
+undefined Headshot
+Gradey Dick
+24:12	4	5	80.0	2	2	100	0	0	0.0	1	1	2	1	0	0	1	0	10	10
+undefined Headshot
+Jamal Shead
+19:44	0	1	0.0	0	1	0.0	0	0	0.0	0	3	3	5	1	0	0	2	0	2
+undefined Headshot
+Jamison Battle
+9:28	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	1	2	3	2
+undefined Headshot
+Jonathan Mogbo
+3:57	0	1	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	2	1	0	-5
+undefined Headshot
+A.J. Lawson
+DNP - Coach's Decision
+undefined Headshot
+Alijah Martin
+DNP - Coach's Decision
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	45	85	52.9	9	29	31.0	11	17	64.7	10	36	46	28	7	9	16	17	110	12
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Sidy Cissoko
+F
+32:35	1	6	16.7	0	4	0.0	1	2	50.0	1	2	3	1	0	1	1	4	3	-8
+undefined Headshot
+Toumani Camara
+F
+37:05	5	12	41.7	4	8	50.0	2	2	100	2	4	6	2	1	1	1	0	16	-8
+undefined Headshot
+Donovan Clingan
+C
+28:56	6	14	42.9	1	4	25.0	0	0	0.0	8	8	16	2	3	0	0	3	13	0
+undefined Headshot
+Shaedon Sharpe
+G
+32:21	10	23	43.5	1	6	16.7	0	0	0.0	0	7	7	4	1	0	3	1	21	-8
+undefined Headshot
+Jrue Holiday
+G
+22:20	9	14	64.3	3	6	50.0	0	0	0.0	0	1	1	7	0	0	1	0	21	-5
+undefined Headshot
+Hansen Yang
+7:15	0	2	0.0	0	0	0.0	0	0	0.0	0	3	3	0	0	0	1	0	0	-13
+undefined Headshot
+Caleb Love
+28:41	4	9	44.4	3	6	50.0	0	0	0.0	2	2	4	3	0	0	3	0	11	-1
+undefined Headshot
+Rayan Rupert
+15:49	0	5	0.0	0	2	0.0	0	0	0.0	0	1	1	1	0	0	0	0	0	-14
+undefined Headshot
+Jerami Grant
+26:25	2	8	25.0	0	5	0.0	4	6	66.7	0	2	2	2	1	1	3	1	8	0
+undefined Headshot
+Javonte Cooke
+8:34	2	5	40.0	1	4	25.0	0	0	0.0	1	1	2	0	1	0	0	2	5	-3
+undefined Headshot
+Deni Avdija
+DND - Injury/Illness
+undefined Headshot
+Kris Murray
+DND - Injury/Illness
+undefined Headshot
+Duop Reath
+DND - Injury/Illness
+undefined Headshot
+Matisse Thybulle
+DND - Injury/Illness
+undefined Headshot
+Robert Williams III
+DND - Injury/Illness
+TOTALS
+ 	39	98	39.8	13	45	28.9	7	10	70.0	14	31	45	22	7	3	13	11	98	-12
+Inactive Players
+TOR: Jakob Poeltl, Ja'Kobe Walter, Collin Murray-Boyles, Chucky Hepburn
+
+POR: Scoot Henderson, Blake Wesley, Damian Lillard

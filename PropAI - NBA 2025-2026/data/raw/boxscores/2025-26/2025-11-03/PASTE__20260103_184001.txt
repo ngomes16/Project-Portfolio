@@ -1,0 +1,110 @@
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+26:32	4	7	57.1	0	1	0.0	1	6	16.7	1	3	4	1	4	2	2	3	9	10
+undefined Headshot
+Isaiah Stewart
+F
+33:57	9	18	50.0	2	8	25.0	6	6	100	5	9	14	4	0	4	1	1	26	9
+undefined Headshot
+Jalen Duren
+C
+34:22	5	11	45.5	0	0	0.0	4	4	100	3	6	9	3	1	1	2	2	14	13
+undefined Headshot
+Duncan Robinson
+G
+39:50	4	10	40.0	3	9	33.3	0	0	0.0	0	4	4	1	0	0	1	2	11	6
+undefined Headshot
+Cade Cunningham
+G
+38:52	12	20	60.0	3	6	50.0	6	10	60.0	0	5	5	8	0	1	3	5	33	12
+undefined Headshot
+Caris LeVert
+20:15	2	4	50.0	0	2	0.0	0	0	0.0	0	1	1	2	2	0	2	1	4	3
+undefined Headshot
+Ronald Holland II
+19:51	5	8	62.5	1	2	50.0	3	3	100	1	1	2	3	0	0	1	3	14	3
+undefined Headshot
+Javonte Green
+21:24	1	4	25.0	1	3	33.3	0	0	0.0	0	3	3	1	2	1	0	3	3	-13
+undefined Headshot
+Paul Reed
+4:58	0	1	0.0	0	0	0.0	0	0	0.0	0	1	1	0	2	0	0	1	0	-3
+undefined Headshot
+Daniss Jenkins
+DNP - Coach's Decision
+undefined Headshot
+Bobi Klintman
+DNP - Coach's Decision
+undefined Headshot
+Chaz Lanier
+DNP - Coach's Decision
+undefined Headshot
+Tolu Smith
+DNP - Coach's Decision
+TOTALS
+ 	42	83	50.6	10	31	32.3	20	29	69.0	10	33	43	23	11	9	12	21	114	8
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kentavious Caldwell-Pope
+F
+25:16	0	4	0.0	0	3	0.0	2	2	100	1	3	4	1	1	1	1	0	2	2
+undefined Headshot
+Jaren Jackson Jr.
+F
+31:06	8	14	57.1	4	7	57.1	1	1	100	1	3	4	1	0	2	1	5	21	-9
+undefined Headshot
+Jock Landale
+C
+29:38	5	9	55.6	2	3	66.7	1	2	50.0	3	2	5	1	4	0	2	3	13	-2
+undefined Headshot
+Jaylen Wells
+G
+21:17	2	14	14.3	0	7	0.0	0	0	0.0	4	2	6	3	0	0	0	1	4	-8
+undefined Headshot
+Ja Morant
+G
+34:58	5	16	31.3	0	4	0.0	8	9	88.9	0	5	5	10	1	0	5	2	18	-5
+undefined Headshot
+Cedric Coward
+30:38	5	9	55.6	3	6	50.0	4	4	100	1	5	6	2	0	0	3	5	17	-2
+undefined Headshot
+Santi Aldama
+22:44	5	9	55.6	1	3	33.3	0	0	0.0	2	3	5	1	0	0	3	1	11	-14
+undefined Headshot
+Charles Bassey
+15:11	1	3	33.3	0	0	0.0	1	2	50.0	5	5	10	1	1	1	1	3	3	-8
+undefined Headshot
+Vince Williams Jr.
+14:35	0	3	0.0	0	2	0.0	4	4	100	1	1	2	2	1	1	1	2	4	-3
+undefined Headshot
+Cam Spencer
+14:36	4	6	66.7	4	6	66.7	1	1	100	0	2	2	3	0	0	3	0	13	9
+undefined Headshot
+PJ Hall
+DNP - Coach's Decision
+undefined Headshot
+GG Jackson
+DNP - Coach's Decision
+undefined Headshot
+John Konchar
+DNP - Coach's Decision
+undefined Headshot
+Olivier-Maxence Prosper
+DNP - Coach's Decision
+undefined Headshot
+Javon Small
+DNP - Coach's Decision
+TOTALS
+ 	35	87	40.2	14	41	34.1	22	25	88.0	18	31	49	25	8	5	20	22	106	-8
+Inactive Players
+DET: Tobias Harris, Jaden Ivey, Marcus Sasser, Colby Jones
+
+MEM: Brandon Clarke, Ty Jerome, Scotty Pippen Jr., Zach Edey

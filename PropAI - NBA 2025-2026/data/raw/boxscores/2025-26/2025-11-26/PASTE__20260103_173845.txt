@@ -1,0 +1,104 @@
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jarace Walker
+F
+26:40	4	9	44.4	3	7	42.9	2	2	100	1	8	9	2	2	1	3	2	13	-13
+undefined Headshot
+Pascal Siakam
+F
+30:56	5	10	50.0	0	0	0.0	1	4	25.0	1	3	4	2	2	0	3	5	11	-8
+undefined Headshot
+Isaiah Jackson
+C
+19:38	3	3	100	0	0	0.0	2	4	50.0	0	2	2	3	0	3	3	3	8	-2
+undefined Headshot
+Bennedict Mathurin
+G
+34:01	5	15	33.3	4	9	44.4	1	2	50.0	0	3	3	3	1	0	4	3	15	-15
+undefined Headshot
+Andrew Nembhard
+G
+35:25	2	10	20.0	1	5	20.0	4	6	66.7	0	4	4	4	2	0	2	2	9	-20
+undefined Headshot
+Jeremiah Robinson-Earl
+13:36	2	2	100	1	1	100	0	0	0.0	0	3	3	0	0	0	1	2	5	4
+undefined Headshot
+Jay Huff
+28:23	3	6	50.0	0	3	0.0	4	5	80.0	0	6	6	0	0	3	0	3	10	0
+undefined Headshot
+Ben Sheppard
+27:02	3	6	50.0	2	4	50.0	0	0	0.0	0	5	5	0	0	0	0	1	8	25
+undefined Headshot
+T.J. McConnell
+24:15	8	17	47.1	0	4	0.0	0	0	0.0	1	6	7	6	0	0	2	1	16	19
+undefined Headshot
+Garrison Mathews
+0:04	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Tony Bradley
+DNP - Coach's Decision
+undefined Headshot
+RayJ Dennis
+DNP - Coach's Decision
+undefined Headshot
+Taelon Peter
+DNP - Coach's Decision
+TOTALS
+ 	35	78	44.9	11	33	33.3	14	23	60.9	3	40	43	20	7	7	18	22	95	-2
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+38:12	11	23	47.8	1	4	25.0	3	5	60.0	1	7	8	0	2	1	3	1	26	12
+undefined Headshot
+Scottie Barnes
+F
+36:26	5	12	41.7	0	1	0.0	14	14	100	5	5	10	4	0	1	4	3	24	1
+undefined Headshot
+Jakob Poeltl
+C
+31:33	4	6	66.7	0	0	0.0	0	0	0.0	3	6	9	3	1	1	2	4	8	12
+undefined Headshot
+Collin Murray-Boyles
+G
+7:41	0	2	0.0	0	2	0.0	0	0	0.0	0	1	1	0	0	0	0	2	0	-4
+undefined Headshot
+Immanuel Quickley
+G
+34:43	6	19	31.6	1	7	14.3	2	5	40.0	0	5	5	6	2	0	1	2	15	7
+undefined Headshot
+Ja'Kobe Walter
+32:28	5	10	50.0	3	5	60.0	0	0	0.0	2	2	4	1	2	0	0	0	13	21
+undefined Headshot
+Gradey Dick
+6:34	0	2	0.0	0	2	0.0	0	0	0.0	1	2	3	1	1	1	1	0	0	-2
+undefined Headshot
+Sandro Mamukelashvili
+16:27	3	8	37.5	0	2	0.0	1	1	100	0	3	3	0	0	0	0	2	7	-10
+undefined Headshot
+Jamal Shead
+16:30	0	4	0.0	0	2	0.0	2	2	100	0	2	2	3	1	0	1	3	2	-13
+undefined Headshot
+Ochai Agbaji
+5:29	0	2	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	1	2	0	-4
+undefined Headshot
+Jamison Battle
+13:57	1	2	50.0	0	0	0.0	0	0	0.0	0	3	3	0	0	0	0	0	2	-10
+undefined Headshot
+Jonathan Mogbo
+DNP - Coach's Decision
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	35	90	38.9	5	26	19.2	22	27	81.5	12	36	48	18	9	4	13	19	97	2
+Inactive Players
+IND: Obi Toppin, Tyrese Haliburton, Aaron Nesmith, Quenton Jackson, Johnny Furphy, Kam Jones
+
+TOR: Alijah Martin, Chucky Hepburn, A.J. Lawson, RJ Barrett

@@ -1,0 +1,101 @@
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+LeBron James
+F
+35:58	4	17	23.5	0	5	0.0	0	0	0.0	1	5	6	11	0	0	0	1	8	-1
+undefined Headshot
+Rui Hachimura
+F
+34:58	4	9	44.4	2	3	66.7	2	2	100	1	2	3	0	1	0	1	2	12	4
+undefined Headshot
+Deandre Ayton
+C
+31:39	8	11	72.7	0	0	0.0	1	1	100	3	5	8	0	0	2	2	1	17	-1
+undefined Headshot
+Austin Reaves
+G
+40:48	13	21	61.9	5	11	45.5	13	15	86.7	0	5	5	10	0	0	5	3	44	6
+undefined Headshot
+Gabe Vincent
+G
+24:19	2	8	25.0	1	5	20.0	0	0	0.0	1	1	2	4	1	1	1	6	5	0
+undefined Headshot
+Jake LaRavia
+28:13	5	8	62.5	2	3	66.7	2	2	100	3	4	7	0	2	1	2	3	14	1
+undefined Headshot
+Nick Smith Jr.
+14:17	4	7	57.1	2	3	66.7	2	3	66.7	1	1	2	0	2	0	0	0	12	6
+undefined Headshot
+Jaxson Hayes
+16:21	2	5	40.0	0	0	0.0	0	0	0.0	3	1	4	0	0	3	0	0	4	4
+undefined Headshot
+Adou Thiero
+10:08	1	1	100	0	0	0.0	2	3	66.7	1	0	1	1	1	0	0	0	4	-2
+undefined Headshot
+Dalton Knecht
+3:19	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	0	1	3	-2
+undefined Headshot
+Bronny James
+DNP - Coach's Decision
+undefined Headshot
+Maxi Kleber
+DNP - Coach's Decision
+undefined Headshot
+Jarred Vanderbilt
+DNP - Coach's Decision
+TOTALS
+ 	44	88	50.0	13	31	41.9	22	26	84.6	14	24	38	26	7	7	11	17	123	3
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+36:20	10	23	43.5	0	6	0.0	0	0	0.0	3	4	7	7	0	1	3	1	20	-3
+undefined Headshot
+Scottie Barnes
+F
+36:08	8	16	50.0	2	5	40.0	5	6	83.3	4	7	11	9	1	3	1	1	23	3
+undefined Headshot
+Sandro Mamukelashvili
+C
+36:38	4	13	30.8	3	9	33.3	2	3	66.7	2	6	8	5	2	2	2	1	13	-2
+undefined Headshot
+Ja'Kobe Walter
+G
+24:47	6	10	60.0	3	6	50.0	2	3	66.7	2	1	3	2	1	0	0	1	17	-3
+undefined Headshot
+Immanuel Quickley
+G
+32:01	5	9	55.6	2	4	50.0	1	1	100	0	1	1	5	2	0	5	3	13	-11
+undefined Headshot
+Collin Murray-Boyles
+15:41	5	7	71.4	2	2	100	0	0	0.0	1	1	2	3	1	1	2	4	12	-1
+undefined Headshot
+Gradey Dick
+16:10	2	4	50.0	2	2	100	2	2	100	0	1	1	0	0	0	1	3	8	-3
+undefined Headshot
+Jamal Shead
+21:22	0	1	0.0	0	1	0.0	4	4	100	1	1	2	6	2	0	1	4	4	1
+undefined Headshot
+Jamison Battle
+15:45	4	5	80.0	1	2	50.0	1	2	50.0	0	3	3	1	0	0	0	1	10	5
+undefined Headshot
+Jonathan Mogbo
+5:08	0	1	0.0	0	0	0.0	0	0	0.0	1	2	3	1	0	1	0	1	0	-1
+undefined Headshot
+A.J. Lawson
+DNP - Coach's Decision
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	44	89	49.4	15	37	40.5	17	21	81.0	14	27	41	39	9	8	15	20	120	-3
+Inactive Players
+LAL: Marcus Smart, Luka Doncic, Drew Timme, Chris Manon
+
+TOR: Alijah Martin, Chucky Hepburn, RJ Barrett, Ochai Agbaji, Jakob Poeltl

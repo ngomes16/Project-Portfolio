@@ -1,0 +1,1311 @@
+{% extends "base.html" %}
+
+{% block title %}Model Lab - NBA Props Predictor{% endblock %}
+{% block page_title %}🧪 Model Lab{% endblock %}
+
+{% block extra_css %}
+<style>
+    .lab-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    /* Tab Navigation */
+    .lab-tabs {
+        display: flex;
+        gap: 0.5rem;
+        border-bottom: 2px solid var(--border);
+        padding-bottom: 0;
+    }
+    
+    .lab-tab {
+        padding: 1rem 1.5rem;
+        background: transparent;
+        border: none;
+        color: var(--text-muted);
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 8px 8px 0 0;
+        transition: all 0.2s;
+        position: relative;
+    }
+    
+    .lab-tab:hover {
+        background: rgba(139, 92, 246, 0.1);
+        color: var(--text);
+    }
+    
+    .lab-tab.active {
+        background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+        color: white;
+    }
+    
+    .lab-tab.active::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: #8b5cf6;
+    }
+    
+    .tab-panel {
+        display: none;
+    }
+    
+    .tab-panel.active {
+        display: block;
+    }
+    
+    /* Config Cards */
+    .config-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .config-card h3 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 1.125rem;
+    }
+    
+    .config-card p {
+        color: var(--text-muted);
+        margin: 0;
+        font-size: 0.9rem;
+    }
+    
+    /* Controls */
+    .controls-row {
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+    
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .form-group label {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    
+    .form-input {
+        background: var(--bg);
+        border: 1px solid var(--border);
+        padding: 0.75rem 1rem;
+        border-radius: 8px;
+        color: var(--text);
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.9rem;
+        min-width: 150px;
+    }
+    
+    .form-input:focus {
+        outline: none;
+        border-color: #8b5cf6;
+        box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2);
+    }
+    
+    .form-select {
+        background: var(--bg);
+        border: 1px solid var(--border);
+        padding: 0.75rem 1rem;
+        border-radius: 8px;
+        color: var(--text);
+        font-size: 0.9rem;
+        min-width: 180px;
+        cursor: pointer;
+    }
+    
+    /* Buttons */
+    .btn-primary {
+        background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+        color: white;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: all 0.2s;
+    }
+    
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+    }
+    
+    .btn-primary:disabled {
+        opacity: 0.7;
+        cursor: wait;
+        transform: none;
+    }
+    
+    .btn-secondary {
+        background: var(--card-bg);
+        color: var(--text);
+        border: 1px solid var(--border);
+        padding: 0.75rem 1.5rem;
+        border-radius: 10px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: all 0.2s;
+    }
+    
+    .btn-secondary:hover {
+        border-color: #8b5cf6;
+        background: rgba(139, 92, 246, 0.1);
+    }
+    
+    .btn-success {
+        background: linear-gradient(135deg, #10b981, #059669);
+        color: white;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: all 0.2s;
+    }
+    
+    .btn-success:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+    }
+    
+    /* Learning Dashboard */
+    .learning-hero {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+        background: linear-gradient(135deg, var(--card-bg), rgba(139, 92, 246, 0.05));
+        border-radius: 20px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border);
+    }
+    
+    .model-status {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .status-circle {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background: conic-gradient(
+            #10b981 0deg calc(var(--accuracy) * 3.6deg),
+            rgba(139, 92, 246, 0.2) calc(var(--accuracy) * 3.6deg) 360deg
+        );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .status-circle::before {
+        content: '';
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background: var(--card-bg);
+    }
+    
+    .status-inner {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+    
+    .status-value {
+        font-size: 2rem;
+        font-weight: 800;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .status-value.good { color: #10b981; }
+    .status-value.ok { color: #f59e0b; }
+    .status-value.bad { color: #ef4444; }
+    
+    .status-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+    }
+    
+    .learning-stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    
+    .stat-card {
+        background: var(--bg);
+        border-radius: 12px;
+        padding: 1rem;
+        text-align: center;
+        border: 1px solid var(--border);
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .stat-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-top: 0.25rem;
+    }
+    
+    /* Adjustments Panel */
+    .adjustments-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    
+    .adjustment-card {
+        background: var(--bg);
+        border-radius: 12px;
+        padding: 1rem;
+        border: 1px solid var(--border);
+    }
+    
+    .adjustment-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+    
+    .adjustment-title {
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+    
+    .adjustment-value {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 600;
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.8rem;
+    }
+    
+    .adjustment-value.positive {
+        background: rgba(16, 185, 129, 0.2);
+        color: #10b981;
+    }
+    
+    .adjustment-value.negative {
+        background: rgba(239, 68, 68, 0.2);
+        color: #ef4444;
+    }
+    
+    .adjustment-value.neutral {
+        background: rgba(107, 114, 128, 0.2);
+        color: #9ca3af;
+    }
+    
+    .adjustment-bar {
+        height: 6px;
+        background: var(--card-bg);
+        border-radius: 3px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .adjustment-bar-center {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: var(--border);
+    }
+    
+    .adjustment-bar-fill {
+        height: 100%;
+        border-radius: 3px;
+        transition: width 0.3s ease;
+        position: absolute;
+        top: 0;
+    }
+    
+    .adjustment-bar-fill.positive {
+        left: 50%;
+        background: linear-gradient(90deg, #10b981, #34d399);
+    }
+    
+    .adjustment-bar-fill.negative {
+        right: 50%;
+        background: linear-gradient(270deg, #ef4444, #f87171);
+    }
+    
+    /* Results Tables */
+    .results-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9rem;
+    }
+    
+    .results-table th, .results-table td {
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+    }
+    
+    .results-table th {
+        color: var(--text-muted);
+        font-weight: 600;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        background: rgba(0, 0, 0, 0.1);
+    }
+    
+    .results-table tr:hover {
+        background: rgba(139, 92, 246, 0.05);
+    }
+    
+    .rank-badge {
+        width: 28px;
+        height: 28px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-weight: 600;
+        font-size: 0.8rem;
+        background: var(--bg);
+    }
+    
+    .rank-1 { background: #fbbf24; color: #92400e; }
+    .rank-2 { background: #9ca3af; color: #374151; }
+    .rank-3 { background: #cd7f32; color: #44200a; }
+    
+    /* Pattern Analysis */
+    .pattern-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .pattern-card {
+        background: var(--bg);
+        border-radius: 12px;
+        padding: 1.5rem;
+        border: 1px solid var(--border);
+    }
+    
+    .pattern-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .pattern-name {
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .pattern-accuracy {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+    
+    .pattern-accuracy.good { color: #10b981; }
+    .pattern-accuracy.ok { color: #f59e0b; }
+    .pattern-accuracy.bad { color: #ef4444; }
+    
+    .pattern-stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+    
+    .pattern-stat {
+        text-align: center;
+        padding: 0.5rem;
+        background: var(--card-bg);
+        border-radius: 6px;
+    }
+    
+    .pattern-stat-value {
+        font-weight: 600;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .pattern-stat-label {
+        font-size: 0.65rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+    }
+    
+    /* Insights */
+    .insights-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+    }
+    
+    .insight-card {
+        background: var(--bg);
+        border-radius: 12px;
+        padding: 1.25rem;
+        border: 1px solid var(--border);
+    }
+    
+    .insight-icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .insight-title {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .insight-title.positive { color: #10b981; }
+    .insight-title.negative { color: #ef4444; }
+    .insight-title.neutral { color: #8b5cf6; }
+    
+    .insight-text {
+        font-size: 0.875rem;
+        color: var(--text-muted);
+        line-height: 1.6;
+    }
+    
+    /* Loading State */
+    .loading-overlay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem;
+        gap: 1rem;
+    }
+    
+    .loading-spinner {
+        width: 48px;
+        height: 48px;
+        border: 4px solid var(--border);
+        border-top-color: #8b5cf6;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+        to { transform: rotate(360deg); }
+    }
+    
+    /* Empty State */
+    .empty-state {
+        text-align: center;
+        padding: 4rem 2rem;
+        color: var(--text-muted);
+    }
+    
+    .empty-state-icon {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        opacity: 0.5;
+    }
+    
+    .empty-state h3 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+        color: var(--text);
+    }
+    
+    /* Best Model Highlight */
+    .best-model-card {
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(5, 150, 105, 0.05));
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        border-radius: 16px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .best-model-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .best-model-title {
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: #10b981;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .metric-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 1rem;
+    }
+    
+    .metric-box {
+        background: var(--card-bg);
+        padding: 1rem;
+        border-radius: 8px;
+        text-align: center;
+    }
+    
+    .metric-val {
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .metric-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+    }
+    
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .learning-hero {
+            grid-template-columns: 1fr;
+        }
+        
+        .learning-stats {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .controls-row {
+            flex-direction: column;
+            align-items: stretch;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="lab-container">
+    <!-- Tab Navigation -->
+    <div class="lab-tabs">
+        <button class="lab-tab active" onclick="switchLabTab('learning')">🧠 Model Learning</button>
+        <button class="lab-tab" onclick="switchLabTab('experiments')">🔬 Experiments</button>
+        <button class="lab-tab" onclick="switchLabTab('patterns')">📊 Pattern Analysis</button>
+        <button class="lab-tab" onclick="switchLabTab('config')">⚙️ Configuration</button>
+    </div>
+    
+    <!-- Learning Dashboard Tab -->
+    <div id="tab-learning" class="tab-panel active">
+        <div class="learning-hero">
+            <div class="model-status">
+                <div class="status-circle" style="--accuracy: 0">
+                    <div class="status-inner">
+                        <div class="status-value" id="model-accuracy">--%</div>
+                        <div class="status-label">Model Accuracy</div>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-weight: 600; margin-bottom: 0.25rem;" id="model-status-text">Loading...</div>
+                    <div style="font-size: 0.75rem; color: var(--text-muted);" id="model-status-detail">Analyzing historical performance</div>
+                </div>
+            </div>
+            <div class="learning-stats">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-picks-analyzed">0</div>
+                    <div class="stat-label">Picks Analyzed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" style="color: #10b981;" id="total-hits">0</div>
+                    <div class="stat-label">Successful Hits</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" style="color: #ef4444;" id="total-misses">0</div>
+                    <div class="stat-label">Misses</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="days-data">0</div>
+                    <div class="stat-label">Days of Data</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="over-accuracy">--%</div>
+                    <div class="stat-label">OVER Accuracy</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="under-accuracy">--%</div>
+                    <div class="stat-label">UNDER Accuracy</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="high-conf-accuracy">--%</div>
+                    <div class="stat-label">High Conf Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="last-updated">--</div>
+                    <div class="stat-label">Last Analysis</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="config-card">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h3>📈 Learned Adjustments</h3>
+                <button class="btn-success" onclick="runLearning()">
+                    <span>🔄</span> Update Model
+                </button>
+            </div>
+            <p>Based on historical pick performance, the model has learned these adjustments to improve accuracy:</p>
+            
+            <div class="adjustments-grid" id="adjustments-grid">
+                <div class="empty-state" style="grid-column: 1 / -1; padding: 2rem;">
+                    <p>Click "Update Model" to analyze past picks and learn adjustments</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="config-card">
+            <h3>💡 Model Insights</h3>
+            <div class="insights-grid" id="learning-insights">
+                <div class="insight-card">
+                    <div class="insight-icon">📊</div>
+                    <div class="insight-title neutral">Waiting for Analysis</div>
+                    <div class="insight-text">Run the model learning process to generate insights based on your historical pick data.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Experiments Tab -->
+    <div id="tab-experiments" class="tab-panel">
+        <div class="config-card">
+            <h3>🔬 Backtest Configuration</h3>
+            <p>Run backtests to compare different model configurations and find optimal parameters.</p>
+            
+            <div class="controls-row">
+                <div class="form-group">
+                    <label>Start Date</label>
+                    <input type="date" id="exp-start-date" class="form-input" value="2025-12-01">
+                </div>
+                <div class="form-group">
+                    <label>End Date</label>
+                    <input type="date" id="exp-end-date" class="form-input" value="2026-01-10">
+                </div>
+                <div class="form-group">
+                    <label>Model Version</label>
+                    <select id="exp-model" class="form-select">
+                        <option value="v8">V8 (New - OVER + UNDER)</option>
+                        <option value="production">Production (OVER Only)</option>
+                        <option value="v5">V5 (Legacy)</option>
+                        <option value="v4">V4 (Legacy)</option>
+                    </select>
+                </div>
+                <button class="btn-primary" id="run-backtest-btn" onclick="runBacktest()">
+                    <span>▶️</span> Run Backtest
+                </button>
+            </div>
+        </div>
+        
+        <div id="backtest-loading" style="display: none;">
+            <div class="loading-overlay">
+                <div class="loading-spinner"></div>
+                <div>Running backtest... This may take a minute.</div>
+            </div>
+        </div>
+        
+        <div id="backtest-results" style="display: none;">
+            <div class="best-model-card">
+                <div class="best-model-header">
+                    <div class="best-model-title">
+                        <span>🏆</span> Backtest Results
+                    </div>
+                    <div style="font-size: 0.875rem; color: var(--text-muted);" id="backtest-period">--</div>
+                </div>
+                <div class="metric-grid">
+                    <div class="metric-box">
+                        <div class="metric-val" id="bt-overall-rate">--%</div>
+                        <div class="metric-label">Overall Hit Rate</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-val" id="bt-total-picks">0</div>
+                        <div class="metric-label">Total Picks</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-val" id="bt-over-rate">--%</div>
+                        <div class="metric-label">OVER Rate</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-val" id="bt-under-rate">--%</div>
+                        <div class="metric-label">UNDER Rate</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-val" id="bt-high-rate">--%</div>
+                        <div class="metric-label">High Conf Rate</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-val" id="bt-days">0</div>
+                        <div class="metric-label">Days Tested</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="config-card">
+                <h3>📅 Daily Results</h3>
+                <div style="overflow-x: auto;">
+                    <table class="results-table" id="daily-results-table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Games</th>
+                                <th>Picks</th>
+                                <th>Hits</th>
+                                <th>Hit Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pattern Analysis Tab -->
+    <div id="tab-patterns" class="tab-panel">
+        <div class="config-card">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h3>📊 Pattern Performance Analysis</h3>
+                <button class="btn-secondary" onclick="loadPatternAnalysis()">
+                    <span>🔄</span> Refresh
+                </button>
+            </div>
+            <p>Analyze which prediction patterns are performing best and worst.</p>
+        </div>
+        
+        <div class="pattern-grid" id="pattern-grid">
+            <div class="empty-state" style="grid-column: 1 / -1;">
+                <div class="empty-state-icon">📊</div>
+                <h3>No Pattern Data Yet</h3>
+                <p>Run backtests or analyze historical picks to see pattern performance.</p>
+            </div>
+        </div>
+        
+        <div class="config-card" style="margin-top: 1.5rem;">
+            <h3>🎯 Prop Type Performance</h3>
+            <div class="pattern-grid" id="prop-type-grid">
+                <div class="pattern-card">
+                    <div class="pattern-header">
+                        <div class="pattern-name">🏀 Points (PTS)</div>
+                        <div class="pattern-accuracy" id="pts-pattern-rate">--%</div>
+                    </div>
+                    <div class="pattern-stats">
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value" id="pts-over-rate">--%</div>
+                            <div class="pattern-stat-label">OVER</div>
+                        </div>
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value" id="pts-under-rate">--%</div>
+                            <div class="pattern-stat-label">UNDER</div>
+                        </div>
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value" id="pts-total">0</div>
+                            <div class="pattern-stat-label">Total</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pattern-card">
+                    <div class="pattern-header">
+                        <div class="pattern-name">🪣 Rebounds (REB)</div>
+                        <div class="pattern-accuracy" id="reb-pattern-rate">--%</div>
+                    </div>
+                    <div class="pattern-stats">
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value" id="reb-over-rate">--%</div>
+                            <div class="pattern-stat-label">OVER</div>
+                        </div>
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value" id="reb-under-rate">--%</div>
+                            <div class="pattern-stat-label">UNDER</div>
+                        </div>
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value" id="reb-total">0</div>
+                            <div class="pattern-stat-label">Total</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pattern-card">
+                    <div class="pattern-header">
+                        <div class="pattern-name">🎯 Assists (AST)</div>
+                        <div class="pattern-accuracy" id="ast-pattern-rate">--%</div>
+                    </div>
+                    <div class="pattern-stats">
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value" id="ast-over-rate">--%</div>
+                            <div class="pattern-stat-label">OVER</div>
+                        </div>
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value" id="ast-under-rate">--%</div>
+                            <div class="pattern-stat-label">UNDER</div>
+                        </div>
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value" id="ast-total">0</div>
+                            <div class="pattern-stat-label">Total</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Configuration Tab -->
+    <div id="tab-config" class="tab-panel">
+        <div class="config-card">
+            <h3>⚙️ Model Configuration</h3>
+            <p>Adjust model parameters to fine-tune predictions. Changes will apply to new picks.</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                <div class="form-group">
+                    <label>Minimum Games Required</label>
+                    <input type="number" id="cfg-min-games" class="form-input" value="8" min="5" max="20">
+                </div>
+                <div class="form-group">
+                    <label>Max Picks Per Player</label>
+                    <input type="number" id="cfg-max-player-picks" class="form-input" value="2" min="1" max="3">
+                </div>
+                <div class="form-group">
+                    <label>Star Player Min Minutes</label>
+                    <input type="number" id="cfg-star-min" class="form-input" value="23" min="15" max="30">
+                </div>
+                <div class="form-group">
+                    <label>Cold Deviation Threshold (%)</label>
+                    <input type="number" id="cfg-cold-threshold" class="form-input" value="-15" min="-30" max="0">
+                </div>
+                <div class="form-group">
+                    <label>Hot Deviation Threshold (%)</label>
+                    <input type="number" id="cfg-hot-threshold" class="form-input" value="20" min="10" max="40">
+                </div>
+                <div class="form-group">
+                    <label>Min AST Average for Props</label>
+                    <input type="number" id="cfg-min-ast" class="form-input" value="4" min="2" max="8" step="0.5">
+                </div>
+            </div>
+            
+            <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                <button class="btn-primary" onclick="saveConfig()">
+                    <span>💾</span> Save Configuration
+                </button>
+                <button class="btn-secondary" onclick="resetConfig()">
+                    <span>🔄</span> Reset to Defaults
+                </button>
+            </div>
+        </div>
+        
+        <div class="config-card">
+            <h3>📝 Active Model Info</h3>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                <div>
+                    <div style="font-weight: 600; margin-bottom: 0.25rem;">Current Model</div>
+                    <div style="color: var(--text-muted);">V8 (Comprehensive OVER + UNDER)</div>
+                </div>
+                <div>
+                    <div style="font-weight: 600; margin-bottom: 0.25rem;">Prop Types</div>
+                    <div style="color: var(--text-muted);">PTS, REB, AST</div>
+                </div>
+                <div>
+                    <div style="font-weight: 600; margin-bottom: 0.25rem;">Pattern Types</div>
+                    <div style="color: var(--text-muted);">Cold Bounce, Hot Sustained, Consistent, Hot Cooldown, Slump, B2B Fatigue</div>
+                </div>
+                <div>
+                    <div style="font-weight: 600; margin-bottom: 0.25rem;">Confidence Calibration</div>
+                    <div style="color: var(--text-muted);">1-5 Stars (30-95 Score Range)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Tab Switching
+function switchLabTab(tabName) {
+    document.querySelectorAll('.lab-tab').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active'));
+    
+    document.querySelector(`.lab-tab[onclick="switchLabTab('${tabName}')"]`).classList.add('active');
+    document.getElementById(`tab-${tabName}`).classList.add('active');
+    
+    // Load data for specific tabs
+    if (tabName === 'learning') {
+        loadLearningDashboard();
+    } else if (tabName === 'patterns') {
+        loadPatternAnalysis();
+    }
+}
+
+// Load Learning Dashboard
+async function loadLearningDashboard() {
+    try {
+        const response = await fetchAPI('/api/backtesting/performance');
+        
+        if (response.error) throw new Error(response.error);
+        
+        const { overall, daily } = response;
+        
+        // Update model status
+        const accuracy = overall.overall_hit_rate || 0;
+        document.getElementById('model-accuracy').textContent = accuracy.toFixed(1) + '%';
+        document.getElementById('model-accuracy').className = `status-value ${accuracy >= 55 ? 'good' : accuracy >= 45 ? 'ok' : 'bad'}`;
+        
+        // Update status circle
+        document.querySelector('.status-circle').style.setProperty('--accuracy', accuracy);
+        
+        // Status text
+        if (accuracy >= 60) {
+            document.getElementById('model-status-text').textContent = 'Excellent Performance';
+            document.getElementById('model-status-detail').textContent = 'Model is performing above target';
+        } else if (accuracy >= 52) {
+            document.getElementById('model-status-text').textContent = 'Good Performance';
+            document.getElementById('model-status-detail').textContent = 'Model is profitable';
+        } else if (overall.total_picks > 0) {
+            document.getElementById('model-status-text').textContent = 'Needs Improvement';
+            document.getElementById('model-status-detail').textContent = 'Consider adjusting parameters';
+        } else {
+            document.getElementById('model-status-text').textContent = 'No Data Yet';
+            document.getElementById('model-status-detail').textContent = 'Generate and grade some picks first';
+        }
+        
+        // Update stats
+        document.getElementById('total-picks-analyzed').textContent = overall.total_picks || 0;
+        document.getElementById('total-hits').textContent = overall.total_hits || 0;
+        document.getElementById('total-misses').textContent = overall.total_misses || 0;
+        document.getElementById('days-data').textContent = overall.days_tracked || 0;
+        
+        // Calculate direction accuracies from daily data
+        let overPicks = 0, overHits = 0, underPicks = 0, underHits = 0;
+        let highPicks = 0, highHits = 0;
+        
+        for (const d of daily) {
+            overPicks += d.over_picks || 0;
+            overHits += d.over_hits || 0;
+            underPicks += d.under_picks || 0;
+            underHits += d.under_hits || 0;
+            highPicks += d.high_conf_picks || 0;
+            highHits += d.high_conf_hits || 0;
+        }
+        
+        document.getElementById('over-accuracy').textContent = overPicks > 0 ? (overHits / overPicks * 100).toFixed(1) + '%' : '--%';
+        document.getElementById('under-accuracy').textContent = underPicks > 0 ? (underHits / underPicks * 100).toFixed(1) + '%' : '--%';
+        document.getElementById('high-conf-accuracy').textContent = highPicks > 0 ? (highHits / highPicks * 100).toFixed(1) + '%' : '--%';
+        
+        // Last updated
+        if (daily.length > 0) {
+            document.getElementById('last-updated').textContent = daily[0].date;
+        }
+        
+    } catch (error) {
+        console.error('Error loading learning dashboard:', error);
+    }
+}
+
+// Run Learning Update
+async function runLearning() {
+    const btn = document.querySelector('[onclick="runLearning()"]');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="loading-spinner" style="width: 16px; height: 16px; border-width: 2px;"></span> Learning...';
+    
+    try {
+        const response = await fetchAPI('/api/modellab/learn', {
+            method: 'POST',
+            body: JSON.stringify({
+                start_date: '2025-10-25',
+                end_date: new Date().toISOString().split('T')[0]
+            })
+        });
+        
+        if (response.error) throw new Error(response.error);
+        
+        // Display adjustments
+        const grid = document.getElementById('adjustments-grid');
+        const adjustments = response.adjustments || {};
+        
+        if (Object.keys(adjustments).length === 0) {
+            grid.innerHTML = `<div class="empty-state" style="grid-column: 1 / -1; padding: 2rem;">
+                <p>No adjustments needed - model is performing well!</p>
+            </div>`;
+        } else {
+            grid.innerHTML = Object.entries(adjustments).map(([key, value]) => {
+                const absValue = Math.abs(value);
+                const isPositive = value > 0;
+                const barWidth = Math.min(absValue * 2, 50);
+                
+                return `
+                    <div class="adjustment-card">
+                        <div class="adjustment-header">
+                            <div class="adjustment-title">${key.replace(/_/g, ' ').toUpperCase()}</div>
+                            <div class="adjustment-value ${value > 0 ? 'positive' : value < 0 ? 'negative' : 'neutral'}">
+                                ${value > 0 ? '+' : ''}${value.toFixed(1)}
+                            </div>
+                        </div>
+                        <div class="adjustment-bar">
+                            <div class="adjustment-bar-center"></div>
+                            <div class="adjustment-bar-fill ${isPositive ? 'positive' : 'negative'}" 
+                                 style="width: ${barWidth}%;"></div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // Display insights
+        displayLearningInsights(response.insights || []);
+        
+        showToast('Model updated successfully!', 'success');
+        
+    } catch (error) {
+        showToast('Error: ' + error.message, 'error');
+    } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<span>🔄</span> Update Model';
+    }
+}
+
+function displayLearningInsights(insights) {
+    const grid = document.getElementById('learning-insights');
+    
+    if (insights.length === 0) {
+        insights = [{
+            icon: '✅',
+            type: 'positive',
+            title: 'Model Learning Complete',
+            text: 'The model has analyzed your historical data and applied learned adjustments.'
+        }];
+    }
+    
+    grid.innerHTML = insights.map(i => `
+        <div class="insight-card">
+            <div class="insight-icon">${i.icon}</div>
+            <div class="insight-title ${i.type}">${i.title}</div>
+            <div class="insight-text">${i.text}</div>
+        </div>
+    `).join('');
+}
+
+// Run Backtest
+async function runBacktest() {
+    const startDate = document.getElementById('exp-start-date').value;
+    const endDate = document.getElementById('exp-end-date').value;
+    const model = document.getElementById('exp-model').value;
+    
+    if (!startDate || !endDate) {
+        showToast('Please select dates', 'error');
+        return;
+    }
+    
+    const btn = document.getElementById('run-backtest-btn');
+    const loading = document.getElementById('backtest-loading');
+    const results = document.getElementById('backtest-results');
+    
+    btn.disabled = true;
+    btn.innerHTML = '<span class="loading-spinner" style="width: 16px; height: 16px; border-width: 2px;"></span> Running...';
+    loading.style.display = 'block';
+    results.style.display = 'none';
+    
+    try {
+        const response = await fetchAPI('/api/modellab/backtest', {
+            method: 'POST',
+            body: JSON.stringify({
+                start_date: startDate,
+                end_date: endDate,
+                model: model
+            })
+        });
+        
+        if (response.error) throw new Error(response.error);
+        
+        // Display results
+        document.getElementById('backtest-period').textContent = `${startDate} to ${endDate}`;
+        document.getElementById('bt-overall-rate').textContent = (response.hit_rate * 100).toFixed(1) + '%';
+        document.getElementById('bt-total-picks').textContent = response.total_picks;
+        document.getElementById('bt-over-rate').textContent = (response.over_rate * 100).toFixed(1) + '%';
+        document.getElementById('bt-under-rate').textContent = (response.under_rate * 100).toFixed(1) + '%';
+        document.getElementById('bt-high-rate').textContent = (response.high_rate * 100).toFixed(1) + '%';
+        document.getElementById('bt-days').textContent = response.days_tested;
+        
+        // Daily results table
+        const tbody = document.querySelector('#daily-results-table tbody');
+        tbody.innerHTML = (response.daily_results || []).map(d => `
+            <tr>
+                <td style="font-weight: 600;">${d.date}</td>
+                <td>${d.games}</td>
+                <td>${d.picks}</td>
+                <td style="color: #10b981;">${d.hits}</td>
+                <td>
+                    <span style="font-weight: 600; color: ${d.rate >= 55 ? '#10b981' : d.rate >= 45 ? '#f59e0b' : '#ef4444'}">
+                        ${d.rate.toFixed(1)}%
+                    </span>
+                </td>
+            </tr>
+        `).join('');
+        
+        results.style.display = 'block';
+        showToast('Backtest complete!', 'success');
+        
+    } catch (error) {
+        showToast('Error: ' + error.message, 'error');
+    } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<span>▶️</span> Run Backtest';
+        loading.style.display = 'none';
+    }
+}
+
+// Load Pattern Analysis
+async function loadPatternAnalysis() {
+    try {
+        const response = await fetchAPI('/api/modellab/patterns');
+        
+        if (response.error) throw new Error(response.error);
+        
+        // Update pattern grid
+        const grid = document.getElementById('pattern-grid');
+        const patterns = response.patterns || [];
+        
+        if (patterns.length === 0) {
+            grid.innerHTML = `
+                <div class="empty-state" style="grid-column: 1 / -1;">
+                    <div class="empty-state-icon">📊</div>
+                    <h3>No Pattern Data Yet</h3>
+                    <p>Run backtests or analyze historical picks to see pattern performance.</p>
+                </div>
+            `;
+        } else {
+            grid.innerHTML = patterns.map(p => `
+                <div class="pattern-card">
+                    <div class="pattern-header">
+                        <div class="pattern-name">${p.icon || '📈'} ${p.name}</div>
+                        <div class="pattern-accuracy ${p.rate >= 55 ? 'good' : p.rate >= 45 ? 'ok' : 'bad'}">
+                            ${p.rate.toFixed(1)}%
+                        </div>
+                    </div>
+                    <div style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 0.5rem;">${p.description}</div>
+                    <div class="pattern-stats">
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value">${p.hits}</div>
+                            <div class="pattern-stat-label">Hits</div>
+                        </div>
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value">${p.misses}</div>
+                            <div class="pattern-stat-label">Misses</div>
+                        </div>
+                        <div class="pattern-stat">
+                            <div class="pattern-stat-value">${p.total}</div>
+                            <div class="pattern-stat-label">Total</div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // Update prop type stats
+        const propStats = response.prop_stats || {};
+        for (const prop of ['pts', 'reb', 'ast']) {
+            const data = propStats[prop] || { total: 0, hits: 0, over_hits: 0, under_hits: 0, over_total: 0, under_total: 0 };
+            const rate = data.total > 0 ? (data.hits / data.total * 100) : 0;
+            const overRate = data.over_total > 0 ? (data.over_hits / data.over_total * 100) : 0;
+            const underRate = data.under_total > 0 ? (data.under_hits / data.under_total * 100) : 0;
+            
+            const rateEl = document.getElementById(`${prop}-pattern-rate`);
+            rateEl.textContent = rate.toFixed(1) + '%';
+            rateEl.className = `pattern-accuracy ${rate >= 55 ? 'good' : rate >= 45 ? 'ok' : 'bad'}`;
+            
+            document.getElementById(`${prop}-over-rate`).textContent = overRate.toFixed(1) + '%';
+            document.getElementById(`${prop}-under-rate`).textContent = underRate.toFixed(1) + '%';
+            document.getElementById(`${prop}-total`).textContent = data.total;
+        }
+        
+    } catch (error) {
+        console.error('Error loading pattern analysis:', error);
+    }
+}
+
+// Save Config
+function saveConfig() {
+    const config = {
+        min_games: document.getElementById('cfg-min-games').value,
+        max_player_picks: document.getElementById('cfg-max-player-picks').value,
+        star_min_minutes: document.getElementById('cfg-star-min').value,
+        cold_threshold: document.getElementById('cfg-cold-threshold').value,
+        hot_threshold: document.getElementById('cfg-hot-threshold').value,
+        min_ast: document.getElementById('cfg-min-ast').value,
+    };
+    
+    localStorage.setItem('modellab_config', JSON.stringify(config));
+    showToast('Configuration saved!', 'success');
+}
+
+// Reset Config
+function resetConfig() {
+    document.getElementById('cfg-min-games').value = 8;
+    document.getElementById('cfg-max-player-picks').value = 2;
+    document.getElementById('cfg-star-min').value = 23;
+    document.getElementById('cfg-cold-threshold').value = -15;
+    document.getElementById('cfg-hot-threshold').value = 20;
+    document.getElementById('cfg-min-ast').value = 4;
+    
+    localStorage.removeItem('modellab_config');
+    showToast('Configuration reset to defaults', 'info');
+}
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    loadLearningDashboard();
+    
+    // Load saved config
+    const savedConfig = localStorage.getItem('modellab_config');
+    if (savedConfig) {
+        const config = JSON.parse(savedConfig);
+        if (config.min_games) document.getElementById('cfg-min-games').value = config.min_games;
+        if (config.max_player_picks) document.getElementById('cfg-max-player-picks').value = config.max_player_picks;
+        if (config.star_min_minutes) document.getElementById('cfg-star-min').value = config.star_min_minutes;
+        if (config.cold_threshold) document.getElementById('cfg-cold-threshold').value = config.cold_threshold;
+        if (config.hot_threshold) document.getElementById('cfg-hot-threshold').value = config.hot_threshold;
+        if (config.min_ast) document.getElementById('cfg-min-ast').value = config.min_ast;
+    }
+});
+</script>
+{% endblock %}

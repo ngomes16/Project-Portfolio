@@ -1,0 +1,101 @@
+Memphis Grizzlies
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Wells
+F
+28:07	2	11	18.2	2	8	25.0	0	0	0.0	0	1	1	2	1	0	0	3	6	-2
+undefined Headshot
+Jaren Jackson Jr.
+F
+30:18	12	15	80.0	0	3	0.0	1	5	20.0	0	1	1	2	1	0	2	5	25	-27
+undefined Headshot
+Christian Koloko
+C
+21:39	1	3	33.3	0	0	0.0	1	2	50.0	2	0	2	0	1	1	2	2	3	-11
+undefined Headshot
+Cedric Coward
+G
+23:50	2	10	20.0	0	3	0.0	1	1	100	1	6	7	5	1	1	2	1	5	-29
+undefined Headshot
+Ja Morant
+G
+31:22	7	18	38.9	0	3	0.0	2	3	66.7	0	3	3	11	2	0	3	1	16	-21
+undefined Headshot
+Santi Aldama
+29:48	5	12	41.7	3	9	33.3	2	2	100	1	6	7	3	1	0	0	0	15	6
+undefined Headshot
+Kentavious Caldwell-Pope
+22:55	6	10	60.0	4	6	66.7	4	4	100	0	5	5	2	2	0	1	4	20	24
+undefined Headshot
+Jock Landale
+20:15	5	7	71.4	1	2	50.0	3	4	75.0	4	1	5	0	0	0	1	3	14	16
+undefined Headshot
+Cam Spencer
+16:38	2	3	66.7	1	2	50.0	0	0	0.0	0	2	2	5	0	0	2	0	5	14
+undefined Headshot
+GG Jackson
+15:09	4	7	57.1	3	6	50.0	1	2	50.0	0	1	1	2	1	0	2	1	12	-5
+undefined Headshot
+John Konchar
+DND - Injury/Illness
+undefined Headshot
+Vince Williams Jr.
+DND - Injury/Illness
+TOTALS
+ 	46	96	47.9	14	42	33.3	15	23	65.2	8	26	34	32	10	2	15	20	121	-7
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+LeBron James
+F
+36:04	12	18	66.7	1	5	20.0	6	6	100	0	9	9	6	0	0	4	3	31	11
+undefined Headshot
+Jake LaRavia
+F
+37:02	8	12	66.7	3	6	50.0	2	3	66.7	4	5	9	2	2	1	1	5	21	0
+undefined Headshot
+Deandre Ayton
+C
+24:49	2	4	50.0	0	0	0.0	0	0	0.0	1	5	6	0	1	0	1	3	4	-1
+undefined Headshot
+Marcus Smart
+G
+34:17	5	9	55.6	3	6	50.0	0	0	0.0	1	7	8	7	1	1	4	3	13	18
+undefined Headshot
+Luka Dončić
+G
+37:33	8	18	44.4	1	7	14.3	17	20	85.0	0	6	6	8	2	0	6	3	34	3
+undefined Headshot
+Nick Smith Jr.
+16:02	3	4	75.0	2	3	66.7	0	0	0.0	0	0	0	2	0	0	0	1	8	-6
+undefined Headshot
+Jaxson Hayes
+23:11	5	6	83.3	0	0	0.0	2	2	100	0	2	2	0	2	1	0	3	12	8
+undefined Headshot
+Jarred Vanderbilt
+20:15	2	4	50.0	1	3	33.3	0	0	0.0	0	2	2	1	1	1	3	0	5	-6
+undefined Headshot
+Dalton Knecht
+10:47	0	2	0.0	0	2	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	8
+undefined Headshot
+Bronny James
+DNP - Coach's Decision
+undefined Headshot
+Maxi Kleber
+DNP - Coach's Decision
+undefined Headshot
+Chris Mañon
+DNP - Coach's Decision
+undefined Headshot
+Drew Timme
+DNP - Coach's Decision
+TOTALS
+ 	45	77	58.4	11	32	34.4	27	31	87.1	6	36	42	26	9	4	20	21	128	7
+Inactive Players
+MEM: Brandon Clarke, Ty Jerome, Scotty Pippen Jr., Zach Edey, Olivier-Maxence Prosper, Javon Small, Jahmai Mashack
+
+LAL: Adou Thiero, Austin Reaves, Rui Hachimura, Gabe Vincent

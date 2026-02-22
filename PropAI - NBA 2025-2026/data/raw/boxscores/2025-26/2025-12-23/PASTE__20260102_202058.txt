@@ -1,0 +1,101 @@
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Josh Hart
+F
+42:27	5	14	35.7	1	3	33.3	1	1	100	4	11	15	8	2	0	6	3	12	-5
+undefined Headshot
+Karl-Anthony Towns
+F
+34:31	14	24	58.3	3	6	50.0	9	11	81.8	4	9	13	1	1	0	5	6	40	6
+undefined Headshot
+Mitchell Robinson
+C
+26:03	1	4	25.0	0	0	0.0	0	0	0.0	6	1	7	1	1	2	2	3	2	-15
+undefined Headshot
+Mikal Bridges
+G
+37:49	7	16	43.8	1	6	16.7	0	1	0.0	0	3	3	0	0	0	1	0	15	3
+undefined Headshot
+Tyler Kolek
+G
+31:26	9	22	40.9	2	6	33.3	0	0	0.0	1	10	11	8	3	0	2	2	20	-8
+undefined Headshot
+Ariel Hukporti
+11:45	1	3	33.3	0	0	0.0	0	0	0.0	3	0	3	0	0	0	1	3	2	-1
+undefined Headshot
+Jordan Clarkson
+29:56	3	11	27.3	3	5	60.0	1	2	50.0	0	1	1	1	0	0	1	2	10	-9
+undefined Headshot
+Mohamed Diawara
+10:08	1	3	33.3	1	2	50.0	0	0	0.0	0	0	0	0	1	0	0	0	3	-15
+undefined Headshot
+Kevin McCullar Jr.
+4:33	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	-11
+undefined Headshot
+Pacôme Dadiet
+10:47	0	2	0.0	0	2	0.0	0	0	0.0	0	2	2	1	0	0	0	2	0	0
+undefined Headshot
+Tosan Evbuomwan
+0:35	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	0
+undefined Headshot
+Trey Jemison III
+DNP - Coach's Decision
+TOTALS
+ 	41	99	41.4	11	30	36.7	11	15	73.3	18	37	55	20	8	2	19	21	104	-11
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Anthony Edwards
+F
+37:10	15	27	55.6	4	10	40.0	4	6	66.7	0	2	2	2	4	1	1	2	38	-2
+undefined Headshot
+Julius Randle
+F
+33:20	10	20	50.0	0	4	0.0	5	5	100	2	4	6	3	1	0	3	3	25	1
+undefined Headshot
+Rudy Gobert
+C
+37:45	4	6	66.7	0	0	0.0	3	4	75.0	6	10	16	2	2	3	1	2	11	10
+undefined Headshot
+Donte DiVincenzo
+G
+32:12	3	9	33.3	3	7	42.9	2	4	50.0	0	2	2	8	2	0	1	2	11	-11
+undefined Headshot
+Mike Conley
+G
+29:41	2	6	33.3	2	6	33.3	2	2	100	0	1	1	2	2	1	0	3	8	4
+undefined Headshot
+Naz Reid
+24:55	3	12	25.0	2	9	22.2	0	0	0.0	0	11	11	1	0	2	1	1	8	11
+undefined Headshot
+Bones Hyland
+25:26	3	10	30.0	3	9	33.3	0	0	0.0	1	2	3	4	1	2	1	1	9	24
+undefined Headshot
+Terrence Shannon Jr.
+5:45	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	7
+undefined Headshot
+Jaylen Clark
+13:46	2	2	100	1	1	100	0	2	0.0	1	0	1	3	0	0	2	1	5	11
+undefined Headshot
+Joan Beringer
+DNP - Coach's Decision
+undefined Headshot
+Rob Dillingham
+DNP - Coach's Decision
+undefined Headshot
+Johnny Juzang
+DNP - Coach's Decision
+undefined Headshot
+Leonard Miller
+DNP - Coach's Decision
+TOTALS
+ 	42	93	45.2	15	46	32.6	16	23	69.6	10	32	42	25	12	9	11	15	115	11
+Inactive Players
+NYK: Guerschon Yabusele, OG Anunoby, Jalen Brunson, Landry Shamet, Miles McBride
+
+MIN: Enrique Freeman, Rocco Zikarsky, Joe Ingles, Jaden McDaniels

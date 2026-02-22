@@ -1,0 +1,110 @@
+New Orleans Pelicans
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Trey Murphy III
+F
+33:44	8	14	57.1	2	6	33.3	2	3	66.7	3	7	10	2	0	0	1	2	20	6
+undefined Headshot
+Saddiq Bey
+F
+24:40	4	12	33.3	0	2	0.0	2	2	100	2	4	6	1	2	0	0	1	10	14
+undefined Headshot
+Derik Queen
+C
+24:46	2	4	50.0	0	0	0.0	0	0	0.0	0	8	8	5	0	1	5	3	4	2
+undefined Headshot
+Herbert Jones
+G
+19:47	3	8	37.5	2	7	28.6	2	2	100	1	1	2	1	0	0	1	2	10	3
+undefined Headshot
+Jeremiah Fears
+G
+28:05	7	13	53.8	1	3	33.3	5	6	83.3	0	2	2	3	2	0	3	4	20	12
+undefined Headshot
+Zion Williamson
+26:37	7	14	50.0	0	0	0.0	4	5	80.0	2	4	6	3	0	0	1	0	18	6
+undefined Headshot
+Jordan Poole
+27:16	6	15	40.0	2	9	22.2	2	2	100	0	2	2	4	2	0	1	0	16	1
+undefined Headshot
+Jose Alvarado
+17:39	1	3	33.3	1	3	33.3	0	0	0.0	0	2	2	2	1	1	0	0	3	-6
+undefined Headshot
+Bryce McGowens
+14:16	1	2	50.0	0	1	0.0	3	3	100	1	2	3	0	0	0	0	2	5	4
+undefined Headshot
+Yves Missi
+11:10	2	3	66.7	0	0	0.0	0	2	0.0	4	4	8	0	0	2	2	3	4	-1
+undefined Headshot
+Karlo Matković
+12:00	2	5	40.0	0	2	0.0	0	0	0.0	1	3	4	0	0	1	0	0	4	9
+undefined Headshot
+Jordan Hawkins
+DNP - Coach's Decision
+undefined Headshot
+DeAndre Jordan
+DNP - Coach's Decision
+undefined Headshot
+Kevon Looney
+DNP - Coach's Decision
+undefined Headshot
+Micah Peavy
+DNP - Coach's Decision
+TOTALS
+ 	43	93	46.2	8	33	24.2	20	25	80.0	14	39	53	21	7	5	14	17	114	10
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Isaac Okoro
+F
+23:31	2	10	20.0	1	8	12.5	0	0	0.0	2	1	3	1	0	0	0	1	5	-1
+undefined Headshot
+Matas Buzelis
+F
+23:35	3	5	60.0	1	3	33.3	2	2	100	1	5	6	3	1	0	0	2	9	-7
+undefined Headshot
+Nikola Vučević
+C
+30:47	5	16	31.3	2	6	33.3	0	0	0.0	3	5	8	4	0	0	0	4	12	-11
+undefined Headshot
+Coby White
+G
+28:28	8	18	44.4	1	10	10.0	3	3	100	0	5	5	5	2	0	2	3	20	-10
+undefined Headshot
+Josh Giddey
+G
+24:04	4	10	40.0	1	3	33.3	2	2	100	3	4	7	5	0	0	4	3	11	-6
+undefined Headshot
+Kevin Huerter
+24:16	6	12	50.0	4	8	50.0	0	0	0.0	1	2	3	0	4	0	3	1	16	3
+undefined Headshot
+Patrick Williams
+23:38	2	5	40.0	2	4	50.0	2	4	50.0	1	3	4	2	0	0	0	2	8	-13
+undefined Headshot
+Tre Jones
+24:16	2	7	28.6	0	4	0.0	2	2	100	0	2	2	5	2	2	0	1	6	-5
+undefined Headshot
+Dalen Terry
+13:27	4	5	80.0	1	1	100	0	0	0.0	2	1	3	0	0	0	1	1	9	8
+undefined Headshot
+Jalen Smith
+12:20	2	3	66.7	0	1	0.0	2	2	100	0	0	0	1	1	2	2	4	6	-10
+undefined Headshot
+Zach Collins
+11:38	0	1	0.0	0	1	0.0	2	2	100	0	2	2	0	0	0	1	2	2	2
+undefined Headshot
+Jevon Carter
+DNP - Coach's Decision
+undefined Headshot
+Julian Phillips
+DNP - Coach's Decision
+TOTALS
+ 	38	92	41.3	13	49	26.5	15	17	88.2	13	30	43	26	10	4	13	24	104	-10
+Inactive Players
+NOP: Hunter Dickinson, Trey Alexander, Dejounte Murray
+
+CHI: Emanuel Miller, Trentyn Flowers, Noa Essengue, Lachlan Olbrich, Ayo Dosunmu

@@ -1,0 +1,104 @@
+Atlanta Hawks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Vít Krejčí
+F
+21:22	4	11	36.4	1	7	14.3	2	2	100	1	1	2	4	1	0	1	3	11	-21
+undefined Headshot
+Jalen Johnson
+F
+30:26	5	17	29.4	1	7	14.3	2	2	100	1	2	3	6	1	0	0	4	13	-23
+undefined Headshot
+Onyeka Okongwu
+C
+33:16	3	8	37.5	0	3	0.0	1	2	50.0	1	7	8	4	0	1	1	4	7	-22
+undefined Headshot
+Dyson Daniels
+G
+32:59	4	6	66.7	0	0	0.0	0	0	0.0	5	3	8	5	2	0	0	1	8	-9
+undefined Headshot
+Nickeil Alexander-Walker
+G
+33:03	10	16	62.5	5	9	55.6	1	1	100	0	4	4	3	0	0	0	3	26	-37
+undefined Headshot
+CJ McCollum
+27:13	11	23	47.8	2	8	25.0	1	3	33.3	0	1	1	3	1	0	2	2	25	2
+undefined Headshot
+Mouhamed Gueye
+22:14	1	4	25.0	1	2	50.0	2	2	100	2	2	4	1	5	0	0	2	5	4
+undefined Headshot
+Corey Kispert
+25:38	6	11	54.5	3	7	42.9	4	6	66.7	0	0	0	1	0	0	2	2	19	-10
+undefined Headshot
+Asa Newell
+10:04	0	1	0.0	0	1	0.0	0	0	0.0	1	0	1	2	1	0	0	2	0	-9
+undefined Headshot
+Keaton Wallace
+3:45	1	3	33.3	0	2	0.0	0	0	0.0	1	0	1	1	0	0	0	0	2	0
+undefined Headshot
+Luke Kennard
+DND - Injury/Illness
+undefined Headshot
+Zaccharie Risacher
+DND - Injury/Illness
+TOTALS
+ 	45	100	45.0	13	46	28.3	13	18	72.2	12	20	32	30	11	1	6	23	116	-25
+Los Angeles Lakers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+LeBron James
+F
+32:35	12	20	60.0	2	4	50.0	5	6	83.3	1	8	9	10	1	1	4	1	31	17
+undefined Headshot
+Jake LaRavia
+F
+35:36	6	10	60.0	3	4	75.0	2	2	100	1	3	4	3	1	0	2	3	17	13
+undefined Headshot
+Deandre Ayton
+C
+30:51	7	9	77.8	0	0	0.0	3	3	100	3	15	18	1	0	0	0	3	17	31
+undefined Headshot
+Marcus Smart
+G
+29:25	4	5	80.0	2	3	66.7	6	6	100	2	3	5	4	0	1	0	3	16	32
+undefined Headshot
+Luka Dončić
+G
+33:17	7	16	43.8	5	9	55.6	8	10	80.0	2	3	5	12	0	1	7	4	27	27
+undefined Headshot
+Rui Hachimura
+18:20	3	7	42.9	1	3	33.3	0	0	0.0	1	1	2	0	0	0	0	0	7	-1
+undefined Headshot
+Gabe Vincent
+14:10	3	6	50.0	3	5	60.0	1	1	100	0	1	1	1	0	0	0	1	10	8
+undefined Headshot
+Jarred Vanderbilt
+15:33	1	2	50.0	0	1	0.0	1	2	50.0	0	1	1	1	0	0	0	0	3	-6
+undefined Headshot
+Dalton Knecht
+15:15	1	3	33.3	0	2	0.0	0	0	0.0	0	0	0	0	0	0	0	2	2	4
+undefined Headshot
+Kobe Bufkin
+3:45	1	1	100	1	1	100	0	0	0.0	0	1	1	1	0	0	0	0	3	0
+undefined Headshot
+Nick Smith Jr.
+3:45	2	2	100	2	2	100	0	0	0.0	0	0	0	2	0	0	1	0	6	0
+undefined Headshot
+Drew Timme
+3:45	1	1	100	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	2	0
+undefined Headshot
+Bronny James
+3:43	0	1	0.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	0	0
+undefined Headshot
+Maxi Kleber
+DNP - Coach's Decision
+TOTALS
+ 	48	83	57.8	19	34	55.9	26	30	86.7	10	37	47	36	2	3	14	17	141	25
+Inactive Players
+ATL: Caleb Houstan, Nikola Djurisic, N'Faly Dante, RayJ Dennis, Kristaps Porzingis
+
+LAL: Jaxson Hayes, Austin Reaves, Adou Thiero, Chris Manon

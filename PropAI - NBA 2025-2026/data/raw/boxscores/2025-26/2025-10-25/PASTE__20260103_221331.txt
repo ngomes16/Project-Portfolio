@@ -1,0 +1,104 @@
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Isaac Okoro
+F
+21:36	0	6	0.0	0	3	0.0	0	0	0.0	2	2	4	0	0	1	1	4	0	-5
+undefined Headshot
+Matas Buzelis
+F
+12:24	1	5	20.0	0	2	0.0	1	2	50.0	1	2	3	0	1	0	2	6	3	3
+undefined Headshot
+Nikola Vučević
+C
+31:15	5	7	71.4	1	1	100	4	4	100	1	7	8	2	0	1	4	3	15	-4
+undefined Headshot
+Tre Jones
+G
+29:01	3	7	42.9	1	2	50.0	6	8	75.0	1	4	5	8	5	0	3	3	13	17
+undefined Headshot
+Josh Giddey
+G
+32:05	7	18	38.9	2	5	40.0	5	6	83.3	1	7	8	3	1	0	2	2	21	-10
+undefined Headshot
+Kevin Huerter
+29:23	4	10	40.0	0	4	0.0	3	3	100	2	5	7	6	1	0	0	3	11	14
+undefined Headshot
+Patrick Williams
+29:04	5	7	71.4	1	2	50.0	1	2	50.0	0	5	5	4	2	0	2	2	12	12
+undefined Headshot
+Ayo Dosunmu
+26:46	6	10	60.0	3	4	75.0	0	0	0.0	0	1	1	2	0	0	2	1	15	6
+undefined Headshot
+Jalen Smith
+16:45	6	8	75.0	2	2	100	2	4	50.0	0	3	3	1	1	0	2	1	16	16
+undefined Headshot
+Julian Phillips
+9:50	2	4	50.0	0	1	0.0	0	0	0.0	1	1	2	0	2	0	0	1	4	9
+undefined Headshot
+Dalen Terry
+1:52	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+undefined Headshot
+Jevon Carter
+DNP - Coach's Decision
+undefined Headshot
+Noa Essengue
+DNP - Coach's Decision
+TOTALS
+ 	39	83	47.0	10	27	37.0	22	29	75.9	9	37	46	26	13	2	18	26	110	12
+Orlando Magic
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Franz Wagner
+F
+34:21	7	15	46.7	0	1	0.0	3	4	75.0	1	6	7	1	2	0	3	4	17	-16
+undefined Headshot
+Paolo Banchero
+F
+35:57	7	21	33.3	1	4	25.0	9	11	81.8	1	9	10	1	1	2	3	2	24	-2
+undefined Headshot
+Wendell Carter Jr.
+C
+31:00	1	7	14.3	1	2	50.0	5	6	83.3	5	8	13	1	1	0	2	5	8	6
+undefined Headshot
+Desmond Bane
+G
+30:56	7	12	58.3	0	2	0.0	0	0	0.0	3	2	5	3	1	0	4	4	14	-13
+undefined Headshot
+Tyus Jones
+G
+14:26	0	5	0.0	0	2	0.0	0	0	0.0	0	0	0	1	1	0	1	3	0	-10
+undefined Headshot
+Anthony Black
+29:44	6	9	66.7	1	3	33.3	6	6	100	1	4	5	1	1	1	5	3	19	4
+undefined Headshot
+Tristan da Silva
+23:40	3	11	27.3	0	6	0.0	2	2	100	1	2	3	1	0	1	0	1	8	5
+undefined Headshot
+Jett Howard
+9:08	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	1	0	1	0	1	0	-5
+undefined Headshot
+Goga Bitadze
+17:00	1	1	100	0	0	0.0	1	2	50.0	2	7	9	2	0	0	1	1	3	-18
+undefined Headshot
+Jonathan Isaac
+5:36	1	2	50.0	0	1	0.0	0	0	0.0	1	0	1	0	1	0	0	0	2	-6
+undefined Headshot
+Jase Richardson
+8:12	1	3	33.3	0	2	0.0	1	2	50.0	0	0	0	0	0	0	1	1	3	-5
+undefined Headshot
+Jamal Cain
+DNP - Coach's Decision
+undefined Headshot
+Noah Penda
+DNP - Coach's Decision
+TOTALS
+ 	34	87	39.1	3	24	12.5	27	33	81.8	15	38	53	12	8	5	20	25	98	-12
+Inactive Players
+CHI: Coby White, Zach Collins, Emanuel Miller, Trentyn Flowers, Lachlan Olbrich
+
+ORL: Moritz Wagner, Jalen Suggs, Colin Castleton, Orlando Robinson

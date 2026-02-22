@@ -1,0 +1,116 @@
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kris Murray
+F
+27:13	2	5	40.0	2	4	50.0	0	0	0.0	1	2	3	1	0	1	1	1	6	6
+undefined Headshot
+Toumani Camara
+F
+35:47	7	11	63.6	5	9	55.6	1	2	50.0	2	6	8	1	1	0	4	2	20	0
+undefined Headshot
+Donovan Clingan
+C
+34:18	9	12	75.0	3	5	60.0	3	6	50.0	6	6	12	4	0	0	0	5	24	1
+undefined Headshot
+Deni Avdija
+G
+38:50	9	23	39.1	3	6	50.0	8	11	72.7	4	7	11	10	0	1	2	2	29	10
+undefined Headshot
+Shaedon Sharpe
+G
+28:19	3	16	18.8	0	4	0.0	0	0	0.0	0	3	3	3	1	0	4	1	6	6
+undefined Headshot
+Sidy Cissoko
+22:19	2	6	33.3	2	5	40.0	1	2	50.0	2	4	6	1	0	0	0	2	7	4
+undefined Headshot
+Caleb Love
+27:55	6	13	46.2	3	9	33.3	1	4	25.0	0	5	5	2	0	0	0	0	16	-4
+undefined Headshot
+Hansen Yang
+10:40	0	1	0.0	0	0	0.0	2	2	100	1	1	2	1	0	2	0	1	2	1
+undefined Headshot
+Rayan Rupert
+14:40	2	5	40.0	1	3	33.3	0	0	0.0	0	2	2	1	1	0	0	2	5	1
+undefined Headshot
+Javonte Cooke
+DNP - Coach's Decision
+undefined Headshot
+Jerami Grant
+DND - Injury/Illness
+undefined Headshot
+Duop Reath
+DNP - Coach's Decision
+undefined Headshot
+Matisse Thybulle
+DND - Injury/Illness
+undefined Headshot
+Blake Wesley
+DND - Injury/Illness
+undefined Headshot
+Robert Williams III
+DND - Injury/Illness
+TOTALS
+ 	40	92	43.5	19	45	42.2	16	27	59.3	16	36	52	24	3	4	11	16	115	5
+San Antonio Spurs
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Julian Champagnie
+F
+33:25	8	14	57.1	4	9	44.4	0	0	0.0	2	8	10	4	0	0	1	1	20	-4
+undefined Headshot
+Harrison Barnes
+F
+31:54	5	11	45.5	2	7	28.6	2	2	100	1	3	4	1	0	0	2	1	14	4
+undefined Headshot
+Luke Kornet
+C
+31:05	10	12	83.3	0	0	0.0	3	3	100	4	4	8	3	0	5	0	6	23	4
+undefined Headshot
+De'Aaron Fox
+G
+34:31	7	14	50.0	2	4	50.0	3	4	75.0	1	5	6	4	3	0	0	4	19	-12
+undefined Headshot
+Stephon Castle
+G
+36:47	5	11	45.5	0	1	0.0	6	7	85.7	1	4	5	9	1	0	2	4	16	-4
+undefined Headshot
+Kelly Olynyk
+14:29	2	9	22.2	0	5	0.0	1	1	100	1	2	3	2	1	0	0	2	5	-1
+undefined Headshot
+Dylan Harper
+22:57	2	12	16.7	2	3	66.7	0	0	0.0	1	2	3	3	1	2	0	2	6	-5
+undefined Headshot
+Keldon Johnson
+23:49	1	6	16.7	0	0	0.0	3	4	75.0	1	7	8	1	2	0	1	0	5	-2
+undefined Headshot
+Carter Bryant
+5:10	0	2	0.0	0	1	0.0	2	2	100	0	1	1	0	0	0	0	0	2	-7
+undefined Headshot
+Lindy Waters III
+5:54	0	2	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+undefined Headshot
+Bismack Biyombo
+DNP - Coach's Decision
+undefined Headshot
+David Jones Garcia
+DNP - Coach's Decision
+undefined Headshot
+Jordan McLaughlin
+DNP - Coach's Decision
+undefined Headshot
+Jeremy Sochan
+DNP - Coach's Decision
+undefined Headshot
+Stanley Umude
+DNP - Coach's Decision
+TOTALS
+ 	40	93	43.0	10	31	32.3	20	23	87.0	12	36	48	27	8	7	6	20	110	-5
+Inactive Players
+POR: Scoot Henderson, Jrue Holiday, Damian Lillard
+
+SAS: Devin Vassell, Harrison Ingram, Victor Wembanyama

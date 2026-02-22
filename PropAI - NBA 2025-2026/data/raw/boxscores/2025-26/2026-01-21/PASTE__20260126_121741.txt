@@ -1,0 +1,104 @@
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Brandon Ingram
+F
+34:41	7	15	46.7	3	5	60.0	6	6	100	0	3	3	4	0	0	0	1	23	13
+undefined Headshot
+Scottie Barnes
+F
+31:51	8	17	47.1	1	3	33.3	6	6	100	3	5	8	7	4	1	3	4	23	8
+undefined Headshot
+Sandro Mamukelashvili
+C
+32:20	8	14	57.1	3	8	37.5	3	4	75.0	3	6	9	4	0	0	1	2	22	15
+undefined Headshot
+Jamal Shead
+G
+33:12	5	12	41.7	3	5	60.0	2	2	100	1	4	5	6	2	0	1	1	15	13
+undefined Headshot
+Immanuel Quickley
+G
+35:42	6	12	50.0	1	4	25.0	5	5	100	1	5	6	8	2	0	2	2	18	15
+undefined Headshot
+Ochai Agbaji
+19:37	2	4	50.0	0	0	0.0	0	0	0.0	1	1	2	1	1	1	0	0	4	21
+undefined Headshot
+Jonathan Mogbo
+22:31	1	5	20.0	0	0	0.0	1	2	50.0	5	4	9	0	0	1	1	4	3	2
+undefined Headshot
+Gradey Dick
+19:10	5	12	41.7	1	6	16.7	0	0	0.0	0	1	1	0	2	0	1	3	11	-12
+undefined Headshot
+Jamison Battle
+7:37	1	3	33.3	1	2	50.0	0	0	0.0	0	3	3	0	0	0	0	1	3	-6
+undefined Headshot
+A.J. Lawson
+3:19	0	0	0.0	0	0	0.0	0	0	0.0	1	0	1	0	0	0	1	1	0	-4
+undefined Headshot
+Alijah Martin
+DNP - Coach's Decision
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	43	94	45.7	13	33	39.4	23	25	92.0	15	32	47	30	11	3	10	19	122	13
+Sacramento Kings
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+DeMar DeRozan
+F
+33:19	3	8	37.5	0	1	0.0	3	5	60.0	1	0	1	2	1	0	0	0	9	-23
+undefined Headshot
+Precious Achiuwa
+F
+20:43	5	6	83.3	1	1	100	0	0	0.0	2	6	8	1	0	0	0	1	11	-9
+undefined Headshot
+Maxime Raynaud
+C
+22:08	3	7	42.9	0	1	0.0	2	2	100	1	6	7	2	0	0	1	3	8	-13
+undefined Headshot
+Zach LaVine
+G
+37:33	7	17	41.2	2	8	25.0	3	4	75.0	0	1	1	5	1	1	2	2	19	-14
+undefined Headshot
+Russell Westbrook
+G
+34:31	9	22	40.9	2	8	25.0	3	3	100	0	3	3	3	3	0	4	2	23	-16
+undefined Headshot
+Nique Clifford
+21:13	2	6	33.3	0	4	0.0	0	0	0.0	1	6	7	3	0	1	1	1	4	7
+undefined Headshot
+Dylan Cardwell
+24:48	1	2	50.0	0	0	0.0	0	0	0.0	7	6	13	3	1	4	1	4	2	4
+undefined Headshot
+Dennis Schröder
+20:16	5	13	38.5	1	6	16.7	5	6	83.3	0	1	1	3	0	0	1	1	16	9
+undefined Headshot
+Malik Monk
+25:29	6	7	85.7	3	4	75.0	2	2	100	0	4	4	3	0	0	4	2	17	-10
+undefined Headshot
+Devin Carter
+DNP - Coach's Decision
+undefined Headshot
+Keon Ellis
+DNP - Coach's Decision
+undefined Headshot
+Drew Eubanks
+DNP - Coach's Decision
+undefined Headshot
+Doug McDermott
+DNP - Coach's Decision
+undefined Headshot
+Dario Šarić
+DNP - Coach's Decision
+TOTALS
+ 	41	88	46.6	9	33	27.3	18	22	81.8	12	33	45	25	6	6	14	16	109	-13
+Inactive Players
+TOR: Jakob Poeltl, RJ Barrett, Ja'Kobe Walter, Collin Murray-Boyles, Chucky Hepburn
+
+SAC: Keegan Murray, Daeqwon Plowden, Isaiah Stevens, Domantas Sabonis

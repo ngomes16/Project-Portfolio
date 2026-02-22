@@ -1,0 +1,107 @@
+Minnesota Timberwolves
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaden McDaniels
+F
+34:55	7	16	43.8	2	7	28.6	2	2	100	2	4	6	6	1	1	5	3	18	3
+undefined Headshot
+Julius Randle
+F
+33:55	7	16	43.8	1	5	20.0	4	6	66.7	2	0	2	3	3	0	3	2	19	-1
+undefined Headshot
+Rudy Gobert
+C
+29:16	5	5	100	0	0	0.0	1	5	20.0	3	7	10	0	2	4	0	1	11	-6
+undefined Headshot
+Anthony Edwards
+G
+39:12	11	28	39.3	5	15	33.3	11	12	91.7	1	7	8	3	2	0	1	1	38	7
+undefined Headshot
+Donte DiVincenzo
+G
+33:01	5	12	41.7	3	9	33.3	2	2	100	1	4	5	8	2	0	2	3	15	-14
+undefined Headshot
+Mike Conley
+15:36	0	3	0.0	0	2	0.0	0	0	0.0	0	1	1	2	1	0	0	2	0	-5
+undefined Headshot
+Naz Reid
+28:04	5	15	33.3	3	9	33.3	0	0	0.0	3	6	9	4	0	0	0	4	13	-3
+undefined Headshot
+Jaylen Clark
+16:34	2	2	100	0	0	0.0	0	0	0.0	2	0	2	0	1	0	0	0	4	-2
+undefined Headshot
+Joan Beringer
+5:03	2	3	66.7	0	0	0.0	0	0	0.0	1	2	3	0	0	0	0	0	4	-2
+undefined Headshot
+Bones Hyland
+4:24	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	2	0	1	0	1	0	-2
+undefined Headshot
+Rob Dillingham
+DNP - Coach's Decision
+undefined Headshot
+Enrique Freeman
+DNP - Coach's Decision
+undefined Headshot
+Joe Ingles
+DNP - Coach's Decision
+undefined Headshot
+Johnny Juzang
+DNP - Coach's Decision
+undefined Headshot
+Leonard Miller
+DNP - Coach's Decision
+TOTALS
+ 	44	100	44.0	14	47	29.8	20	27	74.1	15	31	46	28	12	6	11	17	122	-5
+Utah Jazz
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ace Bailey
+F
+33:10	8	17	47.1	3	8	37.5	1	1	100	1	4	5	1	1	0	3	2	20	2
+undefined Headshot
+Cody Williams
+F
+28:51	4	5	80.0	0	1	0.0	0	0	0.0	1	2	3	1	0	1	1	2	8	-9
+undefined Headshot
+Jusuf Nurkić
+C
+30:46	7	11	63.6	0	1	0.0	2	3	66.7	3	15	18	10	1	1	2	5	16	8
+undefined Headshot
+Svi Mykhailiuk
+G
+17:15	1	2	50.0	0	1	0.0	2	2	100	0	3	3	0	1	0	0	0	4	-7
+undefined Headshot
+Keyonte George
+G
+39:29	15	28	53.6	6	13	46.2	7	8	87.5	0	0	0	3	2	0	6	4	43	-6
+undefined Headshot
+Kyle Filipowski
+33:29	3	6	50.0	2	3	66.7	3	4	75.0	3	5	8	4	1	0	3	5	11	15
+undefined Headshot
+Isaiah Collier
+26:17	7	10	70.0	1	1	100	3	7	42.9	0	4	4	10	1	1	1	3	18	9
+undefined Headshot
+Kyle Anderson
+17:14	1	3	33.3	0	1	0.0	0	0	0.0	0	1	1	2	1	1	0	1	2	-3
+undefined Headshot
+Walter Clayton Jr.
+13:29	2	5	40.0	0	0	0.0	1	1	100	0	3	3	0	0	0	0	0	5	16
+undefined Headshot
+Taylor Hendricks
+DNP - Coach's Decision
+undefined Headshot
+Kevin Love
+DND - Rest
+undefined Headshot
+Georges Niang
+DND - Injury/Illness
+TOTALS
+ 	48	87	55.2	12	29	41.4	19	26	73.1	8	37	45	31	8	4	16	22	127	5
+Inactive Players
+MIN: Terrence Shannon Jr., Rocco Zikarsky
+
+UTA: Walker Kessler, Oscar Tshiebwe, Brice Sensabaugh, Elijah Harkless, John Tonje, Lauri Markkanen

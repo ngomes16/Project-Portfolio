@@ -1,0 +1,107 @@
+Portland Trail Blazers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Deni Avdija
+F
+36:33	12	21	57.1	3	9	33.3	6	7	85.7	1	10	11	8	0	1	3	5	33	24
+undefined Headshot
+Toumani Camara
+F
+39:13	5	17	29.4	3	13	23.1	0	0	0.0	2	5	7	1	0	0	3	3	13	-12
+undefined Headshot
+Donovan Clingan
+C
+20:54	6	9	66.7	1	3	33.3	0	0	0.0	5	2	7	0	2	2	0	4	13	5
+undefined Headshot
+Shaedon Sharpe
+G
+28:14	9	19	47.4	1	8	12.5	2	3	66.7	5	4	9	1	1	0	6	3	21	15
+undefined Headshot
+Jrue Holiday
+G
+34:55	6	19	31.6	3	10	30.0	3	4	75.0	3	6	9	13	4	0	3	3	18	-6
+undefined Headshot
+Jerami Grant
+22:07	5	9	55.6	1	3	33.3	7	8	87.5	1	2	3	4	1	0	4	6	18	-19
+undefined Headshot
+Kris Murray
+21:40	3	8	37.5	0	1	0.0	0	0	0.0	2	1	3	1	0	0	0	3	6	-23
+undefined Headshot
+Robert Williams III
+7:29	0	0	0.0	0	0	0.0	0	0	0.0	1	2	3	1	0	1	0	0	0	3
+undefined Headshot
+Sidy Cissoko
+17:18	1	4	25.0	0	1	0.0	1	1	100	1	1	2	0	0	0	0	4	3	2
+undefined Headshot
+Duop Reath
+11:37	2	3	66.7	2	3	66.7	0	0	0.0	1	2	3	0	0	0	1	1	6	-14
+undefined Headshot
+Scoot Henderson
+NWT - Not With Team
+undefined Headshot
+Damian Lillard
+DND - Injury/Illness
+undefined Headshot
+Rayan Rupert
+DNP - Coach's Decision
+undefined Headshot
+Matisse Thybulle
+NWT - Not With Team
+undefined Headshot
+Hansen Yang
+DNP - Coach's Decision
+TOTALS
+ 	49	109	45.0	14	51	27.5	19	23	82.6	22	35	57	29	8	4	20	32	131	-5
+Miami Heat
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Pelle Larsson
+F
+27:27	7	10	70.0	1	3	33.3	1	1	100	0	1	1	5	0	0	1	3	16	-10
+undefined Headshot
+Andrew Wiggins
+F
+33:09	5	14	35.7	2	8	25.0	3	4	75.0	0	3	3	1	2	1	1	3	15	-4
+undefined Headshot
+Kel'el Ware
+C
+22:54	4	8	50.0	0	2	0.0	1	3	33.3	5	7	12	1	1	3	2	2	9	1
+undefined Headshot
+Norman Powell
+G
+30:04	7	16	43.8	1	5	20.0	7	8	87.5	0	2	2	3	2	0	1	2	22	11
+undefined Headshot
+Davion Mitchell
+G
+25:48	4	7	57.1	1	2	50.0	2	2	100	0	2	2	8	5	0	1	4	11	4
+undefined Headshot
+Nikola Jović
+31:22	10	16	62.5	3	7	42.9	6	8	75.0	4	5	9	6	2	1	6	5	29	20
+undefined Headshot
+Jaime Jaquez Jr.
+29:08	6	15	40.0	0	2	0.0	2	3	66.7	0	12	12	7	1	0	1	1	14	8
+undefined Headshot
+Dru Smith
+22:19	4	6	66.7	0	2	0.0	5	6	83.3	2	3	5	6	4	0	1	0	13	1
+undefined Headshot
+Simone Fontecchio
+17:49	2	4	50.0	2	4	50.0	1	1	100	1	0	1	0	0	0	0	3	7	-6
+undefined Headshot
+Vladislav Goldin
+DNP - Coach's Decision
+undefined Headshot
+Kasparas Jakučionis
+DNP - Coach's Decision
+undefined Headshot
+Keshad Johnson
+DNP - Coach's Decision
+TOTALS
+ 	49	96	51.0	10	35	28.6	28	36	77.8	12	35	47	37	17	5	14	23	136	5
+Inactive Players
+POR: Blake Wesley, Caleb Love, Javonte Cooke
+
+MIA: Terry Rozier, Bam Adebayo, Tyler Herro, Myron Gardner, Jahmir Young

@@ -1,0 +1,98 @@
+Brooklyn Nets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Michael Porter Jr.
+F
+33:06	9	17	52.9	6	10	60.0	4	4	100	1	8	9	3	1	0	6	1	28	-3
+undefined Headshot
+Noah Clowney
+F
+29:08	4	9	44.4	1	6	16.7	4	4	100	1	1	2	2	1	1	1	3	13	-7
+undefined Headshot
+Nic Claxton
+C
+25:18	6	9	66.7	0	0	0.0	1	2	50.0	2	4	6	5	0	3	2	4	13	-10
+undefined Headshot
+Drake Powell
+G
+25:11	5	10	50.0	0	4	0.0	0	0	0.0	0	1	1	0	0	0	2	2	10	-7
+undefined Headshot
+Terance Mann
+G
+29:09	2	6	33.3	1	3	33.3	0	0	0.0	0	3	3	6	1	0	0	4	5	3
+undefined Headshot
+Danny Wolf
+18:53	1	6	16.7	0	3	0.0	1	2	50.0	0	4	4	1	1	1	0	2	3	-1
+undefined Headshot
+Day'Ron Sharpe
+22:42	4	7	57.1	0	0	0.0	6	6	100	7	5	12	0	0	1	2	3	14	2
+undefined Headshot
+Tyrese Martin
+19:48	3	8	37.5	1	4	25.0	0	0	0.0	1	1	2	0	0	1	0	0	7	-2
+undefined Headshot
+Nolan Traore
+21:52	3	9	33.3	0	4	0.0	0	0	0.0	1	0	1	6	1	0	3	0	6	-10
+undefined Headshot
+Jalen Wilson
+14:54	2	5	40.0	0	3	0.0	2	2	100	0	3	3	0	0	1	1	1	6	-5
+undefined Headshot
+Tyson Etienne
+DNP - Coach's Decision
+undefined Headshot
+Chaney Johnson
+DNP - Coach's Decision
+TOTALS
+ 	39	86	45.3	9	37	24.3	18	20	90.0	13	30	43	23	5	8	17	20	105	-8
+Dallas Mavericks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Cooper Flagg
+F
+34:53	10	17	58.8	2	3	66.7	5	6	83.3	0	5	5	5	3	1	0	0	27	5
+undefined Headshot
+Naji Marshall
+F
+32:22	9	14	64.3	0	1	0.0	4	4	100	3	1	4	9	3	1	2	0	22	12
+undefined Headshot
+Dwight Powell
+C
+35:28	2	2	100	0	0	0.0	1	2	50.0	2	8	10	3	0	0	2	3	5	5
+undefined Headshot
+Max Christie
+G
+34:18	4	12	33.3	1	8	12.5	1	2	50.0	0	5	5	2	1	0	1	2	10	-1
+undefined Headshot
+Jaden Hardy
+G
+21:41	5	14	35.7	4	10	40.0	0	0	0.0	1	1	2	0	0	0	0	2	14	2
+undefined Headshot
+Ryan Nembhard
+22:13	4	8	50.0	1	2	50.0	0	0	0.0	0	1	1	8	0	0	1	1	9	2
+undefined Headshot
+Moussa Cisse
+11:47	1	2	50.0	0	0	0.0	0	0	0.0	2	4	6	0	1	0	1	3	2	4
+undefined Headshot
+Klay Thompson
+26:47	6	13	46.2	6	9	66.7	0	0	0.0	1	1	2	1	1	1	1	3	18	7
+undefined Headshot
+Miles Kelly
+10:45	2	2	100	1	1	100	0	0	0.0	0	0	0	0	0	0	1	1	5	5
+undefined Headshot
+Caleb Martin
+9:47	0	1	0.0	0	0	0.0	1	2	50.0	0	2	2	0	0	0	3	1	1	-1
+undefined Headshot
+Daniel Gafford
+DNP - Injury/Illness
+undefined Headshot
+D'Angelo Russell
+DNP - Coach's Decision
+TOTALS
+ 	43	85	50.6	15	34	44.1	12	16	75.0	9	28	37	28	9	3	12	16	113	8
+Inactive Players
+BKN: Egor Demin, Ben Saraf, Ziaire Williams, Cam Thomas, E.J. Liddell, Haywood Highsmith
+
+DAL: Kyrie Irving, Anthony Davis, Dante Exum, P.J. Washington, Brandon Williams, Dereck Lively II

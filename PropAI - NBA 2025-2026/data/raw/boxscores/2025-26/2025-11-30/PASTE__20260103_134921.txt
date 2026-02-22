@@ -1,0 +1,98 @@
+Houston Rockets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kevin Durant
+F
+29:51	10	14	71.4	3	4	75.0	2	2	100	1	6	7	4	3	1	1	2	25	28
+undefined Headshot
+Jabari Smith Jr.
+F
+27:08	5	8	62.5	2	5	40.0	3	5	60.0	0	2	2	3	1	0	1	2	15	33
+undefined Headshot
+Alperen Sengun
+C
+28:25	10	15	66.7	0	1	0.0	7	9	77.8	1	3	4	5	1	0	2	4	27	10
+undefined Headshot
+Amen Thompson
+G
+30:50	2	8	25.0	0	0	0.0	1	3	33.3	2	6	8	9	1	0	3	2	5	18
+undefined Headshot
+Reed Sheppard
+G
+31:08	4	8	50.0	1	3	33.3	0	0	0.0	0	6	6	4	4	2	2	0	9	33
+undefined Headshot
+Josh Okogie
+19:34	2	6	33.3	1	3	33.3	2	2	100	2	3	5	0	1	1	2	2	7	-1
+undefined Headshot
+Steven Adams
+16:57	2	4	50.0	0	0	0.0	9	10	90.0	4	8	12	2	1	1	0	0	13	24
+undefined Headshot
+Aaron Holiday
+20:04	3	10	30.0	3	10	30.0	2	2	100	0	1	1	2	1	0	1	2	11	14
+undefined Headshot
+Clint Capela
+14:16	3	4	75.0	0	0	0.0	0	0	0.0	3	0	3	0	1	2	1	1	6	-1
+undefined Headshot
+Jae'Sean Tate
+9:39	3	5	60.0	1	3	33.3	0	0	0.0	2	0	2	1	0	0	0	2	7	-5
+undefined Headshot
+Jeff Green
+7:18	2	5	40.0	0	2	0.0	0	0	0.0	0	0	0	0	0	0	0	0	4	-6
+undefined Headshot
+JD Davison
+4:51	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	1	1	0	-7
+TOTALS
+ 	46	87	52.9	11	31	35.5	26	33	78.8	15	35	50	30	14	7	14	18	129	28
+Utah Jazz
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Svi Mykhailiuk
+F
+24:50	5	9	55.6	1	4	25.0	0	0	0.0	0	1	1	1	1	0	0	2	11	-17
+undefined Headshot
+Lauri Markkanen
+F
+30:25	5	12	41.7	1	5	20.0	7	7	100	1	7	8	1	0	0	1	2	18	-16
+undefined Headshot
+Jusuf Nurkić
+C
+19:22	6	7	85.7	2	2	100	0	0	0.0	3	3	6	9	0	1	1	3	14	-15
+undefined Headshot
+Ace Bailey
+G
+31:26	8	12	66.7	3	5	60.0	0	0	0.0	1	1	2	1	0	0	2	3	19	2
+undefined Headshot
+Keyonte George
+G
+19:08	0	6	0.0	0	1	0.0	0	0	0.0	0	1	1	2	0	1	8	1	0	-27
+undefined Headshot
+Brice Sensabaugh
+24:23	3	12	25.0	1	6	16.7	3	3	100	1	2	3	2	2	1	0	3	10	-9
+undefined Headshot
+Kyle Anderson
+24:34	3	7	42.9	1	1	100	0	0	0.0	0	0	0	3	3	1	1	5	7	-16
+undefined Headshot
+Kyle Filipowski
+30:32	5	13	38.5	0	4	0.0	2	3	66.7	3	5	8	4	0	0	0	4	12	-20
+undefined Headshot
+Isaiah Collier
+17:05	1	4	25.0	0	2	0.0	0	0	0.0	0	2	2	4	1	0	2	0	2	-18
+undefined Headshot
+Walter Clayton Jr.
+18:15	3	6	50.0	0	2	0.0	2	2	100	0	2	2	5	1	0	2	0	8	-4
+undefined Headshot
+Kevin Love
+DND - Rest
+undefined Headshot
+Georges Niang
+DND - Injury/Illness
+TOTALS
+ 	39	88	44.3	9	32	28.1	14	15	93.3	9	24	33	32	8	4	17	23	101	-28
+Inactive Players
+HOU: Isaiah Crawford, Dorian Finney-Smith, Fred VanVleet, Kevon Harris, Tari Eason
+
+UTA: Walker Kessler, Oscar Tshiebwe, Taylor Hendricks, Elijah Harkless, Cody Williams, John Tonje

@@ -1,0 +1,101 @@
+Detroit Pistons
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ausar Thompson
+F
+21:43	4	9	44.4	0	1	0.0	0	0	0.0	3	5	8	2	1	1	3	5	8	2
+undefined Headshot
+Paul Reed
+F
+30:08	4	9	44.4	0	1	0.0	0	0	0.0	4	4	8	4	1	0	1	1	8	1
+undefined Headshot
+Isaiah Stewart
+C
+31:28	4	7	57.1	0	1	0.0	0	0	0.0	2	1	3	2	2	3	4	3	8	-6
+undefined Headshot
+Duncan Robinson
+G
+29:31	5	11	45.5	2	6	33.3	0	0	0.0	0	2	2	3	2	0	1	3	12	5
+undefined Headshot
+Cade Cunningham
+G
+37:02	7	22	31.8	2	5	40.0	11	11	100	0	6	6	7	2	1	1	4	27	-4
+undefined Headshot
+Jaden Ivey
+19:14	3	9	33.3	1	6	16.7	0	0	0.0	0	2	2	0	0	2	0	2	7	14
+undefined Headshot
+Ronald Holland II
+18:27	2	7	28.6	1	6	16.7	3	3	100	3	7	10	0	2	1	2	4	8	-4
+undefined Headshot
+Javonte Green
+24:01	3	9	33.3	3	6	50.0	2	2	100	2	2	4	1	1	0	1	1	11	2
+undefined Headshot
+Marcus Sasser
+3:00	0	2	0.0	0	1	0.0	0	0	0.0	0	1	1	1	0	1	1	0	0	-1
+undefined Headshot
+Daniss Jenkins
+25:28	7	10	70.0	6	7	85.7	5	5	100	0	1	1	5	0	0	2	1	25	11
+undefined Headshot
+Chaz Lanier
+DNP - Coach's Decision
+undefined Headshot
+Wendell Moore Jr.
+DNP - Coach's Decision
+undefined Headshot
+Tolu Smith
+DNP - Coach's Decision
+TOTALS
+ 	39	95	41.1	15	40	37.5	21	21	100	14	31	45	25	11	9	16	24	114	4
+Cleveland Cavaliers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Sam Merrill
+F
+27:15	5	8	62.5	5	7	71.4	0	0	0.0	1	2	3	2	1	0	2	6	15	0
+undefined Headshot
+Jaylon Tyson
+F
+25:16	2	9	22.2	1	5	20.0	1	2	50.0	4	3	7	3	1	2	2	1	6	-12
+undefined Headshot
+Evan Mobley
+C
+32:45	5	9	55.6	2	3	66.7	3	3	100	1	3	4	5	1	4	2	2	15	8
+undefined Headshot
+Donovan Mitchell
+G
+33:05	10	21	47.6	3	10	30.0	7	9	77.8	0	6	6	3	3	0	2	2	30	10
+undefined Headshot
+Darius Garland
+G
+32:08	7	15	46.7	0	7	0.0	2	2	100	0	2	2	6	1	0	2	3	16	-1
+undefined Headshot
+De'Andre Hunter
+24:06	3	8	37.5	2	5	40.0	6	6	100	0	6	6	0	0	0	3	1	14	8
+undefined Headshot
+Thomas Bryant
+15:15	1	2	50.0	1	2	50.0	4	4	100	2	2	4	1	1	1	1	1	7	-12
+undefined Headshot
+Craig Porter Jr.
+22:32	1	3	33.3	0	1	0.0	0	0	0.0	2	4	6	1	2	1	1	0	2	1
+undefined Headshot
+Nae'Qwan Tomlin
+17:59	1	4	25.0	0	1	0.0	3	4	75.0	1	3	4	0	0	2	0	2	5	-4
+undefined Headshot
+Lonzo Ball
+9:40	0	1	0.0	0	1	0.0	0	0	0.0	0	2	2	2	1	0	2	0	0	-18
+undefined Headshot
+Jarrett Allen
+DND - Injury/Illness
+undefined Headshot
+Tyrese Proctor
+DNP - Coach's Decision
+TOTALS
+ 	35	80	43.8	14	42	33.3	26	30	86.7	11	33	44	23	11	10	17	18	110	-4
+Inactive Players
+DET: Isaac Jones, Bobi Klintman, Jalen Duren, Caris LeVert, Tobias Harris
+
+CLE: Larry Nance Jr., Max Strus, Dean Wade, Luke Travers, Chris Livingston

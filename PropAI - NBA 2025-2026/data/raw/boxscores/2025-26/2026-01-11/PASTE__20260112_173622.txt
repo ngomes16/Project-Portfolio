@@ -1,0 +1,107 @@
+Philadelphia 76ers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kelly Oubre Jr.
+F
+34:00	5	10	50.0	1	3	33.3	2	2	100	1	4	5	0	4	3	3	5	13	-8
+undefined Headshot
+Dominick Barlow
+F
+26:22	5	6	83.3	1	2	50.0	2	2	100	2	4	6	0	0	3	4	1	13	2
+undefined Headshot
+Andre Drummond
+C
+19:49	0	2	0.0	0	1	0.0	0	0	0.0	1	4	5	0	0	1	0	2	0	-16
+undefined Headshot
+VJ Edgecombe
+G
+44:34	6	19	31.6	2	8	25.0	3	4	75.0	0	4	4	4	2	0	4	4	17	-12
+undefined Headshot
+Tyrese Maxey
+G
+44:30	13	27	48.1	2	7	28.6	10	12	83.3	0	4	4	5	2	2	5	5	38	17
+undefined Headshot
+Adem Bona
+32:46	3	4	75.0	0	0	0.0	3	4	75.0	3	2	5	0	0	2	1	3	9	12
+undefined Headshot
+Quentin Grimes
+34:44	4	9	44.4	1	4	25.0	4	5	80.0	2	5	7	1	1	0	4	4	13	4
+undefined Headshot
+Jabari Walker
+16:46	3	8	37.5	0	4	0.0	1	2	50.0	3	3	6	0	0	0	1	4	7	9
+undefined Headshot
+Jared McCain
+9:15	2	5	40.0	1	2	50.0	0	0	0.0	0	1	1	1	0	0	0	0	5	-8
+undefined Headshot
+Trendon Watford
+2:14	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	1	0	-5
+undefined Headshot
+Justin Edwards
+DNP - Coach's Decision
+undefined Headshot
+Paul George
+DND - Injury/Illness
+undefined Headshot
+Eric Gordon
+DNP - Coach's Decision
+undefined Headshot
+Kyle Lowry
+DNP - Coach's Decision
+TOTALS
+ 	41	90	45.6	8	31	25.8	25	31	80.6	12	32	44	11	9	11	22	29	115	-1
+Toronto Raptors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Ja'Kobe Walter
+F
+4:43	1	3	33.3	0	2	0.0	0	0	0.0	0	0	0	1	0	0	0	1	2	3
+undefined Headshot
+Scottie Barnes
+F
+43:13	10	19	52.6	1	4	25.0	10	12	83.3	3	4	7	8	0	0	4	3	31	15
+undefined Headshot
+Collin Murray-Boyles
+C
+42:11	7	12	58.3	0	0	0.0	3	3	100	7	8	15	3	3	3	2	3	17	5
+undefined Headshot
+Immanuel Quickley
+G
+39:50	6	22	27.3	2	8	25.0	6	9	66.7	1	4	5	7	4	0	2	1	20	13
+undefined Headshot
+Jamal Shead
+G
+37:00	7	15	46.7	2	7	28.6	6	8	75.0	1	0	1	6	0	0	1	2	22	-13
+undefined Headshot
+Gradey Dick
+11:12	1	4	25.0	0	1	0.0	0	0	0.0	0	1	1	0	0	0	1	4	2	-4
+undefined Headshot
+Alijah Martin
+29:44	3	11	27.3	0	3	0.0	3	4	75.0	3	5	8	1	4	2	1	4	9	-8
+undefined Headshot
+Sandro Mamukelashvili
+18:08	0	3	0.0	0	2	0.0	0	0	0.0	0	1	1	2	1	0	1	3	0	-17
+undefined Headshot
+Jamison Battle
+14:42	2	6	33.3	0	2	0.0	1	3	33.3	1	1	2	0	0	0	1	3	5	9
+undefined Headshot
+Ochai Agbaji
+14:37	3	4	75.0	0	1	0.0	0	0	0.0	1	5	6	1	0	1	1	2	6	-2
+undefined Headshot
+A.J. Lawson
+9:40	1	4	25.0	0	2	0.0	0	0	0.0	1	1	2	0	2	0	1	2	2	4
+undefined Headshot
+Jonathan Mogbo
+DNP - Coach's Decision
+undefined Headshot
+Garrett Temple
+DNP - Coach's Decision
+TOTALS
+ 	41	103	39.8	5	32	15.6	29	39	74.4	18	30	48	29	14	6	15	28	116	1
+Inactive Players
+PHI: Joel Embiid, MarJon Beauchamp, Johni Broome
+
+TOR: Chucky Hepburn, Brandon Ingram, Jakob Poeltl, RJ Barrett

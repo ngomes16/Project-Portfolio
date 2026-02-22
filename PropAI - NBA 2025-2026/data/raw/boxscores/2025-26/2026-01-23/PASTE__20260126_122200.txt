@@ -1,0 +1,95 @@
+Denver Nuggets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Spencer Jones
+F
+38:16	2	6	33.3	1	4	25.0	0	0	0.0	1	4	5	2	2	1	0	4	5	7
+undefined Headshot
+Aaron Gordon
+F
+16:06	4	9	44.4	1	2	50.0	4	5	80.0	0	6	6	3	2	0	1	2	13	12
+undefined Headshot
+Zeke Nnaji
+C
+36:58	4	12	33.3	1	4	25.0	2	2	100	4	8	12	2	0	2	2	5	11	1
+undefined Headshot
+Julian Strawther
+G
+26:40	6	13	46.2	1	6	16.7	7	8	87.5	0	5	5	3	1	0	0	1	20	12
+undefined Headshot
+Jalen Pickett
+G
+33:57	5	14	35.7	2	7	28.6	1	2	50.0	0	3	3	7	1	0	1	2	13	-1
+undefined Headshot
+Tim Hardaway Jr.
+25:46	5	14	35.7	3	9	33.3	4	4	100	0	4	4	2	0	0	1	0	17	0
+undefined Headshot
+Bruce Brown
+25:56	6	11	54.5	1	2	50.0	2	2	100	1	2	3	3	2	0	2	1	15	-20
+undefined Headshot
+Hunter Tyson
+11:43	0	1	0.0	0	1	0.0	0	0	0.0	0	4	4	3	0	0	0	1	0	-8
+undefined Headshot
+DaRon Holmes II
+15:45	1	3	33.3	1	3	33.3	0	0	0.0	0	4	4	0	0	0	0	2	3	7
+undefined Headshot
+Curtis Jones
+8:53	2	4	50.0	1	3	33.3	0	0	0.0	0	1	1	2	0	0	0	1	5	0
+undefined Headshot
+Jamal Murray
+DND - Injury/Illness
+TOTALS
+ 	35	87	40.2	12	41	29.3	20	23	87.0	6	41	47	27	8	3	7	19	102	2
+Milwaukee Bucks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Kyle Kuzma
+F
+35:04	4	10	40.0	1	3	33.3	2	6	33.3	1	9	10	6	0	0	1	0	11	5
+undefined Headshot
+Giannis Antetokounmpo
+F
+32:10	4	8	50.0	0	0	0.0	14	16	87.5	1	12	13	7	0	0	4	1	22	6
+undefined Headshot
+Myles Turner
+C
+29:09	7	12	58.3	1	4	25.0	2	2	100	2	5	7	2	1	6	1	4	17	-3
+undefined Headshot
+Gary Harris
+G
+27:58	1	5	20.0	1	4	25.0	1	2	50.0	3	0	3	2	1	0	1	3	4	-9
+undefined Headshot
+Ryan Rollins
+G
+35:12	8	20	40.0	4	10	40.0	1	1	100	2	2	4	1	3	0	1	1	21	0
+undefined Headshot
+Amir Coffey
+21:24	2	7	28.6	1	5	20.0	0	0	0.0	0	1	1	0	0	0	0	4	5	-8
+undefined Headshot
+Cole Anthony
+16:23	4	8	50.0	1	3	33.3	0	0	0.0	0	2	2	5	1	1	1	3	9	-12
+undefined Headshot
+Bobby Portis
+26:24	4	12	33.3	3	7	42.9	0	0	0.0	0	9	9	0	0	0	0	3	11	7
+undefined Headshot
+Pete Nance
+12:15	0	1	0.0	0	1	0.0	0	0	0.0	2	0	2	0	1	1	1	0	0	2
+undefined Headshot
+Andre Jackson Jr.
+4:01	0	2	0.0	0	2	0.0	0	0	0.0	0	0	0	1	0	0	0	0	0	2
+undefined Headshot
+Thanasis Antetokounmpo
+DNP - Coach's Decision
+undefined Headshot
+Jericho Sims
+DNP - Coach's Decision
+TOTALS
+ 	34	85	40.0	12	39	30.8	20	27	74.1	11	40	51	24	7	8	10	19	100	-2
+Inactive Players
+DEN: Tamar Bates, Christian Braun, Peyton Watson, Jonas Valanciunas, Nikola Jokic, Cameron Johnson
+
+MIL: Taurean Prince, Gary Trent Jr., Kevin Porter Jr., Alex Antetokounmpo, AJ Green

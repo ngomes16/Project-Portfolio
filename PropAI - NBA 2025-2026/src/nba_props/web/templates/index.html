@@ -1,0 +1,418 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - NBA Props Predictor{% endblock %}
+{% block page_title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="dashboard-grid">
+    <!-- Quick Stats Cards -->
+    <div class="stats-row">
+        <div class="stat-card">
+            <div class="stat-card-icon">🏀</div>
+            <div class="stat-card-content">
+                <span class="stat-card-value" id="total-games">-</span>
+                <span class="stat-card-label">Games Tracked</span>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-card-icon">👤</div>
+            <div class="stat-card-content">
+                <span class="stat-card-value" id="total-players">-</span>
+                <span class="stat-card-label">Players</span>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-card-icon">📈</div>
+            <div class="stat-card-content">
+                <span class="stat-card-value" id="total-lines">-</span>
+                <span class="stat-card-label">Lines Tracked</span>
+            </div>
+        </div>
+        <div class="stat-card accent">
+            <div class="stat-card-icon">📅</div>
+            <div class="stat-card-content">
+                <span class="stat-card-value" id="latest-date">-</span>
+                <span class="stat-card-label">Latest Game</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Today's Matchups Section (shown if games exist) -->
+    <div class="card" id="todays-matchups-section" style="display: none;">
+        <div class="card-header">
+            <h2>🎯 Today's Matchups</h2>
+            <a href="{{ url_for('matchups_page') }}" class="btn btn-ghost btn-sm">View Analysis →</a>
+        </div>
+        <div class="card-body">
+            <div class="todays-matchups-grid" id="todays-matchups">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading matchups...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Recent Games -->
+    <div class="card">
+        <div class="card-header">
+            <h2 id="games-section-title">Recent Games</h2>
+            <a href="{{ url_for('games_page') }}" class="btn btn-ghost btn-sm">View All →</a>
+        </div>
+        <div class="card-body">
+            <div class="games-list" id="recent-games">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading games...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Conference Standings -->
+    <div class="standings-container">
+        <div class="card">
+            <div class="card-header">
+                <h2>Eastern Conference</h2>
+            </div>
+            <div class="card-body">
+                <table class="standings-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Team</th>
+                            <th>W</th>
+                            <th>L</th>
+                            <th>PCT</th>
+                        </tr>
+                    </thead>
+                    <tbody id="east-standings">
+                        <tr><td colspan="5" class="loading">Loading...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <h2>Western Conference</h2>
+            </div>
+            <div class="card-body">
+                <table class="standings-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Team</th>
+                            <th>W</th>
+                            <th>L</th>
+                            <th>PCT</th>
+                        </tr>
+                    </thead>
+                    <tbody id="west-standings">
+                        <tr><td colspan="5" class="loading">Loading...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Quick Actions -->
+    <div class="card quick-add">
+        <div class="card-header">
+            <h2>Quick Actions</h2>
+        </div>
+        <div class="card-body">
+            <p class="muted">Add game data or analyze player matchups.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                <a href="{{ url_for('paste_page') }}" class="btn btn-primary btn-lg">
+                    <span>📋</span> Data Management
+                </a>
+                <a href="{{ url_for('players_page') }}" class="btn btn-ghost btn-lg">
+                    <span>⭐</span> Player Database
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Game Detail Modal -->
+<div class="modal hidden" id="game-modal">
+    <div class="modal-backdrop" onclick="closeGameModal()"></div>
+    <div class="modal-content modal-large">
+        <div class="modal-header">
+            <h2 id="modal-title">Game Details</h2>
+            <button class="modal-close" onclick="closeGameModal()">×</button>
+        </div>
+        <div class="modal-body" id="modal-body">
+            Loading...
+        </div>
+        <div class="modal-footer">
+            <a href="{{ url_for('games_page') }}" class="btn btn-ghost" id="view-all-games-link">View All Games →</a>
+        </div>
+    </div>
+</div>
+
+<style>
+.todays-matchups-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.today-matchup-card {
+    background: linear-gradient(135deg, var(--bg-tertiary) 0%, var(--bg-card) 100%);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.today-matchup-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.today-matchup-card.priority {
+    border-left: 4px solid #10b981;
+}
+
+.today-matchup-teams {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.today-matchup-team {
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.today-matchup-vs {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+.today-matchup-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+}
+
+.today-matchup-time {
+    font-family: var(--font-mono);
+}
+
+.today-matchup-lines {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.today-matchup-line {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.modal-footer {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    justify-content: flex-end;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+    // Load stats
+    try {
+        const stats = await fetchAPI('/api/stats');
+        document.getElementById('total-games').textContent = stats.games;
+        document.getElementById('total-players').textContent = stats.players;
+        document.getElementById('total-lines').textContent = stats.lines;
+        document.getElementById('latest-date').textContent = stats.latest_game_date || 'None';
+    } catch (e) {
+        console.error('Failed to load stats:', e);
+    }
+    
+    // Load today's scheduled matchups first
+    const today = new Date().toISOString().split('T')[0];
+    try {
+        const matchupsData = await fetchAPI(`/api/scheduled-games?date=${today}`);
+        const matchupsContainer = document.getElementById('todays-matchups');
+        const matchupsSection = document.getElementById('todays-matchups-section');
+        
+        if (matchupsData.games && matchupsData.games.length > 0) {
+            matchupsSection.style.display = 'block';
+            matchupsContainer.innerHTML = matchupsData.games.map(m => {
+                const isClose = m.spread !== null && Math.abs(m.spread) <= 6;
+                return `
+                    <div class="today-matchup-card ${isClose ? 'priority' : ''}" onclick="window.location='/matchups'">
+                        <div class="today-matchup-teams">
+                            <span class="today-matchup-team">${m.away_abbrev}</span>
+                            <span class="today-matchup-vs">@</span>
+                            <span class="today-matchup-team">${m.home_abbrev}</span>
+                        </div>
+                        <div class="today-matchup-info">
+                            <span class="today-matchup-time">${m.game_time || '7:00 PM'}</span>
+                            <div class="today-matchup-lines">
+                                ${m.spread !== null ? `<span class="today-matchup-line">${m.spread > 0 ? '+' : ''}${m.spread}</span>` : ''}
+                                ${m.over_under ? `<span class="today-matchup-line">O/U ${m.over_under}</span>` : ''}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+    } catch (e) {
+        console.error('Failed to load today\'s matchups:', e);
+    }
+    
+    // Load recent games
+    try {
+        const data = await fetchAPI('/api/games?limit=10');
+        const container = document.getElementById('recent-games');
+        if (data.games.length === 0) {
+            container.innerHTML = '<div class="empty-state"><p>No games tracked yet. <a href="/paste">Add your first game</a>.</p></div>';
+        } else {
+            container.innerHTML = data.games.map(g => `
+                <a href="#" class="game-row" onclick="event.preventDefault(); showGameDetail(${g.id})">
+                    <div class="game-date">${g.date}</div>
+                    <div class="game-matchup">
+                        <span class="team ${g.team1_pts > g.team2_pts ? 'winner' : ''}">${g.team1_abbrev}</span>
+                        <span class="score">${g.team1_pts ?? '-'}</span>
+                        <span class="vs">@</span>
+                        <span class="score">${g.team2_pts ?? '-'}</span>
+                        <span class="team ${g.team2_pts > g.team1_pts ? 'winner' : ''}">${g.team2_abbrev}</span>
+                    </div>
+                </a>
+            `).join('');
+        }
+    } catch (e) {
+        console.error('Failed to load games:', e);
+        document.getElementById('recent-games').innerHTML = '<div class="error-state">Failed to load games</div>';
+    }
+    
+    // Load standings
+    try {
+        const standings = await fetchAPI('/api/standings');
+        
+        const renderStandings = (conf, elementId) => {
+            const tbody = document.getElementById(elementId);
+            const teams = standings[conf] || [];
+            if (teams.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="5" class="empty-state">No data</td></tr>';
+                return;
+            }
+            tbody.innerHTML = teams.slice(0, 10).map(t => `
+                <tr onclick="window.location='/team/${t.abbrev}'">
+                    <td>${t.seed}</td>
+                    <td>
+                        <span class="team-name">${t.abbrev}</span>
+                    </td>
+                    <td>${t.wins}</td>
+                    <td>${t.losses}</td>
+                    <td>${t.win_pct.toFixed(3)}</td>
+                </tr>
+            `).join('');
+        };
+        
+        renderStandings('East', 'east-standings');
+        renderStandings('West', 'west-standings');
+    } catch (e) {
+        console.error('Failed to load standings:', e);
+    }
+});
+
+async function showGameDetail(gameId) {
+    const modal = document.getElementById('game-modal');
+    const modalBody = document.getElementById('modal-body');
+    const modalTitle = document.getElementById('modal-title');
+    
+    modal.classList.remove('hidden');
+    modalBody.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Loading game details...</p></div>';
+    
+    try {
+        const data = await fetchAPI(`/api/game/${gameId}`);
+        modalTitle.textContent = `${data.game.team1} vs ${data.game.team2} — ${data.game.date}`;
+        
+        // Group players by team
+        const team1Players = data.players.filter(p => p.team === data.game.team1);
+        const team2Players = data.players.filter(p => p.team === data.game.team2);
+        
+        const renderPlayerTable = (players, teamName) => {
+            const total = data.totals[teamName] || {};
+            return `
+                <div class="team-stats" style="margin-bottom: 2rem;">
+                    <h3 style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; font-size: 1rem;">
+                        ${teamName}
+                        ${total.pts ? `<span style="font-family: var(--font-mono); color: var(--accent);">${total.pts} pts</span>` : ''}
+                    </h3>
+                    <div style="overflow-x: auto;">
+                        <table class="data-table" style="font-size: 0.8125rem;">
+                            <thead>
+                                <tr>
+                                    <th>Player</th>
+                                    <th>MIN</th>
+                                    <th>PTS</th>
+                                    <th>REB</th>
+                                    <th>AST</th>
+                                    <th>FG</th>
+                                    <th>3P</th>
+                                    <th>FT</th>
+                                    <th>+/-</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${players.map(p => `
+                                    <tr style="${p.status !== 'Played' ? 'opacity: 0.5;' : ''}">
+                                        <td>
+                                            <span style="font-weight: 500;">${p.player}</span>
+                                            ${p.pos ? `<span style="margin-left: 0.5rem; font-size: 0.6875rem; color: var(--text-muted);">${p.pos}</span>` : ''}
+                                        </td>
+                                        <td style="font-family: var(--font-mono);">${p.minutes ? p.minutes.toFixed(0) : p.status || '-'}</td>
+                                        <td style="font-family: var(--font-mono); font-weight: 600; color: var(--accent);">${p.pts ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.reb ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.ast ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.fgm ?? '-'}/${p.fga ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.tpm ?? '-'}/${p.tpa ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono);">${p.ftm ?? '-'}/${p.fta ?? '-'}</td>
+                                        <td style="font-family: var(--font-mono); color: ${(p.plus_minus || 0) > 0 ? 'var(--success)' : (p.plus_minus || 0) < 0 ? 'var(--error)' : 'var(--text-muted)'};">
+                                            ${p.plus_minus != null ? (p.plus_minus > 0 ? '+' : '') + p.plus_minus : '-'}
+                                        </td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        };
+        
+        modalBody.innerHTML = `
+            <div class="game-detail">
+                ${renderPlayerTable(team1Players, data.game.team1)}
+                ${renderPlayerTable(team2Players, data.game.team2)}
+            </div>
+        `;
+    } catch (e) {
+        modalBody.innerHTML = `<div class="error-state">Failed to load game details: ${e.message}</div>`;
+    }
+}
+
+function closeGameModal() {
+    document.getElementById('game-modal').classList.add('hidden');
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeGameModal();
+});
+</script>
+{% endblock %}

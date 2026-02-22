@@ -1,0 +1,104 @@
+Boston Celtics
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jaylen Brown
+F
+31:60	9	19	47.4	3	7	42.9	8	10	80.0	1	3	4	4	1	0	8	2	29	2
+undefined Headshot
+Jordan Walsh
+F
+11:13	2	2	100	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	4	4	-12
+undefined Headshot
+Neemias Queta
+C
+22:51	3	5	60.0	0	0	0.0	0	0	0.0	2	5	7	2	0	3	0	5	6	5
+undefined Headshot
+Derrick White
+G
+32:47	6	15	40.0	3	10	30.0	0	0	0.0	0	5	5	4	2	2	4	3	15	15
+undefined Headshot
+Payton Pritchard
+G
+35:15	6	16	37.5	5	12	41.7	5	5	100	2	8	10	5	0	0	3	1	22	11
+undefined Headshot
+Anfernee Simons
+26:09	3	4	75.0	2	3	66.7	3	5	60.0	0	4	4	5	0	0	3	2	11	0
+undefined Headshot
+Luka Garza
+20:23	1	1	100	0	0	0.0	3	4	75.0	2	3	5	0	1	0	1	4	5	14
+undefined Headshot
+Sam Hauser
+22:01	3	7	42.9	2	5	40.0	0	0	0.0	1	6	7	3	2	0	0	0	8	22
+undefined Headshot
+Josh Minott
+19:15	3	4	75.0	3	3	100	1	2	50.0	2	2	4	0	0	0	0	1	10	15
+undefined Headshot
+Baylor Scheierman
+13:22	1	2	50.0	1	2	50.0	0	0	0.0	0	2	2	1	0	0	0	2	3	3
+undefined Headshot
+Xavier Tillman
+4:47	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	0	-5
+undefined Headshot
+Chris Boucher
+DNP - Coach's Decision
+undefined Headshot
+Hugo González
+DNP - Coach's Decision
+undefined Headshot
+Ron Harper Jr.
+DNP - Coach's Decision
+TOTALS
+ 	37	75	49.3	19	42	45.2	20	26	76.9	10	39	49	25	6	5	19	24	113	14
+Brooklyn Nets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Michael Porter Jr.
+F
+33:42	8	16	50.0	4	8	50.0	5	5	100	2	4	6	2	3	0	1	1	25	-9
+undefined Headshot
+Noah Clowney
+F
+22:41	4	8	50.0	3	4	75.0	2	4	50.0	0	1	1	0	1	1	0	3	13	-14
+undefined Headshot
+Nic Claxton
+C
+30:06	1	9	11.1	0	0	0.0	5	8	62.5	5	6	11	3	0	1	3	3	7	-10
+undefined Headshot
+Terance Mann
+G
+27:13	1	4	25.0	0	2	0.0	1	2	50.0	1	3	4	7	0	0	1	3	3	-8
+undefined Headshot
+Egor Dëmin
+G
+23:15	4	10	40.0	4	7	57.1	0	0	0.0	1	2	3	4	1	0	4	1	12	-6
+undefined Headshot
+Drake Powell
+24:28	1	5	20.0	0	2	0.0	1	1	100	0	1	1	1	1	0	2	5	3	-2
+undefined Headshot
+Ziaire Williams
+27:20	4	11	36.4	2	7	28.6	2	2	100	0	4	4	3	1	0	1	2	12	-4
+undefined Headshot
+Tyrese Martin
+17:53	3	6	50.0	1	3	33.3	1	2	50.0	0	1	1	2	2	0	0	0	8	-6
+undefined Headshot
+Day'Ron Sharpe
+17:54	7	10	70.0	0	2	0.0	2	3	66.7	3	4	7	2	3	0	1	3	16	-4
+undefined Headshot
+Jalen Wilson
+11:36	0	3	0.0	0	3	0.0	0	0	0.0	0	1	1	0	0	0	0	1	0	-3
+undefined Headshot
+Danny Wolf
+1:56	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Nolan Traore
+1:56	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	1	0	0	0	0	0	-2
+TOTALS
+ 	33	82	40.2	14	38	36.8	19	27	70.4	12	27	39	25	12	2	13	22	99	-14
+Inactive Players
+BOS: Jayson Tatum, Amari Williams, Max Shulga
+
+BKN: Ben Saraf, Haywood Highsmith, Cam Thomas, E.J. Liddell, Tyson Etienne

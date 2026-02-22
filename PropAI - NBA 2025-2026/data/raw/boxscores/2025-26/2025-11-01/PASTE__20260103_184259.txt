@@ -1,0 +1,107 @@
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jimmy Butler III
+F
+34:26	6	14	42.9	0	2	0.0	8	9	88.9	3	3	6	7	3	2	2	2	20	-6
+undefined Headshot
+Jonathan Kuminga
+F
+31:49	7	16	43.8	1	3	33.3	2	2	100	1	4	5	2	0	0	0	1	17	-20
+undefined Headshot
+Draymond Green
+C
+29:44	2	5	40.0	2	4	50.0	2	2	100	1	9	10	1	0	0	3	5	8	-13
+undefined Headshot
+Brandin Podziemski
+G
+35:19	6	10	60.0	1	4	25.0	3	4	75.0	0	4	4	3	1	1	0	4	16	7
+undefined Headshot
+Stephen Curry
+G
+29:07	8	23	34.8	4	16	25.0	4	5	80.0	0	0	0	2	1	0	5	2	24	-21
+undefined Headshot
+Buddy Hield
+15:25	1	4	25.0	1	4	25.0	0	0	0.0	0	1	1	4	0	0	2	1	3	1
+undefined Headshot
+Gary Payton II
+8:48	0	1	0.0	0	1	0.0	0	0	0.0	1	2	3	1	0	0	1	3	0	0
+undefined Headshot
+Moses Moody
+16:06	1	3	33.3	1	2	50.0	0	0	0.0	0	2	2	3	0	1	0	2	3	15
+undefined Headshot
+Al Horford
+15:13	2	4	50.0	0	2	0.0	0	0	0.0	0	6	6	1	0	0	1	1	4	2
+undefined Headshot
+Quinten Post
+12:49	4	8	50.0	1	5	20.0	0	0	0.0	1	2	3	0	0	0	1	3	9	4
+undefined Headshot
+Gui Santos
+11:14	2	2	100	1	1	100	0	0	0.0	3	1	4	1	0	0	1	3	5	6
+undefined Headshot
+Trayce Jackson-Davis
+DNP - Coach's Decision
+undefined Headshot
+Will Richard
+DNP - Coach's Decision
+undefined Headshot
+Pat Spencer
+DNP - Coach's Decision
+TOTALS
+ 	39	90	43.3	12	44	27.3	19	22	86.4	10	34	44	25	5	4	16	27	109	-5
+Indiana Pacers
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Aaron Nesmith
+F
+35:08	10	19	52.6	5	11	45.5	6	6	100	1	5	6	1	0	0	1	2	31	13
+undefined Headshot
+Pascal Siakam
+F
+38:01	12	23	52.2	1	5	20.0	2	3	66.7	1	4	5	3	2	1	3	5	27	11
+undefined Headshot
+Isaiah Jackson
+C
+20:57	2	5	40.0	0	0	0.0	6	6	100	2	6	8	1	0	1	0	3	10	18
+undefined Headshot
+Jarace Walker
+G
+29:57	2	9	22.2	0	5	0.0	2	2	100	2	7	9	5	0	0	4	2	6	13
+undefined Headshot
+Quenton Jackson
+G
+31:09	10	16	62.5	3	4	75.0	2	3	66.7	3	3	6	10	3	0	0	3	25	20
+undefined Headshot
+Tony Bradley
+18:05	1	3	33.3	0	0	0.0	3	4	75.0	2	4	6	0	0	0	0	1	5	-12
+undefined Headshot
+Johnny Furphy
+22:51	2	4	50.0	1	2	50.0	0	0	0.0	0	3	3	0	2	0	2	2	5	-8
+undefined Headshot
+Ben Sheppard
+12:52	0	1	0.0	0	1	0.0	3	4	75.0	0	3	3	2	0	0	1	0	3	-8
+undefined Headshot
+RayJ Dennis
+16:51	1	7	14.3	0	4	0.0	0	0	0.0	0	0	0	2	0	1	0	1	2	-15
+undefined Headshot
+Taelon Peter
+4:32	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	1	0	0	-3
+undefined Headshot
+Jay Huff
+3:20	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-2
+undefined Headshot
+Jeremiah Robinson-Earl
+6:17	0	1	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	0	0	-2
+undefined Headshot
+Mac McClung
+DNP - Coach's Decision
+TOTALS
+ 	40	89	44.9	10	33	30.3	24	28	85.7	11	36	47	24	7	3	12	19	114	5
+Inactive Players
+GSW: Alex Toohey, De'Anthony Melton, Jackson Rowe
+
+IND: Andrew Nembhard, Obi Toppin, Tyrese Haliburton, Bennedict Mathurin, T.J. McConnell, Kam Jones

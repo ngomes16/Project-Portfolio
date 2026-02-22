@@ -1,0 +1,107 @@
+Golden State Warriors
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Jimmy Butler III
+F
+31:12	5	9	55.6	0	0	0.0	11	12	91.7	3	2	5	4	1	0	1	1	21	7
+undefined Headshot
+Draymond Green
+F
+24:47	1	3	33.3	0	1	0.0	5	6	83.3	0	5	5	3	1	1	1	5	7	3
+undefined Headshot
+Quinten Post
+C
+4:52	1	1	100	1	1	100	0	0	0.0	0	0	0	0	0	0	1	3	3	-8
+undefined Headshot
+Moses Moody
+G
+11:40	1	8	12.5	1	5	20.0	1	2	50.0	1	2	3	0	0	0	0	1	4	-15
+undefined Headshot
+Stephen Curry
+G
+28:36	8	15	53.3	5	12	41.7	6	7	85.7	0	2	2	5	1	0	2	1	27	-6
+undefined Headshot
+Gui Santos
+19:10	0	2	0.0	0	2	0.0	0	0	0.0	1	3	4	2	0	0	2	1	0	10
+undefined Headshot
+Gary Payton II
+10:04	4	5	80.0	1	1	100	1	2	50.0	0	0	0	1	0	0	2	2	10	4
+undefined Headshot
+Trayce Jackson-Davis
+21:56	5	6	83.3	0	0	0.0	1	2	50.0	0	6	6	1	1	2	1	1	11	10
+undefined Headshot
+Brandin Podziemski
+20:02	3	6	50.0	1	3	33.3	0	0	0.0	0	2	2	2	0	0	1	1	7	5
+undefined Headshot
+De'Anthony Melton
+23:32	4	6	66.7	0	2	0.0	2	2	100	1	7	8	1	2	1	1	1	10	26
+undefined Headshot
+Buddy Hield
+10:57	3	5	60.0	0	2	0.0	0	0	0.0	0	3	3	0	2	1	0	1	6	3
+undefined Headshot
+Will Richard
+22:51	4	7	57.1	1	4	25.0	1	1	100	0	1	1	3	2	0	1	1	10	22
+undefined Headshot
+Pat Spencer
+10:21	2	4	50.0	0	0	0.0	0	0	0.0	0	1	1	4	1	0	0	2	4	4
+undefined Headshot
+Jonathan Kuminga
+DNP - Coach's Decision
+TOTALS
+ 	41	77	53.2	10	33	30.3	28	34	82.4	6	34	40	26	11	5	13	21	120	13
+Brooklyn Nets
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Michael Porter Jr.
+F
+36:07	10	18	55.6	5	9	55.6	2	4	50.0	3	6	9	5	3	0	2	0	27	3
+undefined Headshot
+Noah Clowney
+F
+24:51	3	8	37.5	2	5	40.0	3	4	75.0	2	3	5	2	2	0	3	5	11	1
+undefined Headshot
+Nic Claxton
+C
+35:43	7	9	77.8	0	0	0.0	1	3	33.3	2	7	9	4	3	3	1	4	15	1
+undefined Headshot
+Terance Mann
+G
+28:04	0	3	0.0	0	3	0.0	4	4	100	0	2	2	4	1	1	1	3	4	12
+undefined Headshot
+Egor Dëmin
+G
+32:20	7	17	41.2	7	14	50.0	2	2	100	1	2	3	3	1	0	3	4	23	8
+undefined Headshot
+Cam Thomas
+18:50	5	12	41.7	1	3	33.3	2	2	100	0	0	0	2	0	0	2	1	13	-21
+undefined Headshot
+Day'Ron Sharpe
+12:17	1	3	33.3	0	2	0.0	1	2	50.0	1	4	5	0	0	0	1	2	3	-14
+undefined Headshot
+Danny Wolf
+19:51	0	2	0.0	0	0	0.0	0	0	0.0	0	1	1	2	0	0	0	4	0	-15
+undefined Headshot
+Nolan Traore
+14:38	3	6	50.0	3	4	75.0	0	0	0.0	0	0	0	0	0	1	2	3	9	-21
+undefined Headshot
+Drake Powell
+17:19	0	2	0.0	0	2	0.0	2	2	100	0	0	0	0	0	0	0	1	2	-19
+undefined Headshot
+Tyrese Martin
+DNP - Coach's Decision
+undefined Headshot
+Ziaire Williams
+DNP - Coach's Decision
+undefined Headshot
+Jalen Wilson
+DNP - Coach's Decision
+TOTALS
+ 	36	80	45.0	18	42	42.9	17	23	73.9	9	25	34	22	10	5	15	27	107	-13
+Inactive Players
+GSW: LJ Cryer, Al Horford, Seth Curry, Malevy Leons
+
+BKN: Haywood Highsmith, E.J. Liddell, Tyson Etienne, Ben Saraf, Chaney Johnson

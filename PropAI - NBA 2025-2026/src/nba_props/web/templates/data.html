@@ -1,0 +1,1164 @@
+{% extends "base.html" %}
+
+{% block title %}Data Management - NBA Props Predictor{% endblock %}
+{% block page_title %}Data Management{% endblock %}
+
+{% block content %}
+
+<div class="data-management-grid">
+    <!-- Salary Import -->
+    <div class="data-card">
+        <div class="data-card-header">
+            <div class="data-card-icon salary-icon">💰</div>
+            <div class="data-card-title">
+                <h2>Import Player Salaries</h2>
+                <span class="data-card-subtitle">Tab-separated format</span>
+            </div>
+        </div>
+        
+        <div class="data-card-body">
+            <div class="format-hint">
+                <span class="format-label">Format:</span>
+                <code>RK  NAME  TEAM  SALARY</code>
+            </div>
+            
+            <textarea id="salary-text" class="data-textarea" rows="6" 
+                placeholder="1	Stephen Curry, G	Golden State Warriors	$59,606,817&#10;2	Joel Embiid, C	Philadelphia 76ers	$55,224,526"></textarea>
+            
+            <div class="data-card-actions">
+                <button onclick="importSalaries()" class="btn btn-primary">
+                    <span class="btn-icon">💾</span>
+                    Import Salaries
+                </button>
+                <span id="salary-status" class="action-status"></span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Game Lines Import -->
+    <div class="data-card">
+        <div class="data-card-header">
+            <div class="data-card-icon lines-icon">📊</div>
+            <div class="data-card-title">
+                <h2>Add Game Line/Spread</h2>
+                <span class="data-card-subtitle">Focus on close games (spread ≤6 pts)</span>
+            </div>
+        </div>
+        
+        <div class="data-card-body">
+            <div class="form-grid form-grid-5">
+                <div class="form-group">
+                    <label class="form-label">Date</label>
+                    <input type="date" id="line-date" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Away Team</label>
+                    <select id="line-away" class="form-select">
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Home Team</label>
+                    <select id="line-home" class="form-select">
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Spread</label>
+                    <input type="number" step="0.5" id="line-spread" class="form-input" placeholder="-3.5">
+                    <span class="form-hint">Home perspective</span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Over/Under</label>
+                    <input type="number" step="0.5" id="line-ou" class="form-input" placeholder="224.5">
+                </div>
+            </div>
+            
+            <div class="data-card-actions">
+                <button onclick="addGameLine()" class="btn btn-primary">
+                    <span class="btn-icon">➕</span>
+                    Add Game Line
+                </button>
+                <span id="line-status" class="action-status"></span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Injury Report -->
+    <div class="data-card">
+        <div class="data-card-header">
+            <div class="data-card-icon injury-icon">🩹</div>
+            <div class="data-card-title">
+                <h2>Add Injury Report</h2>
+                <span class="data-card-subtitle">Track injured or questionable players</span>
+            </div>
+        </div>
+        
+        <div class="data-card-body">
+            <div class="form-grid form-grid-5">
+                <div class="form-group">
+                    <label class="form-label">Date</label>
+                    <input type="date" id="injury-date" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Team</label>
+                    <select id="injury-team" class="form-select">
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Player Name</label>
+                    <input type="text" id="injury-player" class="form-input" placeholder="Player Name">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Status</label>
+                    <select id="injury-status" class="form-select">
+                        <option value="OUT">OUT</option>
+                        <option value="D">Doubtful</option>
+                        <option value="Q">Questionable</option>
+                        <option value="P">Probable</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Minutes Limit</label>
+                    <input type="number" id="injury-minutes" class="form-input" placeholder="e.g., 20">
+                </div>
+            </div>
+            
+            <div class="data-card-actions">
+                <button onclick="addInjury()" class="btn btn-primary">
+                    <span class="btn-icon">➕</span>
+                    Add Injury
+                </button>
+                <span id="injury-status-msg" class="action-status"></span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Defense vs Position Import -->
+    <div class="data-card">
+        <div class="data-card-header">
+            <div class="data-card-icon defense-icon">🛡️</div>
+            <div class="data-card-title">
+                <h2>Import Defense vs Position Data</h2>
+                <span class="data-card-subtitle">From Hashtag Basketball - updates every few days</span>
+            </div>
+        </div>
+        
+        <div class="data-card-body">
+            <div class="format-hint">
+                <span class="format-label">Source:</span>
+                <a href="https://hashtagbasketball.com/advanced-nba-schedule-grid" target="_blank" 
+                   style="color: var(--accent-secondary); text-decoration: none;">
+                    Hashtag Basketball Defense vs Position
+                </a>
+            </div>
+            
+            <div class="form-grid" style="grid-template-columns: 200px 1fr; align-items: start;">
+                <div class="form-group">
+                    <label class="form-label">Position</label>
+                    <select id="defense-position" class="form-select">
+                        <option value="PG">PG - Point Guard</option>
+                        <option value="SG">SG - Shooting Guard</option>
+                        <option value="SF">SF - Small Forward</option>
+                        <option value="PF">PF - Power Forward</option>
+                        <option value="C">C - Center</option>
+                    </select>
+                    
+                    <div id="defense-last-updated" class="defense-status-box">
+                        <div class="defense-status-header">Last Updated</div>
+                        <div id="defense-positions-status" class="defense-positions-status">
+                            Loading...
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Paste Raw Data</label>
+                    <textarea id="defense-text" class="data-textarea" rows="8" 
+                        placeholder="Copy and paste the entire page content from Hashtag Basketball Defense vs Position page.&#10;&#10;The parser will extract the relevant data automatically.&#10;&#10;Example:&#10;PG  OKC   2  21.7   35  40.6   1  72.4   23  ..."></textarea>
+                </div>
+            </div>
+            
+            <div class="data-card-actions">
+                <button onclick="importDefenseData()" class="btn btn-primary">
+                    <span class="btn-icon">📥</span>
+                    Import Defense Data
+                </button>
+                <span id="defense-status" class="action-status"></span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Player DRTG Import -->
+    <div class="data-card">
+        <div class="data-card-header">
+            <div class="data-card-icon drtg-icon">📊</div>
+            <div class="data-card-title">
+                <h2>Import Player DRTG</h2>
+                <span class="data-card-subtitle">Defensive Rating from StatMuse</span>
+            </div>
+        </div>
+        
+        <div class="data-card-body">
+            <div class="format-hint">
+                <span class="format-label">Source:</span>
+                <a href="https://www.statmuse.com/nba/ask/nba-players-defensive-rating-2024-25" target="_blank" 
+                   style="color: var(--accent-secondary); text-decoration: none;">
+                    StatMuse - NBA Players Defensive Rating
+                </a>
+                <p style="margin: 0.5rem 0 0 0; font-size: 0.75rem; color: var(--text-muted);">
+                    Search for each team individually, e.g., "Phoenix Suns players defensive rating 2024-25"
+                </p>
+            </div>
+            
+            <div class="form-grid" style="grid-template-columns: 200px 1fr; align-items: start;">
+                <div class="form-group">
+                    <label class="form-label">Team</label>
+                    <select id="drtg-team" class="form-select">
+                        <option value="">Select team...</option>
+                    </select>
+                    
+                    <div id="drtg-last-updated" class="defense-status-box" style="margin-top: 1rem;">
+                        <div class="defense-status-header">DRTG Data Status</div>
+                        <div id="drtg-teams-status" class="defense-positions-status">
+                            Loading...
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Paste Raw StatMuse Data</label>
+                    <textarea id="drtg-text" class="data-textarea" rows="8" 
+                        placeholder="Copy and paste the entire page content from StatMuse.&#10;&#10;The parser will automatically extract player DRTG data.&#10;&#10;Example raw data:&#10;Phoenix Suns Players Defensive Rating This Season...&#10;Kevin Durant&#10;Kevin Durant&#10;PHX&#10;105.3&#10;..."></textarea>
+                </div>
+            </div>
+            
+            <div class="data-card-actions">
+                <button onclick="importDRTGData()" class="btn btn-primary">
+                    <span class="btn-icon">📥</span>
+                    Import DRTG Data
+                </button>
+                <span id="drtg-status" class="action-status"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Two-column display for injuries and game lines -->
+<div class="data-display-grid">
+    <!-- Current Injuries -->
+    <div class="data-card">
+        <div class="data-card-header">
+            <div class="data-card-icon injury-icon">📋</div>
+            <div class="data-card-title">
+                <h2>Current Injury Report</h2>
+            </div>
+        </div>
+        <div class="data-card-body">
+            <div id="injuries-list" class="data-list">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <span>Loading injuries...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Current Game Lines -->
+    <div class="data-card">
+        <div class="data-card-header">
+            <div class="data-card-icon lines-icon">📊</div>
+            <div class="data-card-title">
+                <h2>Recent Game Lines</h2>
+            </div>
+            <label class="filter-checkbox">
+                <input type="checkbox" id="close-games-only" onchange="loadGameLines()">
+                <span class="checkbox-custom"></span>
+                <span>Close games only (≤6 pts)</span>
+            </label>
+        </div>
+        <div class="data-card-body">
+            <div id="game-lines-list" class="data-list">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <span>Loading game lines...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.data-management-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.data-display-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+}
+
+.data-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.data-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, transparent 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.data-card-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: var(--border-radius-sm);
+    background: var(--bg-tertiary);
+}
+
+.salary-icon { background: linear-gradient(135deg, rgba(16, 185, 129, 0.2) 0%, rgba(16, 185, 129, 0.05) 100%); }
+.lines-icon { background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(99, 102, 241, 0.05) 100%); }
+.injury-icon { background: linear-gradient(135deg, rgba(239, 68, 68, 0.2) 0%, rgba(239, 68, 68, 0.05) 100%); }
+.defense-icon { background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0.05) 100%); }
+.drtg-icon { background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(139, 92, 246, 0.05) 100%); }
+
+.defense-status-box {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: var(--bg-tertiary);
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--border-color);
+}
+
+.defense-status-header {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.defense-positions-status {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+}
+
+.defense-position-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.defense-position-item:last-child {
+    border-bottom: none;
+}
+
+.defense-position-name {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.defense-position-date {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.defense-position-date.fresh {
+    color: var(--success);
+}
+
+.defense-position-date.stale {
+    color: var(--warning);
+}
+
+.defense-position-date.missing {
+    color: var(--error);
+}
+
+.data-card-title h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.data-card-subtitle {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+}
+
+.data-card-body {
+    padding: 1.5rem;
+}
+
+.format-hint {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-tertiary);
+    border-radius: var(--border-radius-sm);
+    margin-bottom: 1rem;
+}
+
+.format-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.format-hint code {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    color: var(--accent-secondary);
+}
+
+.data-textarea {
+    width: 100%;
+    padding: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-primary);
+    resize: vertical;
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.data-textarea:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.data-textarea::placeholder {
+    color: var(--text-muted);
+}
+
+.form-grid {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-grid-5 {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+}
+
+.form-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-input,
+.form-select {
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-primary);
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.form-input:focus,
+.form-select:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.form-select {
+    cursor: pointer;
+}
+
+.form-hint {
+    font-size: 0.6875rem;
+    color: var(--text-muted);
+}
+
+.data-card-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.action-status {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.action-status.success {
+    color: var(--success);
+}
+
+.action-status.error {
+    color: var(--error);
+}
+
+.filter-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.filter-checkbox input {
+    display: none;
+}
+
+.checkbox-custom {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border-light);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.filter-checkbox input:checked + .checkbox-custom {
+    background: var(--accent-primary);
+    border-color: var(--accent-primary);
+}
+
+.filter-checkbox input:checked + .checkbox-custom::after {
+    content: "✓";
+    font-size: 0.75rem;
+    color: white;
+}
+
+.data-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.loading-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 2rem;
+    color: var(--text-muted);
+}
+
+.loading-spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--border-color);
+    border-top-color: var(--accent-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.data-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.875rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    transition: background var(--transition-fast);
+}
+
+.data-list-item:last-child {
+    border-bottom: none;
+}
+
+.data-list-item:hover {
+    background: var(--bg-hover);
+}
+
+.injury-player {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.injury-team {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    margin-left: 0.5rem;
+}
+
+.injury-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.injury-badge {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.injury-badge.out { background: var(--error-bg); color: var(--error); }
+.injury-badge.doubtful { background: rgba(249, 115, 22, 0.15); color: #f97316; }
+.injury-badge.questionable { background: var(--warning-bg); color: var(--warning); }
+.injury-badge.probable { background: var(--success-bg); color: var(--success); }
+
+.injury-date {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.game-line-teams {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.game-line-date {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-right: 0.75rem;
+}
+
+.game-line-team {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.game-line-at {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+}
+
+.game-line-stats {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.spread-badge {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    padding: 0.25rem 0.625rem;
+    border-radius: 4px;
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+.spread-badge.close {
+    background: var(--success-bg);
+    color: var(--success);
+}
+
+.ou-value {
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-muted);
+}
+</style>
+
+<script>
+// Team list for dropdowns
+const NBA_TEAMS = [
+    { abbrev: 'ATL', name: 'Atlanta Hawks' },
+    { abbrev: 'BOS', name: 'Boston Celtics' },
+    { abbrev: 'BKN', name: 'Brooklyn Nets' },
+    { abbrev: 'CHA', name: 'Charlotte Hornets' },
+    { abbrev: 'CHI', name: 'Chicago Bulls' },
+    { abbrev: 'CLE', name: 'Cleveland Cavaliers' },
+    { abbrev: 'DAL', name: 'Dallas Mavericks' },
+    { abbrev: 'DEN', name: 'Denver Nuggets' },
+    { abbrev: 'DET', name: 'Detroit Pistons' },
+    { abbrev: 'GSW', name: 'Golden State Warriors' },
+    { abbrev: 'HOU', name: 'Houston Rockets' },
+    { abbrev: 'IND', name: 'Indiana Pacers' },
+    { abbrev: 'LAC', name: 'Los Angeles Clippers' },
+    { abbrev: 'LAL', name: 'Los Angeles Lakers' },
+    { abbrev: 'MEM', name: 'Memphis Grizzlies' },
+    { abbrev: 'MIA', name: 'Miami Heat' },
+    { abbrev: 'MIL', name: 'Milwaukee Bucks' },
+    { abbrev: 'MIN', name: 'Minnesota Timberwolves' },
+    { abbrev: 'NOP', name: 'New Orleans Pelicans' },
+    { abbrev: 'NYK', name: 'New York Knicks' },
+    { abbrev: 'OKC', name: 'Oklahoma City Thunder' },
+    { abbrev: 'ORL', name: 'Orlando Magic' },
+    { abbrev: 'PHI', name: 'Philadelphia 76ers' },
+    { abbrev: 'PHX', name: 'Phoenix Suns' },
+    { abbrev: 'POR', name: 'Portland Trail Blazers' },
+    { abbrev: 'SAC', name: 'Sacramento Kings' },
+    { abbrev: 'SAS', name: 'San Antonio Spurs' },
+    { abbrev: 'TOR', name: 'Toronto Raptors' },
+    { abbrev: 'UTA', name: 'Utah Jazz' },
+    { abbrev: 'WAS', name: 'Washington Wizards' },
+];
+
+function populateTeamSelects() {
+    const selects = ['line-away', 'line-home', 'injury-team', 'drtg-team'];
+    selects.forEach(selectId => {
+        const select = document.getElementById(selectId);
+        if (!select) return;
+        NBA_TEAMS.forEach(team => {
+            const opt = document.createElement('option');
+            opt.value = team.abbrev;
+            opt.textContent = `${team.abbrev} - ${team.name}`;
+            select.appendChild(opt);
+        });
+    });
+}
+
+async function importSalaries() {
+    const text = document.getElementById('salary-text').value.trim();
+    const status = document.getElementById('salary-status');
+    
+    if (!text) {
+        status.textContent = '❌ Please paste salary data';
+        status.className = 'action-status error';
+        return;
+    }
+    
+    try {
+        const resp = await fetch('/api/ingest/salaries', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ text })
+        });
+        const data = await resp.json();
+        
+        if (data.success) {
+            status.textContent = `✅ Imported ${data.count} salaries`;
+            status.className = 'action-status success';
+        } else {
+            status.textContent = `❌ ${data.error}`;
+            status.className = 'action-status error';
+        }
+    } catch (e) {
+        status.textContent = `❌ Error: ${e.message}`;
+        status.className = 'action-status error';
+    }
+}
+
+async function addGameLine() {
+    const date = document.getElementById('line-date').value;
+    const away = document.getElementById('line-away').value;
+    const home = document.getElementById('line-home').value;
+    const spread = parseFloat(document.getElementById('line-spread').value);
+    const ou = parseFloat(document.getElementById('line-ou').value);
+    const status = document.getElementById('line-status');
+    
+    if (!date || !away || !home) {
+        status.textContent = '❌ Date, away, and home teams required';
+        status.className = 'action-status error';
+        return;
+    }
+    
+    try {
+        const resp = await fetch('/api/ingest/game-line', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                date, away, home,
+                spread: isNaN(spread) ? null : spread,
+                over_under: isNaN(ou) ? null : ou
+            })
+        });
+        const data = await resp.json();
+        
+        if (data.success) {
+            status.textContent = `✅ Added ${data.matchup}`;
+            status.className = 'action-status success';
+            loadGameLines();
+        } else {
+            status.textContent = `❌ ${data.error}`;
+            status.className = 'action-status error';
+        }
+    } catch (e) {
+        status.textContent = `❌ Error: ${e.message}`;
+        status.className = 'action-status error';
+    }
+}
+
+async function addInjury() {
+    const date = document.getElementById('injury-date').value;
+    const team = document.getElementById('injury-team').value;
+    const player = document.getElementById('injury-player').value.trim();
+    const injStatus = document.getElementById('injury-status').value;
+    const minutes = document.getElementById('injury-minutes').value;
+    const statusMsg = document.getElementById('injury-status-msg');
+    
+    if (!date || !team || !player) {
+        statusMsg.textContent = '❌ Date, team, and player required';
+        statusMsg.className = 'action-status error';
+        return;
+    }
+    
+    try {
+        const resp = await fetch('/api/ingest/injury', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                date, team, player,
+                status: injStatus,
+                minutes_limit: minutes ? parseInt(minutes) : null
+            })
+        });
+        const data = await resp.json();
+        
+        if (data.success) {
+            statusMsg.textContent = `✅ Added ${data.player} (${data.status})`;
+            statusMsg.className = 'action-status success';
+            loadInjuries();
+        } else {
+            statusMsg.textContent = `❌ ${data.error}`;
+            statusMsg.className = 'action-status error';
+        }
+    } catch (e) {
+        statusMsg.textContent = `❌ Error: ${e.message}`;
+        statusMsg.className = 'action-status error';
+    }
+}
+
+async function loadInjuries() {
+    const container = document.getElementById('injuries-list');
+    try {
+        const resp = await fetch('/api/injuries');
+        const data = await resp.json();
+        
+        if (!data.injuries || data.injuries.length === 0) {
+            container.innerHTML = '<div class="empty-state">No injuries reported</div>';
+            return;
+        }
+        
+        container.innerHTML = data.injuries.slice(0, 20).map(inj => {
+            const statusClass = inj.status === 'OUT' ? 'out' :
+                               inj.status === 'D' ? 'doubtful' :
+                               inj.status === 'Q' ? 'questionable' : 'probable';
+            return `
+                <div class="data-list-item">
+                    <div>
+                        <span class="injury-player">${inj.player}</span>
+                        <span class="injury-team">${inj.team_abbrev}</span>
+                    </div>
+                    <div class="injury-info">
+                        <span class="injury-badge ${statusClass}">${inj.status}</span>
+                        <span class="injury-date">${inj.date}</span>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    } catch (e) {
+        container.innerHTML = '<div class="empty-state" style="color: var(--error);">Error loading injuries</div>';
+    }
+}
+
+async function loadGameLines() {
+    const container = document.getElementById('game-lines-list');
+    const closeOnly = document.getElementById('close-games-only').checked;
+    
+    try {
+        const resp = await fetch(`/api/game-lines?close_only=${closeOnly}`);
+        const data = await resp.json();
+        
+        if (!data.game_lines || data.game_lines.length === 0) {
+            container.innerHTML = '<div class="empty-state">No game lines added yet</div>';
+            return;
+        }
+        
+        container.innerHTML = data.game_lines.map(line => `
+            <div class="data-list-item">
+                <div class="game-line-teams">
+                    <span class="game-line-date">${line.date}</span>
+                    <span class="game-line-team">${line.away_abbrev}</span>
+                    <span class="game-line-at">@</span>
+                    <span class="game-line-team">${line.home_abbrev}</span>
+                </div>
+                <div class="game-line-stats">
+                    ${line.spread !== null ? `
+                        <span class="spread-badge ${line.is_close ? 'close' : ''}">
+                            ${line.spread > 0 ? '+' : ''}${line.spread}
+                        </span>
+                    ` : ''}
+                    ${line.over_under !== null ? `
+                        <span class="ou-value">O/U ${line.over_under}</span>
+                    ` : ''}
+                </div>
+            </div>
+        `).join('');
+    } catch (e) {
+        container.innerHTML = '<div class="empty-state" style="color: var(--error);">Error loading game lines</div>';
+    }
+}
+
+async function importDefenseData() {
+    const position = document.getElementById('defense-position').value;
+    const text = document.getElementById('defense-text').value.trim();
+    const status = document.getElementById('defense-status');
+    
+    if (!text) {
+        status.textContent = '❌ Please paste defense data';
+        status.className = 'action-status error';
+        return;
+    }
+    
+    try {
+        status.textContent = '⏳ Processing...';
+        status.className = 'action-status';
+        
+        const resp = await fetch('/api/ingest/defense-vs-position', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ 
+                text: text,
+                position: position
+            })
+        });
+        const data = await resp.json();
+        
+        if (data.success) {
+            status.textContent = `✅ Imported ${data.total} teams for ${data.position} (${data.inserted} new, ${data.updated} updated)`;
+            status.className = 'action-status success';
+            loadDefenseStatus();
+            document.getElementById('defense-text').value = '';
+        } else {
+            status.textContent = `❌ ${data.error}`;
+            status.className = 'action-status error';
+        }
+    } catch (e) {
+        status.textContent = `❌ Error: ${e.message}`;
+        status.className = 'action-status error';
+    }
+}
+
+async function loadDefenseStatus() {
+    const container = document.getElementById('defense-positions-status');
+    
+    try {
+        const resp = await fetch('/api/defense-vs-position/status');
+        const data = await resp.json();
+        
+        if (!data.positions) {
+            container.innerHTML = '<div>No data loaded yet</div>';
+            return;
+        }
+        
+        const positions = ['PG', 'SG', 'SF', 'PF', 'C'];
+        const today = new Date();
+        
+        container.innerHTML = positions.map(pos => {
+            const info = data.positions[pos];
+            if (!info) {
+                return `
+                    <div class="defense-position-item">
+                        <span class="defense-position-name">${pos}</span>
+                        <span class="defense-position-date missing">No data</span>
+                    </div>
+                `;
+            }
+            
+            // Calculate freshness - data older than 3 days is stale
+            const lastUpdated = new Date(info.last_updated);
+            const daysDiff = Math.floor((today - lastUpdated) / (1000 * 60 * 60 * 24));
+            const freshnessClass = daysDiff <= 3 ? 'fresh' : (daysDiff <= 7 ? 'stale' : 'missing');
+            
+            const dateStr = lastUpdated.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit'
+            });
+            
+            return `
+                <div class="defense-position-item">
+                    <span class="defense-position-name">${pos}</span>
+                    <span class="defense-position-date ${freshnessClass}">${dateStr} (${info.records_count} teams)</span>
+                </div>
+            `;
+        }).join('');
+    } catch (e) {
+        container.innerHTML = '<div style="color: var(--error);">Error loading status</div>';
+    }
+}
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    // Set default dates to today
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('line-date').value = today;
+    document.getElementById('injury-date').value = today;
+    
+    populateTeamSelects();
+    loadInjuries();
+    loadGameLines();
+    loadDefenseStatus();
+    loadDRTGStatus();
+});
+
+// ====================================
+// DRTG Import Functions
+// ====================================
+
+async function importDRTGData() {
+    const team = document.getElementById('drtg-team').value;
+    const text = document.getElementById('drtg-text').value.trim();
+    const status = document.getElementById('drtg-status');
+    
+    if (!text) {
+        status.textContent = '❌ Please paste DRTG data';
+        status.className = 'action-status error';
+        return;
+    }
+    
+    try {
+        status.textContent = '⏳ Processing...';
+        status.className = 'action-status';
+        
+        // Build payload - team is optional (parser can detect it)
+        const payload = { text: text };
+        if (team) {
+            payload.team_abbrev = team;
+        }
+        
+        const resp = await fetch('/api/ingest/player-drtg', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+        const data = await resp.json();
+        
+        if (data.success) {
+            status.textContent = `✅ Imported ${data.total} players for ${data.team} (${data.inserted} new, ${data.updated} updated)`;
+            status.className = 'action-status success';
+            loadDRTGStatus();
+            document.getElementById('drtg-text').value = '';
+        } else {
+            status.textContent = `❌ ${data.error}`;
+            status.className = 'action-status error';
+        }
+    } catch (e) {
+        status.textContent = `❌ Error: ${e.message}`;
+        status.className = 'action-status error';
+    }
+}
+
+async function loadDRTGStatus() {
+    const container = document.getElementById('drtg-teams-status');
+    
+    try {
+        const resp = await fetch('/api/player-drtg/status');
+        const data = await resp.json();
+        
+        if (!data.teams || data.teams.length === 0) {
+            container.innerHTML = '<div style="color: var(--text-muted);">No DRTG data loaded yet</div>';
+            return;
+        }
+        
+        const today = new Date();
+        
+        // Sort teams by freshness (most stale first)
+        const sortedTeams = [...data.teams].sort((a, b) => {
+            if (!a.last_updated) return -1;
+            if (!b.last_updated) return 1;
+            return new Date(a.last_updated) - new Date(b.last_updated);
+        });
+        
+        // Show all 30 teams status
+        const allTeams = [
+            'ATL', 'BOS', 'BKN', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW',
+            'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NOP', 'NYK',
+            'OKC', 'ORL', 'PHI', 'PHX', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS'
+        ];
+        
+        const teamDataMap = {};
+        data.teams.forEach(t => {
+            teamDataMap[t.team_abbrev] = t;
+        });
+        
+        // Show summary stats
+        const teamsWithData = data.teams.length;
+        const staleTeams = data.teams.filter(t => {
+            if (!t.last_updated) return true;
+            const daysDiff = Math.floor((today - new Date(t.last_updated)) / (1000 * 60 * 60 * 24));
+            return daysDiff > 7;
+        }).length;
+        
+        let html = `
+        <div style="margin-bottom: 0.75rem; font-size: 0.75rem; color: var(--text-secondary);">
+            ${teamsWithData}/30 teams • ${staleTeams} need update
+        </div>
+        <div class="drtg-teams-grid" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.25rem;">`;
+        
+        for (const abbrev of allTeams) {
+            const info = teamDataMap[abbrev];
+            let freshnessClass = 'missing';
+            let title = 'No data';
+            
+            if (info && info.last_updated) {
+                const lastUpdated = new Date(info.last_updated);
+                const daysDiff = Math.floor((today - lastUpdated) / (1000 * 60 * 60 * 24));
+                freshnessClass = daysDiff <= 3 ? 'fresh' : (daysDiff <= 7 ? 'stale' : 'missing');
+                title = `${info.player_count} players, updated ${lastUpdated.toLocaleDateString()}`;
+            }
+            
+            html += `
+                <div class="drtg-team-item ${freshnessClass}" title="${title}" style="
+                    padding: 0.25rem 0.375rem;
+                    font-size: 0.65rem;
+                    font-family: var(--font-mono);
+                    text-align: center;
+                    border-radius: 3px;
+                    background: ${freshnessClass === 'fresh' ? 'rgba(16, 185, 129, 0.15)' : 
+                                 freshnessClass === 'stale' ? 'rgba(245, 158, 11, 0.15)' : 
+                                 'rgba(239, 68, 68, 0.15)'};
+                    color: ${freshnessClass === 'fresh' ? '#10b981' : 
+                            freshnessClass === 'stale' ? '#f59e0b' : 
+                            '#ef4444'};
+                ">${abbrev}</div>`;
+        }
+        
+        html += '</div>';
+        container.innerHTML = html;
+        
+    } catch (e) {
+        container.innerHTML = '<div style="color: var(--error);">Error loading status</div>';
+    }
+}
+</script>
+{% endblock %}

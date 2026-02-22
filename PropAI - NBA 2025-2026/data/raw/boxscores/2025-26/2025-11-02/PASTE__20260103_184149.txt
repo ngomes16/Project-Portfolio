@@ -1,0 +1,104 @@
+Chicago Bulls
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+Isaac Okoro
+F
+21:56	6	11	54.5	2	4	50.0	0	0	0.0	1	0	1	0	0	0	3	3	14	-18
+undefined Headshot
+Matas Buzelis
+F
+31:23	5	11	45.5	4	6	66.7	0	0	0.0	1	7	8	0	1	0	1	1	14	5
+undefined Headshot
+Nikola Vučević
+C
+32:00	6	10	60.0	3	4	75.0	2	2	100	4	10	14	4	0	1	3	3	17	-11
+undefined Headshot
+Tre Jones
+G
+33:53	6	13	46.2	1	2	50.0	2	2	100	1	1	2	5	1	0	2	2	15	-18
+undefined Headshot
+Josh Giddey
+G
+38:17	10	19	52.6	1	5	20.0	2	2	100	2	9	11	12	2	0	4	2	23	0
+undefined Headshot
+Kevin Huerter
+21:26	3	8	37.5	1	5	20.0	0	0	0.0	0	3	3	2	1	2	1	3	7	-15
+undefined Headshot
+Patrick Williams
+25:56	3	9	33.3	2	7	28.6	3	4	75.0	1	1	2	3	2	0	0	2	11	-8
+undefined Headshot
+Jalen Smith
+16:00	5	7	71.4	2	4	50.0	0	1	0.0	2	3	5	0	0	0	0	3	12	-1
+undefined Headshot
+Julian Phillips
+5:45	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	2
+undefined Headshot
+Jevon Carter
+12:12	0	1	0.0	0	1	0.0	0	0	0.0	0	0	0	2	0	0	0	1	0	1
+undefined Headshot
+Dalen Terry
+1:12	1	3	33.3	1	1	100	0	0	0.0	0	0	0	0	0	0	0	0	3	3
+undefined Headshot
+Ayo Dosunmu
+DND - Injury/Illness
+TOTALS
+ 	45	93	48.4	17	40	42.5	9	11	81.8	12	34	46	28	7	3	14	20	116	-12
+New York Knicks
+Click on any linked stat to view the Video and/or Shot Chart
+
+PLAYER	MIN	FGM	FGA	FG%	3PM	3PA	3P%	FTM	FTA	FT%	OREB	DREB	REB	AST	STL	BLK	TO	PF	PTS	+/-
+undefined Headshot
+OG Anunoby
+F
+34:48	8	17	47.1	3	7	42.9	2	2	100	0	2	2	4	2	1	1	1	21	22
+undefined Headshot
+Karl-Anthony Towns
+F
+36:08	5	11	45.5	2	2	100	8	8	100	3	12	15	5	0	2	1	1	20	12
+undefined Headshot
+Mitchell Robinson
+C
+13:21	0	3	0.0	0	0	0.0	0	0	0.0	4	1	5	1	0	2	0	1	0	-1
+undefined Headshot
+Mikal Bridges
+G
+34:40	3	7	42.9	2	5	40.0	2	2	100	3	2	5	9	1	0	4	1	10	6
+undefined Headshot
+Jalen Brunson
+G
+32:27	10	22	45.5	4	11	36.4	7	7	100	0	5	5	3	2	0	2	2	31	5
+undefined Headshot
+Josh Hart
+26:01	5	10	50.0	1	4	25.0	3	3	100	3	6	9	3	1	0	3	1	14	1
+undefined Headshot
+Landry Shamet
+18:18	3	6	50.0	3	3	100	0	0	0.0	0	1	1	1	0	0	0	1	9	17
+undefined Headshot
+Guerschon Yabusele
+1:58	0	0	0.0	0	0	0.0	0	0	0.0	0	1	1	0	0	0	0	1	0	2
+undefined Headshot
+Miles McBride
+23:03	3	8	37.5	2	4	50.0	0	0	0.0	1	3	4	3	1	0	0	1	8	10
+undefined Headshot
+Jordan Clarkson
+17:44	6	11	54.5	3	6	50.0	0	0	0.0	0	0	0	2	0	0	0	2	15	-5
+undefined Headshot
+Mohamed Diawara
+0:31	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-3
+undefined Headshot
+Tyler Kolek
+0:31	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-3
+undefined Headshot
+Pacôme Dadiet
+0:31	0	0	0.0	0	0	0.0	0	0	0.0	0	0	0	0	0	0	0	0	0	-3
+undefined Headshot
+Ariel Hukporti
+DNP - Coach's Decision
+TOTALS
+ 	43	95	45.3	20	42	47.6	22	22	100	14	33	47	31	7	5	11	12	128	12
+Inactive Players
+CHI: Zach Collins, Coby White, Emanuel Miller, Trentyn Flowers, Noa Essengue, Lachlan Olbrich
+
+NYK: Trey Jemison III, Kevin McCullar Jr., Tosan Evbuomwan
