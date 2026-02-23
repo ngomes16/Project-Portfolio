@@ -1,0 +1,586 @@
+ITEMID,source_text,target_loinc
+51346,blasts cerebrospinal fluid (csf),26447-3
+51347,eosinophils cerebrospinal fluid (csf),26451-5
+51348,"hematocrit, csf cerebrospinal fluid (csf)",30398-2
+51349,hypersegmented neutrophils cerebrospinal fluid (csf),26506-6
+51351,lymphs cerebrospinal fluid (csf),26479-6
+51352,macrophage cerebrospinal fluid (csf),30426-1
+51353,mesothelial cells cerebrospinal fluid (csf),30429-5
+51354,metamyelocytes cerebrospinal fluid (csf),30366-9
+51355,monocytes cerebrospinal fluid (csf),26486-1
+51356,myelocytes cerebrospinal fluid (csf),30447-7
+51357,nrbc cerebrospinal fluid (csf),48778-5
+51359,plasma cerebrospinal fluid (csf),47413-0
+51360,polys cerebrospinal fluid (csf),26517-3
+51362,"rbc, csf cerebrospinal fluid (csf)",26454-9
+51363,"wbc, csf cerebrospinal fluid (csf)",26465-5
+51365,atypical lymphocytes joint fluid,33371-6
+51366,bands joint fluid,33361-7
+51367,basophils joint fluid,17833-5
+51368,eosinophils joint fluid,17834-3
+51375,lymphocytes joint fluid,26483-8
+51376,macrophage joint fluid,33376-5
+51377,mesothelial cells joint fluid,33365-8
+51379,monocytes joint fluid,17835-0
+51380,nrbc joint fluid,48040-0
+51382,polys joint fluid,26522-3
+51383,"rbc, joint fluid joint fluid",26458-0
+51384,"wbc, joint fluid joint fluid",26469-7
+51385,atypical lymphocytes other body fluid,30417-0
+51386,bands other body fluid,26510-8
+51387,basophils other body fluid,28543-7
+51388,cd10 other body fluid,51217-8
+51390,cd117 other body fluid,42867-2
+51391,cd11c other body fluid,51232-7
+51392,cd13 other body fluid,51238-4
+51393,cd138 other body fluid,42871-4
+51394,cd14 other body fluid,51248-3
+51395,cd15 other body fluid,51252-5
+51397,cd16/56 other body fluid,18268-3
+51398,cd19 other body fluid,17829-3
+51399,cd2 other body fluid,17827-7
+51400,cd20 other body fluid,57418-6
+51401,cd22 other body fluid,42875-5
+51402,cd23 other body fluid,51269-9
+51404,cd3 other body fluid,17826-9
+51405,cd33 other body fluid,51294-7
+51407,cd38 other body fluid,51299-6
+51408,cd4 other body fluid,17822-8
+51409,cd4/cd8 ratio other body fluid,18266-7
+51410,cd41 other body fluid,51320-0
+51411,cd45 other body fluid,17823-6
+51412,cd5 other body fluid,57423-6
+51413,cd56 other body fluid,57424-4
+51415,cd64 other body fluid,51366-3
+51416,cd7 other body fluid,57425-1
+51417,cd71 other body fluid,57426-9
+51418,cd8 other body fluid,17824-4
+51419,eosinophils other body fluid,26452-3
+51420,fmc-7 other body fluid,57428-5
+51421,glyco a other body fluid,57430-1
+51422,"hematocrit, other fluid other body fluid",11153-4
+51423,hla-dr other body fluid,51381-2
+51427,lymphocytes other body fluid,11031-2
+51428,macrophage other body fluid,12230-9
+51429,mesothelial cells other body fluid,28544-5
+51430,metamyelocytes other body fluid,17801-2
+51431,monos other body fluid,10330-9
+51432,myelocytes other body fluid,17800-4
+51435,plasma other body fluid,17803-8
+51436,polys other body fluid,26518-1
+51437,promyelocytes other body fluid,17799-8
+51438,"rbc, other fluid other body fluid",26455-6
+51439,"wbc, other fluid other body fluid",26466-3
+51440,atypical lymphocytes pleural,33370-8
+51442,basophils pleural,35070-2
+51444,eosinophils pleural,30379-2
+51446,lymphocytes pleural,26481-2
+51447,macrophages pleural,40520-9
+51448,mesothelial cells pleural,30431-1
+51450,monos pleural,33362-5
+51454,plasma cells pleural,40522-5
+51455,polys pleural,26519-9
+51457,"rbc, pleural pleural",26456-4
+51458,"wbc, pleural pleural",26467-1
+51460,"blood, occult stool",2335-8
+51461,ammonium biurate urine,12454-5
+51462,amorphous crystals urine,8246-1
+51463,bacteria urine,5769-5
+51464,bilirubin urine,5770-3
+51465,bilirubin crystals urine,5771-1
+51466,blood urine,5794-3
+51467,broad casts urine,18487-9
+51468,calcium carbonate crystals urine,5773-7
+51469,calcium oxalate crystals urine,5774-5
+51470,calcium phosphate crystals urine,5775-2
+51472,cholesterol crystals urine,5777-8
+50801,alveolar-arterial gradient blood,19991-9
+50802,base excess blood,11555-0
+50803,"calculated bicarbonate, whole blood blood",1959-6
+50804,calculated total co2 blood,34728-6
+50805,carboxyhemoglobin blood,20563-3
+50806,"chloride, whole blood blood",2069-3
+50808,free calcium blood,1994-3
+50809,glucose blood,2339-0
+50810,"hematocrit, calculated blood",20570-8
+50811,hemoglobin blood,718-7
+50813,lactate blood,32693-4
+50814,methemoglobin blood,2614-6
+50815,o2 flow blood,3151-8
+50816,oxygen blood,19994-3
+50817,oxygen saturation blood,20564-1
+50818,pco2 blood,11557-6
+50819,peep blood,20077-4
+50820,ph blood,11558-4
+50821,po2 blood,11556-8
+50822,"potassium, whole blood blood",6298-4
+50824,"sodium, whole blood blood",2947-0
+50826,tidal volume blood,20112-9
+50829,fluid type other body fluid,14725-6
+50830,"pco2, body fluid other body fluid",2023-0
+50831,ph other body fluid,2748-2
+50832,"po2, body fluid other body fluid",2706-0
+50833,potassium other body fluid,2821-7
+50834,"sodium, body fluid other body fluid",2950-4
+50835,"albumin, ascites ascites",1749-1
+50836,"amylase, ascites ascites",1797-0
+50837,"bicarbonate, ascites ascites",54360-3
+50838,"bilirubin, total, ascites ascites",14422-0
+50839,"chloride, ascites ascites",33366-6
+50840,"cholesterol, ascites ascites",14441-0
+50841,"creatinine, ascites ascites",12191-3
+50842,"glucose, ascites ascites",2347-3
+50843,"lactate dehydrogenase, ascites ascites",2531-2
+50844,"lipase, ascites ascites",32722-1
+50846,"osmolality, ascites ascites",2691-4
+50847,"potassium, ascites ascites",49789-1
+50848,"sodium, ascites ascites",49790-9
+50849,"total protein, ascites ascites",2883-7
+50850,"triglycerides, ascites ascites",14447-7
+50851,"urea nitrogen, ascites ascites",12265-5
+50852,% hemoglobin a1c blood,4548-4
+50854,absolute a1c blood,4548-4
+50855,absolute hemoglobin blood,718-7
+50856,acetaminophen blood,3297-9
+50857,acetone blood,5567-3
+50858,acid phosphatase blood,1715-2
+50861,alanine aminotransferase (alt) blood,1742-6
+50862,albumin blood,1751-7
+50863,alkaline phosphatase blood,6768-6
+50864,alpha-fetoprotein blood,1834-1
+50866,ammonia blood,16362-6
+50867,amylase blood,1798-8
+50868,anion gap blood,1863-0
+50870,"anti-gliadin antibody, iga blood",7893-1
+50871,anti-mitochondrial antibody blood,14236-4
+50872,anti-neutrophil cytoplasmic antibody blood,35279-9
+50873,anti-nuclear antibody blood,5047-6
+50874,"anti-nuclear antibody, titer blood",8061-4
+50875,anti-parietal cell antibody blood,26969-6
+50876,anti-smooth muscle antibody blood,14252-1
+50877,anti-thyroglobulin antibodies blood,5380-1
+50878,asparate aminotransferase (ast) blood,1920-8
+50879,barbiturate screen blood,3376-1
+50880,benzodiazepine screen blood,42662-7
+50881,beta-2 microglobulin blood,32731-2
+50882,bicarbonate blood,1963-8
+50883,"bilirubin, direct blood",1968-7
+50884,"bilirubin, indirect blood",1971-1
+50885,"bilirubin, total blood",1975-2
+50889,c-reactive protein blood,1988-5
+50890,c3 blood,4485-9
+50891,c4 blood,4498-2
+50892,ca-125 blood,10334-1
+50893,"calcium, total blood",2000-8
+50894,calculated free testosterone blood,2991-8
+50895,calculated tbg blood,3027-0
+50896,calculated thyroxine (t4) index blood,32215-6
+50898,cancer antigen 27.29 blood,17842-6
+50899,carbamazepine blood,3432-2
+50900,carcinoembyronic antigen (cea) blood,2039-6
+50901,centromere blood,16570-4
+50902,chloride blood,2075-0
+50903,cholesterol ratio (total/hdl) blood,9322-9
+50904,"cholesterol, hdl blood",2085-9
+50905,"cholesterol, ldl, calculated blood",2090-9
+50906,"cholesterol, ldl, measured blood",18262-6
+50907,"cholesterol, total blood",2093-3
+50908,ck-mb index blood,20569-0
+50909,cortisol blood,2143-6
+50910,creatine kinase (ck) blood,2157-6
+50911,"creatine kinase, mb isoenzyme blood",6773-6
+50912,creatinine blood,2160-0
+50913,cryoglobulin blood,5117-7
+50914,cyclosporin blood,3521-2
+50916,dhea-sulfate blood,2191-5
+50917,digoxin blood,10535-3
+50918,double stranded dna blood,5130-0
+50920,estimated gfr (mdrd equation) blood,33914-3
+50921,estradiol blood,2243-4
+50922,ethanol blood,5642-4
+50924,ferritin blood,2276-4
+50925,folate blood,2284-8
+50926,follicle stimulating hormone blood,15067-2
+50927,gamma glutamyltransferase blood,2324-2
+50928,gastrin blood,2333-3
+50929,gentamicin blood,35668-3
+50930,globulin blood,2336-6
+50931,glucose blood,2345-7
+50935,haptoglobin blood,4542-7
+50937,hepatitis a virus antibody blood,5183-9
+50938,hepatitis a virus igm antibody blood,22314-9
+50939,"hepatitis b core antibody, igm blood",31204-1
+50940,hepatitis b surface antibody blood,5193-8
+50941,hepatitis b surface antigen blood,5196-1
+50942,hepatitis b virus core antibody blood,5187-0
+50943,hepatitis c virus antibody blood,16128-1
+50944,hiv antibody blood,5220-9
+50945,homocysteine blood,13965-9
+50946,human chorionic gonadotropin blood,2119-6
+50948,immunofixation blood,49275-1
+50949,immunoglobulin a blood,2458-8
+50950,immunoglobulin g blood,2465-3
+50951,immunoglobulin m blood,2472-9
+50952,iron blood,2498-4
+50953,"iron binding capacity, total blood",2500-7
+50954,lactate dehydrogenase (ld) blood,2532-0
+50956,lipase blood,3040-3
+50957,lithium blood,3719-2
+50958,luteinizing hormone blood,1599-0
+50960,magnesium blood,2601-3
+50962,n-acetylprocainamide (napa) blood,3834-9
+50963,ntprobnp blood,33762-6
+50964,"osmolality, measured blood",2692-2
+50965,parathyroid hormone blood,2731-8
+50966,phenobarbital blood,3947-9
+50967,phenytoin blood,3967-7
+50968,"phenytoin, free blood",3969-3
+50969,"phenytoin, percent free blood",10548-6
+50970,phosphate blood,2777-1
+50971,potassium blood,2823-3
+50972,procainamide blood,3982-6
+50973,prolactin blood,2842-3
+50974,prostate specific antigen blood,2857-1
+50975,protein electrophoresis blood,24351-9
+50976,"protein, total blood",2885-2
+50977,quinidine blood,6694-4
+50978,rapamycin blood,29247-4
+50980,rheumatoid factor blood,6928-6
+50981,salicylate blood,4023-8
+50982,sex hormone binding globulin blood,2942-1
+50983,sodium blood,2951-2
+50988,testosterone blood,2986-8
+50989,"testosterone, free blood",2991-8
+50990,theophylline blood,4049-3
+50991,thyroglobulin blood,3013-0
+50992,thyroid peroxidase antibodies blood,8099-4
+50993,thyroid stimulating hormone blood,3016-3
+50994,thyroxine (t4) blood,3026-2
+50995,"thyroxine (t4), free blood",3024-7
+50996,"tissue transglutaminase ab, iga blood",31017-7
+50997,tobramycin blood,35670-9
+50998,transferrin blood,2500-7
+50999,tricyclic antidepressant screen blood,4073-3
+51000,triglycerides blood,1644-4
+51001,triiodothyronine (t3) blood,3053-6
+51002,troponin i blood,10839-9
+51003,troponin t blood,6598-7
+51005,uptake ratio blood,3050-2
+51006,urea nitrogen blood,3094-0
+51007,uric acid blood,3084-1
+51008,valproic acid blood,4086-5
+51009,vancomycin blood,20578-1
+51010,vitamin b12 blood,2170-9
+51011,<albumin> cerebrospinal fluid (csf),1746-7
+51012,"bilirubin, total, csf cerebrospinal fluid (csf)",1973-7
+51014,"glucose, csf cerebrospinal fluid (csf)",2342-4
+51015,"lactate dehydrogenase, csf cerebrospinal fluid (csf)",2528-8
+51017,"pep, csf cerebrospinal fluid (csf)",24352-7
+51018,"total protein, csf cerebrospinal fluid (csf)",2880-3
+51020,"amylase, joint fluid joint fluid",14388-3
+51021,"creatinine, joint fluid joint fluid",14401-4
+51022,"glucose, joint fluid joint fluid",2348-1
+51023,"ld, joint fluid joint fluid",2533-8
+51024,"total protein, joint fluid joint fluid",2886-0
+51025,"albumin, body fluid other body fluid",1747-5
+51026,"amylase, body fluid other body fluid",1795-4
+51027,"bicarbonate, other fluid other body fluid",11211-0
+51028,"bilirubin, total, body fluid other body fluid",1974-5
+51029,"calcium, body fluid other body fluid",15155-5
+51030,"chloride, body fluid other body fluid",2072-7
+51031,"cholesterol, body fluid other body fluid",12183-0
+51032,"creatinine, body fluid other body fluid",12190-5
+51034,"glucose, body fluid other body fluid",2344-0
+51035,"ld, body fluid other body fluid",2529-6
+51036,"lipase, body fluid other body fluid",15212-4
+51037,"magnesium, body fluid other body fluid",29365-4
+51039,"osmolality, body fluid other body fluid",15200-9
+51040,"phosphate, body fluid other body fluid",12242-4
+51041,"potassium, body fluid other body fluid",2821-7
+51042,"sodium, body fluid other body fluid",2950-4
+51043,"total protein, body fluid other body fluid",2881-1
+51044,triglycer other body fluid,12228-3
+51045,"urea nitrogen, body fluid other body fluid",3093-2
+51046,"albumin, pleural pleural",1748-3
+51047,"amylase, pleural pleural",1796-2
+51048,"bicarbonate, pleural pleural",54361-1
+51049,"bilirubin, total, pleural pleural",14421-2
+51050,"chloride, pleural pleural",53627-6
+51051,"cholesterol, pleural pleural",9618-0
+51052,"creatinine, pleural pleural",14399-0
+51053,"glucose, pleural pleural",2346-5
+51054,"lactate dehydrogenase, pleural pleural",2530-4
+51059,"total protein, pleural pleural",2882-9
+51060,"triglycerides, pleural pleural",9619-8
+51061,"bicarbonate, stool stool",14040-0
+51062,"chloride, stool stool",15158-9
+51063,"osmolality, stool stool",2693-0
+51064,"potassium, stool stool",15202-5
+51065,"sodium, stool stool",15207-4
+51066,24 hr calcium urine,6874-2
+51067,24 hr creatinine urine,2162-6
+51068,24 hr protein urine,2889-4
+51069,"albumin, urine urine",1754-1
+51070,"albumin/creatinine, urine urine",14958-3
+51071,"amphetamine screen, urine urine",3349-8
+51072,"amylase, urine urine",1799-6
+51073,"amylase/creatinine ratio, urine urine",34235-2
+51074,"barbiturate screen, urine urine",3377-9
+51075,"benzodiazepine screen, urine urine",3390-2
+51076,"bicarbonate, urine urine",1964-6
+51077,"calcium, urine urine",2004-0
+51078,"chloride, urine urine",2078-4
+51079,"cocaine, urine urine",3397-7
+51080,creatinine clearance urine,33558-8
+51082,"creatinine, urine urine",2161-8
+51083,"ethanol, urine urine",5644-0
+51084,"glucose, urine urine",2350-7
+51085,"hcg, urine, qualitative urine",2106-3
+51086,"immunofixation, urine urine",49276-9
+51087,length of urine collection urine,13362-9
+51088,"magnesium, urine urine",2598-1
+51089,marijuana urine,3427-2
+51090,"methadone, urine urine",3773-9
+51091,"myoglobin, urine urine",2640-1
+51092,"opiate screen, urine urine",3879-4
+51093,"osmolality, urine urine",2695-5
+51094,ph urine,2756-5
+51095,"phosphate, urine urine",2778-9
+51096,porphobilinogen screen urine,2809-2
+51097,"potassium, urine urine",2828-2
+51098,"prot. electrophoresis, urine urine",13438-7
+51099,protein/creatinine ratio urine,2890-2
+51100,"sodium, urine urine",2955-3
+51101,total collection time urine,13362-9
+51102,"total protein, urine urine",2887-8
+51104,"urea nitrogen, urine urine",3095-7
+51105,"uric acid, urine urine",3086-6
+51108,urine volume urine,28009-9
+51109,"urine volume, total urine",28009-9
+51110,atypical lymphocytes ascites,33369-0
+51112,basophils ascites,35069-4
+51114,eosinophils ascites,30380-0
+51116,lymphocytes ascites,26482-0
+51117,macrophage ascites,40517-5
+51118,mesothelial cell ascites,30432-9
+51120,monocytes ascites,26488-7
+51124,plasma ascites,40518-3
+51125,polys ascites,26520-7
+51127,"rbc, ascites ascites",26457-2
+51128,"wbc, ascites ascites",26468-9
+51130,absolute cd3 count blood,8124-0
+51131,absolute cd4 count blood,8128-1
+51132,absolute cd8 count blood,8138-0
+51133,absolute lymphocyte count blood,26474-7
+51134,acanthocytes blood,7789-1
+51137,anisocytosis blood,702-1
+51138,anticardiolipin antibody igg blood,8065-5
+51139,anticardiolipin antibody igm blood,3182-3
+51140,antithrombin blood,27811-9
+51143,atypical lymphocytes blood,733-6
+51144,bands blood,763-3
+51145,basophilic stippling blood,703-9
+51146,basophils blood,704-7
+51147,bite cells blood,10371-3
+51148,blasts blood,708-8
+51149,bleeding time blood,11067-6
+51150,blood parasite smear blood,24429-3
+51151,burr cells blood,7790-9
+51152,cd10 blood,8107-5
+51154,cd117 blood,17107-4
+51155,cd11c blood,8109-1
+51156,cd13 blood,8110-9
+51157,cd138 blood,42869-8
+51158,cd14 blood,8111-7
+51159,cd15 blood,17117-3
+51160,cd16/56 blood,18267-5
+51161,cd16 blood,8115-8
+51164,cd19 blood,8117-4
+51167,cd2 blood,8118-2
+51168,cd20 blood,8119-0
+51171,cd22 blood,14017-8
+51172,cd23 blood,14018-6
+51176,"cd3 cells, percent blood",8122-4
+51177,cd33 blood,8102-6
+51178,cd34 blood,8125-7
+51179,cd38 blood,8126-5
+51180,"cd4 cells, percent blood",8127-3
+51181,cd4/cd8 ratio blood,8129-9
+51182,cd41 blood,17148-8
+51183,cd45 blood,8130-7
+51184,cd5 blood,8132-3
+51187,cd55 blood,17175-1
+51188,cd56 blood,8133-1
+51190,cd59 blood,17177-7
+51191,cd64 blood,17183-5
+51192,cd7 blood,8135-6
+51193,cd71 blood,8136-4
+51194,"cd8 cells, percent blood",8137-2
+51196,d-dimer blood,48065-7
+51197,elliptocytes blood,6681-1
+51198,envelope cells blood,681-7
+51199,eosinophil count blood,26449-9
+51200,eosinophils blood,711-2
+51202,factor ii blood,3289-6
+51203,factor ix blood,3188-0
+51204,factor v blood,3193-0
+51205,factor vii blood,3198-9
+51206,factor viii blood,3209-4
+51207,factor viii inhibitor blood,3204-5
+51208,factor x blood,3218-5
+51209,factor xi blood,3226-8
+51210,factor xii blood,3232-6
+51211,factor xiii blood,3240-9
+51212,fetal hemoglobin blood,4576-5
+51213,fibrin degradation products blood,30226-5
+51214,"fibrinogen, functional blood",3255-7
+51215,fmc-7 blood,17220-5
+51216,fragmented cells blood,10373-9
+51217,glyco a blood,17221-3
+51218,granulocyte count blood,30394-1
+51219,h/o smear blood,38924-7
+51220,heinz body prep blood,48068-1
+51221,hematocrit blood,4544-3
+51222,hemoglobin blood,718-7
+51223,hemoglobin a2 blood,4552-6
+51224,hemoglobin c blood,4561-7
+51225,hemoglobin f blood,9749-3
+51226,hemogloblin a blood,10346-5
+51227,hemogloblin s blood,4622-7
+51228,heparin blood,13055-9
+51229,"heparin, lmw blood",32684-3
+51230,hla-dr blood,32621-5
+51231,howell-jolly bodies blood,7793-3
+51232,hypersegmented neutrophils blood,766-6
+51233,hypochromia blood,728-6
+51237,inr(pt) blood,5895-7
+51240,large platelets blood,34167-7
+51241,leukocyte alkaline phosphatase blood,4659-9
+51244,lymphocytes blood,731-0
+51245,"lymphocytes, percent blood",26478-8
+51246,macrocytes blood,738-5
+51247,macroovalocytes blood,10376-2
+51248,mch blood,785-6
+51249,mchc blood,786-4
+51250,mcv blood,787-2
+51251,metamyelocytes blood,28541-1
+51252,microcytes blood,741-9
+51253,monocyte count blood,26484-6
+51254,monocytes blood,742-7
+51255,myelocytes blood,26498-6
+51256,neutrophils blood,761-7
+51257,nucleated red cells blood,772-4
+51258,osmotic fragility blood,34964-7
+51259,other cells blood,729-4
+51260,ovalocytes blood,774-0
+51261,pappenheimer bodies blood,7795-8
+51262,pencil cells blood,10377-0
+51263,plasma cells blood,13047-6
+51264,platelet clumps blood,40741-1
+51265,platelet count blood,777-3
+51266,platelet smear blood,778-1
+51267,poikilocytosis blood,779-9
+51268,polychromasia blood,10378-8
+51269,promyelocytes blood,781-5
+51270,"protein c, antigen blood",27820-0
+51271,"protein c, functional blood",27818-4
+51272,"protein s, antigen blood",27823-4
+51273,"protein s, functional blood",31102-7
+51274,pt blood,5902-2
+51275,ptt blood,3173-2
+51276,quantitative g6pd blood,32546-4
+51277,rdw blood,788-0
+51279,red blood cells blood,789-8
+51280,reptilase time blood,6683-7
+51282,"reticulocyte count, absolute blood",14196-0
+51283,"reticulocyte count, automated blood",17849-1
+51284,"reticulocyte count, manual blood",31112-6
+51287,schistocytes blood,800-3
+51288,sedimentation rate blood,4537-7
+51289,serum viscosity blood,3128-6
+51290,sickle cell preparation blood,6864-3
+51291,sickle cells blood,801-1
+51292,spherocytes blood,802-9
+51293,sugar water test blood,12260-6
+51294,target cells blood,10381-2
+51296,teardrop cells blood,7791-7
+51297,thrombin blood,3243-3
+51298,von willebrand factor activity blood,6014-5
+51299,von willebrand factor antigen blood,6012-9
+51300,wbc count blood,26464-8
+51301,white blood cells blood,804-5
+51302,young cells blood,51633-6
+51303,cd10 bone marrow,51216-0
+51304,cd103 bone marrow,51221-0
+51305,cd117 bone marrow,42866-4
+51306,cd11c bone marrow,33202-3
+51307,cd13 bone marrow,51237-6
+51309,cd14 bone marrow,32507-6
+51310,cd15 bone marrow,51251-7
+51312,cd16/56 bone marrow,51255-8
+51313,cd19 bone marrow,32525-8
+51314,cd2 bone marrow,32527-4
+51317,cd23 bone marrow,51268-1
+51319,cd3 bone marrow,32529-0
+51320,cd33 bone marrow,51293-9
+51321,cd34 bone marrow,57400-4
+51323,cd4 bone marrow,51301-0
+51324,cd41 bone marrow,51319-2
+51325,cd45 bone marrow,51340-8
+51326,cd5 bone marrow,35640-2
+51327,cd55 bone marrow,51344-0
+51330,cd59 bone marrow,51358-0
+51331,cd64 bone marrow,51365-5
+51332,cd7 bone marrow,35641-0
+51334,cd8 bone marrow,51372-1
+51336,glyco a bone marrow,33208-0
+51337,hla-dr bone marrow,51380-4
+51339,iron stain bone marrow,13513-7
+51342,wright giemsa bone marrow,10355-6
+51343,atypical lymphocytes cerebrospinal fluid (csf),30416-2
+51344,bands cerebrospinal fluid (csf),26509-0
+51345,basophils cerebrospinal fluid (csf),30374-3
+51473,cysteine crystals urine,5782-8
+51474,eosinophils urine,25156-1
+51476,epithelial cells urine,5787-7
+51477,free fat urine,53359-6
+51478,glucose urine,5792-7
+51479,granular casts urine,5793-5
+51480,hematocrit urine,17809-5
+51481,hemosiderin urine,4644-1
+51482,hyaline casts urine,5796-8
+51483,hyphenated yeast urine,41865-7
+51484,ketone urine,5797-6
+51485,leucine crystals urine,5798-4
+51486,leukocytes urine,5799-2
+51487,nitrite urine,5802-4
+51488,non-squamous epithelial cells urine,41284-1
+51489,nonsquamous epithelial cell urine,41284-1
+51491,ph urine,5803-2
+51492,protein urine,5804-0
+51493,rbc urine,5808-1
+51494,rbc casts urine,5807-3
+51497,renal epithelial cells urine,26052-1
+51498,specific gravity urine,5811-5
+51499,sperm urine,8248-7
+51500,sulfonamides urine,5812-3
+51501,transitional epithelial cells urine,30089-7
+51502,trichomonas urine,32724-7
+51503,triple phosphate crystals urine,5814-9
+51504,tyrosine crystals urine,5815-6
+51505,uric acid crystals urine,5817-2
+51506,urine appearance urine,5767-9
+51507,"urine casts, other urine",9842-6
+51508,urine color urine,5778-6
+51510,"urine crystals, other urine",5783-6
+51511,urine fat bodies urine,2272-3
+51512,urine mucous urine,8247-9
+51513,urine specimen type urine,19159-3
+51514,urobilinogen urine,5818-0
+51515,waxy casts urine,5819-8
+51516,wbc urine,5821-4
+51517,wbc casts urine,5820-6
+51519,yeast urine,5822-2
+51520,anti-mc blood,32042-4
+51522,pg other body fluid,48785-0
+51524,fatty urine,5789-3

@@ -1,0 +1,2 @@
+threshold,precision,recall,f1_score,true_positives,true_negatives,false_positives,false_negatives,workload_reduction
+-0.4228322,0.5747126436781609,1.0,0.7299270072992701,100,26,74,0,0.13

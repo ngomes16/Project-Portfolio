@@ -1,0 +1,11 @@
+source_text,true_mappable,pred_mappable,similarity,true_loinc,top_prediction,top_similarity
+sodium,True,False,-0.76656735,2951-2,2823-3,0.7665673494338989
+k+,True,False,-0.6438303,2823-3,2823-3,0.6438302993774414
+k,True,False,-0.79145914,2823-3,2823-3,0.7914591431617737
+"Creatinine, Serum",False,True,-0.34865832,,,
+sodium level,True,False,-0.71385264,2951-2,2823-3,0.7138526439666748
+Blood Culture Hold,False,True,-0.37817067,,,
+"Hematocrit, Joint Fluid",False,True,-0.27138972,,,
+"Potassium, Pleural",False,True,-0.3133235,,,
+"Hematocrit, Pleural",False,True,-0.379264,,,
+"Reticulocyte, Cellular Hemoglobin",False,True,-0.32169545,,,

@@ -1,0 +1,201 @@
+source,is_mappable,predicted_mappable,max_similarity
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+,True,True,-0.4228322
+"ACID PHOSPHATASE, PROSTATIC",False,True,-0.34707695
+Young Cells,False,True,-0.31121594
+CD16,False,True,-0.29612738
+Promyelocytes,False,True,-0.23400784
+STDY HOLD,False,True,-0.39131814
+VOIDED SPECIMEN,False,True,-0.32839394
+VOIDED SPECIMEN,False,True,-0.32839394
+Fax,False,False,-0.43982214
+Epinepherine,False,False,-0.43104643
+Red Top Hold,False,False,-0.49236512
+CD34,False,True,-0.34116375
+VOIDED SPECIMEN,False,True,-0.32839394
+RBC Clumps,False,True,-0.38856632
+Blood Culture Hold,False,True,-0.25805628
+FetalFN,False,True,-0.32789218
+Promyelocytes,False,True,-0.23400784
+"Hematocrit, Pleural",False,True,-0.30280697
+Kappa,False,False,-0.53181714
+Uhold,False,True,-0.37755048
+Inpatient Hematology/Oncology Smear,False,True,-0.27343303
+Lambda,False,False,-0.50279975
+CD57,False,True,-0.30520552
+Cellular Cast,False,True,-0.41785836
+Kappa,False,False,-0.53181714
+CD103,False,True,-0.2853592
+"Joint Crystals, Shape",False,True,-0.3289947
+Myelocytes,False,True,-0.31057596
+CD25,False,True,-0.39457303
+Urine Creatinine,False,True,-0.15891963
+"HCG, Maternal Screen",False,True,-0.3180831
+"AFP, Maternal Screen",False,True,-0.35877174
+I,False,True,-0.37239933
+MYELOS,False,False,-0.60698146
+LUC,False,True,-0.2718976
+"Miscellaneous, Body Fluid",False,True,-0.40827167
+WBC Clumps,False,False,-0.4766584
+Promyelocytes,False,True,-0.23400784
+CD16/56%,False,True,-0.38801634
+"Reducing Substances, Urine",False,True,-0.24247748
+PROBLEM SPECIMEN,False,True,-0.38480282
+Arachadonic Acid,False,True,-0.38818747
+Reptilase Time Control,False,True,-0.38021642
+Myelocytes,False,True,-0.31057596
+AF-AFP,False,False,-0.4751162
+Urine Comments,False,True,-0.13866913
+CD20 Absolute Count,False,False,-0.42659414
+"Chloride, CSF",False,True,-0.37776703
+Temperature,False,True,-0.34435362
+CD71,False,True,-0.30341786
+Bands,False,False,-0.56236166
+CD5 %,False,True,-0.31675732
+VOIDED SPECIMEN,False,True,-0.32839394
+CD20 %,False,True,-0.3731913
+Other,False,True,-0.41094095
+"Albumin, Joint Fluid",False,True,-0.38247675
+Oval Fat Body,False,True,-0.40892333
+"Joint Crystals, Comment",False,True,-0.30579466
+NRBC,False,False,-0.5055127
+Bands,False,False,-0.56236166
+STDYURINE,False,True,-0.22206855
+Ventilator,False,True,-0.34628862
+"Acid Phosphatase, Non-Prostatic",False,False,-0.47631967
+"Hematocrit, Joint Fluid",False,True,-0.27767575
+MS-DIA,False,False,-0.5343315
+SPECIMEN TYPE,False,True,-0.35607636
+"Miscellaneous, CSF",False,False,-0.4598421
+FMC-7,False,False,-0.42771912
+CD19 Absolute Count,False,True,-0.35201514
+Metamyelocytes,False,True,-0.37819135
+CD3 Absolute Count,False,True,-0.3793453
+"Reticulocyte, Cellular Hemoglobin",False,True,-0.22361863
+Immunophenotyping,False,True,-0.25083184
+CD57,False,True,-0.30520552
+TdT,False,False,-0.5220209
+"UE3, Maternal Screen",False,True,-0.38595206
+Anti-DGP (IgA/IgG),False,True,-0.3276164
+CD20,False,True,-0.32680583
+Other,False,True,-0.41094095
+25-OH Vitamin D,False,False,-0.46274322
+CD138,False,True,-0.34092396
+Metamyelocytes,False,True,-0.37819135
+Blasts,False,False,-0.4459322
+CD38,False,True,-0.315507
+Metamyelocytes,False,True,-0.37819135
+Blasts,False,False,-0.4459322
+Other,False,True,-0.41094095
+"Miscellaneous, Ascites",False,False,-0.47204065
+CD19 %,False,True,-0.35268998
+Young,False,True,-0.34946787
+Lupus Anticoagulant,False,False,-0.42786485
+VOIDED SPECIMEN,False,True,-0.32839394
+FRUCAMN+,False,False,-0.60485333
+Blue Top Hold Frozen,False,False,-0.5298894
+Immunophenotyping,False,True,-0.25083172
+Stat,False,False,-0.44531006
+"Sodium, Pleural",False,True,-0.40242952
+Comments,False,True,-0.34025317
+VOIDED SPECIMEN,False,True,-0.32839382
+CD56,False,True,-0.2615589
+Epithelial Casts,False,True,-0.3884521

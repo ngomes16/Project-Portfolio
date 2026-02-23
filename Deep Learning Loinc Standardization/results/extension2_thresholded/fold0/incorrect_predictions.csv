@@ -1,0 +1,11 @@
+source_text,true_mappable,pred_mappable,similarity,true_loinc,top_prediction,top_similarity
+"Hematocrit, Ascites",False,True,-0.39998454,,,
+Red Blood Cell Fragments,False,True,-0.39984852,,,
+"Potassium, Pleural",False,True,-0.34153622,,,
+sodium level,True,False,-0.714494,2951-2,2823-3,0.714493989944458
+"Hematocrit, Pleural",False,True,-0.3979951,,,
+white count,True,False,-0.7917749,6690-2,6690-2,0.7917749285697937
+Blood Culture Hold,False,True,-0.3866914,,,
+"Hematocrit, Joint Fluid",False,True,-0.28115892,,,
+k,True,False,-0.82646614,2823-3,2823-3,0.8264661431312561
+plt,True,False,-0.8865123,777-3,2823-3,0.886512279510498

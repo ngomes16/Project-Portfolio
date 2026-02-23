@@ -1,0 +1,415 @@
+# LOINC Code Standardization Project: Detailed Implementation Report
+
+## 1. Project Overview
+
+This project implements a two-stage fine-tuning approach for standardizing laboratory test descriptions to LOINC codes, following the methodology described in "Automated LOINC Standardization Using Pre-trained Large Language Models". The implementation focuses on comprehensive data preprocessing, augmentation, and preparation for model training.
+
+The project addresses a critical challenge in healthcare informatics: mapping diverse local laboratory test descriptions to standardized LOINC codes. This standardization is essential for interoperability between different healthcare systems and for enabling large-scale data analysis across institutions.
+
+## 2. Dataset Processing
+
+### 2.1 Datasets
+- **MIMIC-III D_LABITEMS**: Contains 753 local laboratory item definitions with labels, fluid types, and LOINC mappings
+- **LOINC Database**: Contains 98,483 standard LOINC codes with multiple text representations
+
+### 2.2 Basic Preprocessing (Stage 1)
+
+#### LOINC Dataset Processing
+- Implemented in `process_loinc.py`
+- Initially sampled 10% random LOINC codes (~9,848 codes)
+- Selected relevant columns: LOINC_NUM, LONG_COMMON_NAME, SHORTNAME, DisplayName, RELATEDNAMES2
+- Converted all text to lowercase
+- Handled missing values by replacing with empty strings
+- Output: `loinc_targets_processed.csv`
+
+#### MIMIC-III Processing 
+- Implemented in `process_mimic.py`
+- Created source-target pairs by concatenating LABEL and FLUID fields
+- Filtered out entries without valid LOINC codes
+- Converted source text to lowercase
+- Resulted in 575 unique source-target LOINC mappings
+- Output: `mimic_pairs_processed.csv`
+
+### 2.3 Data Augmentation Techniques
+
+Four techniques implemented in `data_augmentation.py`:
+
+1. **Character-level random deletion**:
+   - Randomly removed characters with probability p=0.1
+   - Preserved word structure while introducing noise
+   - Example: "hemoglobin" → "hemoglbin"
+   - Implementation uses random probability checks for each character
+
+2. **Word-level random swapping**:
+   - Randomly swapped adjacent words
+   - Maximum of 2 swaps per text
+   - Example: "white blood cell count" → "blood white cell count"
+   - Implementation maintains original meaning while creating syntactic variations
+
+3. **Word-level random insertion**:
+   - Inserted words from related terms
+   - Used RELATEDNAMES2 field from LOINC database
+   - Maximum of 2 insertions per text
+   - Example: "platelet count" → "platelet thrombocyte count"
+   - Implementation ensures inserted words are semantically related to maintain validity
+
+4. **Acronym substitution**:
+   - Implemented substitution between words/phrases and their acronyms
+   - Created mappings like "hemoglobin" → "hgb", "white blood cell" → "wbc"
+   - Applied bidirectionally (expanded acronyms and created acronyms)
+   - Example: "complete blood count" → "cbc" and "wbc" → "white blood cell"
+   - Implementation uses a custom dictionary of medical acronyms and their expansions
+
+### 2.4 Advanced Preprocessing (Stage 2)
+
+#### Full LOINC Dataset Processing
+- Processed entire LOINC database, filtering for laboratory and clinical categories
+- Applied strict filtering using CLASS field for categories like CHEM, HEM/BC, MICRO
+- Resulted in 46,449 laboratory and clinical LOINC codes
+- Output: `loinc_full_processed.csv`
+- Implementation ensures focus on relevant laboratory and clinical tests
+
+#### Stratified 5-Fold Cross-Validation
+- Implemented in `create_stratified_folds()` function
+- Created stratified folds based on target LOINC codes
+- Special handling for rare LOINC classes with fewer than 5 samples:
+  - Identified 575 target LOINC codes, many with limited samples
+  - Grouped into frequent (≥5 samples) and rare (<5 samples) classes
+  - Applied stratified folding to frequent classes
+  - Distributed rare classes evenly across folds
+- Split each fold into:
+  - 80% training (train_idx)
+  - 10% validation (val_idx) 
+  - 10% test (test_idx)
+- Saved fold indices to disk for reproducibility
+- Implementation ensures fair distribution of rare classes across folds
+
+#### Triplet Generation for Contrastive Learning
+
+1. **Stage 1 Triplets** (target-only):
+   - Generated 10,000 triplets from LOINC dataset
+   - Created augmented text representations for each LOINC code
+   - Each triplet consists of (anchor, positive, negative):
+     - Anchor: Text representation of a LOINC code
+     - Positive: Different text representation of the same LOINC code
+     - Negative: Text representation of a different LOINC code
+   - Output: `stage1_triplets.txt`
+   - Format: Each line contains "anchor|positive|negative"
+   - Implementation ensures no overlap between positive and negative examples
+
+2. **Stage 2 Triplets** (source-target pairs):
+   - Generated 5,000 triplets per fold (25,000 total)
+   - Used augmented source texts mapping to the same target LOINC
+   - Each triplet consists of:
+     - Anchor: Source text for a LOINC code
+     - Positive: Different source text for the same LOINC code
+     - Negative: Source text for a different LOINC code
+   - Output: `stage2_fold{i}_triplets.txt` for each fold
+   - Implementation ensures triplets are generated only from training data for each fold
+
+#### Target Pool Expansion
+- Expanded target pool from 575 to 2,575 LOINC codes
+- Added 2,000 most common LOINC codes from the full dataset
+- Purpose: Enable "Type-2" generalization testing as described in the paper
+- Output: `expanded_target_pool.txt`
+- Implementation simulates real-world scenario where models must predict from a larger set of potential targets
+
+## 3. Model Implementation
+
+### 3.1 Model Architecture
+
+We've implemented the model architecture as described in the paper using TensorFlow and Keras:
+
+#### T5 Encoder Model (`models/t5_encoder.py`)
+- **Main Class**: `LOINCEncoder` (subclass of `tf.keras.Model`)
+- **Backbone**: Pre-trained Sentence-T5 (ST5-base) model loaded from TensorFlow Hub
+  - Frozen during training (non-trainable)
+  - Outputs 768-dimensional embeddings
+- **Projection Layer**: Dense layer that reduces embedding dimensions from 768 to 128
+  - Fully trainable during both training stages
+- **Normalization**: L2 normalization layer to ensure unit length for cosine distance computation
+- **Dropout Layer**: Added dropout (rate=0.1) before projection layer, enabled only in Stage 2
+- **Forward Pass**: Text inputs → ST5 encoder → (Dropout in Stage 2) → Projection → L2 normalization → 128-dim embeddings
+
+#### Triplet Loss Implementation (`models/triplet_loss.py`)
+- **Cosine Distance**: Implemented as `1 - cosine_similarity` between embeddings
+- **Main Triplet Loss**: Computed according to the paper's formula:
+  ```
+  L = max(0, D_cos(anchor, positive)² - D_cos(anchor, negative)² + margin)
+  ```
+  Where margin = 0.8 as specified in the paper
+- **Hard Negative Mining**: Finds hardest positive (furthest same-class sample) and hardest negative (closest different-class sample) for each anchor
+- **Semi-Hard Negative Mining**: Finds semi-hard negatives (further from anchor than positive, but within margin) for more stable training
+- **Batch Processing**: Efficient implementation using TensorFlow operations for matrix-based computation
+
+#### Triplet Mining (`models/triplet_mining.py`)
+- **Stage 1 Triplet Generation**: Creates triplets from LOINC target text representations
+- **Stage 2 Triplet Generation**: Creates triplets from source-target pairs
+- **Batch Generator**: Custom `tf.keras.utils.Sequence` implementation for efficient training
+  - Handles batches of triplets (anchor, positive, negative)
+  - Supports shuffling between epochs
+  - Properly converts data to TensorFlow tensors
+
+### 3.2 Training Implementation
+
+The two-stage training pipeline is implemented in `models/train.py`:
+
+#### Data Loading Functions
+- **Stage 1 Data Loading**: Loads processed LOINC data and generates triplets
+- **Stage 2 Data Loading**: Loads processed MIMIC-III data and generates triplets for each fold
+
+#### Custom Training Loop
+- **Custom Gradient Tape**: Implemented custom training loop using `tf.GradientTape` for both stages
+- **CPU-based Text Processing**: Forces text processing operations to run on CPU to avoid GPU compatibility issues
+- **Stage 1 Training**: Implements training on LOINC target-only corpus
+  - Learning rate: 1e-4
+  - Epochs: 30
+  - Batch size: Can be configured (default: 900, recommended: 32-128 for memory constraints)
+  - Semi-hard negative mining
+- **Stage 2 Training**: Implements training on MIMIC-III source-target pairs
+  - Learning rate: 1e-5
+  - Epochs: 30
+  - Batch size: Configurable
+  - Hard negative mining
+  - Cross-validation support with 5 folds
+  - Dropout enabled for regularization
+
+#### Model Checkpointing
+- **Validation-based Saving**: Saves models when validation loss improves
+- **Stage 1 Checkpoints**: Saves the best model from Stage 1
+- **Stage 2 Checkpoints**: Saves the best model for each fold in Stage 2
+
+### 3.3 Evaluation and Inference
+
+#### Evaluation (`models/evaluation.py`)
+- **Test Data Loading**: Loads test data and handles fold-based cross-validation
+- **Augmented Test Set**: Creates variations of test samples to simulate real-world variability
+- **Embedding Computation**: Efficiently computes embeddings for source and target texts
+- **Metrics Calculation**:
+  - Top-k accuracy (k=1,3,5,10)
+  - Mean Reciprocal Rank (MRR)
+- **Type-1 and Type-2 Evaluation**: Supports both generalization test types
+  - Type-1: Same LOINC targets, different source encodings
+  - Type-2: Unseen LOINC targets (expanded target pool)
+
+#### Inference (`models/inference.py`)
+- **Target Loading**: Loads target LOINC codes from various file formats
+- **Prediction Function**: Computes embeddings and finds most similar targets
+- **Batch Processing**: Supports both single and batch prediction
+- **Command-Line Interface**: Easy-to-use interface for making predictions
+
+### 3.4 Runner Script (`run_model.sh`)
+- **Environment Setup**: Activates the virtual environment
+- **Command Parsing**: Handles train, evaluate, and predict commands
+- **Parameter Passing**: Passes command-line arguments to the appropriate Python script
+
+## 4. Implementation Challenges and Solutions
+
+### 4.1 Handling TensorFlow Hub Models
+- **Challenge**: The Sentence-T5 model from TensorFlow Hub returned outputs in unexpected formats
+- **Solution**: Implemented robust handling for various output types (list, dict, tensor) with fallback mechanisms
+- **Technical details**: Added code to extract embeddings from different potential output structures
+- **Impact**: Robust model that can handle different versions of TensorFlow and Hub models
+
+### 4.2 GPU Compatibility Issues
+- **Challenge**: String operations in TensorFlow are not well-supported on GPU
+- **Solution**: Forced text processing operations to run on CPU by using `tf.device('/CPU:0')` context managers
+- **Technical details**: Applied CPU context to encoder initialization and forward passes
+- **Impact**: Eliminated GPU-related errors when processing text inputs
+
+### 4.3 Training Loop Design
+- **Challenge**: Built-in Keras training loops had difficulties with triplet loss
+- **Solution**: Implemented custom training loops using `tf.GradientTape`
+- **Technical details**: Created separate train and validation steps with proper gradient tracking
+- **Impact**: More control over the training process and better error handling
+
+### 4.4 Batch Generation
+- **Challenge**: Ensuring proper tensor formats for triplet inputs
+- **Solution**: Modified `TripletBatchGenerator` to convert inputs to TensorFlow tensors
+- **Technical details**: Used `tf.constant` to convert Python lists to tensors
+- **Impact**: Eliminated shape and dtype errors during training
+
+### 4.5 Memory Management
+- **Challenge**: Large batch sizes caused memory issues
+- **Solution**: Made batch size configurable and recommended smaller values
+- **Technical details**: Added batch_size parameter to CLI and reduced default for memory-constrained environments
+- **Impact**: Made training possible on machines with limited memory
+
+## 5. Experimental Results
+
+### 5.1 What Worked
+
+- **T5 Encoder Architecture**: Successfully implemented the paper's architecture with the ST5-base backbone
+- **Dropout Regularization**: Properly implemented dropout for Stage 2 as specified in the paper
+- **CPU-based Text Processing**: Avoided GPU compatibility issues by forcing text operations to run on CPU
+- **Custom Training Loop**: Eliminated issues with Keras's built-in training by using gradient tape
+- **Triplet Mining Strategies**: Implemented both hard and semi-hard negative mining as described in the paper
+
+### 5.2 What Didn't Work
+
+- **GPU for Text Processing**: Attempts to use GPU for text operations led to incompatibility errors
+- **Built-in Keras Fit Method**: Initial attempts to use the standard model.fit() with a triplet loss wrapper failed
+- **@tf.function Decorator**: Using this on the training steps caused issues with string operations
+- **Large Batch Sizes**: The recommended batch size of 900 from the paper caused memory issues
+
+## 6. Next Steps
+
+### 6.1 Training and Evaluation
+
+1. **Complete Full Training**:
+   - Run Stage 1 training with semi-hard mining (current command)
+   - Verify Stage 1 model weights are properly saved
+   - Run Stage 2 training with hard mining for each fold
+   - Monitor training and validation loss curves
+
+2. **Comprehensive Evaluation**:
+   - Evaluate on test sets for all 5 folds
+   - Compute average metrics across folds (Top-k accuracy)
+   - Compare results to baselines reported in the paper
+   - Analyze Type-1 vs Type-2 generalization performance
+
+3. **Inference Testing**:
+   - Test with real-world examples from outside the training set
+   - Analyze performance on ambiguous or complex lab descriptions
+   - Document common error patterns for further improvement
+
+### 6.2 Potential Improvements
+
+1. **Training Optimizations**:
+   - Experiment with different learning rates
+   - Try longer training for Stage 1 (>30 epochs)
+   - Test different batch sizes for optimal performance
+   - Implement learning rate scheduling
+
+2. **Model Enhancements**:
+   - Test larger T5 models (ST5-large) for potentially better performance
+   - Experiment with making part of the T5 backbone trainable
+   - Add batch normalization layers to improve training stability
+
+3. **Data Augmentation Improvements**:
+   - Create more sophisticated augmentation techniques
+   - Incorporate domain-specific medical knowledge
+   - Increase the number of augmented samples for rare LOINC codes
+
+4. **Inference Optimizations**:
+   - Implement embedding caching for target codes
+   - Add support for approximate nearest neighbor search for faster inference
+   - Create a web interface for easy access to the model
+
+### 6.3 Documentation and Deployment
+
+1. **Comprehensive Documentation**:
+   - Document model architecture and training details
+   - Create usage guides for each component
+   - Add examples of common use cases
+
+2. **Deployment Preparation**:
+   - Convert model to TensorFlow Lite or ONNX for faster inference
+   - Create Docker container for easy deployment
+   - Implement a simple API for integration with other systems
+
+3. **Performance Monitoring**:
+   - Add logging for model performance over time
+   - Create dashboard for visualizing results
+   - Implement A/B testing for different model versions
+
+## 7. Project Structure
+
+```
+/
+├── data/                      # Data files
+│   ├── MIMIC-III/            # MIMIC-III dataset
+│   │   └── D_LABITEMS.csv    # Lab items definitions
+│   └── LOINC/                # LOINC database
+│       └── Loinc.csv         # LOINC codes and descriptions
+│
+├── preprocessing/            # Preprocessing scripts
+│   ├── process_loinc.py      # LOINC data processing
+│   ├── process_mimic.py      # MIMIC-III data processing
+│   ├── data_augmentation.py  # Data augmentation techniques
+│   ├── main.py               # Basic preprocessing orchestration
+│   ├── main_augmented.py     # Enhanced preprocessing with augmentation
+│   └── advanced_preprocessing.py # Advanced preprocessing steps
+│
+├── output/                   # Generated files
+│   ├── loinc_targets_processed.csv     # Processed LOINC targets
+│   ├── mimic_pairs_processed.csv       # Processed MIMIC-III pairs
+│   ├── loinc_full_processed.csv        # Full LOINC dataset
+│   ├── stratified_folds.npy            # Cross-validation folds
+│   ├── stage1_triplets.txt             # Stage 1 triplets
+│   ├── stage2_fold*_triplets.txt       # Stage 2 triplets by fold
+│   └── expanded_target_pool.txt        # Expanded target LOINCs
+│
+├── models/                   # Model implementation
+│   ├── t5_encoder.py         # T5 encoder model architecture
+│   ├── triplet_loss.py       # Triplet loss and mining strategies
+│   ├── triplet_mining.py     # Triplet generation and batch handling
+│   ├── train.py              # Two-stage training implementation
+│   ├── evaluation.py         # Model evaluation metrics
+│   ├── inference.py          # Prediction interface
+│   ├── checkpoints/          # Model weights storage
+│   └── README.md             # Model usage documentation
+│
+├── utils/                    # Utility functions
+│   ├── evaluation.py         # Additional evaluation metrics
+│   └── visualization.py      # Visualization tools
+│
+├── run_model.sh              # Script to run model commands
+├── run_all.sh                # Script to run all processing steps
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project documentation
+```
+
+## 8. Recommendations for Running the Model
+
+1. **Stage 1 Training**:
+   ```
+   ./run_model.sh train --loinc_file loinc_full_processed.csv --stage1_only --batch_size 32
+   ```
+   Consider using a smaller batch size (32-128) to avoid memory issues.
+
+2. **Stage 2 Training**:
+   ```
+   ./run_model.sh train --loinc_file loinc_full_processed.csv --mimic_file mimic_pairs_processed.csv --stage2_only --batch_size 32
+   ```
+   Run after Stage 1 to fine-tune on source-target pairs.
+
+3. **Full Pipeline**:
+   ```
+   ./run_model.sh train --loinc_file loinc_full_processed.csv --mimic_file mimic_pairs_processed.csv --batch_size 32
+   ```
+   Runs both stages in sequence.
+
+4. **Evaluation**:
+   ```
+   ./run_model.sh evaluate --fold_idx 0 --augmented
+   ```
+   Evaluates the model on the augmented test set for fold 0.
+
+5. **Inference**:
+   ```
+   ./run_model.sh predict "hemoglobin blood"
+   ```
+   Use for making predictions on new lab test descriptions.
+
+## 9. Dependencies
+
+The project requires the following Python packages:
+- pandas>=1.0.0: For data manipulation and processing
+- numpy>=1.18.0: For numerical operations
+- scikit-learn>=0.24.0: For model evaluation and cross-validation
+- matplotlib>=3.3.0: For visualization
+- tensorflow>=2.5.0: For model implementation
+- tensorflow-hub>=0.12.0: For pre-trained models
+- tensorflow-text>=2.5.0: For text preprocessing
+- tqdm>=4.62.0: For progress bars
+- sentence-transformers>=4.0.0: For advanced embedding functionality
+
+## 10. References
+
+1. "Automated LOINC Standardization Using Pre-trained Large Language Models" by Tu et al.
+2. LOINC (Logical Observation Identifiers Names and Codes): https://loinc.org/
+3. MIMIC-III Clinical Database: https://physionet.org/content/mimiciii/
+4. T5: Text-to-Text Transfer Transformer: https://arxiv.org/abs/1910.10683
+5. Triplet Loss: https://arxiv.org/abs/1503.03832 (FaceNet paper)
+6. Sentence-T5: https://huggingface.co/sentence-transformers/sentence-t5-base 

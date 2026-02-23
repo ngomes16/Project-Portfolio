@@ -1,0 +1,101 @@
+SOURCE,LOINC_NUM,is_augmented,TARGET
+hemoglobin blood,718-7,False,Hemoglobin [Mass/volume] in Blood
+hgb serum,718-7,False,Hemoglobin [Mass/volume] in Serum
+hgb,718-7,False,Hemoglobin [Mass/volume] in Blood
+hemoglobin,718-7,False,Hemoglobin [Mass/volume] in Blood
+potassium serum,2823-3,False,Potassium [Moles/volume] in Serum
+potassium plasma,2823-3,False,Potassium [Moles/volume] in Plasma
+k,2823-3,False,Potassium [Moles/volume] in Serum
+k+,2823-3,False,Potassium [Moles/volume] in Serum
+wbc count,6690-2,False,Leukocytes [#/volume] in Blood by Automated count
+white blood cell count,6690-2,False,Leukocytes [#/volume] in Blood by Automated count
+leukocytes,6690-2,False,Leukocytes [#/volume] in Blood by Automated count
+white count,6690-2,False,Leukocytes [#/volume] in Blood by Automated count
+plt,777-3,False,Platelets [#/volume] in Blood by Automated count
+platelet count,777-3,False,Platelets [#/volume] in Blood by Automated count
+thrombocytes,777-3,False,Platelets [#/volume] in Blood by Automated count
+platelets,777-3,False,Platelets [#/volume] in Blood by Automated count
+sodium,2951-2,False,Sodium [Moles/volume] in Serum
+na,2951-2,False,Sodium [Moles/volume] in Serum
+sodium level,2951-2,False,Sodium [Moles/volume] in Serum
+na serum,2951-2 ,False,Sodium [Moles/volume] in Serum
+hemoglobin hemoglobin lood blood,718-7,True,
+hemoglobin blood hemoglobin hemoglobin,718-7,True,
+hemoglobin blood hemoglobin hemoglobin,718-7,True,
+blood blood hemoglobin blood,718-7,True,
+serum hgb,718-7,True,
+serum hgb,718-7,True,
+serum serum hgb serum,718-7,True,
+hgb serum,718-7,True,
+hemoglobin hemoglobin,718-7,True,
+hemoglobin hemoglobin,718-7,True,
+hg,718-7,True,
+hgb hgb,718-7,True,
+hemoglobin hemoglobin,718-7,True,
+hemoglobin,718-7,True,
+hemoglobin hemoglobi,718-7,True,
+hemoglobin hemoglobin,718-7,True,
+serum potassium,2823-3,True,
+serum poassum,2823-3,True,
+potassium serum serum serum,2823-3,True,
+potasium serum serum serum,2823-3,True,
+potassium potassium potassium plasa,2823-3,True,
+plasma potassm,2823-3,True,
+potassium potassium plasa potassium,2823-3,True,
+plasma potassium pla potassium,2823-3,True,
+k,2823-3,True,
+k k,2823-3,True,
+k k,2823-3,True,
+k,2823-3,True,
+k+,2823-3,True,
+k+ k+,2823-3,True,
+k+ k+,2823-3,True,
+k+ k+,2823-3,True,
+wbcout,6690-2,True,
+cont wb,6690-2,True,
+count count wbc count,6690-2,True,
+wbc count wbc wbc,6690-2,True,
+cell white bloo count,6690-2,True,
+white blood count cell cel count,6690-2,True,
+white blood cell count,6690-2,True,
+whie cell ount blood,6690-2,True,
+leukocytes,6690-2,True,
+leukocytes leuoytes,6690-2,True,
+leuocytes leukocytes,6690-2,True,
+leukocytes,6690-2,True,
+count white,6690-2,True,
+count white,6690-2,True,
+count white,6690-2,True,
+white count count count,6690-2,True,
+plt plt,777-3,True,
+plt plt,777-3,True,
+plt plt,777-3,True,
+pt,777-3,True,
+count platelet,777-3,True,
+platelet count,777-3,True,
+platelet cunt platelet platelet,777-3,True,
+count plateet,777-3,True,
+thrombocytes thrombocytes,777-3,True,
+thrombocytes thrombocytes,777-3,True,
+thrombocytes,777-3,True,
+thrombocytes thrombocytes,777-3,True,
+platelets platelets,777-3,True,
+platelets platelets,777-3,True,
+platelets platelets,777-3,True,
+pltelets platelets,777-3,True,
+sodium,2951-2,True,
+odiu,2951-2,True,
+soium,2951-2,True,
+sodium soium,2951-2,True,
+na na,2951-2,True,
+na,2951-2,True,
+sodium sodium,2951-2,True,
+na na,2951-2,True,
+level sodium level level,2951-2,True,
+oium lvel,2951-2,True,
+level level level sodium,2951-2,True,
+level soium,2951-2,True,
+serum sodium sodium serum,2951-2 ,True,
+a serum na serum,2951-2 ,True,
+na serum,2951-2 ,True,
+sodium sodium serum serm,2951-2 ,True,

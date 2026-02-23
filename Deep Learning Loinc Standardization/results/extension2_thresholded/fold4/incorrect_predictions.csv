@@ -1,0 +1,11 @@
+source_text,true_mappable,pred_mappable,similarity,true_loinc,top_prediction,top_similarity
+plt,True,False,-0.8675825,777-3,2823-3,0.8675824999809265
+"Potassium, Pleural",False,True,-0.33888298,,,
+k+,True,False,-0.7224007,2823-3,2823-3,0.7224007248878479
+sodium,True,False,-0.74483705,2951-2,2823-3,0.7448370456695557
+k,True,False,-0.85817254,2823-3,2823-3,0.8581725358963013
+potassium plasma,True,False,-0.54566675,2823-3,2823-3,0.5456667542457581
+sodium level,True,False,-0.685395,2951-2,2823-3,0.6853950023651123
+white count,True,False,-0.7916207,6690-2,6690-2,0.791620671749115
+na,True,False,-0.8564469,2951-2,2823-3,0.8564469218254089
+leukocytes,True,False,-0.5552361,6690-2,6690-2,0.5552361011505127

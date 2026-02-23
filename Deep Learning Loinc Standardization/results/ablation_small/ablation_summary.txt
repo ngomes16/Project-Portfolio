@@ -1,0 +1,17 @@
+=== LOINC STANDARDIZATION MODEL ABLATION STUDY ===
+
+Standard Configuration:
+  Top1 Accuracy: 70.00%
+  Top3 Accuracy: 75.00%
+  Top5 Accuracy: 80.00%
+
+Expanded Target Pool:
+  Top1 Accuracy: 70.00%
+  Top3 Accuracy: 75.00%
+  Top5 Accuracy: 80.00%
+
+Augmented Test Data:
+  Top1 Accuracy: 70.00%
+  Top3 Accuracy: 75.00%
+  Top5 Accuracy: 80.00%
+

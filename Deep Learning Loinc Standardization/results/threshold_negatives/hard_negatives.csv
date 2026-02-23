@@ -1,0 +1,101 @@
+SOURCE,SIMILARITY,CLOSEST_LOINC,CLOSEST_TEXT
+Urine Comments,-0.13866913,104534-3,consistency of urine
+Urine Creatinine,-0.15891963,56650-5,chromium/creatinine [ratio] in urine
+STDYURINE,-0.22206855,50909-1,silver [moles/volume] in urine
+"Urine tube, held",-0.22297662,9044-9,urinary bladder irrigation tube site
+"Reticulocyte, Cellular Hemoglobin",-0.22361863,42810-2,hemoglobin [entitic mass] in reticulocytes
+Promyelocytes,-0.23400784,34996-9,promyelocytes [#/volume] in body fluid
+Promyelocytes,-0.23400784,34996-9,promyelocytes [#/volume] in body fluid
+Promyelocytes,-0.23400784,34996-9,promyelocytes [#/volume] in body fluid
+"Reducing Substances, Urine",-0.24247748,15079-7,lutropin [units/volume] in urine
+Immunophenotyping,-0.25083172,73574-6,acyclovir [susceptibility] by genotype method
+Immunophenotyping,-0.25083184,73574-6,acyclovir [susceptibility] by genotype method
+Immunophenotyping,-0.25083184,73574-6,acyclovir [susceptibility] by genotype method
+Immunophenotyping,-0.25083184,73574-6,acyclovir [susceptibility] by genotype method
+Blood Culture Hold,-0.25805628,34530-6,abo and rh group panel - blood
+CD56,-0.261559,21166-4,cd56 cells/cells in specimen
+Red Blood Cell Fragments,-0.26338178,30385-9,erythrocyte [distwidth] in red blood cells
+LUC,-0.2718976,15079-7,lutropin [units/volume] in urine
+Inpatient Hematology/Oncology Smear,-0.27343303,34780-7,hematology+medical oncology note
+"Creatinine, Serum",-0.2776695,14682-9,creatinine [moles/volume] in serum or plasma
+"Hematocrit, Joint Fluid",-0.27767575,4575-7,hemoglobin e/hemoglobin.total in blood
+Methotrexate,-0.27871203,12801-7,methdilazine [mass/volume] in serum or plasma
+CD103,-0.2853592,2206-1,"dicarboxylate, c6-c8-c10 [mass/volume] in serum"
+CD103,-0.2853592,2206-1,"dicarboxylate, c6-c8-c10 [mass/volume] in serum"
+Alpha Antiplasmin,-0.29164797,10461-2,alpha-1-antichymotrypsin ag [presence] in tissue by immune stain
+CD16,-0.29612738,53217-6,dicarboxypalmitoleylcarnitine (c16:1-dc) [moles/volume] in dbs
+CD16,-0.29612738,53217-6,dicarboxypalmitoleylcarnitine (c16:1-dc) [moles/volume] in dbs
+"Hematocrit, Pleural",-0.30280697,96665-5,hla-drb1 [type] in donor
+CD71,-0.30341786,54488-2,pimeloylcarnitine (c7-dc)/creatinine [molar ratio] in urine
+CD57,-0.30520552,21017-9,cd57 cells [#/volume] in blood
+CD57,-0.30520552,21017-9,cd57 cells [#/volume] in blood
+CD57,-0.30520552,21017-9,cd57 cells [#/volume] in blood
+"Joint Crystals, Comment",-0.30579466,53319-0,crystals [presence] in urine by automated
+Myelocytes,-0.31057596,43283-1,myeloid cells/cells in tissue
+Myelocytes,-0.31057596,43283-1,myeloid cells/cells in tissue
+Young Cells,-0.31121594,43283-1,myeloid cells/cells in tissue
+CD38,-0.315507,51296-2,cd38 cells/cells in tissue
+CD5 %,-0.31675732,9559-6,cd5 cells [#/volume] in blood
+"HCG, Maternal Screen",-0.3180831,4587-2,hemoglobin h/hemoglobin.total in blood by electrophoresis
+Amikacin,-0.31813133,3321-7,amikacin [mass/volume] in serum or plasma --trough
+SURFACTANT ALBUMIN RATIO,-0.31871003,104659-8,sialate.total/creatinine [molar ratio] in urine
+"Hematocrit, Ascites",-0.32078952,96627-5,hla-a [type] in donor
+CD22,-0.3208862,21013-8,cd22 cells [#/volume] in blood
+CD20,-0.32680583,20595-5,cd20 cells/cells in specimen
+Anti-DGP (IgA/IgG),-0.3276164,86926-3,transmissible gastroenteritis virus ab/negative control in serum by immunoassay
+FetalFN,-0.32789218,61180-6,hemoglobin [mass/volume] in blood from fetus
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+VOIDED SPECIMEN,-0.32839394,54511-1,behavior
+"Joint Crystals, Shape",-0.3289947,53319-0,crystals [presence] in urine by automated
+"Joint Crystals, Location",-0.3299815,53319-0,crystals [presence] in urine by automated
+Macro Prolactin,-0.33906597,78986-7,prolactin.dimeric/prolactin in serum or plasma
+Comments,-0.3402533,69904-1,service comment 77
+CD138,-0.34092396,51011-5,cd3-cd16+cd56+cd244+ cells/cells in specimen
+CD34,-0.34116375,51296-2,cd38 cells/cells in tissue
+CD3 %,-0.34135193,74450-8,other cells [#/volume] in cord blood
+D-Dimer,-0.34327066,16768-4,dichlorvos [mass/volume] in urine
+Temperature,-0.34435362,43741-8,temperature of semen
+Ventilator,-0.34628862,60866-1,oxygen [vfr/ppres] airway adaptor
+"ACID PHOSPHATASE, PROSTATIC",-0.34707695,17837-6,acid phosphatase tartrate resistant [enzymatic activity/volume] in serum
+Young,-0.34946787,57900-3,age of specimen
+Young,-0.34946787,57900-3,age of specimen
+CD19 Absolute Count,-0.35201514,7866-7,echovirus 19 ab [units/volume] in serum
+CD19 %,-0.35268998,89345-3,cd19+igm+ cells [#/volume] in blood
+SPECIMEN TYPE,-0.35607636,76767-3,schistosoma sp identified in semen by light microscopy
+Nucleated RBC,-0.3568331,66768-3,leukocytes [#/volume] corrected for nucleated erythrocytes in cord blood
+Other Cell,-0.35763282,74450-8,other cells [#/volume] in cord blood
+"AFP, Maternal Screen",-0.35877174,28493-5,antepartum/postpartum.status family [omaha]
+WBCP,-0.36192018,74412-8,cbc w differential panel - cord blood
+CD55,-0.36788738,50465-4,c peptide [moles/volume] in serum or plasma --5th specimen
+CD5 Absolute Count,-0.3689713,105529-2,mda5 ab [units/volume] in serum
+I,-0.37239933,21266-2,ethion [mass/volume] in urine
+Required O2,-0.37278384,19942-2,oxygen gas flow setting oxymiser
+ADP,-0.37296283,75320-2,advance directive
+CD20 %,-0.3731913,20595-5,cd20 cells/cells in specimen
+CD16/56 Absolute Count,-0.37701517,7833-7,coxsackievirus a16 ab [units/volume] in serum
+Billed,-0.37747288,107101-8,billing encounter information
+Uhold,-0.37755048,104534-3,consistency of urine
+"Chloride, CSF",-0.37776703,59220-4,chromogranin a [units/volume] in pleural fluid
+Metamyelocytes,-0.37819135,81628-0,methotrexate monoglutamate [moles/volume] in red blood cells
+Metamyelocytes,-0.37819135,81628-0,methotrexate monoglutamate [moles/volume] in red blood cells
+Metamyelocytes,-0.37819135,81628-0,methotrexate monoglutamate [moles/volume] in red blood cells
+CD3 Absolute Count,-0.3793453,20415-6,choriogonadotropin.beta subunit [units/volume] in serum or plasma by immunoassay (eia) 3rd is
+Reptilase Time Control,-0.38021642,55843-7,corticosterone [moles/volume] in 24 hour urine
+Call,-0.38081908,75549-6,performing laboratory phone number
+APT Test,-0.38181424,34045-5,oral evaluation exam
+"Joint Crystals, Birefringence",-0.38198084,59839-1,urate crystals [presence] in tissue by light microscopy
+"Albumin, Joint Fluid",-0.38247675,1747-5,albumin [mass/volume] in body fluid
+H,-0.38470942,4645-8,hemosiderin [mass/volume] in urine
+PROBLEM SPECIMEN,-0.38480282,11285-4,acuity assessment practitioner profession
+PROBLEM SPECIMEN,-0.38480282,11285-4,acuity assessment practitioner profession
+PROBLEM SPECIMEN,-0.38480282,11285-4,acuity assessment practitioner profession

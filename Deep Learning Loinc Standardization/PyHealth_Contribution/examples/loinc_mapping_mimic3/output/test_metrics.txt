@@ -1,0 +1,4 @@
+loinc_top_1_acc: 0.8571
+loinc_top_3_acc: 0.8571
+loinc_top_5_acc: 1.0000
+loinc_top_10_acc: 1.0000

@@ -1,0 +1,5 @@
+LOINC_NUM,LONG_COMMON_NAME,SHORTNAME,DisplayName,RELATEDNAMES2
+718-7,Hemoglobin [Mass/volume] in Blood,Hemoglobin,Hemoglobin,
+2823-3,Potassium [Moles/volume] in Serum,Potassium,Potassium,
+6690-2,Leukocytes [#/volume] in Blood by Automated count,Leukocytes,Leukocytes,
+777-3,Platelets [#/volume] in Blood by Automated count,Platelets,Platelets,

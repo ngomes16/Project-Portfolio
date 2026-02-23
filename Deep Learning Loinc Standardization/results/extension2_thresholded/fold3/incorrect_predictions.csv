@@ -1,0 +1,11 @@
+source_text,true_mappable,pred_mappable,similarity,true_loinc,top_prediction,top_similarity
+plt,True,False,-0.81862575,777-3,2823-3,0.8186257481575012
+"Reticulocyte, Cellular Hemoglobin",False,True,-0.37025172,,,
+"Potassium, Pleural",False,True,-0.3192594,,,
+k,True,False,-0.7726563,2823-3,2823-3,0.7726563215255737
+"Creatinine, Serum",False,True,-0.34323317,,,
+sodium,True,False,-0.7067532,2951-2,2823-3,0.7067531943321228
+k+,True,False,-0.6563845,2823-3,2823-3,0.6563845276832581
+white count,True,False,-0.81837213,6690-2,6690-2,0.8183721303939819
+na,True,False,-0.81220996,2951-2,2823-3,0.812209963798523
+"Hematocrit, Joint Fluid",False,True,-0.29534954,,,

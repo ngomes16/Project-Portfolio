@@ -1,0 +1,22 @@
+=== LOINC STANDARDIZATION MODEL EVALUATION SUMMARY ===
+
+Target Pool: EXPANDED, Test Type: AUGMENTED
+Top-1 Accuracy: 44.6% ± 1.3%
+Top-3 Accuracy: 73.8% ± 4.2%
+Top-5 Accuracy: 87.0% ± 1.2%
+
+Target Pool: EXPANDED, Test Type: ORIGINAL
+Top-1 Accuracy: 51.0% ± 2.2%
+Top-3 Accuracy: 81.0% ± 6.5%
+Top-5 Accuracy: 89.0% ± 2.2%
+
+Target Pool: STANDARD, Test Type: AUGMENTED
+Top-1 Accuracy: 44.0% ± 1.2%
+Top-3 Accuracy: 73.0% ± 2.9%
+Top-5 Accuracy: 90.4% ± 0.9%
+
+Target Pool: STANDARD, Test Type: ORIGINAL
+Top-1 Accuracy: 52.0% ± 2.7%
+Top-3 Accuracy: 81.0% ± 4.2%
+Top-5 Accuracy: 94.0% ± 2.2%
+

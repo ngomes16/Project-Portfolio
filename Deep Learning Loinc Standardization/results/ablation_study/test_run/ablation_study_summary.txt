@@ -1,0 +1,47 @@
+=== LOINC STANDARDIZATION MODEL ABLATION STUDY SUMMARY ===
+
+
+FINE_TUNING_STAGES ABLATION STUDY
+--------------------------------------------------
+Setting             Top-1 Accuracy      Top-3 Accuracy      Top-5 Accuracy      
+--------------------------------------------------------------------------------
+stage1_stage2       70.00%              75.00%              80.00%              
+stage2_only         70.00%              75.00%              80.00%              
+
+Relative Improvements:
+stage1_stage2 vs stage2_only:
+  Top-1 Accuracy: +0.00% (+0.00% relative)
+  Top-3 Accuracy: +0.00% (+0.00% relative)
+  Top-5 Accuracy: +0.00% (+0.00% relative)
+
+
+
+DATA_AUGMENTATION_STANDARD ABLATION STUDY
+--------------------------------------------------
+Setting             Top-1 Accuracy      Top-3 Accuracy      Top-5 Accuracy      
+--------------------------------------------------------------------------------
+with_augmentation   70.00%              75.00%              80.00%              
+without_augmentation70.00%              75.00%              80.00%              
+
+Relative Improvements:
+without_augmentation vs with_augmentation:
+  Top-1 Accuracy: +0.00% (+0.00% relative)
+  Top-3 Accuracy: +0.00% (+0.00% relative)
+  Top-5 Accuracy: +0.00% (+0.00% relative)
+
+
+
+DATA_AUGMENTATION_AUGMENTED ABLATION STUDY
+--------------------------------------------------
+Setting             Top-1 Accuracy      Top-3 Accuracy      Top-5 Accuracy      
+--------------------------------------------------------------------------------
+with_augmentation   69.00%              75.00%              80.00%              
+without_augmentation69.00%              75.00%              80.00%              
+
+Relative Improvements:
+without_augmentation vs with_augmentation:
+  Top-1 Accuracy: +0.00% (+0.00% relative)
+  Top-3 Accuracy: +0.00% (+0.00% relative)
+  Top-5 Accuracy: +0.00% (+0.00% relative)
+
+

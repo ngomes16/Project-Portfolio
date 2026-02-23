@@ -1,0 +1,185 @@
+PyHealth Contribution Proposal: End-to-End LOINC Standardization Example
+
+1. Contribution Title:
+
+End-to-End Example: LOINC Code Standardization on MIMIC-III using Contrastive Sentence-T5
+
+2. Goal & Motivation:
+
+This contribution aims to significantly enhance the reproducibility of AI for Health (AI4H) research by adding a complete, runnable example for a common and critical task: standardizing local medical codes (MIMIC-III lab tests) to a standard ontology (LOINC). Specifically, it will replicate the core methodology and results of the user's research paper (leveraging contrastive learning with Sentence-T5) within the PyHealth framework.
+
+By providing the necessary dataset processing, model implementation, evaluation task, and an orchestrating example script/notebook, this contribution will:
+
+Serve as a concrete validation of the paper's reproducibility.
+
+Offer a clear blueprint for researchers looking to apply or adapt this methodology.
+
+Lower the barrier for using PyHealth for medical code mapping and semantic retrieval tasks.
+
+Make the specific replication attempt easily accessible and verifiable by the wider community.
+
+3. Proposed Components:
+
+This contribution comprises four tightly integrated components:
+
+New Dataset Class: MIMIC3LOINCMappingDataset
+
+New Model Class: ContrastiveSentenceTransformer
+
+New Task Function: loinc_retrieval_metrics_fn
+
+New Example: examples/loinc_mapping_mimic3/ (containing a notebook/script)
+
+4. Implementation Details:
+
+A. Dataset Class: MIMIC3LOINCMappingDataset
+
+Location: pyhealth/datasets/mimic3_loinc.py (New file)
+
+Inheritance: pyhealth.datasets.BaseDataset
+
+Functionality:
+
+Takes the root directory of MIMIC-III dataset files (specifically needing d_labitems.csv) and optionally the LOINC table (LoincTable.csv) as input during initialization.
+
+Processing d_labitems.csv:
+
+Reads the specified columns (itemid, label, fluid, loinc_code).
+
+Groups by itemid to identify unique source concepts.
+
+Concatenates label and fluid fields (after lowercasing and basic cleaning) into a single source_text string for each unique source concept (e.g., "glucose serum/plasma").
+
+Filters out entries without a valid loinc_code.
+
+Stores the source_text and the corresponding target_loinc code.
+
+Processing LoincTable.csv (Optional, for Stage 1 / Target Embeddings):
+
+If provided, reads LOINC codes and their textual representations (Long Common Name - LCN, Display Name - DN, Short Name - SN).
+
+Provides methods to access these target texts, potentially with augmentation hooks (as described in the paper/List 3, Idea 1) for Stage 1 training.
+
+Data Structure: Primarily focuses on generating samples for Stage 2 fine-tuning: {"patient_id": itemid, "visit_id": itemid, "source_text": "...", "target_loinc": "..."}. Patient/visit IDs are mapped from itemid for structure compatibility, though not semantically meaningful here. It can also provide access to the unique source texts and target LOINC texts separately for embedding generation.
+
+Splits: Can include logic to split data into train/val/test based on itemid or provide standard splits if defined in the paper.
+
+Dependencies: pandas
+
+B. Model Class: ContrastiveSentenceTransformer
+
+Location: pyhealth/models/contrastive_sentence_transformer.py (New file)
+
+Inheritance: pyhealth.models.BaseModel
+
+Functionality:
+
+Wraps a pre-trained sentence embedding model from the sentence-transformers library (e.g., Sentence-T5, SapBERT, all-MiniLM-L6-v2). The base model identifier should be configurable.
+
+Initializes with options for:
+
+base_model_id: HuggingFace model name (e.g., "google/sentence-t5-base").
+
+projection_dim: Dimension of the optional projection layer (e.g., 128 as per paper). If None, uses direct output.
+
+freeze_backbone: Boolean to freeze the weights of the base sentence transformer during fine-tuning (as done in the paper's Stage 2).
+
+forward method: Takes a batch of text inputs (strings) and returns their embeddings (either from the base model or after the projection layer).
+
+Training Logic Integration: Designed to be used with a trainer that implements the contrastive loss (specifically Triplet Loss). The model itself primarily provides the embedding function. The loss calculation would typically happen in the training loop/PyTorch Lightning module using the embeddings produced by this model.
+
+Note: The TripletLoss implementation from sentence-transformers could be leveraged within the example's training script.
+
+Dependencies: torch, sentence-transformers
+
+C. Task Function: loinc_retrieval_metrics_fn
+
+Location: pyhealth/tasks/loinc_mapping.py (New file or added to an existing retrieval/mapping task file)
+
+Function Signature: loinc_retrieval_metrics_fn(y_true_loinc, source_embeddings, target_embeddings, target_loinc_pool, k_values=[1, 3, 5, 10]) -> Dict
+
+Functionality:
+
+y_true_loinc: List/array of the ground truth LOINC code for each source sample.
+
+source_embeddings: NumPy array or Tensor of embeddings for the source texts (N x EmbDim).
+
+target_embeddings: NumPy array or Tensor of embeddings for all candidate LOINC codes in the pool (M x EmbDim).
+
+target_loinc_pool: List/array of the LOINC codes corresponding to the rows in target_embeddings (length M).
+
+k_values: List of integers for which to calculate Top-K accuracy.
+
+Logic:
+
+Calculate cosine similarity between each source embedding and all target embeddings (NxM matrix).
+
+For each source, rank the target LOINC codes based on similarity (descending).
+
+Check if the y_true_loinc for that source is present within the top k ranked LOINC codes from the target_loinc_pool.
+
+Calculate Top-K accuracy (percentage of sources where the true target is in the top k) for each k in k_values.
+
+Returns: A dictionary containing metrics like {"loinc_top_1_acc": ..., "loinc_top_3_acc": ..., "loinc_top_5_acc": ...}.
+
+Dependencies: numpy, scikit-learn (for cosine_similarity potentially) or torch.
+
+D. Example: examples/loinc_mapping_mimic3/
+
+Location: examples/loinc_mapping_mimic3/ (New directory)
+
+Contents:
+
+run_loinc_mapping.ipynb (Jupyter Notebook) and/or run_loinc_mapping.py (Python Script).
+
+README.md: Explaining the example, prerequisites (MIMIC-III access, LOINC table download, library installation), and how to run it.
+
+(Optional but Recommended): download_weights.sh: Script to download pre-trained Stage-1 weights (hosted elsewhere, e.g., Hugging Face Hub, Google Drive) to make the example runnable quickly.
+
+Functionality Demonstrated:
+
+Setup: Import necessary libraries, define paths to MIMIC-III data and potentially LOINC table.
+
+Data Loading: Instantiate MIMIC3LOINCMappingDataset to load and process MIMIC-III d_labitems. Show how to access source texts and target LOINCs.
+
+Model Initialization: Instantiate ContrastiveSentenceTransformer, specifying the base model (e.g., ST5-base). Load pre-trained Stage-1 weights (critical for feasibility). Configure for Stage-2 fine-tuning (e.g., freeze_backbone=True).
+
+Stage-2 Training:
+
+Set up a PyTorch DataLoader using the dataset.
+
+Implement a training loop (or use a PyTorch Lightning Trainer).
+
+Use TripletLoss (potentially from sentence-transformers) with appropriate sampling (e.g., batch-hard).
+
+Train for a specified number of epochs (e.g., a smaller number like 15 for a quick demo, matching the paper).
+
+Embedding Generation: Use the fine-tuned model to generate embeddings for all unique source texts and the target LOINC pool texts (using LCN/DN/SN from the LOINC table).
+
+Evaluation: Use the loinc_retrieval_metrics_fn task function with the generated embeddings and ground truth mappings to calculate Top-K accuracy. Print results and compare them qualitatively to the paper's findings.
+
+Inference Example: Show how to take a new, unseen source text (e.g., "sodium urine"), embed it, find the most similar LOINC codes from the target pool, and display the top candidates.
+
+Goal: Provide a self-contained, Colab-friendly (if possible, considering data access) demonstration of the entire pipeline.
+
+5. Benefits:
+
+High Reproducibility: Directly implements the paper's workflow within PyHealth.
+
+Practical Example: Showcases PyHealth's capabilities for a real-world clinical NLP task.
+
+Reusable Components: The Dataset, Model, and Task functions can be reused or adapted for similar mapping/retrieval problems.
+
+Community Resource: Serves as excellent documentation and tutorial material.
+
+6. Potential Scope / Considerations for PR:
+
+Stage 1 Training: Fully replicating Stage 1 (training on 78k LOINC terms) might be too computationally intensive for a simple example and requires handling the large LOINC ontology. The most practical approach is to provide the Stage 1 pre-trained weights and focus the example script on Stage 2 fine-tuning and evaluation.
+
+Dependencies: Requires sentence-transformers, which brings in transformers and torch. Ensure clear dependency management.
+
+Data Access: MIMIC-III requires credentialed access. The example must clearly state this prerequisite and assume the user has the data available locally.
+
+PR Structure: Given the interdependence, submitting all four components (Dataset, Model, Task, Example) in a single Pull Request is likely the most coherent approach, as the example relies directly on the other three.
+
+This comprehensive contribution provides a valuable, reproducible artifact for the AI4H community and significantly enhances PyHealth's utility for semantic standardization tasks.

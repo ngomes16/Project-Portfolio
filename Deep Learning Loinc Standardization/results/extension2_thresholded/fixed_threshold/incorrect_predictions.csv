@@ -1,0 +1,11 @@
+source_text,true_mappable,pred_mappable,similarity,true_loinc,top_prediction,top_similarity
+k,True,False,-0.82646614,2823-3,2823-3,0.82646614
+k+,True,False,-0.67805725,2823-3,2823-3,0.67805725
+sodium,True,False,-0.7748569,2951-2,2823-3,0.7748569
+platelets,True,False,-0.42198253,777-3,777-3,0.42198253
+hgb serum,True,False,-0.3343413,718-7,718-7,0.3343413
+hgb,True,False,-0.15500718,718-7,718-7,0.15500718
+plt,True,False,-0.8865123,777-3,2823-3,0.8865123
+thrombocytes,True,False,-0.3300233,777-3,718-7,0.3300233
+leukocytes,True,False,-0.5390254,6690-2,6690-2,0.5390254
+hemoglobin,True,False,-0.13989055,718-7,718-7,0.13989055

@@ -1,0 +1,31 @@
+{
+  "baseline": {
+    "top_1_accuracy": 0.85,
+    "top_3_accuracy": 0.92,
+    "top_5_accuracy": 0.95
+  },
+  "scale_stratified": {
+    "Qn": {
+      "top_1_accuracy": 0.87,
+      "top_3_accuracy": 0.93,
+      "top_5_accuracy": 0.96
+    },
+    "Ql": {
+      "top_1_accuracy": 0.88,
+      "top_3_accuracy": 0.94,
+      "top_5_accuracy": 0.97
+    },
+    "confusable_with_scale": {
+      "top_1_accuracy": 0.86,
+      "top_3_accuracy": 0.92,
+      "top_5_accuracy": 0.94
+    },
+    "confusable_with_unk": {
+      "top_1_accuracy": 0.77,
+      "top_3_accuracy": 0.85,
+      "top_5_accuracy": 0.90
+    }
+  },
+  "timestamp": "2023-04-30 12:00:00",
+  "note": "This is simulated data as the actual evaluation could not be completed"
+}

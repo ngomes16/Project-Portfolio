@@ -1,0 +1,2 @@
+mappable_precision,mappable_recall,mappable_f1,top1_accuracy,top3_accuracy,top5_accuracy,mrr,threshold,target_pool_size,test_samples,mappable_samples,non_mappable_samples,predicted_mappable,predicted_non_mappable,sme_workload_reduction,sme_hours_saved_per_1000
+0.6,0.6,0.6,0.5,0.55,0.55,0.9393939393939394,-0.46924365,4,188,20,168,20,168,0.851063829787234,42.5531914893617

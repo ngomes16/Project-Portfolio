@@ -1,0 +1,40 @@
+================================================================================
+LOINC STANDARDIZATION MODEL EVALUATION SUMMARY
+================================================================================
+
+=== STANDARD EVALUATION RESULTS ===
+Top1 Accuracy: 70.00% ± 0.00%
+Top3 Accuracy: 75.00% ± 0.00%
+Top5 Accuracy: 80.00% ± 0.00%
+Number of folds: 1
+
+=== EXPANDED TARGET POOL RESULTS ===
+Top1 Accuracy: 50.00% ± 0.00%
+Top3 Accuracy: 85.00% ± 0.00%
+Top5 Accuracy: 90.00% ± 0.00%
+Top1 Accuracy Change: -20.00%
+Top3 Accuracy Change: +10.00%
+Top5 Accuracy Change: +10.00%
+Number of folds: 1
+
+=== AUGMENTED TEST DATA RESULTS ===
+Top1 Accuracy: 72.00% ± 0.00%
+Top3 Accuracy: 76.00% ± 0.00%
+Top5 Accuracy: 82.00% ± 0.00%
+Top1 Accuracy Change: +2.00%
+Top3 Accuracy Change: +1.00%
+Top5 Accuracy Change: +2.00%
+Number of folds: 1
+
+=== ERROR ANALYSIS SUMMARY ===
+Total Errors Analyzed: 16
+Error Categories:
+  SPECIMEN_MISMATCH: 1 (6.2%)
+  AMBIGUOUS_SOURCE: 1 (6.2%)
+
+Top Confusion Pairs:
+  2823-3 () → 2823-3 (): 4
+  6690-2 () → 6690-2 (): 4
+  718-7 () → 718-7 (): 4
+  777-3 () → 777-3 (): 2
+  777-3 () → 2823-3 (): 1

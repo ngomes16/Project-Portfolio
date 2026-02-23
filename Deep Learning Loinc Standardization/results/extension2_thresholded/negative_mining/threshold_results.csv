@@ -1,0 +1,2 @@
+top1_accuracy,top3_accuracy,top5_accuracy,mappable_precision,mappable_recall,mappable_f1,threshold
+0.6428571428571429,0.7142857142857143,0.7857142857142857,0.08,1.0,0.14814814814814814,-0.90239394

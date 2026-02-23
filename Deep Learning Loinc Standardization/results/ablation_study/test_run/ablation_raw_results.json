@@ -1,0 +1,182 @@
+{
+  "fine_tuning_stages": {
+    "stage1_stage2": {
+      "top1_accuracy": {
+        "0": 0.7
+      },
+      "top3_accuracy": {
+        "0": 0.75
+      },
+      "top5_accuracy": {
+        "0": 0.8
+      },
+      "top10_accuracy": {
+        "0": 0.8
+      },
+      "mrr": {
+        "0": 0.7291666666666666
+      },
+      "target_pool_size": {
+        "0": 4
+      },
+      "matching_loincs": {
+        "0": 4
+      },
+      "test_samples": {
+        "0": 20
+      },
+      "fold": {
+        "0": 0
+      }
+    },
+    "stage2_only": {
+      "top1_accuracy": {
+        "0": 0.7
+      },
+      "top3_accuracy": {
+        "0": 0.75
+      },
+      "top5_accuracy": {
+        "0": 0.8
+      },
+      "top10_accuracy": {
+        "0": 0.8
+      },
+      "mrr": {
+        "0": 0.7291666666666666
+      },
+      "target_pool_size": {
+        "0": 4
+      },
+      "matching_loincs": {
+        "0": 4
+      },
+      "test_samples": {
+        "0": 20
+      },
+      "fold": {
+        "0": 0
+      }
+    }
+  },
+  "data_augmentation_standard": {
+    "with_augmentation": {
+      "top1_accuracy": {
+        "0": 0.7
+      },
+      "top3_accuracy": {
+        "0": 0.75
+      },
+      "top5_accuracy": {
+        "0": 0.8
+      },
+      "top10_accuracy": {
+        "0": 0.8
+      },
+      "mrr": {
+        "0": 0.7291666666666666
+      },
+      "target_pool_size": {
+        "0": 4
+      },
+      "matching_loincs": {
+        "0": 4
+      },
+      "test_samples": {
+        "0": 20
+      },
+      "fold": {
+        "0": 0
+      }
+    },
+    "without_augmentation": {
+      "top1_accuracy": {
+        "0": 0.7
+      },
+      "top3_accuracy": {
+        "0": 0.75
+      },
+      "top5_accuracy": {
+        "0": 0.8
+      },
+      "top10_accuracy": {
+        "0": 0.8
+      },
+      "mrr": {
+        "0": 0.7291666666666666
+      },
+      "target_pool_size": {
+        "0": 4
+      },
+      "matching_loincs": {
+        "0": 4
+      },
+      "test_samples": {
+        "0": 20
+      },
+      "fold": {
+        "0": 0
+      }
+    }
+  },
+  "data_augmentation_augmented": {
+    "with_augmentation": {
+      "top1_accuracy": {
+        "0": 0.69
+      },
+      "top3_accuracy": {
+        "0": 0.75
+      },
+      "top5_accuracy": {
+        "0": 0.8
+      },
+      "top10_accuracy": {
+        "0": 0.8
+      },
+      "mrr": {
+        "0": 0.7241666666666667
+      },
+      "target_pool_size": {
+        "0": 4
+      },
+      "matching_loincs": {
+        "0": 4
+      },
+      "test_samples": {
+        "0": 100
+      },
+      "fold": {
+        "0": 0
+      }
+    },
+    "without_augmentation": {
+      "top1_accuracy": {
+        "0": 0.69
+      },
+      "top3_accuracy": {
+        "0": 0.75
+      },
+      "top5_accuracy": {
+        "0": 0.8
+      },
+      "top10_accuracy": {
+        "0": 0.8
+      },
+      "mrr": {
+        "0": 0.7241666666666667
+      },
+      "target_pool_size": {
+        "0": 4
+      },
+      "matching_loincs": {
+        "0": 4
+      },
+      "test_samples": {
+        "0": 100
+      },
+      "fold": {
+        "0": 0
+      }
+    }
+  }
+}

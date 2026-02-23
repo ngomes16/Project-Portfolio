@@ -1,0 +1,101 @@
+source,is_mappable,predicted_mappable,max_similarity
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+,True,True,-0.48355114
+"ACID PHOSPHATASE, PROSTATIC",False,True,-0.36730605
+Young Cells,False,True,-0.4277526
+CD16,False,False,-0.500778
+Promyelocytes,False,True,-0.45671403
+STDY HOLD,False,False,-0.52569187
+VOIDED SPECIMEN,False,True,-0.41649312
+VOIDED SPECIMEN,False,True,-0.41649312
+Fax,False,False,-0.54699993
+Epinepherine,False,False,-0.5006496
+Red Top Hold,False,False,-0.61403286
+CD34,False,True,-0.4609769
+VOIDED SPECIMEN,False,True,-0.41649312
+RBC Clumps,False,True,-0.4460975
+Blood Culture Hold,False,True,-0.36284262
+FetalFN,False,True,-0.46444368
+Promyelocytes,False,True,-0.45671403
+"Hematocrit, Pleural",False,True,-0.4309199
+Kappa,False,False,-0.60325086
+Uhold,False,True,-0.37755048
+Inpatient Hematology/Oncology Smear,False,True,-0.33740014
+Lambda,False,False,-0.606593
+CD57,False,True,-0.45345247
+Cellular Cast,False,False,-0.56154907
+Kappa,False,False,-0.60325086
+CD103,False,True,-0.44366235
+"Joint Crystals, Shape",False,True,-0.4431659
+Myelocytes,False,True,-0.4656437
+CD25,False,True,-0.48306847
+Urine Creatinine,False,True,-0.17680681
+"HCG, Maternal Screen",False,True,-0.39830244
+"AFP, Maternal Screen",False,True,-0.4505955
+I,False,True,-0.44300854
+MYELOS,False,False,-0.7051126
+LUC,False,True,-0.37548095
+"Miscellaneous, Body Fluid",False,True,-0.47413462
+WBC Clumps,False,False,-0.513644
+Promyelocytes,False,True,-0.45671403
+CD16/56%,False,True,-0.4595487
+"Reducing Substances, Urine",False,True,-0.26356304
+PROBLEM SPECIMEN,False,True,-0.4758435
+Arachadonic Acid,False,True,-0.46910447
+Reptilase Time Control,False,False,-0.5873236
+Myelocytes,False,True,-0.4656437
+AF-AFP,False,False,-0.48787045
+Urine Comments,False,True,-0.13866913
+CD20 Absolute Count,False,False,-0.5295733
+"Chloride, CSF",False,False,-0.50330627
+Temperature,False,False,-0.53523004
+CD71,False,True,-0.38936496
+Bands,False,False,-0.6668891

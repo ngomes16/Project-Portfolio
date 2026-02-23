@@ -1,0 +1,16 @@
+source_text,target_loinc
+factor x blood,3218-5
+factor blood x,3218-5
+factor x blood,3218-5
+envelope cells blood,681-7
+cells envelope blood,681-7
+cells envelope blood,681-7
+cd2 bone marrow,32527-4
+marrow bone cd2,32527-4
+bone cd2 marrow,32527-4
+microcytes blood,741-9
+pr lood micrytes,741-9
+microcytes bld,741-9
+hypersegmented neutrophils blood,766-6
+hypersemented neutrophils blood,766-6
+hypersegmented neurophils blood,766-6

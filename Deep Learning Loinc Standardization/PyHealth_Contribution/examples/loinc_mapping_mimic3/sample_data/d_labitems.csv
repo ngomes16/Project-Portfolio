@@ -1,0 +1,33 @@
+ITEMID,LABEL,FLUID,CATEGORY,LOINC_CODE
+51346,Blasts,Cerebrospinal Fluid (CSF),Hematology,26447-3
+51347,Eosinophils,Cerebrospinal Fluid (CSF),Hematology,26451-5
+51348,"Hematocrit, CSF",Cerebrospinal Fluid (CSF),Hematology,30398-2
+51349,Hypersegmented Neutrophils,Cerebrospinal Fluid (CSF),Hematology,26506-6
+51350,Lymphocytes,Cerebrospinal Fluid (CSF),Hematology,26479-6
+51351,Variant Lymphocytes,Cerebrospinal Fluid (CSF),Hematology,30426-1
+51352,Macrophages,Cerebrospinal Fluid (CSF),Hematology,30429-5
+51353,Monocytes,Cerebrospinal Fluid (CSF),Hematology,30366-9
+51354,Neutrophils,Cerebrospinal Fluid (CSF),Hematology,26486-1
+51355,Plasma Cells,Cerebrospinal Fluid (CSF),Hematology,30447-7
+51356,Polymorphonuclear Cells,Cerebrospinal Fluid (CSF),Hematology,26511-6
+51357,Basophils,Cerebrospinal Fluid (CSF),Hematology,26527-2
+51358,Basophils (QL),Cerebrospinal Fluid (CSF),Hematology,30405-5
+51359,Malignant Cells,Cerebrospinal Fluid (CSF),Hematology,30428-7
+51360,Histiocytes,Cerebrospinal Fluid (CSF),Hematology,30425-3
+51361,Mesothelial Cells,Cerebrospinal Fluid (CSF),Hematology,30427-9
+51362,Appearance,Cerebrospinal Fluid (CSF),Hematology,26444-0
+50809,Glucose,Blood,Chemistry,2345-7
+50811,Sodium,Blood,Chemistry,2951-2
+50813,Potassium,Blood,Chemistry,2823-3
+50814,Chloride,Blood,Chemistry,2075-0
+50820,Bicarbonate,Blood,Chemistry,1963-8
+50822,BUN,Blood,Chemistry,3097-3
+50824,Creatinine,Blood,Chemistry,2160-0
+50861,ALT,Blood,Chemistry,1742-6
+50863,AST,Blood,Chemistry,1920-8
+50868,Alkaline Phosphatase,Blood,Chemistry,6768-6
+50878,Bilirubin Total,Blood,Chemistry,1975-2
+51144,Hemoglobin,Blood,Hematology,718-7
+51200,Platelets,Blood,Hematology,777-3
+51221,Hematocrit,Blood,Hematology,4544-3
+51250,WBC,Blood,Hematology,6690-2

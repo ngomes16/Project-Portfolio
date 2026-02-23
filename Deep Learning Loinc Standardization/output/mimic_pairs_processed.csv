@@ -1,0 +1,21 @@
+SOURCE,TARGET,LOINC_NUM
+hemoglobin blood,Hemoglobin [Mass/volume] in Blood,718-7
+hgb serum,Hemoglobin [Mass/volume] in Serum,718-7
+hgb,Hemoglobin [Mass/volume] in Blood,718-7
+hemoglobin,Hemoglobin [Mass/volume] in Blood,718-7
+potassium serum,Potassium [Moles/volume] in Serum,2823-3
+potassium plasma,Potassium [Moles/volume] in Plasma,2823-3
+k,Potassium [Moles/volume] in Serum,2823-3
+k+,Potassium [Moles/volume] in Serum,2823-3
+wbc count,Leukocytes [#/volume] in Blood by Automated count,6690-2
+white blood cell count,Leukocytes [#/volume] in Blood by Automated count,6690-2
+leukocytes,Leukocytes [#/volume] in Blood by Automated count,6690-2
+white count,Leukocytes [#/volume] in Blood by Automated count,6690-2
+plt,Platelets [#/volume] in Blood by Automated count,777-3
+platelet count,Platelets [#/volume] in Blood by Automated count,777-3
+thrombocytes,Platelets [#/volume] in Blood by Automated count,777-3
+platelets,Platelets [#/volume] in Blood by Automated count,777-3
+sodium,Sodium [Moles/volume] in Serum,2951-2
+na,Sodium [Moles/volume] in Serum,2951-2
+sodium level,Sodium [Moles/volume] in Serum,2951-2
+na serum,Sodium [Moles/volume] in Serum,2951-2 

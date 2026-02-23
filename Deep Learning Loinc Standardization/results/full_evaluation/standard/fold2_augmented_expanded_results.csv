@@ -1,0 +1,2 @@
+top1_accuracy,top3_accuracy,top5_accuracy,top10_accuracy,mrr,target_pool_size,matching_loincs,test_samples,fold
+0.47,0.76,0.88,0.88,0.6160618099104108,460,6,100,2

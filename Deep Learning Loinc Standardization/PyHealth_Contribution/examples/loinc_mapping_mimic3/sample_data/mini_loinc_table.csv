@@ -1,0 +1,33 @@
+"LOINC_NUM","COMPONENT","PROPERTY","TIME_ASPCT","SYSTEM","SCALE_TYP","METHOD_TYP","CLASS","VersionLastChanged","CHNG_TYPE","DefinitionDescription","STATUS","CONSUMER_NAME","CLASSTYPE","FORMULA","EXMPL_ANSWERS","SURVEY_QUEST_TEXT","SURVEY_QUEST_SRC","UNITSREQUIRED","RELATEDNAMES2","SHORTNAME","ORDER_OBS","HL7_FIELD_SUBFIELD_ID","EXTERNAL_COPYRIGHT_NOTICE","EXAMPLE_UNITS","LONG_COMMON_NAME","EXAMPLE_UCUM_UNITS","STATUS_REASON","STATUS_TEXT","CHANGE_REASON_PUBLIC","COMMON_TEST_RANK","COMMON_ORDER_RANK","HL7_ATTACHMENT_STRUCTURE","EXTERNAL_COPYRIGHT_LINK","PanelType","AskAtOrderEntry","AssociatedObservations","VersionFirstReleased","ValidHL7AttachmentRequest","DisplayName"
+26447-3,Blasts,NCnc,Pt,CSF,Qn,,HEM/BC,Blasts [#/volume] in Cerebrospinal fluid,Blasts CSF-aCnc,Blasts
+26451-5,Eosinophils,NCnc,Pt,CSF,Qn,,HEM/BC,Eosinophils [#/volume] in Cerebrospinal fluid,Eosinophils CSF-aCnc,Eosinophils
+30398-2,Erythrocytes,VFr,Pt,CSF,Qn,,HEM/BC,Hematocrit [Volume Fraction] of Cerebrospinal fluid,Hct VFr CSF,Hematocrit
+26506-6,Neutrophils.hypersegmented,NCnc,Pt,CSF,Qn,,HEM/BC,Neutrophils.hypersegmented [#/volume] in Cerebrospinal fluid,Hyperseg neutrophils CSF-aCnc,Hypersegmented Neutrophils
+26479-6,Lymphocytes,NCnc,Pt,CSF,Qn,,HEM/BC,Lymphocytes [#/volume] in Cerebrospinal fluid,Lymphocytes CSF-aCnc,Lymphocytes
+30426-1,Lymphocytes.variant,ACnc,Pt,CSF,Ord,,HEM/BC,Lymphocytes.variant [Presence] in Cerebrospinal fluid,Variant lymphs CSF Ql,Variant Lymphocytes
+30429-5,Macrophages,ACnc,Pt,CSF,Ord,,HEM/BC,Macrophages [Presence] in Cerebrospinal fluid,Macrophages CSF Ql,Macrophages
+30366-9,Monocytes,NCnc,Pt,CSF,Qn,,HEM/BC,Monocytes [#/volume] in Cerebrospinal fluid,Monocytes CSF-aCnc,Monocytes
+26486-1,Neutrophils,NCnc,Pt,CSF,Qn,,HEM/BC,Neutrophils [#/volume] in Cerebrospinal fluid,Neutrophils CSF-aCnc,Neutrophils
+30447-7,Plasma cells,NCnc,Pt,CSF,Qn,,HEM/BC,Plasma cells [#/volume] in Cerebrospinal fluid,Plasma cells CSF-aCnc,Plasma Cells
+26511-6,Polymorphonuclear cells,NCnc,Pt,CSF,Qn,,HEM/BC,Polymorphonuclear cells [#/volume] in Cerebrospinal fluid,PMNs CSF-aCnc,Polymorphonuclear Cells
+26527-2,Basophils,NCnc,Pt,CSF,Qn,,HEM/BC,Basophils [#/volume] in Cerebrospinal fluid,Basophils CSF-aCnc,Basophils
+30405-5,Basophils,ACnc,Pt,CSF,Ord,,HEM/BC,Basophils [Presence] in Cerebrospinal fluid,Basophils CSF Ql,Basophils
+30428-7,Malignant cells,ACnc,Pt,CSF,Ord,,HEM/BC,Malignant cells [Presence] in Cerebrospinal fluid,Malignant cells CSF Ql,Malignant Cells
+30425-3,Histiocytes,ACnc,Pt,CSF,Ord,,HEM/BC,Histiocytes [Presence] in Cerebrospinal fluid,Histiocytes CSF Ql,Histiocytes
+30427-9,Mesothelial cells,ACnc,Pt,CSF,Ord,,HEM/BC,Mesothelial cells [Presence] in Cerebrospinal fluid,Mesothelial cells CSF Ql,Mesothelial Cells
+26444-0,Appearance,Imp,Pt,CSF,Nom,,SPEC,Appearance of Cerebrospinal fluid,Appearance CSF,Appearance
+2345-7,Glucose,MCnc,Pt,Ser/Plas,Qn,,CHEM,Glucose [Mass/volume] in Serum or Plasma,Glucose SerPl-mCnc,Glucose
+2951-2,Sodium,SCnc,Pt,Ser/Plas,Qn,,CHEM,Sodium [Moles/volume] in Serum or Plasma,Sodium SerPl-sCnc,Sodium
+2823-3,Potassium,SCnc,Pt,Ser/Plas,Qn,,CHEM,Potassium [Moles/volume] in Serum or Plasma,Potassium SerPl-sCnc,Potassium
+2075-0,Chloride,SCnc,Pt,Ser/Plas,Qn,,CHEM,Chloride [Moles/volume] in Serum or Plasma,Chloride SerPl-sCnc,Chloride
+1963-8,Bicarbonate,SCnc,Pt,Ser/Plas,Qn,,CHEM,Bicarbonate [Moles/volume] in Serum or Plasma,Bicarbonate SerPl-sCnc,Bicarbonate
+3097-3,Urea nitrogen,MCnc,Pt,Ser/Plas,Qn,,CHEM,Urea nitrogen [Mass/volume] in Serum or Plasma,BUN SerPl-mCnc,BUN
+2160-0,Creatinine,MCnc,Pt,Ser/Plas,Qn,,CHEM,Creatinine [Mass/volume] in Serum or Plasma,Creat SerPl-mCnc,Creatinine
+1742-6,Alanine aminotransferase,CCnc,Pt,Ser/Plas,Qn,,CHEM,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,ALT SerPl-cCnc,ALT
+1920-8,Aspartate aminotransferase,CCnc,Pt,Ser/Plas,Qn,,CHEM,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,AST SerPl-cCnc,AST
+6768-6,Alkaline phosphatase,CCnc,Pt,Ser/Plas,Qn,,CHEM,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,ALP SerPl-cCnc,Alkaline Phosphatase
+1975-2,Bilirubin.total,MCnc,Pt,Ser/Plas,Qn,,CHEM,Bilirubin.total [Mass/volume] in Serum or Plasma,Bili SerPl-mCnc,Total Bilirubin
+718-7,Hemoglobin,MCnc,Pt,Bld,Qn,,HEM/BC,Hemoglobin [Mass/volume] in Blood,Hgb Bld-mCnc,Hemoglobin
+777-3,Platelets,NCnc,Pt,Bld,Qn,,HEM/BC,Platelets [#/volume] in Blood,Platelets NFr Bld,Platelets
+4544-3,Hematocrit,VFr,Pt,Bld,Qn,,HEM/BC,Hematocrit [Volume Fraction] of Blood,Hct VFr Bld,Hematocrit
+6690-2,Leukocytes,NCnc,Pt,Bld,Qn,,HEM/BC,Leukocytes [#/volume] in Blood,WBC # Bld,WBC

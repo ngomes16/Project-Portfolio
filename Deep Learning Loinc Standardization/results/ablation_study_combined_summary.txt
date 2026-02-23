@@ -1,0 +1,133 @@
+COMBINED ABLATION STUDY SUMMARY
+================================================================================
+
+FOLD2
+----------------------------------------
+=== LOINC STANDARDIZATION MODEL ABLATION STUDY SUMMARY ===
+
+
+FINE_TUNING_STAGES ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MINING_STRATEGY ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_STANDARD ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_AUGMENTED ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MODEL_SIZE ABLATION STUDY
+--------------------------------------------------
+No results available
+
+
+FOLD4
+----------------------------------------
+=== LOINC STANDARDIZATION MODEL ABLATION STUDY SUMMARY ===
+
+
+FINE_TUNING_STAGES ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MINING_STRATEGY ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_STANDARD ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_AUGMENTED ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MODEL_SIZE ABLATION STUDY
+--------------------------------------------------
+No results available
+
+
+FOLD3
+----------------------------------------
+=== LOINC STANDARDIZATION MODEL ABLATION STUDY SUMMARY ===
+
+
+FINE_TUNING_STAGES ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MINING_STRATEGY ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_STANDARD ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_AUGMENTED ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MODEL_SIZE ABLATION STUDY
+--------------------------------------------------
+No results available
+
+
+FOLD1
+----------------------------------------
+=== LOINC STANDARDIZATION MODEL ABLATION STUDY SUMMARY ===
+
+
+FINE_TUNING_STAGES ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MINING_STRATEGY ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_STANDARD ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_AUGMENTED ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MODEL_SIZE ABLATION STUDY
+--------------------------------------------------
+No results available
+
+
+FOLD0
+----------------------------------------
+=== LOINC STANDARDIZATION MODEL ABLATION STUDY SUMMARY ===
+
+
+FINE_TUNING_STAGES ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MINING_STRATEGY ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_STANDARD ABLATION STUDY
+--------------------------------------------------
+No results available
+
+DATA_AUGMENTATION_AUGMENTED ABLATION STUDY
+--------------------------------------------------
+No results available
+
+MODEL_SIZE ABLATION STUDY
+--------------------------------------------------
+No results available
+
+

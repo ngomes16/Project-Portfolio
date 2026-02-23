@@ -1,0 +1,11 @@
+source_text,true_mappable,pred_mappable,similarity,true_loinc,top_prediction,top_similarity
+na,True,False,-0.76330787,2951-2,2823-3,0.7633078694343567
+"Creatinine, Serum",False,True,-0.33945018,,,
+"Potassium, Pleural",False,True,-0.29983234,,,
+k+,True,False,-0.6069536,2823-3,2823-3,0.6069536209106445
+sodium level,True,False,-0.6509237,2951-2,2823-3,0.6509237289428711
+"Hematocrit, Joint Fluid",False,True,-0.3190307,,,
+sodium,True,False,-0.68248194,2951-2,2823-3,0.6824819445610046
+k,True,False,-0.69661766,2823-3,2823-3,0.6966176629066467
+white count,True,False,-0.7509362,6690-2,6690-2,0.7509362101554871
+plt,True,False,-0.78057945,777-3,2823-3,0.7805794477462769

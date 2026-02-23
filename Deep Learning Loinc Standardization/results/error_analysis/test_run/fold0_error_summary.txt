@@ -1,0 +1,28 @@
+=== LOINC STANDARDIZATION MODEL ERROR ANALYSIS ===
+
+Test File: output/mimic_pairs_processed.csv
+LOINC File: output/loinc_full_processed.csv
+Fold: 0
+
+Total samples analyzed: 16
+Correct predictions: 14 (87.5%)
+Incorrect predictions: 2 (12.5%)
+
+Error Categories:
+- SPECIMEN_MISMATCH: 1 (50.0%)
+- AMBIGUOUS_SOURCE: 1 (50.0%)
+
+Most Commonly Confused LOINC Pairs:
+- True: 777-3 (Platelets [#/volume] in Blood by Automated count)
+  Pred: 2823-3 (Potassium [Moles/volume] in Serum)
+  Count: 1
+
+- True: 777-3 (Platelets [#/volume] in Blood by Automated count)
+  Pred: 718-7 (Hemoglobin [Mass/volume] in Blood)
+  Count: 1
+
+Source Text Complexity:
+- Average source text length (correct): 10.50
+- Average source text length (incorrect): 7.50
+- Average source word count (correct): 1.71
+- Average source word count (incorrect): 1.00

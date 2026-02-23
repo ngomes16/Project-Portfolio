@@ -1,0 +1,42 @@
+=== LOINC STANDARDIZATION MODEL ERROR ANALYSIS ===
+
+Test File: output/mimic_pairs_processed.csv
+LOINC File: output/expanded_target_pool.csv
+Fold: 2
+
+Total samples analyzed: 20
+Correct predictions: 11 (55.0%)
+Incorrect predictions: 9 (45.0%)
+
+Error Categories:
+- SPECIMEN_MISMATCH: 5 (55.6%)
+- AMBIGUOUS_SOURCE: 2 (22.2%)
+- COMPLETELY_DIFFERENT: 1 (11.1%)
+- SIMILAR_DESCRIPTION: 1 (11.1%)
+
+Most Commonly Confused LOINC Pairs:
+- True: 2823-3 (Potassium [Moles/volume] in Serum)
+  Pred: 10002-4 (Lead [Moles/volume] in Urine)
+  Count: 2
+
+- True: 2951-2 (Sodium [Moles/volume] in Serum)
+  Pred: 10002-4 (Lead [Moles/volume] in Urine)
+  Count: 1
+
+- True: 2951-2 (Sodium [Moles/volume] in Serum)
+  Pred: 2951-2  (Sodium [Moles/volume] in Serum)
+  Count: 1
+
+- True: 6690-2 (Leukocytes [#/volume] in Blood by Automated count)
+  Pred: 10002-4 (Lead [Moles/volume] in Urine)
+  Count: 1
+
+- True: 6690-2 (Leukocytes [#/volume] in Blood by Automated count)
+  Pred: 10248-4 (Synthetic LOINC code 10248-4)
+  Count: 1
+
+Source Text Complexity:
+- Average source text length (correct): 12.18
+- Average source text length (incorrect): 6.22
+- Average source word count (correct): 1.91
+- Average source word count (incorrect): 1.22
