@@ -37,7 +37,30 @@
 
 **Contrastive learning system for mapping laboratory test descriptions to standardized medical codes using a fine-tuned Sentence-T5 encoder.**
 
-> [View Project →](./Deep%20Learning%20Loinc%20Standardization)
+<p align="center">
+  <img src="./Deep%20Learning%20Loinc%20Standardization/images/two_stage_finetuning_diagram1.png" width="700" alt="Two-Stage Fine-Tuning Pipeline" />
+</p>
+
+<details>
+<summary><strong>More visualizations</strong></summary>
+<br>
+<p align="center">
+  <img src="./Deep%20Learning%20Loinc%20Standardization/images/model_architecture_diagram1.png" width="600" alt="Model Architecture" />
+  <br><em>Model Architecture — Frozen ST5-base encoder with trainable projection layer</em>
+</p>
+<p align="center">
+  <img src="./Deep%20Learning%20Loinc%20Standardization/images/core_model_performance.png" width="600" alt="Model Performance" />
+  <br><em>Performance across evaluation scenarios (5-fold cross-validation)</em>
+</p>
+<p align="center">
+  <img src="./Deep%20Learning%20Loinc%20Standardization/images/ablation_study_impact1.png" width="600" alt="Ablation Study" />
+  <br><em>Ablation study — impact of each component on Top-1 accuracy</em>
+</p>
+<p align="center">
+  <img src="./Deep%20Learning%20Loinc%20Standardization/images/error_category_distribution1.png" width="600" alt="Error Distribution" />
+  <br><em>Error analysis — distribution of misclassification categories</em>
+</p>
+</details>
 
 <details>
 <summary><strong>Expand for details</strong></summary>
@@ -74,7 +97,30 @@
 
 **Fully local NBA player prop betting analysis tool with multiple prediction models, a web dashboard, and a CLI.**
 
-> [View Project →](./PropAI%20-%20NBA%202025-2026)
+<p align="center">
+  <img src="./screenshots/propai_dashboard.png" width="700" alt="PropAI Dashboard" />
+</p>
+
+<details>
+<summary><strong>More screenshots</strong></summary>
+<br>
+<p align="center">
+  <img src="./screenshots/propai_lines.png" width="600" alt="Sportsbook Lines" />
+  <br><em>Sportsbook Lines</em>
+</p>
+<p align="center">
+  <img src="./screenshots/propai_backtesting.png" width="600" alt="Model Backtesting" />
+  <br><em>Model Backtesting</em>
+</p>
+<p align="center">
+  <img src="./screenshots/propai_archetypes.png" width="600" alt="Player Archetypes" />
+  <br><em>Player Archetypes</em>
+</p>
+<p align="center">
+  <img src="./screenshots/propai_modellab.png" width="600" alt="Model Lab" />
+  <br><em>Model Lab</em>
+</p>
+</details>
 
 <details>
 <summary><strong>Expand for details</strong></summary>
@@ -105,8 +151,6 @@
 
 **Personalized sports news aggregator that recommends articles based on your favorite teams using information retrieval techniques.**
 
-> [View Project →](./FanFocus)
-
 <details>
 <summary><strong>Expand for details</strong></summary>
 <br>
@@ -135,7 +179,11 @@
 
 **All-in-one trip planner and budget tracker for group travel, built as a cross-platform mobile app with real-time sync.**
 
-> [View Project →](./Trippi)
+<p align="center">
+  <img src="./screenshots/Trippi_Landing_Page.jpg" width="250" alt="Trippi Home Screen" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./screenshots/Trippi_Trip_Screen.jpg" width="250" alt="Trippi Trip Screen" />
+</p>
 
 <details>
 <summary><strong>Expand for details</strong></summary>
@@ -167,8 +215,6 @@
 
 **Full-stack web application for Dungeons & Dragons campaign management with granular information sharing.**
 
-> [View Project →](./Railroad-Dungeons_and_Dragons_Tool)
-
 <details>
 <summary><strong>Expand for details</strong></summary>
 <br>
@@ -198,8 +244,6 @@
 
 **Graph-based transit routing system that models the Champaign-Urbana bus network and finds optimal routes between stations.**
 
-> [View Project →](./CUMTD_Bus_Mapper)
-
 <details>
 <summary><strong>Expand for details</strong></summary>
 <br>
@@ -226,21 +270,19 @@
 
 ## ⚾ MLB Total Runs Advisor
 
-**MLB betting advisor that compares real-time over/under lines against historical matchup data and posts recommendations to Twitter.**
-
-> [View Project →](./MLB_TotalRuns_Advisor_2024)
+**MLB betting advisor that compares real-time over/under lines against historical matchup data and posts recommendations to [X (Twitter)](https://x.com/MLB_bets_test).**
 
 <details>
 <summary><strong>Expand for details</strong></summary>
 <br>
 
-**Summary** — The system scrapes current over/under lines from Yahoo Sports, looks up historical total runs for each team matchup from the 2022–2023 season, and calculates a betting strength score. Recommendations are automatically posted to Twitter via the API. The pipeline handles everything from data collection to social media publishing.
+**Summary** — The system scrapes current over/under lines from Yahoo Sports, looks up historical total runs for each team matchup from the 2022–2023 season, and calculates a betting strength score. Recommendations are automatically posted to [X (Twitter)](https://x.com/MLB_bets_test) via the API. The pipeline handles everything from data collection to social media publishing.
 
 **Key Features**
 - Real-time odds scraping from Yahoo Sports
 - Historical analysis against 2022–2023 season matchup data
 - Betting strength scoring on a 0–10 scale with tiered recommendations
-- Automated Twitter posting via Tweepy (API v2)
+- Automated posting to [X (Twitter)](https://x.com/MLB_bets_test) via Tweepy (API v2)
 
 **Technologies** — Python 3, BeautifulSoup4, Tweepy, pandas, Requests
 
@@ -256,8 +298,6 @@
 ## 📋 iReminder
 
 **Web application for students to track assignments and due dates by integrating directly with the Canvas LMS.**
-
-> [View Project →](./iReminder)
 
 <details>
 <summary><strong>Expand for details</strong></summary>
