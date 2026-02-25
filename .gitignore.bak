@@ -1,0 +1,48 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk 
+
+# Project specific ignores
+Deep\ Learning\ Loinc\ Standardization/PyHealth/
+
+# Locally removed but kept in repository (DO NOT COMMIT THIS CHANGE)
+/Deep\ Learning\ Loinc\ Standardization/
+
+# Python environments (should not be committed to Git)
+Deep\ Learning\ Loinc\ Standardization/598_env/
+**/598_env/**
+**/*env*/**
+**/venv/**
+**/.venv/**
+**/.env/**
+**/env/**
+**/__pycache__/**
+**/*.py[cod]
+**/*$py.class
+
+# Specific large files
+Deep\ Learning\ Loinc\ Standardization/598_env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.dylib
+Deep\ Learning\ Loinc\ Standardization/598_env/lib/python3.12/site-packages/tensorflow/libtensorflow_cc.2.dylib

@@ -1,6 +1,9 @@
 /.vscode
 /.venv
 
+# Environment-generated scripts
+/bin
+
 # Python
 __pycache__/
 *.pyc
